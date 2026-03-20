@@ -4,7 +4,11 @@
   {{- partial "head.html" . -}}
 </head>
 <body>
+  <header class="site-header" id="site-header">
+    <img src="{{ "img/logo.png" | relURL }}" alt="Oida Labs" class="site-header__logo">
+  </header>
   {{ block "main" . }}{{ end }}
+  <button class="back-to-top" id="backToTop" aria-label="Torna in cima">&uarr;</button>
   <script src="{{ "js/main.js" | relURL }}"></script>
 </body>
 </html>

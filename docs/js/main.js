@@ -3,6 +3,25 @@
 
   var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+  // --- Header scroll effect (Fix #1) ---
+  var siteHeader = document.getElementById('site-header');
+  if (siteHeader) {
+    window.addEventListener('scroll', function () {
+      siteHeader.classList.toggle('scrolled', window.scrollY > 40);
+    }, { passive: true });
+  }
+
+  // --- Back to top button (Fix #14) ---
+  var backToTop = document.getElementById('backToTop');
+  if (backToTop) {
+    window.addEventListener('scroll', function () {
+      backToTop.classList.toggle('visible', window.scrollY > 400);
+    }, { passive: true });
+    backToTop.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: prefersReducedMotion ? 'auto' : 'smooth' });
+    });
+  }
+
   // --- Scroll-triggered animations ---
   if (!prefersReducedMotion) {
     var observer = new IntersectionObserver(function (entries) {
@@ -52,7 +71,6 @@
     function update(now) {
       var elapsed = now - start;
       var progress = Math.min(elapsed / duration, 1);
-      // Ease out cubic
       var eased = 1 - Math.pow(1 - progress, 3);
       var current = Math.round(eased * target);
       el.textContent = current + suffix;

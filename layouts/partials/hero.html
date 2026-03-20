@@ -1,9 +1,5 @@
 {{ $d := .Site.Data.hero }}
 <section class="hero" id="hero">
-  <div class="hero__logo">
-    <img src="{{ "img/logo.png" | relURL }}" alt="Oida Labs" class="hero__logo-img">
-  </div>
-
   <div class="hero__content">
     <h1 class="hero__headline animate" data-animate-delay="0">
       {{- $parts := split $d.headline $d.headline_highlight -}}

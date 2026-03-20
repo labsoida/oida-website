@@ -9,7 +9,7 @@
     <div class="kpi-grid">
       {{ range $i, $kpi := $d.kpis }}
       <div class="kpi-card animate" data-animate-delay="{{ mul (add $i 4) 100 }}">
-        <span class="kpi-card__number{{ if not $kpi.is_text }} counter{{ end }}"
+        <span class="kpi-card__number{{ if $kpi.is_text }} kpi-card__number--small{{ end }}{{ if not $kpi.is_text }} counter{{ end }}"
           {{ if not $kpi.is_text }}data-target="{{ $kpi.numeric_value }}" data-suffix="{{ $kpi.suffix }}"{{ end }}>
           {{ $kpi.number }}
         </span>

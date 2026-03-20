@@ -37,12 +37,11 @@
 </script>
 </head>
 <body>
+  <header class="site-header" id="site-header">
+    <img src="/oida-website/img/logo.png" alt="Oida Labs" class="site-header__logo">
+  </header>
   
 <section class="hero" id="hero">
-  <div class="hero__logo">
-    <img src="/oida-website/img/logo.png" alt="Oida Labs" class="hero__logo-img">
-  </div>
-
   <div class="hero__content">
     <h1 class="hero__headline animate" data-animate-delay="0">Siamo medici che hanno risolto i loro problemi di marketing. Ora li risolviamo <span class="text-accent">per te</span>.
     </h1>
@@ -66,7 +65,7 @@
 
   <div class="hero__glow" aria-hidden="true"></div>
 </section>
-
+<hr class="section-divider">
 <section class="chi-siamo" id="chi-siamo">
   <div class="container">
     <span class="section-label animate">Chi Siamo</span>
@@ -93,7 +92,7 @@
       </div>
       
       <div class="kpi-card animate" data-animate-delay="600">
-        <span class="kpi-card__number"
+        <span class="kpi-card__number kpi-card__number--small"
           >
           IT-CH-UK
         </span>
@@ -105,7 +104,7 @@
     <p class="chi-siamo__closing animate" data-animate-delay="700">Uniamo esperienza sanitaria, competenze di marketing e pragmatismo, per metterle al servizio delle strutture sanitarie e supportarle nelle sfide quotidiane della loro crescita.</p>
   </div>
 </section>
-
+<hr class="section-divider">
 <section class="servizi" id="servizi">
   <div class="container">
     <span class="section-label animate">Servizi</span>
@@ -152,7 +151,7 @@
     </div>
   </div>
 </section>
-
+<hr class="section-divider">
 <section class="perche-noi" id="perche-noi">
   <div class="container">
     <span class="section-label animate">Perché Oida</span>
@@ -181,7 +180,7 @@
     </div>
   </div>
 </section>
-
+<hr class="section-divider">
 <section class="contatti" id="contatti">
   <div class="container container--narrow">
     <span class="section-label animate">Contatti</span>
@@ -217,10 +216,10 @@
     </form>
 
     <div class="contatti__info animate" data-animate-delay="300">
-      <span class="contatti__info-item"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>info@oida-labs.com
-      </span>
-      <span class="contatti__info-item"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>oida-labs.com
-      </span>
+      <a href="mailto:info@oida-labs.com" class="contatti__info-item"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>info@oida-labs.com
+      </a>
+      <a href="https://oida-labs.com" target="_blank" rel="noopener" class="contatti__info-item"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>oida-labs.com
+      </a>
     </div>
   </div>
 </section>
@@ -229,21 +228,25 @@
   <div class="container">
     <img src="/oida-website/img/pittogramma.svg" alt="Oida Labs" class="footer__logo" width="40" height="40">
     <p class="footer__company">Oida Labs</p>
-    <p class="footer__contact">info@oida-labs.com &middot; oida-labs.com</p>
+    <p class="footer__contact">
+      <a href="mailto:info@oida-labs.com">info@oida-labs.com</a> &middot;
+      <a href="https://oida-labs.com" target="_blank" rel="noopener">oida-labs.com</a>
+    </p>
     <p class="footer__copyright">&copy; 2026 Oida Labs. Tutti i diritti riservati.</p>
     <p class="footer__legal">
       <a href="#">Privacy Policy</a> &middot; <a href="#">Cookie Policy</a>
     </p>
     <div class="footer__social">
       
-      <a href="#" class="footer__social-link" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></a>
+      <a href="#" class="footer__social-link footer__social-link--soon" aria-label="LinkedIn" aria-disabled="true"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></a>
       
-      <a href="#" class="footer__social-link" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a>
+      <a href="#" class="footer__social-link footer__social-link--soon" aria-label="Instagram" aria-disabled="true"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a>
       
     </div>
   </div>
 </footer>
 
+  <button class="back-to-top" id="backToTop" aria-label="Torna in cima">&uarr;</button>
   <script src="/oida-website/js/main.js"></script>
 </body>
 </html>

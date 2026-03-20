@@ -135,6 +135,17 @@ a {
   margin-bottom: 48px;
 }
 
+/* Fix #7 — Section dividers */
+.section-divider {
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: var(--color-accent);
+  border: none;
+  margin: 0 auto;
+  opacity: 0.7;
+}
+
 /* ==========================================================================
    4. Components
    ========================================================================== */
@@ -203,6 +214,29 @@ textarea {
    5. Sections
    ========================================================================== */
 
+/* --- Site Header (Fix #1) --- */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 16px 24px;
+  transition: background 0.3s, backdrop-filter 0.3s;
+}
+
+.site-header.scrolled {
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.site-header__logo {
+  height: 48px;
+  width: auto;
+}
+
 /* --- Hero --- */
 .hero {
   position: relative;
@@ -214,18 +248,6 @@ textarea {
   padding: var(--section-padding);
   overflow: hidden;
   text-align: center;
-}
-
-.hero__logo {
-  position: fixed;
-  top: 24px;
-  left: 24px;
-  z-index: 100;
-}
-
-.hero__logo-img {
-  height: 48px;
-  width: auto;
 }
 
 .hero__content {
@@ -342,6 +364,12 @@ textarea {
   margin-bottom: 8px;
 }
 
+/* Fix #2 — KPI small number variant */
+.kpi-card__number--small {
+  font-size: 34px;
+  white-space: nowrap;
+}
+
 .kpi-card__desc {
   font-size: 14px;
   color: var(--color-text-muted);
@@ -368,16 +396,21 @@ textarea {
   margin-top: 8px;
 }
 
+/* Fix #6 + #17 — Service card transitions and hover */
 .service-card {
   background: var(--color-card-bg);
   border: 1px solid var(--color-card-border);
   border-radius: 8px;
   padding: 32px;
-  transition: border-color 0.3s ease;
+  transition: border-color 0.3s ease,
+              transform 0.25s ease,
+              box-shadow 0.3s ease;
 }
 
 .service-card:hover {
   border-color: var(--color-accent);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 194, 178, 0.08);
 }
 
 .service-card__icon {
@@ -492,11 +525,15 @@ textarea {
   color: #ff4444;
 }
 
+/* Fix #9 — Contatti info centered */
 .contatti__info {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 8px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .contatti__info-item {
@@ -508,6 +545,17 @@ textarea {
 }
 
 .contatti__info-item svg {
+  color: var(--color-accent);
+}
+
+/* Fix #16 — Clickable contact links */
+a.contatti__info-item {
+  color: var(--color-text-subtle);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a.contatti__info-item:hover {
   color: var(--color-accent);
 }
 
@@ -534,6 +582,15 @@ textarea {
   font-size: 13px;
   color: var(--color-text-faint);
   margin-bottom: 16px;
+}
+
+.footer__contact a {
+  color: var(--color-text-faint);
+  transition: color 0.2s;
+}
+
+.footer__contact a:hover {
+  color: var(--color-accent);
 }
 
 .footer__copyright {
@@ -571,6 +628,45 @@ textarea {
   color: var(--color-accent);
 }
 
+/* Fix #13 — Disabled social links */
+.footer__social-link--soon {
+  opacity: 0.35;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* Fix #14 — Back to top button */
+.back-to-top {
+  position: fixed;
+  bottom: 28px;
+  right: 24px;
+  width: 40px;
+  height: 40px;
+  background: var(--color-accent);
+  color: #000;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s, transform 0.3s;
+  z-index: 200;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  background: #00d4c3;
+}
+
 /* ==========================================================================
    6. Animations
    ========================================================================== */
@@ -582,9 +678,14 @@ textarea {
               transform var(--duration) var(--ease-out);
 }
 
+/* Fix #6 — Preserve component transitions after animation completes */
 .animate.is-visible {
   opacity: 1;
   transform: translateY(0);
+  transition: opacity var(--duration) var(--ease-out),
+              transform var(--duration) var(--ease-out),
+              border-color 0.3s ease,
+              box-shadow 0.3s ease;
 }
 
 /* ==========================================================================
@@ -592,8 +693,9 @@ textarea {
    ========================================================================== */
 
 @media (min-width: 768px) {
+  /* Fix #10 — Reduced section padding */
   :root {
-    --section-padding: 100px 40px;
+    --section-padding: 72px 40px;
   }
 
   .section-title {
@@ -616,12 +718,27 @@ textarea {
     font-size: 52px;
   }
 
+  /* Fix #2 — Keep small KPI readable at larger screens */
+  .kpi-card__number--small {
+    font-size: 38px;
+  }
+
   .servizi__grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  /* Fix #3 — Talent Acquisition card centered, not full-width */
   .service-card--full {
-    grid-column: 1 / -1;
+    grid-column: auto;
+    justify-self: center;
+    max-width: 520px;
+    width: 100%;
+  }
+
+  /* Fix #8 — Perche Noi 3 columns at 768px */
+  .perche-noi__grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
   }
 
   .contatti__title {
@@ -630,13 +747,15 @@ textarea {
 
   .contatti__info {
     flex-direction: row;
+    justify-content: center;
     gap: 24px;
   }
 }
 
 @media (min-width: 1200px) {
+  /* Fix #10 — Reduced section padding */
   :root {
-    --section-padding: 120px 40px;
+    --section-padding: 80px 40px;
   }
 
   .section-title {
@@ -649,10 +768,6 @@ textarea {
 
   .hero__subtitle {
     font-size: 20px;
-  }
-
-  .perche-noi__grid {
-    grid-template-columns: repeat(3, 1fr);
   }
 
   .contatti__title {

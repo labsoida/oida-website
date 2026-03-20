@@ -22,12 +22,12 @@
     </form>
 
     <div class="contatti__info animate" data-animate-delay="300">
-      <span class="contatti__info-item">
+      <a href="mailto:{{ $d.email }}" class="contatti__info-item">
         {{- partial "icon.html" "mail" -}} {{ $d.email }}
-      </span>
-      <span class="contatti__info-item">
+      </a>
+      <a href="https://{{ $d.website }}" target="_blank" rel="noopener" class="contatti__info-item">
         {{- partial "icon.html" "globe-small" -}} {{ $d.website }}
-      </span>
+      </a>
     </div>
   </div>
 </section>
