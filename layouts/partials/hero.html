@@ -1,0 +1,31 @@
+{{ $d := .Site.Data.hero }}
+<section class="hero" id="hero">
+  <div class="hero__logo">
+    <img src="{{ "img/logo.png" | relURL }}" alt="Oida Labs" class="hero__logo-img">
+  </div>
+
+  <div class="hero__content">
+    <h1 class="hero__headline animate" data-animate-delay="0">
+      {{- $parts := split $d.headline $d.headline_highlight -}}
+      {{- index $parts 0 -}}<span class="text-accent">{{ $d.headline_highlight }}</span>{{ if gt (len $parts) 1 }}{{ index $parts 1 }}{{ end }}
+    </h1>
+
+    <p class="hero__subtitle animate" data-animate-delay="300">
+      {{ $d.subtitle }}
+    </p>
+
+    <p class="hero__tagline animate" data-animate-delay="500">
+      {{ $d.tagline }}
+    </p>
+
+    <a href="{{ $d.cta_target }}" class="btn btn--primary hero__cta animate" data-animate-delay="600">
+      {{ $d.cta_text }} &rarr;
+    </a>
+  </div>
+
+  <a href="#chi-siamo" class="hero__scroll-hint" aria-label="Scorri verso il basso">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+  </a>
+
+  <div class="hero__glow" aria-hidden="true"></div>
+</section>

@@ -1,0 +1,12 @@
+label: "Perché Oida"
+title: "Perché Scegliere Noi"
+reasons:
+  - number: "01"
+    title: "Parliamo la tua lingua."
+    description: "Siamo sanitari. Non dobbiamo spiegarcele."
+  - number: "02"
+    title: "Un solo settore. Il tuo."
+    description: "Lavoriamo solo in sanità. Nessun compromesso."
+  - number: "03"
+    title: "Un team di addetti ai lavori."
+    description: "50+ anni di esperienza sanitaria sul campo."

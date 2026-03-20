@@ -1,0 +1,19 @@
+{{ $d := .Site.Data.footer }}
+<footer class="footer">
+  <div class="container">
+    <img src="{{ "img/pittogramma.svg" | relURL }}" alt="Oida Labs" class="footer__logo" width="40" height="40">
+    <p class="footer__company">{{ $d.company_name }}</p>
+    <p class="footer__contact">{{ $d.email }} &middot; {{ $d.website }}</p>
+    <p class="footer__copyright">&copy; {{ $d.copyright_year }} {{ $d.company_name }}. Tutti i diritti riservati.</p>
+    <p class="footer__legal">
+      {{ range $i, $link := $d.legal_links }}{{ if $i }} &middot; {{ end }}<a href="{{ $link.url }}">{{ $link.text }}</a>{{ end }}
+    </p>
+    <div class="footer__social">
+      {{ range $d.social }}
+      <a href="{{ .url }}" class="footer__social-link" aria-label="{{ .name }}">
+        {{- partial "icon.html" .icon -}}
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</footer>

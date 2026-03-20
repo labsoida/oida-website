@@ -1,0 +1,33 @@
+{{ $d := .Site.Data.contatti }}
+<section class="contatti" id="contatti">
+  <div class="container container--narrow">
+    <span class="section-label animate">{{ $d.label }}</span>
+    <h2 class="contatti__title animate" data-animate-delay="100">{{ $d.title }}</h2>
+
+    <form class="contact-form animate" data-animate-delay="200"
+          action="https://formspree.io/f/{{ $d.formspree_id }}" method="POST" id="contact-form">
+
+      {{ range $d.fields }}
+      {{ if eq .type "textarea" }}
+      <textarea name="{{ .name }}" placeholder="{{ .placeholder }}" rows="5"
+        {{ if .required }}required{{ end }} aria-label="{{ .placeholder }}"></textarea>
+      {{ else }}
+      <input type="{{ .type }}" name="{{ .name }}" placeholder="{{ .placeholder }}"
+        {{ if .required }}required{{ end }} aria-label="{{ .placeholder }}">
+      {{ end }}
+      {{ end }}
+
+      <button type="submit" class="btn btn--primary btn--full">{{ $d.submit_text }}</button>
+      <div class="contact-form__status" aria-live="polite"></div>
+    </form>
+
+    <div class="contatti__info animate" data-animate-delay="300">
+      <span class="contatti__info-item">
+        {{- partial "icon.html" "mail" -}} {{ $d.email }}
+      </span>
+      <span class="contatti__info-item">
+        {{- partial "icon.html" "globe-small" -}} {{ $d.website }}
+      </span>
+    </div>
+  </div>
+</section>

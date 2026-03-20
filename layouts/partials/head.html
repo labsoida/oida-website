@@ -1,0 +1,34 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ .Site.Title }}</title>
+<meta name="description" content="{{ .Site.Params.description }}">
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ .Site.Title }}">
+<meta property="og:description" content="{{ .Site.Params.description }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Site.BaseURL }}">
+<meta property="og:locale" content="it_IT">
+{{ with .Site.Params.ogImage }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="{{ "img/favicon.png" | relURL }}">
+
+<!-- Font preloads -->
+<link rel="preload" href="{{ "fonts/glaseer-stencil.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ "fonts/bank-gothic.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+
+<!-- Stylesheet -->
+<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+
+<!-- Schema.org Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Oida Labs",
+  "url": "{{ .Site.BaseURL }}",
+  "email": "info@oida-labs.com",
+  "description": "{{ .Site.Params.description }}"
+}
+</script>

@@ -1,0 +1,24 @@
+label: "Contatti"
+title: "Hai ancora domande? Bene. Sono esattamente quelle di cui vogliamo parlare."
+# Replace with your Formspree form ID after creating an account
+formspree_id: "xpqynqka"
+email: "info@oida-labs.com"
+website: "oida-labs.com"
+submit_text: "Invia Messaggio"
+fields:
+  - name: "name"
+    type: "text"
+    placeholder: "Nome"
+    required: false
+  - name: "email"
+    type: "email"
+    placeholder: "Email"
+    required: true
+  - name: "phone"
+    type: "tel"
+    placeholder: "Telefono (opzionale)"
+    required: false
+  - name: "message"
+    type: "textarea"
+    placeholder: "Messaggio"
+    required: false

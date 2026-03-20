@@ -1,0 +1,16 @@
+company_name: "Oida Labs"
+email: "info@oida-labs.com"
+website: "oida-labs.com"
+copyright_year: "2026"
+legal_links:
+  - text: "Privacy Policy"
+    url: "#"
+  - text: "Cookie Policy"
+    url: "#"
+social:
+  - name: "LinkedIn"
+    url: "#"
+    icon: "linkedin"
+  - name: "Instagram"
+    url: "#"
+    icon: "instagram"

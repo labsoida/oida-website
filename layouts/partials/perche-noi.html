@@ -1,0 +1,17 @@
+{{ $d := .Site.Data.perche_noi }}
+<section class="perche-noi" id="perche-noi">
+  <div class="container">
+    <span class="section-label animate">{{ $d.label }}</span>
+    <h2 class="section-title animate" data-animate-delay="100">{{ $d.title }}</h2>
+
+    <div class="perche-noi__grid">
+      {{ range $i, $reason := $d.reasons }}
+      <div class="reason-card animate" data-animate-delay="{{ mul (add $i 2) 100 }}">
+        <span class="reason-card__number">{{ $reason.number }}</span>
+        <h3 class="reason-card__title">{{ $reason.title }}</h3>
+        <p class="reason-card__desc">{{ $reason.description }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

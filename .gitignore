@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Hugo
+.hugo_build.lock
+resources/_gen/
+
+# Editor
+*.swp
+*.swo
+*~
+
+# Node (for MCP)
+node_modules/
+
+# Temporary files
+*.zip
+*.tmp

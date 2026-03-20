@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  {{- partial "head.html" . -}}
+</head>
+<body>
+  {{ block "main" . }}{{ end }}
+  <script src="{{ "js/main.js" | relURL }}"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{{ $d := .Site.Data.servizi }}
+<section class="servizi" id="servizi">
+  <div class="container">
+    <span class="section-label animate">{{ $d.label }}</span>
+    <h2 class="section-title animate" data-animate-delay="100">{{ $d.title }}</h2>
+    <p class="section-subtitle animate" data-animate-delay="200">{{ $d.subtitle }}</p>
+
+    <div class="servizi__grid">
+      {{ range $i, $card := $d.cards }}
+      <div class="service-card{{ if $card.full_width }} service-card--full{{ end }} animate" data-animate-delay="{{ mul (add $i 3) 100 }}">
+        <div class="service-card__icon">
+          {{- partial "icon.html" $card.icon -}}
+        </div>
+        <h3 class="service-card__title">{{ $card.title }}</h3>
+        <p class="service-card__pain">{{ $card.pain }}</p>
+        <p class="service-card__solution">{{ $card.solution }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
