@@ -1,4 +1,4 @@
-baseURL = "https://oida-labs.com/"
+baseURL = "https://labsoida.github.io/oida-website/"
 languageCode = "it"
 title = "Oida Labs — Marketing Sanitario. Know More. Move Faster."
 publishDir = "docs"
