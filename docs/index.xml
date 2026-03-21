@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oida Labs on Oida Labs — Marketing Sanitario. Know More. Move Faster.</title>
-    <link>https://labsoida.github.io/oida-website/</link>
+    <link>/</link>
     <description>Recent content in Oida Labs on Oida Labs — Marketing Sanitario. Know More. Move Faster.</description>
     <generator>Hugo</generator>
     <language>it</language>
-    <atom:link href="https://labsoida.github.io/oida-website/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

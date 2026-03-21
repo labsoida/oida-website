@@ -1,8 +1,9 @@
-baseURL = "https://labsoida.github.io/oida-website/"
+baseURL = "/"
+relativeURLs = true
 languageCode = "it"
 title = "Oida Labs — Marketing Sanitario. Know More. Move Faster."
 publishDir = "docs"
 
 [params]
   description = "Siamo medici esperti di marketing. Digital marketing, SEO, CRM, AI e consulenza operativa per cliniche, studi medici e strutture sanitarie."
-  ogImage = "/img/og-image.png"
+  ogImage = "img/og-image.png"
