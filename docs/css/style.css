@@ -354,10 +354,16 @@ textarea {
   border-radius: 8px;
   padding: 28px 20px;
   background: rgba(0, 194, 178, 0.03);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .kpi-card__number {
-  display: block;
+  display: flex;
+  align-items: center;
+  flex: 1;
   font-family: var(--font-label);
   font-size: 44px;
   color: var(--color-text);
@@ -727,12 +733,9 @@ a.contatti__info-item:hover {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  /* Fix #3 — Talent Acquisition card centered, not full-width */
+  /* Fix #3 — Talent Acquisition card same width as other cards */
   .service-card--full {
     grid-column: auto;
-    justify-self: center;
-    max-width: 520px;
-    width: 100%;
   }
 
   /* Fix #8 — Perche Noi 3 columns at 768px */
