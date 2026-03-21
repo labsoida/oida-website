@@ -2,8 +2,7 @@
 <section class="hero" id="hero">
   <div class="hero__content">
     <h1 class="hero__headline animate" data-animate-delay="0">
-      {{- $parts := split $d.headline $d.headline_highlight -}}
-      {{- index $parts 0 -}}<span class="text-accent">{{ $d.headline_highlight }}</span>{{ if gt (len $parts) 1 }}{{ index $parts 1 }}{{ end }}
+      {{ $d.headline }} <span class="text-accent">{{ $d.headline_accent }}</span>
     </h1>
 
     <p class="hero__subtitle animate" data-animate-delay="300">

@@ -2,7 +2,8 @@
 <section class="contatti" id="contatti">
   <div class="container container--narrow">
     <span class="section-label animate">{{ $d.label }}</span>
-    <h2 class="contatti__title animate" data-animate-delay="100">{{ $d.title }}</h2>
+    <h2 class="contatti__title animate" data-animate-delay="100">{{ $d.title }} <span class="text-accent">{{ $d.title_accent }}</span></h2>
+    <p class="contatti__subtitle animate" data-animate-delay="150">{{ $d.subtitle }}</p>
 
     <form class="contact-form animate" data-animate-delay="200"
           action="https://formspree.io/f/{{ $d.formspree_id }}" method="POST" id="contact-form">

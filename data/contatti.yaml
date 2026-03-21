@@ -1,6 +1,7 @@
 label: "Contatti"
-title: "Hai ancora domande? Bene. Sono esattamente quelle di cui vogliamo parlare."
-# Replace with your Formspree form ID after creating an account
+title: "Hai ancora domande?"
+title_accent: "Bene."
+subtitle: "Sono esattamente quelle di cui vogliamo parlare."
 formspree_id: "xpqynqka"
 email: "info@oida-labs.com"
 website: "oida-labs.com"
