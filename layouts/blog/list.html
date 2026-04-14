@@ -1,0 +1,28 @@
+{{ define "main" }}
+<section class="blog-listing">
+  <div class="container">
+    <span class="section-label animate">Blog</span>
+    <h1 class="section-title animate" data-animate-delay="100">Approfondimenti</h1>
+    <p class="section-subtitle animate" data-animate-delay="200">Analisi, strategie e casi studio dal mondo del marketing sanitario.</p>
+
+    {{ $posts := where .Pages "Params.draft" "ne" true }}
+    {{ if eq (len $posts) 0 }}
+    <div class="blog-empty animate" data-animate-delay="300">
+      <p>I primi articoli sono in arrivo. Torna a trovarci.</p>
+      <a href="{{ "/" | relURL }}" class="btn btn--primary">← Torna alla Home</a>
+    </div>
+    {{ else }}
+    <div class="blog-grid">
+      {{ range $i, $post := $posts.ByDate.Reverse }}
+      <a href="{{ .RelPermalink }}" class="blog-card animate" data-animate-delay="{{ mul (add $i 3) 100 }}">
+        <time class="blog-card__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
+        <h2 class="blog-card__title">{{ .Title }}</h2>
+        <p class="blog-card__excerpt">{{ .Description }}</p>
+        <span class="blog-card__cta">Leggi →</span>
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

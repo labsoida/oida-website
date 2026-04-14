@@ -5,10 +5,17 @@
 </head>
 <body>
   <header class="site-header" id="site-header">
-    <img src="{{ "img/logo.png" | relURL }}" alt="Oida Labs" class="site-header__logo">
+    <nav class="site-header__nav" aria-label="Navigazione principale">
+      <a href="{{ "/" | relURL }}" aria-label="Oida Labs — Home">
+        <img src="{{ "img/logo.png" | relURL }}" alt="Oida Labs — Agenzia di Marketing Sanitario" class="site-header__logo">
+      </a>
+      <a href="{{ "blog/" | relURL }}" class="site-header__link">Blog</a>
+    </nav>
   </header>
-  {{ block "main" . }}{{ end }}
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
   <button class="back-to-top" id="backToTop" aria-label="Torna in cima">&uarr;</button>
-  <script src="{{ "js/main.js" | relURL }}"></script>
+  <script src="{{ "js/main.js" | relURL }}" defer></script>
 </body>
 </html>

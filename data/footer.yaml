@@ -9,8 +9,11 @@ legal_links:
     url: "#"
 social:
   - name: "LinkedIn"
-    url: "#"
+    url: "https://linkedin.com/company/oidalabs"
     icon: "linkedin"
+  - name: "Facebook"
+    url: "https://www.facebook.com/OIDA.Labs"
+    icon: "facebook"
   - name: "Instagram"
     url: "#"
     icon: "instagram"

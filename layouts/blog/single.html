@@ -1,0 +1,49 @@
+{{ define "main" }}
+<article class="blog-post">
+  <div class="container container--narrow">
+    <a href="{{ "blog/" | relURL }}" class="blog-post__back animate">← Tutti gli articoli</a>
+
+    <header class="blog-post__header">
+      <time class="blog-post__date animate" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
+      <h1 class="blog-post__title animate" data-animate-delay="100">{{ .Title }}</h1>
+      {{ with .Description }}
+      <p class="blog-post__subtitle animate" data-animate-delay="200">{{ . }}</p>
+      {{ end }}
+    </header>
+
+    <div class="blog-post__content animate" data-animate-delay="300">
+      {{ .Content }}
+    </div>
+
+    <footer class="blog-post__footer">
+      <a href="{{ "blog/" | relURL }}" class="btn btn--primary">← Tutti gli articoli</a>
+    </footer>
+  </div>
+</article>
+
+<!-- Schema.org: BlogPosting -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ .Title }}",
+  "description": "{{ .Description }}",
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  {{ with .Lastmod }}"dateModified": "{{ .Format "2006-01-02" }}",{{ end }}
+  "author": {
+    "@type": "Organization",
+    "name": "Oida Labs",
+    "url": "https://oida-labs.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Oida Labs",
+    "url": "https://oida-labs.com"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }
+}
+</script>
+{{ end }}

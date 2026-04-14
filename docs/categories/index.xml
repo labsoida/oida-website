@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Oida Labs — Marketing Sanitario. Know More. Move Faster.</title>
-    <link>/categories/</link>
-    <description>Recent content in Categories on Oida Labs — Marketing Sanitario. Know More. Move Faster.</description>
+    <title>Categories on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</title>
+    <link>https://oida-labs.com/categories/</link>
+    <description>Recent content in Categories on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</description>
     <generator>Hugo</generator>
     <language>it</language>
-    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://oida-labs.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

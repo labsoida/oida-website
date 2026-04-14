@@ -1,9 +1,16 @@
-baseURL = "/"
+baseURL = "https://oida-labs.com/"
 relativeURLs = true
 languageCode = "it"
-title = "Oida Labs — Marketing Sanitario. Know More. Move Faster."
+title = "Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie"
 publishDir = "docs"
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [params]
-  description = "Siamo medici esperti di marketing. Digital marketing, SEO, CRM, AI e consulenza operativa per cliniche, studi medici e strutture sanitarie."
+  description = "Agenzia di marketing sanitario fondata da medici. Digital marketing, SEO, CRM, AI, PR e consulenza operativa per cliniche, studi medici e strutture sanitarie in Italia, Svizzera e UK."
   ogImage = "img/og-image.png"
+  keywords = "marketing sanitario, agenzia marketing sanitario, marketing per cliniche, marketing medico, SEO sanitario, digital marketing sanità, consulenza marketing sanitario, CRM cliniche, marketing strutture sanitarie"
