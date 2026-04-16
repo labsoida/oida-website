@@ -2,19 +2,20 @@
 {{ $readingTime := math.Round (div (countwords .Content) 200.0) }}
 <article class="blog-post">
   <div class="container container--narrow">
-    <a href="{{ "blog/" | relURL }}" class="blog-post__back animate">← Tutti gli articoli</a>
+    {{ with .Params.image }}
+    <img src="{{ . | relURL }}" alt="{{ $.Params.image_alt | default $.Title }}" class="blog-post__hero-image animate" loading="eager" width="1200" height="630">
+    {{ end }}
+
+    <a href="{{ "blog/" | relURL }}" class="blog-post__back animate" data-animate-delay="100">← Tutti gli articoli</a>
 
     <header class="blog-post__header">
-      <div class="blog-post__meta animate">
+      <div class="blog-post__meta animate" data-animate-delay="150">
         <time class="blog-post__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
         <span class="blog-post__reading-time">{{ $readingTime }} min di lettura</span>
       </div>
-      <h1 class="blog-post__title animate" data-animate-delay="100">{{ .Title }}</h1>
+      <h1 class="blog-post__title animate" data-animate-delay="200">{{ .Title }}</h1>
       {{ with .Description }}
-      <p class="blog-post__subtitle animate" data-animate-delay="200">{{ . }}</p>
-      {{ end }}
-      {{ with .Params.image }}
-      <img src="{{ . | relURL }}" alt="{{ $.Params.image_alt | default $.Title }}" class="blog-post__hero-image animate" data-animate-delay="250" loading="lazy" width="1200" height="630">
+      <p class="blog-post__subtitle animate" data-animate-delay="300">{{ . }}</p>
       {{ end }}
     </header>
 

@@ -856,7 +856,7 @@ a.contatti__info-item:hover {
   width: 100%;
   height: auto;
   border-radius: 8px;
-  margin-top: 24px;
+  margin-bottom: 32px;
   border: 1px solid var(--color-card-border);
 }
 

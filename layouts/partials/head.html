@@ -15,7 +15,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   {{- $title = printf "%s | Oida Labs" .Title -}}
   {{- with .Description }}{{ $description = . }}{{ end -}}
   {{- $ogType = "article" -}}
-  {{- with .Params.image }}{{ $ogImage = . }}{{ end -}}
+  {{- with .Params.og_image }}{{ $ogImage = . }}{{ else }}{{ with .Params.image }}{{ $ogImage = . }}{{ end }}{{ end -}}
 {{- end -}}
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $description }}">
