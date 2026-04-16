@@ -13,6 +13,9 @@
       {{ with .Description }}
       <p class="blog-post__subtitle animate" data-animate-delay="200">{{ . }}</p>
       {{ end }}
+      {{ with .Params.image }}
+      <img src="{{ . | relURL }}" alt="{{ $.Params.image_alt | default $.Title }}" class="blog-post__hero-image animate" data-animate-delay="250" loading="lazy" width="1200" height="630">
+      {{ end }}
     </header>
 
     <div class="blog-post__content animate" data-animate-delay="300">

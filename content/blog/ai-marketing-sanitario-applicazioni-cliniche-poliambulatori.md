@@ -3,7 +3,8 @@ title: "AI e marketing sanitario: applicazioni concrete per cliniche e poliambul
 description: "Intelligenza artificiale nel marketing sanitario: automazione del follow-up, ottimizzazione campagne e analisi predittiva. Strategie e dati per strutture sanitarie private."
 date: 2026-04-16
 author: "Oida Labs"
-image: "img/blog/ai-marketing-sanitario.jpg"
+image: "img/blog/ai-marketing-sanitario-applicazioni-concrete-per-cliniche-e-poliambulatori.webp"
+image_alt: "AI e marketing sanitario: applicazioni concrete per cliniche e poliambulatori"
 tags: ["marketing sanitario", "AI healthcare", "digital marketing", "automazione"]
 sources: "Harvard Business Review (Lead Response Management Study), JMIR 2024 (AI-driven scheduling in primary care), Menlo Ventures State of Health AI 2025, BCG Health Care Outlook 2026."
 draft: false
