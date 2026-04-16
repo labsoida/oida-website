@@ -7,25 +7,39 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ .Site.Title }}</title>
-<meta name="description" content="{{ .Site.Params.description }}">
+{{- $title := .Site.Title -}}
+{{- $description := .Site.Params.description -}}
+{{- $ogType := "website" -}}
+{{- $ogImage := .Site.Params.ogImage -}}
+{{- if .IsPage -}}
+  {{- $title = printf "%s | Oida Labs" .Title -}}
+  {{- with .Description }}{{ $description = . }}{{ end -}}
+  {{- $ogType = "article" -}}
+  {{- with .Params.image }}{{ $ogImage = . }}{{ end -}}
+{{- end -}}
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $description }}">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="{{ .Permalink }}">
 
 <!-- Open Graph -->
-<meta property="og:title" content="{{ .Site.Title }}">
-<meta property="og:description" content="{{ .Site.Params.description }}">
-<meta property="og:type" content="website">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:type" content="{{ $ogType }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:locale" content="it_IT">
 <meta property="og:site_name" content="Oida Labs">
-{{ with .Site.Params.ogImage }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+{{ with $ogImage }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+{{- if .IsPage }}
+<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+<meta property="article:author" content="Oida Labs">
+{{- end }}
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ .Site.Title }}">
-<meta name="twitter:description" content="{{ .Site.Params.description }}">
-{{ with .Site.Params.ogImage }}<meta name="twitter:image" content="{{ . | absURL }}">{{ end }}
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $description }}">
+{{ with $ogImage }}<meta name="twitter:image" content="{{ . | absURL }}">{{ end }}
 
 <!-- Favicon -->
 <link rel="icon" type="image/x-icon" href="{{ "img/favicon.ico" | relURL }}">

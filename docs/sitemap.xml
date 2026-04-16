@@ -2,19 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://oida-labs.com/blog/</loc>
+    <loc>https://oida-labs.com/blog/ai-marketing-sanitario-applicazioni-cliniche-poliambulatori/</loc>
+    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://oida-labs.com/categories/</loc>
+    <loc>https://oida-labs.com/tags/ai-healthcare/</loc>
+    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://oida-labs.com/tags/automazione/</loc>
+    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://oida-labs.com/blog/</loc>
+    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://oida-labs.com/tags/digital-marketing/</loc>
+    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://oida-labs.com/tags/marketing-sanitario/</loc>
+    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://oida-labs.com/</loc>
+    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://oida-labs.com/tags/</loc>
+    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://oida-labs.com/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

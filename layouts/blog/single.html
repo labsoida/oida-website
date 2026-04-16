@@ -1,10 +1,14 @@
 {{ define "main" }}
+{{ $readingTime := math.Round (div (countwords .Content) 200.0) }}
 <article class="blog-post">
   <div class="container container--narrow">
     <a href="{{ "blog/" | relURL }}" class="blog-post__back animate">← Tutti gli articoli</a>
 
     <header class="blog-post__header">
-      <time class="blog-post__date animate" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
+      <div class="blog-post__meta animate">
+        <time class="blog-post__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
+        <span class="blog-post__reading-time">{{ $readingTime }} min di lettura</span>
+      </div>
       <h1 class="blog-post__title animate" data-animate-delay="100">{{ .Title }}</h1>
       {{ with .Description }}
       <p class="blog-post__subtitle animate" data-animate-delay="200">{{ . }}</p>
@@ -13,6 +17,35 @@
 
     <div class="blog-post__content animate" data-animate-delay="300">
       {{ .Content }}
+    </div>
+
+    {{ with .Params.sources }}
+    <div class="blog-post__sources">
+      <p><strong>Fonti:</strong> {{ . }}</p>
+    </div>
+    {{ end }}
+
+    {{ with .Params.tags }}
+    <div class="blog-post__tags">
+      {{ range . }}
+      <span class="blog-post__tag">#{{ . }}</span>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <div class="blog-post__share">
+      <span class="blog-post__share-label">Condividi</span>
+      <div class="blog-post__share-buttons">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink }}" target="_blank" rel="noopener" class="blog-post__share-btn blog-post__share-btn--linkedin" aria-label="Condividi su LinkedIn">
+          {{- partial "icon.html" "linkedin" -}}
+        </a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener" class="blog-post__share-btn blog-post__share-btn--facebook" aria-label="Condividi su Facebook">
+          {{- partial "icon.html" "facebook" -}}
+        </a>
+        <a href="https://api.whatsapp.com/send?text={{ .Title }}%20{{ .Permalink }}" target="_blank" rel="noopener" class="blog-post__share-btn blog-post__share-btn--whatsapp" aria-label="Condividi su WhatsApp">
+          {{- partial "icon.html" "whatsapp" -}}
+        </a>
+      </div>
     </div>
 
     <footer class="blog-post__footer">
@@ -30,6 +63,8 @@
   "description": "{{ .Description }}",
   "datePublished": "{{ .Date.Format "2006-01-02" }}",
   {{ with .Lastmod }}"dateModified": "{{ .Format "2006-01-02" }}",{{ end }}
+  {{ with .Params.image }}"image": "{{ . | absURL }}",{{ end }}
+  "wordCount": {{ countwords .Content }},
   "author": {
     "@type": "Organization",
     "name": "Oida Labs",
@@ -38,7 +73,11 @@
   "publisher": {
     "@type": "Organization",
     "name": "Oida Labs",
-    "url": "https://oida-labs.com"
+    "url": "https://oida-labs.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://oida-labs.com/img/logo.png"
+    }
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
