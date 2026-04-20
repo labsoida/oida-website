@@ -68,7 +68,7 @@ Il CAC non dipende unicamente dall'attività pubblicitaria. Sono quattro i fatto
 
 **La qualità della campagna** determina il volume e la pertinenza dei lead in ingresso. È la parte gestita dall'agenzia e può essere ottimizzata attraverso targeting, creatività e landing page dedicate.
 
-**La velocità di risposta** incide direttamente sul tasso di conversione. Studi sul lead management mostrano che contattare un lead entro i primi cinque minuti aumenta di un ordine di grandezza la probabilità di conversione rispetto a un contatto effettuato dopo trenta minuti.
+**La velocità di risposta** incide direttamente sul tasso di conversione. Studi sul lead management mostrano che contattare un lead entro i primi cinque minuti aumenta di un ordine di grandezza la probabilità di conversione rispetto a un contatto effettuato dopo trenta minuti. [Automatizzare questo processo con strumenti AI](/blog/ai-marketing-sanitario-applicazioni-cliniche-poliambulatori/) è oggi uno dei modi più efficaci per comprimere i tempi.
 
 **La qualità della conversazione commerciale** condiziona il passaggio da interesse a appuntamento. Uno script strutturato, la capacità di gestire le obiezioni più frequenti, la conoscenza clinica di base necessaria a orientare il paziente fanno la differenza sul tasso di fissazione.
 
@@ -88,7 +88,7 @@ Il terzo passaggio è la **revisione mensile**. I numeri vanno letti insieme all
 
 ## Sintesi
 
-Il CPL indica l'efficienza della campagna pubblicitaria; il CAC indica la redditività dell'investimento nel suo insieme. **Misurare solo il primo fornisce una visione parziale del funnel sanitario. Misurare il secondo richiede tracciamento disciplinato e collaborazione tra agenzia e struttura.**
+Il CPL indica l'efficienza della campagna pubblicitaria; il CAC indica la redditività dell'investimento nel suo insieme. **Misurare solo il primo fornisce una visione parziale del funnel sanitario. Misurare il secondo richiede tracciamento disciplinato e collaborazione tra agenzia e struttura.** La capacità di lavorare in questo modo è uno dei [criteri che distinguono un'agenzia di marketing sanitario attrezzata da una generalista](/blog/agenzia-marketing-sanitario-quattro-criteri-oggettivi-valutarla/).
 
 ## FAQ
 

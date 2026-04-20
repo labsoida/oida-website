@@ -72,7 +72,7 @@ Un profilo curato per due settimane dopo l'attivazione e poi abbandonato perde p
 
 Intervenire con continuità significa analizzare mensilmente quali query portano il profilo nei risultati, quali foto generano il CTR più alto, quali categorie di recensioni aprono conversioni e quali no, come evolvono le prestazioni rispetto ai competitor nella stessa area e nella stessa specialità. Queste analisi richiedono lettura integrata di dati Google Business Profile Insights, Google Search Console e Google Analytics, e si traducono in correzioni continue — non in interventi programmati a cadenza fissa.
 
-La distanza tra un profilo autogestito e un profilo seguito professionalmente si misura tipicamente sul medio periodo, **tra il quarto e il sesto mese di operatività**. È il momento in cui le strutture che hanno sottovalutato il lavoro di supervisione iniziano a vedere un plateau o un arretramento, mentre quelle che lo hanno strutturato consolidano il posizionamento.
+La distanza tra un profilo autogestito e un profilo seguito professionalmente si misura tipicamente sul medio periodo, **tra il quarto e il sesto mese di operatività**. È il momento in cui le strutture che hanno sottovalutato il lavoro di supervisione iniziano a vedere un plateau o un arretramento, mentre quelle che lo hanno strutturato consolidano il posizionamento. Valutare chi affidare questo lavoro è un tema a sé: [abbiamo individuato quattro criteri oggettivi per scegliere un'agenzia di marketing sanitario](/blog/agenzia-marketing-sanitario-quattro-criteri-oggettivi-valutarla/).
 
 ---
 

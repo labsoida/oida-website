@@ -77,7 +77,7 @@ L'adozione di strumenti AI nel marketing sanitario richiede un sistema di misura
 
 **Tasso di no-show.** Monitora l'impatto dei sistemi di reminder e previsione. Una riduzione del 20-30% è un benchmark realistico nel primo trimestre di implementazione.
 
-**Costo per paziente acquisito.** Non il costo per lead, ma il costo effettivo per paziente che si presenta in struttura. È la metrica che integra l'efficienza del marketing con l'efficienza del processo di conversione.
+**Costo per paziente acquisito.** Non il costo per lead, ma il costo effettivo per paziente che si presenta in struttura. È la metrica che integra l'efficienza del marketing con l'efficienza del processo di conversione. [Abbiamo dedicato un articolo alla differenza tra CPL e CAC e al perché solo il secondo misura davvero la redditività](/blog/cpl-cac-marketing-sanitario-metrica-redditivita/).
 
 **ROAS (Return on Ad Spend).** Le piattaforme AI-driven permettono un'attribuzione più precisa della spesa pubblicitaria. Un ritorno di 3-5x è considerato sostenibile nel marketing sanitario, con variazioni significative per specialità.
 
@@ -87,4 +87,4 @@ L'adozione di strumenti AI nel marketing sanitario richiede un sistema di misura
 
 Le applicazioni AI con maggiore impatto immediato nel marketing sanitario sono tre: automazione del follow-up, riduzione dei no-show con sistemi predittivi, ottimizzazione delle campagne pubblicitarie. In ciascuna di queste aree, i dati di settore mostrano miglioramenti misurabili e un ritorno sull'investimento documentabile.
 
-**L'AI è uno strumento. Il valore sta nella strategia che lo guida e nella capacità di integrarlo nei processi operativi della struttura sanitaria.**
+**L'AI è uno strumento. Il valore sta nella strategia che lo guida e nella capacità di integrarlo nei processi operativi della struttura sanitaria.** Per capire come scegliere un partner tecnico capace di governarla, abbiamo individuato [quattro criteri oggettivi per valutare un'agenzia di marketing sanitario](/blog/agenzia-marketing-sanitario-quattro-criteri-oggettivi-valutarla/).

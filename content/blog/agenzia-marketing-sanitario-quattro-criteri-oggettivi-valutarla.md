@@ -40,7 +40,7 @@ Un'agenzia che lavora stabilmente nel settore ha internalizzato questi elementi.
 
 ## Metrica di riferimento: CAC invece di CPL
 
-La seconda differenza si misura sulla metrica primaria. Il **CPL**, costo per lead, indica quanto costa generare un contatto. Il **CAC**, costo di acquisizione per paziente, indica quanto costa trasformare quel contatto in una visita effettivamente svolta. Tra i due numeri esiste spesso una distanza significativa, e gestirla è ciò che separa una campagna tecnicamente corretta da una campagna economicamente sostenibile.
+La seconda differenza si misura sulla metrica primaria. Il **CPL**, costo per lead, indica quanto costa generare un contatto. Il **CAC**, costo di acquisizione per paziente, indica quanto costa trasformare quel contatto in una visita effettivamente svolta. Tra i due numeri esiste spesso una distanza significativa — [ne abbiamo parlato in dettaglio in un articolo dedicato alla differenza tra CPL e CAC](/blog/cpl-cac-marketing-sanitario-metrica-redditivita/) — e gestirla è ciò che separa una campagna tecnicamente corretta da una campagna economicamente sostenibile.
 
 Nei progetti che OIDA Labs segue direttamente, la distanza tra i due indicatori può risultare rilevante. Una campagna tarata correttamente sul CPL può convivere con un CAC molto più alto del previsto quando il funnel a valle del click non è strutturato per convertire: tempi di risposta dilatati, tassi di show non monitorati, sequenze di reminder assenti.
 
