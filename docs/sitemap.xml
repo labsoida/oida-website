@@ -2,47 +2,112 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://oida-labs.com/blog/ai-marketing-sanitario-applicazioni-cliniche-poliambulatori/</loc>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/cac/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/cpl/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/blog/cpl-cac-marketing-sanitario-metrica-redditivita/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/marketing-sanitario/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/misurazione-campagne/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/roi-sanit%C3%A0/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/google-business-profile/</loc>
+    <lastmod>2026-04-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/blog/google-business-profile-marketing-sanitario-profili-non-producono-risultati/</loc>
+    <lastmod>2026-04-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/seo-locale/</loc>
+    <lastmod>2026-04-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/visibilit%C3%A0-sanit%C3%A0/</loc>
+    <lastmod>2026-04-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/blog/ai-marketing-sanitario-applicazioni-cliniche-poliambulatori/</loc>
     <lastmod>2026-04-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://oida-labs.com/tags/ai-healthcare/</loc>
+    <loc>http://localhost:1313/tags/ai-healthcare/</loc>
     <lastmod>2026-04-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://oida-labs.com/tags/automazione/</loc>
+    <loc>http://localhost:1313/tags/automazione/</loc>
     <lastmod>2026-04-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://oida-labs.com/blog/</loc>
+    <loc>http://localhost:1313/tags/digital-marketing/</loc>
     <lastmod>2026-04-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://oida-labs.com/tags/digital-marketing/</loc>
-    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blog/agenzia-marketing-sanitario-quattro-criteri-oggettivi-valutarla/</loc>
+    <lastmod>2026-04-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://oida-labs.com/tags/marketing-sanitario/</loc>
-    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/agenzia-marketing-sanitario/</loc>
+    <lastmod>2026-04-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://oida-labs.com/</loc>
-    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/scelta-agenzia/</loc>
+    <lastmod>2026-04-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://oida-labs.com/tags/</loc>
-    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/strategia/</loc>
+    <lastmod>2026-04-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://oida-labs.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -58,6 +58,28 @@
   </div>
 </article>
 
+{{ with .Params.faqs }}
+<!-- Schema.org: FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{- range $i, $faq := . }}{{ if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": {{ $faq.q | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ $faq.a | jsonify }}
+      }
+    }
+    {{- end }}
+  ]
+}
+</script>
+{{ end }}
+
 <!-- Schema.org: BlogPosting -->
 <script type="application/ld+json">
 {

@@ -2,38 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</title>
-    <link>https://oida-labs.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</description>
     <generator>Hugo</generator>
     <language>it</language>
-    <lastBuildDate>Thu, 16 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://oida-labs.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI Healthcare</title>
-      <link>https://oida-labs.com/tags/ai-healthcare/</link>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://oida-labs.com/tags/ai-healthcare/</guid>
+      <title>CAC</title>
+      <link>http://localhost:1313/tags/cac/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cac/</guid>
       <description></description>
     </item>
     <item>
-      <title>Automazione</title>
-      <link>https://oida-labs.com/tags/automazione/</link>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://oida-labs.com/tags/automazione/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Digital Marketing</title>
-      <link>https://oida-labs.com/tags/digital-marketing/</link>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://oida-labs.com/tags/digital-marketing/</guid>
+      <title>CPL</title>
+      <link>http://localhost:1313/tags/cpl/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cpl/</guid>
       <description></description>
     </item>
     <item>
       <title>Marketing Sanitario</title>
-      <link>https://oida-labs.com/tags/marketing-sanitario/</link>
+      <link>http://localhost:1313/tags/marketing-sanitario/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/marketing-sanitario/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Misurazione Campagne</title>
+      <link>http://localhost:1313/tags/misurazione-campagne/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/misurazione-campagne/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ROI Sanità</title>
+      <link>http://localhost:1313/tags/roi-sanit%C3%A0/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/roi-sanit%C3%A0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google Business Profile</title>
+      <link>http://localhost:1313/tags/google-business-profile/</link>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/google-business-profile/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SEO Locale</title>
+      <link>http://localhost:1313/tags/seo-locale/</link>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/seo-locale/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Visibilità Sanità</title>
+      <link>http://localhost:1313/tags/visibilit%C3%A0-sanit%C3%A0/</link>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/visibilit%C3%A0-sanit%C3%A0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Healthcare</title>
+      <link>http://localhost:1313/tags/ai-healthcare/</link>
       <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://oida-labs.com/tags/marketing-sanitario/</guid>
+      <guid>http://localhost:1313/tags/ai-healthcare/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automazione</title>
+      <link>http://localhost:1313/tags/automazione/</link>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/automazione/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital Marketing</title>
+      <link>http://localhost:1313/tags/digital-marketing/</link>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/digital-marketing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agenzia Marketing Sanitario</title>
+      <link>http://localhost:1313/tags/agenzia-marketing-sanitario/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/agenzia-marketing-sanitario/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scelta Agenzia</title>
+      <link>http://localhost:1313/tags/scelta-agenzia/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/scelta-agenzia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Strategia</title>
+      <link>http://localhost:1313/tags/strategia/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/strategia/</guid>
       <description></description>
     </item>
   </channel>
