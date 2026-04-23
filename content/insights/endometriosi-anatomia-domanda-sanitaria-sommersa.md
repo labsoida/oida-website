@@ -104,8 +104,8 @@ La conseguenza operativa è netta. In una strategia di comunicazione rivolta a q
         <text x="660" y="66" text-anchor="middle">gruppi di pazienti, letteratura filtrata</text>
         <line x1="660" y1="73" x2="660" y2="133" stroke="#777" stroke-dasharray="2 2"/>
         <circle cx="820" cy="140" r="9" fill="#00C2B2" stroke="#0a0a0a" stroke-width="2"/>
-        <text x="820" y="90" text-anchor="middle" fill="#ffffff" font-weight="600">Diagnosi formale</text>
-        <text x="820" y="108" text-anchor="middle">imaging/laparoscopia, conferma ESHRE</text>
+        <text x="820" y="90" text-anchor="end" fill="#ffffff" font-weight="600">Diagnosi formale</text>
+        <text x="820" y="108" text-anchor="end">imaging/laparoscopia, conferma ESHRE</text>
         <line x1="820" y1="115" x2="820" y2="131" stroke="#00C2B2" stroke-dasharray="2 2"/>
       </g>
       <g font-family="Bank Gothic, Arial, sans-serif">
