@@ -1,0 +1,4 @@
+<aside class="insight-callout">
+  {{ with .Get "label" }}<div class="insight-callout__label">{{ . }}</div>{{ end }}
+  <div class="insight-callout__body">{{ .Inner | $.Page.RenderString }}</div>
+</aside>

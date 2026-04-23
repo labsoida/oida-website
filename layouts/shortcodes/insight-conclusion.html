@@ -1,0 +1,4 @@
+<aside class="insight-conclusion">
+  <div class="insight-conclusion__label">{{ .Get "label" | default "La lettura di OIDA Labs" }}</div>
+  <div class="insight-conclusion__body">{{ .Inner | $.Page.RenderString }}</div>
+</aside>

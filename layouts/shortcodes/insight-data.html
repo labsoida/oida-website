@@ -1,0 +1,5 @@
+<figure class="insight-data-block">
+  {{ with .Get "title" }}<figcaption class="insight-data-block__title">{{ . | safeHTML }}</figcaption>{{ end }}
+  {{ with .Get "subtitle" }}<div class="insight-data-block__subtitle">{{ . | safeHTML }}</div>{{ end }}
+  <div class="insight-data-block__body">{{ .Inner | safeHTML }}</div>
+</figure>

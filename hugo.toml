@@ -10,6 +10,14 @@ enableRobotsTXT = true
   priority = 0.5
   filename = "sitemap.xml"
 
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.goldmark.parser]
+  [markup.goldmark.parser.attribute]
+    block = true
+    title = true
+
 [params]
   description = "Agenzia di marketing sanitario fondata da medici. Digital marketing, SEO, CRM, AI, PR e consulenza operativa per cliniche, studi medici e strutture sanitarie in Italia, Svizzera e UK."
   ogImage = "img/og-image.png"

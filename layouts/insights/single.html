@@ -1,0 +1,145 @@
+{{ define "main" }}
+{{ $readingTime := math.Round (div (countwords .Content) 200.0) }}
+<article class="insight-post">
+
+  {{ with .Params.image }}
+  <div class="insight-post__hero-wrap">
+    <img src="{{ . | relURL }}" alt="{{ $.Params.image_alt | default $.Title }}" class="insight-post__hero-image" loading="eager" width="1200" height="630">
+  </div>
+  {{ end }}
+
+  <div class="insight-post__container">
+
+    <a href="{{ "insights/" | relURL }}" class="insight-post__back animate">← Tutti gli insight</a>
+
+    <header class="insight-post__header">
+      <span class="insight-post__kicker animate" data-animate-delay="100">{{ .Params.kicker | default "OIDA Insight" }}</span>
+      <h1 class="insight-post__title animate" data-animate-delay="150">{{ .Title }}</h1>
+      {{ with .Description }}
+      <p class="insight-post__deck animate" data-animate-delay="200">{{ . }}</p>
+      {{ end }}
+      <div class="insight-post__meta animate" data-animate-delay="250">
+        <span>A cura di {{ .Params.author | default "OIDA Labs" }}</span>
+        {{ with .Params.base }}<span>{{ . }}</span>{{ end }}
+        <span>{{ $readingTime }} min di lettura</span>
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
+      </div>
+    </header>
+
+    {{ with .Params.stats }}
+    <div class="insight-stats-row insight-stats-row--top animate" data-animate-delay="300">
+      {{ range . }}
+      <div class="insight-stat-card">
+        <div class="insight-stat-number">{{ .number | safeHTML }}{{ with .suffix }}<span class="insight-stat-suffix">{{ . | safeHTML }}</span>{{ end }}</div>
+        <div class="insight-stat-label">{{ .label | safeHTML }}</div>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <div class="insight-layout">
+
+      <div class="insight-body animate" data-animate-delay="400">
+        {{ .Content }}
+      </div>
+
+      {{ with .Params.sidebar }}
+      <aside class="insight-sidebar">
+        {{ range . }}
+        <div class="insight-sidebar__block">
+          <div class="insight-sidebar__label">{{ .label | safeHTML }}</div>
+          {{ with .stat }}<div class="insight-sidebar__stat">{{ . | safeHTML }}</div>{{ end }}
+          <p class="insight-sidebar__note">{{ .note | safeHTML }}</p>
+        </div>
+        {{ end }}
+      </aside>
+      {{ end }}
+
+    </div>
+
+    {{ with .Params.sources }}
+    <div class="insight-post__sources">
+      {{ with .primary }}<p><strong>Fonte primaria:</strong> {{ . | safeHTML }}</p>{{ end }}
+      {{ with .secondary }}<p><strong>Fonti secondarie:</strong> {{ . | safeHTML }}</p>{{ end }}
+      {{ with .disclaimer }}<p class="insight-post__disclaimer">{{ . | safeHTML }}</p>{{ end }}
+    </div>
+    {{ end }}
+
+    <div class="insight-post__cta">
+      <div class="insight-post__cta-label">Interessa anche te?</div>
+      <h3 class="insight-post__cta-title">Vuoi una lettura analoga sulla tua specialità?</h3>
+      <p class="insight-post__cta-body">Analizziamo il tuo bacino, la domanda locale e l'asimmetria competitiva. Ti raccontiamo cosa c'è sotto i numeri della tua area clinica.</p>
+      <a href="/#contatti" class="btn btn--primary">Parliamone →</a>
+    </div>
+
+    <div class="insight-post__share">
+      <span class="insight-post__share-label">Condividi</span>
+      <div class="insight-post__share-buttons">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink }}" target="_blank" rel="noopener" class="insight-post__share-btn" aria-label="Condividi su LinkedIn">
+          {{- partial "icon.html" "linkedin" -}}
+        </a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener" class="insight-post__share-btn" aria-label="Condividi su Facebook">
+          {{- partial "icon.html" "facebook" -}}
+        </a>
+        <a href="https://api.whatsapp.com/send?text={{ .Title }}%20{{ .Permalink }}" target="_blank" rel="noopener" class="insight-post__share-btn" aria-label="Condividi su WhatsApp">
+          {{- partial "icon.html" "whatsapp" -}}
+        </a>
+      </div>
+    </div>
+
+    <footer class="insight-post__footer">
+      <a href="{{ "insights/" | relURL }}" class="btn btn--primary">← Tutti gli insight</a>
+    </footer>
+
+  </div>
+</article>
+
+<!-- Schema.org: Article -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ .Title | jsonify }},
+  "description": {{ .Description | jsonify }},
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  {{ with .Lastmod }}"dateModified": "{{ .Format "2006-01-02" }}",{{ end }}
+  {{ with .Params.image }}"image": "{{ . | absURL }}",{{ end }}
+  "wordCount": {{ countwords .Content }},
+  "author": {
+    "@type": "Organization",
+    "name": "Oida Labs",
+    "url": "https://oida-labs.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Oida Labs",
+    "url": "https://oida-labs.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://oida-labs.com/img/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }
+  {{ with .Params.about }},"about": {
+    "@type": "Thing",
+    "name": {{ . | jsonify }}
+  }{{ end }}
+}
+</script>
+
+<!-- Schema.org: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://oida-labs.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Insight", "item": "https://oida-labs.com/insights/" },
+    { "@type": "ListItem", "position": 3, "name": {{ .Title | jsonify }}, "item": "{{ .Permalink }}" }
+  ]
+}
+</script>
+{{ end }}

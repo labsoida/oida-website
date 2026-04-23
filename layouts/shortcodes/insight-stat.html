@@ -1,0 +1,4 @@
+<div class="insight-stat-card">
+  <div class="insight-stat-number">{{ .Get "number" | safeHTML }}{{ with .Get "suffix" }}<span class="insight-stat-suffix">{{ . | safeHTML }}</span>{{ end }}</div>
+  <div class="insight-stat-label">{{ .Inner | $.Page.RenderString }}</div>
+</div>
