@@ -259,8 +259,8 @@ Il terzo asse di lettura è geografico, e porta con sé la componente più sotto
     <thead>
       <tr>
         <th>Stato di attuazione</th>
-        <th class="th-n">Amministrazioni</th>
-        <th class="th-pct">Incidenza</th>
+        <th class="th-n">N°</th>
+        <th class="th-pct">%</th>
         <th class="th-bar">&nbsp;</th>
       </tr>
     </thead>
