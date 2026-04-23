@@ -201,33 +201,40 @@ Una sola amministrazione ha colmato il vuoto in modo organico: la Valle d'Aosta,
           <th>Regione</th>
           <th>Atto</th>
           <th>Contenuto aggiuntivo</th>
-          <th>Perimetro</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td class="td-region">Valle d'Aosta</td>
           <td class="td-code">DGR&nbsp;825/2023</td>
-          <td>Codice regionale H07: terapia ormonale gratuita, supporto psicologico strutturato, rimborso spese di viaggio per cure fuori regione (soglia ISEE 35.000&nbsp;€). Dienogest gratuito per tutte le pazienti.</td>
-          <td class="td-note">Anche stadi I–II</td>
+          <td>
+            Codice regionale H07: terapia ormonale gratuita, supporto psicologico strutturato, rimborso spese di viaggio per cure fuori regione (soglia ISEE 35.000&nbsp;€). Dienogest gratuito per tutte le pazienti.
+            <span class="insight-badge insight-badge--accent">Anche stadi I–II</span>
+          </td>
         </tr>
         <tr>
           <td class="td-region">Emilia-Romagna</td>
           <td class="td-code">DGR&nbsp;2307/2019 e succ.</td>
-          <td>Fornitura gratuita di alcuni farmaci ormonali di uso corrente alle pazienti esenti 063, a partire dal 2023.</td>
-          <td class="td-note">Stadi III–IV</td>
+          <td>
+            Fornitura gratuita di alcuni farmaci ormonali di uso corrente alle pazienti esenti 063, a partire dal 2023.
+            <span class="insight-badge">Stadi III–IV</span>
+          </td>
         </tr>
         <tr>
           <td class="td-region">Sicilia</td>
           <td class="td-code">L.R.&nbsp;27/2019</td>
-          <td>Gratuità dei FANS in classe A per le pazienti con esenzione 063.</td>
-          <td class="td-note">Stadi III–IV</td>
+          <td>
+            Gratuità dei FANS in classe A per le pazienti con esenzione 063.
+            <span class="insight-badge">Stadi III–IV</span>
+          </td>
         </tr>
         <tr>
           <td class="td-region">Toscana</td>
           <td class="td-code">DGR&nbsp;809/2015 e 1197/2019</td>
-          <td>Crioconservazione gratuita di ovociti o tessuto ovarico fino ai 46 anni per endometriosi grave.</td>
-          <td class="td-note">Stadi avanzati</td>
+          <td>
+            Crioconservazione gratuita di ovociti o tessuto ovarico fino ai 46 anni per endometriosi grave.
+            <span class="insight-badge">Stadi avanzati</span>
+          </td>
         </tr>
       </tbody>
     </table>
