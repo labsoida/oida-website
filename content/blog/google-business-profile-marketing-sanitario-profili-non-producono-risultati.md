@@ -64,6 +64,8 @@ Quest'ultimo punto è il meno evidente e il più determinante. Una recensione ch
 
 > Le strutture che ottengono risultati sostenibili dal Google Business Profile hanno un processo di gestione delle recensioni, non una raccolta di recensioni. La differenza è misurabile sul traffico organico generato.
 
+Lo stesso principio vale per le richieste che arrivano dal profilo: senza un sistema strutturato di gestione del contatto a valle, anche un Business Profile performante produce risultati frammentari. Ne abbiamo parlato nell'articolo su [come un CRM sanitario evita la dispersione dei lead dopo il primo contatto](/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/).
+
 ## Perché la manutenzione è la variabile che definisce il risultato
 
 La configurazione iniziale di un profilo è un'attività a basso costo che chiunque può eseguire. Il rendimento economico del profilo nel tempo non è, invece, una funzione della configurazione iniziale: è una funzione della **gestione continuativa** che lo accompagna nei mesi successivi.
@@ -88,7 +90,7 @@ No, le due risorse hanno funzioni complementari e lavorano in modo integrato sul
 
 ### Quante recensioni servono per essere competitivi nella ricerca locale?
 
-La domanda è posta in modo meno utile di quanto sembri. Il volume è una delle variabili, non la più rilevante. Una struttura con quaranta recensioni generiche può essere meno competitiva di una con venti recensioni che citano specialità, procedure, nomi di medici. **La composizione qualitativa delle recensioni incide sul posizionamento più della soglia quantitativa**, e dipende da come vengono richieste.
+**Più del volume conta la composizione qualitativa delle recensioni.** Una struttura con quaranta recensioni generiche può essere meno competitiva di una con venti recensioni che citano specialità, procedure, nomi di medici. La composizione qualitativa incide sul posizionamento più della soglia quantitativa, e dipende da come vengono richieste. Il volume resta una delle variabili, ma non la più rilevante.
 
 ### Quanto tempo serve prima di vedere risultati da un Google Business Profile ottimizzato?
 

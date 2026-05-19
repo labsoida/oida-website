@@ -33,7 +33,7 @@ Secondo uno studio pubblicato su Harvard Business Review, **i lead contattati en
 
 > Il tempo medio di risposta nel settore healthcare è di 2 ore e 5 minuti. Le strutture che riescono a comprimere questo intervallo acquisiscono un vantaggio competitivo misurabile.
 
-L'AI interviene su questo processo attraverso sistemi di risposta automatizzata che operano 24 ore su 24. Non si tratta di chatbot generici, ma di soluzioni progettate per il contesto sanitario: raccolta delle informazioni preliminari, verifica della disponibilità in tempo reale, conferma dell'appuntamento. **Il 40% delle prenotazioni in ambito sanitario avviene fuori dall'orario di apertura degli studi** — un sistema automatizzato intercetta questa domanda che altrimenti andrebbe dispersa.
+L'AI interviene su questo processo attraverso sistemi di risposta automatizzata che operano 24 ore su 24. Non si tratta di chatbot generici, ma di soluzioni progettate per il contesto sanitario: raccolta delle informazioni preliminari, verifica della disponibilità in tempo reale, conferma dell'appuntamento. **Il 40% delle prenotazioni in ambito sanitario avviene fuori dall'orario di apertura degli studi** — un sistema automatizzato intercetta questa domanda che altrimenti andrebbe dispersa. La premessa di tutto questo è una pipeline di gestione strutturata: ne abbiamo parlato in modo specifico nell'articolo su [come un CRM sanitario evita che le strutture perdano pazienti dopo il primo contatto](/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/).
 
 ## Riduzione dei no-show attraverso l'analisi predittiva
 

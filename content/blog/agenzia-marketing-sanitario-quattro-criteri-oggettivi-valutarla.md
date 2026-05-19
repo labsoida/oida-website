@@ -44,7 +44,7 @@ La seconda differenza si misura sulla metrica primaria. Il **CPL**, costo per le
 
 Nei progetti che OIDA Labs segue direttamente, la distanza tra i due indicatori può risultare rilevante. Una campagna tarata correttamente sul CPL può convivere con un CAC molto più alto del previsto quando il funnel a valle del click non è strutturato per convertire: tempi di risposta dilatati, tassi di show non monitorati, sequenze di reminder assenti.
 
-Un'agenzia specializzata lavora su entrambe le metriche. Ottimizza la generazione dei lead, ma misura anche il tasso di conversione lead-paziente e, dove possibile, contribuisce a strutturare il processo di follow-up interno. Questo approccio richiede di entrare nella meccanica operativa della struttura cliente, capire come vengono gestite le richieste in arrivo, quali strumenti di CRM sono disponibili, come il personale di front-office viene coinvolto. **Chiedere in fase di valutazione come l'agenzia misura il CAC — e non solo il CPL — è un indicatore immediato del livello di lavoro offerto.**
+Un'agenzia specializzata lavora su entrambe le metriche. Ottimizza la generazione dei lead, ma misura anche il tasso di conversione lead-paziente e, dove possibile, contribuisce a strutturare il processo di follow-up interno. Questo approccio richiede di entrare nella meccanica operativa della struttura cliente, capire come vengono gestite le richieste in arrivo, quali [strumenti di CRM sanitario](/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/) sono disponibili, come il personale di front-office viene coinvolto. **Chiedere in fase di valutazione come l'agenzia misura il CAC — e non solo il CPL — è un indicatore immediato del livello di lavoro offerto.**
 
 ## Continuità tra presentazione commerciale e gestione operativa
 
@@ -78,7 +78,7 @@ I quattro criteri — **specializzazione verticale, metrica CAC, continuità ope
 
 ### Qual è il budget indicativo per un'agenzia di marketing sanitario?
 
-I range dipendono dalla scala dei servizi. La sola gestione delle campagne digitali (Meta Ads, Google Ads) parte da circa **€1.500–2.500 mensili** oltre al budget pubblicitario. Pacchetti che includono strategia, contenuti, CRM e reportistica strutturata si posizionano tra **€3.000 e €8.000 mensili**. La variabile più significativa rimane il CAC finale: un investimento maggiore con un funnel ben strutturato può risultare più efficiente di uno inferiore senza misurazione a valle.
+Il budget tipico va da **€1.500 a €8.000 mensili** in base alla scala dei servizi. La sola gestione delle campagne digitali (Meta Ads, Google Ads) parte da circa €1.500–2.500 mensili oltre al budget pubblicitario. I pacchetti che includono strategia, contenuti, CRM e reportistica strutturata si posizionano tra €3.000 e €8.000 mensili. La variabile più significativa rimane il CAC finale: un investimento maggiore con un funnel ben strutturato può risultare più efficiente di uno inferiore senza misurazione a valle.
 
 ### Come si misura il risultato di una campagna di marketing sanitario?
 

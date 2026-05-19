@@ -78,7 +78,7 @@ Ottimizzare il CAC significa presidiare tutti e quattro questi fattori in modo c
 
 ## Come impostare una misurazione operativa
 
-Il primo passaggio è rendere tracciabile l'intero percorso. Ogni lead deve essere associato a una fonte riconoscibile — campagna, canale, creatività — e seguito fino all'esito finale. Un CRM anche minimo è sufficiente, purché venga effettivamente aggiornato.
+Il primo passaggio è rendere tracciabile l'intero percorso. Ogni lead deve essere associato a una fonte riconoscibile — campagna, canale, creatività — e seguito fino all'esito finale. Un CRM anche minimo è sufficiente, purché venga effettivamente aggiornato — abbiamo approfondito i meccanismi di una pipeline paziente funzionante nel nostro articolo [su come strutturare un CRM sanitario](/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/).
 
 Il secondo passaggio consiste nel definire i tassi di conversione di riferimento. I benchmark variano tra specialità, ma calcolare il proprio storico consente di identificare in quale fase del funnel la struttura perde più valore.
 
@@ -94,7 +94,7 @@ Il CPL indica l'efficienza della campagna pubblicitaria; il CAC indica la reddit
 
 ### Qual è un CAC di riferimento nel marketing sanitario?
 
-Il benchmark varia per specialità e per ticket medio del servizio. Per visite a basso commitment economico — fisioterapia, dermatologia di base — il CAC sostenibile si colloca tipicamente tra **€30 e €80**. Per specialità a ticket elevato — chirurgia estetica, odontoiatria implantologica, bariatrica — il CAC può essere sostenibile anche **oltre €300–400**, purché il *lifetime value* del paziente giustifichi l'investimento.
+Il CAC sostenibile nel marketing sanitario va tipicamente **da €30–80 per specialità a basso ticket** (fisioterapia, dermatologia di base) **a oltre €300–400 per specialità a ticket elevato** (chirurgia estetica, odontoiatria implantologica, bariatrica). Il benchmark varia per specialità e per ticket medio del servizio: nelle specialità ad alto valore unitario, un CAC superiore resta sostenibile purché il *lifetime value* del paziente giustifichi l'investimento.
 
 ### Ogni quanto tempo va ricalcolato il CAC?
 
