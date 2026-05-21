@@ -125,19 +125,19 @@ src="https://www.facebook.com/tr?id=26427520853577542&ev=PageView&noscript=1"
 </script>
 
 {{ if .IsHome }}
-<!-- Schema.org: FAQPage (solo homepage, riferito alla sezione Servizi) -->
+<!-- Schema.org: FAQPage (homepage, FAQ commerciali reali) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {{- range $i, $card := .Site.Data.servizi.cards }}{{ if $i }},{{ end }}
+    {{- range $i, $faq := .Site.Data.faqs.items }}{{ if $i }},{{ end }}
     {
       "@type": "Question",
-      "name": "{{ $card.pain }}",
+      "name": {{ $faq.q | jsonify }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{ $card.solution }}"
+        "text": {{ $faq.a | jsonify }}
       }
     }
     {{- end }}

@@ -1,0 +1,24 @@
+{{ $d := .Site.Data.faqs }}
+<section class="faqs" id="faq">
+  <div class="container container--narrow">
+    <span class="section-label animate">{{ $d.label }}</span>
+    <h2 class="section-title animate" data-animate-delay="100">{{ $d.title }}</h2>
+    {{ with $d.subtitle }}
+    <p class="faqs__subtitle animate" data-animate-delay="150">{{ . }}</p>
+    {{ end }}
+
+    <div class="faqs__list">
+      {{ range $i, $faq := $d.items }}
+      <details class="faq-item animate" data-animate-delay="{{ mul (add $i 2) 100 }}">
+        <summary class="faq-item__question">
+          <span>{{ $faq.q }}</span>
+          <span class="faq-item__icon" aria-hidden="true">+</span>
+        </summary>
+        <div class="faq-item__answer">
+          <p>{{ $faq.a }}</p>
+        </div>
+      </details>
+      {{ end }}
+    </div>
+  </div>
+</section>

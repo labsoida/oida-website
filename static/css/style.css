@@ -1115,6 +1115,102 @@ a.contatti__info-item:hover {
 }
 
 /* ==========================================================================
+   FAQ section — Domande Frequenti homepage
+   ========================================================================== */
+
+.faqs {
+  background: var(--color-bg);
+  padding: var(--section-padding);
+}
+
+.faqs__subtitle {
+  font-size: 17px;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.faqs__list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.faq-item {
+  background: var(--color-card-bg);
+  border: 1px solid var(--color-card-border);
+  border-radius: 8px;
+  transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.faq-item[open] {
+  border-color: var(--color-accent);
+  background: rgba(0, 194, 178, 0.03);
+}
+
+.faq-item__question {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 22px 26px;
+  cursor: pointer;
+  font-family: var(--font-label);
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-text);
+  line-height: 1.4;
+  list-style: none;
+  user-select: none;
+}
+
+/* Hide default details marker */
+.faq-item__question::-webkit-details-marker { display: none; }
+.faq-item__question::marker { display: none; }
+
+.faq-item__icon {
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--color-accent);
+  line-height: 1;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+  margin-top: -2px;
+}
+
+.faq-item[open] .faq-item__icon {
+  transform: rotate(45deg);
+}
+
+.faq-item__answer {
+  padding: 0 26px 24px;
+  font-size: 15.5px;
+  line-height: 1.75;
+  color: var(--color-text-muted);
+}
+
+.faq-item__answer p {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .faq-item__question {
+    padding: 18px 20px;
+    font-size: 14px;
+  }
+  .faq-item__answer {
+    padding: 0 20px 20px;
+    font-size: 14.5px;
+  }
+}
+
+/* ==========================================================================
    LEGAL PAGES — Privacy Policy, Cookie Policy
    ========================================================================== */
 
