@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pipeline Pazienti on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</title>
-    <link>https://oida-labs.com/tags/pipeline-pazienti/</link>
+    <link>http://localhost:1313/tags/pipeline-pazienti/</link>
     <description>Recent content in Pipeline Pazienti on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</description>
     <generator>Hugo</generator>
     <language>it</language>
     <lastBuildDate>Fri, 24 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://oida-labs.com/tags/pipeline-pazienti/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/pipeline-pazienti/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CRM sanitario: perché le strutture private perdono pazienti dopo il primo contatto</title>
-      <link>https://oida-labs.com/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/</link>
+      <link>http://localhost:1313/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/</link>
       <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://oida-labs.com/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/</guid>
+      <guid>http://localhost:1313/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/</guid>
       <description>&lt;p&gt;Il problema non è generare contatti. Le strutture sanitarie private che investono in campagne digitali riescono quasi sempre a generare lead. Il problema è cosa succede dopo: chi risponde, quando risponde, con quale processo e con quale continuità. In assenza di un sistema strutturato, ogni contatto generato dalle campagne viene affidato all&amp;rsquo;efficienza individuale di chi risponde al telefono o controlla la casella email. Il risultato è sistematico: &lt;strong&gt;dispersione di contatti che avrebbero potuto diventare pazienti&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

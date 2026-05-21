@@ -4,9 +4,12 @@ website: "oida-labs.com"
 copyright_year: "2026"
 legal_links:
   - text: "Privacy Policy"
-    url: "#"
+    url: "/legal/privacy-policy/"
   - text: "Cookie Policy"
+    url: "/legal/cookie-policy/"
+  - text: "Gestisci cookie"
     url: "#"
+    cookie_settings: true
 social:
   - name: "LinkedIn"
     url: "https://linkedin.com/company/oidalabs"
