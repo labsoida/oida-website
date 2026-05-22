@@ -11,6 +11,41 @@
     }, { passive: true });
   }
 
+  // --- Mobile hamburger menu ---
+  var menuToggle = document.getElementById('site-header-toggle');
+  var menuLinks = document.getElementById('site-header-links');
+  if (menuToggle && menuLinks) {
+    function closeMenu() {
+      menuLinks.classList.remove('is-open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.setAttribute('aria-label', 'Apri menu');
+      document.body.classList.remove('menu-open');
+    }
+    function openMenu() {
+      menuLinks.classList.add('is-open');
+      menuToggle.setAttribute('aria-expanded', 'true');
+      menuToggle.setAttribute('aria-label', 'Chiudi menu');
+      document.body.classList.add('menu-open');
+    }
+    menuToggle.addEventListener('click', function () {
+      if (menuLinks.classList.contains('is-open')) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
+    });
+    // Chiudi cliccando su un link
+    menuLinks.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', closeMenu);
+    });
+    // Chiudi con Escape
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && menuLinks.classList.contains('is-open')) {
+        closeMenu();
+      }
+    });
+  }
+
   // --- Back to top button (Fix #14) ---
   var backToTop = document.getElementById('backToTop');
   if (backToTop) {
