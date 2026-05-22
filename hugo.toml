@@ -20,5 +20,5 @@ enableRobotsTXT = true
 
 [params]
   description = "Agenzia di marketing sanitario fondata da medici. Digital marketing, SEO, CRM, AI, PR e consulenza operativa per cliniche, studi medici e strutture sanitarie in Italia, Svizzera e UK."
-  ogImage = "img/og-image.png"
+  ogImage = "img/og-image.jpg"
   keywords = "marketing sanitario, agenzia marketing sanitario, marketing per cliniche, marketing medico, SEO sanitario, digital marketing sanità, consulenza marketing sanitario, CRM cliniche, marketing strutture sanitarie"
