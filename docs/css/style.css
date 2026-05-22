@@ -441,6 +441,17 @@ textarea {
   transition: border-color 0.3s ease,
               transform 0.25s ease,
               box-shadow 0.3s ease;
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
+
+a.service-card:hover .service-card__title {
+  color: var(--color-accent);
+}
+
+a.service-card .service-card__title {
+  transition: color 0.3s ease;
 }
 
 .service-card:hover {
@@ -1112,6 +1123,130 @@ a.contatti__info-item:hover {
   margin-top: 48px;
   padding-top: 32px;
   border-top: 1px solid var(--color-border);
+}
+
+/* ==========================================================================
+   SERVIZI HUB — Pagina /servizi/
+   ========================================================================== */
+
+.servizi-hub {
+  background: var(--color-bg);
+  padding: 100px 20px 80px;
+  min-height: 100vh;
+}
+
+.servizi-hub__header {
+  text-align: center;
+  margin: 40px 0 64px;
+}
+
+.servizi-hub__kicker {
+  display: inline-block;
+  font-family: var(--font-label);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 24px;
+}
+
+.servizi-hub__title {
+  font-family: var(--font-display);
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.15;
+  color: var(--color-text);
+  text-transform: uppercase;
+  margin: 0 0 24px;
+}
+
+.servizi-hub__subtitle {
+  font-size: 17px;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.servizi-hub__group {
+  margin-bottom: 56px;
+}
+
+.servizi-hub__group-title {
+  font-family: var(--font-label);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin: 0 0 28px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.servizi-hub__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .servizi-hub__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.servizi-hub__card {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-card-bg);
+  border: 1px solid var(--color-card-border);
+  border-radius: 8px;
+  padding: 28px 28px 24px;
+  text-decoration: none;
+  transition: border-color 0.3s ease, transform 0.25s ease, box-shadow 0.3s ease;
+}
+
+.servizi-hub__card:hover {
+  border-color: var(--color-accent);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 194, 178, 0.08);
+}
+
+.servizi-hub__card-title {
+  font-family: var(--font-label);
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-text);
+  margin: 0 0 12px;
+  line-height: 1.3;
+}
+
+.servizi-hub__card-desc {
+  font-size: 14.5px;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin: 0 0 16px;
+  flex: 1;
+}
+
+.servizi-hub__card-cta {
+  font-family: var(--font-label);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-top: auto;
+}
+
+@media (max-width: 600px) {
+  .servizi-hub { padding: 80px 20px 60px; }
+  .servizi-hub__title { font-size: 30px; }
+  .servizi-hub__subtitle { font-size: 15.5px; }
 }
 
 /* ==========================================================================

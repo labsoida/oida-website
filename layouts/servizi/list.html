@@ -1,0 +1,71 @@
+{{ define "main" }}
+<section class="servizi-hub">
+  <div class="container">
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="{{ "/" | relURL }}">Home</a></li>
+        <li aria-current="page">Servizi</li>
+      </ol>
+    </nav>
+
+    <header class="servizi-hub__header">
+      <span class="servizi-hub__kicker animate">Servizi</span>
+      <h1 class="servizi-hub__title animate" data-animate-delay="100">Cosa facciamo per le strutture sanitarie</h1>
+      <p class="servizi-hub__subtitle animate" data-animate-delay="200">Dal primo paziente che ti trova online al sistema che non perde una richiesta. Ogni servizio è pensato da chi viene dalla sanità.</p>
+    </header>
+
+    {{ $pages := where .Pages "Params.type" "servizio" }}
+    {{ $groups := slice "Crescita e Acquisizione" "Operations e Tecnologia" "Specialistici e Differenzianti" }}
+    {{ range $gIdx, $group := $groups }}
+    <section class="servizi-hub__group animate" data-animate-delay="{{ mul (add $gIdx 3) 100 }}">
+      <h2 class="servizi-hub__group-title">{{ $group }}</h2>
+      <div class="servizi-hub__grid">
+        {{ range where $pages "Params.servizio_gruppo" $group }}
+        <a href="{{ .RelPermalink }}" class="servizi-hub__card">
+          <h3 class="servizi-hub__card-title">{{ .Title }}</h3>
+          <p class="servizi-hub__card-desc">{{ .Description }}</p>
+          <span class="servizi-hub__card-cta">Scopri →</span>
+        </a>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+  </div>
+</section>
+
+<!-- Schema.org: CollectionPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Servizi OIDA Labs",
+  "description": {{ .Description | jsonify }},
+  "url": {{ .Permalink | jsonify }},
+  "hasPart": [
+    {{- range $i, $page := $pages }}{{ if $i }},{{ end }}
+    {
+      "@type": "Service",
+      "name": {{ $page.Title | jsonify }},
+      "description": {{ $page.Description | jsonify }},
+      "url": {{ $page.Permalink | jsonify }}
+    }
+    {{- end }}
+  ]
+}
+</script>
+
+<!-- Schema.org: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://oida-labs.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Servizi", "item": "https://oida-labs.com/servizi/" }
+  ]
+}
+</script>
+{{ end }}

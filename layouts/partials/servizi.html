@@ -7,6 +7,16 @@
 
     <div class="servizi__grid">
       {{ range $i, $card := $d.cards }}
+      {{ if $card.url }}
+      <a href="{{ $card.url | relURL }}" class="service-card{{ if $card.full_width }} service-card--full{{ end }} animate" data-animate-delay="{{ mul (add $i 3) 100 }}" aria-label="{{ $card.title }}">
+        <div class="service-card__icon">
+          {{- partial "icon.html" $card.icon -}}
+        </div>
+        <h3 class="service-card__title">{{ $card.title }}</h3>
+        <p class="service-card__pain">{{ $card.pain }}</p>
+        <p class="service-card__solution">{{ $card.solution }}</p>
+      </a>
+      {{ else }}
       <div class="service-card{{ if $card.full_width }} service-card--full{{ end }} animate" data-animate-delay="{{ mul (add $i 3) 100 }}">
         <div class="service-card__icon">
           {{- partial "icon.html" $card.icon -}}
@@ -15,6 +25,7 @@
         <p class="service-card__pain">{{ $card.pain }}</p>
         <p class="service-card__solution">{{ $card.solution }}</p>
       </div>
+      {{ end }}
       {{ end }}
     </div>
   </div>
