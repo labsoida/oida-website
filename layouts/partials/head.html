@@ -71,7 +71,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="preload" href="{{ "fonts/bank-gothic.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap"></noscript>
 
 <!-- Meta Pixel: loaded only after marketing consent (see /js/cookie-consent-config.js) -->
 <noscript><img height="1" width="1" style="display:none"
@@ -79,12 +81,15 @@ src="https://www.facebook.com/tr?id=26427520853577542&ev=PageView&noscript=1"
 /></noscript>
 
 <!-- Cookie Consent (CMP) — open source MIT, https://cookieconsent.orestbida.com -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.1/dist/cookieconsent.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.1/dist/cookieconsent.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.1/dist/cookieconsent.css"></noscript>
 <script defer src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.1/dist/cookieconsent.umd.js"></script>
 <script defer src="{{ "js/cookie-consent-config.js" | relURL }}"></script>
 
 <!-- Stylesheet -->
-<link rel="stylesheet" href="{{ "css/style.css" | relURL }}?v={{ now.Unix }}">
+{{- $cssPath := "static/css/style.css" -}}
+{{- $cssHash := readFile $cssPath | hash.FNV32a -}}
+<link rel="stylesheet" href="{{ "css/style.css" | relURL }}?v={{ $cssHash }}">
 
 <!-- Schema.org: ProfessionalService -->
 <script type="application/ld+json">

@@ -3,11 +3,22 @@
 
   var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  // --- Header scroll effect (Fix #1) ---
+  // --- Header scroll effect (rAF-throttled) ---
   var siteHeader = document.getElementById('site-header');
-  if (siteHeader) {
+  var backToTop = document.getElementById('backToTop');
+  var scrollTicking = false;
+  function onScrollRaf() {
+    var y = window.scrollY;
+    if (siteHeader) siteHeader.classList.toggle('scrolled', y > 40);
+    if (backToTop) backToTop.classList.toggle('visible', y > 400);
+    scrollTicking = false;
+  }
+  if (siteHeader || backToTop) {
     window.addEventListener('scroll', function () {
-      siteHeader.classList.toggle('scrolled', window.scrollY > 40);
+      if (!scrollTicking) {
+        requestAnimationFrame(onScrollRaf);
+        scrollTicking = true;
+      }
     }, { passive: true });
   }
 
@@ -46,12 +57,8 @@
     });
   }
 
-  // --- Back to top button (Fix #14) ---
-  var backToTop = document.getElementById('backToTop');
+  // --- Back to top click handler (visibility handled in rAF scroll above) ---
   if (backToTop) {
-    window.addEventListener('scroll', function () {
-      backToTop.classList.toggle('visible', window.scrollY > 400);
-    }, { passive: true });
     backToTop.addEventListener('click', function () {
       window.scrollTo({ top: 0, behavior: prefersReducedMotion ? 'auto' : 'smooth' });
     });
