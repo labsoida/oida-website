@@ -140,10 +140,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {{- range $i, $faq := .Site.Data.faqs.items }}{{ if $i }},{{ end }}
     {
       "@type": "Question",
-      "name": {{ $faq.q | jsonify }},
+      "name": {{ $faq.q | jsonify | safeJS }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": {{ $faq.a | jsonify }}
+        "text": {{ $faq.a | jsonify | safeJS }}
       }
     }
     {{- end }}

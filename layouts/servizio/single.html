@@ -72,8 +72,8 @@
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": {{ .Title | jsonify }},
-  {{ with .Params.serviceType }}"serviceType": {{ . | jsonify }},{{ end }}
+  "name": {{ .Title | jsonify | safeJS }},
+  {{ with .Params.serviceType }}"serviceType": {{ . | jsonify | safeJS }},{{ end }}
   "provider": {
     "@type": "ProfessionalService",
     "name": "Oida Labs",
@@ -86,10 +86,10 @@
   ],
   "audience": {
     "@type": "Audience",
-    "audienceType": {{ .Params.audience | default "Studi medici, cliniche, poliambulatori e strutture sanitarie private" | jsonify }}
+    "audienceType": {{ .Params.audience | default "Studi medici, cliniche, poliambulatori e strutture sanitarie private" | jsonify | safeJS }}
   },
-  "description": {{ .Description | jsonify }},
-  "url": {{ .Permalink | jsonify }}
+  "description": {{ .Description | jsonify | safeJS }},
+  "url": {{ .Permalink | jsonify | safeJS }}
 }
 </script>
 
@@ -101,7 +101,7 @@
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://oida-labs.com/" },
     { "@type": "ListItem", "position": 2, "name": "Servizi", "item": "https://oida-labs.com/servizi/" },
-    { "@type": "ListItem", "position": 3, "name": {{ .Title | jsonify }}, "item": {{ .Permalink | jsonify }} }
+    { "@type": "ListItem", "position": 3, "name": {{ .Title | jsonify | safeJS }}, "item": "{{ .Permalink }}" }
   ]
 }
 </script>
@@ -116,10 +116,10 @@
     {{- range $i, $faq := . }}{{ if $i }},{{ end }}
     {
       "@type": "Question",
-      "name": {{ $faq.q | jsonify }},
+      "name": {{ $faq.q | jsonify | safeJS }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": {{ $faq.a | jsonify }}
+        "text": {{ $faq.a | jsonify | safeJS }}
       }
     }
     {{- end }}

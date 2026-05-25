@@ -99,8 +99,8 @@
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": {{ .Title | jsonify }},
-  "description": {{ .Description | jsonify }},
+  "headline": {{ .Title | jsonify | safeJS }},
+  "description": {{ .Description | jsonify | safeJS }},
   "datePublished": "{{ .Date.Format "2006-01-02" }}",
   {{ with .Lastmod }}"dateModified": "{{ .Format "2006-01-02" }}",{{ end }}
   {{ with .Params.image }}"image": "{{ . | absURL }}",{{ end }}
@@ -125,7 +125,7 @@
   }
   {{ with .Params.about }},"about": {
     "@type": "Thing",
-    "name": {{ . | jsonify }}
+    "name": {{ . | jsonify | safeJS }}
   }{{ end }}
 }
 </script>
@@ -138,7 +138,7 @@
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://oida-labs.com/" },
     { "@type": "ListItem", "position": 2, "name": "Insight", "item": "https://oida-labs.com/insights/" },
-    { "@type": "ListItem", "position": 3, "name": {{ .Title | jsonify }}, "item": "{{ .Permalink }}" }
+    { "@type": "ListItem", "position": 3, "name": {{ .Title | jsonify | safeJS }}, "item": "{{ .Permalink }}" }
   ]
 }
 </script>

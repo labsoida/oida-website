@@ -73,10 +73,10 @@
     {{- range $i, $faq := . }}{{ if $i }},{{ end }}
     {
       "@type": "Question",
-      "name": {{ $faq.q | jsonify }},
+      "name": {{ $faq.q | jsonify | safeJS }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": {{ $faq.a | jsonify }}
+        "text": {{ $faq.a | jsonify | safeJS }}
       }
     }
     {{- end }}
@@ -125,7 +125,7 @@
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://oida-labs.com/" },
     { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://oida-labs.com/blog/" },
-    { "@type": "ListItem", "position": 3, "name": {{ .Title | jsonify }}, "item": "{{ .Permalink }}" }
+    { "@type": "ListItem", "position": 3, "name": {{ .Title | jsonify | safeJS }}, "item": "{{ .Permalink }}" }
   ]
 }
 </script>
