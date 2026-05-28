@@ -89,11 +89,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 {{- $css := resources.Get "css/style.css" | resources.Minify | resources.Fingerprint -}}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous">
 
-<!-- Schema.org: ProfessionalService -->
+<!-- Schema.org: Organization (ProfessionalService + MedicalOrganization) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ProfessionalService",
+  "@type": ["ProfessionalService", "MedicalOrganization"],
+  "@id": "https://oida-labs.com/#organization",
   "name": "Oida Labs",
   "legalName": "OIDA Labs Sagl",
   "url": "https://oida-labs.com",
@@ -137,6 +138,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Progettazione Ambienti Chirurgici", "description": "Consulenza specialistica per ambulatori chirurgici e sale operatorie" } }
     ]
   }
+}
+</script>
+
+<!-- Schema.org: WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://oida-labs.com/#website",
+  "url": "https://oida-labs.com/",
+  "name": "Oida Labs",
+  "description": "{{ .Site.Params.description }}",
+  "inLanguage": "it-IT",
+  "publisher": { "@id": "https://oida-labs.com/#organization" }
 }
 </script>
 
