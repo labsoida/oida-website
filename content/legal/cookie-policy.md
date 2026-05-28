@@ -1,7 +1,7 @@
 ---
 title: "Cookie Policy"
 description: "Informativa sull'uso dei cookie sul sito di OIDA Labs SAGL ai sensi della LPD svizzera e del GDPR UE."
-updated: "21 maggio 2026"
+updated: "25 maggio 2026"
 type: "legal"
 layout: "single"
 sitemap:
@@ -94,7 +94,8 @@ La presente Cookie Policy può essere aggiornata in caso di modifiche tecniche o
 Per qualsiasi richiesta relativa all'uso dei cookie sul sito:
 
 **OIDA Labs SAGL**
-Via Antonio Vanoni 4, 6900 Lugano, Svizzera
+Piazza dell'Indipendenza 3, 6900 Lugano, Svizzera
+IDE: CHE-144.100.469
 Email: [info@oida-labs.com](mailto:info@oida-labs.com)
 
 Per ulteriori informazioni sul trattamento dei dati personali si rimanda alla [Privacy Policy](/legal/privacy-policy/) completa.

@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 description: "Informativa sul trattamento dei dati personali di OIDA Labs SAGL ai sensi della LPD svizzera e del GDPR UE."
-updated: "21 maggio 2026"
+updated: "25 maggio 2026"
 type: "legal"
 layout: "single"
 sitemap:
@@ -15,9 +15,9 @@ Il trattamento dei dati è conforme alla **Legge federale svizzera sulla protezi
 ## 1. Titolare del trattamento
 
 **OIDA Labs SAGL**
-Via Antonio Vanoni 4
+Piazza dell'Indipendenza 3
 6900 Lugano, Svizzera
-UID: CHE-144.100.469
+IDE: CHE-144.100.469
 
 **Contatti per richieste sulla privacy:**
 Email: [info@oida-labs.com](mailto:info@oida-labs.com)
