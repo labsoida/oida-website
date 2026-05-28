@@ -7,6 +7,9 @@
       <a href="mailto:{{ $d.email }}">{{ $d.email }}</a> &middot;
       <a href="https://{{ $d.website }}" target="_blank" rel="noopener">{{ $d.website }}</a>
     </p>
+    <p class="footer__legal-entity">
+      {{ $d.legal_name }} &middot; {{ $d.address }} &middot; IDE {{ $d.ide }}
+    </p>
     <p class="footer__copyright">&copy; {{ $d.copyright_year }} {{ $d.company_name }}. Tutti i diritti riservati.</p>
     <p class="footer__legal">
       {{ range $i, $link := $d.legal_links }}{{ if $i }} &middot; {{ end }}{{ if $link.cookie_settings }}<a href="#" data-cc="show-preferencesModal">{{ $link.text }}</a>{{ else }}<a href="{{ $link.url }}">{{ $link.text }}</a>{{ end }}{{ end }}
