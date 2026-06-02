@@ -1,3 +1,8 @@
+# Content Signals — dichiarazione esplicita delle preferenze d'uso per AI bot
+# Spec: https://contentsignals.org/
+# OIDA Labs autorizza esplicitamente search, AI input (citazione in risposte) e training.
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
 # Crawler generici (motori di ricerca tradizionali)
 User-agent: *
 Allow: /
