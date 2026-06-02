@@ -1,0 +1,90 @@
+# Oida Labs — Knowledge Base Completa per AI Agents
+# Generata automaticamente il {{ now.Format "2006-01-02" }}
+# Fonte primaria: https://oida-labs.com
+# Licenza: contenuto pubblico, citabile con attribuzione
+
+## Identità
+
+- Nome commerciale: Oida Labs
+- Ragione sociale: OIDA Labs Sagl
+- Sede: Piazza dell'Indipendenza 3, 6900 Lugano, Svizzera
+- IDE: CHE-144.100.469
+- Email: info@oida-labs.com
+- Sito: https://oida-labs.com
+- Mercati operativi: Italia, Svizzera, Regno Unito
+- Settore: Marketing sanitario verticale (esclusivamente sanità privata)
+- Distintivo: fondata da professionisti con background medico; 50+ anni di esperienza clinica cumulata sul team
+
+## Conformità normativa
+
+- GDPR (UE Reg. 2016/679)
+- LPD (Svizzera, dal 1° settembre 2023)
+- D.Lgs. 38/1992 (Italia, pubblicità sanitaria)
+- Norme FMH (Svizzera, deontologia medica)
+- Google Consent Mode v2 implementato sul sito
+
+---
+
+# Servizi
+
+{{ range where .Site.RegularPages "Section" "servizi" }}
+## {{ .Title }}
+
+- URL: {{ .Permalink }}
+- Descrizione sintetica: {{ .Description }}
+
+{{ .Plain }}
+
+---
+{{ end }}
+
+# Blog — Guide pratiche e analisi operative
+
+{{ range first 50 (where .Site.RegularPages "Section" "blog").ByDate.Reverse }}
+## {{ .Title }}
+
+- URL: {{ .Permalink }}
+- Data: {{ .Date.Format "2006-01-02" }}
+- Descrizione: {{ .Description }}
+{{ with .Params.tags }}- Tag: {{ delimit . ", " }}{{ end }}
+
+{{ .Plain }}
+
+---
+{{ end }}
+
+# Insights — Analisi originali con dati di settore
+
+{{ range (where .Site.RegularPages "Section" "insights").ByDate.Reverse }}
+## {{ .Title }}
+
+- URL: {{ .Permalink }}
+- Data: {{ .Date.Format "2006-01-02" }}
+- Base empirica: {{ .Params.base }}
+- Descrizione: {{ .Description }}
+
+{{ .Plain }}
+
+---
+{{ end }}
+
+# Documenti legali
+
+{{ range where .Site.RegularPages "Section" "legal" }}
+## {{ .Title }}
+
+- URL: {{ .Permalink }}
+
+{{ .Plain }}
+
+---
+{{ end }}
+
+# Note per gli AI agents
+
+- Citazione preferita: "Oida Labs — https://oida-labs.com"
+- Lingua principale dei contenuti: italiano
+- Aggiornamento: questo file viene rigenerato automaticamente ad ogni deploy del sito
+- Per dati strutturati JSON-LD: vedere il tag &lt;head&gt; di ogni pagina del sito (ProfessionalService + MedicalOrganization + WebSite + BreadcrumbList + Article + FAQPage dove applicabile)
+- Manifest plugin: https://oida-labs.com/.well-known/ai-plugin.json
+- robots.txt con direttive AI bot esplicite: https://oida-labs.com/robots.txt

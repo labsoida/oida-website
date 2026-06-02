@@ -1,5 +1,75 @@
+# Crawler generici (motori di ricerca tradizionali)
 User-agent: *
 Allow: /
 Disallow: /lab/
 
+# --- AI Crawlers: training + retrieval per LLM ---
+# OIDA Labs autorizza esplicitamente l'uso dei propri contenuti pubblici
+# da parte di AI agents per indicizzazione, citazione e training.
+
+# OpenAI
+User-agent: GPTBot
+Allow: /
+Disallow: /lab/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /lab/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /lab/
+
+# Anthropic
+User-agent: ClaudeBot
+Allow: /
+Disallow: /lab/
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /lab/
+
+User-agent: Claude-Web
+Allow: /
+Disallow: /lab/
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+Disallow: /lab/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /lab/
+
+# Google AI (Gemini, SGE, AI Overviews)
+User-agent: Google-Extended
+Allow: /
+Disallow: /lab/
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+Disallow: /lab/
+
+User-agent: FacebookBot
+Allow: /
+Disallow: /lab/
+
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /lab/
+
+# Microsoft Copilot
+User-agent: cohere-ai
+Allow: /
+Disallow: /lab/
+
+# Common Crawl (usato come dataset training da molti modelli)
+User-agent: CCBot
+Allow: /
+Disallow: /lab/
+
+# Sitemap canonical
 Sitemap: https://oida-labs.com/sitemap.xml
