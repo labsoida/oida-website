@@ -17,8 +17,18 @@ enableRobotsTXT = true
   isPlainText = true
   notAlternative = true
 
+# Custom output format: per-page markdown variant for AI agents
+# (es. /blog/foo/index.md affianca /blog/foo/index.html)
+[outputFormats.AgentMd]
+  mediaType = "text/markdown"
+  baseName = "index"
+  isPlainText = true
+  notAlternative = false
+  permalinkable = true
+
 [outputs]
   home = ["HTML", "RSS", "LlmsFull"]
+  page = ["HTML", "AgentMd"]
 
 [markup.goldmark.renderer]
   unsafe = true

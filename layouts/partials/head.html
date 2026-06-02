@@ -39,6 +39,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="{{ .Permalink }}">
 
+{{/* Markdown alternate per AI agents — solo dove esiste la variante .md */}}
+{{- range .AlternativeOutputFormats -}}
+  {{- if eq .MediaType.SubType "markdown" }}
+<link rel="alternate" type="text/markdown" href="{{ .Permalink }}" title="Markdown version for AI agents">
+  {{- end -}}
+{{- end -}}
+
 <!-- Open Graph -->
 <meta property="og:title" content="{{ $title }}">
 <meta property="og:description" content="{{ $description }}">
