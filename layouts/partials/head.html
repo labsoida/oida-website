@@ -36,7 +36,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 {{- end -}}
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $description }}">
+{{- if or (eq .Kind "taxonomy") (eq .Kind "term") -}}
+<meta name="robots" content="noindex, follow">
+{{- else -}}
 <meta name="robots" content="index, follow">
+{{- end }}
 <link rel="canonical" href="{{ .Permalink }}">
 
 {{/* Markdown alternate per AI agents — solo dove esiste la variante .md */}}
