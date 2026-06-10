@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, follow">
+<title>404 — Pagina non trovata | Oida Labs</title>
+<link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+@font-face{font-family:'Glaseer';src:url('/fonts/glaseer-stencil.woff2') format('woff2');font-display:swap}
+@font-face{font-family:'BankGothic';src:url('/fonts/bank-gothic.woff2') format('woff2');font-display:swap}
+*,*:before,*:after{box-sizing:border-box;margin:0;padding:0}
+body{background:#000;color:#ccc;font-family:'Barlow Semi Condensed',sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:32px;position:relative;overflow:hidden}
+/* starfield */
+body::before{content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:
+    radial-gradient(2px 2px at 8% 80%, rgba(0,194,178,.8) 50%, transparent 51%),
+    radial-gradient(3px 3px at 15% 90%, rgba(0,194,178,.5) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 24% 74%, rgba(0,194,178,.45) 50%, transparent 51%),
+    radial-gradient(2px 2px at 38% 86%, rgba(0,194,178,.55) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 30% 16%, rgba(0,194,178,.5) 50%, transparent 51%),
+    radial-gradient(2px 2px at 60% 8%, rgba(255,255,255,.3) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 78% 20%, rgba(0,194,178,.4) 50%, transparent 51%),
+    radial-gradient(3px 3px at 88% 76%, rgba(0,194,178,.45) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 93% 44%, rgba(0,194,178,.5) 50%, transparent 51%),
+    radial-gradient(2px 2px at 6% 34%, rgba(255,255,255,.25) 50%, transparent 51%);
+  background-repeat:no-repeat}
+.wrap{max-width:640px;text-align:center;position:relative;z-index:1}
+.kicker{font-family:'JetBrains Mono',monospace;color:#00C2B2;font-size:11px;letter-spacing:.2em;text-transform:uppercase;margin-bottom:36px}
+.droids{display:flex;justify-content:center;align-items:flex-end;gap:34px;margin-bottom:44px;height:130px}
+.droid{display:block;image-rendering:pixelated}
+.d1{width:96px;height:112px;transform-origin:50% 100%;animation:wobble 2.4s ease-in-out infinite}
+.d2{width:75px;height:120px;transform-origin:50% 100%;animation:tilt 3.2s ease-in-out infinite}
+.eye{animation:blink 3.8s steps(1) infinite}
+@keyframes wobble{0%,100%{transform:rotate(-2deg) translateX(-4px)}50%{transform:rotate(2.5deg) translateX(8px)}}
+@keyframes tilt{0%,100%{transform:rotate(1.5deg)}50%{transform:rotate(-2deg)}}
+@keyframes blink{0%,90%,100%{opacity:1}93%,97%{opacity:.1}}
+h1{font-family:'Glaseer',sans-serif;font-size:44px;color:#fff;text-transform:uppercase;line-height:1.05;letter-spacing:-.01em;margin-bottom:24px}
+p{font-size:18px;color:#999;line-height:1.6;max-width:480px;margin:0 auto 40px}
+p em{color:#ccc;font-style:normal}
+.btn{display:inline-block;padding:18px 36px;font-family:'BankGothic',sans-serif;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:#000;background:#00C2B2;text-decoration:none;font-weight:600;border:2px solid #fff;transition:background .15s,color .15s}
+.btn:hover{background:#fff}
+.note{margin-top:44px;font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#444;letter-spacing:.08em}
+.note a{color:#666;text-decoration:none}
+.note a:hover{color:#00C2B2}
+@media(max-width:600px){h1{font-size:30px}.droids{gap:22px;height:104px}.d1{width:76px;height:89px}.d2{width:60px;height:96px}}
+@media(prefers-reduced-motion:reduce){.d1,.d2,.eye{animation:none}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="kicker">// errore 404 · settore non mappato</div>
+
+  <div class="droids" aria-hidden="true">
+    <!-- D0 — droide a cupola (design originale OIDA) -->
+    <svg class="droid d1" viewBox="0 0 12 14" shape-rendering="crispEdges" xmlns="http://www.w3.org/2000/svg">
+      <rect x="4" y="0" width="4" height="1" fill="#8E8E8E"/>
+      <rect x="3" y="1" width="6" height="1" fill="#8E8E8E"/>
+      <rect x="2" y="2" width="8" height="1" fill="#9c9c9c"/>
+      <rect x="7" y="2" width="1" height="1" fill="#00C2B2" class="eye"/>
+      <rect x="2" y="3" width="8" height="1" fill="#474747"/>
+      <rect x="2" y="4" width="8" height="6" fill="#c4c4c4"/>
+      <rect x="3" y="5" width="2" height="1" fill="#474747"/>
+      <rect x="6" y="5" width="1" height="1" fill="#00C2B2"/>
+      <rect x="3" y="7" width="1" height="2" fill="#8E8E8E"/>
+      <rect x="8" y="6" width="1" height="3" fill="#8E8E8E"/>
+      <rect x="1" y="6" width="1" height="6" fill="#8E8E8E"/>
+      <rect x="10" y="6" width="1" height="6" fill="#8E8E8E"/>
+      <rect x="0" y="12" width="3" height="1" fill="#474747"/>
+      <rect x="9" y="12" width="3" height="1" fill="#474747"/>
+      <rect x="5" y="10" width="2" height="2" fill="#8E8E8E"/>
+      <rect x="4" y="12" width="4" height="1" fill="#474747"/>
+    </svg>
+    <!-- B1 — droide a torre (design originale OIDA) -->
+    <svg class="droid d2" viewBox="0 0 10 16" shape-rendering="crispEdges" xmlns="http://www.w3.org/2000/svg">
+      <rect x="6" y="0" width="1" height="2" fill="#8E8E8E"/>
+      <rect x="6" y="0" width="1" height="1" fill="#00C2B2"/>
+      <rect x="2" y="2" width="6" height="3" fill="#9c9c9c"/>
+      <rect x="3" y="3" width="1" height="1" fill="#00C2B2" class="eye"/>
+      <rect x="6" y="3" width="1" height="1" fill="#00C2B2" class="eye"/>
+      <rect x="4" y="5" width="2" height="1" fill="#474747"/>
+      <rect x="2" y="6" width="6" height="5" fill="#8E8E8E"/>
+      <rect x="4" y="7" width="2" height="1" fill="#00C2B2"/>
+      <rect x="3" y="9" width="4" height="1" fill="#474747"/>
+      <rect x="1" y="6" width="1" height="4" fill="#666"/>
+      <rect x="8" y="6" width="1" height="4" fill="#666"/>
+      <rect x="3" y="11" width="1" height="4" fill="#666"/>
+      <rect x="6" y="11" width="1" height="4" fill="#666"/>
+      <rect x="2" y="15" width="3" height="1" fill="#474747"/>
+      <rect x="5" y="15" width="3" height="1" fill="#474747"/>
+    </svg>
+  </div>
+
+  <h1>Questi non sono i droidi<br>che stai cercando.</h1>
+  <p>E questa non è la pagina che cercavi. Forse l'indirizzo è sbagliato, forse non è mai esistita. <em>O forse ha fatto la fine di Alderaan.</em></p>
+  <a class="btn" href="/">← Torna su Tatooine</a>
+  <div class="note">// se invece pensi sia colpa nostra: <a href="mailto:info@oida-labs.com">info@oida-labs.com</a></div>
+</main>
+</body>
+</html>

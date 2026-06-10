@@ -135,6 +135,71 @@
     });
   });
 
+  // --- Telemetria di bordo (per chi apre il cofano) ---
+  try {
+    var mono = 'font-family:monospace';
+    console.log('%c// OIDA-1 · BOOT SEQUENCE COMPLETE', 'color:#00C2B2;' + mono);
+    console.log('%c// all systems nominal · orbit stable · 46.0037° N, 8.9511° E', 'color:#999;' + mono);
+    console.log('%c// Klaatu barada nikto.', 'color:#999;' + mono);
+    console.log('%c// xyzzy', 'color:#444;' + mono);
+    console.log('%c// End of line.', 'color:#00C2B2;' + mono);
+  } catch (e) {}
+
+  // --- ↑↑↓↓←→←→BA ---
+  var seq = ['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight','b','a'];
+  var seqIdx = 0;
+  document.addEventListener('keydown', function (e) {
+    var k = e.key.length === 1 ? e.key.toLowerCase() : e.key;
+    if (k === seq[seqIdx]) {
+      seqIdx++;
+      if (seqIdx === seq.length) { seqIdx = 0; hyperspace(); }
+    } else {
+      seqIdx = (k === seq[0]) ? 1 : 0;
+    }
+  });
+
+  function hyperspace() {
+    if (prefersReducedMotion || document.getElementById('hyperspace')) return;
+    var c = document.createElement('canvas');
+    c.id = 'hyperspace';
+    c.style.cssText = 'position:fixed;inset:0;z-index:9999;pointer-events:none';
+    document.body.appendChild(c);
+    c.width = window.innerWidth;
+    c.height = window.innerHeight;
+    var ctx = c.getContext('2d');
+    var cx = c.width / 2, cy = c.height / 2;
+    var stars = [], i;
+    for (i = 0; i < 140; i++) {
+      stars.push({
+        a: Math.random() * Math.PI * 2,
+        d: 20 + Math.random() * Math.max(cx, cy),
+        s: 0.5 + Math.random() * 2
+      });
+    }
+    var t0 = performance.now();
+    var DURATION = 1400;
+    function frame(now) {
+      var t = (now - t0) / DURATION;
+      if (t >= 1) { c.remove(); return; }
+      ctx.clearRect(0, 0, c.width, c.height);
+      ctx.globalAlpha = t > .8 ? (1 - t) * 5 : 1;
+      var speed = Math.pow(t, 2) * 40 + 1;
+      for (i = 0; i < stars.length; i++) {
+        var s = stars[i];
+        var d1 = s.d + t * speed * 8;
+        var d2 = d1 + s.s * speed * 3;
+        ctx.strokeStyle = i % 5 === 0 ? 'rgba(255,255,255,.85)' : 'rgba(0,194,178,.8)';
+        ctx.lineWidth = s.s * (0.5 + t);
+        ctx.beginPath();
+        ctx.moveTo(cx + Math.cos(s.a) * d1, cy + Math.sin(s.a) * d1);
+        ctx.lineTo(cx + Math.cos(s.a) * d2, cy + Math.sin(s.a) * d2);
+        ctx.stroke();
+      }
+      requestAnimationFrame(frame);
+    }
+    requestAnimationFrame(frame);
+  }
+
   // --- Formspree AJAX form submission ---
   var form = document.getElementById('contact-form');
   if (form) {

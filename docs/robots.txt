@@ -79,3 +79,5 @@ Disallow: /lab/
 
 # Sitemap canonical
 Sitemap: https://oida-labs.com/sitemap.xml
+
+# Klaatu barada nikto.
