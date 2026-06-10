@@ -139,8 +139,11 @@ details > div{padding:0 32px 26px 116px;font-size:15.5px;color:var(--gray-6);lin
   -webkit-mask-image:linear-gradient(to top, rgba(0,0,0,1), transparent 85%);
   mask-image:linear-gradient(to top, rgba(0,0,0,1), transparent 85%);
 }
-.planet-rise svg{position:absolute;left:50%;bottom:-58%;transform:translateX(-50%);width:520px;height:520px;display:block}
-.planet-rise .pr-label{position:absolute;left:32px;bottom:24px;font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--gray-4);letter-spacing:.1em;text-transform:uppercase}
+.planet-rise svg{position:absolute;left:50%;bottom:-58%;transform:translateX(-50%);width:520px;height:520px;display:block;opacity:.5;filter:blur(.7px)}
+/* nebbia: sale dal fondo e vela la base del pianeta (Endor mood) */
+.planet-rise::after{content:"";position:absolute;left:0;right:0;bottom:0;height:180px;z-index:2;pointer-events:none;
+  background:linear-gradient(to top, rgba(0,0,0,.95), rgba(0,0,0,.5) 50%, transparent)}
+.planet-rise .pr-label{position:absolute;left:32px;bottom:24px;z-index:3;font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--gray-4);letter-spacing:.1em;text-transform:uppercase}
 .planet-rise .pr-label b{color:var(--teal);font-weight:400}
 
 /* === FOOTER === */

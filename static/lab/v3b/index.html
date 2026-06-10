@@ -55,7 +55,7 @@ body{background:var(--bg);color:var(--ink);font-family:'Barlow Semi Condensed',s
 /* === HERO: composizione "copertina insight" === */
 .hero{border-bottom:var(--cut);position:relative;overflow:hidden;min-height:680px}
 /* pianeta che spunta dal bordo destro, tagliato come in copertina */
-.hero-planet{position:absolute;right:-180px;top:50%;transform:translateY(-50%);width:560px;height:560px;z-index:1;pointer-events:none}
+.hero-planet{position:absolute;right:-180px;top:50%;transform:translateY(-50%);width:560px;height:560px;z-index:1;pointer-events:none;opacity:.72;filter:blur(.4px)}
 /* fascio anelli: attraversa tutto l'hero all'equatore del pianeta */
 .hero-rings{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);height:64px;z-index:1;pointer-events:none;
   background:repeating-linear-gradient(to bottom, rgba(0,194,178,.5) 0 1px, transparent 1px 8px);
@@ -135,7 +135,10 @@ details > div{padding:0 32px 26px 116px;font-size:15.5px;color:var(--gray-6);lin
 
 /* === CTA FINAL: il pianeta sorge dietro la call-to-action === */
 .cta-wrap{position:relative;overflow:hidden;border-bottom:var(--cut)}
-.cta-planet{position:absolute;left:50%;bottom:-340px;transform:translateX(-50%);width:760px;height:760px;z-index:0;pointer-events:none;opacity:.92}
+.cta-planet{position:absolute;left:50%;bottom:-340px;transform:translateX(-50%);width:760px;height:760px;z-index:0;pointer-events:none;opacity:.45;filter:blur(.8px)}
+/* nebbia alla base: il pianeta sorge velato (Endor mood) */
+.cta-wrap::after{content:"";position:absolute;left:0;right:0;bottom:0;height:240px;z-index:1;pointer-events:none;
+  background:linear-gradient(to top, rgba(0,0,0,.96), rgba(0,0,0,.55) 45%, transparent)}
 .cta-rings{position:absolute;left:0;right:0;bottom:0;height:220px;z-index:0;pointer-events:none;
   background:repeating-linear-gradient(to top, rgba(0,194,178,.3) 0 1px, transparent 1px 13px);
   -webkit-mask-image:linear-gradient(to top, rgba(0,0,0,1), transparent 88%);
