@@ -72,16 +72,16 @@ body{background:var(--bg);color:var(--ink);font-family:'Barlow Semi Condensed',s
     radial-gradient(1.5px 1.5px at 22% 32%, rgba(0,194,178,.4) 50%, transparent 51%),
     radial-gradient(2px 2px at 6% 44%, rgba(255,255,255,.22) 50%, transparent 51%);
   background-repeat:no-repeat}
-.hero-planet{position:absolute;right:-180px;top:42%;transform:translateY(-50%);width:560px;height:560px;z-index:2;pointer-events:none;filter:blur(.3px)}
+.hero-planet{position:absolute;right:-260px;top:42%;transform:translateY(-50%);width:720px;height:720px;z-index:2;pointer-events:none;filter:blur(.3px)}
 /* fascio di anelli che attraversa il pianeta (z-index sopra) e svanisce alla luce del dot teal */
-.hero-rings{position:absolute;left:0;right:0;top:42%;transform:translateY(-50%);height:60px;z-index:3;pointer-events:none;
-  background:repeating-linear-gradient(to bottom, rgba(0,194,178,.6) 0 0.5px, transparent 0.5px 4px);
-  -webkit-mask-image:radial-gradient(circle 90px at calc(100% - 100px) 50%, transparent 0%, transparent 30%, #000 100%), linear-gradient(to right, transparent 0%, #000 8%, #000 100%);
-  mask-image:radial-gradient(circle 90px at calc(100% - 100px) 50%, transparent 0%, transparent 30%, #000 100%), linear-gradient(to right, transparent 0%, #000 8%, #000 100%);
+.hero-rings{position:absolute;left:0;right:0;top:42%;transform:translateY(-50%);height:84px;z-index:3;pointer-events:none;
+  background:repeating-linear-gradient(to bottom, rgba(0,194,178,.62) 0 0.5px, transparent 0.5px 4px);
+  -webkit-mask-image:radial-gradient(circle 120px at calc(100% - 100px) 50%, transparent 0%, transparent 30%, #000 100%), linear-gradient(to right, transparent 0%, #000 8%, #000 100%), linear-gradient(to bottom, transparent 0%, #000 26%, #000 74%, transparent 100%);
+  mask-image:radial-gradient(circle 120px at calc(100% - 100px) 50%, transparent 0%, transparent 30%, #000 100%), linear-gradient(to right, transparent 0%, #000 8%, #000 100%), linear-gradient(to bottom, transparent 0%, #000 26%, #000 74%, transparent 100%);
   -webkit-mask-composite:source-in;
   mask-composite:intersect}
 /* alone luminoso teal centrato sul dot (la luce che spegne le righe) */
-.hero-glow{position:absolute;right:-180px;top:42%;width:560px;height:560px;transform:translateY(-50%);z-index:4;pointer-events:none;
+.hero-glow{position:absolute;right:-260px;top:42%;width:720px;height:720px;transform:translateY(-50%);z-index:4;pointer-events:none;
   background:radial-gradient(circle at 50% 50%, rgba(0,194,178,.5) 0%, rgba(0,194,178,.15) 14%, transparent 30%);
   mix-blend-mode:screen}
 .hero-content{position:relative;z-index:4;max-width:1280px;margin:0 auto;padding:110px 32px 90px}
@@ -111,11 +111,17 @@ h1 span{color:var(--teal)}
 .chi-text p{font-size:18px;line-height:1.7;margin-bottom:20px;max-width:660px}
 .chi-text p:first-child{font-size:27px;font-weight:500;color:var(--teal);line-height:1.3;margin-bottom:30px}
 .chi-text p strong{color:var(--ink);font-weight:600}
-.chi-kpi{padding:32px;display:flex;flex-direction:column;justify-content:space-around;gap:22px}
-.chi-kpi-item{padding-bottom:22px;border-bottom:var(--hairline)}
-.chi-kpi-item:last-child{border-bottom:none}
-.chi-kpi-num{font-family:'Glaseer',sans-serif;font-size:50px;color:var(--teal);line-height:1;margin-bottom:8px}
-.chi-kpi-label{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--gray-5);letter-spacing:.1em;text-transform:uppercase}
+/* === BOX TEAM (sostituisce KPI laterali, layout 2/3 + 1/3 mantenuto) === */
+.chi-team-link{padding:36px 32px;display:flex;flex-direction:column;gap:22px;justify-content:space-between}
+.ctl-label{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.16em;text-transform:uppercase}
+.ctl-title{font-family:'Glaseer',sans-serif;font-size:34px;color:var(--ink);text-transform:uppercase;line-height:1;letter-spacing:-.01em}
+.ctl-desc{font-size:14.5px;color:var(--gray-6);line-height:1.6;flex:1}
+.ctl-mosaic{display:flex;gap:8px;margin:8px 0 4px}
+.ctl-mosaic span{display:block;width:38px;height:38px;border:1px solid var(--gray-3);background:linear-gradient(135deg,var(--gray-2) 0%,var(--gray-1) 100%);position:relative}
+.ctl-mosaic span::after{content:"";position:absolute;left:50%;top:48%;transform:translate(-50%,-50%);width:14px;height:14px;border-radius:50%;background:var(--gray-3)}
+.ctl-mosaic span:nth-child(3)::after{background:var(--teal);opacity:.5}
+.ctl-btn{display:inline-flex;align-items:center;gap:14px;padding:16px 22px;border:var(--cut);text-decoration:none;color:var(--ink);font-family:'BankGothic',sans-serif;font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;background:var(--bg);transition:background .15s,color .15s;align-self:flex-start}
+.ctl-btn:hover{background:var(--teal);color:#000}
 
 /* === SERVIZI === */
 .srv-row{display:grid;grid-template-columns:80px 1fr 1.4fr 60px;align-items:stretch;border-bottom:var(--hairline);text-decoration:none;color:inherit;transition:background .15s}
@@ -163,10 +169,9 @@ h1 span{color:var(--teal)}
 /* === FAQ COMPATTA (B+C: sotto contatti, accordion compatto) === */
 .faq-wrap{max-width:760px;margin:0 auto;padding:0 32px}
 .faq-section{padding:64px 0 48px}
-.faq-section .s-header{grid-template-columns:60px 1fr auto;border:none;margin:0 0 24px}
-.faq-section .s-num{font-size:32px;padding:14px 0}
+.faq-section .s-header{grid-template-columns:1fr auto;border:none;margin:0 0 24px}
 .faq-section .s-title{font-size:24px}
-.faq-section .s-titlebox{padding:14px 24px}
+.faq-section .s-titlebox{padding:14px 0;border-right:none}
 .faq-section .s-meta{padding:14px 0;font-size:10.5px}
 .faq-intro{font-size:13.5px;color:var(--gray-5);font-family:'JetBrains Mono',monospace;letter-spacing:.04em;margin-bottom:28px;padding:0 0 18px;border-bottom:var(--hairline)}
 details{border-bottom:var(--hairline);padding:0}
@@ -181,7 +186,7 @@ details[open] summary{color:var(--ink)}
 details > div{padding:0 0 18px 56px;font-size:13.5px;color:var(--gray-5);line-height:1.7}
 
 /* === FOOTER (no stelline) === */
-footer{padding:32px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:32px;font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--gray-5);line-height:1.7;border-top:var(--hairline)}
+footer{padding:32px;display:grid;grid-template-columns:repeat(4,1fr);gap:32px;font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--gray-5);line-height:1.7;border-top:var(--hairline)}
 footer strong{color:var(--ink);text-transform:uppercase;letter-spacing:.06em;font-size:10.5px;display:block;margin-bottom:8px}
 footer a{color:var(--gray-5);text-decoration:none;display:block;transition:color .15s}
 footer a:hover{color:var(--teal)}
@@ -192,10 +197,12 @@ footer a:hover{color:var(--teal)}
   .nav-inner{grid-template-columns:1fr auto}
   .nav-links{display:none}
   .hero{min-height:0}
-  .hero-planet{width:300px;height:300px;right:-130px;top:auto;bottom:-60px;transform:none}
-  .hero-rings{top:auto;bottom:74px;transform:none;height:42px;
-    -webkit-mask-image:radial-gradient(circle 90px at calc(100% - 60px) 50%, transparent 0%, transparent 35%, #000 100%), linear-gradient(to right, transparent 0%, #000 8%, #000 100%);
-    mask-image:radial-gradient(circle 90px at calc(100% - 60px) 50%, transparent 0%, transparent 35%, #000 100%), linear-gradient(to right, transparent 0%, #000 8%, #000 100%)}
+  .hero-planet{width:340px;height:340px;right:-150px;top:auto;bottom:-60px;transform:none}
+  .hero-glow{display:none}
+  .hero-rings{top:auto;bottom:78px;transform:none;height:50px;
+    -webkit-mask-image:radial-gradient(circle 70px at calc(100% - 60px) 50%, transparent 0%, transparent 35%, #000 100%), linear-gradient(to right, transparent 0%, #000 8%, #000 100%), linear-gradient(to bottom, transparent 0%, #000 26%, #000 74%, transparent 100%);
+    mask-image:radial-gradient(circle 70px at calc(100% - 60px) 50%, transparent 0%, transparent 35%, #000 100%), linear-gradient(to right, transparent 0%, #000 8%, #000 100%), linear-gradient(to bottom, transparent 0%, #000 26%, #000 74%, transparent 100%);
+    -webkit-mask-composite:source-in;mask-composite:intersect}
   .hero-content{padding:72px 18px 150px}
   .hero-telemetry{display:none}
   .s-header{grid-template-columns:56px 1fr}
@@ -233,7 +240,6 @@ footer a:hover{color:var(--teal)}
       <a href="#servizi" data-section="servizi">02 Servizi</a>
       <a href="#perche" data-section="perche">03 Perché</a>
       <a href="#contatti" data-section="contatti">04 Contatti</a>
-      <a href="#faq" data-section="faq">05 FAQ</a>
     </div>
     <div class="nav-meta">IT · CH · UK / Lugano</div>
   </div>
@@ -275,10 +281,12 @@ footer a:hover{color:var(--teal)}
       <p>[... lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Paragrafo intermedio da scrivere — il sito originale ha solo intro + closing ...]</p>
       <p>Se stai cercando qualcuno che capisca senza dover spiegare tutto dall'inizio, sei nel posto giusto.</p>
     </div>
-    <div class="chi-kpi">
-      <div class="chi-kpi-item"><div class="chi-kpi-num">50+</div><div class="chi-kpi-label">Anni esperienza</div></div>
-      <div class="chi-kpi-item"><div class="chi-kpi-num">100%</div><div class="chi-kpi-label">Verticali sanità</div></div>
-      <div class="chi-kpi-item"><div class="chi-kpi-num" style="font-size:30px">IT · CH · UK</div><div class="chi-kpi-label">Mercati attivi</div></div>
+    <div class="chi-team-link">
+      <div class="ctl-label">// CREW · 05</div>
+      <div class="ctl-title">[... LOREM IPSUM ...]</div>
+      <div class="ctl-desc">[... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Descrizione breve del box team da scrivere — qualche riga che invita ad approfondire chi sono le persone dietro l'agenzia ...]</div>
+      <div class="ctl-mosaic" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+      <a class="ctl-btn" href="team/">Conosci il team →</a>
     </div>
   </div>
 </section>
@@ -328,8 +336,8 @@ footer a:hover{color:var(--teal)}
   </div>
   <div class="cta-final">
     <div class="cta-final-text">
-      <h2>[... Lorem <span>ipsum</span> ...]</h2>
-      <p>[... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Headline + paragrafo introduttivo della CTA contatti — il sito originale ha solo il form, qui serve un copy di apertura da definire ...]</p>
+      <h2>Hai ancora domande? <span>Bene.</span></h2>
+      <p>Sono esattamente quelle di cui vogliamo parlare.</p>
     </div>
     <div class="cta-final-action">
       <a href="mailto:info@oida-labs.com">info@oida-labs.com</a>
@@ -338,12 +346,19 @@ footer a:hover{color:var(--teal)}
   </div>
 </section>
 
-<div class="rings-divider" aria-hidden="true"></div>
+<div class="planet-rise" aria-hidden="true">
+  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="50" cy="50" r="45" fill="#474747"/>
+    <circle cx="50" cy="50" r="27" fill="#000"/>
+    <rect x="0" y="46" width="100" height="8" fill="#000"/>
+    <circle cx="50" cy="50" r="5.5" fill="#0a8478"/>
+  </svg>
+  <div class="pr-label">// OIDA-1 <b>·</b> ORBIT STABLE <b>·</b> 46.0037° N, 8.9511° E</div>
+</div>
 
 <section id="faq" class="faq-section">
   <div class="faq-wrap">
     <div class="s-header">
-      <div class="s-num">05</div>
       <div class="s-titlebox"><div class="s-label">// FAQ</div><div class="s-title">Quello che ci chiedono</div></div>
       <div class="s-meta">07 risposte</div>
     </div>
@@ -358,19 +373,10 @@ footer a:hover{color:var(--teal)}
   </div>
 </section>
 
-<div class="planet-rise" aria-hidden="true">
-  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="50" cy="50" r="45" fill="#474747"/>
-    <circle cx="50" cy="50" r="27" fill="#000"/>
-    <rect x="0" y="46" width="100" height="8" fill="#000"/>
-    <circle cx="50" cy="50" r="5.5" fill="#0a8478"/>
-  </svg>
-  <div class="pr-label">// OIDA-1 <b>·</b> ORBIT STABLE <b>·</b> 46.0037° N, 8.9511° E</div>
-</div>
-
 <footer>
   <div><strong>// AGENZIA</strong>Oida Labs SAGL<br>Piazza dell'Indipendenza 3<br>6900 Lugano (CH)<br>IDE CHE-144.100.469</div>
   <div><strong>// CONTATTI</strong>info@oida-labs.com<br>oida-labs.com<br><br><strong>// SOCIAL</strong><a href="https://linkedin.com/company/oidalabs">LinkedIn</a></div>
+  <div><strong>// EDITORIALE</strong><a href="/insights/">Insights</a><a href="/blog/">Blog</a><br><br><strong>// TEAM</strong><a href="team/">Le persone</a></div>
   <div><strong>// LEGAL</strong><a href="/legal/privacy-policy/">Privacy Policy</a><a href="/legal/cookie-policy/">Cookie Policy</a><br><br>© 2026 Oida Labs · v4.lab</div>
 </footer>
 
