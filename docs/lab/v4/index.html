@@ -155,10 +155,11 @@ h1 span{color:var(--teal)}
 
 /* === PLANET-RISE: chiusura pagina prima del footer (stile v3a, anelli fitti+saturi) === */
 .planet-rise{position:relative;height:320px;overflow:hidden;border-top:var(--cut)}
-.planet-rise::before{content:"";position:absolute;left:0;right:0;bottom:0;height:240px;pointer-events:none;
-  background:repeating-linear-gradient(to top, rgba(0,194,178,.55) 0 1px, transparent 1px 7px);
-  -webkit-mask-image:linear-gradient(to top, rgba(0,0,0,1), transparent 85%);
-  mask-image:linear-gradient(to top, rgba(0,0,0,1), transparent 85%)}
+/* righe orizzontali: partono dal sommo dell'arco grigio del pianeta (y≈50px dal top) e scendono fino al fondo. Numero dimezzato (pitch 14). */
+.planet-rise::before{content:"";position:absolute;left:0;right:0;bottom:0;height:270px;pointer-events:none;
+  background:repeating-linear-gradient(to top, rgba(0,194,178,.5) 0 1px, transparent 1px 14px);
+  -webkit-mask-image:linear-gradient(to top, rgba(0,0,0,1) 94%, transparent 100%);
+  mask-image:linear-gradient(to top, rgba(0,0,0,1) 94%, transparent 100%)}
 .planet-rise svg{position:absolute;left:50%;top:24px;transform:translateX(-50%);width:520px;height:520px;display:block;filter:blur(.7px)}
 /* banco di nebbia: vela la base del pianeta (Endor mood) */
 .planet-rise::after{content:"";position:absolute;left:0;right:0;bottom:0;height:180px;z-index:2;pointer-events:none;
