@@ -131,7 +131,7 @@ details > div{padding:0 32px 26px 116px;font-size:15.5px;color:var(--gray-6);lin
 .cta-final-action a:hover{background:var(--ink);color:#000}
 
 /* === PLANET RISE (chiusura pagina) === */
-.planet-rise{position:relative;height:300px;overflow:hidden;border-top:var(--cut)}
+.planet-rise{position:relative;height:320px;overflow:hidden;border-top:var(--cut)}
 /* anelli/orizzonte in prospettiva che svanisce salendo */
 .planet-rise::before{
   content:"";position:absolute;left:0;right:0;bottom:0;height:240px;pointer-events:none;
@@ -139,7 +139,7 @@ details > div{padding:0 32px 26px 116px;font-size:15.5px;color:var(--gray-6);lin
   -webkit-mask-image:linear-gradient(to top, rgba(0,0,0,1), transparent 85%);
   mask-image:linear-gradient(to top, rgba(0,0,0,1), transparent 85%);
 }
-.planet-rise svg{position:absolute;left:50%;bottom:-58%;transform:translateX(-50%);width:520px;height:520px;display:block;opacity:.5;filter:blur(.7px)}
+.planet-rise svg{position:absolute;left:50%;top:24px;transform:translateX(-50%);width:520px;height:520px;display:block;opacity:.5;filter:blur(.7px)}
 /* nebbia: sale dal fondo e vela la base del pianeta (Endor mood) */
 .planet-rise::after{content:"";position:absolute;left:0;right:0;bottom:0;height:180px;z-index:2;pointer-events:none;
   background:linear-gradient(to top, rgba(0,0,0,.95), rgba(0,0,0,.5) 50%, transparent)}
@@ -172,8 +172,8 @@ footer a:hover{color:var(--teal)}
   .cta-final-text h2{font-size:34px}
   .hero-cta-block{flex-direction:column}
   .hero-cta-block a:first-child{border-right:none;border-bottom:var(--cut)}
-  .planet-rise{height:200px}
-  .planet-rise svg{width:340px;height:340px;bottom:-52%}
+  .planet-rise{height:210px}
+  .planet-rise svg{width:340px;height:340px;top:16px}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
