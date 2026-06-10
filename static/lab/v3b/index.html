@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>OIDA Lab v3b — Spazio profondo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+@font-face{font-family:'Glaseer';src:url('/fonts/glaseer-stencil.woff2') format('woff2');font-display:swap}
+@font-face{font-family:'BankGothic';src:url('/fonts/bank-gothic.woff2') format('woff2');font-display:swap}
+*,*:before,*:after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#000;--ink:#fff;--teal:#00C2B2;
+  --gray-1:#0d0d0d;--gray-2:#1a1a1a;--gray-3:#2c2c2c;--gray-4:#666;--gray-5:#999;--gray-6:#ccc;
+  --planet-gray:#8E8E8E;
+  --hairline:1px solid var(--gray-3);
+  --cut:2px solid var(--ink);
+}
+body{background:var(--bg);color:var(--ink);font-family:'Barlow Semi Condensed',sans-serif;font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+
+/* === STARFIELD === */
+.starfield{position:relative}
+.starfield::before{
+  content:"";position:absolute;inset:0;pointer-events:none;z-index:0;
+  background-image:
+    radial-gradient(1px 1px at 12% 12%, rgba(0,194,178,.8) 50%, transparent 51%),
+    radial-gradient(1px 1px at 31% 6%,  rgba(0,194,178,.45) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 47% 16%, rgba(0,194,178,.65) 50%, transparent 51%),
+    radial-gradient(1px 1px at 58% 9%,  rgba(255,255,255,.4) 50%, transparent 51%),
+    radial-gradient(2px 2px at 23% 24%, rgba(0,194,178,.55) 50%, transparent 51%),
+    radial-gradient(1px 1px at 67% 26%, rgba(255,255,255,.3) 50%, transparent 51%),
+    radial-gradient(1px 1px at 8% 38%,  rgba(0,194,178,.4) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 41% 34%, rgba(0,194,178,.5) 50%, transparent 51%),
+    radial-gradient(1px 1px at 73% 44%, rgba(0,194,178,.3) 50%, transparent 51%),
+    radial-gradient(2px 2px at 16% 56%, rgba(0,194,178,.35) 50%, transparent 51%),
+    radial-gradient(1px 1px at 54% 52%, rgba(255,255,255,.22) 50%, transparent 51%),
+    radial-gradient(1px 1px at 36% 64%, rgba(0,194,178,.28) 50%, transparent 51%);
+  background-repeat:no-repeat;
+}
+.starfield > *{position:relative;z-index:2}
+
+/* === NAV === */
+.nav{position:sticky;top:0;z-index:100;background:var(--bg);border-bottom:var(--cut)}
+.nav-inner{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:auto 1fr auto;align-items:stretch}
+.nav-logo{padding:18px 32px;border-right:var(--hairline);display:flex;align-items:center}
+.nav-logo img{height:38px;display:block}
+.nav-links{display:flex}
+.nav-links a{padding:0 22px;display:flex;align-items:center;font-family:'BankGothic',sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);text-decoration:none;border-right:var(--hairline);transition:background .15s,color .15s}
+.nav-links a:hover,.nav-links a.active{background:var(--teal);color:#000}
+.nav-meta{padding:18px 32px;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--gray-5);display:flex;align-items:center;letter-spacing:.04em}
+
+/* === HERO: composizione "copertina insight" === */
+.hero{border-bottom:var(--cut);position:relative;overflow:hidden;min-height:680px}
+/* pianeta che spunta dal bordo destro, tagliato come in copertina */
+.hero-planet{position:absolute;right:-180px;top:50%;transform:translateY(-50%);width:560px;height:560px;z-index:1;pointer-events:none}
+/* fascio anelli: attraversa tutto l'hero all'equatore del pianeta */
+.hero-rings{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);height:64px;z-index:1;pointer-events:none;
+  background:repeating-linear-gradient(to bottom, rgba(0,194,178,.5) 0 1px, transparent 1px 8px);
+  -webkit-mask-image:linear-gradient(to right, rgba(0,0,0,.9), rgba(0,0,0,.25) 45%, rgba(0,0,0,.95));
+  mask-image:linear-gradient(to right, rgba(0,0,0,.9), rgba(0,0,0,.25) 45%, rgba(0,0,0,.95));
+}
+.hero-content{position:relative;z-index:2;max-width:1280px;margin:0 auto;padding:110px 32px 90px;max-width:1280px}
+.hero-tag-row{display:flex;gap:24px;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--gray-5);letter-spacing:.06em;margin-bottom:64px}
+.hero-tag-row .t{color:var(--teal)}
+h1{font-family:'Glaseer',sans-serif;font-size:84px;line-height:.96;letter-spacing:-.02em;text-transform:uppercase;margin-bottom:44px;max-width:880px;text-shadow:0 0 40px rgba(0,0,0,.9)}
+h1 span{color:var(--teal)}
+.hero-sub{font-size:20px;line-height:1.55;color:var(--gray-6);max-width:560px;margin-bottom:48px;text-shadow:0 1px 16px rgba(0,0,0,.95)}
+.hero-cta-block{display:flex;align-items:stretch;border:var(--cut);max-width:460px;background:var(--bg)}
+.hero-cta-block a{flex:1;padding:20px 26px;font-family:'BankGothic',sans-serif;font-size:12.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);text-decoration:none;background:var(--bg);transition:background .15s,color .15s;display:flex;align-items:center;justify-content:space-between;font-weight:600}
+.hero-cta-block a:first-child{background:var(--teal);color:#000;border-right:var(--cut)}
+.hero-cta-block a:hover{background:var(--ink);color:#000}
+/* telemetria in basso a destra dell'hero */
+.hero-telemetry{position:absolute;right:32px;bottom:24px;z-index:2;font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--gray-4);letter-spacing:.08em;text-align:right;line-height:1.8}
+.hero-telemetry b{color:var(--teal);font-weight:400}
+
+/* === SECTION HEADER === */
+.s-header{display:grid;grid-template-columns:80px 1fr auto;border-bottom:var(--cut);border-top:var(--cut);align-items:stretch;margin-top:-2px}
+.s-num{padding:28px 32px;border-right:var(--hairline);font-family:'Glaseer',sans-serif;font-size:44px;color:var(--teal);line-height:1;display:flex;align-items:center}
+.s-titlebox{padding:28px 32px;border-right:var(--hairline)}
+.s-label{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.16em;text-transform:uppercase;margin-bottom:8px}
+.s-title{font-family:'Glaseer',sans-serif;font-size:38px;text-transform:uppercase;line-height:1;letter-spacing:-.01em}
+.s-meta{padding:28px 32px;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--gray-5);display:flex;align-items:center}
+
+/* === CHI === */
+.chi-grid{display:grid;grid-template-columns:1fr 1fr 1fr}
+.chi-text{grid-column:span 2;padding:56px 32px;border-right:var(--hairline)}
+.chi-text p{font-size:18px;line-height:1.7;margin-bottom:20px;max-width:660px}
+.chi-text p:first-child{font-size:27px;font-weight:500;color:var(--teal);line-height:1.3;margin-bottom:30px}
+.chi-text p strong{color:var(--ink);font-weight:600}
+.chi-kpi{padding:32px;display:flex;flex-direction:column;justify-content:space-around;gap:22px}
+.chi-kpi-item{padding-bottom:22px;border-bottom:var(--hairline)}
+.chi-kpi-item:last-child{border-bottom:none}
+.chi-kpi-num{font-family:'Glaseer',sans-serif;font-size:50px;color:var(--teal);line-height:1;margin-bottom:8px}
+.chi-kpi-label{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--gray-5);letter-spacing:.1em;text-transform:uppercase}
+
+/* === SERVIZI === */
+.srv-row{display:grid;grid-template-columns:80px 1fr 1.4fr 60px;align-items:stretch;border-bottom:var(--hairline);text-decoration:none;color:inherit;transition:background .15s}
+.srv-row:hover{background:var(--gray-1)}
+.srv-row:hover .srv-arrow{color:var(--teal);transform:translateX(4px)}
+.srv-row:last-child{border-bottom:none}
+.srv-rownum{padding:26px 32px;font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--gray-5);border-right:var(--hairline);display:flex;align-items:center}
+.srv-rowtitle{padding:26px 32px;font-family:'Glaseer',sans-serif;font-size:23px;text-transform:uppercase;line-height:1.1;border-right:var(--hairline);display:flex;align-items:center;color:var(--ink)}
+.srv-rowdesc{padding:26px 32px;font-size:15px;color:var(--gray-6);line-height:1.6;display:flex;flex-direction:column;justify-content:center;border-right:var(--hairline)}
+.srv-rowdesc em{color:var(--gray-5);font-style:italic;font-size:13.5px;display:block;margin-bottom:6px}
+.srv-arrow{padding:26px;font-family:'JetBrains Mono',monospace;font-size:18px;color:var(--gray-4);display:flex;align-items:center;justify-content:center;transition:color .15s,transform .15s}
+
+/* === PERCHE: con divisore "anelli in prospettiva" sopra === */
+.rings-divider{height:90px;position:relative;overflow:hidden}
+.rings-divider::before{
+  content:"";position:absolute;inset:0;
+  background:repeating-linear-gradient(to top, rgba(0,194,178,.4) 0 1px, transparent 1px 12px);
+  -webkit-mask-image:linear-gradient(to top, rgba(0,0,0,.9), transparent 92%);
+  mask-image:linear-gradient(to top, rgba(0,0,0,.9), transparent 92%);
+}
+.perche-grid{display:grid;grid-template-columns:repeat(3,1fr)}
+.perche-cell{padding:60px 32px;border-right:var(--hairline)}
+.perche-cell:last-child{border-right:none}
+.perche-marker{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.16em;margin-bottom:22px}
+.perche-h{font-family:'Glaseer',sans-serif;font-size:30px;text-transform:uppercase;color:var(--ink);line-height:1.05;margin-bottom:22px}
+.perche-p{font-size:15px;color:var(--gray-6);line-height:1.65}
+
+/* === FAQ === */
+details{border-bottom:var(--hairline)}
+details:last-child{border-bottom:none}
+summary{cursor:pointer;list-style:none;padding:26px 32px;display:grid;grid-template-columns:60px 1fr 60px;align-items:center;gap:24px;font-size:17.5px;color:var(--ink);font-weight:500;transition:background .15s}
+summary:hover{background:var(--gray-1)}
+summary::-webkit-details-marker{display:none}
+.faq-num{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--teal)}
+.faq-plus{font-family:'JetBrains Mono',monospace;font-size:22px;color:var(--teal);text-align:right;transition:transform .2s}
+details[open] .faq-plus{transform:rotate(45deg)}
+details > div{padding:0 32px 26px 116px;font-size:15.5px;color:var(--gray-6);line-height:1.7;max-width:920px}
+
+/* === CTA FINAL: il pianeta sorge dietro la call-to-action === */
+.cta-wrap{position:relative;overflow:hidden;border-bottom:var(--cut)}
+.cta-planet{position:absolute;left:50%;bottom:-340px;transform:translateX(-50%);width:760px;height:760px;z-index:0;pointer-events:none;opacity:.92}
+.cta-rings{position:absolute;left:0;right:0;bottom:0;height:220px;z-index:0;pointer-events:none;
+  background:repeating-linear-gradient(to top, rgba(0,194,178,.3) 0 1px, transparent 1px 13px);
+  -webkit-mask-image:linear-gradient(to top, rgba(0,0,0,1), transparent 88%);
+  mask-image:linear-gradient(to top, rgba(0,0,0,1), transparent 88%);
+}
+.cta-final{position:relative;z-index:2;padding:110px 32px 200px;text-align:center}
+.cta-final h2{font-family:'Glaseer',sans-serif;font-size:66px;line-height:1;text-transform:uppercase;margin-bottom:24px;letter-spacing:-.015em;text-shadow:0 0 50px rgba(0,0,0,.95)}
+.cta-final h2 span{color:var(--teal)}
+.cta-final p{font-size:18px;color:var(--gray-6);max-width:540px;line-height:1.55;margin:0 auto 44px;text-shadow:0 1px 18px rgba(0,0,0,.95)}
+.cta-final-action{display:inline-flex;border:var(--cut);background:var(--bg)}
+.cta-final-action a{display:block;padding:24px 44px;font-family:'BankGothic',sans-serif;font-size:13px;letter-spacing:.18em;text-transform:uppercase;text-decoration:none;font-weight:600;transition:background .15s,color .15s}
+.cta-final-action a:first-child{background:var(--teal);color:#000;border-right:var(--cut)}
+.cta-final-action a:last-child{background:var(--bg);color:var(--ink)}
+.cta-final-action a:hover{background:var(--ink);color:#000}
+
+/* === FOOTER === */
+footer{padding:32px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:32px;font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--gray-5);line-height:1.7}
+footer strong{color:var(--ink);text-transform:uppercase;letter-spacing:.06em;font-size:10.5px;display:block;margin-bottom:8px}
+footer a{color:var(--gray-5);text-decoration:none;display:block;transition:color .15s}
+footer a:hover{color:var(--teal)}
+
+@media(max-width:900px){
+  h1{font-size:46px}
+  .s-title{font-size:30px}
+  .nav-inner{grid-template-columns:1fr auto}
+  .nav-links{display:none}
+  .hero{min-height:0}
+  .hero-planet{width:300px;height:300px;right:-130px;top:auto;bottom:-60px;transform:none}
+  .hero-rings{top:auto;bottom:74px;transform:none;height:42px}
+  .hero-content{padding:72px 18px 150px}
+  .hero-telemetry{display:none}
+  .chi-grid,.perche-grid,footer{grid-template-columns:1fr}
+  .chi-text{border-right:none;border-bottom:var(--hairline)}
+  .srv-row{grid-template-columns:50px 1fr 30px}
+  .srv-rowdesc{display:none}
+  summary{grid-template-columns:40px 1fr 30px;padding:20px 18px}
+  details > div{padding:0 18px 20px 64px}
+  .nav-logo,.nav-meta,.s-num,.s-titlebox,.s-meta,.chi-text,.chi-kpi{padding-left:18px!important;padding-right:18px!important}
+  .s-header{grid-template-columns:56px 1fr}
+  .s-num{font-size:24px;padding-left:14px!important;padding-right:10px!important}
+  .s-meta{display:none}
+  .perche-cell{border-right:none;border-bottom:var(--hairline);padding:32px 18px}
+  .perche-cell:last-child{border-bottom:none}
+  .cta-final{padding:72px 18px 150px}
+  .cta-final h2{font-size:36px}
+  .cta-planet{width:420px;height:420px;bottom:-200px}
+  .cta-final-action{flex-direction:column;display:flex;max-width:320px;margin:0 auto}
+  .cta-final-action a:first-child{border-right:none;border-bottom:var(--cut)}
+  .hero-cta-block{flex-direction:column}
+  .hero-cta-block a:first-child{border-right:none;border-bottom:var(--cut)}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo"><img src="/img/logo.png" alt="OIDA Labs"></a>
+    <div class="nav-links">
+      <a href="#chi" data-section="chi">01 Chi siamo</a>
+      <a href="#servizi" data-section="servizi">02 Servizi</a>
+      <a href="#perche" data-section="perche">03 Perché</a>
+      <a href="#faq" data-section="faq">04 FAQ</a>
+      <a href="#contatti" data-section="contatti">05 Contatti</a>
+    </div>
+    <div class="nav-meta">IT · CH · UK / Lugano</div>
+  </div>
+</nav>
+
+<section id="hero" class="hero starfield">
+  <div class="hero-rings" aria-hidden="true"></div>
+  <svg class="hero-planet" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <circle cx="50" cy="50" r="45" fill="#8E8E8E"/>
+    <circle cx="50" cy="50" r="27" fill="#000"/>
+    <rect x="0" y="46" width="100" height="8" fill="#000"/>
+    <circle cx="50" cy="50" r="5.5" fill="#00C2B2"/>
+  </svg>
+  <div class="hero-content">
+    <div class="hero-tag-row"><span class="t">// OIDA LABS</span><span>HEALTHCARE MARKETING</span><span>LUGANO · 46.0037° N</span></div>
+    <h1>Siamo medici che hanno risolto i loro problemi di marketing. <span>Ora li risolviamo per te.</span></h1>
+    <p class="hero-sub">Uniamo esperienza sanitaria, competenze di marketing e pragmatismo, al servizio delle strutture sanitarie e della loro crescita.</p>
+    <div class="hero-cta-block">
+      <a href="#contatti">Parliamone →</a>
+      <a href="#servizi">Vedi servizi</a>
+    </div>
+  </div>
+  <div class="hero-telemetry">// SYS <b>OIDA-1</b> · STATUS <b>OPERATIVE</b><br>// EXP <b>50+ YRS</b> · FOCUS <b>HEALTHCARE 100%</b></div>
+</section>
+
+<section id="chi">
+  <div class="s-header">
+    <div class="s-num">01</div>
+    <div class="s-titlebox"><div class="s-label">// Chi siamo</div><div class="s-title">I tuoi addetti ai lavori</div></div>
+    <div class="s-meta">Non chiamarci consulenti</div>
+  </div>
+  <div class="chi-grid">
+    <div class="chi-text">
+      <p>Non veniamo dal marketing. Veniamo dalla sanità.</p>
+      <p>Ed è esattamente questa la differenza. Siamo <strong>medici, infermieri, amministratori</strong> che hanno gestito reparti, aperto cliniche, costruito strutture. Sappiamo cosa significa avere una sala operatoria mezza vuota, una lista d'attesa che non gira, una specialità nuova da posizionare.</p>
+      <p>Se stai cercando qualcuno che capisca senza dover spiegare tutto dall'inizio, sei nel posto giusto.</p>
+    </div>
+    <div class="chi-kpi">
+      <div class="chi-kpi-item"><div class="chi-kpi-num">50+</div><div class="chi-kpi-label">Anni esperienza</div></div>
+      <div class="chi-kpi-item"><div class="chi-kpi-num">100%</div><div class="chi-kpi-label">Verticali sanità</div></div>
+      <div class="chi-kpi-item"><div class="chi-kpi-num" style="font-size:30px">IT · CH · UK</div><div class="chi-kpi-label">Mercati attivi</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="servizi">
+  <div class="s-header">
+    <div class="s-num">02</div>
+    <div class="s-titlebox"><div class="s-label">// Servizi</div><div class="s-title">Cosa facciamo</div></div>
+    <div class="s-meta">08 servizi · Strutture sanitarie</div>
+  </div>
+  <div class="srv-index">
+    <a class="srv-row" href="/servizi/consulenza-strategica-sanitaria/"><div class="srv-rownum">/01</div><div class="srv-rowtitle">Consulenza Strategica</div><div class="srv-rowdesc"><em>Non sai da dove partire?</em>Analizziamo il tuo contesto e ti diciamo cosa fare, in che ordine, con quali priorità.</div><div class="srv-arrow">→</div></a>
+    <a class="srv-row" href="/servizi/advertising-sanitario/"><div class="srv-rownum">/02</div><div class="srv-rowtitle">Digital Marketing & ADV</div><div class="srv-rowdesc"><em>I pazienti ci sono. Ma non ti trovano.</em>Campagne digitali costruite per il settore sanitario. Risultati misurabili.</div><div class="srv-arrow">→</div></a>
+    <a class="srv-row" href="/servizi/seo-geo-sanita/"><div class="srv-rownum">/03</div><div class="srv-rowtitle">Sviluppo Web · SEO & GEO</div><div class="srv-rowdesc"><em>Il tuo sito non ti porta pazienti?</em>Lo rifacciamo. E facciamo in modo che Google ti trovi per primo.</div><div class="srv-arrow">→</div></a>
+    <a class="srv-row" href="/servizi/intelligenza-artificiale-sanita/"><div class="srv-rownum">/04</div><div class="srv-rowtitle">Intelligenza Artificiale</div><div class="srv-rowdesc"><em>L'AI sta cambiando la sanità.</em>Integrazione AI nei processi sanitari. Senza hype, solo ciò che funziona.</div><div class="srv-arrow">→</div></a>
+    <a class="srv-row" href="/servizi/crm-automation-sanita/"><div class="srv-rownum">/05</div><div class="srv-rowtitle">CRM & Automation</div><div class="srv-rowdesc"><em>Quanti contatti stai perdendo?</em>Automazioni per seguire ogni richiesta senza perderne nessuna.</div><div class="srv-arrow">→</div></a>
+    <a class="srv-row" href="/servizi/ufficio-stampa-sanita/"><div class="srv-rownum">/06</div><div class="srv-rowtitle">Ufficio Stampa & PR</div><div class="srv-rowdesc"><em>Nessuno parla di te?</em>Media relations e comunicazione istituzionale per la sanità.</div><div class="srv-arrow">→</div></a>
+    <a class="srv-row" href="/servizi/talent-acquisition-sanita/"><div class="srv-rownum">/07</div><div class="srv-rowtitle">Talent Acquisition</div><div class="srv-rowdesc"><em>Ti manca personale sanitario?</em>Rendiamo la tua struttura attrattiva. Saranno loro a trovarti.</div><div class="srv-arrow">→</div></a>
+    <a class="srv-row" href="/servizi/progettazione-ambienti-chirurgici/"><div class="srv-rownum">/08</div><div class="srv-rowtitle">Progettazione Ambienti Chirurgici</div><div class="srv-rowdesc"><em>Vuoi aprire una sala operatoria?</em>Fattibilità, compliance, strumentari. La competenza clinica per farlo bene.</div><div class="srv-arrow">→</div></a>
+  </div>
+</section>
+
+<section id="perche">
+  <div class="rings-divider" aria-hidden="true"></div>
+  <div class="s-header">
+    <div class="s-num">03</div>
+    <div class="s-titlebox"><div class="s-label">// Perché OIDA</div><div class="s-title">Perché scegliere noi</div></div>
+    <div class="s-meta">03 ragioni</div>
+  </div>
+  <div class="perche-grid">
+    <div class="perche-cell"><div class="perche-marker">/01</div><div class="perche-h">Parliamo la tua lingua.</div><div class="perche-p">Siamo sanitari. Non dobbiamo spiegarcele. Conosciamo le dinamiche di una sala operatoria, di una lista d'attesa, di un ambulatorio specialistico — dall'interno.</div></div>
+    <div class="perche-cell"><div class="perche-marker">/02</div><div class="perche-h">Un solo settore. Il tuo.</div><div class="perche-p">Lavoriamo solo in sanità. Nessun compromesso. Niente clienti del food, del fashion o del retail che diluiscono l'expertise. Solo strutture sanitarie.</div></div>
+    <div class="perche-cell"><div class="perche-marker">/03</div><div class="perche-h">Un team di addetti ai lavori.</div><div class="perche-p">50+ anni di esperienza sanitaria sul campo. Tre paesi (IT, CH, UK). Casi reali documentati. Compliance normativa nel DNA.</div></div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="s-header">
+    <div class="s-num">04</div>
+    <div class="s-titlebox"><div class="s-label">// FAQ</div><div class="s-title">Domande frequenti</div></div>
+    <div class="s-meta">07 risposte</div>
+  </div>
+  <details><summary><span class="faq-num">/01</span><span>Quanto costa una campagna di marketing sanitario?</span><span class="faq-plus">+</span></summary><div>Il costo dipende dalla specialità, dal mercato locale, dagli obiettivi della struttura e dallo stato di partenza della sua presenza digitale. Il nostro metodo parte sempre da un'analisi della struttura e degli obiettivi: solo dopo formuliamo una proposta dimensionata su quei dati specifici. La prima conversazione è sempre gratuita.</div></details>
+  <details><summary><span class="faq-num">/02</span><span>In quanto tempo si vedono i primi risultati?</span><span class="faq-plus">+</span></summary><div>Dipende dalla combinazione di strumenti. Le campagne pubblicitarie producono primi lead in 2-4 settimane. I risultati strutturali emergono tra il terzo e il sesto mese. Il posizionamento SEO e la reputazione digitale lavorano su un orizzonte di 6-12 mesi.</div></details>
+  <details><summary><span class="faq-num">/03</span><span>Lavorate solo con cliniche private o anche con singoli professionisti?</span><span class="faq-plus">+</span></summary><div>Lavoriamo con strutture sanitarie private (poliambulatori, cliniche, centri specialistici) e con studi associati di medio-grande dimensione. Per il singolo professionista, il rapporto costi-benefici del nostro modello operativo è meno favorevole.</div></details>
+  <details><summary><span class="faq-num">/04</span><span>In quali aree geografiche operate?</span><span class="faq-plus">+</span></summary><div>Italia, Svizzera (Canton Ticino) e Regno Unito. Sede a Lugano e team distribuito. Operare attivamente sul mercato ticinese ci dà visibilità su dinamiche transfrontaliere (LAMAL, pazienti italiani di confine).</div></details>
+  <details><summary><span class="faq-num">/05</span><span>Avete esperienza con la mia specialità?</span><span class="faq-plus">+</span></summary><div>Ortopedia, cardiologia, dermatologia, ginecologia, fisioterapia, odontoiatria, medicina della riproduzione, oculistica, diagnostica per immagini. Le dinamiche di acquisizione cambiano in modo sostanziale tra specialità.</div></details>
+  <details><summary><span class="faq-num">/06</span><span>C'è un periodo minimo di collaborazione?</span><span class="faq-plus">+</span></summary><div>Per le attività continuative il periodo minimo è di 6 mesi. Per consulenze strategiche puntuali (audit, riposizionamento) lavoriamo anche su progetti chiusi di 1-3 mesi.</div></details>
+  <details><summary><span class="faq-num">/07</span><span>Come gestite la compliance normativa sulla pubblicità sanitaria?</span><span class="faq-plus">+</span></summary><div>D.Lgs. 38/1992 e Codice di Deontologia Medica in Italia; norme cantonali e deontologiche FMH in Svizzera. Ogni comunicazione viene verificata rispetto a questi vincoli.</div></details>
+</section>
+
+<section id="contatti" class="cta-wrap starfield">
+  <div class="cta-rings" aria-hidden="true"></div>
+  <svg class="cta-planet" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <circle cx="50" cy="50" r="45" fill="#8E8E8E"/>
+    <circle cx="50" cy="50" r="27" fill="#000"/>
+    <rect x="0" y="46" width="100" height="8" fill="#000"/>
+    <circle cx="50" cy="50" r="5.5" fill="#00C2B2"/>
+  </svg>
+  <div class="cta-final">
+    <h2>Hai ancora domande? <span>Bene.</span></h2>
+    <p>Sono esattamente quelle di cui vogliamo parlare. La prima conversazione è gratuita e dura il tempo che serve a capire se ha senso lavorare insieme.</p>
+    <div class="cta-final-action">
+      <a href="mailto:info@oida-labs.com">info@oida-labs.com</a>
+      <a href="/#contatti">Scrivici dal sito</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div><strong>// AGENZIA</strong>Oida Labs SAGL<br>Piazza dell'Indipendenza 3<br>6900 Lugano (CH)<br>IDE CHE-144.100.469</div>
+  <div><strong>// CONTATTI</strong>info@oida-labs.com<br>oida-labs.com<br><br><strong>// SOCIAL</strong><a href="https://linkedin.com/company/oidalabs">LinkedIn</a></div>
+  <div><strong>// LEGAL</strong><a href="/legal/privacy-policy/">Privacy Policy</a><a href="/legal/cookie-policy/">Cookie Policy</a><br><br>© 2026 Oida Labs · v3b.lab</div>
+</footer>
+
+<script>
+var sections=document.querySelectorAll('section[id]');
+var navLinks=document.querySelectorAll('.nav-links a');
+var io=new IntersectionObserver(function(es){
+  es.forEach(function(e){
+    if(e.isIntersecting){
+      navLinks.forEach(function(l){l.classList.remove('active')});
+      var m=document.querySelector('.nav-links a[data-section="'+e.target.id+'"]');
+      if(m)m.classList.add('active');
+    }
+  });
+},{rootMargin:'-40% 0px -55% 0px'});
+sections.forEach(function(s){io.observe(s)});
+</script>
+</body>
+</html>
