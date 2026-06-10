@@ -44,6 +44,19 @@ body{background:var(--bg);color:var(--ink);font-family:'Barlow Semi Condensed',s
 }
 .starfield > *{position:relative;z-index:1}
 
+/* === DUSTED: polvere di stelle per header, footer e box isolati === */
+.dusted{position:relative}
+.dusted::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:
+    radial-gradient(1.5px 1.5px at 12% 30%, rgba(0,194,178,.5) 50%, transparent 51%),
+    radial-gradient(2px 2px at 28% 75%, rgba(0,194,178,.4) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 46% 20%, rgba(0,194,178,.35) 50%, transparent 51%),
+    radial-gradient(2.5px 2.5px at 62% 65%, rgba(0,194,178,.45) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 78% 35%, rgba(255,255,255,.25) 50%, transparent 51%),
+    radial-gradient(2px 2px at 90% 70%, rgba(0,194,178,.5) 50%, transparent 51%);
+  background-repeat:no-repeat}
+.dusted > *{position:relative}
+
 /* === NAV === */
 .nav{position:sticky;top:0;z-index:100;background:var(--bg);border-bottom:var(--cut)}
 .nav-inner{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:auto 1fr auto;align-items:stretch}
@@ -184,7 +197,7 @@ footer a:hover{color:var(--teal)}
 </head>
 <body>
 
-<nav class="nav">
+<nav class="nav dusted">
   <div class="nav-inner">
     <a href="#hero" class="nav-logo"><img src="/img/logo.png" alt="OIDA Labs"></a>
     <div class="nav-links">
@@ -218,7 +231,7 @@ footer a:hover{color:var(--teal)}
         <strong>// TAGLINE</strong>
         Know More.<br>Move Faster.
       </div>
-      <div class="hero-side-stat">
+      <div class="hero-side-stat dusted">
         <div class="hero-side-stat-num">100%</div>
         <div class="hero-side-stat-label">Verticali in sanità</div>
       </div>
@@ -238,7 +251,7 @@ footer a:hover{color:var(--teal)}
       <p>Ed è esattamente questa la differenza. Siamo <strong>medici, infermieri, amministratori</strong> che hanno gestito reparti, aperto cliniche, costruito strutture. Sappiamo cosa significa avere una sala operatoria mezza vuota, una lista d'attesa che non gira, una specialità nuova da posizionare.</p>
       <p>Se stai cercando qualcuno che capisca senza dover spiegare tutto dall'inizio, sei nel posto giusto.</p>
     </div>
-    <div class="chi-kpi">
+    <div class="chi-kpi dusted">
       <div class="chi-kpi-item"><div class="chi-kpi-num">50+</div><div class="chi-kpi-label">Anni esperienza</div></div>
       <div class="chi-kpi-item"><div class="chi-kpi-num">100%</div><div class="chi-kpi-label">Verticali sanità</div></div>
       <div class="chi-kpi-item"><div class="chi-kpi-num" style="font-size:30px">IT · CH · UK</div><div class="chi-kpi-label">Mercati attivi</div></div>
@@ -320,7 +333,7 @@ footer a:hover{color:var(--teal)}
   <div class="pr-label">// OIDA-1 <b>·</b> orbit stable <b>·</b> 46.0037° N, 8.9511° E</div>
 </div>
 
-<footer>
+<footer class="dusted">
   <div><strong>// AGENZIA</strong>Oida Labs SAGL<br>Piazza dell'Indipendenza 3<br>6900 Lugano (CH)<br>IDE CHE-144.100.469</div>
   <div><strong>// CONTATTI</strong>info@oida-labs.com<br>oida-labs.com<br><br><strong>// SOCIAL</strong><a href="https://linkedin.com/company/oidalabs">LinkedIn</a></div>
   <div><strong>// LEGAL</strong><a href="/legal/privacy-policy/">Privacy Policy</a><a href="/legal/cookie-policy/">Cookie Policy</a><br><br>© 2026 Oida Labs · v3a.lab</div>
