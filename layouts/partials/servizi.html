@@ -1,31 +1,19 @@
 {{ $d := .Site.Data.servizi }}
-<section class="servizi" id="servizi">
-  <div class="container">
-    <span class="section-label animate">{{ $d.label }}</span>
-    <h2 class="section-title animate" data-animate-delay="100">{{ $d.title }}</h2>
-    <p class="section-subtitle animate" data-animate-delay="200">{{ $d.subtitle }}</p>
-
-    <div class="servizi__grid">
-      {{ range $i, $card := $d.cards }}
-      {{ if $card.url }}
-      <a href="{{ $card.url | relURL }}" class="service-card{{ if $card.full_width }} service-card--full{{ end }} animate" data-animate-delay="{{ mul (add $i 3) 100 }}" aria-label="{{ $card.title }}">
-        <div class="service-card__icon">
-          {{- partial "icon.html" $card.icon -}}
-        </div>
-        <h3 class="service-card__title">{{ $card.title }}</h3>
-        <p class="service-card__pain">{{ $card.pain }}</p>
-        <p class="service-card__solution">{{ $card.solution }}</p>
+<section id="servizi">
+  <div class="s-header dusted">
+    <div class="s-num">02</div>
+    <div class="s-titlebox"><div class="s-label">// {{ $d.label }}</div><div class="s-title">{{ $d.title }}</div></div>
+    <div class="s-toggle" aria-hidden="true">+</div>
+  </div>
+  <div class="section-body">
+    <div class="srv-index">
+      {{ range $i, $c := $d.cards }}
+      <a class="srv-row" href="{{ $c.url | relURL }}">
+        <div class="srv-rownum">/{{ printf "%02d" (add $i 1) }}</div>
+        <div class="srv-rowtitle">{{ $c.title }}</div>
+        <div class="srv-rowdesc"><em>{{ $c.pain }}</em>{{ $c.solution }}</div>
+        <div class="srv-arrow">&rarr;</div>
       </a>
-      {{ else }}
-      <div class="service-card{{ if $card.full_width }} service-card--full{{ end }} animate" data-animate-delay="{{ mul (add $i 3) 100 }}">
-        <div class="service-card__icon">
-          {{- partial "icon.html" $card.icon -}}
-        </div>
-        <h3 class="service-card__title">{{ $card.title }}</h3>
-        <p class="service-card__pain">{{ $card.pain }}</p>
-        <p class="service-card__solution">{{ $card.solution }}</p>
-      </div>
-      {{ end }}
       {{ end }}
     </div>
   </div>

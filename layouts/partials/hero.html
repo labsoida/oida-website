@@ -1,26 +1,22 @@
 {{ $d := .Site.Data.hero }}
-<section class="hero" id="hero">
-  <div class="hero__content">
-    <h1 class="hero__headline animate" data-animate-delay="0">
-      {{ $d.headline }} <span class="text-accent">{{ $d.headline_accent }}</span>
-    </h1>
-
-    <p class="hero__subtitle animate" data-animate-delay="300">
-      {{ $d.subtitle }}
-    </p>
-
-    <p class="hero__tagline animate" data-animate-delay="500">
-      {{ $d.tagline }}
-    </p>
-
-    <a href="{{ $d.cta_target }}" class="btn btn--primary hero__cta animate" data-animate-delay="600">
-      {{ $d.cta_text }} &rarr;
-    </a>
+<section id="hero" class="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <svg class="hero-planet" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <circle cx="50" cy="50" r="45" fill="#999"/>
+    <circle cx="50" cy="50" r="27" fill="#000"/>
+    <rect x="0" y="46" width="100" height="8" fill="#000"/>
+    <circle cx="50" cy="50" r="5.5" fill="#00C2B2"/>
+  </svg>
+  <div class="hero-rings" aria-hidden="true"></div>
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="hero-content">
+    <div class="hero-tag-row"><span class="t">// OIDA LABS</span><span>HEALTHCARE MARKETING</span><span>46.0037&deg; N</span></div>
+    <h1>{{ $d.headline }} <span>{{ $d.headline_accent }}</span></h1>
+    <p class="hero-sub">{{ $d.subtitle }}</p>
+    <div class="hero-cta-block">
+      <a href="{{ $d.cta_target }}">{{ $d.cta_text }} &rarr;</a>
+      <a href="#servizi">Vedi servizi</a>
+    </div>
   </div>
-
-  <a href="#chi-siamo" class="hero__scroll-hint" aria-label="Scorri verso il basso">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-  </a>
-
-  <div class="hero__glow" aria-hidden="true"></div>
+  <div class="hero-telemetry">// SYS <b>OIDA-1</b> &middot; STATUS <b>OPERATIVE</b><br>// MKT <b>IT &middot; CH &middot; UK</b> &middot; FOCUS <b>HEALTHCARE 100%</b></div>
 </section>

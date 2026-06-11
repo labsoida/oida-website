@@ -1,22 +1,17 @@
 {{ $d := .Site.Data.faqs }}
-<section class="faqs" id="faq">
-  <div class="container container--narrow">
-    <span class="section-label animate">{{ $d.label }}</span>
-    <h2 class="section-title animate" data-animate-delay="100">{{ $d.title }}</h2>
-    {{ with $d.subtitle }}
-    <p class="faqs__subtitle animate" data-animate-delay="150">{{ . }}</p>
-    {{ end }}
-
-    <div class="faqs__list">
-      {{ range $i, $faq := $d.items }}
-      <details class="faq-item animate" data-animate-delay="{{ mul (add $i 2) 100 }}">
-        <summary class="faq-item__question">
-          <span>{{ $faq.q }}</span>
-          <span class="faq-item__icon" aria-hidden="true">+</span>
-        </summary>
-        <div class="faq-item__answer">
-          <p>{{ $faq.a }}</p>
-        </div>
+<section id="faq" class="faq-section">
+  <div class="s-header dusted">
+    <div class="s-num">05</div>
+    <div class="s-titlebox"><div class="s-label">// {{ $d.label }}</div><div class="s-title">{{ $d.title }}</div></div>
+    <div class="s-toggle" aria-hidden="true">+</div>
+  </div>
+  <div class="section-body">
+    <div class="faq-wrap">
+      {{ with $d.subtitle }}<div class="faq-intro">{{ . }}</div>{{ end }}
+      {{ range $i, $f := $d.items }}
+      <details>
+        <summary><span class="faq-num">/{{ printf "%02d" (add $i 1) }}</span><span>{{ $f.q }}</span><span class="faq-plus">+</span></summary>
+        <div>{{ $f.a }}</div>
       </details>
       {{ end }}
     </div>
