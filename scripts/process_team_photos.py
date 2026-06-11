@@ -19,6 +19,8 @@ JOBS = [
      "alessandro-catalano-cmo-marketing-sanitario-oida-labs.webp"),
     ("Giacomo Baldi Tech Advisor Marketing Sanitario OIDA Labs.png",
      "giacomo-baldi-tech-advisor-marketing-sanitario-oida-labs.webp"),
+    ("Giulia Nasini Brand Marketing Strategist OIDA Labs.png",
+     "giulia-nasini-brand-marketing-strategist-oida-labs.webp"),
 ]
 
 TARGET_MAX = 1000      # lato lungo finale px
