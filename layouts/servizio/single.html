@@ -22,7 +22,6 @@
     <div class="svc-hero-tag">// SERVIZIO {{ if $num }}<b>/{{ printf "%02d" $num }}</b>{{ end }}<br>{{ with .Params.servizio_gruppo }}// {{ . | upper }}<br>{{ end }}// SETTORE <b>SANITARIO</b></div>
   </aside>
   <div class="svc-hero-content">
-    {{ with .Params.servizio_gruppo }}<div class="svc-hero-kicker">// {{ . }}</div>{{ end }}
     <h1>{{ .Title }}</h1>
     {{ with $tagline }}<p class="svc-tagline">{{ . | safeHTML }}</p>{{ end }}
     {{ with .Description }}<p class="svc-hero-sub">{{ . }}</p>{{ end }}
