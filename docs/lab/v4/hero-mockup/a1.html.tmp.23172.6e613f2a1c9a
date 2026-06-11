@@ -41,7 +41,7 @@ h1{font-size:70px;line-height:.96;margin-bottom:32px;max-width:none}
   <div class="hero-glow"></div>
   <div class="hero-content">
     <div class="hero-tag-row"><span class="t">// OIDA LABS</span><span>HEALTHCARE MARKETING</span><span>46.0037° N</span></div>
-    <h1>Siamo medici che<br>hanno risolto i loro<br>problemi di marketing.<br><span>Ora li risolviamo<br>per te.</span></h1>
+    <h1>Siamo medici che hanno risolto i loro problemi di marketing. <span>Ora li risolviamo per te.</span></h1>
     <p class="hero-sub">Uniamo esperienza sanitaria, competenze di marketing e pragmatismo, per metterle al servizio delle strutture sanitarie e supportarle nelle sfide quotidiane della loro crescita.</p>
     <div class="hero-cta-block">
       <a href="#">Parliamone →</a>
