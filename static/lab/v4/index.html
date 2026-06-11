@@ -176,15 +176,15 @@ h1 span{color:var(--teal)}
 
 /* === PLANET-RISE: chiusura pagina prima del footer (stile v3a, anelli fitti+saturi) === */
 .planet-rise{position:relative;height:320px;overflow:hidden;border-top:var(--cut)}
-/* IDENTICO a v3a — cambia solo il pitch (9 invece di 14, righe più fitte) */
-.planet-rise::before{content:"";position:absolute;left:0;right:0;bottom:0;height:240px;pointer-events:none;
-  background:repeating-linear-gradient(to top, rgba(0,194,178,.32) 0 1px, transparent 1px 9px);
-  -webkit-mask-image:linear-gradient(to top, rgba(0,0,0,1), transparent 85%);
-  mask-image:linear-gradient(to top, rgba(0,0,0,1), transparent 85%)}
+/* ~10 righe che partono dal bordo inferiore della mezzaluna grigia, dissolvenza verso l'alto */
+.planet-rise::before{content:"";position:absolute;left:0;right:0;bottom:0;height:57px;pointer-events:none;
+  background:repeating-linear-gradient(to top, rgba(0,194,178,.55) 0 1px, transparent 1px 6px);
+  -webkit-mask-image:linear-gradient(to top, rgba(0,0,0,1) 0%, transparent 100%);
+  mask-image:linear-gradient(to top, rgba(0,0,0,1) 0%, transparent 100%)}
 .planet-rise svg{position:absolute;left:50%;top:24px;transform:translateX(-50%);width:520px;height:520px;display:block;filter:blur(.7px)}
-/* alone luminoso teal centrato sul dot (come hero, attenuato per il tramonto) */
-.planet-rise .pr-glow{position:absolute;left:50%;top:284px;transform:translate(-50%,-50%);width:300px;height:300px;z-index:3;pointer-events:none;
-  background:radial-gradient(circle at 50% 50%, rgba(0,194,178,.35) 0%, rgba(0,194,178,.1) 16%, transparent 36%);
+/* alone luminoso teal centrato sul dot (come hero, più intenso) */
+.planet-rise .pr-glow{position:absolute;left:50%;top:284px;transform:translate(-50%,-50%);width:340px;height:340px;z-index:3;pointer-events:none;
+  background:radial-gradient(circle at 50% 50%, rgba(0,194,178,.6) 0%, rgba(0,194,178,.2) 16%, transparent 42%);
   mix-blend-mode:screen}
 /* banco di nebbia: vela la base del pianeta (Endor mood) */
 .planet-rise::after{content:"";position:absolute;left:0;right:0;bottom:0;height:180px;z-index:2;pointer-events:none;
@@ -308,8 +308,9 @@ footer .ft-copy{grid-column:1 / -1;text-align:center;color:var(--gray-4);padding
 
   /* Planet-rise mobile: pianeta più piccolo per far vedere le righe laterali teal */
   .planet-rise{height:200px}
+  .planet-rise::before{height:36px}
   .planet-rise svg{width:260px;height:260px;top:14px}
-  .planet-rise .pr-glow{top:144px;width:180px;height:180px}
+  .planet-rise .pr-glow{top:144px;width:200px;height:200px}
   .planet-rise .pr-label{left:0;right:0;bottom:14px;text-align:center;font-size:9.5px;letter-spacing:.08em;padding:0 12px}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
@@ -337,7 +338,7 @@ footer .ft-copy{grid-column:1 / -1;text-align:center;color:var(--gray-4);padding
 <section id="hero" class="hero">
   <div class="hero-bg" aria-hidden="true"></div>
   <svg class="hero-planet" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-    <circle cx="50" cy="50" r="45" fill="#676767"/>
+    <circle cx="50" cy="50" r="45" fill="#4d5a6b"/>
     <circle cx="50" cy="50" r="27" fill="#000"/>
     <rect x="0" y="46" width="100" height="8" fill="#000"/>
     <circle cx="50" cy="50" r="5.5" fill="#00C2B2"/>
@@ -478,12 +479,12 @@ footer .ft-copy{grid-column:1 / -1;text-align:center;color:var(--gray-4);padding
     <circle cx="50" cy="50" r="5.5" fill="#0a8478"/>
   </svg>
   <div class="pr-glow" aria-hidden="true"></div>
-  <div class="pr-label">// OIDA-1 <b>·</b> ORBIT STABLE <b>·</b> 46.0037° N, 8.9511° E</div>
+  <div class="pr-label"><b>// OIDA-1</b> · ORBIT STABLE · 46.0037° N, 8.9511° E</div>
 </div>
 
 <footer class="dusted">
   <div><strong>// AGENZIA</strong>Oida Labs SAGL<br>IDE CHE-144.100.469</div>
-  <div><strong>// CONTATTI</strong>info@oida-labs.com<br>Piazza dell'Indipendenza 3<br>6900 Lugano (CH)</div>
+  <div><strong>// CONTATTI</strong>Piazza dell'Indipendenza 3<br>6900 Lugano (CH)<br>info@oida-labs.com</div>
   <div><strong>// SOCIAL</strong><a href="https://linkedin.com/company/oidalabs" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.facebook.com/OIDA.Labs" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/oida.labs/" target="_blank" rel="noopener">Instagram</a></div>
   <div><strong>// EDITORIALE</strong><a href="/insights/">Insights</a><a href="/blog/">Blog</a></div>
   <div><strong>// LEGAL</strong><a href="/legal/privacy-policy/">Privacy Policy</a><a href="/legal/cookie-policy/">Cookie Policy</a></div>
