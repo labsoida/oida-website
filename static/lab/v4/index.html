@@ -12,6 +12,7 @@
 @font-face{font-family:'Glaseer';src:url('/fonts/glaseer-stencil.woff2') format('woff2');font-display:swap}
 @font-face{font-family:'BankGothic';src:url('/fonts/bank-gothic.woff2') format('woff2');font-display:swap}
 *,*:before,*:after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-padding-top:76px}
 :root{
   --bg:#000;--ink:#fff;--teal:#00C2B2;
   --gray-1:#0d0d0d;--gray-2:#1a1a1a;--gray-3:#2c2c2c;--gray-4:#666;--gray-5:#999;--gray-6:#ccc;
@@ -462,6 +463,10 @@ footer a:hover{color:var(--teal)}
 </footer>
 
 <script>
+// --- Forza scroll-top al caricamento se URL non ha hash (evita scroll position memorizzata o fragmenti rimasti) ---
+if('scrollRestoration' in history){history.scrollRestoration='manual'}
+if(!window.location.hash){window.scrollTo(0,0)}
+
 // --- Scroll-spy nav (desktop) ---
 var sections=document.querySelectorAll('section[id]');
 var navLinks=document.querySelectorAll('.nav-links a');
