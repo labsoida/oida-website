@@ -8,6 +8,21 @@
   if ('scrollRestoration' in history) { history.scrollRestoration = 'manual'; }
   if (!window.location.hash) { window.scrollTo(0, 0); }
 
+  // --- Apre l'accordion della sezione di destinazione (evita il doppio tap menu -> "+") ---
+  function openSection(sec) {
+    if (sec && sec.querySelector && sec.querySelector('.s-header')) {
+      sec.classList.add('is-open');
+    }
+  }
+  // Arrivo da pagina interna con hash (es. /#servizi): apri subito la sezione
+  if (window.location.hash) {
+    try { openSection(document.querySelector(window.location.hash)); } catch (e) {}
+  }
+  // Cambio hash senza ricaricare (back/forward, barra indirizzi)
+  window.addEventListener('hashchange', function () {
+    try { openSection(document.querySelector(window.location.hash)); } catch (e) {}
+  });
+
   // --- Hamburger menu mobile ---
   var navToggle = document.getElementById('nav-toggle');
   var navMenu = document.getElementById('nav-links');
@@ -48,7 +63,7 @@
     });
   });
 
-  // --- Smooth scroll per ancore interne ---
+  // --- Smooth scroll per ancore interne (aprendo l'accordion di destinazione) ---
   document.querySelectorAll('a[href^="#"]').forEach(function (link) {
     link.addEventListener('click', function (e) {
       var href = this.getAttribute('href');
@@ -56,6 +71,7 @@
       var target = document.querySelector(href);
       if (target) {
         e.preventDefault();
+        openSection(target);
         target.scrollIntoView({ behavior: prefersReducedMotion ? 'auto' : 'smooth' });
       }
     });
