@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>OIDA Lab v4 — Lista Servizi</title>
+<link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+@font-face{font-family:'Glaseer';src:url('/fonts/glaseer-stencil.woff2') format('woff2');font-display:swap}
+@font-face{font-family:'BankGothic';src:url('/fonts/bank-gothic.woff2') format('woff2');font-display:swap}
+*,*:before,*:after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#000;--ink:#fff;--teal:#00C2B2;--gray-1:#0d0d0d;--gray-2:#1a1a1a;--gray-3:#2c2c2c;--gray-4:#666;--gray-5:#999;--gray-6:#ccc;--hairline:1px solid var(--gray-3);--cut:2px solid var(--ink)}
+body{background:var(--bg);color:var(--ink);font-family:'Barlow Semi Condensed',sans-serif;font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+
+/* DUSTED */
+.dusted{position:relative;overflow:hidden}
+.dusted::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:
+    radial-gradient(2px 2px at 5% 30%, rgba(0,194,178,.7) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 11% 68%, rgba(0,194,178,.55) 50%, transparent 51%),
+    radial-gradient(2.5px 2.5px at 17% 24%, rgba(0,194,178,.6) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 22% 78%, rgba(255,255,255,.38) 50%, transparent 51%),
+    radial-gradient(2px 2px at 28% 36%, rgba(0,194,178,.65) 50%, transparent 51%),
+    radial-gradient(3px 3px at 35% 70%, rgba(0,194,178,.5) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 41% 22%, rgba(0,194,178,.55) 50%, transparent 51%),
+    radial-gradient(2px 2px at 47% 60%, rgba(255,255,255,.35) 50%, transparent 51%),
+    radial-gradient(2.5px 2.5px at 53% 32%, rgba(0,194,178,.6) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 60% 76%, rgba(0,194,178,.5) 50%, transparent 51%),
+    radial-gradient(2px 2px at 65% 26%, rgba(0,194,178,.55) 50%, transparent 51%),
+    radial-gradient(3px 3px at 71% 52%, rgba(0,194,178,.5) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 77% 78%, rgba(255,255,255,.32) 50%, transparent 51%),
+    radial-gradient(2px 2px at 83% 34%, rgba(0,194,178,.55) 50%, transparent 51%),
+    radial-gradient(2.5px 2.5px at 90% 70%, rgba(0,194,178,.6) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 95% 28%, rgba(0,194,178,.5) 50%, transparent 51%);
+  background-repeat:no-repeat}
+.dusted > *{position:relative;z-index:1}
+/* STARRY: starfield denso per gli header */
+.starry{position:relative}
+.starry::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
+  background-image:
+    radial-gradient(2px 2px at 6% 22%, rgba(0,194,178,.7) 50%, transparent 51%),
+    radial-gradient(2.5px 2.5px at 14% 70%, rgba(0,194,178,.6) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 9% 48%, rgba(255,255,255,.4) 50%, transparent 51%),
+    radial-gradient(3px 3px at 20% 32%, rgba(0,194,178,.55) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 26% 82%, rgba(0,194,178,.5) 50%, transparent 51%),
+    radial-gradient(2px 2px at 33% 18%, rgba(0,194,178,.6) 50%, transparent 51%),
+    radial-gradient(2.5px 2.5px at 40% 60%, rgba(0,194,178,.5) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 47% 28%, rgba(255,255,255,.35) 50%, transparent 51%),
+    radial-gradient(2px 2px at 54% 78%, rgba(0,194,178,.55) 50%, transparent 51%),
+    radial-gradient(3px 3px at 62% 40%, rgba(0,194,178,.5) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 68% 16%, rgba(0,194,178,.55) 50%, transparent 51%),
+    radial-gradient(2px 2px at 74% 66%, rgba(0,194,178,.6) 50%, transparent 51%),
+    radial-gradient(2.5px 2.5px at 81% 30%, rgba(0,194,178,.5) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 86% 84%, rgba(255,255,255,.35) 50%, transparent 51%),
+    radial-gradient(2px 2px at 92% 50%, rgba(0,194,178,.6) 50%, transparent 51%),
+    radial-gradient(3px 3px at 96% 24%, rgba(0,194,178,.5) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 4% 88%, rgba(0,194,178,.5) 50%, transparent 51%),
+    radial-gradient(2px 2px at 58% 8%, rgba(0,194,178,.5) 50%, transparent 51%);
+  background-repeat:no-repeat}
+.starry > *{position:relative;z-index:1}
+
+/* NAV */
+.nav{position:sticky;top:0;z-index:100;background:var(--bg);border-bottom:var(--cut)}
+.nav-inner{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:auto 1fr auto;align-items:stretch}
+.nav-logo{padding:18px 32px;border-right:var(--hairline);display:flex;align-items:center}
+.nav-logo img{height:38px;display:block}
+.nav-links{display:flex}
+.nav-toggle{display:none}
+.nav-links a{padding:0 22px;display:flex;align-items:center;font-family:'BankGothic',sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);text-decoration:none;border-right:var(--hairline);transition:background .15s,color .15s}
+.nav-links a:hover,.nav-links a.active{background:var(--teal);color:#000}
+
+/* BREADCRUMB */
+.breadcrumb{max-width:1280px;margin:0 auto;padding:20px 32px;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--gray-5);letter-spacing:.06em;border-bottom:var(--hairline)}
+.breadcrumb a{color:var(--gray-5);text-decoration:none;transition:color .15s}
+.breadcrumb a:hover{color:var(--teal)}
+.breadcrumb .sep{margin:0 10px;color:var(--gray-3)}
+.breadcrumb .current{color:var(--ink)}
+
+/* LIST HEADER */
+.list-head{max-width:1280px;margin:0 auto;padding:64px 32px 44px;border-bottom:var(--cut);display:grid;grid-template-columns:auto 1fr;gap:56px;align-items:center}
+.list-head-mark{width:130px;height:130px;display:block;flex-shrink:0}
+.list-kicker{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.16em;text-transform:uppercase;margin-bottom:24px}
+.list-head h1{font-family:'Glaseer',sans-serif;font-size:64px;line-height:.96;letter-spacing:0;text-transform:uppercase;margin-bottom:24px}
+.list-sub{font-size:19px;color:var(--gray-6);line-height:1.5;max-width:720px}
+.list-count{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--gray-5);letter-spacing:.06em;margin-top:20px}
+.list-count b{color:var(--teal);font-weight:400}
+
+/* SERVICE GROUP + ROWS */
+.srv-group-head{max-width:1280px;margin:0 auto;padding:44px 32px 6px;display:flex;align-items:baseline;gap:18px}
+.srv-group-lab{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--teal);letter-spacing:.14em;text-transform:uppercase}
+.srv-group-n{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--gray-5);letter-spacing:.04em}
+.srv-rows{max-width:1280px;margin:0 auto;border-top:var(--hairline)}
+.srv-row{display:grid;grid-template-columns:84px 1.1fr 1.4fr 60px;align-items:stretch;border-bottom:var(--hairline);text-decoration:none;color:inherit;transition:background .15s}
+.srv-row:hover{background:var(--gray-1)}
+.srv-row:hover .srv-arr{color:var(--teal);transform:translateX(4px)}
+.srv-num{padding:28px 0 28px 32px;font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--teal);display:flex;align-items:center}
+.srv-tit{padding:28px 32px;font-family:'Glaseer',sans-serif;font-size:23px;text-transform:uppercase;line-height:1.1;display:flex;align-items:center;color:var(--ink)}
+.srv-desc{padding:28px 32px;font-size:15px;color:var(--gray-6);line-height:1.6;display:flex;align-items:center}
+.srv-arr{padding:28px;font-family:'JetBrains Mono',monospace;font-size:18px;color:var(--gray-4);display:flex;align-items:center;justify-content:center;transition:color .15s,transform .15s}
+.srv-rows-end{max-width:1280px;margin:0 auto;border-bottom:var(--cut)}
+
+/* PLANET-RISE */
+.planet-rise{position:relative;height:320px;overflow:hidden;border-top:var(--cut)}
+.planet-rise::before{content:"";position:absolute;left:0;right:0;top:170px;height:90px;z-index:1;pointer-events:none;
+  background:repeating-linear-gradient(to bottom, rgba(0,194,178,.6) 0 1px, transparent 1px 11px);
+  -webkit-mask-image:radial-gradient(circle 280px at 50% 100%, transparent 0%, transparent 80%, #000 100%), linear-gradient(to bottom, transparent 0%, #000 50%, #000 100%);
+  mask-image:radial-gradient(circle 280px at 50% 100%, transparent 0%, transparent 80%, #000 100%), linear-gradient(to bottom, transparent 0%, #000 50%, #000 100%);
+  -webkit-mask-composite:source-in;mask-composite:intersect}
+.planet-rise svg{position:absolute;left:50%;top:24px;transform:translateX(-50%);width:520px;height:520px;display:block;filter:blur(.7px)}
+.planet-rise .pr-glow{position:absolute;left:50%;top:284px;transform:translate(-50%,-50%);width:340px;height:340px;z-index:3;pointer-events:none;
+  background:radial-gradient(circle at 50% 50%, rgba(0,194,178,.6) 0%, rgba(0,194,178,.2) 16%, transparent 42%);mix-blend-mode:screen}
+.planet-rise::after{content:"";position:absolute;left:0;right:0;bottom:0;height:180px;z-index:2;pointer-events:none;background:linear-gradient(to top, rgba(0,0,0,.95), rgba(0,0,0,.5) 50%, transparent)}
+.planet-rise .pr-label{position:absolute;left:32px;bottom:24px;z-index:3;font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--gray-4);letter-spacing:.1em;text-transform:uppercase}
+.planet-rise .pr-label b{color:var(--teal);font-weight:400}
+
+/* FOOTER */
+footer{padding:32px;display:grid;grid-template-columns:repeat(5,1fr);gap:32px;font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--gray-5);line-height:1.7;border-top:var(--hairline)}
+footer strong{color:var(--ink);text-transform:uppercase;letter-spacing:.06em;font-size:10.5px;display:block;margin-bottom:8px}
+footer a{color:var(--gray-5);text-decoration:none;display:block;transition:color .15s}
+footer a:hover{color:var(--teal)}
+footer .ft-copy{grid-column:1 / -1;text-align:center;color:var(--gray-4);padding-top:20px;margin-top:8px;border-top:var(--hairline);font-size:10.5px}
+
+/* MOBILE */
+@media(max-width:900px){
+  .nav-inner{grid-template-columns:auto 1fr auto}
+  .nav-links{position:fixed;inset:0;background:rgba(0,0,0,.97);backdrop-filter:blur(10px);flex-direction:column;justify-content:center;align-items:stretch;padding:64px 18px;gap:0;z-index:99;transform:translateX(100%);transition:transform .35s cubic-bezier(.16,1,.3,1)}
+  .nav-links.is-open{transform:translateX(0)}
+  .nav-links a{border-right:none;border-bottom:var(--hairline);padding:22px 0;justify-content:center;font-size:14px}
+  .nav-links a:last-child{border-bottom:none}
+  .nav-toggle{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;width:60px;height:100%;padding:0;background:transparent;border:none;border-left:var(--hairline);cursor:pointer;z-index:101;position:relative;justify-self:end}
+  .nav-toggle span{display:block;width:22px;height:2px;background:var(--ink);transition:transform .25s,opacity .25s}
+  .nav-toggle.is-open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+  .nav-toggle.is-open span:nth-child(2){opacity:0}
+  .nav-toggle.is-open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+  body.menu-open{overflow:hidden}
+  .breadcrumb{padding:14px 18px;font-size:10.5px}
+  .list-head{padding:36px 18px 28px;grid-template-columns:1fr;gap:0}
+  .list-head-mark{width:64px;height:64px;margin-bottom:20px}
+  .list-head h1{font-size:38px}
+  .list-sub{font-size:16px}
+  .srv-group-head{padding:32px 18px 4px;flex-direction:column;gap:4px}
+  .srv-row{grid-template-columns:auto 1fr;grid-template-rows:auto auto auto;padding:18px 18px;gap:4px 14px}
+  .srv-num{padding:0;grid-column:1;grid-row:1;align-self:center}
+  .srv-tit{padding:0;grid-column:2;grid-row:1;font-size:19px}
+  .srv-desc{padding:0;grid-column:1 / -1;grid-row:2;font-size:14px}
+  .srv-arr{display:none}
+  .planet-rise{height:200px}
+  .planet-rise::before{top:86px;height:50px;
+    -webkit-mask-image:radial-gradient(circle 140px at 50% 100%, transparent 0%, transparent 80%, #000 100%), linear-gradient(to bottom, transparent 0%, #000 50%, #000 100%);
+    mask-image:radial-gradient(circle 140px at 50% 100%, transparent 0%, transparent 80%, #000 100%), linear-gradient(to bottom, transparent 0%, #000 50%, #000 100%)}
+  .planet-rise svg{width:260px;height:260px;top:14px}
+  .planet-rise .pr-glow{top:144px;width:200px;height:200px}
+  .planet-rise .pr-label{left:0;right:0;bottom:14px;text-align:center;font-size:9.5px;letter-spacing:.08em;padding:0 12px}
+  footer{grid-template-columns:1fr 1fr;gap:28px 18px;padding:24px 18px;align-items:start}
+  footer > div:nth-child(1){order:1}
+  footer > div:nth-child(2){order:2}
+  footer > div:nth-child(4){order:3}
+  footer > div:nth-child(5){order:4}
+  footer > div:nth-child(3){order:5}
+  footer .ft-copy{order:6;grid-column:1 / -1;border-top:none;padding-top:12px;margin-top:0}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/lab/v4/" class="nav-logo"><img src="/img/logo.png" alt="OIDA Labs"></a>
+    <div class="nav-links" id="nav-links">
+      <a href="/lab/v4/#chi">01 Chi siamo</a>
+      <a href="/lab/v4/#servizi">02 Servizi</a>
+      <a href="/lab/v4/#perche">03 Perché noi</a>
+      <a href="/lab/v4/#faq">04 FAQ</a>
+      <a href="/lab/v4/#contatti">05 Contatti</a>
+    </div>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Apri menu" aria-controls="nav-links" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="/lab/v4/">Home</a><span class="sep">/</span><span class="current">Servizi</span>
+</nav>
+
+<header class="list-head starry">
+  <img class="list-head-mark" src="/img/pittogramma.svg" alt="" aria-hidden="true">
+  <div class="list-head-text">
+    <div class="list-kicker">// Servizi</div>
+    <h1>Cosa facciamo</h1>
+    <p class="list-sub">Dal primo paziente che ti trova online al sistema che non perde una richiesta. Ogni servizio è pensato da chi viene dalla sanità.</p>
+    <div class="list-count">// <b>9</b> servizi · 3 aree</div>
+  </div>
+</header>
+
+<!-- GRUPPO 1 -->
+<div class="srv-group-head">
+  <span class="srv-group-lab">// Crescita e Acquisizione</span>
+  <span class="srv-group-n">04 servizi</span>
+</div>
+<div class="srv-rows srv-rows-end">
+  <a class="srv-row" href="/lab/v4/servizio/consulenza-strategica/">
+    <div class="srv-num">/01</div>
+    <div class="srv-tit">Digital Marketing e ADV</div>
+    <div class="srv-desc">Campagne Google e Meta costruite per studi medici e cliniche: i pazienti giusti ti trovano, budget misurato. Gestite da chi viene dalla sanità.</div>
+    <div class="srv-arr">→</div>
+  </a>
+  <a class="srv-row" href="/lab/v4/servizio/consulenza-strategica/">
+    <div class="srv-num">/02</div>
+    <div class="srv-tit">Siti Web per la Sanità</div>
+    <div class="srv-desc">Realizziamo siti web per studi medici, cliniche e poliambulatori: chiari, veloci e pensati per chi cerca cura. Costruiti da chi viene dalla sanità.</div>
+    <div class="srv-arr">→</div>
+  </a>
+  <a class="srv-row" href="/lab/v4/servizio/consulenza-strategica/">
+    <div class="srv-num">/03</div>
+    <div class="srv-tit">SEO e GEO per la Sanità</div>
+    <div class="srv-desc">Ti facciamo trovare da chi cerca le tue prestazioni, su Google e sulle risposte AI. SEO e GEO per la sanità, curate da chi viene dalla sanità.</div>
+    <div class="srv-arr">→</div>
+  </a>
+  <a class="srv-row" href="/lab/v4/servizio/consulenza-strategica/">
+    <div class="srv-num">/04</div>
+    <div class="srv-tit">Ufficio Stampa e PR</div>
+    <div class="srv-desc">Costruiamo la reputazione mediatica di strutture e gruppi sanitari: relazioni con i media e autorevolezza istituzionale, da chi viene dalla sanità.</div>
+    <div class="srv-arr">→</div>
+  </a>
+</div>
+
+<!-- GRUPPO 2 -->
+<div class="srv-group-head">
+  <span class="srv-group-lab">// Operations e Tecnologia</span>
+  <span class="srv-group-n">03 servizi</span>
+</div>
+<div class="srv-rows srv-rows-end">
+  <a class="srv-row" href="/lab/v4/servizio/consulenza-strategica/">
+    <div class="srv-num">/05</div>
+    <div class="srv-tit">CRM e Automazioni</div>
+    <div class="srv-desc">Ti aiutiamo a scegliere e configurare il CRM giusto e automatizziamo i follow-up, così nessuna richiesta si perde. Indipendenti, nessun software nostro.</div>
+    <div class="srv-arr">→</div>
+  </a>
+  <a class="srv-row" href="/lab/v4/servizio/consulenza-strategica/">
+    <div class="srv-num">/06</div>
+    <div class="srv-tit">Intelligenza Artificiale</div>
+    <div class="srv-desc">Integriamo gli strumenti di AI utili alla tua struttura e ne sviluppiamo su misura quando servono. Senza hype, scelti da chi viene dalla sanità.</div>
+    <div class="srv-arr">→</div>
+  </a>
+  <a class="srv-row" href="/lab/v4/servizio/consulenza-strategica/">
+    <div class="srv-num">/07</div>
+    <div class="srv-tit">Talent Acquisition</div>
+    <div class="srv-desc">Rendiamo la tua struttura sanitaria attrattiva per i professionisti: employer branding e campagne per farti scegliere. Non selezione, ma attrazione.</div>
+    <div class="srv-arr">→</div>
+  </a>
+</div>
+
+<!-- GRUPPO 3 -->
+<div class="srv-group-head">
+  <span class="srv-group-lab">// Specialistici e Differenzianti</span>
+  <span class="srv-group-n">02 servizi</span>
+</div>
+<div class="srv-rows srv-rows-end">
+  <a class="srv-row" href="/lab/v4/servizio/consulenza-strategica/">
+    <div class="srv-num">/08</div>
+    <div class="srv-tit">Consulenza Strategica</div>
+    <div class="srv-desc">Analizziamo la tua struttura e ti diciamo cosa fare, in che ordine e con quali priorità. Strategia di marketing sanitario basata sui dati.</div>
+    <div class="srv-arr">→</div>
+  </a>
+  <a class="srv-row" href="/lab/v4/servizio/consulenza-strategica/">
+    <div class="srv-num">/09</div>
+    <div class="srv-tit">Progettazione Ambienti Chirurgici</div>
+    <div class="srv-desc">Ti affianchiamo per aprire o ampliare sale operatorie e ambulatori chirurgici: fattibilità, norme, strumentari. La competenza di chi li ha vissuti.</div>
+    <div class="srv-arr">→</div>
+  </a>
+</div>
+
+<div class="planet-rise" aria-hidden="true">
+  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="50" cy="50" r="45" fill="#474747"/>
+    <circle cx="50" cy="50" r="27" fill="#000"/>
+    <rect x="0" y="46" width="100" height="8" fill="#000"/>
+    <circle cx="50" cy="50" r="5.5" fill="#0a8478"/>
+  </svg>
+  <div class="pr-glow" aria-hidden="true"></div>
+  <div class="pr-label"><b>// OIDA-1</b> · ORBIT STABLE · 46.0037° N, 8.9511° E</div>
+</div>
+
+<footer class="dusted">
+  <div><strong>// AGENZIA</strong>Oida Labs SAGL<br>IDE CHE-144.100.469</div>
+  <div><strong>// CONTATTI</strong>Piazza Indipendenza 3<br>6900 Lugano (CH)<br>info@oida-labs.com</div>
+  <div><strong>// SOCIAL</strong><a href="https://linkedin.com/company/oidalabs" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.facebook.com/OIDA.Labs" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/oida.labs/" target="_blank" rel="noopener">Instagram</a></div>
+  <div><strong>// EDITORIALE</strong><a href="/insights/">Insights</a><a href="/blog/">Blog</a></div>
+  <div><strong>// LEGAL</strong><a href="/legal/privacy-policy/">Privacy Policy</a><a href="/legal/cookie-policy/">Cookie Policy</a></div>
+  <div class="ft-copy">© 2026 Oida Labs · v4.lab</div>
+</footer>
+
+<script>
+var navToggle=document.getElementById('nav-toggle');
+var navMenu=document.getElementById('nav-links');
+function closeMenu(){navMenu.classList.remove('is-open');navToggle.classList.remove('is-open');navToggle.setAttribute('aria-expanded','false');document.body.classList.remove('menu-open')}
+function openMenu(){navMenu.classList.add('is-open');navToggle.classList.add('is-open');navToggle.setAttribute('aria-expanded','true');document.body.classList.add('menu-open')}
+if(navToggle&&navMenu){
+  navToggle.addEventListener('click',function(){navMenu.classList.contains('is-open')?closeMenu():openMenu()});
+  navMenu.querySelectorAll('a').forEach(function(a){a.addEventListener('click',closeMenu)});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&navMenu.classList.contains('is-open'))closeMenu()});
+}
+</script>
+
+</body>
+</html>
