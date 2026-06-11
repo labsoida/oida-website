@@ -16,6 +16,7 @@ node_modules/
 # Temporary files
 *.zip
 *.tmp
+*.tmp.*
 
 # Claude local
 .claude/
