@@ -240,8 +240,9 @@ footer a:hover{color:var(--teal)}
   section#perche .s-header,
   section#faq .s-header,
   section#contatti .s-header{grid-template-columns:60px 1fr 60px;cursor:pointer;user-select:none;position:relative}
-  .s-toggle{width:60px;height:100%;padding:0;font-family:'JetBrains Mono',monospace;font-size:26px;color:var(--teal);display:flex;align-items:center;justify-content:center;border-left:var(--hairline);transition:transform .3s}
-  section.is-open .s-toggle{transform:rotate(45deg)}
+  .s-toggle{width:60px;height:100%;padding:0;color:transparent;font-size:0;display:flex;align-items:center;justify-content:center;border-left:var(--hairline);position:relative}
+  .s-toggle::before{content:"+";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-family:'JetBrains Mono',monospace;font-size:26px;color:var(--teal);transition:transform .3s;line-height:1}
+  section.is-open .s-toggle::before{transform:translate(-50%,-50%) rotate(45deg)}
   .section-body{max-height:0;overflow:hidden;transition:max-height .45s cubic-bezier(.4,0,.2,1)}
   section.is-open .section-body{max-height:9999px;transition:max-height .6s cubic-bezier(.4,0,.2,1)}
 
@@ -277,7 +278,7 @@ footer a:hover{color:var(--teal)}
   .nav-logo,.nav-meta,.s-num,.s-titlebox,.s-meta,.chi-text,.chi-kpi,.chi-team-link{padding-left:18px!important;padding-right:18px!important}
   .s-num{padding-left:0!important;padding-right:0!important}
   .faq-wrap{padding:0 18px}
-  .faq-section{padding:0 0 36px}
+  .faq-section{padding:0}
   .rings-divider{height:60px}
 
   /* Planet-rise mobile: pianeta più piccolo per far vedere le righe laterali teal */
