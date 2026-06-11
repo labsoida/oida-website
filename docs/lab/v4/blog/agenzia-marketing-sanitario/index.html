@@ -98,6 +98,10 @@ body{background:var(--bg);color:var(--ink);font-family:'Barlow Semi Condensed',s
 .post-toc li::before{content:"/0" counter(toc);position:absolute;left:0;font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--teal)}
 .post-toc a{color:var(--gray-6);text-decoration:none;border-bottom:none}
 .post-toc a:hover{color:var(--teal)}
+/* divisore pittogramma (section break) tra sommario e corpo */
+.post-divider{display:flex;align-items:center;gap:26px;margin:16px 0 44px}
+.post-divider::before,.post-divider::after{content:"";flex:1;height:1px;background:var(--gray-3)}
+.post-divider img{width:46px;height:46px;flex-shrink:0;display:block}
 
 /* === FONTI + TAGS + ATTRIBUTION === */
 .post-foot{max-width:760px;margin:0 auto;padding:0 32px}
@@ -140,10 +144,10 @@ body{background:var(--bg);color:var(--ink);font-family:'Barlow Semi Condensed',s
 .post-related-card{padding:32px;border-right:var(--hairline);border-bottom:var(--hairline);text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:16px;min-height:220px;transition:background .15s}
 .post-related-card:last-child{border-right:none}
 .post-related-card:hover{background:var(--gray-1)}
-.post-related-card:hover .arr{color:var(--teal);transform:translateX(4px)}
+.post-related-card:hover .arr{transform:translateX(4px)}
 .post-related-card .date{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.04em}
 .post-related-card .title{font-family:'Glaseer',sans-serif;font-size:21px;text-transform:uppercase;line-height:1.15;color:var(--ink)}
-.post-related-card .arr{font-family:'JetBrains Mono',monospace;font-size:18px;color:var(--gray-4);margin-top:auto;transition:color .15s,transform .15s}
+.post-related-card .arr{font-family:'JetBrains Mono',monospace;font-size:18px;color:var(--teal);margin-top:auto;transition:transform .15s}
 
 /* === PLANET-RISE === */
 .planet-rise{position:relative;height:320px;overflow:hidden;border-top:var(--cut)}
@@ -269,6 +273,8 @@ footer .ft-copy{grid-column:1 / -1;text-align:center;color:var(--gray-4);padding
       <li><a href="#s4">Struttura contrattuale e definizione dei KPI</a></li>
     </ol>
   </nav>
+
+  <div class="post-divider" aria-hidden="true"><img src="/img/pittogramma.svg" alt=""></div>
 
   <h2 id="s1">Specializzazione verticale e conoscenza del settore</h2>
   <p>La prima distinzione utile riguarda la profondità della competenza settoriale. Il <strong>marketing sanitario</strong> ha dinamiche che non si trovano in altri mercati: il paziente decide in tempi brevi, spesso in una condizione emotiva particolare, e filtra le opzioni attraverso un sistema di fiducia diverso da quello che regola altri acquisti. Le stagionalità delle patologie — il picco delle richieste ortopediche a settembre, la domanda cardiologica invernale, la curva primaverile della chirurgia estetica — orientano in modo significativo la pianificazione media.</p>
