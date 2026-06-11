@@ -137,14 +137,12 @@ body{background:var(--bg);color:var(--ink);font-family:'Barlow Semi Condensed',s
 .post-related{max-width:1280px;margin:0 auto;padding:64px 32px;border-bottom:var(--cut)}
 .post-related-tit{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.16em;text-transform:uppercase;margin-bottom:24px}
 .post-related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:var(--hairline)}
-.post-related-card{border-right:var(--hairline);border-bottom:var(--hairline);text-decoration:none;color:inherit;display:flex;flex-direction:column;transition:background .15s}
+.post-related-card{padding:32px;border-right:var(--hairline);border-bottom:var(--hairline);text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:16px;min-height:220px;transition:background .15s}
 .post-related-card:last-child{border-right:none}
 .post-related-card:hover{background:var(--gray-1)}
 .post-related-card:hover .arr{color:var(--teal);transform:translateX(4px)}
-.post-related-card img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;border-bottom:var(--hairline);filter:saturate(.9)}
-.post-related-body{padding:24px;display:flex;flex-direction:column;gap:12px;flex:1}
-.post-related-card .date{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--gray-5);letter-spacing:.04em}
-.post-related-card .title{font-family:'Glaseer',sans-serif;font-size:19px;text-transform:uppercase;line-height:1.15;color:var(--ink)}
+.post-related-card .date{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.04em}
+.post-related-card .title{font-family:'Glaseer',sans-serif;font-size:21px;text-transform:uppercase;line-height:1.15;color:var(--ink)}
 .post-related-card .arr{font-family:'JetBrains Mono',monospace;font-size:18px;color:var(--gray-4);margin-top:auto;transition:color .15s,transform .15s}
 
 /* === PLANET-RISE === */
@@ -256,9 +254,7 @@ footer .ft-copy{grid-column:1 / -1;text-align:center;color:var(--gray-4);padding
   <p class="post-sub">Scegliere un'agenzia di marketing sanitario richiede criteri precisi. Quattro parametri operativi per valutare specializzazione, metodo e accountability di chi lavora in sanità.</p>
 </header>
 
-<div class="post-hero-img">
-  <img src="/img/blog/agenzia-marketing-sanitario-quattro-criteri-oggettivi-valutarla.webp" alt="Agenzia di marketing sanitario: quattro criteri oggettivi per valutarla" width="1200" height="630" loading="eager">
-</div>
+<!-- Nota: l'immagine cover (og_image) resta solo come meta og:image + schema BlogPosting.image, non renderizzata nel body (replica il titolo, si deforma su mobile) -->
 
 <article class="post-body">
 
@@ -331,28 +327,19 @@ footer .ft-copy{grid-column:1 / -1;text-align:center;color:var(--gray-4);padding
   <div class="post-related-tit">// Continua a leggere</div>
   <div class="post-related-grid">
     <a class="post-related-card" href="/blog/cpl-cac-marketing-sanitario-metrica-redditivita/">
-      <img src="/img/blog/cpl-cac-marketing-sanitario-metrica-redditivita.webp" alt="">
-      <div class="post-related-body">
-        <span class="date">28.03.2026</span>
-        <span class="title">CPL e CAC: la metrica che misura la redditività</span>
-        <span class="arr">→</span>
-      </div>
+      <span class="date">28.03.2026</span>
+      <span class="title">CPL e CAC: la metrica che misura la redditività</span>
+      <span class="arr">→</span>
     </a>
     <a class="post-related-card" href="/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/">
-      <img src="/img/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti.webp" alt="">
-      <div class="post-related-body">
-        <span class="date">19.03.2026</span>
-        <span class="title">CRM sanitario: perché le strutture perdono pazienti</span>
-        <span class="arr">→</span>
-      </div>
+      <span class="date">19.03.2026</span>
+      <span class="title">CRM sanitario: perché le strutture perdono pazienti</span>
+      <span class="arr">→</span>
     </a>
     <a class="post-related-card" href="/blog/google-business-profile-marketing-sanitario-profili-non-producono-risultati/">
-      <img src="/img/blog/google-business-profile-marketing-sanitario-profili-non-producono-risultati.webp" alt="">
-      <div class="post-related-body">
-        <span class="date">05.03.2026</span>
-        <span class="title">Google Business Profile: perché molti profili non producono risultati</span>
-        <span class="arr">→</span>
-      </div>
+      <span class="date">05.03.2026</span>
+      <span class="title">Google Business Profile: perché molti profili non producono risultati</span>
+      <span class="arr">→</span>
     </a>
   </div>
 </section>
