@@ -70,8 +70,8 @@ body{background:var(--bg);color:var(--ink);font-family:'Barlow Semi Condensed',s
 
 /* === SERVICE HERO compatto === */
 .svc-hero{position:relative;border-bottom:var(--cut);padding:80px 32px 60px;max-width:1280px;margin:0 auto;display:grid;grid-template-columns:auto 1fr;gap:64px;align-items:start}
-.svc-hero-left{position:sticky;top:96px}
-.svc-hero-mark{width:120px;height:120px;display:block;margin-bottom:20px}
+.svc-hero-left{position:static}
+.svc-hero-mark{width:120px;height:120px;display:block;margin:42px 0 20px}
 .svc-hero-tag{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--gray-5);letter-spacing:.06em;line-height:1.7}
 .svc-hero-tag b{color:var(--teal);font-weight:400}
 .svc-hero-content{max-width:760px}
@@ -110,12 +110,10 @@ body{background:var(--bg);color:var(--ink);font-family:'Barlow Semi Condensed',s
 .svc-faq details > div{padding:8px 32px 28px 112px;font-size:15px;color:var(--gray-6);line-height:1.7;max-width:1000px;font-family:'Barlow Semi Condensed',sans-serif}
 
 /* === CTA finale === */
-.svc-cta-final{padding:80px 32px;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;max-width:1280px;margin:0 auto;border-bottom:var(--cut)}
-.svc-cta-final h2{font-family:'Glaseer',sans-serif;font-size:48px;line-height:1;text-transform:uppercase;margin-bottom:18px;letter-spacing:0}
+.svc-cta-final{padding:64px 32px;display:grid;grid-template-columns:1fr auto;gap:48px;align-items:center;max-width:1280px;margin:0 auto;border-bottom:var(--cut)}
+.svc-cta-final h2{font-family:'Glaseer',sans-serif;font-size:42px;line-height:1;text-transform:uppercase;margin-bottom:14px;letter-spacing:0}
 .svc-cta-final h2 span{color:var(--teal)}
-.svc-cta-final p{font-size:17px;color:var(--gray-6);line-height:1.55;margin-bottom:28px;max-width:520px}
-.svc-cta-final-right{display:flex;justify-content:center}
-.svc-cta-final img{width:160px;height:160px}
+.svc-cta-final p{font-size:17px;color:var(--gray-6);line-height:1.55;max-width:640px;margin-bottom:0}
 
 /* === SERVIZI CORRELATI === */
 .svc-related{max-width:1280px;margin:0 auto;padding:64px 32px;border-bottom:var(--cut)}
@@ -186,9 +184,8 @@ footer .ft-copy{grid-column:1 / -1;text-align:center;color:var(--gray-4);padding
   .svc-faq .num{font-size:11.5px}
   .svc-faq .plus{font-size:20px}
   .svc-faq details > div{padding:0 18px 22px 68px;font-size:14px}
-  .svc-cta-final{grid-template-columns:1fr;padding:48px 18px;gap:32px}
-  .svc-cta-final h2{font-size:30px}
-  .svc-cta-final img{width:110px;height:110px}
+  .svc-cta-final{grid-template-columns:1fr;padding:40px 18px;gap:24px;align-items:start}
+  .svc-cta-final h2{font-size:28px}
   .svc-related-grid{grid-template-columns:1fr}
   .svc-related-card{border-right:none}
   .planet-rise{height:200px}
@@ -278,9 +275,8 @@ footer .ft-copy{grid-column:1 / -1;text-align:center;color:var(--gray-4);padding
   <div>
     <h2>Non sai da dove <span>partire?</span></h2>
     <p>È esattamente da lì che partiamo noi. Analizziamo gratuitamente la tua situazione e ti diciamo cosa ha senso fare per primo.</p>
-    <a class="svc-cta" href="/lab/v4/#contatti">Chiedici un'analisi gratuita →</a>
   </div>
-  <div class="svc-cta-final-right"><img src="/img/pittogramma.svg" alt=""></div>
+  <a class="svc-cta" href="/lab/v4/#contatti">Chiedici un'analisi gratuita →</a>
 </section>
 
 <section class="svc-related">
