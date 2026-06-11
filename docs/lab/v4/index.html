@@ -189,10 +189,7 @@ h1 span{color:var(--teal)}
 /* === FAQ COMPATTA (B+C: sotto contatti, accordion compatto) === */
 .faq-wrap{max-width:760px;margin:0 auto;padding:0 32px}
 .faq-section{padding:64px 0 48px}
-.faq-section .s-header{grid-template-columns:1fr auto;border:none;margin:0 0 24px}
-.faq-section .s-title{font-size:24px}
-.faq-section .s-titlebox{padding:14px 0;border-right:none}
-.faq-section .s-meta{padding:14px 0;font-size:10.5px}
+.faq-section .faq-wrap{padding-top:24px}
 .faq-intro{font-size:13.5px;color:var(--gray-5);font-family:'JetBrains Mono',monospace;letter-spacing:.04em;margin-bottom:28px;padding:0 0 18px;border-bottom:var(--hairline)}
 details{border-bottom:var(--hairline);padding:0}
 details:last-child{border-bottom:none}
@@ -241,6 +238,7 @@ footer a:hover{color:var(--teal)}
   section#chi .s-header,
   section#servizi .s-header,
   section#perche .s-header,
+  section#faq .s-header,
   section#contatti .s-header{grid-template-columns:60px 1fr 60px;cursor:pointer;user-select:none;position:relative}
   .s-toggle{width:60px;height:100%;padding:0;font-family:'JetBrains Mono',monospace;font-size:26px;color:var(--teal);display:flex;align-items:center;justify-content:center;border-left:var(--hairline);transition:transform .3s}
   section.is-open .s-toggle{transform:rotate(45deg)}
@@ -279,8 +277,13 @@ footer a:hover{color:var(--teal)}
   .nav-logo,.nav-meta,.s-num,.s-titlebox,.s-meta,.chi-text,.chi-kpi,.chi-team-link{padding-left:18px!important;padding-right:18px!important}
   .s-num{padding-left:0!important;padding-right:0!important}
   .faq-wrap{padding:0 18px}
-  .faq-section{padding:48px 0 36px}
+  .faq-section{padding:0 0 36px}
   .rings-divider{height:60px}
+
+  /* Planet-rise mobile: pianeta più piccolo per far vedere le righe laterali teal */
+  .planet-rise{height:200px}
+  .planet-rise svg{width:260px;height:260px;top:14px}
+  .planet-rise .pr-label{left:0;right:0;bottom:14px;text-align:center;font-size:9.5px;letter-spacing:.08em;padding:0 12px}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -395,9 +398,32 @@ footer a:hover{color:var(--teal)}
 
 <div class="rings-divider" aria-hidden="true"></div>
 
-<section id="contatti" class="cta-wrap">
+<section id="faq" class="faq-section">
   <div class="s-header dusted">
     <div class="s-num">04</div>
+    <div class="s-titlebox"><div class="s-label">// FAQ</div><div class="s-title">Domande frequenti</div></div>
+    <div class="s-meta">07 risposte</div>
+    <div class="s-toggle" aria-hidden="true">+</div>
+  </div>
+  <div class="section-body">
+  <div class="faq-wrap">
+    <div class="faq-intro">Le risposte alle domande che ricorrono nelle conversazioni con direttori sanitari e responsabili marketing delle strutture che valutano un partner.</div>
+    <details><summary><span class="faq-num">/01</span><span>Quanto costa una campagna di marketing sanitario?</span><span class="faq-plus">+</span></summary><div>Il costo dipende dalla specialità, dal mercato locale, dagli obiettivi della struttura e dallo stato di partenza della sua presenza digitale. Il nostro metodo parte sempre da un'analisi della struttura e degli obiettivi: solo dopo formuliamo una proposta dimensionata su quei dati specifici. La prima conversazione è sempre gratuita ed è dove definiamo insieme cosa ha senso fare e cosa no.</div></details>
+    <details><summary><span class="faq-num">/02</span><span>In quanto tempo si vedono i primi risultati?</span><span class="faq-plus">+</span></summary><div>Dipende dalla combinazione di strumenti. Le campagne pubblicitarie producono primi lead in 2-4 settimane. I risultati strutturali — quelli confrontabili con benchmark di settore — emergono tra il terzo e il sesto mese, quando la campagna ha raccolto dati sufficienti e il funnel a valle si è stabilizzato. Il posizionamento SEO e la reputazione digitale lavorano su un orizzonte di 6-12 mesi con effetti più duraturi.</div></details>
+    <details><summary><span class="faq-num">/03</span><span>Lavorate solo con cliniche private o anche con singoli professionisti?</span><span class="faq-plus">+</span></summary><div>Lavoriamo con strutture sanitarie private (poliambulatori, cliniche, centri specialistici) e con studi associati di medio-grande dimensione. Per il singolo professionista, il rapporto costi-benefici del nostro modello operativo è meno favorevole: indirizziamo questi casi verso soluzioni più snelle. La valutazione si fa caso per caso, parlando del progetto specifico.</div></details>
+    <details><summary><span class="faq-num">/04</span><span>In quali aree geografiche operate?</span><span class="faq-plus">+</span></summary><div>Italia, Svizzera (con focus particolare sul Canton Ticino) e Regno Unito. Siamo un'agenzia svizzera con sede a Lugano e team distribuito. Il fatto di operare attivamente sul mercato ticinese ci dà visibilità su dinamiche transfrontaliere (LAMAL, pazienti italiani di confine) che le agenzie italiane standard non gestiscono. Per il mercato UK lavoriamo con strutture private in inglese.</div></details>
+    <details><summary><span class="faq-num">/05</span><span>Avete esperienza con la mia specialità?</span><span class="faq-plus">+</span></summary><div>Abbiamo lavorato su una gamma ampia di specialità: ortopedia, cardiologia, dermatologia, ginecologia, fisioterapia, odontoiatria, medicina della riproduzione, oculistica, diagnostica per immagini. Le dinamiche di acquisizione cambiano in modo sostanziale tra specialità: la prima conversazione con un nuovo cliente parte sempre da un'analisi del posizionamento specifico, dei benchmark di conversione e della stagionalità della patologia di riferimento.</div></details>
+    <details><summary><span class="faq-num">/06</span><span>C'è un periodo minimo di collaborazione?</span><span class="faq-plus">+</span></summary><div>Per le attività continuative (gestione campagne, SEO, CRM, presidio social) il periodo minimo è di 6 mesi. Il motivo è tecnico: prima di quel tempo i dati raccolti non sono statisticamente sufficienti per ottimizzare in modo informato. Per consulenze strategiche puntuali (audit, riposizionamento, ingresso in un nuovo bacino) lavoriamo anche su progetti chiusi di 1-3 mesi.</div></details>
+    <details><summary><span class="faq-num">/07</span><span>Come gestite la compliance normativa sulla pubblicità sanitaria?</span><span class="faq-plus">+</span></summary><div>La pubblicità sanitaria in Italia è regolata dal D.Lgs. 38/1992 e dal Codice di Deontologia Medica; in Svizzera dalla legge cantonale sulla sanità e dalle norme deontologiche FMH. Ogni comunicazione che produciamo per i nostri clienti viene verificata rispetto a questi vincoli (no claim non documentabili, no comparativa diretta, gestione corretta delle testimonianze). È uno dei motivi per cui un'agenzia generalista in questo settore opera con un rischio che noi non corriamo: lo conosciamo dall'interno.</div></details>
+  </div>
+  </div>
+</section>
+
+<div class="rings-divider" aria-hidden="true"></div>
+
+<section id="contatti" class="cta-wrap">
+  <div class="s-header dusted">
+    <div class="s-num">05</div>
     <div class="s-titlebox"><div class="s-label">// Contatti</div><div class="s-title">Parliamone</div></div>
     <div class="s-meta">Risposta in 24h</div>
     <div class="s-toggle" aria-hidden="true">+</div>
@@ -425,23 +451,6 @@ footer a:hover{color:var(--teal)}
   </svg>
   <div class="pr-label">// OIDA-1 <b>·</b> ORBIT STABLE <b>·</b> 46.0037° N, 8.9511° E</div>
 </div>
-
-<section id="faq" class="faq-section">
-  <div class="faq-wrap">
-    <div class="s-header">
-      <div class="s-titlebox"><div class="s-label">// FAQ</div><div class="s-title">Quello che ci chiedono</div></div>
-      <div class="s-meta">07 risposte</div>
-    </div>
-    <div class="faq-intro">Le risposte alle domande che ricorrono nelle conversazioni con direttori sanitari e responsabili marketing delle strutture che valutano un partner.</div>
-    <details><summary><span class="faq-num">/01</span><span>Quanto costa una campagna di marketing sanitario?</span><span class="faq-plus">+</span></summary><div>Il costo dipende dalla specialità, dal mercato locale, dagli obiettivi della struttura e dallo stato di partenza della sua presenza digitale. Il nostro metodo parte sempre da un'analisi della struttura e degli obiettivi: solo dopo formuliamo una proposta dimensionata su quei dati specifici. La prima conversazione è sempre gratuita ed è dove definiamo insieme cosa ha senso fare e cosa no.</div></details>
-    <details><summary><span class="faq-num">/02</span><span>In quanto tempo si vedono i primi risultati?</span><span class="faq-plus">+</span></summary><div>Dipende dalla combinazione di strumenti. Le campagne pubblicitarie producono primi lead in 2-4 settimane. I risultati strutturali — quelli confrontabili con benchmark di settore — emergono tra il terzo e il sesto mese, quando la campagna ha raccolto dati sufficienti e il funnel a valle si è stabilizzato. Il posizionamento SEO e la reputazione digitale lavorano su un orizzonte di 6-12 mesi con effetti più duraturi.</div></details>
-    <details><summary><span class="faq-num">/03</span><span>Lavorate solo con cliniche private o anche con singoli professionisti?</span><span class="faq-plus">+</span></summary><div>Lavoriamo con strutture sanitarie private (poliambulatori, cliniche, centri specialistici) e con studi associati di medio-grande dimensione. Per il singolo professionista, il rapporto costi-benefici del nostro modello operativo è meno favorevole: indirizziamo questi casi verso soluzioni più snelle. La valutazione si fa caso per caso, parlando del progetto specifico.</div></details>
-    <details><summary><span class="faq-num">/04</span><span>In quali aree geografiche operate?</span><span class="faq-plus">+</span></summary><div>Italia, Svizzera (con focus particolare sul Canton Ticino) e Regno Unito. Siamo un'agenzia svizzera con sede a Lugano e team distribuito. Il fatto di operare attivamente sul mercato ticinese ci dà visibilità su dinamiche transfrontaliere (LAMAL, pazienti italiani di confine) che le agenzie italiane standard non gestiscono. Per il mercato UK lavoriamo con strutture private in inglese.</div></details>
-    <details><summary><span class="faq-num">/05</span><span>Avete esperienza con la mia specialità?</span><span class="faq-plus">+</span></summary><div>Abbiamo lavorato su una gamma ampia di specialità: ortopedia, cardiologia, dermatologia, ginecologia, fisioterapia, odontoiatria, medicina della riproduzione, oculistica, diagnostica per immagini. Le dinamiche di acquisizione cambiano in modo sostanziale tra specialità: la prima conversazione con un nuovo cliente parte sempre da un'analisi del posizionamento specifico, dei benchmark di conversione e della stagionalità della patologia di riferimento.</div></details>
-    <details><summary><span class="faq-num">/06</span><span>C'è un periodo minimo di collaborazione?</span><span class="faq-plus">+</span></summary><div>Per le attività continuative (gestione campagne, SEO, CRM, presidio social) il periodo minimo è di 6 mesi. Il motivo è tecnico: prima di quel tempo i dati raccolti non sono statisticamente sufficienti per ottimizzare in modo informato. Per consulenze strategiche puntuali (audit, riposizionamento, ingresso in un nuovo bacino) lavoriamo anche su progetti chiusi di 1-3 mesi.</div></details>
-    <details><summary><span class="faq-num">/07</span><span>Come gestite la compliance normativa sulla pubblicità sanitaria?</span><span class="faq-plus">+</span></summary><div>La pubblicità sanitaria in Italia è regolata dal D.Lgs. 38/1992 e dal Codice di Deontologia Medica; in Svizzera dalla legge cantonale sulla sanità e dalle norme deontologiche FMH. Ogni comunicazione che produciamo per i nostri clienti viene verificata rispetto a questi vincoli (no claim non documentabili, no comparativa diretta, gestione corretta delle testimonianze). È uno dei motivi per cui un'agenzia generalista in questo settore opera con un rischio che noi non corriamo: lo conosciamo dall'interno.</div></details>
-  </div>
-</section>
 
 <footer class="dusted">
   <div><strong>// AGENZIA</strong>Oida Labs SAGL<br>Piazza dell'Indipendenza 3<br>6900 Lugano (CH)<br>IDE CHE-144.100.469</div>
@@ -478,7 +487,7 @@ if(navToggle&&navMenu){
 
 // --- Accordion sezioni mobile (chi, servizi, perché, contatti) ---
 function isMobile(){return window.matchMedia('(max-width:900px)').matches}
-var accordionSections=['chi','servizi','perche','contatti'];
+var accordionSections=['chi','servizi','perche','faq','contatti'];
 accordionSections.forEach(function(sid){
   var sec=document.getElementById(sid);
   if(!sec)return;
