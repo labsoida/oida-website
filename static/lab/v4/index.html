@@ -237,22 +237,19 @@ footer a:hover{color:var(--teal)}
   .hero-tag-row{flex-wrap:nowrap;gap:14px;margin-bottom:36px;font-size:10.5px;white-space:nowrap}
   .hero-telemetry{display:none}
 
-  /* === ACCORDION SEZIONI MOBILE === */
+  /* === ACCORDION SEZIONI MOBILE — box simmetrici (numero == toggle) === */
   section#chi .s-header,
   section#servizi .s-header,
   section#perche .s-header,
-  section#contatti .s-header{grid-template-columns:auto 1fr auto;cursor:pointer;user-select:none}
-  section#chi .s-header,
-  section#servizi .s-header,
-  section#perche .s-header,
-  section#contatti .s-header{position:relative}
-  .s-toggle{padding:20px 18px;font-family:'JetBrains Mono',monospace;font-size:24px;color:var(--teal);display:flex;align-items:center;justify-content:center;transition:transform .3s}
+  section#contatti .s-header{grid-template-columns:60px 1fr 60px;cursor:pointer;user-select:none;position:relative}
+  .s-toggle{width:60px;height:100%;padding:0;font-family:'JetBrains Mono',monospace;font-size:26px;color:var(--teal);display:flex;align-items:center;justify-content:center;border-left:var(--hairline);transition:transform .3s}
   section.is-open .s-toggle{transform:rotate(45deg)}
   .section-body{max-height:0;overflow:hidden;transition:max-height .45s cubic-bezier(.4,0,.2,1)}
   section.is-open .section-body{max-height:9999px;transition:max-height .6s cubic-bezier(.4,0,.2,1)}
 
-  .s-header{grid-template-columns:56px 1fr auto}
-  .s-num{font-size:24px}
+  .s-header{grid-template-columns:60px 1fr 60px}
+  .s-num{font-size:28px;width:60px;height:100%;display:flex;align-items:center;justify-content:center;border-right:var(--hairline)}
+  .s-titlebox{padding:18px 20px}
   .s-meta{display:none}
   .chi-grid,.perche-grid{grid-template-columns:1fr}
   .chi-text{border-right:none;border-bottom:var(--hairline)}
@@ -317,7 +314,7 @@ footer a:hover{color:var(--teal)}
   <div class="hero-rings" aria-hidden="true"></div>
   <div class="hero-glow" aria-hidden="true"></div>
   <div class="hero-content">
-    <div class="hero-tag-row"><span class="t">// OIDA LABS</span><span>HEALTHCARE MARKETING</span></div>
+    <div class="hero-tag-row"><span class="t">// OIDA LABS</span><span>HEALTHCARE MARKETING</span><span>46.0037° N</span></div>
     <h1>Siamo medici che hanno risolto i loro problemi di marketing. <span>Ora li risolviamo per te.</span></h1>
     <p class="hero-sub">Uniamo esperienza sanitaria, competenze di marketing e pragmatismo, per metterle al servizio delle strutture sanitarie e supportarle nelle sfide quotidiane della loro crescita.</p>
     <div class="hero-cta-block">
