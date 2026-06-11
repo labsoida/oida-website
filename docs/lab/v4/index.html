@@ -165,14 +165,36 @@ h1 span{color:var(--teal)}
 
 /* === CTA CONTATTI: pulita (pattern v3a) — niente pianeta qui dentro === */
 .cta-wrap{position:relative;border-bottom:var(--cut)}
-.cta-final{padding:96px 32px 80px;display:grid;grid-template-columns:1fr auto;gap:48px;align-items:end;max-width:1280px;margin:0 auto}
+.cta-final{padding:80px 32px 80px;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;max-width:1280px;margin:0 auto}
 .cta-final-text h2{font-family:'Glaseer',sans-serif;font-size:62px;line-height:1;text-transform:uppercase;margin-bottom:24px;letter-spacing:-.015em}
 .cta-final-text h2 span{color:var(--teal)}
-.cta-final-text p{font-size:18px;color:var(--gray-6);max-width:540px;line-height:1.55}
-.cta-final-action{border:var(--cut)}
-.cta-final-action a{display:block;padding:24px 40px;font-family:'BankGothic',sans-serif;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:#000;background:var(--teal);text-decoration:none;font-weight:600;border-bottom:var(--cut)}
-.cta-final-action a:last-child{border-bottom:none;background:var(--bg);color:var(--ink)}
-.cta-final-action a:hover{background:var(--ink);color:#000}
+.cta-final-text p{font-size:18px;color:var(--gray-6);max-width:540px;line-height:1.55;margin-bottom:32px}
+.cta-meta{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--gray-5);letter-spacing:.06em;line-height:1.8}
+.cta-meta b{color:var(--teal);font-weight:400}
+
+/* form contatti (Formspree) — stile magazine: input underline, focus teal */
+.cta-form{display:flex;flex-direction:column;gap:0}
+.cta-form input,.cta-form textarea{width:100%;padding:18px 0;background:transparent;border:none;border-bottom:1px solid var(--gray-3);color:var(--ink);font-family:'Barlow Semi Condensed',sans-serif;font-size:16px;line-height:1.4;transition:border-color .15s;outline:none}
+.cta-form textarea{resize:vertical;min-height:120px;font-family:'Barlow Semi Condensed',sans-serif}
+.cta-form input::placeholder,.cta-form textarea::placeholder{color:var(--gray-4);font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.04em}
+.cta-form input:focus,.cta-form textarea:focus{border-bottom-color:var(--teal)}
+.cta-form .cta-privacy{display:flex;align-items:flex-start;gap:10px;margin-top:20px;font-size:12.5px;color:var(--gray-5);line-height:1.6;cursor:pointer}
+.cta-form .cta-privacy input{width:auto;padding:0;margin-top:3px;accent-color:var(--teal);border:none;flex-shrink:0}
+.cta-form .cta-privacy a{color:var(--gray-6);border-bottom:1px solid var(--gray-3)}
+.cta-form .cta-privacy a:hover{color:var(--teal);border-bottom-color:var(--teal)}
+.cta-form button{margin-top:24px;padding:22px 32px;background:var(--teal);color:#000;border:var(--cut);font-family:'BankGothic',sans-serif;font-size:13px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;cursor:pointer;transition:background .15s,color .15s}
+.cta-form button:hover{background:var(--ink);color:#000}
+.cta-form .cta-status{margin-top:14px;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.04em;min-height:18px}
+.cta-form .cta-status[data-status="success"]{color:var(--teal)}
+.cta-form .cta-status[data-status="error"]{color:#e84d4d}
+
+/* === FAQ desktop fisarmonica: sezione intera collassata al click sull'header === */
+section#faq .s-header{grid-template-columns:80px 1fr auto 60px;cursor:pointer;user-select:none;position:relative}
+section#faq .s-toggle{display:flex;width:60px;height:100%;padding:0;color:transparent;font-size:0;align-items:center;justify-content:center;border-left:var(--hairline);position:relative}
+section#faq .s-toggle::before{content:"+";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-family:'JetBrains Mono',monospace;font-size:26px;color:var(--teal);transition:transform .3s;line-height:1}
+section#faq.is-open .s-toggle::before{transform:translate(-50%,-50%) rotate(45deg)}
+section#faq .section-body{max-height:0;overflow:hidden;transition:max-height .45s cubic-bezier(.4,0,.2,1)}
+section#faq.is-open .section-body{max-height:9999px;transition:max-height .6s cubic-bezier(.4,0,.2,1)}
 
 /* === PLANET-RISE: chiusura pagina prima del footer (stile v3a, anelli fitti+saturi) === */
 .planet-rise{position:relative;height:320px;overflow:hidden;border-top:var(--cut)}
@@ -281,11 +303,13 @@ footer .ft-copy{grid-column:1 / -1;text-align:center;color:var(--gray-4);padding
   .perche-cell{border-right:none;border-bottom:var(--hairline);padding:32px 18px}
   .perche-cell:last-child{border-bottom:none}
 
-  /* CTA contatti: stack verticale, no overflow */
-  .cta-final{padding:48px 18px;grid-template-columns:1fr;gap:24px;align-items:stretch;max-width:none}
-  .cta-final-text h2{font-size:30px}
-  .cta-final-action{width:100%}
-  .cta-final-action a{padding:20px 24px}
+  /* CTA contatti mobile: stack verticale testo+form */
+  .cta-final{padding:32px 18px 48px;grid-template-columns:1fr;gap:32px;align-items:stretch;max-width:none}
+  .cta-final-text h2{font-size:30px;margin-bottom:18px}
+  .cta-final-text p{font-size:15px;margin-bottom:18px}
+  .cta-meta{font-size:10px;line-height:1.7}
+  .cta-form input,.cta-form textarea{padding:14px 0;font-size:15px}
+  .cta-form button{padding:18px 24px}
 
   .hero-cta-block{flex-direction:column}
   .hero-cta-block a:first-child{border-right:none;border-bottom:var(--cut)}
@@ -465,12 +489,21 @@ footer .ft-copy{grid-column:1 / -1;text-align:center;color:var(--gray-4);padding
   <div class="cta-final">
     <div class="cta-final-text">
       <h2>Hai ancora domande? <span>Bene.</span></h2>
-      <p>Sono esattamente quelle di cui vogliamo parlare.</p>
+      <p>Sono esattamente quelle di cui vogliamo parlare. Lasciaci i tuoi dati, ti rispondiamo entro 24 ore.</p>
+      <div class="cta-meta">// RISPOSTA IN <b>24H</b> · NESSUN IMPEGNO · PRIMO CONTATTO <b>GRATUITO</b></div>
     </div>
-    <div class="cta-final-action">
-      <a href="mailto:info@oida-labs.com">info@oida-labs.com</a>
-      <a href="tel:+41000000000">Prenota una call</a>
-    </div>
+    <form class="cta-form" action="https://formspree.io/f/xpqynqka" method="POST" id="cta-form">
+      <input type="text" name="name" placeholder="Nome" aria-label="Nome">
+      <input type="email" name="email" placeholder="Email" required aria-label="Email">
+      <input type="tel" name="phone" placeholder="Telefono (opzionale)" aria-label="Telefono">
+      <textarea name="message" placeholder="Messaggio" rows="5" aria-label="Messaggio"></textarea>
+      <label class="cta-privacy">
+        <input type="checkbox" name="privacy_consent" required aria-label="Consenso privacy">
+        <span>Ho letto la <a href="/legal/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a> e acconsento al trattamento dei miei dati per essere ricontattato.</span>
+      </label>
+      <button type="submit">Invia messaggio →</button>
+      <div class="cta-status" aria-live="polite"></div>
+    </form>
   </div>
   </div>
 </section>
@@ -534,11 +567,42 @@ accordionSections.forEach(function(sid){
   var header=sec.querySelector('.s-header');
   if(!header)return;
   header.addEventListener('click',function(e){
-    if(!isMobile())return;
+    if(sid!=='faq' && !isMobile())return;
     if(e.target.closest('a, button'))return;
     sec.classList.toggle('is-open');
   });
 });
+
+// --- Form Formspree submit con feedback inline (no redirect) ---
+var ctaForm=document.getElementById('cta-form');
+if(ctaForm){
+  ctaForm.addEventListener('submit',function(e){
+    e.preventDefault();
+    var status=ctaForm.querySelector('.cta-status');
+    var btn=ctaForm.querySelector('button[type=submit]');
+    status.textContent='// invio in corso...';
+    status.setAttribute('data-status','');
+    btn.disabled=true;
+    fetch(ctaForm.action,{method:'POST',body:new FormData(ctaForm),headers:{'Accept':'application/json'}})
+      .then(function(r){return r.ok?r.json().then(function(d){return{ok:true,d:d}}):r.json().then(function(d){return{ok:false,d:d}})})
+      .then(function(res){
+        if(res.ok){
+          status.textContent='// messaggio inviato. Ti rispondiamo entro 24h.';
+          status.setAttribute('data-status','success');
+          ctaForm.reset();
+        }else{
+          status.textContent='// errore. Scrivici a info@oida-labs.com';
+          status.setAttribute('data-status','error');
+        }
+        btn.disabled=false;
+      })
+      .catch(function(){
+        status.textContent='// errore di connessione. Scrivici a info@oida-labs.com';
+        status.setAttribute('data-status','error');
+        btn.disabled=false;
+      });
+  });
+}
 </script>
 </body>
 </html>
