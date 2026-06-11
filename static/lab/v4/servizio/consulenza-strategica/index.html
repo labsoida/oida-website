@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>OIDA Lab v4 — Consulenza Strategica · servizio singolo</title>
+<link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+@font-face{font-family:'Glaseer';src:url('/fonts/glaseer-stencil.woff2') format('woff2');font-display:swap}
+@font-face{font-family:'BankGothic';src:url('/fonts/bank-gothic.woff2') format('woff2');font-display:swap}
+*,*:before,*:after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-padding-top:76px}
+:root{
+  --bg:#000;--ink:#fff;--teal:#00C2B2;
+  --gray-1:#0d0d0d;--gray-2:#1a1a1a;--gray-3:#2c2c2c;--gray-4:#666;--gray-5:#999;--gray-6:#ccc;
+  --hairline:1px solid var(--gray-3);
+  --cut:2px solid var(--ink);
+}
+body{background:var(--bg);color:var(--ink);font-family:'Barlow Semi Condensed',sans-serif;font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+
+/* === DUSTED + rings divider riusati da v4 === */
+.dusted{position:relative;overflow:hidden}
+.dusted::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:
+    radial-gradient(2px 2px at 5% 30%, rgba(0,194,178,.7) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 11% 68%, rgba(0,194,178,.55) 50%, transparent 51%),
+    radial-gradient(2.5px 2.5px at 17% 24%, rgba(0,194,178,.6) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 22% 78%, rgba(255,255,255,.38) 50%, transparent 51%),
+    radial-gradient(2px 2px at 28% 36%, rgba(0,194,178,.65) 50%, transparent 51%),
+    radial-gradient(3px 3px at 35% 70%, rgba(0,194,178,.5) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 41% 22%, rgba(0,194,178,.55) 50%, transparent 51%),
+    radial-gradient(2px 2px at 47% 60%, rgba(255,255,255,.35) 50%, transparent 51%),
+    radial-gradient(2.5px 2.5px at 53% 32%, rgba(0,194,178,.6) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 60% 76%, rgba(0,194,178,.5) 50%, transparent 51%),
+    radial-gradient(2px 2px at 65% 26%, rgba(0,194,178,.55) 50%, transparent 51%),
+    radial-gradient(3px 3px at 71% 52%, rgba(0,194,178,.5) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 77% 78%, rgba(255,255,255,.32) 50%, transparent 51%),
+    radial-gradient(2px 2px at 83% 34%, rgba(0,194,178,.55) 50%, transparent 51%),
+    radial-gradient(2.5px 2.5px at 90% 70%, rgba(0,194,178,.6) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 95% 28%, rgba(0,194,178,.5) 50%, transparent 51%);
+  background-repeat:no-repeat}
+.dusted > *{position:relative;z-index:1}
+.rings-divider{height:80px;position:relative;overflow:hidden;border-top:var(--hairline)}
+.rings-divider::before{content:"";position:absolute;inset:0;
+  background:repeating-linear-gradient(to top, rgba(0,194,178,.55) 0 1px, transparent 1px 7px);
+  -webkit-mask-image:linear-gradient(to top, rgba(0,0,0,.95), transparent 92%);
+  mask-image:linear-gradient(to top, rgba(0,0,0,.95), transparent 92%)}
+
+/* === NAV (uguale a v4) === */
+.nav{position:sticky;top:0;z-index:100;background:var(--bg);border-bottom:var(--cut)}
+.nav-inner{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:auto 1fr auto;align-items:stretch}
+.nav-logo{padding:18px 32px;border-right:var(--hairline);display:flex;align-items:center}
+.nav-logo img{height:38px;display:block}
+.nav-links{display:flex}
+.nav-toggle{display:none}
+.nav-links a{padding:0 22px;display:flex;align-items:center;font-family:'BankGothic',sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);text-decoration:none;border-right:var(--hairline);transition:background .15s,color .15s}
+.nav-links a:hover,.nav-links a.active{background:var(--teal);color:#000}
+.nav-meta{padding:18px 32px;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--gray-5);display:flex;align-items:center;letter-spacing:.04em}
+
+/* === BREADCRUMB === */
+.breadcrumb{max-width:1280px;margin:0 auto;padding:20px 32px;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--gray-5);letter-spacing:.06em;border-bottom:var(--hairline)}
+.breadcrumb a{color:var(--gray-5);text-decoration:none;transition:color .15s}
+.breadcrumb a:hover{color:var(--teal)}
+.breadcrumb .sep{margin:0 10px;color:var(--gray-3)}
+.breadcrumb .current{color:var(--ink)}
+
+/* === SERVICE HERO compatto === */
+.svc-hero{position:relative;border-bottom:var(--cut);padding:80px 32px 60px;max-width:1280px;margin:0 auto;display:grid;grid-template-columns:auto 1fr;gap:64px;align-items:start}
+.svc-hero-left{position:sticky;top:96px}
+.svc-hero-mark{width:120px;height:120px;display:block;margin-bottom:20px}
+.svc-hero-tag{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--gray-5);letter-spacing:.06em;line-height:1.7}
+.svc-hero-tag b{color:var(--teal);font-weight:400}
+.svc-hero-content{max-width:760px}
+.svc-hero-kicker{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.16em;text-transform:uppercase;margin-bottom:24px}
+.svc-hero-content h1{font-family:'Glaseer',sans-serif;font-size:56px;line-height:1;letter-spacing:0;text-transform:uppercase;margin-bottom:28px;text-shadow:0 0 40px rgba(0,0,0,.9)}
+.svc-tagline{font-family:'Barlow Semi Condensed',sans-serif;font-style:italic;font-size:22px;color:var(--teal);line-height:1.4;margin-bottom:24px}
+.svc-hero-sub{font-size:18px;line-height:1.55;color:var(--gray-6);margin-bottom:36px;max-width:640px}
+.svc-cta{display:inline-flex;align-items:center;gap:14px;padding:16px 22px;border:var(--cut);text-decoration:none;color:var(--ink);font-family:'BankGothic',sans-serif;font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;background:var(--bg);transition:background .15s,color .15s}
+.svc-cta:hover{background:var(--teal);color:#000}
+
+/* === SERVICE BODY magazine === */
+.svc-body{max-width:860px;margin:0 auto;padding:80px 32px}
+.svc-body h2{font-family:'Glaseer',sans-serif;font-size:36px;line-height:1.05;letter-spacing:0;text-transform:uppercase;margin:56px 0 24px;color:var(--ink)}
+.svc-body h2:first-child{margin-top:0}
+.svc-body h2::before{content:attr(data-num);display:block;font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--teal);letter-spacing:.16em;text-transform:none;margin-bottom:14px;font-weight:400}
+.svc-body p{font-size:17px;line-height:1.75;color:var(--gray-6);margin-bottom:24px}
+.svc-body a{color:var(--teal);text-decoration:none;border-bottom:1px solid rgba(0,194,178,.4);transition:border-color .15s}
+.svc-body a:hover{border-bottom-color:var(--teal)}
+
+/* === FAQ servizio (riuso pattern v4) === */
+.svc-faq{border-top:var(--cut);border-bottom:var(--cut);max-width:1280px;margin:0 auto}
+.svc-faq-header{padding:32px;display:grid;grid-template-columns:auto 1fr;align-items:stretch;border-bottom:var(--hairline)}
+.svc-faq-num{aspect-ratio:1;align-self:stretch;border-right:var(--hairline);font-family:'Glaseer',sans-serif;font-size:44px;color:var(--teal);line-height:1;display:flex;align-items:center;justify-content:center;padding:0;width:88px}
+.svc-faq-tit{padding:28px 32px}
+.svc-faq-tit .lab{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.16em;text-transform:uppercase;margin-bottom:8px}
+.svc-faq-tit .ttl{font-family:'Glaseer',sans-serif;font-size:32px;text-transform:uppercase;line-height:1;letter-spacing:0}
+.svc-faq details{border-bottom:var(--hairline)}
+.svc-faq details:last-child{border-bottom:none}
+.svc-faq summary{cursor:pointer;list-style:none;padding:24px 32px;display:grid;grid-template-columns:80px 1fr 60px;align-items:center;font-family:'Glaseer',sans-serif;font-size:19px;color:var(--ink);font-weight:400;text-transform:uppercase;line-height:1.1;letter-spacing:0;transition:background .15s}
+.svc-faq summary:hover{background:var(--gray-1)}
+.svc-faq summary::-webkit-details-marker{display:none}
+.svc-faq .num{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--teal);font-weight:400;text-transform:none}
+.svc-faq .plus{font-family:'JetBrains Mono',monospace;font-size:24px;color:var(--gray-4);text-align:right;font-weight:400;transition:transform .2s,color .15s}
+.svc-faq details[open] summary{background:var(--gray-1)}
+.svc-faq details[open] .plus{transform:rotate(45deg);color:var(--teal)}
+.svc-faq details > div{padding:8px 32px 28px 112px;font-size:15px;color:var(--gray-6);line-height:1.7;max-width:1000px;font-family:'Barlow Semi Condensed',sans-serif}
+
+/* === CTA finale === */
+.svc-cta-final{padding:80px 32px;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;max-width:1280px;margin:0 auto;border-bottom:var(--cut)}
+.svc-cta-final h2{font-family:'Glaseer',sans-serif;font-size:48px;line-height:1;text-transform:uppercase;margin-bottom:18px;letter-spacing:0}
+.svc-cta-final h2 span{color:var(--teal)}
+.svc-cta-final p{font-size:17px;color:var(--gray-6);line-height:1.55;margin-bottom:28px;max-width:520px}
+.svc-cta-final-right{display:flex;justify-content:center}
+.svc-cta-final img{width:160px;height:160px}
+
+/* === SERVIZI CORRELATI === */
+.svc-related{max-width:1280px;margin:0 auto;padding:64px 32px;border-bottom:var(--cut)}
+.svc-related-tit{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.16em;text-transform:uppercase;margin-bottom:24px}
+.svc-related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:var(--hairline)}
+.svc-related-card{padding:32px;border-right:var(--hairline);border-bottom:var(--hairline);text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:14px;transition:background .15s}
+.svc-related-card:last-child{border-right:none}
+.svc-related-card:hover{background:var(--gray-1)}
+.svc-related-card:hover .svc-related-arrow{color:var(--teal);transform:translateX(4px)}
+.svc-related-card .num{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--teal);letter-spacing:.04em}
+.svc-related-card .title{font-family:'Glaseer',sans-serif;font-size:22px;text-transform:uppercase;line-height:1.1;color:var(--ink)}
+.svc-related-card .desc{font-size:14.5px;color:var(--gray-6);line-height:1.6;flex:1}
+.svc-related-arrow{font-family:'JetBrains Mono',monospace;font-size:18px;color:var(--gray-4);transition:color .15s,transform .15s}
+
+/* === PLANET-RISE (uguale v4) === */
+.planet-rise{position:relative;height:320px;overflow:hidden;border-top:var(--cut)}
+.planet-rise::before{content:"";position:absolute;left:0;right:0;top:170px;height:90px;z-index:1;pointer-events:none;
+  background:repeating-linear-gradient(to bottom, rgba(0,194,178,.6) 0 1px, transparent 1px 11px);
+  -webkit-mask-image:radial-gradient(circle 280px at 50% 100%, transparent 0%, transparent 80%, #000 100%), linear-gradient(to bottom, transparent 0%, #000 50%, #000 100%);
+  mask-image:radial-gradient(circle 280px at 50% 100%, transparent 0%, transparent 80%, #000 100%), linear-gradient(to bottom, transparent 0%, #000 50%, #000 100%);
+  -webkit-mask-composite:source-in;mask-composite:intersect}
+.planet-rise svg{position:absolute;left:50%;top:24px;transform:translateX(-50%);width:520px;height:520px;display:block;filter:blur(.7px)}
+.planet-rise .pr-glow{position:absolute;left:50%;top:284px;transform:translate(-50%,-50%);width:340px;height:340px;z-index:3;pointer-events:none;
+  background:radial-gradient(circle at 50% 50%, rgba(0,194,178,.6) 0%, rgba(0,194,178,.2) 16%, transparent 42%);
+  mix-blend-mode:screen}
+.planet-rise::after{content:"";position:absolute;left:0;right:0;bottom:0;height:180px;z-index:2;pointer-events:none;
+  background:linear-gradient(to top, rgba(0,0,0,.95), rgba(0,0,0,.5) 50%, transparent)}
+.planet-rise .pr-label{position:absolute;left:32px;bottom:24px;z-index:3;font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--gray-4);letter-spacing:.1em;text-transform:uppercase}
+.planet-rise .pr-label b{color:var(--teal);font-weight:400}
+
+/* === FOOTER (uguale v4) === */
+footer{padding:32px;display:grid;grid-template-columns:repeat(5,1fr);gap:32px;font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--gray-5);line-height:1.7;border-top:var(--hairline)}
+footer strong{color:var(--ink);text-transform:uppercase;letter-spacing:.06em;font-size:10.5px;display:block;margin-bottom:8px}
+footer a{color:var(--gray-5);text-decoration:none;display:block;transition:color .15s}
+footer a:hover{color:var(--teal)}
+footer .ft-copy{grid-column:1 / -1;text-align:center;color:var(--gray-4);padding-top:20px;margin-top:8px;border-top:var(--hairline);font-size:10.5px}
+
+/* === MOBILE === */
+@media(max-width:900px){
+  .nav-inner{grid-template-columns:auto 1fr auto}
+  .nav-meta{display:none}
+  .nav-links{position:fixed;inset:0;background:rgba(0,0,0,.97);backdrop-filter:blur(10px);flex-direction:column;justify-content:center;align-items:stretch;padding:64px 18px;gap:0;z-index:99;transform:translateX(100%);transition:transform .35s cubic-bezier(.16,1,.3,1)}
+  .nav-links.is-open{transform:translateX(0)}
+  .nav-links a{border-right:none;border-bottom:var(--hairline);padding:22px 0;justify-content:center;font-size:14px}
+  .nav-links a:last-child{border-bottom:none}
+  .nav-toggle{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;width:60px;height:100%;padding:0;background:transparent;border:none;border-left:var(--hairline);cursor:pointer;z-index:101;position:relative;justify-self:end}
+  .nav-toggle span{display:block;width:22px;height:2px;background:var(--ink);transition:transform .25s,opacity .25s}
+  .nav-toggle.is-open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+  .nav-toggle.is-open span:nth-child(2){opacity:0}
+  .nav-toggle.is-open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+  body.menu-open{overflow:hidden}
+
+  .breadcrumb{padding:14px 18px;font-size:10.5px}
+  .svc-hero{grid-template-columns:1fr;padding:36px 18px 40px;gap:24px}
+  .svc-hero-left{position:relative;top:auto;display:flex;align-items:center;gap:16px}
+  .svc-hero-mark{width:60px;height:60px;margin-bottom:0}
+  .svc-hero-content h1{font-size:32px}
+  .svc-tagline{font-size:17px}
+  .svc-hero-sub{font-size:16px}
+  .svc-body{padding:48px 18px}
+  .svc-body h2{font-size:24px;margin:40px 0 18px}
+  .svc-body p{font-size:15.5px}
+  .svc-faq-header{padding:0;grid-template-columns:60px 1fr}
+  .svc-faq-num{width:60px;font-size:28px}
+  .svc-faq-tit{padding:18px 20px}
+  .svc-faq-tit .ttl{font-size:22px}
+  .svc-faq summary{padding:20px 18px;grid-template-columns:50px 1fr 40px;font-size:16px}
+  .svc-faq .num{font-size:11.5px}
+  .svc-faq .plus{font-size:20px}
+  .svc-faq details > div{padding:0 18px 22px 68px;font-size:14px}
+  .svc-cta-final{grid-template-columns:1fr;padding:48px 18px;gap:32px}
+  .svc-cta-final h2{font-size:30px}
+  .svc-cta-final img{width:110px;height:110px}
+  .svc-related-grid{grid-template-columns:1fr}
+  .svc-related-card{border-right:none}
+  .planet-rise{height:200px}
+  .planet-rise::before{top:86px;height:50px;
+    -webkit-mask-image:radial-gradient(circle 140px at 50% 100%, transparent 0%, transparent 80%, #000 100%), linear-gradient(to bottom, transparent 0%, #000 50%, #000 100%);
+    mask-image:radial-gradient(circle 140px at 50% 100%, transparent 0%, transparent 80%, #000 100%), linear-gradient(to bottom, transparent 0%, #000 50%, #000 100%)}
+  .planet-rise svg{width:260px;height:260px;top:14px}
+  .planet-rise .pr-glow{top:144px;width:200px;height:200px}
+  .planet-rise .pr-label{left:0;right:0;bottom:14px;text-align:center;font-size:9.5px;letter-spacing:.08em;padding:0 12px}
+  footer{grid-template-columns:1fr 1fr;gap:24px 18px;padding:24px 18px;align-items:start}
+  footer > div:nth-child(1){order:4;grid-column:1 / -1}
+  footer > div:nth-child(2){order:1;grid-column:1 / -1}
+  footer > div:nth-child(3){order:3;grid-column:1 / -1}
+  footer > div:nth-child(4){order:2;grid-column:1}
+  footer > div:nth-child(5){order:2;grid-column:2}
+  footer .ft-copy{order:5;border-top:none;padding-top:12px;margin-top:0}
+  footer > div:nth-child(3) a{display:inline-block}
+  footer > div:nth-child(3) a::after{content:"·";color:var(--gray-4);margin:0 10px}
+  footer > div:nth-child(3) a:last-child::after{content:""}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/lab/v4/" class="nav-logo"><img src="/img/logo.png" alt="OIDA Labs"></a>
+    <div class="nav-links" id="nav-links">
+      <a href="/lab/v4/#chi">01 Chi siamo</a>
+      <a href="/lab/v4/#servizi">02 Servizi</a>
+      <a href="/lab/v4/#perche">03 Perché noi</a>
+      <a href="/lab/v4/#faq">04 FAQ</a>
+      <a href="/lab/v4/#contatti">05 Contatti</a>
+    </div>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Apri menu" aria-controls="nav-links" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="/lab/v4/">Home</a><span class="sep">/</span><a href="/lab/v4/#servizi">Servizi</a><span class="sep">/</span><span class="current">Consulenza Strategica</span>
+</nav>
+
+<section class="svc-hero">
+  <aside class="svc-hero-left">
+    <img class="svc-hero-mark" src="/img/pittogramma.svg" alt="">
+    <div class="svc-hero-tag">// SERVIZIO <b>/01</b><br>// CONSULENZA &amp; ANALISI<br>// SETTORE <b>SANITARIO</b></div>
+  </aside>
+  <div class="svc-hero-content">
+    <div class="svc-hero-kicker">// Servizio strategico</div>
+    <h1>Consulenza Strategica per la Sanità</h1>
+    <p class="svc-tagline">Prima di comunicare, sapere cosa dire e a chi.</p>
+    <p class="svc-hero-sub">Analizziamo la tua struttura e ti diciamo cosa fare, in che ordine e con quali priorità. Strategia di marketing sanitario basata sui dati.</p>
+    <a class="svc-cta" href="/lab/v4/#contatti">Chiedici un'analisi gratuita →</a>
+  </div>
+</section>
+
+<article class="svc-body">
+
+  <h2 data-num="// IL PROBLEMA">Il problema non è fare marketing, è sapere da dove iniziare</h2>
+  <p>Sai che la tua struttura potrebbe crescere, ma le strade sono tante e il tempo è poco. Così spesso si parte da iniziative scollegate, un po' di social, qualche campagna e un sito nuovo, senza un disegno che le tenga insieme. Si spende, ma senza sapere se si sta andando nella direzione giusta.</p>
+
+  <h2 data-num="// COME LO RISOLVIAMO">La facciamo da sanitari, non solo da consulenti</h2>
+  <p>Leggiamo la tua struttura dall'interno: la domanda sul tuo territorio, i tuoi punti di forza reali e dove ti collochi rispetto a chi ti sta intorno. Partiamo dai dati e dalla tua realtà, così la strategia nasce da come stanno davvero le cose, non da come sembrano.</p>
+
+  <h2 data-num="// COSA CAMBIA">Cosa cambia per la tua struttura</h2>
+  <p>Ti diciamo cosa fare, in che ordine e con quali priorità. Analizziamo il tuo contesto, la concorrenza sul territorio e la tua reputazione attuale, e ne ricaviamo un piano operativo con priorità chiare e ritorno atteso. Esci con una direzione, non con una lista di buoni propositi. E quello che pianifichiamo, se vuoi, possiamo anche realizzarlo passo dopo passo: dal lavoro su <a href="/lab/v4/servizio/seo-geo-sanita/">SEO e visibilità organica</a> alle <a href="/lab/v4/servizio/advertising-sanitario/">campagne pubblicitarie</a>, fino alla costruzione di <a href="/lab/v4/servizio/ufficio-stampa-sanita/">reputazione e posizionamento istituzionale</a>.</p>
+
+</article>
+
+<section class="svc-faq dusted">
+  <div class="svc-faq-header">
+    <div class="svc-faq-num">04</div>
+    <div class="svc-faq-tit">
+      <div class="lab">// Domande sul servizio</div>
+      <div class="ttl">Quattro risposte rapide</div>
+    </div>
+  </div>
+  <details><summary><span class="num">/01</span><span>Cosa ricevo concretamente?</span><span class="plus">+</span></summary><div>Un quadro chiaro di dove sei e un piano operativo: cosa fare, in che ordine e con quali priorità, con i risultati attesi.</div></details>
+  <details><summary><span class="num">/02</span><span>E dopo la strategia, chi la mette in pratica?</span><span class="plus">+</span></summary><div>La mettiamo in pratica con te. La consulenza non è uno studio da archiviare: è il punto di partenza del lavoro, e da lì seguiamo insieme le azioni che contano.</div></details>
+  <details><summary><span class="num">/03</span><span>Funziona anche se sono una struttura piccola?</span><span class="plus">+</span></summary><div>Sì. Anzi, quando le risorse sono poche, decidere bene dove investirle conta ancora di più.</div></details>
+  <details><summary><span class="num">/04</span><span>Su cosa vi basate per le scelte?</span><span class="plus">+</span></summary><div>Su dati verificabili: la domanda sul territorio, i numeri della tua presenza attuale e l'analisi di chi ti sta intorno. Non su impressioni.</div></details>
+</section>
+
+<section class="svc-cta-final">
+  <div>
+    <h2>Non sai da dove <span>partire?</span></h2>
+    <p>È esattamente da lì che partiamo noi. Analizziamo gratuitamente la tua situazione e ti diciamo cosa ha senso fare per primo.</p>
+    <a class="svc-cta" href="/lab/v4/#contatti">Chiedici un'analisi gratuita →</a>
+  </div>
+  <div class="svc-cta-final-right"><img src="/img/pittogramma.svg" alt=""></div>
+</section>
+
+<section class="svc-related">
+  <div class="svc-related-tit">// SERVIZI CORRELATI</div>
+  <div class="svc-related-grid">
+    <a class="svc-related-card" href="/lab/v4/servizio/seo-geo-sanita/">
+      <span class="num">/03</span>
+      <div class="title">Sviluppo Web · SEO &amp; GEO</div>
+      <div class="desc">Il tuo sito non ti porta pazienti? Lo rifacciamo. E facciamo in modo che Google ti trovi per primo.</div>
+      <span class="svc-related-arrow">→</span>
+    </a>
+    <a class="svc-related-card" href="/lab/v4/servizio/advertising-sanitario/">
+      <span class="num">/02</span>
+      <div class="title">Digital Marketing &amp; ADV</div>
+      <div class="desc">I pazienti ci sono. Ma non ti trovano. Campagne digitali costruite per il settore sanitario.</div>
+      <span class="svc-related-arrow">→</span>
+    </a>
+    <a class="svc-related-card" href="/lab/v4/servizio/ufficio-stampa-sanita/">
+      <span class="num">/06</span>
+      <div class="title">Ufficio Stampa e PR</div>
+      <div class="desc">Nessuno parla di te? Media relations e comunicazione istituzionale per la sanità.</div>
+      <span class="svc-related-arrow">→</span>
+    </a>
+  </div>
+</section>
+
+<div class="planet-rise" aria-hidden="true">
+  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="50" cy="50" r="45" fill="#474747"/>
+    <circle cx="50" cy="50" r="27" fill="#000"/>
+    <rect x="0" y="46" width="100" height="8" fill="#000"/>
+    <circle cx="50" cy="50" r="5.5" fill="#0a8478"/>
+  </svg>
+  <div class="pr-glow" aria-hidden="true"></div>
+  <div class="pr-label"><b>// OIDA-1</b> · ORBIT STABLE · 46.0037° N, 8.9511° E</div>
+</div>
+
+<footer class="dusted">
+  <div><strong>// AGENZIA</strong>Oida Labs SAGL<br>IDE CHE-144.100.469</div>
+  <div><strong>// CONTATTI</strong>Piazza dell'Indipendenza 3<br>6900 Lugano (CH)<br>info@oida-labs.com</div>
+  <div><strong>// SOCIAL</strong><a href="https://linkedin.com/company/oidalabs" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.facebook.com/OIDA.Labs" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/oida.labs/" target="_blank" rel="noopener">Instagram</a></div>
+  <div><strong>// EDITORIALE</strong><a href="/insights/">Insights</a><a href="/blog/">Blog</a></div>
+  <div><strong>// LEGAL</strong><a href="/legal/privacy-policy/">Privacy Policy</a><a href="/legal/cookie-policy/">Cookie Policy</a></div>
+  <div class="ft-copy">© 2026 Oida Labs · v4.lab</div>
+</footer>
+
+<script>
+var navToggle=document.getElementById('nav-toggle');
+var navMenu=document.getElementById('nav-links');
+function closeMenu(){navMenu.classList.remove('is-open');navToggle.classList.remove('is-open');navToggle.setAttribute('aria-expanded','false');document.body.classList.remove('menu-open')}
+function openMenu(){navMenu.classList.add('is-open');navToggle.classList.add('is-open');navToggle.setAttribute('aria-expanded','true');document.body.classList.add('menu-open')}
+if(navToggle&&navMenu){
+  navToggle.addEventListener('click',function(){navMenu.classList.contains('is-open')?closeMenu():openMenu()});
+  navMenu.querySelectorAll('a').forEach(function(a){a.addEventListener('click',closeMenu)});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&navMenu.classList.contains('is-open'))closeMenu()});
+}
+</script>
+
+</body>
+</html>
