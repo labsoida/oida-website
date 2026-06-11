@@ -93,12 +93,12 @@ body{background:var(--bg);color:var(--ink);font-family:'Barlow Semi Condensed',s
 .blog-row{display:grid;grid-template-columns:1fr 60px;align-items:center;border-bottom:var(--hairline);text-decoration:none;color:inherit;transition:background .15s}
 .blog-row:last-child{border-bottom:none}
 .blog-row:hover{background:var(--gray-1)}
-.blog-row:hover .blog-row-arr{color:var(--teal);transform:translateX(4px)}
+.blog-row:hover .blog-row-arr{transform:translateX(4px)}
 .blog-row-body{padding:28px 32px;display:flex;flex-direction:column;gap:8px}
 .blog-row-date{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.06em}
 .blog-row-title{font-family:'Glaseer',sans-serif;font-size:24px;text-transform:uppercase;line-height:1.12;color:var(--ink)}
 .blog-row-excerpt{font-size:14.5px;color:var(--gray-6);line-height:1.55;max-width:840px}
-.blog-row-arr{font-family:'JetBrains Mono',monospace;font-size:18px;color:var(--gray-4);text-align:center;transition:color .15s,transform .15s}
+.blog-row-arr{font-family:'JetBrains Mono',monospace;font-size:26px;color:var(--teal);text-align:center;transition:color .15s,transform .15s}
 
 /* PLANET-RISE */
 .planet-rise{position:relative;height:320px;overflow:hidden;border-top:var(--cut)}
@@ -132,7 +132,7 @@ body{background:var(--bg);color:var(--ink);font-family:'Barlow Semi Condensed',s
 .planet-rise .pr-label b{color:var(--teal);font-weight:400}
 
 /* FOOTER */
-footer{padding:32px;display:grid;grid-template-columns:repeat(5,1fr);gap:32px;font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--gray-5);line-height:1.7;border-top:var(--hairline)}
+footer{padding:32px;display:grid;grid-template-columns:repeat(5,1fr);gap:32px;max-width:1280px;margin:0 auto;font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--gray-5);line-height:1.7;border-top:var(--hairline)}
 footer strong{color:var(--ink);text-transform:uppercase;letter-spacing:.06em;font-size:10.5px;display:block;margin-bottom:8px}
 footer a{color:var(--gray-5);text-decoration:none;display:block;transition:color .15s}
 footer a:hover{color:var(--teal)}
