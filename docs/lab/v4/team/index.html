@@ -62,9 +62,7 @@ a.team-card:hover{background:var(--gray-1)}
 .tc-bio{font-size:14px;color:var(--gray-6);line-height:1.6;margin-bottom:18px}
 .tc-link{font-family:'BankGothic',sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);display:inline-flex;align-items:center;gap:10px;transition:gap .15s}
 .team-card:hover .tc-link{gap:18px}
-.team-soon{grid-column:1 / -1;padding:30px 32px;display:flex;align-items:center;gap:16px;color:var(--gray-4);font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.05em}
-.team-soon b{color:var(--gray-5);font-weight:400}
-.team-soon .dot{width:10px;height:10px;border-radius:50%;border:2px solid var(--teal);flex-shrink:0}
+.team-card:nth-last-child(-n+2){border-bottom:none}
 
 /* === CTA RITORNO === */
 .cta-back{padding:80px 32px;max-width:1280px;margin:0 auto;text-align:center}
@@ -86,7 +84,8 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
   .team-grid{grid-template-columns:1fr}
   .team-card{grid-template-columns:1fr;border-right:none;padding:32px 18px;gap:20px}
   .tc-photo{width:120px;height:120px}
-  .team-soon{padding:24px 18px}
+  .team-card:nth-last-child(-n+2){border-bottom:var(--hairline)}
+  .team-card:last-child{border-bottom:none}
   .cta-back{padding:48px 18px}
   .footer-inner{grid-template-columns:1fr 1fr;gap:28px 18px;padding:24px 18px;align-items:start}
   footer .ft-copy{border-top:none;padding:8px 18px 20px}
@@ -108,7 +107,7 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
 </nav>
 
 <section class="page-hero">
-  <div class="kicker">// CREW · OIDA-1 <b>· 4 attivi · 1 in arrivo</b></div>
+  <div class="kicker">// CREW · OIDA-1</div>
   <h1>Alla guida di <span>OIDA</span></h1>
   <p>Medicina, tecnologia e marketing nello stesso team. Tutti con un percorso dentro la sanità. Ed è il motivo per cui sappiamo come comunicarla.</p>
 </section>
@@ -158,8 +157,6 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
       <span class="tc-link">Profilo →</span>
     </div>
   </a>
-
-  <div class="team-soon"><span class="dot"></span><span><b>// 05</b> · Quinto profilo in arrivo</span></div>
 
 </div>
 
