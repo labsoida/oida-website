@@ -124,7 +124,7 @@ La presente informativa può essere aggiornata in conseguenza di modifiche norma
 
 ---
 
-**Fonte:** https://oida-labs.com/legal/privacy-policy/index.md
+**Fonte:** http://localhost:1313/legal/privacy-policy/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

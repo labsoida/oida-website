@@ -1,5 +1,6 @@
 ---
 title: "Ufficio Stampa e PR per la Sanità"
+linktitle: "Ufficio Stampa e PR"
 description: "Costruiamo la reputazione mediatica di strutture e gruppi sanitari: relazioni con i media e autorevolezza istituzionale, da chi viene dalla sanità."
 date: 2026-05-21
 draft: false

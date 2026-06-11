@@ -119,7 +119,7 @@ Sì. In specialità dove la distanza non è un ostacolo percepito e dove la stru
 
 ---
 
-**Fonte:** https://oida-labs.com/blog/pazienti-italiani-in-canton-ticino-perche-scelgono-le-strutture-svizzere-e-come-intercettarli/index.md
+**Fonte:** http://localhost:1313/blog/pazienti-italiani-in-canton-ticino-perche-scelgono-le-strutture-svizzere-e-come-intercettarli/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

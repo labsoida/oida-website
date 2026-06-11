@@ -1,39 +1,32 @@
 {{ $d := .Site.Data.contatti }}
-<section class="contatti" id="contatti">
-  <div class="container container--narrow">
-    <span class="section-label animate">{{ $d.label }}</span>
-    <h2 class="contatti__title animate" data-animate-delay="100">{{ $d.title }} <span class="text-accent">{{ $d.title_accent }}</span></h2>
-    <p class="contatti__subtitle animate" data-animate-delay="150">{{ $d.subtitle }}</p>
-
-    <form class="contact-form animate" data-animate-delay="200"
-          action="https://formspree.io/f/{{ $d.formspree_id }}" method="POST" id="contact-form">
-
-      {{ range $d.fields }}
-      {{ if eq .type "textarea" }}
-      <textarea name="{{ .name }}" placeholder="{{ .placeholder }}" rows="5"
-        {{ if .required }}required{{ end }} aria-label="{{ .placeholder }}"></textarea>
-      {{ else }}
-      <input type="{{ .type }}" name="{{ .name }}" placeholder="{{ .placeholder }}"
-        {{ if .required }}required{{ end }} aria-label="{{ .placeholder }}">
-      {{ end }}
-      {{ end }}
-
-      <label class="contact-form__consent">
-        <input type="checkbox" name="privacy_consent" required aria-label="Consenso al trattamento dei dati personali">
-        <span>Ho letto la <a href="/legal/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a> e acconsento al trattamento dei miei dati personali per essere ricontattato.</span>
-      </label>
-
-      <button type="submit" class="btn btn--primary btn--full">{{ $d.submit_text }}</button>
-      <div class="contact-form__status" aria-live="polite"></div>
-    </form>
-
-    <div class="contatti__info animate" data-animate-delay="300">
-      <a href="mailto:{{ $d.email }}" class="contatti__info-item">
-        {{- partial "icon.html" "mail" -}} {{ $d.email }}
-      </a>
-      <a href="https://{{ $d.website }}" target="_blank" rel="noopener" class="contatti__info-item">
-        {{- partial "icon.html" "globe-small" -}} {{ $d.website }}
-      </a>
+<section id="contatti" class="cta-wrap">
+  <div class="s-header dusted">
+    <div class="s-num">06</div>
+    <div class="s-titlebox"><div class="s-label">// {{ $d.label }}</div><div class="s-title">Parliamone</div></div>
+    <div class="s-toggle" aria-hidden="true">+</div>
+  </div>
+  <div class="section-body">
+    <div class="cta-final">
+      <div class="cta-final-text">
+        <h2>{{ $d.title }} <span>{{ $d.title_accent }}</span></h2>
+        <p>{{ $d.subtitle }}</p>
+        <div class="cta-meta">// RISPOSTA IN <b>24H</b> &middot; NESSUN IMPEGNO &middot; PRIMO CONTATTO <b>GRATUITO</b></div>
+      </div>
+      <form class="cta-form" action="https://formspree.io/f/{{ $d.formspree_id }}" method="POST" id="cta-form">
+        {{ range $d.fields }}
+        {{ if eq .type "textarea" }}
+        <textarea name="{{ .name }}" placeholder="{{ .placeholder }}" rows="5"{{ if .required }} required{{ end }} aria-label="{{ .placeholder }}"></textarea>
+        {{ else }}
+        <input type="{{ .type }}" name="{{ .name }}" placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }} aria-label="{{ .placeholder }}">
+        {{ end }}
+        {{ end }}
+        <label class="cta-privacy">
+          <input type="checkbox" name="privacy_consent" required aria-label="Consenso privacy">
+          <span>Ho letto la <a href="{{ "legal/privacy-policy/" | relURL }}" target="_blank" rel="noopener">Privacy Policy</a> e acconsento al trattamento dei miei dati per essere ricontattato.</span>
+        </label>
+        <button type="submit">{{ $d.submit_text }} &rarr;</button>
+        <div class="cta-status" aria-live="polite"></div>
+      </form>
     </div>
   </div>
 </section>

@@ -103,7 +103,7 @@ Almeno tre figure: il referente marketing (interno o esterno), il responsabile d
 
 ---
 
-**Fonte:** https://oida-labs.com/blog/cpl-cac-marketing-sanitario-metrica-redditivita/index.md
+**Fonte:** http://localhost:1313/blog/cpl-cac-marketing-sanitario-metrica-redditivita/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

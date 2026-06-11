@@ -129,7 +129,7 @@ Un CAC superiore al margine della prima visita non è necessariamente un problem
 
 ---
 
-**Fonte:** https://oida-labs.com/blog/kpi-del-marketing-sanitario-come-misurare-quello-che-conta-davvero/index.md
+**Fonte:** http://localhost:1313/blog/kpi-del-marketing-sanitario-come-misurare-quello-che-conta-davvero/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

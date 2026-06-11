@@ -1,1 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lamal on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</title><link>https://oida-labs.com/tags/lamal/</link><description>Recent content in Lamal on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</description><generator>Hugo</generator><language>it</language><lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://oida-labs.com/tags/lamal/index.xml" rel="self" type="application/rss+xml"/><item><title>Marketing sanitario in Canton Ticino: mercato, specificità e opportunità per le strutture private</title><link>https://oida-labs.com/blog/marketing-sanitario-in-canton-ticino-mercato-specificita-e-opportunita-per-le-strutture-private/</link><pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate><guid>https://oida-labs.com/blog/marketing-sanitario-in-canton-ticino-mercato-specificita-e-opportunita-per-le-strutture-private/</guid><description>&lt;p&gt;Il Canton Ticino è l&amp;rsquo;unico cantone svizzero di lingua italiana. Questo dato geografico e linguistico ha implicazioni pratiche per il marketing sanitario che vanno oltre la traduzione dei contenuti: &lt;strong&gt;definisce un mercato con caratteristiche proprie&lt;/strong&gt;, con un sistema assicurativo specifico (LAMAL), con un bacino di pazienti che include sia residenti svizzeri sia cittadini italiani di confine, e con una competizione digitale sul web italiano-svizzero ancora sottosviluppata rispetto ai mercati comparabili del nord Italia.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lamal on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</title>
+    <link>http://localhost:1313/tags/lamal/</link>
+    <description>Recent content in Lamal on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</description>
+    <generator>Hugo</generator>
+    <language>it</language>
+    <atom:link href="http://localhost:1313/tags/lamal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Marketing sanitario in Canton Ticino: mercato, specificità e opportunità per le strutture private</title>
+      <link>http://localhost:1313/blog/marketing-sanitario-in-canton-ticino-mercato-specificita-e-opportunita-per-le-strutture-private/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/marketing-sanitario-in-canton-ticino-mercato-specificita-e-opportunita-per-le-strutture-private/</guid>
+      <description>&lt;p&gt;Il Canton Ticino è l&amp;rsquo;unico cantone svizzero di lingua italiana. Questo dato geografico e linguistico ha implicazioni pratiche per il marketing sanitario che vanno oltre la traduzione dei contenuti: &lt;strong&gt;definisce un mercato con caratteristiche proprie&lt;/strong&gt;, con un sistema assicurativo specifico (LAMAL), con un bacino di pazienti che include sia residenti svizzeri sia cittadini italiani di confine, e con una competizione digitale sul web italiano-svizzero ancora sottosviluppata rispetto ai mercati comparabili del nord Italia.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

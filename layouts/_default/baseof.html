@@ -8,27 +8,29 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M3B73NRN"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-  <header class="site-header" id="site-header">
-    <nav class="site-header__nav" aria-label="Navigazione principale">
-      <a href="{{ "/" | relURL }}" class="site-header__logo-link" aria-label="Oida Labs — Home">
-        <img src="{{ "img/logo.png" | relURL }}" alt="Oida Labs — Agenzia di Marketing Sanitario" class="site-header__logo" width="2506" height="1115" decoding="async">
+  {{- $h := "" }}{{ if not .IsHome }}{{ $h = "/" | relURL }}{{ end -}}
+  <nav class="nav" aria-label="Navigazione principale">
+    <div class="nav-inner">
+      <a href="{{ if .IsHome }}#hero{{ else }}{{ "/" | relURL }}{{ end }}" class="nav-logo" aria-label="Oida Labs — Home">
+        <img src="{{ "img/logo.png" | relURL }}" alt="Oida Labs — Agenzia di Marketing Sanitario" width="2506" height="1115" decoding="async">
       </a>
-      <div class="site-header__links" id="site-header-links">
-        <a href="{{ "servizi/" | relURL }}" class="site-header__link">Servizi</a>
-        <a href="{{ "blog/" | relURL }}" class="site-header__link">Blog</a>
-        <a href="{{ "insights/" | relURL }}" class="site-header__link">Insight</a>
+      <div class="nav-links" id="nav-links">
+        <a href="{{ $h }}#chi"{{ if .IsHome }} data-section="chi"{{ end }}>01 Chi siamo</a>
+        <a href="{{ $h }}#servizi"{{ if .IsHome }} data-section="servizi"{{ end }}>02 Servizi</a>
+        <a href="{{ $h }}#perche"{{ if .IsHome }} data-section="perche"{{ end }}>03 Perché noi</a>
+        <a href="{{ $h }}#pubblicazioni"{{ if .IsHome }} data-section="pubblicazioni"{{ end }}>04 Pubblicazioni</a>
+        <a href="{{ $h }}#faq"{{ if .IsHome }} data-section="faq"{{ end }}>05 FAQ</a>
+        <a href="{{ $h }}#contatti"{{ if .IsHome }} data-section="contatti"{{ end }}>06 Contatti</a>
       </div>
-      <button class="site-header__toggle" id="site-header-toggle" aria-label="Apri menu" aria-expanded="false" aria-controls="site-header-links">
-        <span class="site-header__toggle-bar"></span>
-        <span class="site-header__toggle-bar"></span>
-        <span class="site-header__toggle-bar"></span>
+      <div class="nav-meta"></div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Apri menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
       </button>
-    </nav>
-  </header>
+    </div>
+  </nav>
   <main>
     {{ block "main" . }}{{ end }}
   </main>
-  <button class="back-to-top" id="backToTop" aria-label="Torna in cima">&uarr;</button>
   <script src="{{ "js/main.js" | relURL }}" defer></script>
 </body>
 </html>

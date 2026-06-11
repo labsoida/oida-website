@@ -1,5 +1,6 @@
 ---
 title: "Progettazione di Ambienti Chirurgici"
+linktitle: "Progettazione Ambienti Chirurgici"
 description: "Ti affianchiamo per aprire o ampliare sale operatorie e ambulatori chirurgici: fattibilità, norme, strumentari. La competenza di chi li ha vissuti."
 date: 2026-05-21
 draft: false

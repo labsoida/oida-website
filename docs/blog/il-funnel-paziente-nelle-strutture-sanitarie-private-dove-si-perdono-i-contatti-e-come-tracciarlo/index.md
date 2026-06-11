@@ -122,7 +122,7 @@ Un foglio Excel è sufficiente per iniziare a raccogliere dati. Diventa un limit
 
 ---
 
-**Fonte:** https://oida-labs.com/blog/il-funnel-paziente-nelle-strutture-sanitarie-private-dove-si-perdono-i-contatti-e-come-tracciarlo/index.md
+**Fonte:** http://localhost:1313/blog/il-funnel-paziente-nelle-strutture-sanitarie-private-dove-si-perdono-i-contatti-e-come-tracciarlo/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

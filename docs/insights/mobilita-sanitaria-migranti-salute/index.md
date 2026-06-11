@@ -96,7 +96,7 @@ La leva non è clinica, è di posizionamento e di accessibilità: presidiare le 
 
 ---
 
-**Fonte:** https://oida-labs.com/insights/mobilita-sanitaria-migranti-salute/index.md
+**Fonte:** http://localhost:1313/insights/mobilita-sanitaria-migranti-salute/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

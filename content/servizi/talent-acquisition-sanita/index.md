@@ -1,5 +1,6 @@
 ---
 title: "Talent Acquisition per la Sanità"
+linktitle: "Talent Acquisition"
 description: "Rendiamo la tua struttura sanitaria attrattiva per i professionisti: employer branding e campagne per farti scegliere. Non selezione, ma attrazione."
 date: 2026-05-21
 draft: false

@@ -1,7 +1,8 @@
-label: "Chi Siamo"
-title: "I tuoi addetti ai lavori."
+label: "Chi siamo"
+title: "I tuoi addetti ai lavori"
 subtitle: "(Non chiamarci consulenti)"
 intro: "Non veniamo dal marketing. Veniamo dalla sanità. Ed è esattamente questa la differenza."
+body: "OIDA Labs è un'agenzia di marketing per la sanità privata in Italia e in Svizzera, fondata e guidata da chi in sanità ci lavora. Conosciamo il funnel di un poliambulatorio, i vincoli deontologici della pubblicità medica e il modo in cui un paziente sceglie uno specialista, perché li abbiamo vissuti dall'interno."
 closing: "Se stai cercando qualcuno che capisca senza dover spiegare tutto dall'inizio, sei nel posto giusto."
 kpis:
   - number: "50+"

@@ -1,5 +1,10 @@
 headline: "Siamo medici che hanno risolto i loro problemi di marketing."
 headline_accent: "Ora li risolviamo per te."
+# Markup esatto del mockup v4 (span teal + capoversi desktop; i <br> spariscono su mobile via CSS).
+# &nbsp;&#8203; prima di ogni <br>: il minificatore Hugo rimuove gli spazi normali adiacenti ai <br>;
+# il solo &nbsp; incolla le parole in modo non spezzabile; lo zero-width space (&#8203;) ridà
+# il punto di a-capo, così su mobile il testo fluisce come uno spazio normale.
+headline_html: '<span>Siamo medici</span> che&nbsp;&#8203;<br>hanno risolto i loro&nbsp;&#8203;<br>problemi di marketing.&nbsp;&#8203;<br><span>Ora li risolviamo&nbsp;&#8203;<br>per te.</span>'
 subtitle: "Uniamo esperienza sanitaria, competenze di marketing e pragmatismo, per metterle al servizio delle strutture sanitarie e supportarle nelle sfide quotidiane della loro crescita."
 tagline: "Know More. Move Faster."
 cta_text: "Parliamone"

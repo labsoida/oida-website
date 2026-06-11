@@ -108,7 +108,7 @@ Le strutture svizzere sono soggette alla **Legge federale sulla protezione dei d
 
 ---
 
-**Fonte:** https://oida-labs.com/blog/marketing-sanitario-in-canton-ticino-mercato-specificita-e-opportunita-per-le-strutture-private/index.md
+**Fonte:** http://localhost:1313/blog/marketing-sanitario-in-canton-ticino-mercato-specificita-e-opportunita-per-le-strutture-private/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

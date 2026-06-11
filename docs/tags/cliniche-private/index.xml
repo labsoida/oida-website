@@ -1,1 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cliniche Private on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</title><link>https://oida-labs.com/tags/cliniche-private/</link><description>Recent content in Cliniche Private on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</description><generator>Hugo</generator><language>it</language><lastBuildDate>Sun, 05 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://oida-labs.com/tags/cliniche-private/index.xml" rel="self" type="application/rss+xml"/><item><title>Telemedicina nelle cliniche private: opportunità concreta o moda passeggera?</title><link>https://oida-labs.com/blog/telemedicina-nelle-cliniche-private-opportunita-concreta-o-moda-passeggera/</link><pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate><guid>https://oida-labs.com/blog/telemedicina-nelle-cliniche-private-opportunita-concreta-o-moda-passeggera/</guid><description>&lt;p&gt;La pandemia ha normalizzato la telemedicina come modalità di accesso alle cure sanitarie. La normalizzazione non ha risolto le questioni operative che determinano se la telemedicina funziona o no per una struttura privata specifica: &lt;strong&gt;quale tipo di prestazione si presta al teleconsulto, come si integra con il percorso clinico in presenza, come si remunera, come si gestisce la compliance GDPR e come si inserisce nella strategia di acquisizione e fidelizzazione del paziente&lt;/strong&gt;.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cliniche Private on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</title>
+    <link>http://localhost:1313/tags/cliniche-private/</link>
+    <description>Recent content in Cliniche Private on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</description>
+    <generator>Hugo</generator>
+    <language>it</language>
+    <atom:link href="http://localhost:1313/tags/cliniche-private/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Telemedicina nelle cliniche private: opportunità concreta o moda passeggera?</title>
+      <link>http://localhost:1313/blog/telemedicina-nelle-cliniche-private-opportunita-concreta-o-moda-passeggera/</link>
+      <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/telemedicina-nelle-cliniche-private-opportunita-concreta-o-moda-passeggera/</guid>
+      <description>&lt;p&gt;La pandemia ha normalizzato la telemedicina come modalità di accesso alle cure sanitarie. La normalizzazione non ha risolto le questioni operative che determinano se la telemedicina funziona o no per una struttura privata specifica: &lt;strong&gt;quale tipo di prestazione si presta al teleconsulto, come si integra con il percorso clinico in presenza, come si remunera, come si gestisce la compliance GDPR e come si inserisce nella strategia di acquisizione e fidelizzazione del paziente&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

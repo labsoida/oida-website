@@ -1,38 +1,41 @@
 {{ define "main" }}
-<section class="insight-listing">
-  <div class="container">
-    <span class="section-label animate">OIDA Insight</span>
-    <h1 class="section-title animate" data-animate-delay="100">Healthcare Market Intelligence</h1>
-    <p class="section-subtitle animate" data-animate-delay="200">Analisi originali sul mercato sanitario italiano. Dati, segmentazioni, scenari competitivi — letti dal punto di osservazione di chi progetta comunicazione specialistica.</p>
+{{ $posts := where .Pages "Params.draft" "ne" true }}
+{{ $sorted := $posts.ByDate.Reverse }}
 
-    {{ $posts := where .Pages "Params.draft" "ne" true }}
-    {{ if eq (len $posts) 0 }}
-    <div class="blog-empty animate" data-animate-delay="300">
-      <p>Il primo insight è in arrivo. Torna a trovarci.</p>
-      <a href="{{ "/" | relURL }}" class="btn btn--primary">← Torna alla Home</a>
-    </div>
-    {{ else }}
-    <div class="insight-grid">
-      {{ range $i, $post := $posts.ByDate.Reverse }}
-      <a href="{{ .RelPermalink }}" class="insight-card animate" data-animate-delay="{{ mul (add $i 3) 100 }}">
-        {{ with .Params.image }}
-        <div class="insight-card__image-wrap">
-          <img src="{{ . | relURL }}" alt="{{ $.Params.image_alt | default $.Title }}" class="insight-card__image" loading="lazy" width="1200" height="630">
-        </div>
-        {{ end }}
-        <div class="insight-card__body">
-          <div class="insight-card__meta">
-            <span class="insight-card__kicker">{{ .Params.kicker | default "OIDA Insight" }}</span>
-            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
-          </div>
-          <h2 class="insight-card__title">{{ .Title }}</h2>
-          <p class="insight-card__excerpt">{{ .Description }}</p>
-          <span class="insight-card__cta">Leggi l'analisi →</span>
-        </div>
-      </a>
-      {{ end }}
-    </div>
-    {{ end }}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="{{ "/" | relURL }}">Home</a><span class="sep">/</span><span class="current">Insight</span>
+</nav>
+
+<header class="list-head list-head--mark starry">
+  <img class="list-head-mark" src="{{ "img/pittogramma.svg" | relURL }}" alt="" aria-hidden="true">
+  <div class="list-head-text">
+    <div class="list-kicker">// Insight &mdash; Healthcare Market Intelligence</div>
+    <h1>Letture dei dati</h1>
+    <p class="list-sub">Analisi originali sul mercato sanitario italiano. Dati, segmentazioni e scenari competitivi nel settore della sanità privata, letti dal punto di osservazione di chi progetta comunicazione specialistica.</p>
+    {{ with $sorted }}<div class="list-count">// <b>{{ len . }}</b> analisi pubblicate</div>{{ end }}
   </div>
-</section>
+</header>
+
+{{ if eq (len $posts) 0 }}
+<div class="srv-group-head"><span class="srv-group-lab">// Il primo insight è in arrivo. Torna a trovarci.</span></div>
+{{ else }}
+<div class="ins-cards">
+  {{ range $sorted }}
+  <a class="ins-card" href="{{ .RelPermalink }}">
+    <div class="ins-card-meta">
+      <div class="ins-card-kicker">{{ replace (.Params.kicker | default "OIDA Insight") " — " "<br>" | safeHTML }}</div>
+      <div class="ins-card-date">{{ .Date.Format "02.01.2006" }}</div>
+    </div>
+    <div class="ins-card-body">
+      <div class="ins-card-title">{{ .LinkTitle }}</div>
+      <div class="ins-card-deck">{{ .Description }}</div>
+    </div>
+    <span class="ins-card-arr">&rarr;</span>
+  </a>
+  {{ end }}
+</div>
+{{ end }}
+
+{{ partial "planet-rise.html" . }}
+{{ partial "footer.html" . }}
 {{ end }}
