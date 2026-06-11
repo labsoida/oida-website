@@ -108,6 +108,7 @@
     console.log('%c// OIDA-1 · BOOT SEQUENCE COMPLETE', 'color:#00C2B2;' + mono);
     console.log('%c// all systems nominal · orbit stable · 46.0037° N, 8.9511° E', 'color:#999;' + mono);
     console.log('%c// Klaatu barada nikto.', 'color:#999;' + mono);
+    console.log('%c// xyzzy', 'color:#444;' + mono);
     console.log('%c// End of line.', 'color:#00C2B2;' + mono);
   } catch (e) {}
 
