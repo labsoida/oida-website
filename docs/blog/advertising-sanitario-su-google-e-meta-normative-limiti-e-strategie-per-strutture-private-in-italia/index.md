@@ -48,7 +48,7 @@ In sintesi operativa, sono vietate in modo chiaro:
 - La pubblicità comparativa diretta
 - Le comunicazioni che inducono il paziente a credere di avere una patologia che non ha diagnosticato
 
-## Cosa si può fare su Google Ads per strutture sanitarie
+## Cosa si può fare su Google Ads per strutture sanitarie {#cosa-si-puo-fare-su-google-ads-per-strutture-sanitarie}
 
 ### Search: intercettare la domanda esistente
 
@@ -64,7 +64,7 @@ Le campagne Display e YouTube in ambito sanitario sono soggette a limitazioni pi
 
 Le campagne Display e YouTube, in questi casi, sono strumenti di brand awareness più che di acquisizione diretta. Sono appropriate per strutture che vogliono costruire riconoscibilità in una specifica area geografica, non per strutture che vogliono generare lead a breve termine con un budget limitato.
 
-## Meta Ads in sanità: target, limitazioni e opportunità
+## Meta Ads in sanità: target, limitazioni e opportunità {#meta-ads-in-sanita-target-limitazioni-e-opportunita}
 
 ### Le restrizioni di Meta per la sanità
 
@@ -129,7 +129,7 @@ Le recensioni dei pazienti su Google Business Profile sono pubblicate volontaria
 
 ---
 
-**Fonte:** http://localhost:1313/blog/advertising-sanitario-su-google-e-meta-normative-limiti-e-strategie-per-strutture-private-in-italia/index.md
+**Fonte:** https://oida-labs.com/blog/advertising-sanitario-su-google-e-meta-normative-limiti-e-strategie-per-strutture-private-in-italia/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

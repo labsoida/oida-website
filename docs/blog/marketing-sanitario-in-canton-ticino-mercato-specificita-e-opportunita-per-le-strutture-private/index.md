@@ -61,7 +61,7 @@ Il flusso di pazienti italiani verso il Canton Ticino è un fenomeno strutturale
 
 La strategia di marketing verso queste tre categorie è diversa. Il dettaglio è approfondito nell'articolo su [pazienti italiani in Canton Ticino](/blog/pazienti-italiani-in-canton-ticino-perche-scelgono-le-strutture-svizzere-e-come-intercettarli/).
 
-## La competizione digitale: opportunità di posizionamento
+## La competizione digitale: opportunità di posizionamento {#la-competizione-digitale-opportunita-di-posizionamento}
 
 **Qual è il livello di competizione digitale nel marketing sanitario in Canton Ticino?**
 
@@ -108,7 +108,7 @@ Le strutture svizzere sono soggette alla **Legge federale sulla protezione dei d
 
 ---
 
-**Fonte:** http://localhost:1313/blog/marketing-sanitario-in-canton-ticino-mercato-specificita-e-opportunita-per-le-strutture-private/index.md
+**Fonte:** https://oida-labs.com/blog/marketing-sanitario-in-canton-ticino-mercato-specificita-e-opportunita-per-le-strutture-private/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

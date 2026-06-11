@@ -95,7 +95,7 @@ I primi segnali — aumento delle visualizzazioni del profilo, incremento delle 
 
 ---
 
-**Fonte:** http://localhost:1313/blog/google-business-profile-marketing-sanitario-profili-non-producono-risultati/index.md
+**Fonte:** https://oida-labs.com/blog/google-business-profile-marketing-sanitario-profili-non-producono-risultati/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

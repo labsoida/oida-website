@@ -115,7 +115,7 @@ Sì. I dati sanitari sono **categoria protetta ai sensi del GDPR (art. 9)** e il
 
 ---
 
-**Fonte:** http://localhost:1313/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/index.md
+**Fonte:** https://oida-labs.com/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

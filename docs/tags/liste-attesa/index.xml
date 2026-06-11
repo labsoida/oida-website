@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Liste Attesa on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</title>
-    <link>http://localhost:1313/tags/liste-attesa/</link>
-    <description>Recent content in Liste Attesa on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</description>
-    <generator>Hugo</generator>
-    <language>it</language>
-    <atom:link href="http://localhost:1313/tags/liste-attesa/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Liste d&#39;attesa e sanità privata: il momento in cui il paziente decide di pagare</title>
-      <link>http://localhost:1313/blog/liste-dattesa-e-sanita-privata-il-momento-in-cui-il-paziente-decide-di-pagare/</link>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/liste-dattesa-e-sanita-privata-il-momento-in-cui-il-paziente-decide-di-pagare/</guid>
-      <description>&lt;p&gt;La decisione di rivolgersi a una struttura sanitaria privata raramente nasce da una preferenza astratta per il settore privato. Nasce quasi sempre da un&amp;rsquo;urgenza concreta: un dolore che non passa, un sospetto che non si può ignorare, &lt;strong&gt;un&amp;rsquo;attesa sul sistema pubblico che si misura in mesi&lt;/strong&gt; e che il paziente non riesce o non vuole sostenere. In quel momento specifico, il paziente che finora si era affidato esclusivamente al SSN diventa un potenziale paziente privato.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Liste Attesa on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</title><link>https://oida-labs.com/tags/liste-attesa/</link><description>Recent content in Liste Attesa on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</description><generator>Hugo</generator><language>it</language><lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://oida-labs.com/tags/liste-attesa/index.xml" rel="self" type="application/rss+xml"/><item><title>Liste d'attesa e sanità privata: il momento in cui il paziente decide di pagare</title><link>https://oida-labs.com/blog/liste-dattesa-e-sanita-privata-il-momento-in-cui-il-paziente-decide-di-pagare/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>https://oida-labs.com/blog/liste-dattesa-e-sanita-privata-il-momento-in-cui-il-paziente-decide-di-pagare/</guid><description>&lt;p&gt;La decisione di rivolgersi a una struttura sanitaria privata raramente nasce da una preferenza astratta per il settore privato. Nasce quasi sempre da un&amp;rsquo;urgenza concreta: un dolore che non passa, un sospetto che non si può ignorare, &lt;strong&gt;un&amp;rsquo;attesa sul sistema pubblico che si misura in mesi&lt;/strong&gt; e che il paziente non riesce o non vuole sostenere. In quel momento specifico, il paziente che finora si era affidato esclusivamente al SSN diventa un potenziale paziente privato.&lt;/p&gt;</description></item></channel></rss>

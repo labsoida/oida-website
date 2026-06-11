@@ -94,7 +94,7 @@ Il report deve mostrare i dati in trend, non solo come snapshot puntuale. Un CPL
 
 La raccolta sistematica di questi dati richiede l'integrazione tra le piattaforme pubblicitarie e un [CRM configurato per le specificità della sanità privata](/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/).
 
-## KPI per specialità: perché i benchmark cambiano
+## KPI per specialità: perché i benchmark cambiano {#kpi-per-specialita-perche-i-benchmark-cambiano}
 
 **I benchmark dei KPI di marketing sono diversi per ogni specialità medica?**
 
@@ -129,7 +129,7 @@ Un CAC superiore al margine della prima visita non è necessariamente un problem
 
 ---
 
-**Fonte:** http://localhost:1313/blog/kpi-del-marketing-sanitario-come-misurare-quello-che-conta-davvero/index.md
+**Fonte:** https://oida-labs.com/blog/kpi-del-marketing-sanitario-come-misurare-quello-che-conta-davvero/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

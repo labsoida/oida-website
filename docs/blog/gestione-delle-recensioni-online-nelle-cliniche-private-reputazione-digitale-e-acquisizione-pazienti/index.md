@@ -29,7 +29,7 @@ Il **77% dei pazienti legge le recensioni online prima di scegliere una struttur
 
 ---
 
-## Perché le recensioni incidono sulla conversione
+## Perché le recensioni incidono sulla conversione {#perche-le-recensioni-incidono-sulla-conversione}
 
 ### Recensioni e tasso di conversione: il collegamento diretto
 
@@ -121,7 +121,7 @@ Doctolib, TrustPilot, iDoctors e piattaforme specializzate per specialità contr
 
 ---
 
-**Fonte:** http://localhost:1313/blog/gestione-delle-recensioni-online-nelle-cliniche-private-reputazione-digitale-e-acquisizione-pazienti/index.md
+**Fonte:** https://oida-labs.com/blog/gestione-delle-recensioni-online-nelle-cliniche-private-reputazione-digitale-e-acquisizione-pazienti/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

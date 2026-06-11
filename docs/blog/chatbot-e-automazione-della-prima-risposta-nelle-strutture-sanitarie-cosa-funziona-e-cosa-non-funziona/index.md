@@ -43,7 +43,7 @@ Dati interni OIDA Labs su strutture monitorate tra il 2023 e il 2025 mostrano ch
 
 La domanda sanitaria non è omogenea durante la giornata. Picchi di ricerca e di contatto si concentrano in tre finestre: la pausa pranzo (12:00-14:00), il tardo pomeriggio (17:00-19:00) e la sera (20:00-22:00). Questi tre momenti coincidono in parte con la chiusura del front office o con i momenti di massimo carico. **L'automazione della prima risposta ha il suo maggiore impatto proprio in queste finestre**, dove la probabilità di non risposta manuale è più alta.
 
-## Cosa può fare un chatbot e cosa non può fare
+## Cosa può fare un chatbot e cosa non può fare {#cosa-puo-fare-un-chatbot-e-cosa-non-puo-fare}
 
 ### Il perimetro di utilità reale
 
@@ -129,7 +129,7 @@ I chatbot che raccolgono informazioni legate alla salute sono soggetti al **GDPR
 
 ---
 
-**Fonte:** http://localhost:1313/blog/chatbot-e-automazione-della-prima-risposta-nelle-strutture-sanitarie-cosa-funziona-e-cosa-non-funziona/index.md
+**Fonte:** https://oida-labs.com/blog/chatbot-e-automazione-della-prima-risposta-nelle-strutture-sanitarie-cosa-funziona-e-cosa-non-funziona/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

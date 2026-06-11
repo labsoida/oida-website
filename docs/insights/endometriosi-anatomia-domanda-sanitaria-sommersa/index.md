@@ -353,7 +353,7 @@ Il compito residuo, non clinico ma di posizionamento, strategia dei contenuti e 
 
 ---
 
-**Fonte:** http://localhost:1313/insights/endometriosi-anatomia-domanda-sanitaria-sommersa/index.md
+**Fonte:** https://oida-labs.com/insights/endometriosi-anatomia-domanda-sanitaria-sommersa/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

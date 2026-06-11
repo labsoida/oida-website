@@ -63,7 +63,7 @@ La visibilità digitale in italiano con riferimento geografico ticinese è il fa
 
 Il **passaparola nella comunità dei frontalieri** è un canale rilevante e difficile da influenzare direttamente. Le strutture con buona reputazione tra i frontalieri acquisiscono pazienti attraverso raccomandazioni informali senza investimento pubblicitario.
 
-## Come una struttura ticinese costruisce accessibilità verso questo segmento
+## Come una struttura ticinese costruisce accessibilità verso questo segmento {#come-una-struttura-ticinese-costruisce-accessibilita-verso-questo-segmento}
 
 ### Quattro aree di intervento con impatto diretto
 
@@ -79,7 +79,7 @@ Il **passaparola nella comunità dei frontalieri** è un canale rilevante e diff
 
 **La quarta è la velocità di risposta.** Un paziente italiano che si muove verso una struttura svizzera ha già superato una barriera: ha deciso di andare oltre confine. Se la struttura non risponde in tempi rapidi, quel paziente non aspetta.
 
-## Come comunicare costi e modalità di accesso a questa categoria di pazienti
+## Come comunicare costi e modalità di accesso a questa categoria di pazienti {#come-comunicare-costi-e-modalita-di-accesso-a-questa-categoria-di-pazienti}
 
 ### Cosa la struttura deve comunicare in modo proattivo
 
@@ -119,7 +119,7 @@ Sì. In specialità dove la distanza non è un ostacolo percepito e dove la stru
 
 ---
 
-**Fonte:** http://localhost:1313/blog/pazienti-italiani-in-canton-ticino-perche-scelgono-le-strutture-svizzere-e-come-intercettarli/index.md
+**Fonte:** https://oida-labs.com/blog/pazienti-italiani-in-canton-ticino-perche-scelgono-le-strutture-svizzere-e-come-intercettarli/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

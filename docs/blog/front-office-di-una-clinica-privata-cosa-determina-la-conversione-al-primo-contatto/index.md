@@ -29,7 +29,7 @@ Il front office di una struttura sanitaria privata non è un costo di gestione: 
 
 ---
 
-## Perché il front office è una variabile di marketing
+## Perché il front office è una variabile di marketing {#perche-il-front-office-e-una-variabile-di-marketing}
 
 **In che modo il front office di una clinica privata influisce sui risultati delle campagne di marketing?**
 
@@ -114,7 +114,7 @@ Indirettamente sì. Ogni cambio di personale di front office implica un periodo 
 
 ---
 
-**Fonte:** http://localhost:1313/blog/front-office-di-una-clinica-privata-cosa-determina-la-conversione-al-primo-contatto/index.md
+**Fonte:** https://oida-labs.com/blog/front-office-di-una-clinica-privata-cosa-determina-la-conversione-al-primo-contatto/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

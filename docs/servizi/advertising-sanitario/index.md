@@ -35,7 +35,7 @@ Le persone giuste ti trovano nel momento in cui cercano: su Google quando cercan
 
 ---
 
-**Fonte:** http://localhost:1313/servizi/advertising-sanitario/index.md
+**Fonte:** https://oida-labs.com/servizi/advertising-sanitario/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

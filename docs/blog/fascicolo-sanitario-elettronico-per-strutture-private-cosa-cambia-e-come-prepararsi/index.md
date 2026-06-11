@@ -29,7 +29,7 @@ Il rischio, come spesso avviene con gli adempimenti normativi in sanità, è aff
 
 ---
 
-## Cos'è il FSE 2.0 e cosa cambia rispetto alla versione precedente
+## Cos'è il FSE 2.0 e cosa cambia rispetto alla versione precedente {#cose-il-fse-20-e-cosa-cambia-rispetto-alla-versione-precedente}
 
 **Cosa prevede il FSE 2.0 rispetto alla versione precedente del fascicolo sanitario?**
 
@@ -68,7 +68,7 @@ In pratica, due cose:
 
 Il costo di implementazione varia molto in base al livello di modernizzazione dei sistemi già presenti. Strutture con gestionali recenti possono avere bisogno solo di configurazione e testing. Strutture con sistemi molto datati possono trovarsi di fronte a un investimento di sostituzione più significativo.
 
-## Opportunità operative oltre l'adempimento
+## Opportunità operative oltre l'adempimento {#opportunita-operative-oltre-ladempimento}
 
 **Come una struttura privata può usare il FSE come leva operativa e non solo come adempimento?**
 
@@ -117,7 +117,7 @@ Allo stato attuale della normativa, **gli obblighi sono più espliciti per le st
 
 ---
 
-**Fonte:** http://localhost:1313/blog/fascicolo-sanitario-elettronico-per-strutture-private-cosa-cambia-e-come-prepararsi/index.md
+**Fonte:** https://oida-labs.com/blog/fascicolo-sanitario-elettronico-per-strutture-private-cosa-cambia-e-come-prepararsi/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

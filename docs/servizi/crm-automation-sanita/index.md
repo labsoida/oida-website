@@ -32,7 +32,7 @@ Ti aiutiamo a scegliere il CRM più adatto a te, ti proponiamo alternative e lo 
 
 ---
 
-**Fonte:** http://localhost:1313/servizi/crm-automation-sanita/index.md
+**Fonte:** https://oida-labs.com/servizi/crm-automation-sanita/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

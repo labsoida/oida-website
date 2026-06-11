@@ -107,7 +107,7 @@ Per ulteriori informazioni sul trattamento dei dati personali si rimanda alla [P
 
 ---
 
-**Fonte:** http://localhost:1313/legal/cookie-policy/index.md
+**Fonte:** https://oida-labs.com/legal/cookie-policy/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json
