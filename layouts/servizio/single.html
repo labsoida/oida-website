@@ -70,7 +70,7 @@
     {{ $rn := 0 }}{{ $rp := .Permalink }}{{ range $i, $p := $ordered }}{{ if eq $p.Permalink $rp }}{{ $rn = add $i 1 }}{{ end }}{{ end }}
     <a class="svc-related-card" href="{{ .RelPermalink }}">
       <span class="num">/{{ printf "%02d" $rn }}</span>
-      <div class="title">{{ .Title }}</div>
+      <div class="title">{{ .LinkTitle }}</div>
       <div class="desc">{{ .Description }}</div>
       <span class="svc-related-arrow">&rarr;</span>
     </a>

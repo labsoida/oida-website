@@ -24,7 +24,7 @@
   {{ $n = add $n 1 }}
   <a class="srv-row" href="{{ .RelPermalink }}">
     <div class="srv-num">/{{ printf "%02d" $n }}</div>
-    <div class="srv-tit">{{ .Title }}</div>
+    <div class="srv-tit">{{ .LinkTitle }}</div>
     <div class="srv-desc">{{ .Description }}</div>
     <div class="srv-arr">&rarr;</div>
   </a>

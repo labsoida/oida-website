@@ -1,5 +1,6 @@
 ---
 title: "Mobilità sanitaria: un paese di migranti della salute. Cosa significa per il marketing sanitario delle strutture private"
+linktitle: "Mobilità sanitaria: un paese di migranti della salute"
 description: "Il Rapporto annuale ISTAT 2026 letto da OIDA Labs: 13,3 milioni di persone vivono nelle Aree Interne, dove l'offerta pubblica è più debole. La mobilità sanitaria come domanda di cura in movimento e mappa per il posizionamento delle strutture sanitarie private."
 date: 2026-05-22
 author: "OIDA Labs"

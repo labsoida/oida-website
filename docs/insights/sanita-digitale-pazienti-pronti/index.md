@@ -15,6 +15,9 @@
 
 ---
 
+ale è consentita con citazione della fonte."
+draft: false
+---
 
 ## Perché una società di marketing sanitario diffida dell'entusiasmo digitale
 

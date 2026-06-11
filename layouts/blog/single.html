@@ -1,5 +1,15 @@
 {{ define "main" }}
 {{ $readingTime := math.Round (div (countwords .Content) 200.0) }}
+{{- /* Sommario: il Markdown lo scrive come lista ordinata tra due hr. Lo riconfezioniamo nel box v4
+       (.post-toc + label + divisore pittogramma) e togliamo la voce FAQ, come nel mockup validato. */ -}}
+{{- $content := .Content -}}
+{{- $tocBlock := index (findRE `(?s)<hr>\s*<ol>.*?</ol>\s*<hr>` $content 1) 0 -}}
+{{- with $tocBlock -}}
+  {{- $ol := index (findRE `(?s)<ol>.*?</ol>` . 1) 0 -}}
+  {{- $ol = replaceRE `<li><a href="#faq">[^<]*</a></li>\s*` "" $ol -}}
+  {{- $new := printf `<nav class="post-toc"><div class="post-toc-lab">// In questo articolo</div>%s</nav><div class="post-divider" aria-hidden="true"><img src="%s" alt=""></div>` $ol (relURL "img/pittogramma.svg") -}}
+  {{- $content = replace $content . $new 1 -}}
+{{- end -}}
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
   <a href="{{ "/" | relURL }}">Home</a><span class="sep">/</span><a href="{{ "blog/" | relURL }}">Blog</a><span class="sep">/</span><span class="current">{{ .Title }}</span>
@@ -16,7 +26,7 @@
 </header>
 
 <article class="post-body">
-  {{ .Content }}
+  {{ $content | safeHTML }}
 </article>
 
 <div class="post-foot">

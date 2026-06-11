@@ -15,6 +15,9 @@
 
 ---
 
+ne parziale è consentita con citazione della fonte."
+draft: false
+---
 
 ## Perché una società di marketing sanitario legge i dati sulla natalità
 

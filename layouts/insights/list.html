@@ -10,8 +10,8 @@
   <img class="list-head-mark" src="{{ "img/pittogramma.svg" | relURL }}" alt="" aria-hidden="true">
   <div class="list-head-text">
     <div class="list-kicker">// Insight &mdash; Healthcare Market Intelligence</div>
-    <h1>Healthcare Market Intelligence</h1>
-    <p class="list-sub">Analisi originali sul mercato sanitario italiano. Dati, segmentazioni, scenari competitivi &mdash; letti dal punto di osservazione di chi progetta comunicazione specialistica.</p>
+    <h1>Letture dei dati</h1>
+    <p class="list-sub">Analisi originali sul mercato sanitario italiano. Dati, segmentazioni e scenari competitivi nel settore della sanità privata, letti dal punto di osservazione di chi progetta comunicazione specialistica.</p>
     {{ with $sorted }}<div class="list-count">// <b>{{ len . }}</b> analisi pubblicate</div>{{ end }}
   </div>
 </header>
@@ -23,11 +23,11 @@
   {{ range $sorted }}
   <a class="ins-card" href="{{ .RelPermalink }}">
     <div class="ins-card-meta">
-      <div class="ins-card-kicker">{{ .Params.kicker | default "OIDA Insight" }}</div>
+      <div class="ins-card-kicker">{{ replace (.Params.kicker | default "OIDA Insight") " — " "<br>" | safeHTML }}</div>
       <div class="ins-card-date">{{ .Date.Format "02.01.2006" }}</div>
     </div>
     <div class="ins-card-body">
-      <div class="ins-card-title">{{ .Title }}</div>
+      <div class="ins-card-title">{{ .LinkTitle }}</div>
       <div class="ins-card-deck">{{ .Description }}</div>
     </div>
     <span class="ins-card-arr">&rarr;</span>

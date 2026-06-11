@@ -1,5 +1,6 @@
 ---
 title: "Sanità digitale: i pazienti sono davvero pronti? Cosa dice ISTAT 2026 per il marketing sanitario"
+linktitle: "Sanità digitale: i pazienti sono davvero pronti?"
 description: "Il Rapporto annuale ISTAT 2026 letto da OIDA Labs: solo il 54,3% degli italiani ha competenze digitali di base, il 19,9% ha usato l'IA. Cosa significa il divario digitale del paziente per il marketing sanitario e la comunicazione delle strutture sanitarie private."
 date: 2026-05-22
 author: "OIDA Labs"

@@ -1,5 +1,6 @@
 ---
 title: "Intelligenza Artificiale per la Sanità"
+linktitle: "Intelligenza Artificiale"
 description: "Integriamo gli strumenti di AI utili alla tua struttura e ne sviluppiamo su misura quando servono. Senza hype, scelti da chi viene dalla sanità."
 date: 2026-05-21
 draft: false
