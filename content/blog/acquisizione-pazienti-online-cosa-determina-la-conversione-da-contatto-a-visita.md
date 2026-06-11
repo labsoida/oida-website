@@ -76,7 +76,7 @@ Il KPI che conta per una struttura sanitaria è il **costo per paziente acquisit
 
 Una struttura che non calcola il CAC reale non sa quanto le costa effettivamente acquisire un paziente. Non può valutare se l'investimento in marketing è sostenibile. Non può confrontare l'efficienza di canali diversi. E non può costruire un sistema che migliori nel tempo.
 
-## Da cosa dipende la sostenibilità nel lungo termine
+## Da cosa dipende la sostenibilità nel lungo termine {#da-cosa-dipende-la-sostenibilita-nel-lungo-termine}
 
 **Come si costruisce un sistema di acquisizione pazienti che funzioni nel tempo?**
 

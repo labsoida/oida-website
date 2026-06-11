@@ -34,7 +34,7 @@ La domanda "quanto stiamo guadagnando dal marketing?" è una delle più comuni t
 
 ---
 
-## Perché il ROI del marketing sanitario è difficile da calcolare
+## Perché il ROI del marketing sanitario è difficile da calcolare {#perche-il-roi-del-marketing-sanitario-e-difficile-da-calcolare}
 
 **Le specificità che complicano la misurazione.**
 

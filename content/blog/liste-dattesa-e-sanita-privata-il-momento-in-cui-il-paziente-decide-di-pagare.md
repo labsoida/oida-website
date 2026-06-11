@@ -44,7 +44,7 @@ Questa variabilità crea un segmento di domanda strutturale per la sanità priva
 
 Il dato rilevante non è il tempo medio di attesa a livello nazionale, ma la percezione individuale del paziente: quanto tempo è disposto ad aspettare per quel problema specifico, in quel momento della propria vita. Un'attesa di tre mesi per una visita ortopedica di routine può essere accettabile per un paziente senza sintomi acuti, e inaccettabile per un paziente con dolore che compromette la qualità del lavoro quotidiano.
 
-## Quali specialità ne beneficiano di più
+## Quali specialità ne beneficiano di più {#quali-specialita-ne-beneficiano-di-piu}
 
 **In quali specialità mediche la pressione delle liste d'attesa genera più domanda per la sanità privata?**
 
@@ -76,7 +76,7 @@ Il ruolo del [profilo Google Business](/blog/google-business-profile-marketing-s
 
 **La terza è la velocità di risposta al primo contatto.** Un paziente che cerca una struttura privata perché non vuole aspettare ha un'aspettativa di risposta rapida anche dalla struttura privata. Una risposta che arriva il giorno dopo trasmette lo stesso problema che il paziente sta cercando di risolvere. Il processo di gestione del contatto è parte integrante della strategia: il dettaglio è analizzato nell'articolo sul [front office di una clinica privata](/blog/front-office-di-una-clinica-privata-cosa-determina-la-conversione-al-primo-contatto/).
 
-## Stagionalità e picchi prevedibili
+## Stagionalità e picchi prevedibili {#stagionalita-e-picchi-prevedibili}
 
 **Ci sono periodi dell'anno in cui la domanda di sanità privata per liste d'attesa è più alta?**
 

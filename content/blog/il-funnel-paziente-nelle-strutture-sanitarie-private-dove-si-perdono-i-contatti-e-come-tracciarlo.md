@@ -34,7 +34,7 @@ Una struttura sanitaria privata che investe in pubblicità online, in SEO o in c
 
 ---
 
-## Perché il funnel paziente è diverso da un funnel commerciale standard
+## Perché il funnel paziente è diverso da un funnel commerciale standard {#perche-il-funnel-paziente-e-diverso-da-un-funnel-commerciale-standard}
 
 **Le specificità che cambiano la dinamica.**
 
@@ -46,7 +46,7 @@ Il funnel paziente, nei termini in cui è utile analizzarlo per una struttura pr
 
 Ogni transizione tra una fase e la successiva comporta una perdita. La domanda non è se ci siano perdite, ma dove sono concentrate e di che entità sono.
 
-## I quattro punti di perdita più comuni
+## I quattro punti di perdita più comuni {#i-quattro-punti-di-perdita-piu-comuni}
 
 ### 1. Tra visibilità e contatto: il problema della proposta non chiara
 
@@ -92,7 +92,7 @@ Una struttura che non traccia il funnel paziente non può sapere dove si concent
 
 Il paradosso è che le strutture che non misurano tendono a concludere che "il marketing non funziona" quando il problema non è il marketing, ma il processo a valle. Un lead che arriva e non converte non è un problema di acquisizione: è un problema di conversione. Distinguere le due cose richiede dati.
 
-## Dall'analisi alla priorità di intervento
+## Dall'analisi alla priorità di intervento {#dallanalisi-alla-priorita-di-intervento}
 
 **Come stabilire su quale fase concentrarsi.**
 

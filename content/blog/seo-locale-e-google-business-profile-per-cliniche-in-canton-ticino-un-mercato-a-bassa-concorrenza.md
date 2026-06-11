@@ -64,7 +64,7 @@ Il volume di recensioni necessario per posizionarsi bene nelle ricerche locali t
 
 Questo non significa che la [gestione delle recensioni](/blog/gestione-delle-recensioni-online-nelle-cliniche-private-reputazione-digitale-e-acquisizione-pazienti/) sia meno importante: significa che la soglia di volume necessaria per essere competitivi è raggiungibile in tempi più brevi.
 
-## SEO locale in italiano nel contesto svizzero: specificità e opportunità
+## SEO locale in italiano nel contesto svizzero: specificità e opportunità {#seo-locale-in-italiano-nel-contesto-svizzero-specificita-e-opportunita}
 
 ### La ricerca in italiano nel contesto plurilingue
 

@@ -48,7 +48,7 @@ Una struttura non accreditata si rivolge a un segmento più ristretto: pazienti 
 
 Ottenere e mantenere l'accreditamento LAMAL richiede il rispetto di requisiti di qualità definiti dalla normativa cantonale e federale, audit periodici e conformità agli standard strutturali e di personale previsti. Per molte strutture di medie dimensioni, questi requisiti sono già soddisfatti dall'operatività ordinaria. **Ma il vincolo più rilevante non è burocratico: è tariffario.**
 
-## Tarmed: libertà e vincoli tariffari per le strutture accreditate
+## Tarmed: libertà e vincoli tariffari per le strutture accreditate {#tarmed-liberta-e-vincoli-tariffari-per-le-strutture-accreditate}
 
 ### Il sistema Tarmed e le sue implicazioni operative
 
@@ -98,7 +98,7 @@ Per una **struttura non accreditata**, i segmenti sono:
 
 Il [paziente italiano](/blog/pazienti-italiani-in-canton-ticino-perche-scelgono-le-strutture-svizzere-e-come-intercettarli/) di confine che accede in regime privato puro, senza LAMAL, è un segmento rilevante per le strutture ticinesi accessibile attraverso visibilità digitale in italiano con riferimento geografico ticinese.
 
-## La strategia mista: quando e perché funziona
+## La strategia mista: quando e perché funziona {#la-strategia-mista-quando-e-perche-funziona}
 
 ### Accreditamento parziale e regime misto
 

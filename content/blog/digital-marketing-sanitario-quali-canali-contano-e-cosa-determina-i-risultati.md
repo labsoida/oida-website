@@ -35,7 +35,7 @@ La presenza digitale di una struttura sanitaria si costruisce su canali molto di
 
 ---
 
-## Il panorama dei canali digitali per la sanità
+## Il panorama dei canali digitali per la sanità {#il-panorama-dei-canali-digitali-per-la-sanita}
 
 **Quali sono i canali di digital marketing disponibili per una struttura sanitaria?**
 
@@ -55,7 +55,7 @@ Il limite del SEO è temporale: i risultati non arrivano in settimane ma in mesi
 
 Il contenuto è il combustibile del posizionamento organico. Articoli che rispondono alle domande reali dei pazienti costruiscono quella che Google chiama **E-E-A-T**: esperienza, competenza, autorevolezza e affidabilità. Per una struttura sanitaria, questi segnali hanno un peso specifico maggiore rispetto ad altri settori, perché il contenuto sanitario è classificato da Google come **YMYL** (a potenziale impatto sulla salute del lettore).
 
-## Campagne a pagamento: quando e perché
+## Campagne a pagamento: quando e perché {#campagne-a-pagamento-quando-e-perche}
 
 **Quando ha senso attivare campagne pubblicitarie digitali per una struttura sanitaria?**
 
@@ -67,7 +67,7 @@ Le campagne a pagamento — Google Ads, Meta Ads, LinkedIn Ads — producono ris
 
 Le specificità normative dell'advertising sanitario sono analizzate nell'articolo su [advertising sanitario su Google e Meta](/blog/advertising-sanitario-su-google-e-meta-normative-limiti-e-strategie-per-strutture-private-in-italia/).
 
-## Google Business Profile: il canale più sottovalutato
+## Google Business Profile: il canale più sottovalutato {#google-business-profile-il-canale-piu-sottovalutato}
 
 **Che ruolo ha il Google Business Profile in una strategia di digital marketing sanitario?**
 

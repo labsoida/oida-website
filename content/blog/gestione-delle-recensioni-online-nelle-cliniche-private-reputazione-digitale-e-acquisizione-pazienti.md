@@ -34,7 +34,7 @@ Il **77% dei pazienti legge le recensioni online prima di scegliere una struttur
 
 ---
 
-## Perché le recensioni incidono sulla conversione
+## Perché le recensioni incidono sulla conversione {#perche-le-recensioni-incidono-sulla-conversione}
 
 ### Recensioni e tasso di conversione: il collegamento diretto
 

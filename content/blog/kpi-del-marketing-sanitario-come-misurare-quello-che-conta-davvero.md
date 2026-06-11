@@ -99,7 +99,7 @@ Il report deve mostrare i dati in trend, non solo come snapshot puntuale. Un CPL
 
 La raccolta sistematica di questi dati richiede l'integrazione tra le piattaforme pubblicitarie e un [CRM configurato per le specificità della sanità privata](/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/).
 
-## KPI per specialità: perché i benchmark cambiano
+## KPI per specialità: perché i benchmark cambiano {#kpi-per-specialita-perche-i-benchmark-cambiano}
 
 **I benchmark dei KPI di marketing sono diversi per ogni specialità medica?**
 

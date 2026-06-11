@@ -34,7 +34,7 @@ Il front office di una struttura sanitaria privata non è un costo di gestione: 
 
 ---
 
-## Perché il front office è una variabile di marketing
+## Perché il front office è una variabile di marketing {#perche-il-front-office-e-una-variabile-di-marketing}
 
 **In che modo il front office di una clinica privata influisce sui risultati delle campagne di marketing?**
 

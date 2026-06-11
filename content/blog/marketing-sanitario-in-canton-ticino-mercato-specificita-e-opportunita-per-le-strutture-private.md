@@ -66,7 +66,7 @@ Il flusso di pazienti italiani verso il Canton Ticino è un fenomeno strutturale
 
 La strategia di marketing verso queste tre categorie è diversa. Il dettaglio è approfondito nell'articolo su [pazienti italiani in Canton Ticino](/blog/pazienti-italiani-in-canton-ticino-perche-scelgono-le-strutture-svizzere-e-come-intercettarli/).
 
-## La competizione digitale: opportunità di posizionamento
+## La competizione digitale: opportunità di posizionamento {#la-competizione-digitale-opportunita-di-posizionamento}
 
 **Qual è il livello di competizione digitale nel marketing sanitario in Canton Ticino?**
 

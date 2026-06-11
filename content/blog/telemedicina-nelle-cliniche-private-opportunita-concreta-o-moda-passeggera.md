@@ -34,7 +34,7 @@ Per alcune strutture, la telemedicina è già un servizio consolidato con un mod
 
 ---
 
-## Cosa si intende davvero per telemedicina in sanità privata
+## Cosa si intende davvero per telemedicina in sanità privata {#cosa-si-intende-davvero-per-telemedicina-in-sanita-privata}
 
 **Quali servizi rientrano nella telemedicina per una clinica privata?**
 
