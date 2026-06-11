@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>FAQ Mockup B — magazine asimmetrico</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="common.css">
+<style>
+/* B — MAGAZINE ASIMMETRICO */
+.faq-section .s-header{display:none}
+.faq-wrap{display:grid;grid-template-columns:36% 64%;min-height:600px}
+.faq-left{padding:64px 32px 64px 48px;border-right:var(--hairline);position:relative;overflow:hidden}
+.faq-left::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:
+    radial-gradient(2px 2px at 18% 30%, rgba(0,194,178,.6) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 65% 78%, rgba(255,255,255,.32) 50%, transparent 51%),
+    radial-gradient(2.5px 2.5px at 80% 22%, rgba(0,194,178,.5) 50%, transparent 51%),
+    radial-gradient(3px 3px at 35% 65%, rgba(0,194,178,.5) 50%, transparent 51%);
+  background-repeat:no-repeat;z-index:0}
+.faq-left > *{position:relative;z-index:1}
+.faq-left-num{font-family:'Glaseer',sans-serif;font-size:56px;color:var(--teal);line-height:1;margin-bottom:20px}
+.faq-left-label{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.16em;text-transform:uppercase;margin-bottom:18px}
+.faq-left-title{font-family:'Glaseer',sans-serif;font-size:54px;text-transform:uppercase;line-height:.95;letter-spacing:-.015em;margin-bottom:28px}
+.faq-left-intro{font-size:14px;color:var(--gray-5);font-family:'JetBrains Mono',monospace;letter-spacing:.04em;line-height:1.7;max-width:340px}
+.faq-left-meta{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--gray-4);letter-spacing:.1em;margin-top:36px}
+.faq-right{padding:48px 48px 48px 36px}
+.faq-right details:first-of-type{border-top:none}
+</style>
+</head>
+<body>
+<div class="mockup-label">// MOCKUP <b>B</b> · magazine asimmetrico (35% titolo + 65% lista)</div>
+
+<section class="faq-section">
+  <div class="s-header">
+    <div class="s-num">04</div>
+    <div class="s-titlebox"><div class="s-label">// FAQ</div><div class="s-title">Domande frequenti</div></div>
+    <div class="s-meta">07 risposte</div>
+  </div>
+  <div class="faq-wrap">
+    <div class="faq-left">
+      <div class="faq-left-num">04</div>
+      <div class="faq-left-label">// FAQ</div>
+      <div class="faq-left-title">Domande<br>frequenti</div>
+      <div class="faq-left-intro">Le risposte alle domande che ricorrono nelle conversazioni con direttori sanitari e responsabili marketing.</div>
+      <div class="faq-left-meta">// 07 risposte · aggiornato 2026</div>
+    </div>
+    <div class="faq-right">
+      <details><summary><span class="faq-num">/01</span><span>Quanto costa una campagna di marketing sanitario?</span><span class="faq-plus">+</span></summary><div>Il costo dipende dalla specialità, dal mercato locale, dagli obiettivi della struttura.</div></details>
+      <details><summary><span class="faq-num">/02</span><span>In quanto tempo si vedono i primi risultati?</span><span class="faq-plus">+</span></summary><div>Le campagne pubblicitarie producono primi lead in 2-4 settimane.</div></details>
+      <details><summary><span class="faq-num">/03</span><span>Lavorate solo con cliniche private o anche con singoli professionisti?</span><span class="faq-plus">+</span></summary><div>Lavoriamo con strutture sanitarie private.</div></details>
+      <details><summary><span class="faq-num">/04</span><span>In quali aree geografiche operate?</span><span class="faq-plus">+</span></summary><div>Italia, Svizzera, Regno Unito.</div></details>
+      <details><summary><span class="faq-num">/05</span><span>Avete esperienza con la mia specialità?</span><span class="faq-plus">+</span></summary><div>Abbiamo lavorato su una gamma ampia di specialità.</div></details>
+      <details><summary><span class="faq-num">/06</span><span>C'è un periodo minimo di collaborazione?</span><span class="faq-plus">+</span></summary><div>6 mesi per attività continuative.</div></details>
+      <details><summary><span class="faq-num">/07</span><span>Come gestite la compliance normativa sulla pubblicità sanitaria?</span><span class="faq-plus">+</span></summary><div>D.Lgs. 38/1992 + Codice di Deontologia Medica.</div></details>
+    </div>
+  </div>
+</section>
+</body>
+</html>
