@@ -10,8 +10,10 @@ import unicodedata
 from pathlib import Path
 from urllib.parse import unquote
 
-HEADING_ID_RE = re.compile(r'<h[1-6][^>]*\bid="([^"]+)"', re.I)
-ANY_ID_RE = re.compile(r'\bid="([^"]+)"')
+# attributi con o senza virgolette (l'HTML minificato le omette)
+HEADING_ID_RE = re.compile(r'<h[1-6][^>]*\bid=(?:"([^"]+)"|([^\s>"]+))', re.I)
+ANY_ID_RE = re.compile(r'\bid=(?:"([^"]+)"|([^\s>"]+))')
+HREF_ANCHOR_RE = re.compile(r'\bhref=(?:"#([^"]+)"|#([^\s>"]+))')
 MD_ANCHOR_RE = re.compile(r'\]\(#([^)\s]+)\)')
 MD_HEADING_RE = re.compile(r'^(#{1,6})\s+(.*?)\s*$')
 
@@ -21,10 +23,14 @@ def deaccent(s):
                    if unicodedata.category(c) != 'Mn')
 
 
+def _vals(rx, text):
+    return [m.group(1) or m.group(2) for m in rx.finditer(text)]
+
+
 def html_ids(html_path, headings_only=True):
     text = html_path.read_text(encoding='utf-8')
     rx = HEADING_ID_RE if headings_only else ANY_ID_RE
-    return [m.group(1) for m in rx.finditer(text)]
+    return _vals(rx, text)
 
 
 def post_pairs(content_dir, built_dir):
@@ -111,8 +117,8 @@ def check(built_dir):
     pages = 0
     for html in Path(built_dir).rglob('index.html'):
         text = html.read_text(encoding='utf-8')
-        ids = set(ANY_ID_RE.findall(text))
-        hrefs = re.findall(r'href="#([^"]+)"', text)
+        ids = set(_vals(ANY_ID_RE, text))
+        hrefs = _vals(HREF_ANCHOR_RE, text)
         pages += 1
         for h in hrefs:
             h = unquote(h)  # il browser decodifica il fragment prima del match con gli id
