@@ -40,7 +40,7 @@ La parte tecnica ce ne occupiamo noi: non è qualcosa di cui ti devi preoccupare
 
 ---
 
-**Fonte:** https://oida-labs.com/servizi/seo-geo-sanita/index.md
+**Fonte:** http://localhost:1313/servizi/seo-geo-sanita/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

@@ -34,7 +34,7 @@ Il nome della tua struttura, e la voce del suo management, iniziano a comparire 
 
 ---
 
-**Fonte:** https://oida-labs.com/servizi/ufficio-stampa-sanita/index.md
+**Fonte:** http://localhost:1313/servizi/ufficio-stampa-sanita/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

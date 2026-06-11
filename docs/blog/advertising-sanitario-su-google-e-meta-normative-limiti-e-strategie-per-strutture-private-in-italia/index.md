@@ -129,7 +129,7 @@ Le recensioni dei pazienti su Google Business Profile sono pubblicate volontaria
 
 ---
 
-**Fonte:** https://oida-labs.com/blog/advertising-sanitario-su-google-e-meta-normative-limiti-e-strategie-per-strutture-private-in-italia/index.md
+**Fonte:** http://localhost:1313/blog/advertising-sanitario-su-google-e-meta-normative-limiti-e-strategie-per-strutture-private-in-italia/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

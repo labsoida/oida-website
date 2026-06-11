@@ -126,7 +126,7 @@ La prassi più efficace è quella di **comunicare sistematicamente il regime di 
 
 ---
 
-**Fonte:** https://oida-labs.com/blog/lamal-e-posizionamento-delle-strutture-sanitarie-private-in-canton-ticino-accreditamento-tariffe-e-strategia/index.md
+**Fonte:** http://localhost:1313/blog/lamal-e-posizionamento-delle-strutture-sanitarie-private-in-canton-ticino-accreditamento-tariffe-e-strategia/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

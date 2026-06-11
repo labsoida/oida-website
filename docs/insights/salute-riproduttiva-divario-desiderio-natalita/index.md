@@ -105,7 +105,7 @@ Il compito non è clinico, ma di posizionamento e di contenuto: farsi trovare ne
 
 ---
 
-**Fonte:** https://oida-labs.com/insights/salute-riproduttiva-divario-desiderio-natalita/index.md
+**Fonte:** http://localhost:1313/insights/salute-riproduttiva-divario-desiderio-natalita/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

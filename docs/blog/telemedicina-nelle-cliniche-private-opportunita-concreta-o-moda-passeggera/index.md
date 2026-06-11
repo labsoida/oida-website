@@ -108,7 +108,7 @@ L'integrazione con il sistema di prenotazione è uno dei punti operativi più fr
 
 ---
 
-**Fonte:** https://oida-labs.com/blog/telemedicina-nelle-cliniche-private-opportunita-concreta-o-moda-passeggera/index.md
+**Fonte:** http://localhost:1313/blog/telemedicina-nelle-cliniche-private-opportunita-concreta-o-moda-passeggera/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

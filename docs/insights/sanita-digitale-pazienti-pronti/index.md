@@ -93,7 +93,7 @@ Questo non significa rinunciare all'intelligenza artificiale o ai canali online:
 
 ---
 
-**Fonte:** https://oida-labs.com/insights/sanita-digitale-pazienti-pronti/index.md
+**Fonte:** http://localhost:1313/insights/sanita-digitale-pazienti-pronti/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

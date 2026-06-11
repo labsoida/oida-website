@@ -1,0 +1,11 @@
+{{- /* Pagine servizio: etichette teal v4 sugli H2 (// IL PROBLEMA → // COME LO RISOLVIAMO → // COSA CAMBIA),
+       riconosciute dal testo (struttura identica nei 9 servizi). Altrove: output identico al default Hugo.
+       NB: l'a-capo dopo il tag di chiusura è necessario: senza, countwords (wordCount nei JSON-LD) incolla le parole. */ -}}
+{{- if and (eq .Page.Params.type "servizio") (eq .Level 2) -}}
+{{- $lab := "// IL PROBLEMA" -}}
+{{- if hasPrefix .Text "Cosa cambia" }}{{ $lab = "// COSA CAMBIA" }}
+{{- else if findRE `non solo da|da dentro|conoscendo il settore` .Text }}{{ $lab = "// COME LO RISOLVIAMO" }}{{ end -}}
+<h2 id="{{ .Anchor | safeURL }}" data-num="{{ $lab }}">{{ .Text }}</h2>
+{{ else -}}
+<h{{ .Level }} id="{{ .Anchor | safeURL }}">{{ .Text }}</h{{ .Level }}>
+{{ end -}}

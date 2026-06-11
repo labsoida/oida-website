@@ -1,1 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kpi Sanitario on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</title><link>https://oida-labs.com/tags/kpi-sanitario/</link><description>Recent content in Kpi Sanitario on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</description><generator>Hugo</generator><language>it</language><lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://oida-labs.com/tags/kpi-sanitario/index.xml" rel="self" type="application/rss+xml"/><item><title>KPI del marketing sanitario: come misurare quello che conta davvero</title><link>https://oida-labs.com/blog/kpi-del-marketing-sanitario-come-misurare-quello-che-conta-davvero/</link><pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate><guid>https://oida-labs.com/blog/kpi-del-marketing-sanitario-come-misurare-quello-che-conta-davvero/</guid><description>&lt;p&gt;La misurazione è il punto in cui molte strategie di marketing sanitario perdono coerenza. Si investono risorse in campagne, in SEO, in contenuti, e poi la valutazione dei risultati si ferma alle metriche che le piattaforme rendono più visibili: il numero di click, le impressioni, il costo per click e i &amp;ldquo;mi piace&amp;rdquo; sui social. &lt;strong&gt;Queste metriche misurano l&amp;rsquo;attività, non il risultato.&lt;/strong&gt; Una campagna che genera centinaia di lead con un CPL basso può essere meno efficace di una che genera pochi lead con un CAC molto più basso.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kpi Sanitario on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</title>
+    <link>http://localhost:1313/tags/kpi-sanitario/</link>
+    <description>Recent content in Kpi Sanitario on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</description>
+    <generator>Hugo</generator>
+    <language>it</language>
+    <atom:link href="http://localhost:1313/tags/kpi-sanitario/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KPI del marketing sanitario: come misurare quello che conta davvero</title>
+      <link>http://localhost:1313/blog/kpi-del-marketing-sanitario-come-misurare-quello-che-conta-davvero/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/kpi-del-marketing-sanitario-come-misurare-quello-che-conta-davvero/</guid>
+      <description>&lt;p&gt;La misurazione è il punto in cui molte strategie di marketing sanitario perdono coerenza. Si investono risorse in campagne, in SEO, in contenuti, e poi la valutazione dei risultati si ferma alle metriche che le piattaforme rendono più visibili: il numero di click, le impressioni, il costo per click e i &amp;ldquo;mi piace&amp;rdquo; sui social. &lt;strong&gt;Queste metriche misurano l&amp;rsquo;attività, non il risultato.&lt;/strong&gt; Una campagna che genera centinaia di lead con un CPL basso può essere meno efficace di una che genera pochi lead con un CAC molto più basso.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

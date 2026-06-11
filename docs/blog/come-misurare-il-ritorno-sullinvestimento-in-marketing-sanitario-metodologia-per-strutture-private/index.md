@@ -124,7 +124,7 @@ Un aggiornamento **mensile** delle metriche di base (CPL, CAC per canale, tasso 
 
 ---
 
-**Fonte:** https://oida-labs.com/blog/come-misurare-il-ritorno-sullinvestimento-in-marketing-sanitario-metodologia-per-strutture-private/index.md
+**Fonte:** http://localhost:1313/blog/come-misurare-il-ritorno-sullinvestimento-in-marketing-sanitario-metodologia-per-strutture-private/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

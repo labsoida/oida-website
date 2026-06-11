@@ -1,4 +1,16 @@
 {{ define "main" }}
+{{- /* Ordine globale dei servizi: stessi gruppi e stesso ordinamento di servizi/list.html → numerazione /NN coerente */ -}}
+{{- $svc := where site.RegularPages "Params.type" "servizio" -}}
+{{- $groups := slice "Crescita e Acquisizione" "Operations e Tecnologia" "Specialistici e Differenzianti" -}}
+{{- $ordered := slice -}}
+{{- range $groups }}{{ range where $svc "Params.servizio_gruppo" . }}{{ $ordered = $ordered | append . }}{{ end }}{{ end -}}
+{{- $num := 0 -}}
+{{- range $i, $p := $ordered }}{{ if eq $p.Permalink $.Permalink }}{{ $num = add $i 1 }}{{ end }}{{ end -}}
+{{- /* Tagline: primo paragrafo tutto in corsivo del Markdown, spostato nel hero (come da mockup v4) */ -}}
+{{- $content := .Content -}}
+{{- $tagline := "" -}}
+{{- $m := index (findRE `<p><em>[^<]*</em></p>` $content 1) 0 -}}
+{{- with $m }}{{ $tagline = . | replaceRE `</?p>|</?em>` "" }}{{ $content = replace $content . "" 1 }}{{ end -}}
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
   <a href="{{ "/" | relURL }}">Home</a><span class="sep">/</span><a href="{{ "servizi/" | relURL }}">Servizi</a><span class="sep">/</span><span class="current">{{ .Title }}</span>
@@ -7,19 +19,19 @@
 <section class="svc-hero starry">
   <aside class="svc-hero-left">
     <img class="svc-hero-mark" src="{{ "img/pittogramma.svg" | relURL }}" alt="">
-    <div class="svc-hero-tag">// SERVIZIO<br>{{ with .Params.servizio_gruppo }}// {{ . | upper }}<br>{{ end }}// SETTORE <b>SANITARIO</b></div>
+    <div class="svc-hero-tag">// SERVIZIO {{ if $num }}<b>/{{ printf "%02d" $num }}</b>{{ end }}<br>{{ with .Params.servizio_gruppo }}// {{ . | upper }}<br>{{ end }}// SETTORE <b>SANITARIO</b></div>
   </aside>
   <div class="svc-hero-content">
     {{ with .Params.servizio_gruppo }}<div class="svc-hero-kicker">// {{ . }}</div>{{ end }}
     <h1>{{ .Title }}</h1>
-    {{ with .Params.tagline }}<p class="svc-tagline">{{ . }}</p>{{ end }}
+    {{ with $tagline }}<p class="svc-tagline">{{ . | safeHTML }}</p>{{ end }}
     {{ with .Description }}<p class="svc-hero-sub">{{ . }}</p>{{ end }}
     <a class="svc-cta" href="{{ "/" | relURL }}#contatti">Chiedici un'analisi gratuita &rarr;</a>
   </div>
 </section>
 
 <article class="svc-body">
-  {{ .Content }}
+  {{ $content | safeHTML }}
 </article>
 
 {{ with .Params.faqs }}
@@ -49,13 +61,15 @@
   <a class="svc-cta" href="{{ with $cta }}{{ .link | default "/#contatti" }}{{ else }}/#contatti{{ end }}">{{ with $cta }}{{ .button | default "Parliamone →" }}{{ else }}Parliamone &rarr;{{ end }}</a>
 </section>
 
-{{ $related := first 3 (where (where site.RegularPages "Params.type" "servizio") "Permalink" "ne" .Permalink) }}
+{{ $related := first 3 (where $ordered "Permalink" "ne" .Permalink) }}
 {{ with $related }}
 <section class="svc-related">
   <div class="svc-related-tit">// Servizi correlati</div>
   <div class="svc-related-grid">
     {{ range . }}
+    {{ $rn := 0 }}{{ $rp := .Permalink }}{{ range $i, $p := $ordered }}{{ if eq $p.Permalink $rp }}{{ $rn = add $i 1 }}{{ end }}{{ end }}
     <a class="svc-related-card" href="{{ .RelPermalink }}">
+      <span class="num">/{{ printf "%02d" $rn }}</span>
       <div class="title">{{ .Title }}</div>
       <div class="desc">{{ .Description }}</div>
       <span class="svc-related-arrow">&rarr;</span>

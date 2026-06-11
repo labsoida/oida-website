@@ -30,7 +30,7 @@
 
 ## Digital Marketing e ADV per la Sanità
 
-- URL: https://oida-labs.com/servizi/advertising-sanitario/
+- URL: http://localhost:1313/servizi/advertising-sanitario/
 - Descrizione sintetica: Campagne Google e Meta costruite per studi medici e cliniche: i pazienti giusti ti trovano, budget misurato. Gestite da chi viene dalla sanità.
 
 Campagne che portano davanti a te le persone che cercano già quello che offri.
@@ -44,7 +44,7 @@ Cosa cambia per la tua struttura Le persone giuste ti trovano nel momento in cui
 
 ## Siti Web per la Sanità
 
-- URL: https://oida-labs.com/servizi/siti-web-sanitari/
+- URL: http://localhost:1313/servizi/siti-web-sanitari/
 - Descrizione sintetica: Realizziamo siti web per studi medici, cliniche e poliambulatori: chiari, veloci e pensati per chi cerca cura. Costruiti da chi viene dalla sanità.
 
 Un sito che fa giustizia alla qualità delle tue cure, e che chi cerca cura capisce in pochi secondi.
@@ -58,7 +58,7 @@ Cosa cambia per la tua struttura Un sito chiaro e veloce, che funziona dal telef
 
 ## SEO e GEO per la Sanità
 
-- URL: https://oida-labs.com/servizi/seo-geo-sanita/
+- URL: http://localhost:1313/servizi/seo-geo-sanita/
 - Descrizione sintetica: Ti facciamo trovare da chi cerca le tue prestazioni, su Google e sulle risposte AI. SEO e GEO per la sanità, curate da chi viene dalla sanità.
 
 Ti facciamo trovare da chi cerca le tue prestazioni. Su Google e sulle risposte dell&rsquo;AI.
@@ -74,7 +74,7 @@ La parte tecnica ce ne occupiamo noi: non è qualcosa di cui ti devi preoccupare
 
 ## Ufficio Stampa e PR per la Sanità
 
-- URL: https://oida-labs.com/servizi/ufficio-stampa-sanita/
+- URL: http://localhost:1313/servizi/ufficio-stampa-sanita/
 - Descrizione sintetica: Costruiamo la reputazione mediatica di strutture e gruppi sanitari: relazioni con i media e autorevolezza istituzionale, da chi viene dalla sanità.
 
 Costruiamo la reputazione mediatica di strutture e gruppi sanitari.
@@ -87,7 +87,7 @@ Cosa cambia per la tua struttura Il nome della tua struttura, e la voce del suo 
 
 ## CRM e Automazioni per la Sanità
 
-- URL: https://oida-labs.com/servizi/crm-automation-sanita/
+- URL: http://localhost:1313/servizi/crm-automation-sanita/
 - Descrizione sintetica: Ti aiutiamo a scegliere e configurare il CRM giusto e automatizziamo i follow-up, così nessuna richiesta si perde. Indipendenti, nessun software nostro.
 
 Nessuna richiesta persa, nessun contatto dimenticato.
@@ -100,7 +100,7 @@ Cosa cambia per la tua struttura Ti aiutiamo a scegliere il CRM più adatto a te
 
 ## Intelligenza Artificiale per la Sanità
 
-- URL: https://oida-labs.com/servizi/intelligenza-artificiale-sanita/
+- URL: http://localhost:1313/servizi/intelligenza-artificiale-sanita/
 - Descrizione sintetica: Integriamo gli strumenti di AI utili alla tua struttura e ne sviluppiamo su misura quando servono. Senza hype, scelti da chi viene dalla sanità.
 
 Gli strumenti di AI che servono davvero alla tua struttura, senza l&rsquo;hype.
@@ -113,7 +113,7 @@ Cosa cambia per la tua struttura Integriamo nei tuoi processi gli strumenti di A
 
 ## Talent Acquisition per la Sanità
 
-- URL: https://oida-labs.com/servizi/talent-acquisition-sanita/
+- URL: http://localhost:1313/servizi/talent-acquisition-sanita/
 - Descrizione sintetica: Rendiamo la tua struttura sanitaria attrattiva per i professionisti: employer branding e campagne per farti scegliere. Non selezione, ma attrazione.
 
 Rendiamo la tua struttura il posto dove i professionisti vogliono lavorare.
@@ -126,7 +126,7 @@ Cosa cambia per la tua struttura Non selezioniamo né forniamo professionisti: q
 
 ## Consulenza Strategica per la Sanità
 
-- URL: https://oida-labs.com/servizi/consulenza-strategica-sanitaria/
+- URL: http://localhost:1313/servizi/consulenza-strategica-sanitaria/
 - Descrizione sintetica: Analizziamo la tua struttura e ti diciamo cosa fare, in che ordine e con quali priorità. Strategia di marketing sanitario basata sui dati.
 
 Prima di comunicare, sapere cosa dire e a chi.
@@ -139,7 +139,7 @@ Cosa cambia per la tua struttura Ti diciamo cosa fare, in che ordine e con quali
 
 ## Progettazione di Ambienti Chirurgici
 
-- URL: https://oida-labs.com/servizi/progettazione-ambienti-chirurgici/
+- URL: http://localhost:1313/servizi/progettazione-ambienti-chirurgici/
 - Descrizione sintetica: Ti affianchiamo per aprire o ampliare sale operatorie e ambulatori chirurgici: fattibilità, norme, strumentari. La competenza di chi li ha vissuti.
 
 Aprire una sala operatoria con chi quegli ambienti li ha vissuti.
@@ -156,7 +156,7 @@ Cosa cambia per il tuo progetto Ti affianchiamo lungo tutto il percorso: studio 
 
 ## Marketing per strutture sanitarie: perché il paziente cambia tutto
 
-- URL: https://oida-labs.com/blog/marketing-per-strutture-sanitarie-perche-il-paziente-cambia-tutto/
+- URL: http://localhost:1313/blog/marketing-per-strutture-sanitarie-perche-il-paziente-cambia-tutto/
 - Data: 2026-05-17
 - Descrizione: Il marketing per strutture sanitarie funziona diversamente dal marketing tradizionale. Cosa determina l'efficacia di una strategia e perché il paziente è un decision-maker atipico.
 - Tag: marketing sanitario, marketing strutture sanitarie, strategia marketing, sanità privata, acquisizione pazienti
@@ -190,7 +190,7 @@ Una struttura sanitaria può fare marketing in autonomia? Per attività circoscr
 
 ## Acquisizione pazienti online: cosa determina la conversione da contatto a visita
 
-- URL: https://oida-labs.com/blog/acquisizione-pazienti-online-cosa-determina-la-conversione-da-contatto-a-visita/
+- URL: http://localhost:1313/blog/acquisizione-pazienti-online-cosa-determina-la-conversione-da-contatto-a-visita/
 - Data: 2026-05-14
 - Descrizione: Generare contatti online non è acquisire pazienti. Cosa separa le strutture sanitarie con le agende piene da quelle con campagne che non si traducono in prenotazioni.
 - Tag: marketing sanitario, acquisizione pazienti, funnel sanitario, digital marketing, conversione lead
@@ -229,7 +229,7 @@ Conviene raccogliere i dati dei pazienti per fare remarketing? Il remarketing ve
 
 ## Digital marketing sanitario: quali canali contano e cosa determina i risultati
 
-- URL: https://oida-labs.com/blog/digital-marketing-sanitario-quali-canali-contano-e-cosa-determina-i-risultati/
+- URL: http://localhost:1313/blog/digital-marketing-sanitario-quali-canali-contano-e-cosa-determina-i-risultati/
 - Data: 2026-05-11
 - Descrizione: Il digital marketing sanitario non è uguale per tutte le strutture. Quali canali producono risultati reali, perché e come cambiano in base alla specialità.
 - Tag: marketing sanitario, digital marketing sanitario, seo sanitario, campagne sanitarie, canali digitali
@@ -270,7 +270,7 @@ SEO o campagne a pagamento: da dove si inizia? Se la struttura ha bisogno di nuo
 
 ## KPI del marketing sanitario: come misurare quello che conta davvero
 
-- URL: https://oida-labs.com/blog/kpi-del-marketing-sanitario-come-misurare-quello-che-conta-davvero/
+- URL: http://localhost:1313/blog/kpi-del-marketing-sanitario-come-misurare-quello-che-conta-davvero/
 - Data: 2026-05-08
 - Descrizione: Le strutture sanitarie private misurano spesso le metriche sbagliate. Quali KPI determinano davvero se una strategia di marketing funziona, e come si costruisce un sistema di misurazione che produce decisioni informate.
 - Tag: marketing sanitario, kpi sanitario, misurazione marketing, marketing clinica, metriche
@@ -318,7 +318,7 @@ Cosa fare se il CAC calcolato supera la marginalità della singola visita? Un CA
 
 ## Come misurare il ritorno sull'investimento in marketing sanitario: metodologia per strutture private
 
-- URL: https://oida-labs.com/blog/come-misurare-il-ritorno-sullinvestimento-in-marketing-sanitario-metodologia-per-strutture-private/
+- URL: http://localhost:1313/blog/come-misurare-il-ritorno-sullinvestimento-in-marketing-sanitario-metodologia-per-strutture-private/
 - Data: 2026-05-05
 - Descrizione: Le strutture sanitarie private che misurano il ROI del marketing prendono decisioni diverse da quelle che non lo fanno. La metodologia che separa chi spende in modo informato da chi spende per sentito dire.
 - Tag: marketing sanitario, roi marketing, cac sanitario, metriche marketing, strutture private
@@ -360,7 +360,7 @@ Con quale frequenza va rivisto il modello di misurazione del ROI? Un aggiornamen
 
 ## Il funnel paziente nelle strutture sanitarie private: dove si perdono i contatti e come tracciarlo
 
-- URL: https://oida-labs.com/blog/il-funnel-paziente-nelle-strutture-sanitarie-private-dove-si-perdono-i-contatti-e-come-tracciarlo/
+- URL: http://localhost:1313/blog/il-funnel-paziente-nelle-strutture-sanitarie-private-dove-si-perdono-i-contatti-e-come-tracciarlo/
 - Data: 2026-05-02
 - Descrizione: Le strutture sanitarie private perdono una quota consistente di potenziali pazienti tra il primo contatto e la prenotazione. Identificare dove avviene la perdita è il primo passo per ridurla.
 - Tag: marketing sanitario, funnel paziente, tasso conversione, acquisizione pazienti, pipeline
@@ -399,7 +399,7 @@ Come si attribuisce il canale di acquisizione quando un paziente usa più touchp
 
 ## Front office di una clinica privata: cosa determina la conversione al primo contatto
 
-- URL: https://oida-labs.com/blog/front-office-di-una-clinica-privata-cosa-determina-la-conversione-al-primo-contatto/
+- URL: http://localhost:1313/blog/front-office-di-una-clinica-privata-cosa-determina-la-conversione-al-primo-contatto/
 - Data: 2026-04-30
 - Descrizione: Il front office è il punto in cui le campagne diventano pazienti, o si perdono. Cosa distingue un processo di accoglienza che converte da uno che disperde i contatti generati dal marketing.
 - Tag: marketing sanitario, front office clinica, gestione clinica, accoglienza pazienti, conversione
@@ -442,7 +442,7 @@ Il turnover del personale di front office è un problema di marketing? Indiretta
 
 ## Chatbot e automazione della prima risposta nelle strutture sanitarie: cosa funziona e cosa non funziona
 
-- URL: https://oida-labs.com/blog/chatbot-e-automazione-della-prima-risposta-nelle-strutture-sanitarie-cosa-funziona-e-cosa-non-funziona/
+- URL: http://localhost:1313/blog/chatbot-e-automazione-della-prima-risposta-nelle-strutture-sanitarie-cosa-funziona-e-cosa-non-funziona/
 - Data: 2026-04-28
 - Descrizione: Le strutture sanitarie private che automatizzano la prima risposta ai contatti riducono i lead persi per ritardo. Ma non tutti i sistemi di automazione producono lo stesso risultato. Cosa distingue quelli efficaci.
 - Tag: marketing sanitario, chatbot sanitario, automazione lead, ai marketing sanitario, gestione lead
@@ -478,7 +478,7 @@ La normativa sulla privacy in sanità limita l&rsquo;uso dei chatbot per la racc
 
 ## Gestione delle recensioni online nelle cliniche private: reputazione digitale e acquisizione pazienti
 
-- URL: https://oida-labs.com/blog/gestione-delle-recensioni-online-nelle-cliniche-private-reputazione-digitale-e-acquisizione-pazienti/
+- URL: http://localhost:1313/blog/gestione-delle-recensioni-online-nelle-cliniche-private-reputazione-digitale-e-acquisizione-pazienti/
 - Data: 2026-04-26
 - Descrizione: Le recensioni online sono il principale fattore di scelta per i pazienti che valutano una struttura sanitaria privata. Come le strutture che ottengono risultati le gestiscono in modo sistematico.
 - Tag: marketing sanitario, reputazione digitale, recensioni online, google business profile, acquisizione pazienti
@@ -515,7 +515,7 @@ Le recensioni su piattaforme diverse da Google hanno lo stesso peso? Doctolib, T
 
 ## CRM sanitario: perché le strutture private perdono pazienti dopo il primo contatto
 
-- URL: https://oida-labs.com/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/
+- URL: http://localhost:1313/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/
 - Data: 2026-04-24
 - Descrizione: Un CRM sanitario non è un software: è il processo che determina quanti lead diventano pazienti. Cosa succede nelle strutture che non lo governano in modo sistematico.
 - Tag: marketing sanitario, CRM sanitario, gestione lead, pipeline pazienti, poliambulatorio
@@ -555,7 +555,7 @@ Il GDPR impone vincoli specifici alla gestione dei dati pazienti in un CRM sanit
 
 ## CPL e CAC nel marketing sanitario: quale metrica misura davvero la redditività
 
-- URL: https://oida-labs.com/blog/cpl-cac-marketing-sanitario-metrica-redditivita/
+- URL: http://localhost:1313/blog/cpl-cac-marketing-sanitario-metrica-redditivita/
 - Data: 2026-04-20
 - Descrizione: Nel marketing sanitario il CPL misura il costo del lead, il CAC misura il costo per paziente acquisito. La differenza tra i due numeri determina la redditività reale.
 - Tag: marketing sanitario, CAC, CPL, ROI sanità, misurazione campagne
@@ -590,7 +590,7 @@ Chi deve avere visibilità sul CAC in una struttura sanitaria? Almeno tre figure
 
 ## Google Business Profile e marketing sanitario: perché la maggior parte dei profili non produce risultati
 
-- URL: https://oida-labs.com/blog/google-business-profile-marketing-sanitario-profili-non-producono-risultati/
+- URL: http://localhost:1313/blog/google-business-profile-marketing-sanitario-profili-non-producono-risultati/
 - Data: 2026-04-18
 - Descrizione: Nel marketing sanitario il Google Business Profile è spesso compilato ma raramente performante. Le ragioni strutturali che separano un profilo presente da uno che genera pazienti.
 - Tag: marketing sanitario, google business profile, SEO locale, visibilità sanità
@@ -623,7 +623,7 @@ Quanto tempo serve prima di vedere risultati da un Google Business Profile ottim
 
 ## AI e marketing sanitario: applicazioni concrete per cliniche e poliambulatori
 
-- URL: https://oida-labs.com/blog/ai-marketing-sanitario-applicazioni-cliniche-poliambulatori/
+- URL: http://localhost:1313/blog/ai-marketing-sanitario-applicazioni-cliniche-poliambulatori/
 - Data: 2026-04-16
 - Descrizione: Intelligenza artificiale nel marketing sanitario: automazione del follow-up, ottimizzazione campagne e analisi predittiva. Strategie e dati per strutture sanitarie private.
 - Tag: marketing sanitario, AI healthcare, digital marketing, automazione
@@ -659,7 +659,7 @@ L&rsquo;AI è uno strumento. Il valore sta nella strategia che lo guida e nella 
 
 ## Agenzia di marketing sanitario: quattro criteri oggettivi per valutarla
 
-- URL: https://oida-labs.com/blog/agenzia-marketing-sanitario-quattro-criteri-oggettivi-valutarla/
+- URL: http://localhost:1313/blog/agenzia-marketing-sanitario-quattro-criteri-oggettivi-valutarla/
 - Data: 2026-04-14
 - Descrizione: Scegliere un'agenzia di marketing sanitario richiede criteri precisi. Quattro parametri operativi per valutare specializzazione, metodo e accountability di chi lavora in sanità.
 - Tag: marketing sanitario, agenzia marketing sanitario, scelta agenzia, strategia
@@ -688,7 +688,7 @@ Quanto tempo serve prima di valutare l&rsquo;impatto? I primi sessanta giorni se
 
 ## Advertising sanitario su Google e Meta: normative, limiti e strategie per strutture private in Italia
 
-- URL: https://oida-labs.com/blog/advertising-sanitario-su-google-e-meta-normative-limiti-e-strategie-per-strutture-private-in-italia/
+- URL: http://localhost:1313/blog/advertising-sanitario-su-google-e-meta-normative-limiti-e-strategie-per-strutture-private-in-italia/
 - Data: 2026-04-11
 - Descrizione: Le campagne pubblicitarie per strutture sanitarie private in Italia operano sotto vincoli normativi precisi. Come investire in advertising rispettando le regole e ottenendo risultati misurabili.
 - Tag: marketing sanitario, advertising sanitario, google ads sanità, meta ads salute, strutture private
@@ -725,7 +725,7 @@ Come gestire le recensioni dei pazienti in relazione alla normativa privacy? Le 
 
 ## Liste d'attesa e sanità privata: il momento in cui il paziente decide di pagare
 
-- URL: https://oida-labs.com/blog/liste-dattesa-e-sanita-privata-il-momento-in-cui-il-paziente-decide-di-pagare/
+- URL: http://localhost:1313/blog/liste-dattesa-e-sanita-privata-il-momento-in-cui-il-paziente-decide-di-pagare/
 - Data: 2026-04-08
 - Descrizione: Le liste d'attesa del sistema pubblico sono il principale fattore che spinge i pazienti verso la sanità privata. Come le strutture possono intercettare questa domanda nel momento giusto.
 - Tag: marketing sanitario, sanità privata, liste attesa, acquisizione pazienti, ssn
@@ -762,7 +762,7 @@ Le strutture private convenzionate con il SSN competono in modo diverso sul tema
 
 ## Telemedicina nelle cliniche private: opportunità concreta o moda passeggera?
 
-- URL: https://oida-labs.com/blog/telemedicina-nelle-cliniche-private-opportunita-concreta-o-moda-passeggera/
+- URL: http://localhost:1313/blog/telemedicina-nelle-cliniche-private-opportunita-concreta-o-moda-passeggera/
 - Data: 2026-04-05
 - Descrizione: La telemedicina in sanità privata è già realtà per alcune strutture e ancora irrisolta per molte altre. Cosa funziona davvero, cosa non ha ancora trovato il suo modello e perché la distinzione conta.
 - Tag: marketing sanitario, telemedicina sanità, cliniche private, innovazione clinica, teleconsulto
@@ -800,7 +800,7 @@ Come si integra la telemedicina con il sistema di prenotazione della struttura? 
 
 ## Fascicolo sanitario elettronico per strutture private: cosa cambia e come prepararsi
 
-- URL: https://oida-labs.com/blog/fascicolo-sanitario-elettronico-per-strutture-private-cosa-cambia-e-come-prepararsi/
+- URL: http://localhost:1313/blog/fascicolo-sanitario-elettronico-per-strutture-private-cosa-cambia-e-come-prepararsi/
 - Data: 2026-04-02
 - Descrizione: Il fascicolo sanitario elettronico interessa anche le strutture private. Cosa devono fare concretamente cliniche e poliambulatori, quali sono gli obblighi e come trasformare l'adempimento in un vantaggio operativo.
 - Tag: marketing sanitario, fascicolo sanitario elettronico, fse, digitalizzazione sanità, strutture private
@@ -843,7 +843,7 @@ Il FSE è accessibile anche ai professionisti svizzeri per i pazienti italiani i
 
 ## Marketing sanitario in Canton Ticino: mercato, specificità e opportunità per le strutture private
 
-- URL: https://oida-labs.com/blog/marketing-sanitario-in-canton-ticino-mercato-specificita-e-opportunita-per-le-strutture-private/
+- URL: http://localhost:1313/blog/marketing-sanitario-in-canton-ticino-mercato-specificita-e-opportunita-per-le-strutture-private/
 - Data: 2026-03-30
 - Descrizione: Il Canton Ticino è un mercato sanitario privato con dinamiche proprie: sistema LAMAL, pazienti italiani di confine e keyword quasi senza concorrenza. Cosa devono sapere le strutture che vogliono investire qui.
 - Tag: marketing sanitario, marketing sanitario ticino, sanità canton ticino, marketing cliniche private, lamal
@@ -881,7 +881,7 @@ Il GDPR si applica alle strutture sanitarie in Canton Ticino? Le strutture svizz
 
 ## SEO locale e Google Business Profile per cliniche in Canton Ticino: un mercato a bassa concorrenza
 
-- URL: https://oida-labs.com/blog/seo-locale-e-google-business-profile-per-cliniche-in-canton-ticino-un-mercato-a-bassa-concorrenza/
+- URL: http://localhost:1313/blog/seo-locale-e-google-business-profile-per-cliniche-in-canton-ticino-un-mercato-a-bassa-concorrenza/
 - Data: 2026-03-27
 - Descrizione: Le cliniche private in Canton Ticino operano in un mercato digitale dove la concorrenza SEO è ancora bassa. Come sfruttare questa finestra prima che si chiuda.
 - Tag: marketing sanitario, seo sanitario, canton ticino, google business profile, seo locale
@@ -914,7 +914,7 @@ I pazienti italiani che cercano strutture ticinesi usano Google italiano o Googl
 
 ## LAMAL e posizionamento delle strutture sanitarie private in Canton Ticino: accreditamento, tariffe e strategia
 
-- URL: https://oida-labs.com/blog/lamal-e-posizionamento-delle-strutture-sanitarie-private-in-canton-ticino-accreditamento-tariffe-e-strategia/
+- URL: http://localhost:1313/blog/lamal-e-posizionamento-delle-strutture-sanitarie-private-in-canton-ticino-accreditamento-tariffe-e-strategia/
 - Data: 2026-03-24
 - Descrizione: La scelta di accreditarsi LAMAL o operare interamente in regime privato è una delle decisioni strategiche più rilevanti per una struttura sanitaria in Canton Ticino. Cosa implica per il marketing e per il posizionamento.
 - Tag: marketing sanitario, lamal strutture private, canton ticino, posizionamento strategico, tarmed
@@ -951,7 +951,7 @@ Come si comunica ai potenziali pazienti la differenza tra accesso LAMAL e access
 
 ## Pazienti italiani in Canton Ticino: perché scelgono le strutture svizzere e come intercettarli
 
-- URL: https://oida-labs.com/blog/pazienti-italiani-in-canton-ticino-perche-scelgono-le-strutture-svizzere-e-come-intercettarli/
+- URL: http://localhost:1313/blog/pazienti-italiani-in-canton-ticino-perche-scelgono-le-strutture-svizzere-e-come-intercettarli/
 - Data: 2026-03-21
 - Descrizione: I pazienti italiani rappresentano un segmento strutturale del mercato sanitario ticinese. Come una struttura costruisce visibilità e accessibilità verso questo bacino specifico.
 - Tag: marketing sanitario, pazienti italiani svizzera, canton ticino, marketing transfrontaliero, frontalieri
@@ -992,7 +992,7 @@ Ci sono specialità in cui il bacino italiano vale un investimento specifico di 
 
 ## Sanità digitale: i pazienti sono davvero pronti? Cosa dice ISTAT 2026 per il marketing sanitario
 
-- URL: https://oida-labs.com/insights/sanita-digitale-pazienti-pronti/
+- URL: http://localhost:1313/insights/sanita-digitale-pazienti-pronti/
 - Data: 2026-05-22
 - Base empirica: Base empirica: Rapporto annuale ISTAT 2026
 - Descrizione: Il Rapporto annuale ISTAT 2026 letto da OIDA Labs: solo il 54,3% degli italiani ha competenze digitali di base, il 19,9% ha usato l'IA. Cosa significa il divario digitale del paziente per il marketing sanitario e la comunicazione delle strutture sanitarie private.
@@ -1018,7 +1018,7 @@ Questo non significa rinunciare all&rsquo;intelligenza artificiale o ai canali o
 
 ## Salute riproduttiva: il divario tra desiderio e natalità. Marketing sanitario per medicina della fertilità e PMA
 
-- URL: https://oida-labs.com/insights/salute-riproduttiva-divario-desiderio-natalita/
+- URL: http://localhost:1313/insights/salute-riproduttiva-divario-desiderio-natalita/
 - Data: 2026-05-22
 - Base empirica: Base empirica: Rapporto annuale ISTAT 2026
 - Descrizione: Il Rapporto annuale ISTAT 2026 letto da OIDA Labs: 1,14 figli per donna, 355 mila nati a fronte di 760 mila attesi dalle intenzioni. La denatalità come misura di una domanda di salute riproduttiva ampia, motivata e intercettata troppo tardi dalle strutture private.
@@ -1045,7 +1045,7 @@ Il compito non è clinico, ma di posizionamento e di contenuto: farsi trovare ne
 
 ## Mobilità sanitaria: un paese di migranti della salute. Cosa significa per il marketing sanitario delle strutture private
 
-- URL: https://oida-labs.com/insights/mobilita-sanitaria-migranti-salute/
+- URL: http://localhost:1313/insights/mobilita-sanitaria-migranti-salute/
 - Data: 2026-05-22
 - Base empirica: Base empirica: Rapporto annuale ISTAT 2026
 - Descrizione: Il Rapporto annuale ISTAT 2026 letto da OIDA Labs: 13,3 milioni di persone vivono nelle Aree Interne, dove l'offerta pubblica è più debole. La mobilità sanitaria come domanda di cura in movimento e mappa per il posizionamento delle strutture sanitarie private.
@@ -1072,7 +1072,7 @@ La leva non è clinica, è di posizionamento e di accessibilità: presidiare le 
 
 ## Endometriosi: anatomia di una domanda sanitaria sommersa
 
-- URL: https://oida-labs.com/insights/endometriosi-anatomia-domanda-sanitaria-sommersa/
+- URL: http://localhost:1313/insights/endometriosi-anatomia-domanda-sanitaria-sommersa/
 - Data: 2026-04-22
 - Base empirica: Base empirica: Report GIMBE 2/2026
 - Descrizione: Il Report GIMBE 2/2026 letto da OIDA Labs: sette-dieci anni di ritardo diagnostico come percorso informativo quasi interamente digitale, stadi I-II fuori dall'esenzione 063, mappa regionale dei PDTA come scenario per la ginecologia privata italiana.
@@ -1109,7 +1109,7 @@ Il compito residuo, non clinico ma di posizionamento, strategia dei contenuti e 
 
 ## Cookie Policy
 
-- URL: https://oida-labs.com/legal/cookie-policy/
+- URL: http://localhost:1313/legal/cookie-policy/
 
 La presente Cookie Policy descrive le tipologie di cookie utilizzati sul sito oida-labs.com di OIDA Labs SAGL, le finalità per cui vengono utilizzati e le modalità con cui l&rsquo;utente può gestire le proprie preferenze.
 1. Cosa sono i cookie I cookie sono piccoli file di testo che i siti web visitati salvano sul dispositivo dell&rsquo;utente per memorizzare informazioni utili a migliorare l&rsquo;esperienza di navigazione, per analisi statistiche o per finalità di marketing. Alcuni cookie sono indispensabili per il funzionamento del sito, altri sono opzionali e si attivano solo previo consenso dell&rsquo;utente.
@@ -1135,7 +1135,7 @@ Per ulteriori informazioni sul trattamento dei dati personali si rimanda alla Pr
 
 ## Privacy Policy
 
-- URL: https://oida-labs.com/legal/privacy-policy/
+- URL: http://localhost:1313/legal/privacy-policy/
 
 La presente informativa descrive come OIDA Labs SAGL raccoglie e tratta i dati personali degli utenti che visitano il sito oida-labs.com e/o entrano in contatto con la società tramite i canali messi a disposizione.
 Il trattamento dei dati è conforme alla Legge federale svizzera sulla protezione dei dati (LPD) in vigore dal 1° settembre 2023 e, per gli utenti residenti nell&rsquo;Unione Europea, al Regolamento UE 2016/679 (GDPR) in base al principio di applicazione extraterritoriale.

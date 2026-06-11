@@ -78,6 +78,6 @@ Allow: /
 Disallow: /lab/
 
 # Sitemap canonical
-Sitemap: https://oida-labs.com/sitemap.xml
+Sitemap: http://localhost:1313/sitemap.xml
 
 # Klaatu barada nikto.

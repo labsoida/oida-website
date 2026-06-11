@@ -1,2 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fse on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</title><link>https://oida-labs.com/tags/fse/</link><description>Recent content in Fse on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</description><generator>Hugo</generator><language>it</language><lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://oida-labs.com/tags/fse/index.xml" rel="self" type="application/rss+xml"/><item><title>Fascicolo sanitario elettronico per strutture private: cosa cambia e come prepararsi</title><link>https://oida-labs.com/blog/fascicolo-sanitario-elettronico-per-strutture-private-cosa-cambia-e-come-prepararsi/</link><pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate><guid>https://oida-labs.com/blog/fascicolo-sanitario-elettronico-per-strutture-private-cosa-cambia-e-come-prepararsi/</guid><description>&lt;p&gt;Il Fascicolo Sanitario Elettronico (&lt;strong&gt;FSE 2.0&lt;/strong&gt;) è il sistema di raccolta e condivisione dei dati sanitari del cittadino previsto dal Piano Nazionale di Ripresa e Resilienza e disciplinato dal decreto legislativo 179/2012 aggiornato. L&amp;rsquo;attuazione ha tempi e modalità che variano per regione e per tipo di struttura. &lt;strong&gt;Per le strutture sanitarie private, la questione non è se partecipare ma come, e con quale tempistica.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Il rischio, come spesso avviene con gli adempimenti normativi in sanità, è affrontare il FSE solo come un obbligo da assolvere con il minimo investimento possibile, perdendo l&amp;rsquo;opportunità di usarlo come leva operativa per migliorare la continuità del percorso paziente e ridurre l&amp;rsquo;attrito documentale.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fse on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</title>
+    <link>http://localhost:1313/tags/fse/</link>
+    <description>Recent content in Fse on Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie</description>
+    <generator>Hugo</generator>
+    <language>it</language>
+    <atom:link href="http://localhost:1313/tags/fse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fascicolo sanitario elettronico per strutture private: cosa cambia e come prepararsi</title>
+      <link>http://localhost:1313/blog/fascicolo-sanitario-elettronico-per-strutture-private-cosa-cambia-e-come-prepararsi/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/fascicolo-sanitario-elettronico-per-strutture-private-cosa-cambia-e-come-prepararsi/</guid>
+      <description>&lt;p&gt;Il Fascicolo Sanitario Elettronico (&lt;strong&gt;FSE 2.0&lt;/strong&gt;) è il sistema di raccolta e condivisione dei dati sanitari del cittadino previsto dal Piano Nazionale di Ripresa e Resilienza e disciplinato dal decreto legislativo 179/2012 aggiornato. L&amp;rsquo;attuazione ha tempi e modalità che variano per regione e per tipo di struttura. &lt;strong&gt;Per le strutture sanitarie private, la questione non è se partecipare ma come, e con quale tempistica.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Il rischio, come spesso avviene con gli adempimenti normativi in sanità, è affrontare il FSE solo come un obbligo da assolvere con il minimo investimento possibile, perdendo l&amp;rsquo;opportunità di usarlo come leva operativa per migliorare la continuità del percorso paziente e ridurre l&amp;rsquo;attrito documentale.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -129,7 +129,7 @@ I chatbot che raccolgono informazioni legate alla salute sono soggetti al **GDPR
 
 ---
 
-**Fonte:** https://oida-labs.com/blog/chatbot-e-automazione-della-prima-risposta-nelle-strutture-sanitarie-cosa-funziona-e-cosa-non-funziona/index.md
+**Fonte:** http://localhost:1313/blog/chatbot-e-automazione-della-prima-risposta-nelle-strutture-sanitarie-cosa-funziona-e-cosa-non-funziona/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

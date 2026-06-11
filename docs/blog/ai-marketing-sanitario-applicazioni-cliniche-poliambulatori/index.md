@@ -95,7 +95,7 @@ Le applicazioni AI con maggiore impatto immediato nel marketing sanitario sono t
 
 ---
 
-**Fonte:** https://oida-labs.com/blog/ai-marketing-sanitario-applicazioni-cliniche-poliambulatori/index.md
+**Fonte:** http://localhost:1313/blog/ai-marketing-sanitario-applicazioni-cliniche-poliambulatori/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

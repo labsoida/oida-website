@@ -32,7 +32,7 @@ Integriamo nei tuoi processi gli strumenti di AI che hanno senso: dalla [gestion
 
 ---
 
-**Fonte:** https://oida-labs.com/servizi/intelligenza-artificiale-sanita/index.md
+**Fonte:** http://localhost:1313/servizi/intelligenza-artificiale-sanita/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

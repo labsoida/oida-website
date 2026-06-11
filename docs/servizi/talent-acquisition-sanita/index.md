@@ -32,7 +32,7 @@ Non selezioniamo né forniamo professionisti: quella resta una tua scelta. Noi f
 
 ---
 
-**Fonte:** https://oida-labs.com/servizi/talent-acquisition-sanita/index.md
+**Fonte:** http://localhost:1313/servizi/talent-acquisition-sanita/index.md
 **Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json
