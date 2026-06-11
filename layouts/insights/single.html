@@ -1,98 +1,80 @@
 {{ define "main" }}
 {{ $readingTime := math.Round (div (countwords .Content) 200.0) }}
-<article class="insight-post">
 
-  {{ with .Params.image }}
-  <div class="insight-post__hero-wrap">
-    <img src="{{ . | relURL }}" alt="{{ $.Params.image_alt | default $.Title }}" class="insight-post__hero-image" loading="eager" width="1200" height="630">
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="{{ "/" | relURL }}">Home</a><span class="sep">/</span><a href="{{ "insights/" | relURL }}">Insight</a><span class="sep">/</span><span class="current">{{ .Title }}</span>
+</nav>
+
+<header class="ins-head starry">
+  <div class="ins-kicker">{{ .Params.kicker | default "OIDA Insight" }}</div>
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="ins-deck">{{ . }}</p>{{ end }}
+  <div class="ins-meta">
+    <span>A cura di <span class="t">{{ .Params.author | default "OIDA Labs" }}</span></span>
+    {{ with .Params.base }}<span>{{ . }}</span>{{ end }}
+    <span>{{ $readingTime }} min di lettura</span>
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
   </div>
+</header>
+
+{{ with .Params.stats }}
+<section class="ins-stats">
+  <div class="ins-stats-grid">
+    {{ range . }}
+    <div class="ins-stat">
+      <div class="ins-stat-num">{{ .number | safeHTML }}{{ with .suffix }}<span class="suf">{{ . | safeHTML }}</span>{{ end }}</div>
+      <div class="ins-stat-lab">{{ .label | safeHTML }}</div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+<div class="ins-divider" aria-hidden="true"><img src="{{ "img/pittogramma.svg" | relURL }}" alt=""></div>
+
+<div class="ins-layout">
+  <article class="ins-body">
+    {{ .Content }}
+  </article>
+  {{ with .Params.sidebar }}
+  <aside class="ins-sidebar">
+    {{ range . }}
+    <div class="ins-sb-block">
+      <div class="ins-sb-lab">{{ .label | safeHTML }}</div>
+      {{ with .stat }}<div class="ins-sb-stat">{{ . | safeHTML }}</div>{{ end }}
+      <p class="ins-sb-note">{{ .note | safeHTML }}</p>
+    </div>
+    {{ end }}
+  </aside>
   {{ end }}
+</div>
 
-  <div class="insight-post__container">
+{{ with .Params.sources }}
+<div class="ins-sources">
+  {{ with .primary }}<p><strong>Fonte primaria:</strong> {{ . | safeHTML }}</p>{{ end }}
+  {{ with .secondary }}<p><strong>Fonti secondarie:</strong> {{ . | safeHTML }}</p>{{ end }}
+  {{ with .disclaimer }}<p class="disc">{{ . | safeHTML }}</p>{{ end }}
+</div>
+{{ end }}
 
-    <a href="{{ "insights/" | relURL }}" class="insight-post__back animate">← Tutti gli insight</a>
-
-    <header class="insight-post__header">
-      <span class="insight-post__kicker animate" data-animate-delay="100">{{ .Params.kicker | default "OIDA Insight" }}</span>
-      <h1 class="insight-post__title animate" data-animate-delay="150">{{ .Title }}</h1>
-      {{ with .Description }}
-      <p class="insight-post__deck animate" data-animate-delay="200">{{ . }}</p>
-      {{ end }}
-      <div class="insight-post__meta animate" data-animate-delay="250">
-        <span>A cura di {{ .Params.author | default "OIDA Labs" }}</span>
-        {{ with .Params.base }}<span>{{ . }}</span>{{ end }}
-        <span>{{ $readingTime }} min di lettura</span>
-        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
-      </div>
-    </header>
-
-    {{ with .Params.stats }}
-    <div class="insight-stats-row insight-stats-row--top animate" data-animate-delay="300">
-      {{ range . }}
-      <div class="insight-stat-card">
-        <div class="insight-stat-number">{{ .number | safeHTML }}{{ with .suffix }}<span class="insight-stat-suffix">{{ . | safeHTML }}</span>{{ end }}</div>
-        <div class="insight-stat-label">{{ .label | safeHTML }}</div>
-      </div>
-      {{ end }}
-    </div>
-    {{ end }}
-
-    <div class="insight-layout">
-
-      <div class="insight-body animate" data-animate-delay="400">
-        {{ .Content }}
-      </div>
-
-      {{ with .Params.sidebar }}
-      <aside class="insight-sidebar">
-        {{ range . }}
-        <div class="insight-sidebar__block">
-          <div class="insight-sidebar__label">{{ .label | safeHTML }}</div>
-          {{ with .stat }}<div class="insight-sidebar__stat">{{ . | safeHTML }}</div>{{ end }}
-          <p class="insight-sidebar__note">{{ .note | safeHTML }}</p>
-        </div>
-        {{ end }}
-      </aside>
-      {{ end }}
-
-    </div>
-
-    {{ with .Params.sources }}
-    <div class="insight-post__sources">
-      {{ with .primary }}<p><strong>Fonte primaria:</strong> {{ . | safeHTML }}</p>{{ end }}
-      {{ with .secondary }}<p><strong>Fonti secondarie:</strong> {{ . | safeHTML }}</p>{{ end }}
-      {{ with .disclaimer }}<p class="insight-post__disclaimer">{{ . | safeHTML }}</p>{{ end }}
-    </div>
-    {{ end }}
-
-    <div class="insight-post__cta">
-      <div class="insight-post__cta-label">Interessa anche te?</div>
-      <h3 class="insight-post__cta-title">Vuoi una lettura analoga sulla tua specialità?</h3>
-      <p class="insight-post__cta-body">Analizziamo il tuo bacino, la domanda locale e l'asimmetria competitiva. Ti raccontiamo cosa c'è sotto i numeri della tua area clinica.</p>
-      <a href="/#contatti" class="btn btn--primary">Parliamone →</a>
-    </div>
-
-    <div class="insight-post__share">
-      <span class="insight-post__share-label">Condividi</span>
-      <div class="insight-post__share-buttons">
-        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink }}" target="_blank" rel="noopener" class="insight-post__share-btn" aria-label="Condividi su LinkedIn">
-          {{- partial "icon.html" "linkedin" -}}
-        </a>
-        <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener" class="insight-post__share-btn" aria-label="Condividi su Facebook">
-          {{- partial "icon.html" "facebook" -}}
-        </a>
-        <a href="https://api.whatsapp.com/send?text={{ .Title }}%20{{ .Permalink }}" target="_blank" rel="noopener" class="insight-post__share-btn" aria-label="Condividi su WhatsApp">
-          {{- partial "icon.html" "whatsapp" -}}
-        </a>
-      </div>
-    </div>
-
-    <footer class="insight-post__footer">
-      <a href="{{ "insights/" | relURL }}" class="btn btn--primary">← Tutti gli insight</a>
-    </footer>
-
+<section class="ins-cta">
+  <div>
+    <div class="ins-cta-lab">// Interessa anche te?</div>
+    <h2>Vuoi una lettura analoga<br>sulla tua specialit&agrave;?</h2>
+    <p>Analizziamo il tuo bacino, la domanda locale e l'asimmetria competitiva. Ti raccontiamo cosa c'è sotto i numeri della tua area clinica.</p>
   </div>
-</article>
+  <a class="ins-cta-btn" href="{{ "/" | relURL }}#contatti">Parliamone &rarr;</a>
+</section>
+
+<div class="ins-share">
+  <span class="ins-share-lab">// Condividi</span>
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink }}" target="_blank" rel="noopener" aria-label="LinkedIn">{{- partial "icon.html" "linkedin" -}}</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener" aria-label="Facebook">{{- partial "icon.html" "facebook" -}}</a>
+  <a href="https://api.whatsapp.com/send?text={{ .Title }}%20{{ .Permalink }}" target="_blank" rel="noopener" aria-label="WhatsApp">{{- partial "icon.html" "whatsapp" -}}</a>
+</div>
+
+{{ partial "planet-rise.html" . }}
+{{ partial "footer.html" . }}
 
 <!-- Schema.org: Article -->
 <script type="application/ld+json">

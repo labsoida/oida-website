@@ -1,71 +1,72 @@
 {{ define "main" }}
-<article class="servizio-page">
-  <div class="container container--narrow">
 
-    <!-- Breadcrumb visibile -->
-    <nav class="breadcrumb" aria-label="Breadcrumb">
-      <ol>
-        <li><a href="{{ "/" | relURL }}">Home</a></li>
-        <li><a href="{{ "/servizi/" | relURL }}">Servizi</a></li>
-        <li aria-current="page">{{ .Title }}</li>
-      </ol>
-    </nav>
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="{{ "/" | relURL }}">Home</a><span class="sep">/</span><a href="{{ "servizi/" | relURL }}">Servizi</a><span class="sep">/</span><span class="current">{{ .Title }}</span>
+</nav>
 
-    <!-- Header -->
-    <header class="servizio-page__header">
-      {{ with .Params.servizio_gruppo }}
-      <span class="servizio-page__kicker animate">{{ . }}</span>
-      {{ end }}
-      <h1 class="servizio-page__title animate" data-animate-delay="100">{{ .Title }}</h1>
-    </header>
-
-    <!-- Body -->
-    <div class="servizio-page__content animate" data-animate-delay="200">
-      {{ .Content }}
-    </div>
-
-    <!-- FAQ section (visibile, dallo stesso frontmatter del JSON-LD) -->
-    {{ with .Params.faqs }}
-    <section class="servizio-page__faqs">
-      <h2 class="servizio-page__faqs-title">Domande frequenti</h2>
-      <div class="servizio-page__faqs-list">
-        {{ range . }}
-        <details class="faq-item">
-          <summary class="faq-item__question">
-            <span>{{ .q }}</span>
-            <span class="faq-item__icon" aria-hidden="true">+</span>
-          </summary>
-          <div class="faq-item__answer">
-            <p>{{ .a | safeHTML }}</p>
-          </div>
-        </details>
-        {{ end }}
-      </div>
-    </section>
-    {{ end }}
-
-    <!-- CTA box -->
-    {{ with .Params.cta }}
-    <aside class="servizio-page__cta">
-      {{ with .label }}<div class="servizio-page__cta-label">{{ . }}</div>{{ end }}
-      {{ with .title }}<h3 class="servizio-page__cta-title">{{ . }}</h3>{{ end }}
-      {{ with .body }}<p class="servizio-page__cta-body">{{ . }}</p>{{ end }}
-      <a href="{{ .link | default "/#contatti" }}" class="btn btn--primary">{{ .button | default "Parliamone →" }}</a>
-    </aside>
-    {{ end }}
-
-    <!-- Share -->
-    <div class="servizio-page__share">
-      <span class="servizio-page__share-label">Condividi</span>
-      <div class="servizio-page__share-buttons">
-        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink }}" target="_blank" rel="noopener" class="servizio-page__share-btn" aria-label="Condividi su LinkedIn">{{- partial "icon.html" "linkedin" -}}</a>
-        <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener" class="servizio-page__share-btn" aria-label="Condividi su Facebook">{{- partial "icon.html" "facebook" -}}</a>
-        <a href="https://api.whatsapp.com/send?text={{ .Title }}%20{{ .Permalink }}" target="_blank" rel="noopener" class="servizio-page__share-btn" aria-label="Condividi su WhatsApp">{{- partial "icon.html" "whatsapp" -}}</a>
-      </div>
-    </div>
-
+<section class="svc-hero starry">
+  <aside class="svc-hero-left">
+    <img class="svc-hero-mark" src="{{ "img/pittogramma.svg" | relURL }}" alt="">
+    <div class="svc-hero-tag">// SERVIZIO<br>{{ with .Params.servizio_gruppo }}// {{ . | upper }}<br>{{ end }}// SETTORE <b>SANITARIO</b></div>
+  </aside>
+  <div class="svc-hero-content">
+    {{ with .Params.servizio_gruppo }}<div class="svc-hero-kicker">// {{ . }}</div>{{ end }}
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.tagline }}<p class="svc-tagline">{{ . }}</p>{{ end }}
+    {{ with .Description }}<p class="svc-hero-sub">{{ . }}</p>{{ end }}
+    <a class="svc-cta" href="{{ "/" | relURL }}#contatti">Chiedici un'analisi gratuita &rarr;</a>
   </div>
+</section>
+
+<article class="svc-body">
+  {{ .Content }}
 </article>
+
+{{ with .Params.faqs }}
+<section class="svc-faq">
+  <div class="svc-faq-header">
+    <div class="svc-faq-num">{{ printf "%02d" (len .) }}</div>
+    <div class="svc-faq-tit">
+      <div class="lab">// Domande sul servizio</div>
+      <div class="ttl">Quello che ci chiedono</div>
+    </div>
+  </div>
+  {{ range $i, $faq := . }}
+  <details>
+    <summary><span class="num">/{{ printf "%02d" (add $i 1) }}</span><span>{{ $faq.q }}</span><span class="plus">+</span></summary>
+    <div>{{ $faq.a | safeHTML }}</div>
+  </details>
+  {{ end }}
+</section>
+{{ end }}
+
+{{ $cta := .Params.cta }}
+<section class="svc-cta-final">
+  <div>
+    <h2>{{ with $cta }}{{ .title | default "Parliamone." }}{{ else }}Vuoi saperne di pi&ugrave;?{{ end }}</h2>
+    <p>{{ with $cta }}{{ .body | default "Analizziamo gratuitamente la tua situazione e ti diciamo cosa ha senso fare per primo." }}{{ else }}Analizziamo gratuitamente la tua situazione e ti diciamo cosa ha senso fare per primo.{{ end }}</p>
+  </div>
+  <a class="svc-cta" href="{{ with $cta }}{{ .link | default "/#contatti" }}{{ else }}/#contatti{{ end }}">{{ with $cta }}{{ .button | default "Parliamone →" }}{{ else }}Parliamone &rarr;{{ end }}</a>
+</section>
+
+{{ $related := first 3 (where (where site.RegularPages "Params.type" "servizio") "Permalink" "ne" .Permalink) }}
+{{ with $related }}
+<section class="svc-related">
+  <div class="svc-related-tit">// Servizi correlati</div>
+  <div class="svc-related-grid">
+    {{ range . }}
+    <a class="svc-related-card" href="{{ .RelPermalink }}">
+      <div class="title">{{ .Title }}</div>
+      <div class="desc">{{ .Description }}</div>
+      <span class="svc-related-arrow">&rarr;</span>
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ partial "planet-rise.html" . }}
+{{ partial "footer.html" . }}
 
 <!-- Schema.org: Service -->
 <script type="application/ld+json">

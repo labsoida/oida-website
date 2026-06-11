@@ -1,67 +1,79 @@
 {{ define "main" }}
 {{ $readingTime := math.Round (div (countwords .Content) 200.0) }}
-<article class="blog-post">
-  <div class="container container--narrow">
-    {{ with .Params.image }}
-    <img src="{{ . | relURL }}" alt="{{ $.Params.image_alt | default $.Title }}" class="blog-post__hero-image animate" loading="eager" width="1200" height="630">
-    {{ end }}
 
-    <a href="{{ "blog/" | relURL }}" class="blog-post__back animate" data-animate-delay="100">← Tutti gli articoli</a>
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="{{ "/" | relURL }}">Home</a><span class="sep">/</span><a href="{{ "blog/" | relURL }}">Blog</a><span class="sep">/</span><span class="current">{{ .Title }}</span>
+</nav>
 
-    <header class="blog-post__header">
-      <div class="blog-post__meta animate" data-animate-delay="150">
-        <time class="blog-post__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
-        <span class="blog-post__reading-time">{{ $readingTime }} min di lettura</span>
-      </div>
-      <h1 class="blog-post__title animate" data-animate-delay="200">{{ .Title }}</h1>
-      {{ with .Description }}
-      <p class="blog-post__subtitle animate" data-animate-delay="300">{{ . }}</p>
-      {{ end }}
-    </header>
-
-    <div class="blog-post__content animate" data-animate-delay="300">
-      {{ .Content }}
-    </div>
-
-    {{ with .Params.sources }}
-    <div class="blog-post__sources">
-      <p><strong>Fonti:</strong> {{ . }}</p>
-    </div>
-    {{ end }}
-
-    {{ with .Params.tags }}
-    <div class="blog-post__tags">
-      {{ range . }}
-      <span class="blog-post__tag">#{{ . }}</span>
-      {{ end }}
-    </div>
-    {{ end }}
-
-    <aside class="blog-post__attribution" aria-label="Su OIDA Labs">
-      <div class="blog-post__attribution-label">Su OIDA Labs</div>
-      <p>OIDA Labs è un'agenzia di marketing sanitario fondata da medici. Opera esclusivamente nel settore sanitario in Italia, Svizzera e Regno Unito, al servizio di cliniche, studi medici e strutture sanitarie private. <a href="/">Scopri di più →</a></p>
-    </aside>
-
-    <div class="blog-post__share">
-      <span class="blog-post__share-label">Condividi</span>
-      <div class="blog-post__share-buttons">
-        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink }}" target="_blank" rel="noopener" class="blog-post__share-btn blog-post__share-btn--linkedin" aria-label="Condividi su LinkedIn">
-          {{- partial "icon.html" "linkedin" -}}
-        </a>
-        <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener" class="blog-post__share-btn blog-post__share-btn--facebook" aria-label="Condividi su Facebook">
-          {{- partial "icon.html" "facebook" -}}
-        </a>
-        <a href="https://api.whatsapp.com/send?text={{ .Title }}%20{{ .Permalink }}" target="_blank" rel="noopener" class="blog-post__share-btn blog-post__share-btn--whatsapp" aria-label="Condividi su WhatsApp">
-          {{- partial "icon.html" "whatsapp" -}}
-        </a>
-      </div>
-    </div>
-
-    <footer class="blog-post__footer">
-      <a href="{{ "blog/" | relURL }}" class="btn btn--primary">← Tutti gli articoli</a>
-    </footer>
+<header class="post-head starry">
+  <div class="post-meta">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
+    <span class="dot">&middot;</span>
+    <span class="rt">{{ $readingTime }} min di lettura</span>
   </div>
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="post-sub">{{ . }}</p>{{ end }}
+</header>
+
+<article class="post-body">
+  {{ .Content }}
 </article>
+
+<div class="post-foot">
+  {{ with .Params.sources }}<div class="post-sources"><strong>Fonti:</strong> {{ . }}</div>{{ end }}
+  {{ with .Params.tags }}
+  <div class="post-tags">
+    {{ range . }}<span>#{{ . }}</span>{{ end }}
+  </div>
+  {{ end }}
+  <aside class="post-attr">
+    <div class="post-attr-lab">// Su OIDA Labs</div>
+    <p>OIDA Labs è un'agenzia di marketing sanitario fondata da medici. Opera esclusivamente nel settore sanitario in Italia, Svizzera e Regno Unito, al servizio di cliniche, studi medici e strutture sanitarie private. <a href="{{ "/" | relURL }}">Scopri di più &rarr;</a></p>
+  </aside>
+  <div class="post-share">
+    <span class="post-share-lab">// Condividi</span>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink }}" target="_blank" rel="noopener" aria-label="LinkedIn">{{- partial "icon.html" "linkedin" -}}</a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener" aria-label="Facebook">{{- partial "icon.html" "facebook" -}}</a>
+    <a href="https://api.whatsapp.com/send?text={{ .Title }}%20{{ .Permalink }}" target="_blank" rel="noopener" aria-label="WhatsApp">{{- partial "icon.html" "whatsapp" -}}</a>
+  </div>
+</div>
+
+{{ with .Params.faqs }}
+<section class="post-faq">
+  <div class="post-faq-header">
+    <div class="post-faq-num">FAQ</div>
+    <div class="post-faq-tit">
+      <div class="lab">// Domande frequenti</div>
+      <div class="ttl">Quello che ci chiedono</div>
+    </div>
+  </div>
+  {{ range $i, $faq := . }}
+  <details>
+    <summary><span class="num">/{{ printf "%02d" (add $i 1) }}</span><span>{{ $faq.q }}</span><span class="plus">+</span></summary>
+    <div>{{ $faq.a }}</div>
+  </details>
+  {{ end }}
+</section>
+{{ end }}
+
+{{ $related := first 3 (where (where site.RegularPages "Section" "blog") "Permalink" "ne" .Permalink).ByDate.Reverse }}
+{{ with $related }}
+<section class="post-related">
+  <div class="post-related-tit">// Continua a leggere</div>
+  <div class="post-related-grid">
+    {{ range . }}
+    <a class="post-related-card" href="{{ .RelPermalink }}">
+      <span class="date">{{ .Date.Format "02.01.2006" }}</span>
+      <span class="title">{{ .Title }}</span>
+      <span class="arr">&rarr;</span>
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ partial "planet-rise.html" . }}
+{{ partial "footer.html" . }}
 
 {{ with .Params.faqs }}
 <!-- Schema.org: FAQPage -->
