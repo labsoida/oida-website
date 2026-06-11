@@ -4,6 +4,7 @@
 #   python anchor_audit.py audit  <content_blog_dir> <built_blog_dir>
 #   python anchor_audit.py fix    <content_blog_dir> <built_blog_dir>
 #   python anchor_audit.py check  <built_site_dir>      # link-checker: tutte le ancore #... risolvono?
+#   python anchor_audit.py checkx <built_site_dir>      # come check, ma anche ancore cross-page (/pagina/#sezione)
 import re
 import sys
 import unicodedata
@@ -129,6 +130,43 @@ def check(built_dir):
     return bad
 
 
+HREF_ANY_RE = re.compile(r'\bhref=(?:"([^"]*)"|([^\s>"]+))')
+BASEURL_RE = re.compile(r'^https?://(www\.)?oida-labs\.com')
+
+
+def check_cross(built_dir):
+    """Verifica le ancore nei link interni verso ALTRE pagine (es. ../foo/#bar)."""
+    from posixpath import normpath
+    built = Path(built_dir)
+    ids_by_url = {}
+    for html in built.rglob('index.html'):
+        url = '/' + html.parent.relative_to(built).as_posix().strip('.') if html.parent != built else '/'
+        url = url.rstrip('/') + '/'
+        ids_by_url[url] = set(_vals(ANY_ID_RE, html.read_text(encoding='utf-8')))
+    bad = links = 0
+    for html in built.rglob('index.html'):
+        page_url = '/' + html.parent.relative_to(built).as_posix().strip('.') if html.parent != built else '/'
+        page_url = page_url.rstrip('/') + '/'
+        for h in _vals(HREF_ANY_RE, html.read_text(encoding='utf-8')):
+            h = BASEURL_RE.sub('', h)
+            if '#' not in h or h.startswith(('#', 'mailto:', 'tel:', 'javascript:', 'http')):
+                continue
+            path, frag = h.split('#', 1)
+            frag = unquote(frag)
+            path = path.split('?')[0]
+            target = path if path.startswith('/') else normpath(page_url + path)
+            target = target.rstrip('/') + '/'
+            links += 1
+            if target not in ids_by_url:
+                print(f'PAGINA MANCANTE  {page_url}  ->  {h}')
+                bad += 1
+            elif frag and frag not in ids_by_url[target]:
+                print(f'BROKEN  {page_url}  ->  {target}#{frag}')
+                bad += 1
+    print(f'{links} link cross-page con ancora, {bad} rotti')
+    return bad
+
+
 if __name__ == '__main__':
     mode = sys.argv[1]
     if mode == 'audit':
@@ -137,3 +175,6 @@ if __name__ == '__main__':
         audit(sys.argv[2], sys.argv[3], do_fix=True)
     elif mode == 'check':
         sys.exit(1 if check(sys.argv[2]) else 0)
+    elif mode == 'checkx':
+        broken = check(sys.argv[2]) + check_cross(sys.argv[2])
+        sys.exit(1 if broken else 0)
