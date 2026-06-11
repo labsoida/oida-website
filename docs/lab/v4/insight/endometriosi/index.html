@@ -97,6 +97,13 @@ body{background:var(--bg);color:var(--ink);font-family:'Barlow Semi Condensed',s
 .ins-callout{border-left:2px solid var(--teal);background:var(--gray-1);padding:24px 28px;margin:32px 0}
 .ins-callout-lab{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.16em;text-transform:uppercase;margin-bottom:12px}
 .ins-callout p{font-size:15.5px;color:var(--gray-6);line-height:1.65;margin-bottom:0}
+/* pullquote */
+.ins-pullquote{margin:44px 0;padding-left:28px;border-left:2px solid var(--teal)}
+.ins-pullquote p{font-family:'Glaseer',sans-serif;font-size:23px;line-height:1.32;color:var(--ink);margin-bottom:0;text-transform:none;letter-spacing:0}
+/* placeholder data-block (la data-viz reale resta nel content Hugo) */
+.ins-datablock{border:var(--hairline);padding:40px 28px;margin:36px 0;text-align:center;background:var(--gray-1)}
+.ins-db-lab{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px}
+.ins-db-note{font-size:13px;color:var(--gray-5);line-height:1.5;max-width:480px;margin:0 auto}
 /* sidebar */
 .ins-sidebar{position:sticky;top:96px;display:flex;flex-direction:column;border:var(--hairline)}
 .ins-sb-block{padding:24px;border-bottom:var(--hairline)}
@@ -269,7 +276,34 @@ footer .ft-copy{grid-column:1 / -1;text-align:center;color:var(--gray-4);padding
     <p>Il dato della diagnosi ritardata è la cifra più citata del report ed è anche, paradossalmente, la più sotto-analizzata. GIMBE, incrociando le proprie fonti con l'indagine britannica <em>A Long and Painful Road</em> (NCEPOD, 2024), colloca la distanza media fra esordio dei sintomi e diagnosi formale tra i <strong>sette e i dieci anni</strong>. Tradotto nel lessico del marketing: è un tempo di ricerca di ordine di grandezza superiore a quello di quasi ogni altra patologia elettiva dell'offerta privata italiana.</p>
     <p>La conseguenza operativa è netta. In una strategia di comunicazione rivolta a questa paziente, ciò che funziona non è il contenuto generalista. Funzionano i contenuti di approfondimento verticale: articoli che rispondono a ricerche specifiche nel vocabolario che la paziente ha appreso in anni di navigazione. È qui che si gioca la partita della comunicazione ginecologica specialistica dei prossimi 24 mesi.</p>
 
-    <!-- I data-block con timeline SVG e grafici custom restano nel markdown originale (content-specific), non riprodotti nel mockup di layout -->
+    <div class="ins-datablock">
+      <div class="ins-db-lab">// Blocco dati — timeline diagnostica</div>
+      <div class="ins-db-note">Timeline SVG del ritardo diagnostico medio (7–10 anni) con le 5 fasi del percorso informativo. Resta come data-viz nel contenuto Hugo, renderizzata dal markdown.</div>
+    </div>
+
+    <div class="ins-pullquote">
+      <p>In un percorso di scelta lungo sette-dieci anni, il vantaggio non lo costruisce chi compra traffico: lo costruisce chi ha accumulato autorevolezza specialistica mentre la paziente era ancora nella fase esplorativa.</p>
+    </div>
+
+    <p>L'esperienza digitale della paziente, in questo segmento, è quindi un oggetto diverso da quello che la maggior parte dei reparti comunicazione delle strutture sanitarie italiane abitualmente progetta. Non è un percorso di conversione da forzare con qualche tocco pubblicitario; è un presidio editoriale da costruire nel tempo. La paziente con sette anni di ricerca alle spalle non è intercettabile con la brochure aziendale. <strong>È intercettabile con la precisione.</strong></p>
+
+    <h2>Segmentazione della domanda: un pubblico definito, escluso dall'esenzione nazionale</h2>
+    <p>Il secondo asse di lettura è la segmentazione. Nel lessico regolatorio si parla di codice di esenzione 063; nel lessico della comunicazione parliamo di un pubblico demograficamente definito, finanziariamente disposto a pagare per necessità, e oggi solo marginalmente servito dal sistema pubblico. Il codice 063 copre esclusivamente l'«endometriosi moderata e grave (III-IV stadio ASRM)». <strong>Gli stadi I e II restano formalmente fuori dal perimetro dell'esenzione</strong> pur rappresentando, epidemiologicamente, la maggioranza dei casi.</p>
+
+    <div class="ins-datablock">
+      <div class="ins-db-lab">// Blocco dati — classificazione ASRM</div>
+      <div class="ins-db-note">Barra segmentata stadi I–IV con perimetro dell'esenzione 063, più tabella delle integrazioni regionali. Data-viz nel contenuto Hugo.</div>
+    </div>
+
+    <p>La paziente in stadio I-II costituisce quindi un segmento di domanda con tre caratteristiche operativamente rare: è <strong>informata</strong>, è <strong>esclusa</strong> dall'esenzione nazionale e dunque disposta a pagare per necessità, ed è <strong>distribuita geograficamente in modo uniforme</strong>. È il principio del <a href="/blog/agenzia-marketing-sanitario-quattro-criteri-oggettivi-valutarla/">marketing di attrazione applicato alla sanità</a>: si costruisce la relazione nei mesi di ricerca, non nella settimana della decisione.</p>
+
+    <h2>Scenario regionale: la mappa del vuoto come indicazione di posizionamento</h2>
+    <p>Il terzo asse di lettura è geografico, e porta con sé la componente più sottostimata del marketing sanitario italiano: il posizionamento territoriale, ovvero la capacità di farsi trovare dalle pazienti del proprio bacino regionale. Leggiamo la stessa tabella di GIMBE come mappa delle opportunità di presidio territoriale, in cui il colore di una regione restituisce un'informazione sulla densità della concorrenza pubblica che la ginecologia privata di quel territorio si troverà ad affrontare.</p>
+
+    <div class="ins-datablock">
+      <div class="ins-db-lab">// Blocco dati — distribuzione regionale</div>
+      <div class="ins-db-note">Tabella delle 21 amministrazioni per stato di attuazione PDTA (7 operativi · 1 ibrido · 4 in formalizzazione · 9 senza provvedimento). Data-viz nel contenuto Hugo.</div>
+    </div>
   </article>
 
   <aside class="ins-sidebar">
