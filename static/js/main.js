@@ -35,14 +35,14 @@
     });
   }
 
-  // --- Accordion sezioni (home): FAQ anche su desktop, le altre solo su mobile ---
+  // --- Accordion sezioni (home): FAQ e Pubblicazioni anche su desktop, le altre solo su mobile ---
   ['chi', 'servizi', 'perche', 'pubblicazioni', 'faq', 'contatti'].forEach(function (sid) {
     var sec = document.getElementById(sid);
     if (!sec) return;
     var header = sec.querySelector('.s-header');
     if (!header) return;
     header.addEventListener('click', function (e) {
-      if (sid !== 'faq' && !isMobile()) return;
+      if (sid !== 'faq' && sid !== 'pubblicazioni' && !isMobile()) return;
       if (e.target.closest('a, button')) return;
       sec.classList.toggle('is-open');
     });

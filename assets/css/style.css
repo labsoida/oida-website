@@ -198,13 +198,13 @@ img{max-width:100%}
 .cta-form .cta-status[data-status="success"]{color:var(--teal)}
 .cta-form .cta-status[data-status="error"]{color:#e84d4d}
 
-/* === HOME · FAQ (accordion sezione + lista details, tutto scoped a .faq-wrap) === */
-section#faq .s-header{grid-template-columns:auto 1fr auto;cursor:pointer;user-select:none;position:relative}
-section#faq .s-toggle{display:flex;width:60px;height:100%;padding:0;color:transparent;font-size:0;align-items:center;justify-content:center;border-left:var(--hairline);position:relative}
-section#faq .s-toggle::before{content:"+";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-family:'JetBrains Mono',monospace;font-size:26px;color:var(--teal);transition:transform .3s;line-height:1}
-section#faq.is-open .s-toggle::before{transform:translate(-50%,-50%) rotate(45deg)}
-section#faq .section-body{max-height:0;overflow:hidden;transition:max-height .45s cubic-bezier(.4,0,.2,1)}
-section#faq.is-open .section-body{max-height:9999px;transition:max-height .6s cubic-bezier(.4,0,.2,1)}
+/* === HOME · FAQ + PUBBLICAZIONI: accordion anche su desktop === */
+section#faq .s-header,section#pubblicazioni .s-header{grid-template-columns:auto 1fr auto;cursor:pointer;user-select:none;position:relative}
+section#faq .s-toggle,section#pubblicazioni .s-toggle{display:flex;width:60px;height:100%;padding:0;color:transparent;font-size:0;align-items:center;justify-content:center;border-left:var(--hairline);position:relative}
+section#faq .s-toggle::before,section#pubblicazioni .s-toggle::before{content:"+";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-family:'JetBrains Mono',monospace;font-size:26px;color:var(--teal);transition:transform .3s;line-height:1}
+section#faq.is-open .s-toggle::before,section#pubblicazioni.is-open .s-toggle::before{transform:translate(-50%,-50%) rotate(45deg)}
+section#faq .section-body,section#pubblicazioni .section-body{max-height:0;overflow:hidden;transition:max-height .45s cubic-bezier(.4,0,.2,1)}
+section#faq.is-open .section-body,section#pubblicazioni.is-open .section-body{max-height:9999px;transition:max-height .6s cubic-bezier(.4,0,.2,1)}
 .faq-wrap{padding:0}
 .faq-intro{font-family:'Barlow Semi Condensed',sans-serif;font-size:15px;color:var(--gray-6);letter-spacing:0;padding:28px 32px;border-bottom:var(--hairline);margin:0;line-height:1.6}
 .faq-wrap details{border-bottom:var(--hairline);transition:background .15s}
