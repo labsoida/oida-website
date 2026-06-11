@@ -23,25 +23,7 @@ body{background:var(--bg);color:var(--ink);font-family:'Barlow Semi Condensed',s
 
 /* === DUSTED: polvere di stelle solo dove serve === */
 .dusted{position:relative;overflow:hidden}
-.dusted::after{content:"";position:absolute;inset:0;pointer-events:none;
-  background-image:
-    radial-gradient(2px 2px at 5% 30%, rgba(0,194,178,.7) 50%, transparent 51%),
-    radial-gradient(1.5px 1.5px at 11% 68%, rgba(0,194,178,.55) 50%, transparent 51%),
-    radial-gradient(2.5px 2.5px at 17% 24%, rgba(0,194,178,.6) 50%, transparent 51%),
-    radial-gradient(1.5px 1.5px at 22% 78%, rgba(255,255,255,.38) 50%, transparent 51%),
-    radial-gradient(2px 2px at 28% 36%, rgba(0,194,178,.65) 50%, transparent 51%),
-    radial-gradient(3px 3px at 35% 70%, rgba(0,194,178,.5) 50%, transparent 51%),
-    radial-gradient(1.5px 1.5px at 41% 22%, rgba(0,194,178,.55) 50%, transparent 51%),
-    radial-gradient(2px 2px at 47% 60%, rgba(255,255,255,.35) 50%, transparent 51%),
-    radial-gradient(2.5px 2.5px at 53% 32%, rgba(0,194,178,.6) 50%, transparent 51%),
-    radial-gradient(1.5px 1.5px at 60% 76%, rgba(0,194,178,.5) 50%, transparent 51%),
-    radial-gradient(2px 2px at 65% 26%, rgba(0,194,178,.55) 50%, transparent 51%),
-    radial-gradient(3px 3px at 71% 52%, rgba(0,194,178,.5) 50%, transparent 51%),
-    radial-gradient(1.5px 1.5px at 77% 78%, rgba(255,255,255,.32) 50%, transparent 51%),
-    radial-gradient(2px 2px at 83% 34%, rgba(0,194,178,.55) 50%, transparent 51%),
-    radial-gradient(2.5px 2.5px at 90% 70%, rgba(0,194,178,.6) 50%, transparent 51%),
-    radial-gradient(1.5px 1.5px at 95% 28%, rgba(0,194,178,.5) 50%, transparent 51%);
-  background-repeat:no-repeat}
+.dusted::after{content:"";position:absolute;inset:0;pointer-events:none;background-image:var(--stars-d);background-repeat:no-repeat}
 .dusted > *{position:relative;z-index:1}
 
 /* === RINGS DIVIDER: stacco di sezione (alternato up/down) === */
@@ -165,14 +147,15 @@ h1 span{color:var(--teal)}
 
 /* === PUBBLICAZIONI === */
 .pub-grid{display:grid;grid-template-columns:1fr 1fr}
-.pub-card{padding:60px 32px 48px;border-right:var(--hairline);text-decoration:none;display:flex;flex-direction:column;transition:background .2s}
+.pub-card{padding:60px 32px;border-right:var(--hairline);text-decoration:none;display:block;transition:background .2s}
 .pub-card:last-child{border-right:none}
 .pub-card:hover{background:var(--gray-1)}
-.pub-title{font-family:'Glaseer',sans-serif;font-size:40px;text-transform:uppercase;color:var(--ink);line-height:1;letter-spacing:-.01em;margin-bottom:18px}
+.pub-head{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:18px}
+.pub-title{font-family:'Glaseer',sans-serif;font-size:40px;text-transform:uppercase;color:var(--ink);line-height:1;letter-spacing:-.01em}
+.pub-arrow{font-size:30px;color:var(--teal);line-height:1;flex-shrink:0;transition:transform .2s}
+.pub-card:hover .pub-arrow{transform:translateX(8px)}
 .pub-lead{font-size:17px;color:var(--teal);line-height:1.4;margin-bottom:14px;font-weight:500}
-.pub-desc{font-size:15px;color:var(--gray-6);line-height:1.65;max-width:480px;flex:1}
-.pub-arrow{margin-top:36px;align-self:flex-start;width:54px;height:54px;border:var(--cut);display:flex;align-items:center;justify-content:center;font-size:24px;color:var(--ink);transition:background .15s,color .15s,transform .15s}
-.pub-card:hover .pub-arrow{background:var(--teal);color:#000;transform:translateX(6px)}
+.pub-desc{font-size:15px;color:var(--gray-6);line-height:1.65;max-width:480px}
 
 /* === CTA CONTATTI: pulita (pattern v3a) — niente pianeta qui dentro === */
 .cta-wrap{position:relative;border-bottom:var(--cut)}
@@ -334,7 +317,7 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
   .pub-card{border-right:none;border-bottom:var(--hairline);padding:36px 18px}
   .pub-card:last-child{border-bottom:none}
   .pub-title{font-size:32px}
-  .pub-arrow{margin-top:28px}
+  .pub-arrow{font-size:26px}
 
   /* CTA contatti mobile: stack verticale testo+form */
   .cta-final{padding:32px 18px 48px;grid-template-columns:1fr;gap:28px;align-items:stretch;max-width:none}
@@ -487,15 +470,13 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
   <div class="section-body">
   <div class="pub-grid">
     <a class="pub-card" href="lista-blog/">
-      <div class="pub-title">Blog</div>
+      <div class="pub-head"><span class="pub-title">Blog</span><span class="pub-arrow" aria-hidden="true">→</span></div>
       <div class="pub-lead">Approfondimenti</div>
       <div class="pub-desc">Analisi, strategie e casi studio dal mondo del marketing sanitario.</div>
-      <div class="pub-arrow" aria-hidden="true">→</div>
     </a>
     <a class="pub-card" href="lista-insight/">
-      <div class="pub-title">Insight</div>
+      <div class="pub-head"><span class="pub-title">Insight</span><span class="pub-arrow" aria-hidden="true">→</span></div>
       <div class="pub-desc">Analisi originali sul mercato sanitario italiano. Dati, segmentazioni e scenari competitivi nel settore della sanità privata, letti dal punto di osservazione di chi progetta comunicazione specialistica.</div>
-      <div class="pub-arrow" aria-hidden="true">→</div>
     </a>
   </div>
   </div>
@@ -651,6 +632,14 @@ if(ctaForm){
       });
   });
 }
+</script>
+<script>
+/* === STARFIELD: cielo casuale e unico per ogni .dusted (deterministico, niente ripetizioni) === */
+(function(){
+  function rng(s){return function(){s|=0;s=s+0x6D2B79F5|0;var t=Math.imul(s^s>>>15,1|s);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+  function sky(seed,n){var r=rng(seed),a=[];for(var i=0;i<n;i++){var x=(r()*100).toFixed(2),y=(r()*100).toFixed(2),s=(1.2+r()*2.2).toFixed(1),o=(0.3+r()*0.48).toFixed(2),c=r()<0.18?'255,255,255':'0,194,178';a.push('radial-gradient('+s+'px '+s+'px at '+x+'% '+y+'%, rgba('+c+','+o+') 50%, transparent 51%)')}return a.join(',')}
+  document.querySelectorAll('.dusted').forEach(function(el,i){el.style.setProperty('--stars-d',sky((i+1)*97+13,16))});
+})();
 </script>
 </body>
 </html>
