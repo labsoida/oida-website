@@ -163,6 +163,17 @@ h1 span{color:var(--teal)}
 .perche-h{font-family:'Glaseer',sans-serif;font-size:30px;text-transform:uppercase;color:var(--ink);line-height:1.05;margin-bottom:22px}
 .perche-p{font-size:15px;color:var(--teal);line-height:1.65}
 
+/* === PUBBLICAZIONI === */
+.pub-grid{display:grid;grid-template-columns:1fr 1fr}
+.pub-card{padding:60px 32px 48px;border-right:var(--hairline);text-decoration:none;display:flex;flex-direction:column;transition:background .2s}
+.pub-card:last-child{border-right:none}
+.pub-card:hover{background:var(--gray-1)}
+.pub-title{font-family:'Glaseer',sans-serif;font-size:40px;text-transform:uppercase;color:var(--ink);line-height:1;letter-spacing:-.01em;margin-bottom:18px}
+.pub-lead{font-size:17px;color:var(--teal);line-height:1.4;margin-bottom:14px;font-weight:500}
+.pub-desc{font-size:15px;color:var(--gray-6);line-height:1.65;max-width:480px;flex:1}
+.pub-arrow{margin-top:36px;align-self:flex-start;width:54px;height:54px;border:var(--cut);display:flex;align-items:center;justify-content:center;font-size:24px;color:var(--ink);transition:background .15s,color .15s,transform .15s}
+.pub-card:hover .pub-arrow{background:var(--teal);color:#000;transform:translateX(6px)}
+
 /* === CTA CONTATTI: pulita (pattern v3a) — niente pianeta qui dentro === */
 .cta-wrap{position:relative;border-bottom:var(--cut)}
 .cta-final{padding:80px 32px 80px;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;max-width:1280px;margin:0 auto}
@@ -251,7 +262,7 @@ details > div{padding:8px 32px 28px 112px;font-size:14.5px;color:var(--gray-6);l
 
 /* === FOOTER (no stelline) === */
 footer{font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--gray-5);line-height:1.7;border-top:var(--hairline)}
-.footer-inner{max-width:1280px;margin:0 auto;padding:48px 32px;display:grid;grid-template-columns:repeat(5,1fr);gap:32px}
+.footer-inner{max-width:1280px;margin:0 auto;padding:48px 32px;display:grid;grid-template-columns:repeat(4,1fr);gap:32px}
 footer strong{color:var(--ink);text-transform:uppercase;letter-spacing:.06em;font-size:10.5px;display:block;margin-bottom:8px}
 footer a{color:var(--gray-5);text-decoration:none;display:block;transition:color .15s}
 footer a:hover{color:var(--teal)}
@@ -289,6 +300,7 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
   section#chi .s-header,
   section#servizi .s-header,
   section#perche .s-header,
+  section#pubblicazioni .s-header,
   section#faq .s-header,
   section#contatti .s-header{grid-template-columns:60px 1fr 60px;cursor:pointer;user-select:none;position:relative}
   .s-toggle{width:60px;height:100%;padding:0;color:transparent;font-size:0;display:flex;align-items:center;justify-content:center;border-left:var(--hairline);position:relative}
@@ -300,7 +312,7 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
   .s-header{grid-template-columns:60px 1fr 60px}
   .s-num{font-size:28px;width:60px;height:100%;display:flex;align-items:center;justify-content:center;border-right:var(--hairline)}
   .s-titlebox{padding:18px 20px}
-  .chi-grid,.perche-grid{grid-template-columns:1fr}
+  .chi-grid,.perche-grid,.pub-grid{grid-template-columns:1fr}
   .chi-text{border-right:none;border-bottom:var(--hairline)}
 
   /* FAQ mobile: intro come stile servizi (gray Barlow, no mono), titoli più piccoli e grid più stretta */
@@ -319,6 +331,10 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
 
   .perche-cell{border-right:none;border-bottom:var(--hairline);padding:32px 18px}
   .perche-cell:last-child{border-bottom:none}
+  .pub-card{border-right:none;border-bottom:var(--hairline);padding:36px 18px}
+  .pub-card:last-child{border-bottom:none}
+  .pub-title{font-size:32px}
+  .pub-arrow{margin-top:28px}
 
   /* CTA contatti mobile: stack verticale testo+form */
   .cta-final{padding:32px 18px 48px;grid-template-columns:1fr;gap:28px;align-items:stretch;max-width:none}
@@ -331,13 +347,8 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
   .hero-cta-block{flex-direction:column}
   .hero-cta-block a:first-child{border-right:none;border-bottom:var(--cut)}
 
-  /* FOOTER mobile: AGENZIA | CONTATTI ‖ EDITORIALE | LEGAL ‖ SOCIAL (verticale) ‖ © */
+  /* FOOTER mobile: AGENZIA | CONTATTI ‖ SOCIAL | LEGAL ‖ © */
   .footer-inner{grid-template-columns:1fr 1fr;gap:28px 18px;padding:24px 18px;align-items:start}
-  .footer-inner > div:nth-child(1){order:1}
-  .footer-inner > div:nth-child(2){order:2}
-  .footer-inner > div:nth-child(4){order:3}
-  .footer-inner > div:nth-child(5){order:4}
-  .footer-inner > div:nth-child(3){order:5}
   footer .ft-copy{border-top:none;padding:8px 18px 20px}
 
   .nav-logo,.nav-meta,.s-num,.s-titlebox,.chi-text,.chi-kpi,.chi-team-link{padding-left:18px!important;padding-right:18px!important}
@@ -367,8 +378,9 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
       <a href="#chi" data-section="chi">01 Chi siamo</a>
       <a href="#servizi" data-section="servizi">02 Servizi</a>
       <a href="#perche" data-section="perche">03 Perché noi</a>
-      <a href="#faq" data-section="faq">04 FAQ</a>
-      <a href="#contatti" data-section="contatti">05 Contatti</a>
+      <a href="#pubblicazioni" data-section="pubblicazioni">04 Pubblicazioni</a>
+      <a href="#faq" data-section="faq">05 FAQ</a>
+      <a href="#contatti" data-section="contatti">06 Contatti</a>
     </div>
     <div class="nav-meta"></div>
     <button class="nav-toggle" id="nav-toggle" aria-label="Apri menu" aria-controls="nav-links" aria-expanded="false">
@@ -466,9 +478,34 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
 
 <div class="rings-divider" aria-hidden="true"></div>
 
-<section id="faq" class="faq-section">
+<section id="pubblicazioni">
   <div class="s-header dusted">
     <div class="s-num">04</div>
+    <div class="s-titlebox"><div class="s-label">// Blog · Insight</div><div class="s-title">Pubblicazioni</div></div>
+    <div class="s-toggle" aria-hidden="true">+</div>
+  </div>
+  <div class="section-body">
+  <div class="pub-grid">
+    <a class="pub-card" href="lista-blog/">
+      <div class="pub-title">Blog</div>
+      <div class="pub-lead">Approfondimenti</div>
+      <div class="pub-desc">Analisi, strategie e casi studio dal mondo del marketing sanitario.</div>
+      <div class="pub-arrow" aria-hidden="true">→</div>
+    </a>
+    <a class="pub-card" href="lista-insight/">
+      <div class="pub-title">Insight</div>
+      <div class="pub-desc">Analisi originali sul mercato sanitario italiano. Dati, segmentazioni e scenari competitivi nel settore della sanità privata, letti dal punto di osservazione di chi progetta comunicazione specialistica.</div>
+      <div class="pub-arrow" aria-hidden="true">→</div>
+    </a>
+  </div>
+  </div>
+</section>
+
+<div class="rings-divider" aria-hidden="true"></div>
+
+<section id="faq" class="faq-section">
+  <div class="s-header dusted">
+    <div class="s-num">05</div>
     <div class="s-titlebox"><div class="s-label">// FAQ</div><div class="s-title">Domande frequenti</div></div>
     <div class="s-toggle" aria-hidden="true">+</div>
   </div>
@@ -490,7 +527,7 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
 
 <section id="contatti" class="cta-wrap">
   <div class="s-header dusted">
-    <div class="s-num">05</div>
+    <div class="s-num">06</div>
     <div class="s-titlebox"><div class="s-label">// Contatti</div><div class="s-title">Parliamone</div></div>
     <div class="s-toggle" aria-hidden="true">+</div>
   </div>
@@ -534,7 +571,6 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
     <div><strong>// AGENZIA</strong>Oida Labs SAGL<br>IDE CHE-144.100.469</div>
     <div><strong>// CONTATTI</strong>Piazza Indipendenza 3<br>6900 Lugano (CH)<br>info@oida-labs.com</div>
     <div><strong>// SOCIAL</strong><a href="https://linkedin.com/company/oidalabs" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.facebook.com/OIDA.Labs" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/oida.labs/" target="_blank" rel="noopener">Instagram</a></div>
-    <div><strong>// EDITORIALE</strong><a href="/insights/">Insights</a><a href="/blog/">Blog</a></div>
     <div><strong>// LEGAL</strong><a href="/legal/privacy-policy/">Privacy Policy</a><a href="/legal/cookie-policy/">Cookie Policy</a></div>
   </div>
   <div class="ft-copy">© 2026 Oida Labs · v4.lab</div>
@@ -570,9 +606,9 @@ if(navToggle&&navMenu){
   document.addEventListener('keydown',function(e){if(e.key==='Escape'&&navMenu.classList.contains('is-open'))closeMenu()});
 }
 
-// --- Accordion sezioni mobile (chi, servizi, perché, contatti) ---
+// --- Accordion sezioni mobile (chi, servizi, perché, pubblicazioni, contatti) + FAQ anche desktop ---
 function isMobile(){return window.matchMedia('(max-width:900px)').matches}
-var accordionSections=['chi','servizi','perche','faq','contatti'];
+var accordionSections=['chi','servizi','perche','pubblicazioni','faq','contatti'];
 accordionSections.forEach(function(sid){
   var sec=document.getElementById(sid);
   if(!sec)return;
