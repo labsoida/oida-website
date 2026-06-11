@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Hero C — Split layout</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="common.css">
+<style>
+/* split: testo sinistra, pianeta dentro colonna destra */
+.hero{min-height:560px}
+.hero-planet{display:none}
+.hero-glow{display:none}
+.hero-rings{display:none}
+.hero-content{display:grid;grid-template-columns:1.3fr 1fr;gap:60px;align-items:center;padding:80px 32px 70px;max-width:1280px}
+h1{font-size:60px;line-height:.96;max-width:none;margin-bottom:30px}
+.hero-sub{font-size:17px;margin-bottom:32px;max-width:none}
+.hero-text{position:relative;z-index:5}
+.hero-planet-box{position:relative;width:100%;aspect-ratio:1/1;max-width:480px;justify-self:end}
+.hero-planet-box svg{width:100%;height:100%;display:block}
+.hero-planet-box::before{content:"";position:absolute;left:-20%;right:-20%;top:48%;height:60px;
+  background:repeating-linear-gradient(to bottom, rgba(0,194,178,.55) 0 0.5px, transparent 0.5px 4px);
+  -webkit-mask-image:radial-gradient(circle 90px at 60% 50%, transparent 0%, transparent 30%, #000 100%), linear-gradient(to right, transparent 0%, #000 12%, #000 88%, transparent 100%);
+  mask-image:radial-gradient(circle 90px at 60% 50%, transparent 0%, transparent 30%, #000 100%), linear-gradient(to right, transparent 0%, #000 12%, #000 88%, transparent 100%);
+  -webkit-mask-composite:source-in;mask-composite:intersect;transform:translateY(-50%);pointer-events:none;z-index:6}
+.hero-planet-box::after{content:"";position:absolute;left:20%;right:20%;top:50%;width:60%;height:60%;transform:translate(-50%,-50%);left:50%;
+  background:radial-gradient(circle at 50% 50%, rgba(0,194,178,.4) 0%, rgba(0,194,178,.12) 20%, transparent 40%);
+  mix-blend-mode:screen;pointer-events:none}
+</style>
+</head>
+<body>
+<div class="variant-badge">VARIANTE C · split layout <a href="index.html">↩ tutte</a></div>
+<div class="fold"></div>
+<nav class="nav"><div class="nav-inner">
+  <a href="#" class="nav-logo"><span class="lbl">OIDA</span></a>
+  <div class="nav-links"><a>01 CHI SIAMO</a><a>02 SERVIZI</a><a>03 PERCHÉ NOI</a><a>04 FAQ</a><a>05 CONTATTI</a></div>
+  <div></div>
+</div></nav>
+<section id="hero" class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <div class="hero-text">
+      <div class="hero-tag-row"><span class="t">// OIDA LABS</span><span>HEALTHCARE MARKETING</span><span>46.0037° N</span></div>
+      <h1>Siamo medici che hanno risolto i loro problemi di marketing. <span>Ora li risolviamo per te.</span></h1>
+      <p class="hero-sub">Uniamo esperienza sanitaria, competenze di marketing e pragmatismo, per metterle al servizio delle strutture sanitarie.</p>
+      <div class="hero-cta-block">
+        <a href="#">Parliamone →</a>
+        <a href="#">Vedi servizi</a>
+      </div>
+    </div>
+    <div class="hero-planet-box">
+      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="50" r="45" fill="#676767"/>
+        <circle cx="50" cy="50" r="27" fill="#000"/>
+        <rect x="0" y="46" width="100" height="8" fill="#000"/>
+        <circle cx="50" cy="50" r="5.5" fill="#00C2B2"/>
+      </svg>
+    </div>
+  </div>
+  <div class="hero-telemetry">// SYS <b>OIDA-1</b> · STATUS <b>OPERATIVE</b><br>// MKT <b>IT · CH · UK</b> · FOCUS <b>HEALTHCARE 100%</b></div>
+</section>
+<div class="fake-next">↓ // chi siamo · 01 · qui inizia la sezione successiva</div>
+</body>
+</html>
