@@ -22,7 +22,7 @@ body{background:var(--bg);color:var(--ink);font-family:'Barlow Semi Condensed',s
 
 /* === NAV (uguale alla home, ma link torna a /v4/) === */
 .nav{position:sticky;top:0;z-index:100;background:var(--bg);border-bottom:var(--cut)}
-.nav-inner{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:auto 1fr auto;align-items:stretch}
+.nav-inner{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:auto auto 1fr;align-items:stretch}
 .nav-logo{padding:18px 32px;border-right:var(--hairline);display:flex;align-items:center}
 .nav-logo img{height:38px;display:block}
 .nav-back{padding:18px 22px;display:flex;align-items:center;font-family:'BankGothic',sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);text-decoration:none;border-right:var(--hairline);transition:background .15s,color .15s}
@@ -78,7 +78,9 @@ footer a:hover{color:var(--teal)}
 footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-top:var(--hairline);font-size:10.5px}
 
 @media(max-width:900px){
-  .nav-inner{grid-template-columns:1fr auto}
+  .nav-inner{grid-template-columns:auto 1fr}
+  .nav-meta{display:none}
+  .bk-long{display:none}
   .page-hero h1{font-size:48px}
   .page-hero{padding:56px 18px 36px}
   .team-grid{grid-template-columns:1fr}
@@ -99,9 +101,9 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
 <body>
 
 <nav class="nav">
-  <div class="nav-inner" style="grid-template-columns:auto auto 1fr">
+  <div class="nav-inner">
     <a href="../" class="nav-logo"><img src="/img/logo.png" alt="OIDA Labs"></a>
-    <a href="../" class="nav-back">← Torna alla home</a>
+    <a href="../" class="nav-back">← <span class="bk-long">Torna alla </span>home</a>
     <div class="nav-meta">IT · CH · UK / Lugano</div>
   </div>
 </nav>
