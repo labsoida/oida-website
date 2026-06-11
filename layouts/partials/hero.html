@@ -11,7 +11,7 @@
   <div class="hero-glow" aria-hidden="true"></div>
   <div class="hero-content">
     <div class="hero-tag-row"><span class="t">// OIDA LABS</span><span>HEALTHCARE MARKETING</span><span>46.0037&deg; N</span></div>
-    <h1>{{ $d.headline }} <span>{{ $d.headline_accent }}</span></h1>
+    <h1>{{ with $d.headline_html }}{{ . | safeHTML }}{{ else }}{{ $d.headline }} <span>{{ $d.headline_accent }}</span>{{ end }}</h1>
     <p class="hero-sub">{{ $d.subtitle }}</p>
     <div class="hero-cta-block">
       <a href="{{ $d.cta_target }}">{{ $d.cta_text }} &rarr;</a>

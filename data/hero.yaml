@@ -1,5 +1,7 @@
 headline: "Siamo medici che hanno risolto i loro problemi di marketing."
 headline_accent: "Ora li risolviamo per te."
+# Markup esatto del mockup v4 (span teal + capoversi desktop; i <br> spariscono su mobile via CSS)
+headline_html: '<span>Siamo medici</span> che <br>hanno risolto i loro <br>problemi di marketing. <br><span>Ora li risolviamo <br>per te.</span>'
 subtitle: "Uniamo esperienza sanitaria, competenze di marketing e pragmatismo, per metterle al servizio delle strutture sanitarie e supportarle nelle sfide quotidiane della loro crescita."
 tagline: "Know More. Move Faster."
 cta_text: "Parliamone"
