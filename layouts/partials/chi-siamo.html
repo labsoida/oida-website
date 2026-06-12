@@ -5,19 +5,13 @@
     <div class="s-titlebox"><div class="s-label">// {{ $d.label }}</div><button type="button" class="s-title s-disclose" aria-expanded="false" aria-controls="chi-body">{{ $d.title }}</button></div>
     <div class="s-toggle" aria-hidden="true">+</div>
   </div>
+  {{- /* La colonna destra resta libera di proposito: ospiterà il box team
+         (foto + link ai profili) quando i profili saranno approvati. */ -}}
   <div class="section-body" id="chi-body">
-    <div class="chi-grid">
-      <div class="chi-text">
-        <p>{{ $d.intro }}</p>
-        {{ with $d.body }}<p>{{ . }}</p>{{ end }}
-        <p>{{ $d.closing }}</p>
-      </div>
-      <aside class="chi-side">
-        <div class="chi-side-label">{{ $d.subtitle }}</div>
-        {{ range $d.kpis }}
-        <div><div class="chi-kpi-num">{{ .number }}</div><p>{{ .description }}</p></div>
-        {{ end }}
-      </aside>
+    <div class="chi-text">
+      <p>{{ $d.intro }}</p>
+      {{ with $d.body }}<p>{{ . }}</p>{{ end }}
+      <p>{{ $d.closing }}</p>
     </div>
   </div>
 </section>
