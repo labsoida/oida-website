@@ -30,7 +30,7 @@
 </section>
 {{ end }}
 
-<div class="ins-divider" aria-hidden="true"><img src="{{ "img/pittogramma.svg" | relURL }}" alt=""></div>
+<div class="ins-divider" aria-hidden="true"><img src="{{ "img/pittogramma.svg" | relURL }}" alt="" width="46" height="46"></div>
 
 <div class="ins-layout">
   <article class="ins-body">
@@ -73,9 +73,6 @@
   <a href="https://api.whatsapp.com/send?text={{ .Title }}%20{{ .Permalink }}" target="_blank" rel="noopener" aria-label="WhatsApp">{{- partial "icon.html" "whatsapp" -}}</a>
 </div>
 
-{{ partial "planet-rise.html" . }}
-{{ partial "footer.html" . }}
-
 <!-- Schema.org: Article -->
 <script type="application/ld+json">
 {
@@ -89,12 +86,12 @@
   "wordCount": {{ countwords .Content }},
   "author": {
     "@type": "Organization",
-    "name": "Oida Labs",
+    "name": "OIDA Labs",
     "url": "https://oida-labs.com"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Oida Labs",
+    "name": "OIDA Labs",
     "url": "https://oida-labs.com",
     "logo": {
       "@type": "ImageObject",

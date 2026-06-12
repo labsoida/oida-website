@@ -2,10 +2,10 @@
 <section id="faq" class="faq-section">
   <div class="s-header dusted">
     <div class="s-num">05</div>
-    <div class="s-titlebox"><div class="s-label">// {{ $d.label }}</div><div class="s-title">{{ $d.title }}</div></div>
+    <div class="s-titlebox"><div class="s-label">// {{ $d.label }}</div><button type="button" class="s-title s-disclose" aria-expanded="false" aria-controls="faq-body">{{ $d.title }}</button></div>
     <div class="s-toggle" aria-hidden="true">+</div>
   </div>
-  <div class="section-body">
+  <div class="section-body" id="faq-body">
     <div class="faq-wrap">
       {{ with $d.subtitle }}<div class="faq-intro">{{ . }}</div>{{ end }}
       {{ range $i, $f := $d.items }}

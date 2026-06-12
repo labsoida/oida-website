@@ -7,7 +7,7 @@
 {{- with $tocBlock -}}
   {{- $ol := index (findRE `(?s)<ol>.*?</ol>` . 1) 0 -}}
   {{- $ol = replaceRE `<li><a href="#faq">[^<]*</a></li>\s*` "" $ol -}}
-  {{- $new := printf `<nav class="post-toc"><div class="post-toc-lab">// In questo articolo</div>%s</nav><div class="post-divider" aria-hidden="true"><img src="%s" alt=""></div>` $ol (relURL "img/pittogramma.svg") -}}
+  {{- $new := printf `<nav class="post-toc"><div class="post-toc-lab">// In questo articolo</div>%s</nav><div class="post-divider" aria-hidden="true"><img src="%s" alt="" width="46" height="46"></div>` $ol (relURL "img/pittogramma.svg") -}}
   {{- $content = replace $content . $new 1 -}}
 {{- end -}}
 
@@ -83,9 +83,6 @@
 </section>
 {{ end }}
 
-{{ partial "planet-rise.html" . }}
-{{ partial "footer.html" . }}
-
 {{ with .Params.faqs }}
 <!-- Schema.org: FAQPage -->
 <script type="application/ld+json">
@@ -113,20 +110,20 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "{{ .Title }}",
-  "description": "{{ .Description }}",
+  "headline": {{ .Title | jsonify | safeJS }},
+  "description": {{ .Description | jsonify | safeJS }},
   "datePublished": "{{ .Date.Format "2006-01-02" }}",
   {{ with .Lastmod }}"dateModified": "{{ .Format "2006-01-02" }}",{{ end }}
   {{ with .Params.image }}"image": "{{ . | absURL }}",{{ end }}
   "wordCount": {{ countwords .Content }},
   "author": {
     "@type": "Organization",
-    "name": "Oida Labs",
+    "name": "OIDA Labs",
     "url": "https://oida-labs.com"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Oida Labs",
+    "name": "OIDA Labs",
     "url": "https://oida-labs.com",
     "logo": {
       "@type": "ImageObject",

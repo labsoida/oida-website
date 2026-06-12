@@ -1,13 +1,12 @@
 {{ define "main" }}
-{{ $posts := where .Pages "Params.draft" "ne" true }}
-{{ $sorted := $posts.ByDate.Reverse }}
+{{ $sorted := .Pages.ByDate.Reverse }}
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
   <a href="{{ "/" | relURL }}">Home</a><span class="sep">/</span><span class="current">Insight</span>
 </nav>
 
 <header class="list-head list-head--mark starry">
-  <img class="list-head-mark" src="{{ "img/pittogramma.svg" | relURL }}" alt="" aria-hidden="true">
+  <img class="list-head-mark" src="{{ "img/pittogramma.svg" | relURL }}" alt="" aria-hidden="true" width="130" height="130">
   <div class="list-head-text">
     <div class="list-kicker">// Insight &mdash; Healthcare Market Intelligence</div>
     <h1>Letture dei dati</h1>
@@ -16,7 +15,7 @@
   </div>
 </header>
 
-{{ if eq (len $posts) 0 }}
+{{ if eq (len $sorted) 0 }}
 <div class="srv-group-head"><span class="srv-group-lab">// Il primo insight è in arrivo. Torna a trovarci.</span></div>
 {{ else }}
 <div class="ins-cards">
@@ -35,7 +34,4 @@
   {{ end }}
 </div>
 {{ end }}
-
-{{ partial "planet-rise.html" . }}
-{{ partial "footer.html" . }}
 {{ end }}

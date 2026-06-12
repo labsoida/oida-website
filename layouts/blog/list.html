@@ -1,6 +1,5 @@
 {{ define "main" }}
-{{ $posts := where .Pages "Params.draft" "ne" true }}
-{{ $sorted := $posts.ByDate.Reverse }}
+{{ $sorted := .Pages.ByDate.Reverse }}
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
   <a href="{{ "/" | relURL }}">Home</a><span class="sep">/</span><span class="current">Blog</span>
@@ -13,7 +12,7 @@
   {{ with $sorted }}<div class="list-count">// <b>{{ len . }}</b> articoli &middot; aggiornato {{ (index . 0).Date.Format "02.01.2006" }}</div>{{ end }}
 </header>
 
-{{ if eq (len $posts) 0 }}
+{{ if eq (len $sorted) 0 }}
 <div class="srv-group-head"><span class="srv-group-lab">// I primi articoli sono in arrivo. Torna a trovarci.</span></div>
 {{ else }}
 <div class="blog-rows">
@@ -29,7 +28,4 @@
   {{ end }}
 </div>
 {{ end }}
-
-{{ partial "planet-rise.html" . }}
-{{ partial "footer.html" . }}
 {{ end }}

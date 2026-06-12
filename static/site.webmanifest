@@ -1,0 +1,13 @@
+{
+  "name": "OIDA Labs",
+  "short_name": "OIDA Labs",
+  "description": "Agenzia di marketing sanitario fondata da medici.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#000000",
+  "theme_color": "#0a0a0a",
+  "icons": [
+    { "src": "/img/favicon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/img/favicon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

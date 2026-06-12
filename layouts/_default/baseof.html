@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="it" class="no-js">
 <head>
+  <script>document.documentElement.classList.remove('no-js')</script>
   {{- partial "head.html" . -}}
 </head>
 <body>
@@ -8,29 +9,31 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ .Site.Params.gtmId }}"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+  <a class="skip-link" href="#main">Vai al contenuto</a>
   {{- $h := "" }}{{ if not .IsHome }}{{ $h = "/" | relURL }}{{ end -}}
   <nav class="nav" aria-label="Navigazione principale">
     <div class="nav-inner">
-      <a href="{{ if .IsHome }}#hero{{ else }}{{ "/" | relURL }}{{ end }}" class="nav-logo" aria-label="Oida Labs — Home">
-        <img src="{{ "img/logo.png" | relURL }}" alt="Oida Labs — Agenzia di Marketing Sanitario" width="2506" height="1115" decoding="async">
+      <a href="{{ if .IsHome }}#hero{{ else }}{{ "/" | relURL }}{{ end }}" class="nav-logo" aria-label="OIDA Labs — Home">
+        <img src="{{ "img/logo.svg" | relURL }}" alt="OIDA Labs — Agenzia di Marketing Sanitario" width="247" height="132" decoding="async">
       </a>
       <div class="nav-links" id="nav-links">
-        <a href="{{ $h }}#chi"{{ if .IsHome }} data-section="chi"{{ end }}>01 Chi siamo</a>
-        <a href="{{ $h }}#servizi"{{ if .IsHome }} data-section="servizi"{{ end }}>02 Servizi</a>
-        <a href="{{ $h }}#perche"{{ if .IsHome }} data-section="perche"{{ end }}>03 Perché noi</a>
-        <a href="{{ $h }}#pubblicazioni"{{ if .IsHome }} data-section="pubblicazioni"{{ end }}>04 Pubblicazioni</a>
-        <a href="{{ $h }}#faq"{{ if .IsHome }} data-section="faq"{{ end }}>05 FAQ</a>
-        <a href="{{ $h }}#contatti"{{ if .IsHome }} data-section="contatti"{{ end }}>06 Contatti</a>
+        <a href="{{ $h }}#chi">01 Chi siamo</a>
+        <a href="{{ $h }}#servizi">02 Servizi</a>
+        <a href="{{ $h }}#perche">03 Perché noi</a>
+        <a href="{{ $h }}#pubblicazioni">04 Pubblicazioni</a>
+        <a href="{{ $h }}#faq">05 FAQ</a>
+        <a href="{{ $h }}#contatti">06 Contatti</a>
       </div>
-      <div class="nav-meta"></div>
       <button class="nav-toggle" id="nav-toggle" aria-label="Apri menu" aria-expanded="false" aria-controls="nav-links">
         <span></span><span></span><span></span>
       </button>
     </div>
   </nav>
-  <main>
+  <main id="main">
     {{ block "main" . }}{{ end }}
   </main>
+  {{- partial "planet-rise.html" . -}}
+  {{- partial "footer.html" . -}}
   {{- $js := resources.Get "js/main.js" | resources.Minify | resources.Fingerprint -}}
   <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>
 </body>

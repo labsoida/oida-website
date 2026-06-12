@@ -4,14 +4,11 @@
   var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   function isMobile() { return window.matchMedia('(max-width:900px)').matches; }
 
-  // --- Ripristino scroll al top se l'URL non ha hash ---
-  if ('scrollRestoration' in history) { history.scrollRestoration = 'manual'; }
-  if (!window.location.hash) { window.scrollTo(0, 0); }
-
   // --- Apre l'accordion della sezione di destinazione (evita il doppio tap menu -> "+") ---
   function openSection(sec) {
     if (sec && sec.querySelector && sec.querySelector('.s-header')) {
       sec.classList.add('is-open');
+      syncSectionAria(sec);
     }
   }
   // Arrivo da pagina interna con hash (es. /#servizi): apri subito la sezione
@@ -51,15 +48,33 @@
   }
 
   // --- Accordion sezioni (home): FAQ e Pubblicazioni anche su desktop, le altre solo su mobile ---
-  ['chi', 'servizi', 'perche', 'pubblicazioni', 'faq', 'contatti'].forEach(function (sid) {
+  var SECTION_IDS = ['chi', 'servizi', 'perche', 'pubblicazioni', 'faq', 'contatti'];
+  function isCollapsible(sid) { return sid === 'faq' || sid === 'pubblicazioni' || isMobile(); }
+  // aria-expanded sul bottone disclosure: riflette lo stato reale (sezioni non
+  // collassabili nel viewport corrente = sempre espanse)
+  function syncSectionAria(sec) {
+    var btn = sec.querySelector('.s-disclose');
+    if (!btn) return;
+    var expanded = sec.classList.contains('is-open') || !isCollapsible(sec.id);
+    btn.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+  }
+  SECTION_IDS.forEach(function (sid) {
     var sec = document.getElementById(sid);
     if (!sec) return;
     var header = sec.querySelector('.s-header');
     if (!header) return;
+    syncSectionAria(sec);
     header.addEventListener('click', function (e) {
-      if (sid !== 'faq' && sid !== 'pubblicazioni' && !isMobile()) return;
-      if (e.target.closest('a, button')) return;
+      if (!isCollapsible(sid)) return;
+      if (e.target.closest('a')) return;
       sec.classList.toggle('is-open');
+      syncSectionAria(sec);
+    });
+  });
+  window.addEventListener('resize', function () {
+    SECTION_IDS.forEach(function (sid) {
+      var sec = document.getElementById(sid);
+      if (sec) syncSectionAria(sec);
     });
   });
 
