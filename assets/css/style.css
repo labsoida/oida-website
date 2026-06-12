@@ -280,6 +280,8 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
 .list-kicker{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.16em;text-transform:uppercase;margin-bottom:24px}
 .list-head h1{font-family:'Glaseer',sans-serif;font-size:64px;line-height:.96;letter-spacing:0;text-transform:uppercase;margin-bottom:24px}
 .list-sub{font-size:19px;color:var(--gray-6);line-height:1.5;max-width:760px}
+.list-sub a{color:var(--teal);text-decoration:none;border-bottom:1px solid rgba(0,194,178,.4);transition:border-color .15s}
+.list-sub a:hover{border-bottom-color:var(--teal)}
 .list-count{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--gray-5);letter-spacing:.06em;margin-top:20px}
 .list-count b{color:var(--teal);font-weight:400}
 

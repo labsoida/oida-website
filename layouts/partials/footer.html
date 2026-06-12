@@ -1,7 +1,7 @@
 {{ $d := hugo.Data.footer }}
 <footer class="dusted">
   <div class="footer-inner">
-    <div><strong>// Agenzia</strong>{{ $d.legal_name }}<br>IDE {{ $d.ide }}</div>
+    <div><strong>// Agenzia</strong>{{ $d.legal_name }}<br>IDE {{ $d.ide }}<a href="{{ "marketing-sanitario/" | relURL }}">La guida al marketing sanitario</a></div>
     <div><strong>// Contatti</strong>{{ $d.address }}<br>{{ $d.city }}<br><a href="mailto:{{ $d.email }}">{{ $d.email }}</a></div>
     <div><strong>// Social</strong>{{ range $d.social }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{ end }}</div>
     <div><strong>// Legal</strong>{{ range $d.legal_links }}{{ if .cookie_settings }}<a href="#" data-cc="show-preferencesModal">{{ .text }}</a>{{ else }}<a href="{{ .url }}">{{ .text }}</a>{{ end }}{{ end }}</div>

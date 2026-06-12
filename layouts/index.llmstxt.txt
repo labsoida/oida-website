@@ -6,6 +6,9 @@ OIDA Labs Sagl — Piazza dell'Indipendenza 3, 6900 Lugano (CH) — IDE CHE-144.
 
 Ogni pagina elencata sotto ha una variante markdown per AI agents: i link puntano direttamente al file `index.md` della pagina (la versione HTML è allo stesso URL senza `index.md`).
 
+## Guida
+{{ with .Site.GetPage "/marketing-sanitario" }}- [{{ .Title }}]({{ with .OutputFormats.Get "agentmd" }}{{ .Permalink }}{{ else }}{{ .Permalink }}{{ end }}): {{ .Description }}
+{{ end }}
 ## Servizi
 {{ range (where .Site.RegularPages "Section" "servizi").ByTitle }}- [{{ .Title }}]({{ with .OutputFormats.Get "agentmd" }}{{ .Permalink }}{{ else }}{{ .Permalink }}{{ end }}): {{ .Description }}
 {{ end }}

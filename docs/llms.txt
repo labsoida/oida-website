@@ -6,6 +6,9 @@ OIDA Labs Sagl — Piazza dell'Indipendenza 3, 6900 Lugano (CH) — IDE CHE-144.
 
 Ogni pagina elencata sotto ha una variante markdown per AI agents: i link puntano direttamente al file `index.md` della pagina (la versione HTML è allo stesso URL senza `index.md`).
 
+## Guida
+- [Marketing sanitario: la guida per le strutture private](https://oida-labs.com/marketing-sanitario/index.md): Guida al marketing sanitario per cliniche e strutture private: normativa, canali, funnel del paziente e metriche. Scritta da un'agenzia fondata da medici.
+
 ## Servizi
 - [Consulenza Strategica per la Sanità](https://oida-labs.com/servizi/consulenza-strategica-sanitaria/index.md): Analizziamo la tua struttura e ti diciamo cosa fare, in che ordine e con quali priorità. Strategia di marketing sanitario basata sui dati.
 - [CRM e Automazioni per la Sanità](https://oida-labs.com/servizi/crm-automation-sanita/index.md): Ti aiutiamo a scegliere e configurare il CRM giusto e automatizziamo i follow-up, così nessuna richiesta si perde. Indipendenti, nessun software nostro.

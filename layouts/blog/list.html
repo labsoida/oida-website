@@ -9,6 +9,7 @@
   <div class="list-kicker">// Blog</div>
   <h1>Approfondimenti</h1>
   <p class="list-sub">Guide operative, analisi e strategie dal mondo del marketing sanitario.</p>
+  <p class="list-sub"><a href="{{ "marketing-sanitario/" | relURL }}">Parti dalla guida al marketing sanitario &rarr;</a></p>
   {{ with $sorted }}<div class="list-count">// <b>{{ len . }}</b> articoli &middot; aggiornato {{ (index . 0).Date.Format "02.01.2006" }}</div>{{ end }}
 </header>
 
