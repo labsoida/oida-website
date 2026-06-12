@@ -66,7 +66,8 @@
 </section>
 {{ end }}
 
-{{ $related := first 3 (where (where site.RegularPages "Section" "blog") "Permalink" "ne" .Permalink).ByDate.Reverse }}
+{{ $related := first 3 (site.RegularPages.Related .) }}
+{{ if not $related }}{{ $related = first 3 (where (where site.RegularPages "Section" "blog") "Permalink" "ne" .Permalink).ByDate.Reverse }}{{ end }}
 {{ with $related }}
 <section class="post-related">
   <div class="post-related-tit">// Continua a leggere</div>

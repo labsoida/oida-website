@@ -1,19 +1,44 @@
 baseURL = "https://oida-labs.com/"
 relativeURLs = true
 languageCode = "it"
-title = "Oida Labs — Agenzia di Marketing Sanitario | Consulenza per Cliniche e Strutture Sanitarie"
+title = "OIDA Labs — Agenzia di Marketing Sanitario fondata da medici"
 publishDir = "docs"
 enableRobotsTXT = true
+enableGitInfo = true
+disableKinds = ["taxonomy", "term"]
+rssLimit = 20
 
-[sitemap]
-  changefreq = "weekly"
-  priority = 0.5
-  filename = "sitemap.xml"
+# lastmod reale dall'ultimo commit git che tocca il file (fallback: front matter, poi date)
+[frontmatter]
+  lastmod = ["lastmod", ":git", "date"]
+
+# La build di produzione è sempre minificata (lo switch --minify diventa ridondante)
+[minify]
+  minifyOutput = true
+
+# Articoli correlati per tag condivisi (usato in blog/single.html)
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "date"
+    weight = 10
 
 # Custom output format: llms-full.txt (dump markdown completo per AI agents)
 [outputFormats.LlmsFull]
   mediaType = "text/plain"
   baseName = "llms-full"
+  isPlainText = true
+  notAlternative = true
+
+# Custom output format: llms.txt (indice standard llmstxt.org, rigenerato a ogni build)
+[outputFormats.LlmsTxt]
+  mediaType = "text/plain"
+  baseName = "llms"
   isPlainText = true
   notAlternative = true
 
@@ -27,7 +52,7 @@ enableRobotsTXT = true
   permalinkable = true
 
 [outputs]
-  home = ["HTML", "RSS", "LlmsFull"]
+  home = ["HTML", "RSS", "LlmsFull", "LlmsTxt"]
   page = ["HTML", "AgentMd"]
 
 [markup.goldmark.renderer]
@@ -39,6 +64,6 @@ enableRobotsTXT = true
     title = true
 
 [params]
-  description = "Agenzia di marketing sanitario fondata da medici. Digital marketing, SEO, CRM, AI, PR e consulenza operativa per cliniche, studi medici e strutture sanitarie in Italia, Svizzera e UK."
+  description = "Agenzia di marketing sanitario fondata da medici: digital marketing, SEO, CRM e AI per cliniche e strutture sanitarie private in Italia, Svizzera e UK."
   ogImage = "img/og-image.jpg"
-  keywords = "marketing sanitario, agenzia marketing sanitario, marketing per cliniche, marketing medico, SEO sanitario, digital marketing sanità, consulenza marketing sanitario, CRM cliniche, marketing strutture sanitarie"
+  gtmId = "GTM-M3B73NRN"

@@ -10,7 +10,6 @@ servizio_gruppo: "Specialistici e Differenzianti"
 servizio_icona: "chirurgia"
 serviceType: "Consulenza clinica e tecnica per la progettazione di ambulatori chirurgici e sale operatorie"
 audience: "Strutture sanitarie e professionisti che aprono o ampliano ambienti chirurgici"
-og_image: "/img/servizi/chirurgia-og.png"
 keywords:
   - "progettazione ambienti chirurgici"
   - "progettazione sala operatoria"

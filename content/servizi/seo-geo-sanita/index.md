@@ -9,7 +9,6 @@ servizio_gruppo: "Crescita e Acquisizione"
 servizio_icona: "seo"
 serviceType: "Search Engine Optimization e Generative Engine Optimization per il settore sanitario"
 audience: "Studi medici, cliniche, poliambulatori e strutture sanitarie private"
-og_image: "/img/servizi/seo-geo-og.png"
 keywords:
   - "SEO per studi medici"
   - "SEO sanitaria"

@@ -9,7 +9,6 @@ servizio_gruppo: "Crescita e Acquisizione"
 servizio_icona: "web"
 serviceType: "Progettazione e sviluppo di siti web per il settore sanitario"
 audience: "Studi medici, cliniche, poliambulatori e strutture sanitarie private"
-og_image: "/img/servizi/siti-web-og.png"
 keywords:
   - "sito web per studi medici"
   - "siti web sanitari"

@@ -10,7 +10,6 @@ servizio_gruppo: "Crescita e Acquisizione"
 servizio_icona: "pr"
 serviceType: "Ufficio stampa, media relations e PR per il settore sanitario"
 audience: "Strutture sanitarie, gruppi di cliniche e holding sanitarie"
-og_image: "/img/servizi/ufficio-stampa-og.png"
 keywords:
   - "ufficio stampa sanitario"
   - "PR sanitarie"

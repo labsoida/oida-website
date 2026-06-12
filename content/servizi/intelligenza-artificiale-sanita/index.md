@@ -10,7 +10,6 @@ servizio_gruppo: "Operations e Tecnologia"
 servizio_icona: "ai"
 serviceType: "Integrazione e sviluppo di strumenti di intelligenza artificiale per il settore sanitario"
 audience: "Studi medici, cliniche, poliambulatori e strutture sanitarie private"
-og_image: "/img/servizi/ai-og.png"
 keywords:
   - "intelligenza artificiale sanità"
   - "AI per studi medici"

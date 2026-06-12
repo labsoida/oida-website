@@ -10,7 +10,6 @@ servizio_gruppo: "Crescita e Acquisizione"
 servizio_icona: "adv"
 serviceType: "Gestione di campagne pubblicitarie digitali (Google Ads, Meta Ads) per il settore sanitario"
 audience: "Studi medici, cliniche, poliambulatori e strutture sanitarie private"
-og_image: "/img/servizi/advertising-og.png"
 keywords:
   - "advertising sanitario"
   - "google ads per medici"

@@ -10,7 +10,6 @@ servizio_gruppo: "Specialistici e Differenzianti"
 servizio_icona: "strategy"
 serviceType: "Consulenza strategica e di posizionamento di marketing per il settore sanitario"
 audience: "Studi medici, cliniche, poliambulatori e gruppi sanitari"
-og_image: "/img/servizi/consulenza-og.png"
 keywords:
   - "consulenza marketing sanitario"
   - "consulenza strategica sanità"

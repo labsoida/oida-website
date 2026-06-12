@@ -10,7 +10,6 @@ servizio_gruppo: "Operations e Tecnologia"
 servizio_icona: "crm"
 serviceType: "Selezione, configurazione e ottimizzazione di CRM e automazioni per il settore sanitario"
 audience: "Studi medici, cliniche, poliambulatori e strutture sanitarie private"
-og_image: "/img/servizi/crm-og.png"
 keywords:
   - "CRM per studi medici"
   - "CRM sanitario"

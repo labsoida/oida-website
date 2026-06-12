@@ -10,7 +10,6 @@ servizio_gruppo: "Operations e Tecnologia"
 servizio_icona: "talent"
 serviceType: "Employer branding e campagne di attrazione di professionisti per il settore sanitario"
 audience: "Studi medici, cliniche, poliambulatori e strutture sanitarie private"
-og_image: "/img/servizi/talent-og.png"
 keywords:
   - "employer branding sanitario"
   - "attrarre professionisti sanitari"

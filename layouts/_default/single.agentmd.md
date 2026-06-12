@@ -21,6 +21,15 @@
 ---
 
 {{ .RawContent }}
+{{- with .Params.faqs }}
+
+## FAQ
+{{ range . }}
+**{{ .q }}**
+
+{{ .a }}
+{{ end }}
+{{- end }}
 
 ---
 

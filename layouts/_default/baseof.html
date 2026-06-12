@@ -5,7 +5,7 @@
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M3B73NRN"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ .Site.Params.gtmId }}"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
   {{- $h := "" }}{{ if not .IsHome }}{{ $h = "/" | relURL }}{{ end -}}
