@@ -26,8 +26,24 @@ Sappiamo come si muove davvero una richiesta dentro una struttura, da chi la ric
 
 Ti aiutiamo a scegliere il CRM più adatto a te, ti proponiamo alternative e lo configuriamo sul tuo modo di lavorare. Non vendiamo un nostro software: scegliamo con te lo strumento giusto e lo rendiamo utile. Poi automatizziamo i passaggi ripetitivi, dai promemoria ai follow-up, così [ogni richiesta viene seguita](/servizi/advertising-sanitario/) e nessuna si perde per strada. Quando ha senso, sui [passaggi ripetitivi](/servizi/intelligenza-artificiale-sanita/) inseriamo strumenti di AI che fanno risparmiare tempo senza aggiungere complessità.
 
-<!-- SLOT PROVA / CASE STUDY — placeholder L2, in attesa di ok dati da Stefano.
-     Spunto dal deck: rete poliambulatoriale, oltre 32.000 lead gestiti. Pubblicare solo dopo ok. -->
+
+## FAQ
+
+**Vendete un vostro CRM?**
+
+No. Siamo indipendenti: valutiamo le opzioni sul mercato e ti aiutiamo a scegliere quella giusta per te, poi la configuriamo e la miglioriamo nel tempo.
+
+**Funziona con i programmi che già uso?**
+
+Spesso sì. Prima di proporti qualcosa guardiamo cosa hai già, per non farti buttare via quello che funziona.
+
+**Serve essere una grande struttura?**
+
+No, ma più cresci e più rende: con tanti contatti e più sedi, un sistema ordinato fa la differenza tra una richiesta colta e una persa.
+
+**I dati dei pazienti sono al sicuro?**
+
+Sì. Scegliamo e configuriamo gli strumenti nel rispetto della normativa privacy (GDPR in Italia, nLPD in Svizzera), perché un CRM sanitario gestisce dati delicati.
 
 
 ---

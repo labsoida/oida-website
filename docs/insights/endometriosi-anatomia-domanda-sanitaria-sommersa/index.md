@@ -5,13 +5,13 @@
 
 # Endometriosi: anatomia di una domanda sanitaria sommersa
 
-> Il Report GIMBE 2/2026 letto da OIDA Labs: sette-dieci anni di ritardo diagnostico come percorso informativo quasi interamente digitale, stadi I-II fuori dall'esenzione 063, mappa regionale dei PDTA come scenario per la ginecologia privata italiana.
+> Il Report GIMBE 2/2026 letto da OIDA Labs: ritardo diagnostico, esenzione 063 e mappa dei PDTA come scenario per la ginecologia privata italiana.
 
 **Data:** 2026-04-22
 **Autore:** OIDA Labs
 **Categoria:** OIDA Insight — Aprile 2026
 **Base empirica:** Base empirica: Report GIMBE 2/2026
-**Tag:** marketing sanitario, ginecologia privata, comunicazione sanitaria, endometriosi, posizionamento specialistico
+**Tag:** mercato sanitario, strategia
 
 ---
 

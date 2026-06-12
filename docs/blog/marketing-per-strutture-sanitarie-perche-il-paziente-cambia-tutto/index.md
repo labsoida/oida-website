@@ -5,11 +5,11 @@
 
 # Marketing per strutture sanitarie: perché il paziente cambia tutto
 
-> Il marketing per strutture sanitarie funziona diversamente dal marketing tradizionale. Cosa determina l'efficacia di una strategia e perché il paziente è un decision-maker atipico.
+> Il marketing per strutture sanitarie segue regole proprie: cosa determina l'efficacia di una strategia quando il decisore è un paziente.
 
 **Data:** 2026-05-17
 **Autore:** Oida Labs
-**Tag:** marketing sanitario, marketing strutture sanitarie, strategia marketing, sanità privata, acquisizione pazienti
+**Tag:** strategia, acquisizione pazienti
 
 ---
 
@@ -76,19 +76,20 @@ Tre fattori, in ordine di impatto.
 
 Il marketing per strutture sanitarie produce risultati duraturi quando parte da una comprensione precisa del paziente come decision-maker, quando presidia la reputazione come asset primario e quando misura l'efficacia sull'intero percorso di acquisizione. **Le strutture che crescono nel tempo sono quelle che hanno integrato questi tre livelli in modo coerente, con partner che conoscono il settore dall'interno.**
 
+
 ## FAQ
 
-### Il marketing sanitario è diverso dal marketing tradizionale?
+**Il marketing sanitario è diverso dal marketing tradizionale?**
 
-Sì, in modo strutturale. Il paziente non decide come un consumatore commerciale: i driver principali sono **fiducia, reputazione percepita e urgenza clinica**, non prezzo o creatività della campagna. Le strategie costruite su logiche di altri settori producono risultati deludenti in sanità se non vengono adattate alla specificità del percorso decisionale del paziente.
+Sì, in modo strutturale. Il paziente non decide come un consumatore commerciale: i driver principali sono fiducia, reputazione percepita e urgenza clinica, non prezzo o creatività della campagna. Le strategie costruite su logiche di altri settori producono risultati deludenti in sanità se non vengono adattate alla specificità del percorso decisionale del paziente.
 
-### Quanto tempo serve per vedere risultati concreti?
+**Quanto tempo serve per vedere risultati concreti?**
 
-Dipende dalla combinazione di strumenti. Le campagne a pagamento producono risultati in settimane, ma richiedono budget continuativo. Il posizionamento organico e la costruzione della reputazione digitale lavorano su un orizzonte di **3-6 mesi**, con effetti più stabili nel tempo.
+Dipende dalla combinazione di strumenti. Le campagne a pagamento producono risultati in settimane, ma richiedono budget continuativo. Il posizionamento organico e la costruzione della reputazione digitale lavorano su un orizzonte di 3-6 mesi, con effetti più stabili nel tempo.
 
-### Una struttura sanitaria può fare marketing in autonomia?
+**Una struttura sanitaria può fare marketing in autonomia?**
 
-Per attività circoscritte, sì. Per una strategia integrata che ottimizzi il [costo di acquisizione paziente sull'intero funnel](/blog/agenzia-marketing-sanitario-quattro-criteri-oggettivi-valutarla/), la complessità richiede competenze specifiche: normative sulla comunicazione sanitaria, benchmark di conversione per specialità, gestione delle piattaforme pubblicitarie con le restrizioni proprie del settore.
+Per attività circoscritte, sì. Per una strategia integrata che ottimizzi il costo di acquisizione paziente sull'intero funnel, la complessità richiede competenze specifiche: normative sulla comunicazione sanitaria, benchmark di conversione per specialità, gestione delle piattaforme pubblicitarie con le restrizioni proprie del settore.
 
 
 ---

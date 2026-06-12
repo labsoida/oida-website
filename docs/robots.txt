@@ -1,13 +1,10 @@
-# Content Signals — dichiarazione esplicita delle preferenze d'uso per AI bot
-# Spec: https://contentsignals.org/
-# OIDA Labs autorizza esplicitamente search, AI input (citazione in risposte) e training.
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
-
 # Crawler generici (motori di ricerca tradizionali)
+# Content-Signal (spec: https://contentsignals.org/): OIDA Labs autorizza
+# esplicitamente search, AI input (citazione in risposte) e training.
 User-agent: *
 Allow: /
 Disallow: /lab/
-Disallow: /tags/
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
 
 # --- AI Crawlers: training + retrieval per LLM ---
 # OIDA Labs autorizza esplicitamente l'uso dei propri contenuti pubblici
@@ -67,7 +64,7 @@ User-agent: Applebot-Extended
 Allow: /
 Disallow: /lab/
 
-# Microsoft Copilot
+# Cohere
 User-agent: cohere-ai
 Allow: /
 Disallow: /lab/
@@ -79,5 +76,9 @@ Disallow: /lab/
 
 # Sitemap canonical
 Sitemap: https://oida-labs.com/sitemap.xml
+
+# Indice per AI agents (llmstxt.org)
+# llms.txt: https://oida-labs.com/llms.txt
+# llms-full.txt: https://oida-labs.com/llms-full.txt
 
 # Klaatu barada nikto.

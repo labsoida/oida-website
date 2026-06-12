@@ -26,8 +26,24 @@ Abbiamo lavorato in sala operatoria e conosciamo gli ambienti chirurgici da dent
 
 Ti affianchiamo lungo tutto il percorso: studio di fattibilità, verifica della compliance normativa, selezione di strumentari ed elettromedicali, coordinamento dei lavori e avvio del nuovo servizio. Non parti da solo: hai accanto chi conosce sia il lato clinico sia quello normativo.
 
-<!-- SLOT PROVA / CASE STUDY — placeholder L2, in attesa di ok dati da Stefano.
-     Spunto dal deck: affiancamento di partner in fase di espansione su sale operatorie. -->
+
+## FAQ
+
+**A chi si rivolge questo servizio?**
+
+A strutture e professionisti che vogliono aprire o ampliare ambienti chirurgici: ambulatori chirurgici, sale operatorie e attività di day surgery.
+
+**Vi occupate anche delle autorizzazioni?**
+
+Sì. Ti affianchiamo nella verifica della compliance e nel percorso autorizzativo, insieme alla parte tecnica e a quella clinica.
+
+**Seguite anche la scelta delle attrezzature?**
+
+Sì: selezione di strumentari ed elettromedicali in base a quello che farai davvero, non a un catalogo standard.
+
+**È un servizio di marketing?**
+
+No, è consulenza clinica e tecnica. È il servizio dove la nostra origine medica conta più di tutto: nasce dall'aver vissuto quegli ambienti.
 
 
 ---

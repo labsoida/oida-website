@@ -26,8 +26,24 @@ Sappiamo perché un medico o un infermiere sceglie una struttura e perché la la
 
 Non selezioniamo né forniamo professionisti: quella resta una tua scelta. Noi facciamo in modo che i profili giusti sappiano che esisti e abbiano voglia di candidarsi da te. Costruiamo l'[immagine della tua struttura](/servizi/ufficio-stampa-sanita/) come luogo di lavoro, organizziamo le [campagne per farti conoscere](/servizi/advertising-sanitario/) dai professionisti che cerchi e rendiamo più semplice il percorso con cui poi sei tu a sceglierli.
 
-<!-- SLOT PROVA / CASE STUDY — placeholder L2, in attesa di ok dati da Stefano.
-     Spunto dal deck: struttura multisede ad elevato turnover. Inserire metrica solo se verificata e approvata. -->
+
+## FAQ
+
+**Fate selezione del personale?**
+
+No. Non selezioniamo né forniamo professionisti: a quello pensi tu. Noi rendiamo la tua struttura attrattiva e facciamo arrivare candidature in linea, poi la scelta resta tua.
+
+**In cosa siete diversi da un'agenzia di recruiting?**
+
+Un'agenzia di recruiting cerca e propone persone. Noi lavoriamo prima: rendiamo la tua struttura riconoscibile e desiderabile, così le candidature arrivano da sole e i professionisti restano. Sono due cose diverse e complementari.
+
+**Funziona anche per una struttura piccola?**
+
+Sì, in scala: anche un singolo studio che cresce ha bisogno di attrarre e trattenere i collaboratori giusti.
+
+**In quanto tempo si vedono risultati?**
+
+Le prime candidature arrivano in poche settimane dalle campagne; la reputazione come datore di lavoro si costruisce nel tempo.
 
 
 ---

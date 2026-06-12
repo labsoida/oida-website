@@ -5,16 +5,16 @@
 
 # Advertising sanitario su Google e Meta: normative, limiti e strategie per strutture private in Italia
 
-> Le campagne pubblicitarie per strutture sanitarie private in Italia operano sotto vincoli normativi precisi. Come investire in advertising rispettando le regole e ottenendo risultati misurabili.
+> Campagne Google e Meta per strutture sanitarie private in Italia: i vincoli normativi che contano e come investire con risultati misurabili.
 
 **Data:** 2026-04-11
 **Autore:** Oida Labs
-**Tag:** marketing sanitario, advertising sanitario, google ads sanità, meta ads salute, strutture private
+**Tag:** advertising, normativa
 
 ---
 
 
-Le campagne pubblicitarie per strutture sanitarie private in Italia operano all'interno di un quadro normativo che non ha equivalenti in altri settori. Il Codice di Deontologia Medica, il Decreto Legislativo 38/1992 sulla pubblicità sanitaria, le policy aggiornate di Google e Meta per le categorie sensibili: **tre livelli di vincolo che si sovrappongono** e che definiscono un perimetro preciso dentro il quale una campagna può operare.
+Le campagne pubblicitarie per strutture sanitarie private in Italia operano all'interno di un quadro normativo che non ha equivalenti in altri settori. Il Codice di Deontologia Medica, la Legge 175/1992 sulla pubblicità sanitaria, le policy aggiornate di Google e Meta per le categorie sensibili: **tre livelli di vincolo che si sovrappongono** e che definiscono un perimetro preciso dentro il quale una campagna può operare.
 
 **Dentro questo perimetro ci sono strategie efficaci.** Il problema non è la normativa in sé, ma la tendenza delle strutture a interpretarla in modo più restrittivo di quanto sia, rinunciando a leve pubblicitarie che sarebbero legittime e misurabili.
 
@@ -33,7 +33,7 @@ Le campagne pubblicitarie per strutture sanitarie private in Italia operano all'
 
 ### I tre livelli di vincolo
 
-**Il primo livello è il D.Lgs. 38/1992**, il decreto che regola la pubblicità sanitaria in Italia. Stabilisce che le strutture sanitarie possono pubblicizzare l'esistenza e la localizzazione dei propri servizi, ma non possono fare pubblicità comparativa, attribuirsi caratteristiche di eccellenza non documentabili, o usare testimonial. La norma è stata scritta prima dell'era digitale e la sua interpretazione in un contesto di campagne digitali richiede un'applicazione ragionata che distingue tra ciò che è vietato, ciò che è consentito e ciò che ricade in zone interpretative.
+**Il primo livello è la Legge 175/1992**, la legge che regola la pubblicità sanitaria in Italia. Stabilisce che le strutture sanitarie possono pubblicizzare l'esistenza e la localizzazione dei propri servizi, ma non possono fare pubblicità comparativa, attribuirsi caratteristiche di eccellenza non documentabili, o usare testimonial. La norma è stata scritta prima dell'era digitale e la sua interpretazione in un contesto di campagne digitali richiede un'applicazione ragionata che distingue tra ciò che è vietato, ciò che è consentito e ciò che ricade in zone interpretative.
 
 **Il secondo livello è il Codice di Deontologia Medica**, che vieta ai medici di fare pubblicità finalizzata a procurarsi clienti. Il Codice si applica ai singoli professionisti, non alle strutture, ma la distinzione diventa rilevante quando la campagna promuove sia la struttura sia il professionista che vi lavora.
 
@@ -112,19 +112,20 @@ In pratica:
 
 L'advertising sanitario in Italia è regolato ma non bloccato. Le strutture che operano dentro il perimetro normativo ottengono risultati misurabili sulla [Search di Google](/blog/google-business-profile-marketing-sanitario-profili-non-producono-risultati/) con campagne segmentate per specialità, sul remarketing di Meta e sui canali brand awareness con aspettative corrette sul ritorno. La chiave è conoscere il perimetro e progettare la campagna al suo interno.
 
+
 ## FAQ
 
-### Una struttura sanitaria privata può usare Google Ads per promuovere un check-up o una promozione stagionale?
+**Una struttura sanitaria privata può usare Google Ads per promuovere un check-up o una promozione stagionale?**
 
-Le promozioni temporanee rientrano in una zona normativa da gestire con attenzione. La normativa italiana vieta la pubblicità sanitaria che "tende a promuovere il consumo di prestazioni sanitarie" in modo lesivo della dignità professionale. **La consulenza di un legale esperto in diritto sanitario sulla specifica comunicazione è la scelta più prudente** prima di lanciare campagne promozionali di questo tipo.
+Le promozioni temporanee su prestazioni specifiche rientrano in una zona normativa da gestire con attenzione. La normativa italiana vieta la pubblicità sanitaria che tende a promuovere il consumo di prestazioni sanitarie in modo lesivo della dignità professionale. Una campagna su un check-up di primavera a prezzo ridotto può essere percepita come borderline. La consulenza di un legale esperto in diritto sanitario sulla specifica comunicazione è la scelta più prudente.
 
-### Le campagne Google Ads per strutture sanitarie richiedono una certificazione specifica in Italia?
+**Le campagne Google Ads per strutture sanitarie richiedono una certificazione specifica in Italia?**
 
-Google richiede la certificazione del settore sanitario per certe categorie di prodotti (farmaci, dispositivi medici), ma per le strutture che erogano prestazioni cliniche la certificazione richiesta varia. Le campagne su servizi di visita specialistica, diagnostica e fisioterapia **non richiedono certificazione aggiuntiva** rispetto all'account Google Ads standard, ma le inserzioni vengono comunque verificate rispetto alle policy di categoria sensibile.
+Google richiede la certificazione del settore sanitario per certe categorie di prodotti (farmaci, dispositivi medici), ma per le strutture che erogano prestazioni cliniche la certificazione varia in funzione della tipologia. Le campagne su servizi di visita specialistica, diagnostica e fisioterapia non richiedono certificazione aggiuntiva rispetto all'account standard, ma le inserzioni vengono comunque verificate rispetto alle policy di categoria sensibile.
 
-### Come gestire le recensioni dei pazienti in relazione alla normativa privacy?
+**Come gestire le recensioni dei pazienti in relazione alla normativa privacy?**
 
-Le recensioni dei pazienti su Google Business Profile sono pubblicate volontariamente e non richiedono gestione specifica dal punto di vista della privacy, **a meno che la struttura voglia utilizzarle in campagne pubblicitarie**. In quel caso, è necessario un consenso esplicito del paziente che autorizzi l'uso della propria testimonianza in materiale promozionale.
+Le recensioni dei pazienti su Google Business Profile sono pubblicate volontariamente e non richiedono gestione specifica dal punto di vista privacy, a meno che la struttura voglia utilizzarle in campagne pubblicitarie. In quel caso, è necessario un consenso esplicito del paziente. L'utilizzo di screenshot di recensioni in post social o in inserzioni senza consenso esplicito è una pratica che espone a contestazioni.
 
 
 ---

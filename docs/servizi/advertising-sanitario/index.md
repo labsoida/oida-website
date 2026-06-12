@@ -28,9 +28,28 @@ Sappiamo cosa porta una persona a scegliere una struttura per la propria salute 
 
 Le persone giuste ti trovano nel momento in cui cercano: su Google quando cercano una prestazione e sui social quando vale la pena farti conoscere. Gestiamo tutto noi, dal targeting ai messaggi, dalle immagini al monitoraggio dei risultati. Ogni mese sai cosa ha funzionato, quanto ti è costato un contatto e dove conviene investire di più. Il budget pubblicitario resta sul tuo account e sotto il tuo controllo. Le campagne si completano con la visibilità organica costruita lavorando su [SEO e GEO](/servizi/seo-geo-sanita/) e con una pagina di atterraggio efficace, che progettiamo con il servizio [siti web per la sanità](/servizi/siti-web-sanitari/). Una volta arrivato il contatto, è il [CRM e le automazioni](/servizi/crm-automation-sanita/) a fare in modo che non si perda per strada.
 
-<!-- SLOT PROVA / CASE STUDY — placeholder L2, in attesa di ok dati da Stefano.
-     Es. anonimizzato (dal deck): "Una struttura nostra cliente: 5.000€ di investimento
-     pubblicitario, 52.000€ di nuovo fatturato. I risultati dipendono da contesto e offerta." -->
+
+## FAQ
+
+**Quanto budget serve per partire?**
+
+Dipende dalla zona e dalla prestazione. Per esperienza, su una singola area si parte spesso con qualche centinaio di euro al mese e si aumenta solo se i risultati lo giustificano. Te lo diciamo prima, non dopo.
+
+**Il budget della pubblicità lo gestite voi?**
+
+Gestiamo le campagne, ma il budget resta sul tuo account e sotto il tuo controllo: vedi sempre quanto spendi e dove va.
+
+**Funziona anche per un singolo specialista?**
+
+Sì, spesso lì rende ancora di più: campagne locali mirate su poche prestazioni, senza dispersione.
+
+**La pubblicità sanitaria ha limiti di legge?**
+
+Sì, la Legge 145/2018 e i codici deontologici degli ordini professionali. Costruiamo le campagne per essere efficaci e conformi allo stesso tempo.
+
+**Su quali canali lavorate?**
+
+Google, per intercettare chi cerca attivamente, e Meta o Instagram, per farti conoscere. Scegliamo in base a chi vuoi raggiungere e a cosa cerca.
 
 
 ---

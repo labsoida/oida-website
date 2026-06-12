@@ -5,11 +5,11 @@
 
 # Fascicolo sanitario elettronico per strutture private: cosa cambia e come prepararsi
 
-> Il fascicolo sanitario elettronico interessa anche le strutture private. Cosa devono fare concretamente cliniche e poliambulatori, quali sono gli obblighi e come trasformare l'adempimento in un vantaggio operativo.
+> Il fascicolo sanitario elettronico interessa anche le strutture private: gli obblighi per cliniche e poliambulatori e come trasformarli in vantaggio.
 
 **Data:** 2026-04-02
 **Autore:** Oida Labs
-**Tag:** marketing sanitario, fascicolo sanitario elettronico, fse, digitalizzazione sanità, strutture private
+**Tag:** sanità digitale, normativa
 
 ---
 
@@ -100,19 +100,20 @@ Le informazioni aggiornate sono disponibili sui siti dei sistemi informativi san
 
 Il fascicolo sanitario elettronico è un adempimento normativo con una scadenza che si avvicina per tutte le strutture sanitarie private accreditate. **La strategia migliore non è aspettare l'ultimo momento: è anticipare l'implementazione tecnica, verificare la compatibilità dei sistemi esistenti e usare l'occasione per strutturare i processi documentali in modo che producano vantaggio operativo oltre la compliance.** Le strutture che lo fanno ora hanno un vantaggio temporale rispetto a quelle che aspetteranno la pressione normativa.
 
+
 ## FAQ
 
-### Il paziente deve dare il consenso per l'inserimento dei propri dati nel FSE?
+**Il paziente deve dare il consenso per l'inserimento dei propri dati nel FSE?**
 
-**Sì.** Il conferimento dei dati nel FSE richiede il consenso esplicito del cittadino. Il consenso è gestito attraverso la piattaforma regionale e può essere revocato in qualsiasi momento. Il paziente può anche scegliere di dare consenso all'alimentazione ma non alla consultazione da parte di altri professionisti, o viceversa. Le strutture devono informare il paziente delle modalità di consenso.
+Sì. Il conferimento dei dati nel FSE richiede il consenso esplicito del cittadino. Il consenso è gestito attraverso la piattaforma regionale e può essere revocato in qualsiasi momento. Il paziente può anche scegliere di dare consenso all'alimentazione ma non alla consultazione da parte di altri professionisti, o viceversa. Le strutture devono informare il paziente delle modalità di consenso e non possono alimentare il FSE senza che il consenso sia stato espresso.
 
-### Una struttura privata non accreditata è obbligata a integrare il FSE?
+**Una struttura privata non accreditata è obbligata a integrare il FSE?**
 
-Allo stato attuale della normativa, **gli obblighi sono più espliciti per le strutture accreditate** che erogano prestazioni per conto del SSN. Le strutture non accreditate hanno obblighi più limitati nel breve termine, ma la direzione normativa è verso un'estensione progressiva. L'obbligo di fornire al paziente la propria documentazione clinica in formato digitale interoperabile si applica più in generale.
+Allo stato attuale della normativa, gli obblighi di alimentazione del FSE sono più espliciti per le strutture accreditate che erogano prestazioni per conto del SSN. Le strutture non accreditate hanno obblighi più limitati nel breve termine, ma la direzione normativa è verso un'estensione progressiva. Inoltre, l'obbligo di fornire al paziente la propria documentazione clinica in formato digitale interoperabile si applica più in generale.
 
-### Il FSE è accessibile anche ai professionisti svizzeri per i pazienti italiani in Canton Ticino?
+**Il FSE è accessibile anche ai professionisti svizzeri per i pazienti italiani in Canton Ticino?**
 
-**No**, non esiste un sistema di interoperabilità tra il FSE italiano e i sistemi sanitari svizzeri. Il paziente italiano che si reca in Canton Ticino per cure deve portare con sé la documentazione clinica rilevante, o scaricarla dal proprio FSE in formato PDF per consegnarla alla struttura ticinese.
+No, non esiste un sistema di interoperabilità tra il FSE italiano e i sistemi sanitari svizzeri. Il paziente italiano che si reca in Canton Ticino per cure deve portare con sé la documentazione clinica rilevante, o scaricarla dal proprio FSE in formato PDF per consegnarla alla struttura ticinese. L'interoperabilità sanitaria transfrontaliera tra Italia e Svizzera non è ancora implementata.
 
 
 ---

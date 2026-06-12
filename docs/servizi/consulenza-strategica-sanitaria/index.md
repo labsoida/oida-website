@@ -26,9 +26,24 @@ Leggiamo la tua struttura dall'interno: la domanda sul tuo territorio, i tuoi pu
 
 Ti diciamo cosa fare, in che ordine e con quali priorità. Analizziamo il tuo contesto, la concorrenza sul territorio e la tua reputazione attuale, e ne ricaviamo un piano operativo con priorità chiare e ritorno atteso. Esci con una direzione, non con una lista di buoni propositi. E quello che pianifichiamo, se vuoi, possiamo anche realizzarlo passo dopo passo: dal lavoro su [SEO e visibilità organica](/servizi/seo-geo-sanita/) alle [campagne pubblicitarie](/servizi/advertising-sanitario/), fino alla costruzione di [reputazione e posizionamento istituzionale](/servizi/ufficio-stampa-sanita/).
 
-<!-- SLOT PROVA / CASE STUDY — placeholder L2, in attesa di ok dati da Stefano.
-     Spunto dal deck (Growth Plan): piano per rete multi-sede, roadmap in 5 fasi,
-     +49,5% visite al primo centro pilota. Pubblicare solo dopo ok. -->
+
+## FAQ
+
+**Cosa ricevo concretamente?**
+
+Un quadro chiaro di dove sei e un piano operativo: cosa fare, in che ordine e con quali priorità, con i risultati attesi.
+
+**E dopo la strategia, chi la mette in pratica?**
+
+La mettiamo in pratica con te. La consulenza non è uno studio da archiviare: è il punto di partenza del lavoro, e da lì seguiamo insieme le azioni che contano.
+
+**Funziona anche se sono una struttura piccola?**
+
+Sì. Anzi, quando le risorse sono poche, decidere bene dove investirle conta ancora di più.
+
+**Su cosa vi basate per le scelte?**
+
+Su dati verificabili: la domanda sul territorio, i numeri della tua presenza attuale e l'analisi di chi ti sta intorno. Non su impressioni.
 
 
 ---

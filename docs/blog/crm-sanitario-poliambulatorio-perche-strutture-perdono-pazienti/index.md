@@ -5,11 +5,11 @@
 
 # CRM sanitario: perché le strutture private perdono pazienti dopo il primo contatto
 
-> Un CRM sanitario non è un software: è il processo che determina quanti lead diventano pazienti. Cosa succede nelle strutture che non lo governano in modo sistematico.
+> Un CRM sanitario non è un software: è il processo che decide quanti lead diventano pazienti. Cosa succede nelle strutture che non lo governano.
 
 **Data:** 2026-04-24
 **Autore:** Oida Labs
-**Tag:** marketing sanitario, CRM sanitario, gestione lead, pipeline pazienti, poliambulatorio
+**Tag:** crm e automazioni, acquisizione pazienti
 
 ---
 
@@ -98,19 +98,20 @@ Le implicazioni più ampie dell'[AI applicata al marketing sanitario](/blog/ai-m
 
 Un CRM sanitario è lo strumento che trasforma la gestione dei lead da attività individuale a processo misurabile e migliorabile. **Le strutture che lo costruiscono in modo sistematico ottengono un vantaggio competitivo stabile: non perché abbiano campagne più performanti, ma perché convertono una quota maggiore dei contatti che già generano.** Il punto di partenza non è il software: è la definizione del processo, delle fasi della pipeline e delle responsabilità per ciascuna fase.
 
+
 ## FAQ
 
-### Quale CRM è più adatto per una struttura sanitaria privata di medie dimensioni?
+**Quale CRM è più adatto per una struttura sanitaria privata di medie dimensioni?**
 
-Non esiste una risposta universale, perché la scelta dipende dal volume di contatti, dalla complessità delle specialità gestite, dall'integrazione richiesta con il gestionale clinico e dal livello di personalizzazione necessario. I sistemi più usati in ambito sanitario privato italiano sono **HubSpot, Salesforce Health Cloud, Monday.com** configurato per use case sanitari e soluzioni verticali specifiche per healthcare. La scelta va preceduta da un'analisi del processo attuale: un CRM sofisticato su un processo non definito produce **caos digitale invece di efficienza**.
+Non esiste una risposta universale, perché la scelta dipende dal volume di contatti, dalla complessità delle specialità gestite, dall'integrazione richiesta con il gestionale clinico e dal livello di personalizzazione necessario. I sistemi più usati in ambito sanitario privato italiano sono HubSpot, Salesforce Health Cloud, Monday.com configurato per use case sanitari e soluzioni verticali specifiche per healthcare. La scelta va preceduta da un'analisi del processo attuale: un CRM sofisticato su un processo non definito produce caos digitale invece di efficienza.
 
-### Quanto tempo serve per implementare un CRM funzionante in una struttura sanitaria?
+**Quanto tempo serve per implementare un CRM funzionante in una struttura sanitaria?**
 
-Un'implementazione con pipeline definite, automazioni di base e personale formato richiede generalmente tra **6 e 12 settimane**. Il tempo dipende più dalla complessità del processo interno e dalla qualità dei dati storici da importare che dalla piattaforma scelta. Le implementazioni che falliscono o restano inutilizzate saltano quasi sempre la fase di progettazione del processo e passano direttamente all'acquisto del software.
+Un'implementazione con pipeline definite, automazioni di base e personale formato richiede generalmente tra 6 e 12 settimane. Il tempo dipende più dalla complessità del processo interno e dalla qualità dei dati storici da importare che dalla piattaforma scelta. Le implementazioni che falliscono o restano inutilizzate saltano quasi sempre la fase di progettazione del processo e passano direttamente all'acquisto del software.
 
-### Il GDPR impone vincoli specifici alla gestione dei dati pazienti in un CRM sanitario?
+**Il GDPR impone vincoli specifici alla gestione dei dati pazienti in un CRM sanitario?**
 
-Sì. I dati sanitari sono **categoria protetta ai sensi del GDPR (art. 9)** e il loro trattamento richiede base giuridica specifica, consenso esplicito per le finalità di marketing, nomina del responsabile del trattamento se il CRM è gestito da terzi, e misure di sicurezza adeguate alla sensibilità dei dati. Ogni implementazione di CRM sanitario deve essere accompagnata da una valutazione giuridica dei flussi di dati e da una revisione della privacy policy della struttura.
+Sì. I dati sanitari sono categoria protetta ai sensi del GDPR (art. 9) e il loro trattamento richiede base giuridica specifica, consenso esplicito per le finalità di marketing, nomina del responsabile del trattamento se il CRM è gestito da terzi, e misure di sicurezza adeguate alla sensibilità dei dati. Ogni implementazione di CRM sanitario deve essere accompagnata da una valutazione giuridica dei flussi di dati e da una revisione della privacy policy della struttura.
 
 
 ---

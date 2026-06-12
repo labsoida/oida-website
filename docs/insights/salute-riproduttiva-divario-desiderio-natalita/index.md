@@ -5,13 +5,13 @@
 
 # Salute riproduttiva: il divario tra desiderio e natalità. Marketing sanitario per medicina della fertilità e PMA
 
-> Il Rapporto annuale ISTAT 2026 letto da OIDA Labs: 1,14 figli per donna, 355 mila nati a fronte di 760 mila attesi dalle intenzioni. La denatalità come misura di una domanda di salute riproduttiva ampia, motivata e intercettata troppo tardi dalle strutture private.
+> Il Rapporto ISTAT 2026 letto da OIDA Labs: 1,14 figli per donna e una domanda di salute riproduttiva intercettata troppo tardi dalle strutture private.
 
 **Data:** 2026-05-22
 **Autore:** OIDA Labs
 **Categoria:** OIDA Insight — Maggio 2026
 **Base empirica:** Base empirica: Rapporto annuale ISTAT 2026
-**Tag:** marketing sanitario, salute riproduttiva, ginecologia privata, posizionamento specialistico, comunicazione sanitaria, strutture private, sanità privata
+**Tag:** mercato sanitario, strategia
 
 ---
 

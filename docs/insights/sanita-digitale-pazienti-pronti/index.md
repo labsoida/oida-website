@@ -5,13 +5,13 @@
 
 # Sanità digitale: i pazienti sono davvero pronti? Cosa dice ISTAT 2026 per il marketing sanitario
 
-> Il Rapporto annuale ISTAT 2026 letto da OIDA Labs: solo il 54,3% degli italiani ha competenze digitali di base, il 19,9% ha usato l'IA. Cosa significa il divario digitale del paziente per il marketing sanitario e la comunicazione delle strutture sanitarie private.
+> Il Rapporto ISTAT 2026 letto da OIDA Labs: il 54,3% degli italiani ha competenze digitali di base. Cosa significa per la comunicazione sanitaria.
 
 **Data:** 2026-05-22
 **Autore:** OIDA Labs
 **Categoria:** OIDA Insight — Maggio 2026
 **Base empirica:** Base empirica: Rapporto annuale ISTAT 2026
-**Tag:** marketing sanitario, comunicazione sanitaria, sanità digitale, divario digitale, ai sanità, front office clinica, posizionamento strategico
+**Tag:** mercato sanitario, sanità digitale
 
 ---
 

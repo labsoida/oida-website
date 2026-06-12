@@ -28,9 +28,28 @@ Sappiamo cosa una persona cerca prima di affidarti la sua salute: chiarezza su c
 
 Un sito chiaro e veloce, che funziona dal telefono come dal computer, dove [chi arriva trova subito quello che cerca](/servizi/seo-geo-sanita/) e capisce come prenotare. Lo costruiamo noi, dall'inizio o partendo da quello che hai già, e lo colleghiamo agli strumenti che usi, come l'[agenda o il sistema di prenotazione](/servizi/crm-automation-sanita/). Tu segui le cure, al resto pensiamo noi.
 
-<!-- SLOT PROVA / CASE STUDY — placeholder L2, in attesa di ok dati da Stefano.
-     Es. anonimizzato: "Una struttura nostra cliente: nuovo sito e da lì
-     [N] richieste di appuntamento al mese. I risultati dipendono da contesto e continuità." -->
+
+## FAQ
+
+**Rifate il sito da zero o partite da quello che ho già?**
+
+Dipende. Se quello che hai funziona, lo miglioriamo; se rallenta più di quanto aiuti, ripartiamo da capo. Lo decidiamo dopo averlo guardato insieme, senza farti rifare lavoro inutile.
+
+**Vi occupate anche dei testi e delle immagini?**
+
+Sì. Scriviamo i contenuti con supervisione medico-scientifica e ti guidiamo nella scelta di foto e materiali, così il sito resta coerente e conforme.
+
+**Il sito funzionerà bene dal cellulare?**
+
+Sì, ed è la priorità: chi cerca una prestazione lo fa spesso dal telefono, quindi il sito nasce per essere usato lì.
+
+**Le persone potranno prenotare dal sito?**
+
+Sì. Possiamo collegare il sito alla tua agenda o a un sistema di prenotazione, così una richiesta non si perde per strada.
+
+**Il sito sarà a norma di privacy?**
+
+Sì. Lo costruiamo con privacy policy, banner cookie e gestione dei dati a norma (GDPR in Italia, nLPD in Svizzera), perché un sito sanitario raccoglie dati delicati.
 
 
 ---

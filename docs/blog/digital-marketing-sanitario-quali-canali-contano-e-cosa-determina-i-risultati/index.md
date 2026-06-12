@@ -9,7 +9,7 @@
 
 **Data:** 2026-05-11
 **Autore:** Oida Labs
-**Tag:** marketing sanitario, digital marketing sanitario, seo sanitario, campagne sanitarie, canali digitali
+**Tag:** strategia, advertising
 
 ---
 
@@ -96,19 +96,20 @@ La scelta dipende da tre variabili.
 
 Il digital marketing sanitario non è un canale: è un insieme di strumenti che lavorano su orizzonti temporali e dinamiche di acquisizione diversi. **La scelta di dove concentrare risorse e attenzione dipende dalla specialità, dagli obiettivi e dal contesto competitivo di ogni struttura.** Il punto di partenza è sempre un'analisi precisa della situazione attuale.
 
+
 ## FAQ
 
-### Quanto budget serve per fare digital marketing sanitario in modo efficace?
+**Quanto budget serve per fare digital marketing sanitario in modo efficace?**
 
-Per campagne pubblicitarie su Google e Meta, strutture di dimensioni medie lavorano generalmente con budget tra **€1.500 e €5.000 al mese** per l'advertising, escluse le fee di gestione. Il SEO e il presidio del profilo Google Business hanno costi di gestione inferiori ma richiedono continuità nel tempo.
+Per campagne pubblicitarie su Google e Meta, strutture di dimensioni medie lavorano generalmente con budget tra €1.500 e €5.000 al mese per l'advertising, escluse le fee di gestione. Il SEO e il presidio del profilo Google Business hanno costi di gestione inferiori ma richiedono continuità nel tempo.
 
-### I social media servono davvero a una struttura sanitaria?
+**I social media servono davvero a una struttura sanitaria?**
 
 Sì, ma con aspettative corrette. I social media non sono uno strumento di acquisizione diretta nel breve termine: sono uno strumento di costruzione di reputazione e familiarità. Il loro valore si misura nel tempo, attraverso la fiducia che si genera nei potenziali pazienti che seguono il profilo prima di avere bisogno del servizio.
 
-### SEO o campagne a pagamento: da dove si inizia?
+**SEO o campagne a pagamento: da dove si inizia?**
 
-Se la struttura ha bisogno di nuovi pazienti nel breve termine, le campagne a pagamento producono risultati più rapidi. Il SEO è l'investimento con il miglior rendimento nel lungo termine ma richiede mesi. In una strategia equilibrata, **i due strumenti lavorano in parallelo** su orizzonti e metriche distinti.
+Se la struttura ha bisogno di nuovi pazienti nel breve termine, le campagne a pagamento producono risultati più rapidi. Il SEO è l'investimento con il miglior rendimento nel lungo termine ma richiede mesi. In una strategia equilibrata, i due strumenti lavorano in parallelo su orizzonti e metriche distinti.
 
 
 ---

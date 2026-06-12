@@ -5,11 +5,11 @@
 
 # CPL e CAC nel marketing sanitario: quale metrica misura davvero la redditività
 
-> Nel marketing sanitario il CPL misura il costo del lead, il CAC misura il costo per paziente acquisito. La differenza tra i due numeri determina la redditività reale.
+> Il CPL misura il costo del lead, il CAC il costo per paziente acquisito. La differenza tra i due numeri determina la redditività reale del marketing.
 
 **Data:** 2026-04-20
 **Autore:** Oida Labs
-**Tag:** marketing sanitario, CAC, CPL, ROI sanità, misurazione campagne
+**Tag:** metriche e kpi, advertising
 
 ---
 
@@ -86,17 +86,18 @@ Il terzo passaggio è la **revisione mensile**. I numeri vanno letti insieme all
 
 Il CPL indica l'efficienza della campagna pubblicitaria; il CAC indica la redditività dell'investimento nel suo insieme. **Misurare solo il primo fornisce una visione parziale del funnel sanitario. Misurare il secondo richiede tracciamento disciplinato e collaborazione tra agenzia e struttura.** La capacità di lavorare in questo modo è uno dei [criteri che distinguono un'agenzia di marketing sanitario attrezzata da una generalista](/blog/agenzia-marketing-sanitario-quattro-criteri-oggettivi-valutarla/).
 
+
 ## FAQ
 
-### Qual è un CAC di riferimento nel marketing sanitario?
+**Qual è un CAC di riferimento nel marketing sanitario?**
 
-Il CAC sostenibile nel marketing sanitario va tipicamente **da €30–80 per specialità a basso ticket** (fisioterapia, dermatologia di base) **a oltre €300–400 per specialità a ticket elevato** (chirurgia estetica, odontoiatria implantologica, bariatrica). Il benchmark varia per specialità e per ticket medio del servizio: nelle specialità ad alto valore unitario, un CAC superiore resta sostenibile purché il *lifetime value* del paziente giustifichi l'investimento.
+Il benchmark varia per specialità e per ticket medio del servizio. Per visite a basso commitment economico — fisioterapia, dermatologia di base — il CAC sostenibile si colloca tipicamente tra €30 e €80. Per specialità a ticket elevato — chirurgia estetica, odontoiatria implantologica, bariatrica — il CAC può essere sostenibile anche oltre €300–400, purché il lifetime value del paziente giustifichi l'investimento.
 
-### Ogni quanto tempo va ricalcolato il CAC?
+**Ogni quanto tempo va ricalcolato il CAC?**
 
 Su base mensile per l'operatività, su base trimestrale per le decisioni strategiche. Finestre più brevi risentono della volatilità settimanale; finestre più lunghe fanno perdere reattività sulle correzioni.
 
-### Chi deve avere visibilità sul CAC in una struttura sanitaria?
+**Chi deve avere visibilità sul CAC in una struttura sanitaria?**
 
 Almeno tre figure: il referente marketing (interno o esterno), il responsabile dell'agenda e del front-office, la direzione. La metrica attraversa competenze diverse ed è efficace solo se letta in modo coordinato.
 

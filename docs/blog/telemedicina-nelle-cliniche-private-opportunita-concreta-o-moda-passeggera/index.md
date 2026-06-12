@@ -5,11 +5,11 @@
 
 # Telemedicina nelle cliniche private: opportunità concreta o moda passeggera?
 
-> La telemedicina in sanità privata è già realtà per alcune strutture e ancora irrisolta per molte altre. Cosa funziona davvero, cosa non ha ancora trovato il suo modello e perché la distinzione conta.
+> Telemedicina in sanità privata: cosa funziona già, cosa non ha trovato un modello sostenibile e come capire se conviene alla tua struttura.
 
 **Data:** 2026-04-05
 **Autore:** Oida Labs
-**Tag:** marketing sanitario, telemedicina sanità, cliniche private, innovazione clinica, teleconsulto
+**Tag:** sanità digitale, strategia
 
 ---
 
@@ -91,19 +91,20 @@ La remunerazione delle prestazioni di telemedicina in ambito privato è a carico
 
 La telemedicina nelle cliniche private non è moda né distrazione: è uno strumento con applicazioni concrete e limitazioni precise. **Le strutture che la usano in modo efficace l'hanno integrata come componente del percorso di cura per pazienti già noti, non come porta di ingresso universale per nuovi pazienti.** Il valore principale è nella fidelizzazione e nella continuità del percorso clinico, non nell'acquisizione di primo accesso.
 
+
 ## FAQ
 
-### Un teleconsulto può sostituire la ricetta medica in presenza?
+**Un teleconsulto può sostituire la ricetta medica in presenza?**
 
-In Italia, la prescrizione farmaceutica può essere rilasciata in formato digitale dal medico durante un teleconsulto, a condizione che la visita sia condotta su una piattaforma conforme alle indicazioni ministeriali. Le prescrizioni di farmaci di fascia A in telemedicina richiedono un percorso prescrittivo che varia per specialità. **La verifica della normativa aggiornata per la specialità specifica è necessaria** prima di attivare il servizio.
+In Italia, la prescrizione farmaceutica può essere rilasciata in formato digitale dal medico durante un teleconsulto, a condizione che la visita sia condotta su una piattaforma conforme alle indicazioni ministeriali e che la prescrizione sia inviata tramite il Fascicolo Sanitario Elettronico o altro sistema abilitato. Le prescrizioni di farmaci di fascia A in telemedicina richiedono un percorso prescrittivo che varia per specialità e per tipo di farmaco. La verifica della normativa aggiornata per la specialità specifica è necessaria prima di attivare il servizio.
 
-### Come si stabilisce il prezzo di un teleconsulto rispetto a una visita in presenza?
+**Come si stabilisce il prezzo di un teleconsulto rispetto a una visita in presenza?**
 
-Le strutture applicano in genere un prezzo inferiore per il teleconsulto rispetto alla visita in presenza, con **riduzioni tra il 15% e il 30%**. Il ragionamento è che il teleconsulto ha costi di struttura inferiori e che il paziente percepisce comunque un servizio meno "pieno" rispetto alla visita fisica. La scelta del differenziale dipende dalla specialità.
+Le strutture applicano in genere un prezzo inferiore per il teleconsulto rispetto alla visita in presenza, con riduzioni tra il 15% e il 30%. Il ragionamento è che il teleconsulto ha costi di struttura inferiori e che il paziente percepisce comunque un servizio meno pieno rispetto alla visita fisica. La scelta del differenziale dipende dalla specialità.
 
-### Come si integra la telemedicina con il sistema di prenotazione della struttura?
+**Come si integra la telemedicina con il sistema di prenotazione della struttura?**
 
-L'integrazione con il sistema di prenotazione è uno dei punti operativi più frequentemente sottovalutati. Se il teleconsulto viene gestito su una piattaforma separata dal gestionale, si crea **doppio lavoro amministrativo e rischio di sovrapposizioni**. Le soluzioni più adottate sono piattaforme di telemedicina con API di integrazione con i principali gestionali sanitari, oppure gestionali sanitari che includono moduli di telemedicina integrati.
+L'integrazione con il sistema di prenotazione è uno dei punti operativi più frequentemente sottovalutati. Se il teleconsulto viene gestito su una piattaforma separata dal gestionale della struttura, si crea doppio lavoro amministrativo e rischio di sovrapposizioni. Le soluzioni più adottate sono piattaforme di telemedicina con API di integrazione con i principali gestionali sanitari, oppure gestionali sanitari che includono moduli di telemedicina integrati.
 
 
 ---

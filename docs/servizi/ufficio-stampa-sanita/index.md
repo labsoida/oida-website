@@ -26,10 +26,24 @@ Conosciamo le testate della sanità e sappiamo a quali interessa cosa, quali arg
 
 Il nome della tua struttura, e la voce del suo management, iniziano a comparire dove conta: sulle testate di settore, sulla stampa generalista e nelle interviste. Costruiamo le relazioni con giornalisti e redazioni, scriviamo i contenuti e prepariamo le persone che vanno in intervista. La tua struttura diventa un [riferimento riconosciuto](/servizi/seo-geo-sanita/), non solo un nome sul territorio. Quando la reputazione cresce, il [posizionamento strategico](/servizi/consulenza-strategica-sanitaria/) della struttura si rafforza in modo coerente.
 
-<!-- SLOT PROVA / CASE STUDY — placeholder L2, in attesa di ok dati da Stefano.
-     Prova più forte disponibile (dal deck, caso "gruppo sanitario in crescita"):
-     "150 uscite stampa in 11 mesi, 43,9M di reach, 51 uscite su testate Tier 1."
-     Pubblicare solo dopo ok di Stefano. -->
+
+## FAQ
+
+**A chi si rivolge questo servizio?**
+
+A strutture, gruppi di cliniche e holding sanitarie che vogliono costruire una reputazione istituzionale solida. Per la sua natura e per gli investimenti che richiede, non è pensato per il singolo professionista.
+
+**Lavorate con gruppi multi-sede?**
+
+Sì, è il contesto in cui le PR rendono di più: una reputazione costruita a livello di gruppo ricade su tutte le sedi e su tutti i servizi.
+
+**Quanto tempo serve per vedere risultati?**
+
+Le prime uscite arrivano nel giro di settimane; una reputazione solida si costruisce su mesi di presenza costante e coerente.
+
+**Non rischiamo di dire cose non permesse?**
+
+No. Scriviamo i contenuti e prepariamo le persone tenendo conto della Legge 145/2018 e dei codici deontologici degli ordini professionali, così l'autorevolezza cresce restando in regola.
 
 
 ---

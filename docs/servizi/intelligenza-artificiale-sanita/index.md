@@ -26,8 +26,24 @@ Sappiamo com'è fatta davvero la giornata di una struttura, quindi riconosciamo 
 
 Integriamo nei tuoi processi gli strumenti di AI che hanno senso: dalla [gestione automatica delle richieste](/servizi/crm-automation-sanita/) alla preparazione dei follow-up, fino alla lettura dei [dati che già produci](/servizi/seo-geo-sanita/). E quando lo strumento giusto non esiste, lo sviluppiamo noi su misura: abbiamo costruito assistenti conversazionali e applicazioni dedicate per il settore. Tu mantieni il controllo, l'AI si prende il lavoro ripetitivo.
 
-<!-- SLOT PROVA / CASE STUDY — placeholder L2, in attesa di ok dati da Stefano.
-     Capacità di sviluppo custom dimostrabile, ma SENZA nominare prodotti specifici. -->
+
+## FAQ
+
+**Devo cambiare i miei programmi gestionali?**
+
+No. Partiamo da quello che già usi e aggiungiamo l'AI dove serve, senza stravolgere il tuo modo di lavorare.
+
+**Sviluppate anche strumenti su misura?**
+
+Sì. Quando lo strumento giusto non esiste sul mercato, lo sviluppiamo internamente: dall'assistente conversazionale all'automazione dedicata alla tua attività.
+
+**L'AI è sicura con i dati dei pazienti?**
+
+I dati sanitari sono delicati: scegliamo e configuriamo gli strumenti nel rispetto della normativa privacy (GDPR in Italia, nLPD in Svizzera).
+
+**Serve essere una grande struttura?**
+
+No. Anche un singolo studio può automatizzare attività ripetitive con strumenti semplici e ben scelti.
 
 
 ---

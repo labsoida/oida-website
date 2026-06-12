@@ -32,10 +32,28 @@ L'obiettivo è semplice: quando qualcuno cerca una prestazione che offri, ti tro
 
 La parte tecnica ce ne occupiamo noi: non è qualcosa di cui ti devi preoccupare. Se vuoi capire come lavoriamo te lo spieghiamo e ti guidiamo passo passo, altrimenti pensiamo a tutto noi e tu vedi i risultati. Chi se ne occupa conosce i vincoli della comunicazione sanitaria e degli ordini professionali. Non promettiamo la prima posizione in due settimane: preferiamo darti tempi realistici e risultati che si misurano. Partiamo dalla tua struttura e da quello che le persone cercano davvero. Quando ha senso, combinati con l'[advertising sanitario](/servizi/advertising-sanitario/) si raggiungono risultati più rapidi sulle ricerche più contese, e abbiamo visto nel nostro lavoro su [Google Business Profile per le strutture sanitarie](/blog/google-business-profile-marketing-sanitario-profili-non-producono-risultati/) quanto la visibilità locale possa essere governata.
 
-<!-- SLOT PROVA / CASE STUDY — placeholder L2, in attesa di ok dati da Stefano.
-     Quando approvato, box con caso anonimizzato, es:
-     "Una clinica nostra cliente: da 0 a oltre 50.000 visite al mese in [N] mesi.
-      I risultati dipendono da contesto, budget e continuità." -->
+
+## FAQ
+
+**Qual è la differenza tra SEO e GEO?**
+
+La SEO è farti trovare nei risultati di Google. La GEO è farti trovare e citare nelle risposte degli assistenti AI come ChatGPT e Perplexity. Sono due porte d'accesso diverse alla stessa persona che cerca cura, e le curiamo entrambe.
+
+**In quanto tempo si vedono i risultati?**
+
+Per esperienza diretta, i primi segnali sulle ricerche locali arrivano entro 3-4 mesi; farsi trovare sulle ricerche più contese richiede 6-12 mesi di lavoro continuativo.
+
+**Lavorate anche con un singolo studio o un professionista?**
+
+Sì. Cambia la scala, non il metodo: per un singolo specialista contano soprattutto il presidio del territorio e poche pagine fatte bene.
+
+**Posso davvero pubblicizzare la mia struttura online?**
+
+Sì, entro i limiti della Legge 145/2018 e dei codici deontologici degli ordini professionali: la comunicazione sanitaria dev'essere informativa e non suggestiva. Ce ne occupiamo noi, così cresci in visibilità restando in regola.
+
+**Lavorate su tutta Italia?**
+
+Sì, operiamo in Italia, Svizzera e Regno Unito. Sul territorio in cui hai sede curiamo anche la visibilità nelle ricerche locali.
 
 
 ---

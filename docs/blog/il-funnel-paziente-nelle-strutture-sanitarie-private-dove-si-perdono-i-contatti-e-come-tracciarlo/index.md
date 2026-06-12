@@ -5,11 +5,11 @@
 
 # Il funnel paziente nelle strutture sanitarie private: dove si perdono i contatti e come tracciarlo
 
-> Le strutture sanitarie private perdono una quota consistente di potenziali pazienti tra il primo contatto e la prenotazione. Identificare dove avviene la perdita è il primo passo per ridurla.
+> Dove si perdono i potenziali pazienti tra il primo contatto e la prenotazione, e come tracciare il funnel di una struttura sanitaria privata.
 
 **Data:** 2026-05-02
 **Autore:** Oida Labs
-**Tag:** marketing sanitario, funnel paziente, tasso conversione, acquisizione pazienti, pipeline
+**Tag:** acquisizione pazienti, metriche e kpi
 
 ---
 
@@ -105,19 +105,20 @@ Le strutture che costruiscono questo tipo di analisi in modo continuativo, non c
 
 Il funnel paziente è il luogo in cui si decide la reale efficacia del marketing sanitario. **Le strutture che lo tracciano sanno dove stanno perdendo contatti e possono intervenire. Quelle che non lo tracciano continuano a investire in marketing senza capire perché i risultati non corrispondono alle aspettative.**
 
+
 ## FAQ
 
-### Qual è un tasso di conversione da contatto a prenotazione considerato accettabile per una struttura sanitaria privata?
+**Qual è un tasso di conversione da contatto a prenotazione considerato accettabile per una struttura sanitaria privata?**
 
-Strutture che gestiscono i lead con processo sistematico raggiungono tassi di conversione contatto-prenotazione **tra il 55% e il 70% per i canali diretti** (telefono, WhatsApp). Per i canali digitali indiretti (form sul sito, landing page di campagne), il range accettabile si abbassa tra il 30% e il 50%, in funzione della qualità del traffico generato. **Sotto il 30% su qualsiasi canale, c'è una perdita significativa che merita analisi.**
+Il range varia per specialità, canale di acquisizione e tipologia di prestazione. Come punto di riferimento, strutture che gestiscono i lead con processo sistematico raggiungono tassi di conversione contatto-prenotazione tra il 55% e il 70% per i canali diretti (telefono, WhatsApp). Per i canali digitali indiretti (form sul sito, landing page di campagne), il range accettabile si abbassa, tra il 30% e il 50%, in funzione della qualità del traffico generato. Sotto il 30% su qualsiasi canale, c'è una perdita significativa che merita analisi.
 
-### Come si attribuisce il canale di acquisizione quando un paziente usa più touchpoint prima di prenotare?
+**Come si attribuisce il canale di acquisizione quando un paziente usa più touchpoint prima di prenotare?**
 
-L'attribuzione multicanale in sanità privata è complessa perché il percorso del paziente raramente è lineare. L'attribuzione *last-click* attribuisce tutto all'ultimo touchpoint e non tiene conto della catena. Una stima più accurata richiede di chiedere sistematicamente al paziente come ha conosciuto la struttura durante il primo contatto, e di registrare la risposta nel CRM.
+L'attribuzione multicanale in sanità privata è complessa perché il percorso del paziente raramente è lineare. L'attribuzione last-click, la più comune, attribuisce tutto all'ultimo touchpoint e non tiene conto della catena. Una stima più accurata richiede di chiedere sistematicamente al paziente come ha conosciuto la struttura durante il primo contatto, e di registrare la risposta nel CRM. È un dato qualitativo ma molto più informativo dell'attribuzione automatica.
 
-### È necessario un software dedicato per tracciare il funnel paziente, o è sufficiente un foglio Excel?
+**È necessario un software dedicato per tracciare il funnel paziente, o è sufficiente un foglio Excel?**
 
-Un foglio Excel è sufficiente per iniziare a raccogliere dati. Diventa un limite non appena il volume di contatti supera quello gestibile manualmente. Per strutture con **più di 50-70 contatti al mese** provenienti da canali digitali, il passaggio a un CRM strutturato è giustificato rapidamente.
+Un foglio Excel è sufficiente per iniziare a raccogliere dati e capire la struttura del funnel. Diventa un limite non appena il volume di contatti supera quello gestibile manualmente, o non appena si vuole analizzare per canale, per specialità e per periodo. Per strutture con più di 50-70 contatti al mese provenienti da canali digitali, il passaggio a un CRM strutturato è giustificato rapidamente.
 
 
 ---

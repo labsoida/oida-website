@@ -1,24 +1,56 @@
-# Oida Labs — Agenzia di Marketing Sanitario
+# OIDA Labs
 
-## Chi siamo
-Oida Labs è un'agenzia di marketing sanitario fondata da medici. Operiamo esclusivamente nel settore sanitario in Italia, Svizzera e Regno Unito. Uniamo esperienza clinica diretta (50+ anni cumulati), competenze di marketing digitale e pragmatismo operativo al servizio di cliniche, studi medici e strutture sanitarie.
+> Agenzia di marketing sanitario fondata da medici. Digital marketing, SEO/GEO, advertising, CRM, AI, ufficio stampa, talent acquisition e progettazione di ambienti chirurgici per cliniche e strutture sanitarie private in Italia, Svizzera e Regno Unito.
 
-## Cosa facciamo
-- **Consulenza Strategica:** Analisi, strategia e posizionamento per strutture sanitarie in crescita.
-- **Digital Marketing & ADV:** Campagne digitali (Meta Ads, Google Ads, LinkedIn) costruite per il settore sanitario con risultati misurabili.
-- **Sviluppo Web — SEO & GEO:** Siti web ottimizzati per i motori di ricerca. Visibilità organica per strutture sanitarie.
-- **Intelligenza Artificiale:** Integrazione di strumenti AI nei processi sanitari. Solo ciò che funziona.
-- **CRM & Automation:** Automazioni per la gestione dei contatti e dei pazienti. Nessuna richiesta persa.
-- **Ufficio Stampa e PR:** Media relations e comunicazione istituzionale per la sanità. Credibilità costruita sui media giusti.
-- **Talent Acquisition:** Reclutamento e selezione di personale sanitario. Campagne mirate per intercettare profili qualificati.
-- **Progettazione Ambienti Chirurgici:** Consulenza specialistica per ambulatori chirurgici e sale operatorie. Fattibilità, compliance normativa, selezione strumentari.
+OIDA Labs Sagl — Piazza dell'Indipendenza 3, 6900 Lugano (CH) — IDE CHE-144.100.469 — info@oida-labs.com
 
-## Perché sceglierci
-1. Parliamo la lingua dei medici — siamo sanitari, conosciamo le dinamiche di una struttura dall'interno.
-2. Lavoriamo esclusivamente in ambito sanitario — nessun compromesso, nessuna distrazione.
-3. 50+ anni di esperienza sanitaria cumulati sul campo: in ambulatorio, in sala operatoria, nelle strutture.
+Ogni pagina elencata sotto ha una variante markdown per AI agents: i link puntano direttamente al file `index.md` della pagina (la versione HTML è allo stesso URL senza `index.md`).
 
-## Contatti
-- Sito web: https://oida-labs.com
-- Email: info@oida-labs.com
-- Mercati: Italia, Svizzera, Regno Unito
+## Servizi
+- [Consulenza Strategica per la Sanità](https://oida-labs.com/servizi/consulenza-strategica-sanitaria/index.md): Analizziamo la tua struttura e ti diciamo cosa fare, in che ordine e con quali priorità. Strategia di marketing sanitario basata sui dati.
+- [CRM e Automazioni per la Sanità](https://oida-labs.com/servizi/crm-automation-sanita/index.md): Ti aiutiamo a scegliere e configurare il CRM giusto e automatizziamo i follow-up, così nessuna richiesta si perde. Indipendenti, nessun software nostro.
+- [Digital Marketing e ADV per la Sanità](https://oida-labs.com/servizi/advertising-sanitario/index.md): Campagne Google e Meta costruite per studi medici e cliniche: i pazienti giusti ti trovano, budget misurato. Gestite da chi viene dalla sanità.
+- [Intelligenza Artificiale per la Sanità](https://oida-labs.com/servizi/intelligenza-artificiale-sanita/index.md): Integriamo gli strumenti di AI utili alla tua struttura e ne sviluppiamo su misura quando servono. Senza hype, scelti da chi viene dalla sanità.
+- [Progettazione di Ambienti Chirurgici](https://oida-labs.com/servizi/progettazione-ambienti-chirurgici/index.md): Ti affianchiamo per aprire o ampliare sale operatorie e ambulatori chirurgici: fattibilità, norme, strumentari. La competenza di chi li ha vissuti.
+- [SEO e GEO per la Sanità](https://oida-labs.com/servizi/seo-geo-sanita/index.md): Ti facciamo trovare da chi cerca le tue prestazioni, su Google e sulle risposte AI. SEO e GEO per la sanità, curate da chi viene dalla sanità.
+- [Siti Web per la Sanità](https://oida-labs.com/servizi/siti-web-sanitari/index.md): Realizziamo siti web per studi medici, cliniche e poliambulatori: chiari, veloci e pensati per chi cerca cura. Costruiti da chi viene dalla sanità.
+- [Talent Acquisition per la Sanità](https://oida-labs.com/servizi/talent-acquisition-sanita/index.md): Rendiamo la tua struttura sanitaria attrattiva per i professionisti: employer branding e campagne per farti scegliere. Non selezione, ma attrazione.
+- [Ufficio Stampa e PR per la Sanità](https://oida-labs.com/servizi/ufficio-stampa-sanita/index.md): Costruiamo la reputazione mediatica di strutture e gruppi sanitari: relazioni con i media e autorevolezza istituzionale, da chi viene dalla sanità.
+
+## Blog
+- [Marketing per strutture sanitarie: perché il paziente cambia tutto](https://oida-labs.com/blog/marketing-per-strutture-sanitarie-perche-il-paziente-cambia-tutto/index.md): Il marketing per strutture sanitarie segue regole proprie: cosa determina l'efficacia di una strategia quando il decisore è un paziente.
+- [Acquisizione pazienti online: cosa determina la conversione da contatto a visita](https://oida-labs.com/blog/acquisizione-pazienti-online-cosa-determina-la-conversione-da-contatto-a-visita/index.md): Generare contatti online non è acquisire pazienti. Cosa separa le strutture con le agende piene da quelle con campagne che non diventano prenotazioni.
+- [Digital marketing sanitario: quali canali contano e cosa determina i risultati](https://oida-labs.com/blog/digital-marketing-sanitario-quali-canali-contano-e-cosa-determina-i-risultati/index.md): Il digital marketing sanitario non è uguale per tutte le strutture. Quali canali producono risultati reali, perché e come cambiano in base alla specialità.
+- [KPI del marketing sanitario: come misurare quello che conta davvero](https://oida-labs.com/blog/kpi-del-marketing-sanitario-come-misurare-quello-che-conta-davvero/index.md): Quali KPI dicono davvero se il marketing sanitario funziona e come costruire un sistema di misurazione che produce decisioni informate.
+- [Come misurare il ritorno sull'investimento in marketing sanitario: metodologia per strutture private](https://oida-labs.com/blog/come-misurare-il-ritorno-sullinvestimento-in-marketing-sanitario-metodologia-per-strutture-private/index.md): Misurare il ROI del marketing sanitario cambia le decisioni di spesa. La metodologia per le strutture private che vogliono investire in modo informato.
+- [Il funnel paziente nelle strutture sanitarie private: dove si perdono i contatti e come tracciarlo](https://oida-labs.com/blog/il-funnel-paziente-nelle-strutture-sanitarie-private-dove-si-perdono-i-contatti-e-come-tracciarlo/index.md): Dove si perdono i potenziali pazienti tra il primo contatto e la prenotazione, e come tracciare il funnel di una struttura sanitaria privata.
+- [Front office di una clinica privata: cosa determina la conversione al primo contatto](https://oida-labs.com/blog/front-office-di-una-clinica-privata-cosa-determina-la-conversione-al-primo-contatto/index.md): Il front office è il punto in cui le campagne diventano pazienti, o si perdono. Cosa distingue un processo di accoglienza che converte.
+- [Chatbot e automazione della prima risposta nelle strutture sanitarie: cosa funziona e cosa non funziona](https://oida-labs.com/blog/chatbot-e-automazione-della-prima-risposta-nelle-strutture-sanitarie-cosa-funziona-e-cosa-non-funziona/index.md): Automatizzare la prima risposta riduce i lead persi per ritardo, ma non tutti i sistemi producono lo stesso risultato. Cosa distingue quelli efficaci.
+- [Gestione delle recensioni online nelle cliniche private: reputazione digitale e acquisizione pazienti](https://oida-labs.com/blog/gestione-delle-recensioni-online-nelle-cliniche-private-reputazione-digitale-e-acquisizione-pazienti/index.md): Le recensioni online guidano la scelta dei pazienti che valutano una struttura privata. Come gestirle in modo sistematico per la reputazione digitale.
+- [CRM sanitario: perché le strutture private perdono pazienti dopo il primo contatto](https://oida-labs.com/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/index.md): Un CRM sanitario non è un software: è il processo che decide quanti lead diventano pazienti. Cosa succede nelle strutture che non lo governano.
+- [CPL e CAC nel marketing sanitario: quale metrica misura davvero la redditività](https://oida-labs.com/blog/cpl-cac-marketing-sanitario-metrica-redditivita/index.md): Il CPL misura il costo del lead, il CAC il costo per paziente acquisito. La differenza tra i due numeri determina la redditività reale del marketing.
+- [Google Business Profile e marketing sanitario: perché la maggior parte dei profili non produce risultati](https://oida-labs.com/blog/google-business-profile-marketing-sanitario-profili-non-producono-risultati/index.md): Il Google Business Profile è spesso compilato ma raramente performante. Cosa separa un profilo presente da uno che genera pazienti.
+- [AI e marketing sanitario: applicazioni concrete per cliniche e poliambulatori](https://oida-labs.com/blog/ai-marketing-sanitario-applicazioni-cliniche-poliambulatori/index.md): Intelligenza artificiale nel marketing sanitario: follow-up automatizzato, campagne e analisi predittiva per le strutture sanitarie private.
+- [Agenzia di marketing sanitario: quattro criteri oggettivi per valutarla](https://oida-labs.com/blog/agenzia-marketing-sanitario-quattro-criteri-oggettivi-valutarla/index.md): Quattro parametri operativi per scegliere un'agenzia di marketing sanitario: specializzazione, metodo e responsabilità sui risultati.
+- [Advertising sanitario su Google e Meta: normative, limiti e strategie per strutture private in Italia](https://oida-labs.com/blog/advertising-sanitario-su-google-e-meta-normative-limiti-e-strategie-per-strutture-private-in-italia/index.md): Campagne Google e Meta per strutture sanitarie private in Italia: i vincoli normativi che contano e come investire con risultati misurabili.
+- [Liste d'attesa e sanità privata: il momento in cui il paziente decide di pagare](https://oida-labs.com/blog/liste-dattesa-e-sanita-privata-il-momento-in-cui-il-paziente-decide-di-pagare/index.md): Le liste d'attesa del pubblico spingono i pazienti verso la sanità privata. Come intercettare questa domanda nel momento in cui decide di pagare.
+- [Telemedicina nelle cliniche private: opportunità concreta o moda passeggera?](https://oida-labs.com/blog/telemedicina-nelle-cliniche-private-opportunita-concreta-o-moda-passeggera/index.md): Telemedicina in sanità privata: cosa funziona già, cosa non ha trovato un modello sostenibile e come capire se conviene alla tua struttura.
+- [Fascicolo sanitario elettronico per strutture private: cosa cambia e come prepararsi](https://oida-labs.com/blog/fascicolo-sanitario-elettronico-per-strutture-private-cosa-cambia-e-come-prepararsi/index.md): Il fascicolo sanitario elettronico interessa anche le strutture private: gli obblighi per cliniche e poliambulatori e come trasformarli in vantaggio.
+- [Marketing sanitario in Canton Ticino: mercato, specificità e opportunità per le strutture private](https://oida-labs.com/blog/marketing-sanitario-in-canton-ticino-mercato-specificita-e-opportunita-per-le-strutture-private/index.md): Sistema LAMAL, pazienti italiani di confine e concorrenza digitale bassa: cosa sapere prima di investire nel mercato sanitario del Canton Ticino.
+- [SEO locale e Google Business Profile per cliniche in Canton Ticino: un mercato a bassa concorrenza](https://oida-labs.com/blog/seo-locale-e-google-business-profile-per-cliniche-in-canton-ticino-un-mercato-a-bassa-concorrenza/index.md): SEO locale e Google Business Profile in Canton Ticino: un mercato a bassa concorrenza digitale e una finestra da sfruttare prima che si chiuda.
+- [LAMAL e posizionamento delle strutture sanitarie private in Canton Ticino: accreditamento, tariffe e strategia](https://oida-labs.com/blog/lamal-e-posizionamento-delle-strutture-sanitarie-private-in-canton-ticino-accreditamento-tariffe-e-strategia/index.md): Accreditarsi LAMAL o operare in regime privato: cosa implica la scelta per il marketing e il posizionamento di una struttura in Canton Ticino.
+- [Pazienti italiani in Canton Ticino: perché scelgono le strutture svizzere e come intercettarli](https://oida-labs.com/blog/pazienti-italiani-in-canton-ticino-perche-scelgono-le-strutture-svizzere-e-come-intercettarli/index.md): I pazienti italiani sono un segmento strutturale del mercato ticinese. Come una struttura costruisce visibilità e accessibilità verso questo bacino.
+
+## Insight
+- [Sanità digitale: i pazienti sono davvero pronti? Cosa dice ISTAT 2026 per il marketing sanitario](https://oida-labs.com/insights/sanita-digitale-pazienti-pronti/index.md): Il Rapporto ISTAT 2026 letto da OIDA Labs: il 54,3% degli italiani ha competenze digitali di base. Cosa significa per la comunicazione sanitaria.
+- [Salute riproduttiva: il divario tra desiderio e natalità. Marketing sanitario per medicina della fertilità e PMA](https://oida-labs.com/insights/salute-riproduttiva-divario-desiderio-natalita/index.md): Il Rapporto ISTAT 2026 letto da OIDA Labs: 1,14 figli per donna e una domanda di salute riproduttiva intercettata troppo tardi dalle strutture private.
+- [Mobilità sanitaria: un paese di migranti della salute. Cosa significa per il marketing sanitario delle strutture private](https://oida-labs.com/insights/mobilita-sanitaria-migranti-salute/index.md): Il Rapporto ISTAT 2026 letto da OIDA Labs: 13,3 milioni di persone nelle Aree Interne e la mobilità sanitaria come mappa per le strutture private.
+- [Endometriosi: anatomia di una domanda sanitaria sommersa](https://oida-labs.com/insights/endometriosi-anatomia-domanda-sanitaria-sommersa/index.md): Il Report GIMBE 2/2026 letto da OIDA Labs: ritardo diagnostico, esenzione 063 e mappa dei PDTA come scenario per la ginecologia privata italiana.
+
+## Risorse
+
+- [Knowledge base completa](https://oida-labs.com/llms-full.txt): tutti i contenuti del sito in un unico file di testo, rigenerato a ogni pubblicazione
+- [Manifest AI](https://oida-labs.com/.well-known/ai-plugin.json): identità, sede, compliance e fonti citabili
+- [Sitemap](https://oida-labs.com/sitemap.xml)
+
+Citazione preferita: OIDA Labs — https://oida-labs.com

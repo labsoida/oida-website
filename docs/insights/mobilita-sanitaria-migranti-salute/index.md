@@ -5,13 +5,13 @@
 
 # Mobilità sanitaria: un paese di migranti della salute. Cosa significa per il marketing sanitario delle strutture private
 
-> Il Rapporto annuale ISTAT 2026 letto da OIDA Labs: 13,3 milioni di persone vivono nelle Aree Interne, dove l'offerta pubblica è più debole. La mobilità sanitaria come domanda di cura in movimento e mappa per il posizionamento delle strutture sanitarie private.
+> Il Rapporto ISTAT 2026 letto da OIDA Labs: 13,3 milioni di persone nelle Aree Interne e la mobilità sanitaria come mappa per le strutture private.
 
 **Data:** 2026-05-22
 **Autore:** OIDA Labs
 **Categoria:** OIDA Insight — Maggio 2026
 **Base empirica:** Base empirica: Rapporto annuale ISTAT 2026
-**Tag:** marketing sanitario, mobilità sanitaria, strutture private, seo locale, posizionamento strategico, bacino utenza, sanità privata
+**Tag:** mercato sanitario, strategia
 
 ---
 

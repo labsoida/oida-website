@@ -5,11 +5,11 @@
 
 # LAMAL e posizionamento delle strutture sanitarie private in Canton Ticino: accreditamento, tariffe e strategia
 
-> La scelta di accreditarsi LAMAL o operare interamente in regime privato è una delle decisioni strategiche più rilevanti per una struttura sanitaria in Canton Ticino. Cosa implica per il marketing e per il posizionamento.
+> Accreditarsi LAMAL o operare in regime privato: cosa implica la scelta per il marketing e il posizionamento di una struttura in Canton Ticino.
 
 **Data:** 2026-03-24
 **Autore:** Oida Labs
-**Tag:** marketing sanitario, lamal strutture private, canton ticino, posizionamento strategico, tarmed
+**Tag:** canton ticino, strategia, normativa
 
 ---
 
@@ -109,19 +109,20 @@ Le strutture che gestiscono questo ibrido in modo efficace hanno investito in pr
 
 L'accreditamento LAMAL è una scelta di posizionamento, non solo un atto amministrativo. Definisce il bacino di pazienti, la libertà tariffaria e le leve di marketing disponibili. **Le strutture che gestiscono questa variabile in modo consapevole — accreditamento, regime privato, o strategia mista — costruiscono un posizionamento coerente con il proprio modello economico.** Quelle che la subiscono come dato di fatto perdono opportunità di differenziazione.
 
+
 ## FAQ
 
-### Una struttura privata ticinese può scegliere di non accreditarsi LAMAL senza conseguenze sul volume di pazienti?
+**Una struttura privata ticinese può scegliere di non accreditarsi LAMAL senza conseguenze sul volume di pazienti?**
 
-Dipende dalla specialità. In specialità ad alta frequenza e basso costo unitario (medicina generale, fisioterapia di mantenimento, diagnostica di routine), non essere accreditati **esclude una parte significativa del bacino**. In specialità con alta componente elettiva e alto valore unitario (chirurgia estetica, odontoiatria implantologica, diagnostica avanzata), il segmento privato può essere sufficiente a sostenere la struttura senza accreditamento.
+Dipende dalla specialità e dal posizionamento. In specialità ad alta frequenza e basso costo unitario (medicina generale, fisioterapia di mantenimento, diagnostica di routine), non essere accreditati esclude una parte significativa del bacino di pazienti locali che usano la LAMAL. In specialità con alta componente elettiva e alto valore unitario (chirurgia estetica, odontoiatria ad alta complessità, diagnostica avanzata), il segmento privato può essere sufficiente a sostenere la struttura senza accreditamento.
 
-### Il Taxpunktwert Tarmed in Canton Ticino è aggiornato rispetto ai costi effettivi delle strutture?
+**Il Taxpunktwert Tarmed in Canton Ticino è aggiornato rispetto ai costi effettivi delle strutture?**
 
-Il Taxpunktwert cantonale viene negoziato periodicamente tra santésuisse e la Società di Medicina del Canton Ticino. Le strutture che vogliono valutare la sostenibilità economica dell'accreditamento devono **confrontare il valore punto corrente con i propri costi effettivi per prestazione**, un'analisi che richiede dati di controlling interno precisi.
+Il Taxpunktwert cantonale viene negoziato periodicamente tra santésuisse (associazione degli assicuratori) e la Società di Medicina del Canton Ticino. L'evoluzione del valore punto in Ticino segue le negoziazioni federali con alcune specificità cantonali. Le strutture che vogliono valutare la sostenibilità economica dell'accreditamento LAMAL devono confrontare il valore punto corrente con i propri costi effettivi per prestazione, un'analisi che richiede dati di controlling interno precisi.
 
-### Come si comunica ai potenziali pazienti la differenza tra accesso LAMAL e accesso privato senza creare confusione?
+**Come si comunica ai potenziali pazienti la differenza tra accesso LAMAL e accesso privato senza creare confusione?**
 
-La prassi più efficace è quella di **comunicare sistematicamente il regime di accesso nel primo contatto** con il paziente, specificando cosa è coperto dalla LAMAL e cosa è a tariffa privata, prima ancora che il paziente prenda l'appuntamento. Strutture che delegano questa comunicazione al momento della fatturazione si espongono a contestazioni che danneggiano la reputazione molto più di qualsiasi incomprensione preventivamente chiarita.
+La chiarezza nella comunicazione pre-visita è fondamentale. La prassi più efficace è quella di comunicare sistematicamente il regime di accesso nel primo contatto con il paziente, specificando cosa è coperto dalla LAMAL del paziente e cosa è a tariffa privata, prima ancora che il paziente prenda l'appuntamento. Strutture che delegano questa comunicazione al momento della fatturazione si espongono a contestazioni che danneggiano la reputazione molto più di qualsiasi incomprensione preventivamente chiarita.
 
 
 ---
