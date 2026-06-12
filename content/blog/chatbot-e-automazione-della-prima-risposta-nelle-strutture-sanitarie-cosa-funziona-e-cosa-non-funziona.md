@@ -116,17 +116,3 @@ Se queste metriche non migliorano dopo l'implementazione, il sistema è configur
 ## Sintesi
 
 I chatbot e i sistemi di automazione funzionano in sanità quando completano un processo umano, non quando lo sostituiscono. Le strutture che ottengono valore reale dall'automazione hanno un CRM strutturato, un'integrazione tra sistemi e procedure di transizione chiare tra automazione e contatto umano.
-
-## FAQ
-
-### Un paziente che interagisce con un chatbot deve essere informato che non sta parlando con un essere umano?
-
-Sì, per ragioni sia etiche che normative. Le linee guida del GDPR e le norme sull'intelligenza artificiale in Europa richiedono **trasparenza nelle interazioni automatizzate**. In pratica, è anche una scelta di posizionamento: i sistemi che si fingono umani e vengono scoperti generano sfiducia.
-
-### Qual è il costo di implementazione realistico di un sistema di automazione per una struttura di medie dimensioni?
-
-La variabilità è ampia. Le strutture che partono da sistemi di prenotazione già digitali hanno costi inferiori rispetto a quelle che devono digitalizzare prima i processi di base. **Il punto da valutare non è il costo assoluto ma il costo rapportato al valore dei lead che attualmente vengono persi** per ritardo nella risposta.
-
-### La normativa sulla privacy in sanità limita l'uso dei chatbot per la raccolta di informazioni sui pazienti?
-
-I chatbot che raccolgono informazioni legate alla salute sono soggetti al **GDPR in materia di trattamento di dati sanitari**, classificati come dati particolari che richiedono base giuridica specifica e misure di sicurezza rafforzate. La configurazione del chatbot deve essere verificata da un DPO o da un consulente privacy specializzato nel settore sanitario prima dell'implementazione.

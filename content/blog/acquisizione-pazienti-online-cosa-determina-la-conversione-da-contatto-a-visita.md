@@ -93,17 +93,3 @@ Un sistema di acquisizione pazienti sostenibile nel lungo termine si costruisce 
 ## Sintesi
 
 L'acquisizione di pazienti online non si esaurisce con la generazione di un lead. Il funnel completo, dal contatto alla visita erogata, richiede un processo interno che risponde velocemente, converte con efficacia e misura i risultati sul costo per paziente acquisito, non sul costo per click. **Le strutture che ottimizzano l'intero funnel ottengono un vantaggio che le campagne da sole non possono replicare.**
-
-## FAQ
-
-### Quanti lead serve generare per riempire un'agenda?
-
-Dipende dal tasso di conversione della struttura, che varia in base alla specialità, alla qualità del processo di gestione dei contatti e al mercato locale. **Conoscere il proprio tasso di conversione reale è il punto di partenza** per qualsiasi ragionamento sul budget da investire.
-
-### Il numero di no-show è un problema di marketing o di gestione interna?
-
-Di entrambi. Il marketing può contribuire riducendo il mismatch tra il paziente acquisito e il servizio offerto. La gestione del no-show — promemoria, conferme, politiche di cancellazione — è però un processo interno che il marketing non può sostituire.
-
-### Conviene raccogliere i dati dei pazienti per fare remarketing?
-
-Il remarketing verso utenti che hanno già visitato il sito è uno degli strumenti più efficaci per aumentare la conversione a basso costo. Richiede la corretta implementazione degli strumenti di tracciamento e la **conformità al GDPR** per il consenso alla raccolta dei dati.

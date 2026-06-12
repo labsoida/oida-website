@@ -108,17 +108,3 @@ Il quadro completo dell'ottimizzazione GBP per il marketing sanitario è approfo
 ## Sintesi
 
 Le recensioni online non si gestiscono quando diventano un problema: si costruiscono mentre tutto funziona bene. **Le strutture che hanno un volume consistente e un rating solido hanno investito in un processo sistematico di raccolta, in una formazione del personale orientata al feedback e in un presidio attivo delle risposte.** Il risultato è un profilo che produce fiducia prima ancora che il paziente abbia fatto il primo passo verso la struttura.
-
-## FAQ
-
-### È legittimo chiedere ai pazienti di lasciare una recensione?
-
-Chiedere ai pazienti di condividere la propria esperienza è legittimo e praticato. **La distinzione che conta è tra sollecitare feedback genuino e condizionarlo:** chiedere al paziente di lasciare una recensione è corretto, offrire incentivi in cambio di una recensione positiva viola le policy di Google e può portare alla rimozione delle recensioni e a penalizzazioni del profilo.
-
-### Come si risponde a una recensione che contiene informazioni cliniche errate o fuorvianti?
-
-Non si contraddicono pubblicamente le affermazioni cliniche di un paziente. Il rischio di violare la riservatezza medica e di peggiorare la percezione pubblica supera qualsiasi beneficio di correggere il record in modo esplicito. La risposta corretta **invita il paziente a contattare la struttura in privato** per chiarire eventuali incomprensioni.
-
-### Le recensioni su piattaforme diverse da Google hanno lo stesso peso?
-
-Doctolib, TrustPilot, iDoctors e piattaforme specializzate per specialità contribuiscono alla prominenza complessiva. Il peso maggiore per il posizionamento locale resta quello di **Google**. Una strategia efficace presidia Google come priorità e considera le altre piattaforme in funzione della specialità.

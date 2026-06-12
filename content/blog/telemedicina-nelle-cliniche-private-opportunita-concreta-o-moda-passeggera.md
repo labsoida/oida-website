@@ -95,17 +95,3 @@ La remunerazione delle prestazioni di telemedicina in ambito privato è a carico
 ## Sintesi
 
 La telemedicina nelle cliniche private non è moda né distrazione: è uno strumento con applicazioni concrete e limitazioni precise. **Le strutture che la usano in modo efficace l'hanno integrata come componente del percorso di cura per pazienti già noti, non come porta di ingresso universale per nuovi pazienti.** Il valore principale è nella fidelizzazione e nella continuità del percorso clinico, non nell'acquisizione di primo accesso.
-
-## FAQ
-
-### Un teleconsulto può sostituire la ricetta medica in presenza?
-
-In Italia, la prescrizione farmaceutica può essere rilasciata in formato digitale dal medico durante un teleconsulto, a condizione che la visita sia condotta su una piattaforma conforme alle indicazioni ministeriali. Le prescrizioni di farmaci di fascia A in telemedicina richiedono un percorso prescrittivo che varia per specialità. **La verifica della normativa aggiornata per la specialità specifica è necessaria** prima di attivare il servizio.
-
-### Come si stabilisce il prezzo di un teleconsulto rispetto a una visita in presenza?
-
-Le strutture applicano in genere un prezzo inferiore per il teleconsulto rispetto alla visita in presenza, con **riduzioni tra il 15% e il 30%**. Il ragionamento è che il teleconsulto ha costi di struttura inferiori e che il paziente percepisce comunque un servizio meno "pieno" rispetto alla visita fisica. La scelta del differenziale dipende dalla specialità.
-
-### Come si integra la telemedicina con il sistema di prenotazione della struttura?
-
-L'integrazione con il sistema di prenotazione è uno dei punti operativi più frequentemente sottovalutati. Se il teleconsulto viene gestito su una piattaforma separata dal gestionale, si crea **doppio lavoro amministrativo e rischio di sovrapposizioni**. Le soluzioni più adottate sono piattaforme di telemedicina con API di integrazione con i principali gestionali sanitari, oppure gestionali sanitari che includono moduli di telemedicina integrati.

@@ -53,8 +53,3 @@ Quando lavoriamo sulla tua visibilità non dobbiamo prima farci spiegare il tuo 
 L'obiettivo è semplice: quando qualcuno cerca una prestazione che offri, ti trova. Su Google, e sempre più spesso nelle risposte di assistenti come ChatGPT e Perplexity, che molte persone usano ormai al posto del motore di ricerca. È la parte che chiamiamo GEO.
 
 La parte tecnica ce ne occupiamo noi: non è qualcosa di cui ti devi preoccupare. Se vuoi capire come lavoriamo te lo spieghiamo e ti guidiamo passo passo, altrimenti pensiamo a tutto noi e tu vedi i risultati. Chi se ne occupa conosce i vincoli della comunicazione sanitaria e degli ordini professionali. Non promettiamo la prima posizione in due settimane: preferiamo darti tempi realistici e risultati che si misurano. Partiamo dalla tua struttura e da quello che le persone cercano davvero. Quando ha senso, combinati con l'[advertising sanitario](/servizi/advertising-sanitario/) si raggiungono risultati più rapidi sulle ricerche più contese, e abbiamo visto nel nostro lavoro su [Google Business Profile per le strutture sanitarie](/blog/google-business-profile-marketing-sanitario-profili-non-producono-risultati/) quanto la visibilità locale possa essere governata.
-
-<!-- SLOT PROVA / CASE STUDY — placeholder L2, in attesa di ok dati da Stefano.
-     Quando approvato, box con caso anonimizzato, es:
-     "Una clinica nostra cliente: da 0 a oltre 50.000 visite al mese in [N] mesi.
-      I risultati dipendono da contesto, budget e continuità." -->

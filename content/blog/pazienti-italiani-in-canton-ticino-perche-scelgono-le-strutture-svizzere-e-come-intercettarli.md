@@ -106,17 +106,3 @@ La strategia di posizionamento della struttura rispetto all'accreditamento LAMAL
 ## Sintesi
 
 Il bacino di pazienti italiani in Canton Ticino è una componente strutturale del mercato sanitario ticinese, distribuita su tre categorie con dinamiche molto diverse. **Le strutture che intercettano efficacemente questo segmento hanno costruito visibilità digitale in italiano, processi di gestione del contatto in italiano, comunicazione trasparente sui costi e sull'accesso, e velocità di risposta calibrata sulle aspettative di chi attraversa un confine.** Le strutture che lasciano questo lavoro alla casualità acquisiscono pazienti italiani solo per passaparola, perdendo la quota più ampia del bacino.
-
-## FAQ
-
-### La comunicazione in italiano su sito e GBP è sufficiente per attrarre pazienti italiani, o servono campagne geolocalizzate?
-
-Dipende dalla specialità e dal volume di ricerche organiche disponibile. In specialità con alta domanda organica, il posizionamento organico ben costruito produce un flusso costante senza bisogno di campagne a pagamento. **In specialità di nicchia con alta domanda latente, campagne Google geolocalizzate nelle province di confine italiane possono essere più efficaci** nel breve termine.
-
-### Come si gestisce la qualificazione del lead italiano di confine?
-
-Il lead italiano di confine ha in media un **processo decisionale più lungo e un tasso di no-show più alto** rispetto al paziente locale, specialmente per le categorie che devono organizzare la logistica del confine. La struttura che vuole ridurre il no-show investe in un processo di conferma più strutturato (promemoria aggiuntivi, conferma esplicita delle informazioni logistiche).
-
-### Ci sono specialità in cui il bacino italiano vale un investimento specifico di marketing distinto?
-
-Sì. In specialità dove la distanza non è un ostacolo percepito e dove la struttura ha un vantaggio documentabile in tempi, specializzazione o tecnologia, costruire **una presenza digitale specifica per il bacino italiano** — con contenuti dedicati, landing page geolocalizzate e campagne separate — produce un ritorno misurabile.

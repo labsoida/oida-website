@@ -15,7 +15,7 @@ faqs:
   - q: "Conviene per una struttura sanitaria ticinese avere un sito separato per i pazienti italiani?"
     a: "Non necessariamente. Una sezione dedicata sul sito principale, ottimizzata per keyword italiane e con contenuti che rispondono alle domande specifiche del paziente italiano, è spesso sufficiente e più efficiente da gestire rispetto a un sito separato. La scelta di un sito separato ha senso solo se il posizionamento verso il mercato italiano è una priorità strategica significativa."
   - q: "Il GDPR si applica alle strutture sanitarie in Canton Ticino?"
-    a: "No. Le strutture svizzere sono soggette alla Legge federale sulla protezione dei dati (LPD), aggiornata nel 2023 per allinearsi parzialmente con il GDPR europeo. Per le strutture svizzere che raccolgono dati di cittadini europei (per esempio, pazienti italiani), si applica anche il GDPR in virtù del principio di extraterritorialità. In pratica, le strutture ticinesi che lavorano con pazienti italiani devono rispettare entrambi i framework."
+    a: "Le strutture svizzere sono soggette in primo luogo alla Legge federale sulla protezione dei dati (LPD), aggiornata nel 2023 per allinearsi parzialmente con il GDPR europeo. Per le strutture svizzere che raccolgono dati di cittadini europei (per esempio, pazienti italiani), si applica anche il GDPR in virtù del principio di extraterritorialità. In pratica, le strutture ticinesi che lavorano con pazienti italiani devono rispettare entrambi i framework."
 draft: false
 ---
 
@@ -95,17 +95,3 @@ Tre priorità che producono risultati nel contesto ticinese, in ordine di effici
 ## Sintesi
 
 Il Canton Ticino è un mercato sanitario con specificità proprie che richiedono una strategia di marketing calibrata: sistema LAMAL invece di SSN, paziente svizzero con mentalità di scelta attiva del fornitore, bacino di pazienti italiani con dinamiche diverse per categoria, e competizione digitale bassa che crea un'opportunità di posizionamento ancora disponibile per chi entra con metodo. **Le strutture che costruiscono ora una presenza digitale in italiano per il mercato ticinese si trovano in una posizione competitiva vantaggiosa** rispetto a chi aspetta che il mercato si saturi.
-
-## FAQ
-
-### Una struttura sanitaria italiana può fare pubblicità in Canton Ticino su Google?
-
-Sì. Le campagne Google Ads si possono geolocalizzare per cantone, per città o per raggio da un punto specifico. Una struttura italiana a Como o Varese può impostare campagne che raggiungono gli utenti in Canton Ticino con contenuti in italiano. **La sfida principale è la coerenza tra il messaggio pubblicitario e la realtà della struttura**: una campagna che attrae pazienti svizzeri deve poi essere supportata da un processo di risposta ai contatti e da una comunicazione che gestisce le specificità del paziente transfrontaliero.
-
-### Conviene per una struttura sanitaria ticinese avere un sito separato per i pazienti italiani?
-
-Non necessariamente. Una **sezione dedicata sul sito principale**, ottimizzata per keyword italiane e con contenuti che rispondono alle domande specifiche del paziente italiano (costi, rimborsi, come prenotare dall'Italia), è spesso sufficiente e più efficiente da gestire rispetto a un sito separato.
-
-### Il GDPR si applica alle strutture sanitarie in Canton Ticino?
-
-Le strutture svizzere sono soggette alla **Legge federale sulla protezione dei dati (LPD)**, aggiornata nel 2023 per allinearsi parzialmente con il GDPR europeo. Per le strutture svizzere che raccolgono dati di cittadini europei (per esempio, pazienti italiani), si applica anche il GDPR in virtù del principio di extraterritorialità. In pratica, le strutture ticinesi che lavorano con pazienti italiani devono rispettare entrambi i framework.

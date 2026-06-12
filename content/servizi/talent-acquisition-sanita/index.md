@@ -46,6 +46,3 @@ Sappiamo perché un medico o un infermiere sceglie una struttura e perché la la
 ## Cosa cambia per la tua struttura
 
 Non selezioniamo né forniamo professionisti: quella resta una tua scelta. Noi facciamo in modo che i profili giusti sappiano che esisti e abbiano voglia di candidarsi da te. Costruiamo l'[immagine della tua struttura](/servizi/ufficio-stampa-sanita/) come luogo di lavoro, organizziamo le [campagne per farti conoscere](/servizi/advertising-sanitario/) dai professionisti che cerchi e rendiamo più semplice il percorso con cui poi sei tu a sceglierli.
-
-<!-- SLOT PROVA / CASE STUDY — placeholder L2, in attesa di ok dati da Stefano.
-     Spunto dal deck: struttura multisede ad elevato turnover. Inserire metrica solo se verificata e approvata. -->

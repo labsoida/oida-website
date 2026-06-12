@@ -46,6 +46,3 @@ Sappiamo com'è fatta davvero la giornata di una struttura, quindi riconosciamo 
 ## Cosa cambia per la tua struttura
 
 Integriamo nei tuoi processi gli strumenti di AI che hanno senso: dalla [gestione automatica delle richieste](/servizi/crm-automation-sanita/) alla preparazione dei follow-up, fino alla lettura dei [dati che già produci](/servizi/seo-geo-sanita/). E quando lo strumento giusto non esiste, lo sviluppiamo noi su misura: abbiamo costruito assistenti conversazionali e applicazioni dedicate per il settore. Tu mantieni il controllo, l'AI si prende il lavoro ripetitivo.
-
-<!-- SLOT PROVA / CASE STUDY — placeholder L2, in attesa di ok dati da Stefano.
-     Capacità di sviluppo custom dimostrabile, ma SENZA nominare prodotti specifici. -->

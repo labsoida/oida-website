@@ -116,17 +116,3 @@ Le specialità con **alta ricorrenza** (fisioterapia, odontoiatria, psicologia) 
 ## Sintesi
 
 Misurare il marketing sanitario attraverso le sole metriche di piattaforma significa ottimizzare una parte del funnel lasciando le altre al caso. **Le strutture che costruiscono un sistema di misurazione che integra dati di campagna, dati di front desk e dati di erogazione delle prestazioni ottengono informazioni che permettono decisioni reali:** dove investire di più, dove ottimizzare il processo, quale canale ha un CAC sostenibile nel proprio contesto di specialità.
-
-## FAQ
-
-### Con quale frequenza dovrebbe essere prodotto un report di marketing per una struttura sanitaria?
-
-La frequenza dipende dalla complessità e dal budget investito. Per strutture con investimento pubblicitario mensile sopra i €2.000, **un report mensile è il minimo**. Review trimestrale per valutare andamento e aggiustamenti strategici. Review annuale per la pianificazione del budget. Per campagne in fase di ottimizzazione attiva, review settimanale dei dati di piattaforma con segnalazione delle anomalie.
-
-### Come si raccolgono i dati necessari per calcolare il CAC se la struttura non ha un CRM?
-
-Senza un CRM, la raccolta è manuale ma possibile: un foglio di tracciamento dei contatti in entrata con data, canale di provenienza e esito (appuntamento fissato, no-show, visita erogata) permette di ricostruire il funnel anche in modo semplice. Non è ottimale ma è infinitamente meglio di non avere dati. Il CRM è lo strumento che rende questa raccolta automatica, accurata e scalabile.
-
-### Cosa fare se il CAC calcolato supera la marginalità della singola visita?
-
-Un CAC superiore al margine della prima visita non è necessariamente un problema se l'LTV del paziente nel tempo è significativamente superiore al CAC. In specialità ricorrenti, è normale e accettabile acquisire un paziente a un costo superiore alla prima visita se si prevede di trattenerlo per più anni. **Il problema si presenta quando il CAC supera anche l'LTV**: situazione che segnala un costo di acquisizione troppo alto, un tasso di ritorno troppo basso, o entrambi.

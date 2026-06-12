@@ -89,17 +89,3 @@ Il terzo passaggio è la **revisione mensile**. I numeri vanno letti insieme all
 ## Sintesi
 
 Il CPL indica l'efficienza della campagna pubblicitaria; il CAC indica la redditività dell'investimento nel suo insieme. **Misurare solo il primo fornisce una visione parziale del funnel sanitario. Misurare il secondo richiede tracciamento disciplinato e collaborazione tra agenzia e struttura.** La capacità di lavorare in questo modo è uno dei [criteri che distinguono un'agenzia di marketing sanitario attrezzata da una generalista](/blog/agenzia-marketing-sanitario-quattro-criteri-oggettivi-valutarla/).
-
-## FAQ
-
-### Qual è un CAC di riferimento nel marketing sanitario?
-
-Il CAC sostenibile nel marketing sanitario va tipicamente **da €30–80 per specialità a basso ticket** (fisioterapia, dermatologia di base) **a oltre €300–400 per specialità a ticket elevato** (chirurgia estetica, odontoiatria implantologica, bariatrica). Il benchmark varia per specialità e per ticket medio del servizio: nelle specialità ad alto valore unitario, un CAC superiore resta sostenibile purché il *lifetime value* del paziente giustifichi l'investimento.
-
-### Ogni quanto tempo va ricalcolato il CAC?
-
-Su base mensile per l'operatività, su base trimestrale per le decisioni strategiche. Finestre più brevi risentono della volatilità settimanale; finestre più lunghe fanno perdere reattività sulle correzioni.
-
-### Chi deve avere visibilità sul CAC in una struttura sanitaria?
-
-Almeno tre figure: il referente marketing (interno o esterno), il responsabile dell'agenda e del front-office, la direzione. La metrica attraversa competenze diverse ed è efficace solo se letta in modo coordinato.

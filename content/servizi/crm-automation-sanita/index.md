@@ -46,6 +46,3 @@ Sappiamo come si muove davvero una richiesta dentro una struttura, da chi la ric
 ## Cosa cambia per la tua struttura
 
 Ti aiutiamo a scegliere il CRM più adatto a te, ti proponiamo alternative e lo configuriamo sul tuo modo di lavorare. Non vendiamo un nostro software: scegliamo con te lo strumento giusto e lo rendiamo utile. Poi automatizziamo i passaggi ripetitivi, dai promemoria ai follow-up, così [ogni richiesta viene seguita](/servizi/advertising-sanitario/) e nessuna si perde per strada. Quando ha senso, sui [passaggi ripetitivi](/servizi/intelligenza-artificiale-sanita/) inseriamo strumenti di AI che fanno risparmiare tempo senza aggiungere complessità.
-
-<!-- SLOT PROVA / CASE STUDY — placeholder L2, in attesa di ok dati da Stefano.
-     Spunto dal deck: rete poliambulatoriale, oltre 32.000 lead gestiti. Pubblicare solo dopo ok. -->

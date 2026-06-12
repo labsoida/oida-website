@@ -81,17 +81,3 @@ La distanza tra un profilo autogestito e un profilo seguito professionalmente si
 ## Sintesi
 
 Il Google Business Profile è uno strumento tanto accessibile nella configurazione quanto selettivo nei risultati. Nel **marketing sanitario** la differenza tra un profilo presente e un profilo performante si misura nei mesi successivi all'attivazione, dove emerge la qualità della cura analitica che lo sostiene.
-
-## FAQ
-
-### Il Google Business Profile sostituisce il sito web della struttura?
-
-No, le due risorse hanno funzioni complementari e lavorano in modo integrato sul posizionamento della struttura. Il profilo intercetta la ricerca locale immediata e costruisce fiducia attraverso le recensioni; il sito web approfondisce i servizi, raccoglie i lead tramite form dedicati e supporta il posizionamento su query più specifiche. La qualità di uno dei due influenza direttamente le performance dell'altro.
-
-### Quante recensioni servono per essere competitivi nella ricerca locale?
-
-**Più del volume conta la composizione qualitativa delle recensioni.** Una struttura con quaranta recensioni generiche può essere meno competitiva di una con venti recensioni che citano specialità, procedure, nomi di medici. La composizione qualitativa incide sul posizionamento più della soglia quantitativa, e dipende da come vengono richieste. Il volume resta una delle variabili, ma non la più rilevante.
-
-### Quanto tempo serve prima di vedere risultati da un Google Business Profile ottimizzato?
-
-I primi segnali — aumento delle visualizzazioni del profilo, incremento delle ricerche dirette, prime richieste di indicazioni stradali — sono tipicamente visibili tra la **sesta e la dodicesima settimana**. I risultati strutturali sul posizionamento nella *map pack* locale e sull'acquisizione di pazienti richiedono un orizzonte tra il terzo e il sesto mese, con una forte dipendenza dalla competitività della zona e dalla specialità erogata.

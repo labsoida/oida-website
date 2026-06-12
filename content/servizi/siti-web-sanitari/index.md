@@ -49,7 +49,3 @@ Sappiamo cosa una persona cerca prima di affidarti la sua salute: chiarezza su c
 ## Cosa cambia per la tua struttura
 
 Un sito chiaro e veloce, che funziona dal telefono come dal computer, dove [chi arriva trova subito quello che cerca](/servizi/seo-geo-sanita/) e capisce come prenotare. Lo costruiamo noi, dall'inizio o partendo da quello che hai già, e lo colleghiamo agli strumenti che usi, come l'[agenda o il sistema di prenotazione](/servizi/crm-automation-sanita/). Tu segui le cure, al resto pensiamo noi.
-
-<!-- SLOT PROVA / CASE STUDY — placeholder L2, in attesa di ok dati da Stefano.
-     Es. anonimizzato: "Una struttura nostra cliente: nuovo sito e da lì
-     [N] richieste di appuntamento al mese. I risultati dipendono da contesto e continuità." -->

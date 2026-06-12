@@ -101,17 +101,3 @@ Quattro metriche che danno una fotografia realistica della performance.
 ## Sintesi
 
 Il front office è il punto di giunzione tra il marketing e la clinica: dove le campagne si trasformano in pazienti, o non si trasformano. **Una struttura che ottimizza le campagne senza presidiare il processo di risposta ai contatti ottimizza metà del funnel.** L'investimento in procedure chiare, formazione del personale e integrazione con il CRM non è un costo operativo: è la condizione necessaria perché l'investimento in marketing produca il ritorno atteso.
-
-## FAQ
-
-### Quante ore al giorno dovrebbe essere presidiato il front office di una clinica privata?
-
-Dipende dalla specialità e dalla composizione del target. Per strutture generaliste con pazienti che lavorano, i picchi di contatto si concentrano in fasce orarie precise: prima mattina (7-9), pausa pranzo (12-14) e tarda mattinata. Un front office non presidiato in queste fasce perde contatti. **La risposta è pianificare la copertura in modo coerente con i picchi di contatto specifici della struttura**, non semplicemente allargare l'orario.
-
-### Come si gestisce la risposta ai contatti WhatsApp in una clinica privata?
-
-WhatsApp è diventato un canale di primo contatto frequente. Il problema è che WhatsApp personale del personale non è tracciabile, non è trasferibile in caso di malattia o ferie, e non si integra con il CRM. Le soluzioni più adottate sono **WhatsApp Business API integrata con il CRM**, oppure procedure esplicite che definiscono chi è responsabile di rispondere, entro quanto tempo e con quale tipo di messaggio.
-
-### Il turnover del personale di front office è un problema di marketing?
-
-Indirettamente sì. Ogni cambio di personale di front office implica un periodo di apprendimento in cui la qualità del processo cala. Strutture con alta rotazione del personale perdono le competenze individuali accumulate e, con esse, la continuità della relazione con i pazienti in fase di valutazione.

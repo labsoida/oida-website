@@ -46,7 +46,3 @@ Leggiamo la tua struttura dall'interno: la domanda sul tuo territorio, i tuoi pu
 ## Cosa cambia per la tua struttura
 
 Ti diciamo cosa fare, in che ordine e con quali priorità. Analizziamo il tuo contesto, la concorrenza sul territorio e la tua reputazione attuale, e ne ricaviamo un piano operativo con priorità chiare e ritorno atteso. Esci con una direzione, non con una lista di buoni propositi. E quello che pianifichiamo, se vuoi, possiamo anche realizzarlo passo dopo passo: dal lavoro su [SEO e visibilità organica](/servizi/seo-geo-sanita/) alle [campagne pubblicitarie](/servizi/advertising-sanitario/), fino alla costruzione di [reputazione e posizionamento istituzionale](/servizi/ufficio-stampa-sanita/).
-
-<!-- SLOT PROVA / CASE STUDY — placeholder L2, in attesa di ok dati da Stefano.
-     Spunto dal deck (Growth Plan): piano per rete multi-sede, roadmap in 5 fasi,
-     +49,5% visite al primo centro pilota. Pubblicare solo dopo ok. -->

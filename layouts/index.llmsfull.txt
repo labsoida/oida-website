@@ -19,7 +19,7 @@
 
 - GDPR (UE Reg. 2016/679)
 - LPD (Svizzera, dal 1° settembre 2023)
-- D.Lgs. 38/1992 (Italia, pubblicità sanitaria)
+- Legge 175/1992 (Italia, pubblicità sanitaria)
 - Norme FMH (Svizzera, deontologia medica)
 - Google Consent Mode v2 implementato sul sito
 

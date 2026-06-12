@@ -103,17 +103,3 @@ Un'analisi comparativa su strutture ticinesi che hanno avviato un percorso di ot
 ## Sintesi
 
 Il Canton Ticino è oggi un'occasione di posizionamento SEO che il mercato italiano comparabile non offre più. **Le strutture che entrano ora con un metodo (GBP curato + sito tecnico solido + contenuti editoriali in italiano) acquisiscono una rendita di posizionamento che sarà costosa da replicare nei prossimi anni.**
-
-## FAQ
-
-### Un sito bilingue italiano-tedesco è necessario per una struttura ticinese, o è sufficiente il solo italiano?
-
-Per strutture che operano esclusivamente nel Canton Ticino e si rivolgono a pazienti italofoni locali o italiani transfrontalieri, **il solo italiano è sufficiente**. Se la struttura intende attrarre pazienti dalla Svizzera tedesca, un'estensione in tedesco del sito ha senso strategico, ma richiede ottimizzazione specifica per il tedesco svizzero.
-
-### Come incide la presenza su Doctolib sulle performance SEO di una struttura ticinese?
-
-Doctolib ha una presenza crescente in Svizzera ma non ancora dominante nel Canton Ticino come in Francia o in alcune città italiane. La presenza su Doctolib contribuisce alla visibilità complessiva e genera backlink da un dominio ad alta autorità. **Non sostituisce il posizionamento diretto del sito della struttura.**
-
-### I pazienti italiani che cercano strutture ticinesi usano Google italiano o Google svizzero?
-
-Un paziente italiano che fa una ricerca dal proprio dispositivo in Italia usa **Google.it** e riceve risultati calibrati sulla geolocalizzazione italiana. Chi cerca già dentro il Canton Ticino usa **Google.ch**, che produce risultati con geolocalizzazione svizzera. Una struttura ticinese può catturare entrambi i segmenti con una strategia di contenuto che copre sia le keyword con riferimento "Canton Ticino" sia quelle con riferimento alle città specifiche.

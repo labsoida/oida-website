@@ -111,17 +111,3 @@ Le strutture che misurano sistematicamente queste metriche e le revisionano mens
 ## Sintesi
 
 Il ROI del marketing sanitario è misurabile se la struttura si impegna a costruire e mantenere un sistema che integra dati di campagna, dati di front desk e dati di erogazione. **Le strutture che lo fanno acquisiscono pazienti in modo informato e sostenibile.** Quelle che non lo fanno spendono in marketing senza poter rispondere alla domanda fondamentale: vale la pena?
-
-## FAQ
-
-### Qual è un CAC accettabile per una struttura sanitaria privata in Italia?
-
-Il CAC accettabile varia enormemente in funzione della specialità, della tipologia di prestazione e del LTV medio del paziente. Come punto di orientamento generale: un **CAC inferiore al 20-25% del valore medio della prima prestazione** è considerato efficiente; un CAC che supera il valore della prima prestazione è giustificabile solo se il LTV atteso è significativamente superiore al costo di acquisizione. Strutture con specialità ad alta fidelizzazione possono giustificare CAC superiori rispetto a strutture di diagnostica a bassa frequenza di ritorno.
-
-### Come si include il passaparola nel calcolo del ROI del marketing?
-
-Il passaparola è il canale più difficile da tracciare e uno dei più rilevanti in sanità. Un modo operativo è **separare i nuovi pazienti acquisiti per referral** (segnalati da un altro paziente o da un medico di base) da quelli acquisiti attraverso canali attivi, e calcolare per il referral un costo di acquisizione pari a zero. In questo modo si può calcolare la quota di nuovi pazienti che la struttura genera senza investimento pubblicitario diretto.
-
-### Con quale frequenza va rivisto il modello di misurazione del ROI?
-
-Un aggiornamento **mensile** delle metriche di base (CPL, CAC per canale, tasso di conversione per fase del funnel) è la frequenza minima per prendere decisioni informate. Una revisione **trimestrale** del modello completo permette di identificare trend che non sono visibili nel breve termine. Una revisione **annuale** del metodo stesso, per verificare che le variabili tracciate siano ancora le più rilevanti, completa il ciclo.

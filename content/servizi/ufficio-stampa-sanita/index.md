@@ -46,8 +46,3 @@ Conosciamo le testate della sanità e sappiamo a quali interessa cosa, quali arg
 ## Cosa cambia per la tua struttura
 
 Il nome della tua struttura, e la voce del suo management, iniziano a comparire dove conta: sulle testate di settore, sulla stampa generalista e nelle interviste. Costruiamo le relazioni con giornalisti e redazioni, scriviamo i contenuti e prepariamo le persone che vanno in intervista. La tua struttura diventa un [riferimento riconosciuto](/servizi/seo-geo-sanita/), non solo un nome sul territorio. Quando la reputazione cresce, il [posizionamento strategico](/servizi/consulenza-strategica-sanitaria/) della struttura si rafforza in modo coerente.
-
-<!-- SLOT PROVA / CASE STUDY — placeholder L2, in attesa di ok dati da Stefano.
-     Prova più forte disponibile (dal deck, caso "gruppo sanitario in crescita"):
-     "150 uscite stampa in 11 mesi, 43,9M di reach, 51 uscite su testate Tier 1."
-     Pubblicare solo dopo ok di Stefano. -->

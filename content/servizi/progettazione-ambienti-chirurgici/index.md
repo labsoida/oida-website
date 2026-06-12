@@ -46,6 +46,3 @@ Abbiamo lavorato in sala operatoria e conosciamo gli ambienti chirurgici da dent
 ## Cosa cambia per il tuo progetto
 
 Ti affianchiamo lungo tutto il percorso: studio di fattibilità, verifica della compliance normativa, selezione di strumentari ed elettromedicali, coordinamento dei lavori e avvio del nuovo servizio. Non parti da solo: hai accanto chi conosce sia il lato clinico sia quello normativo.
-
-<!-- SLOT PROVA / CASE STUDY — placeholder L2, in attesa di ok dati da Stefano.
-     Spunto dal deck: affiancamento di partner in fase di espansione su sale operatorie. -->
