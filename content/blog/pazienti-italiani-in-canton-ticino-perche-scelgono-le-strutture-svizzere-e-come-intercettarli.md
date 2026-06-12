@@ -1,12 +1,13 @@
 ---
 title: "Pazienti italiani in Canton Ticino: perché scelgono le strutture svizzere e come intercettarli"
-description: "I pazienti italiani rappresentano un segmento strutturale del mercato sanitario ticinese. Come una struttura costruisce visibilità e accessibilità verso questo bacino specifico."
+description: "I pazienti italiani sono un segmento strutturale del mercato ticinese. Come una struttura costruisce visibilità e accessibilità verso questo bacino."
 date: 2026-03-21
 author: "Oida Labs"
 image: "img/blog/pazienti-italiani-in-canton-ticino-perche-scelgono-le-strutture-svizzere-e-come-intercettarli.webp"
 og_image: "img/blog/pazienti-italiani-canton-ticino-og.jpg"
 image_alt: "Pazienti italiani in Canton Ticino: perché scelgono le strutture svizzere e come intercettarli"
-tags: ["marketing sanitario", "pazienti italiani svizzera", "canton ticino", "marketing transfrontaliero", "frontalieri"]
+tags: ["canton ticino", "acquisizione pazienti"]
+servizio: "advertising-sanitario"
 keywords: "pazienti italiani canton ticino, italiani svizzera cure mediche strutture, marketing cliniche ticino pazienti italiani, paziente transfrontaliero struttura ticinese, strutture sanitarie ticino bacino italiano"
 sources: "SECO (Segreteria di Stato dell'economia): Statistiche frontalieri Canton Ticino 2024; Dati interni OIDA Labs (analisi flusso pazienti italiani Canton Ticino per specialità 2024-2025); Cantone Ticino Rapporto annuale dipartimento sanitario 2024; Ufficio federale della sanità pubblica (UFSP) Statistiche mobilità sanitaria transfrontaliera (2024)."
 faqs:

@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $pages := where .Pages "Params.type" "servizio" }}
-{{ $groups := slice "Crescita e Acquisizione" "Operations e Tecnologia" "Specialistici e Differenzianti" }}
+{{ $groups := hugo.Data.servizi.groups }}
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
   <a href="{{ "/" | relURL }}">Home</a><span class="sep">/</span><span class="current">Servizi</span>

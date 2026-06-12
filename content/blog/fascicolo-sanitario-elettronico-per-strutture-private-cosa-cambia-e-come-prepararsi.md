@@ -1,12 +1,13 @@
 ---
 title: "Fascicolo sanitario elettronico per strutture private: cosa cambia e come prepararsi"
-description: "Il fascicolo sanitario elettronico interessa anche le strutture private. Cosa devono fare concretamente cliniche e poliambulatori, quali sono gli obblighi e come trasformare l'adempimento in un vantaggio operativo."
+description: "Il fascicolo sanitario elettronico interessa anche le strutture private: gli obblighi per cliniche e poliambulatori e come trasformarli in vantaggio."
 date: 2026-04-02
 author: "Oida Labs"
 image: "img/blog/fascicolo-sanitario-elettronico-per-strutture-private-cosa-cambia-e-come-prepararsi.webp"
 og_image: "img/blog/fascicolo-sanitario-elettronico-og.jpg"
 image_alt: "Fascicolo sanitario elettronico per strutture private: cosa cambia e come prepararsi"
-tags: ["marketing sanitario", "fascicolo sanitario elettronico", "fse", "digitalizzazione sanità", "strutture private"]
+tags: ["sanità digitale", "normativa"]
+servizio: "consulenza-strategica-sanitaria"
 keywords: "fascicolo sanitario elettronico strutture private, fse cliniche private, cartella clinica digitale strutture sanitarie, digitalizzazione sanità privata"
 sources: "Decreto Legislativo 179/2012 e successive modificazioni (disciplina FSE); Ministero della Salute Linee guida FSE 2.0 (2023); PNRR Missione 6 Salute investimento 1.3 (FSE); Osservatorio Innovazione Digitale in Sanità Politecnico di Milano (2025)."
 faqs:

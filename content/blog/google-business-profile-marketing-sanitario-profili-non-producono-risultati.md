@@ -1,12 +1,13 @@
 ---
 title: "Google Business Profile e marketing sanitario: perché la maggior parte dei profili non produce risultati"
-description: "Nel marketing sanitario il Google Business Profile è spesso compilato ma raramente performante. Le ragioni strutturali che separano un profilo presente da uno che genera pazienti."
+description: "Il Google Business Profile è spesso compilato ma raramente performante. Cosa separa un profilo presente da uno che genera pazienti."
 date: 2026-04-18
 author: "Oida Labs"
 image: "img/blog/google-business-profile-marketing-sanitario-profili-non-producono-risultati.webp"
 og_image: "img/blog/google-business-profile-sanitario-og.jpg"
 image_alt: "Google Business Profile e marketing sanitario: perché la maggior parte dei profili non produce risultati"
-tags: ["marketing sanitario", "google business profile", "SEO locale", "visibilità sanità"]
+tags: ["seo locale", "acquisizione pazienti"]
+servizio: "seo-geo-sanita"
 sources: "BrightLocal Local Consumer Review Survey 2024, BrightLocal Healthcare Consumer Review Survey 2024, Dati interni OIDA Labs (analisi profili Google Business Profile di strutture sanitarie italiane 2024–2025), Google Linee guida ufficiali per la rappresentazione della propria attività su Google."
 faqs:
   - q: "Il Google Business Profile sostituisce il sito web della struttura?"
@@ -80,4 +81,4 @@ La distanza tra un profilo autogestito e un profilo seguito professionalmente si
 
 ## Sintesi
 
-Il Google Business Profile è uno strumento tanto accessibile nella configurazione quanto selettivo nei risultati. Nel **marketing sanitario** la differenza tra un profilo presente e un profilo performante si misura nei mesi successivi all'attivazione, dove emerge la qualità della cura analitica che lo sostiene.
+Il Google Business Profile è uno strumento tanto accessibile nella configurazione quanto selettivo nei risultati. Nel **marketing sanitario** la differenza tra un profilo presente e un profilo performante si misura nei mesi successivi all'attivazione, dove emerge la qualità della cura analitica che lo sostiene. Per il mercato ticinese, dove la concorrenza locale è più bassa, vale la lettura dedicata su [SEO locale e Google Business Profile in Canton Ticino](/blog/seo-locale-e-google-business-profile-per-cliniche-in-canton-ticino-un-mercato-a-bassa-concorrenza/).

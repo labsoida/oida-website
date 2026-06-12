@@ -1,6 +1,11 @@
 label: "Servizi"
 title: "Cosa Facciamo"
 subtitle: "Dal lancio della prima campagna alla realizzazione della tua prima sala operatoria."
+# Gruppi della pagina /servizi/ (ordine = numerazione /NN, usato anche dalle singole)
+groups:
+  - "Crescita e Acquisizione"
+  - "Operations e Tecnologia"
+  - "Specialistici e Differenzianti"
 cards:
   - icon: "compass"
     title: "Consulenza Strategica"
@@ -13,9 +18,14 @@ cards:
     solution: "Campagne digitali costruite per il settore sanitario. Risultati misurabili."
     url: "/servizi/advertising-sanitario/"
   - icon: "globe"
-    title: "Sviluppo Web · SEO & GEO"
+    title: "Siti Web per la Sanità"
     pain: "Il tuo sito non ti porta pazienti?"
-    solution: "Lo rifacciamo. E facciamo in modo che Google ti trovi per primo."
+    solution: "Lo rifacciamo. Progettato per trasformare le visite in richieste di contatto."
+    url: "/servizi/siti-web-sanitari/"
+  - icon: "globe"
+    title: "SEO & GEO"
+    pain: "Su Google e nelle risposte delle AI non compari?"
+    solution: "Posizionamento nei motori di ricerca e negli assistenti AI. Visibilità che resta."
     url: "/servizi/seo-geo-sanita/"
   - icon: "cpu"
     title: "Intelligenza Artificiale"

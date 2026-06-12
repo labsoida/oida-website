@@ -1,12 +1,13 @@
 ---
 title: "Acquisizione pazienti online: cosa determina la conversione da contatto a visita"
-description: "Generare contatti online non è acquisire pazienti. Cosa separa le strutture sanitarie con le agende piene da quelle con campagne che non si traducono in prenotazioni."
+description: "Generare contatti online non è acquisire pazienti. Cosa separa le strutture con le agende piene da quelle con campagne che non diventano prenotazioni."
 date: 2026-05-14
 author: "Oida Labs"
 image: "img/blog/acquisizione-pazienti-online-cosa-determina-la-conversione-da-contatto-a-visita.webp"
 og_image: "img/blog/acquisizione-pazienti-online-og.jpg"
 image_alt: "Acquisizione pazienti online: cosa determina la conversione da contatto a visita"
-tags: ["marketing sanitario", "acquisizione pazienti", "funnel sanitario", "digital marketing", "conversione lead"]
+tags: ["acquisizione pazienti", "crm e automazioni"]
+servizio: "crm-automation-sanita"
 keywords: "acquisizione pazienti online, marketing sanitario, acquisizione nuovi pazienti clinica, conversione lead pazienti, funnel acquisizione pazienti, costo acquisizione paziente"
 sources: "Lead Response Management Study, MIT Sloan / InsideSales.com; Dati interni OIDA Labs (analisi su campagne e funnel di acquisizione 2023-2025); BrightLocal Healthcare Consumer Review Survey 2024; Regolamento UE 2016/679 (GDPR)."
 faqs:

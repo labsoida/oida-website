@@ -1,12 +1,13 @@
 ---
 title: "Gestione delle recensioni online nelle cliniche private: reputazione digitale e acquisizione pazienti"
-description: "Le recensioni online sono il principale fattore di scelta per i pazienti che valutano una struttura sanitaria privata. Come le strutture che ottengono risultati le gestiscono in modo sistematico."
+description: "Le recensioni online guidano la scelta dei pazienti che valutano una struttura privata. Come gestirle in modo sistematico per la reputazione digitale."
 date: 2026-04-26
 author: "Oida Labs"
 image: "img/blog/gestione-delle-recensioni-online-nelle-cliniche-private-reputazione-digitale-e-acquisizione-pazienti.webp"
 og_image: "img/blog/gestione-recensioni-cliniche-og.jpg"
 image_alt: "Gestione delle recensioni online nelle cliniche private: reputazione digitale e acquisizione pazienti"
-tags: ["marketing sanitario", "reputazione digitale", "recensioni online", "google business profile", "acquisizione pazienti"]
+tags: ["reputazione online", "seo locale"]
+servizio: "seo-geo-sanita"
 keywords: "gestione recensioni cliniche private, reputazione digitale strutture sanitarie, recensioni Google strutture sanitarie, come rispondere recensioni clinica privata, rating medici online"
 sources: "BrightLocal Local Consumer Review Survey 2024; Dati interni OIDA Labs (analisi conversione da ricerca organica su strutture monitorate 2023-2025); Google Business Profile Help Center: policies and best practices (2025); Osservatorio Innovazione Digitale in Sanità, Politecnico di Milano (Rapporto 2024)."
 faqs:

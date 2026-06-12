@@ -1,12 +1,13 @@
 ---
 title: "Liste d'attesa e sanità privata: il momento in cui il paziente decide di pagare"
-description: "Le liste d'attesa del sistema pubblico sono il principale fattore che spinge i pazienti verso la sanità privata. Come le strutture possono intercettare questa domanda nel momento giusto."
+description: "Le liste d'attesa del pubblico spingono i pazienti verso la sanità privata. Come intercettare questa domanda nel momento in cui decide di pagare."
 date: 2026-04-08
 author: "Oida Labs"
 image: "img/blog/liste-dattesa-e-sanita-privata-il-momento-in-cui-il-paziente-decide-di-pagare.webp"
 og_image: "img/blog/liste-attesa-sanita-privata-og.jpg"
 image_alt: "Liste d'attesa e sanità privata: il momento in cui il paziente decide di pagare"
-tags: ["marketing sanitario", "sanità privata", "liste attesa", "acquisizione pazienti", "ssn"]
+tags: ["acquisizione pazienti", "strategia"]
+servizio: "advertising-sanitario"
 keywords: "liste d'attesa sanità privata, intercettare domanda da liste attesa, sanità privata tempi di accesso strutture, marketing sanitario liste attesa, domanda privata da liste attesa SSN"
 sources: "Ministero della Salute Monitoraggio tempi di attesa 2024; Censis Rapporto sulla situazione sociale del Paese 2025 (sezione sanità); Dati interni OIDA Labs (analisi stagionalità domanda per specialità su strutture monitorate 2023-2025); AGENAS Osservatorio Nazionale Screening e Liste d'Attesa 2024."
 faqs:

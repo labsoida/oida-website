@@ -1,12 +1,13 @@
 ---
 title: "Marketing per strutture sanitarie: perché il paziente cambia tutto"
-description: "Il marketing per strutture sanitarie funziona diversamente dal marketing tradizionale. Cosa determina l'efficacia di una strategia e perché il paziente è un decision-maker atipico."
+description: "Il marketing per strutture sanitarie segue regole proprie: cosa determina l'efficacia di una strategia quando il decisore è un paziente."
 date: 2026-05-17
 author: "Oida Labs"
 image: "img/blog/marketing-per-strutture-sanitarie-perche-il-paziente-cambia-tutto.webp"
 og_image: "img/blog/marketing-strutture-sanitarie-og.jpg"
 image_alt: "Marketing per strutture sanitarie: perché il paziente cambia tutto"
-tags: ["marketing sanitario", "marketing strutture sanitarie", "strategia marketing", "sanità privata", "acquisizione pazienti"]
+tags: ["strategia", "acquisizione pazienti"]
+servizio: "consulenza-strategica-sanitaria"
 keywords: "marketing per strutture sanitarie, marketing sanitario, strategia marketing clinica, comunicazione strutture sanitarie, acquisizione pazienti strutture private"
 sources: "BrightLocal Healthcare Consumer Review Survey 2024; Dati interni OIDA Labs (analisi su campagne e strutture sanitarie italiane 2023-2025); Lead Response Management Study, MIT Sloan / InsideSales.com."
 faqs:

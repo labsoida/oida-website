@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{- /* Ordine globale dei servizi: stessi gruppi e stesso ordinamento di servizi/list.html → numerazione /NN coerente */ -}}
 {{- $svc := where site.RegularPages "Params.type" "servizio" -}}
-{{- $groups := slice "Crescita e Acquisizione" "Operations e Tecnologia" "Specialistici e Differenzianti" -}}
+{{- $groups := hugo.Data.servizi.groups -}}
 {{- $ordered := slice -}}
 {{- range $groups }}{{ range where $svc "Params.servizio_gruppo" . }}{{ $ordered = $ordered | append . }}{{ end }}{{ end -}}
 {{- $num := 0 -}}

@@ -1,7 +1,7 @@
 ---
 title: "Salute riproduttiva: il divario tra desiderio e natalità. Marketing sanitario per medicina della fertilità e PMA"
 linktitle: "Salute riproduttiva: il divario tra desiderio e natalità"
-description: "Il Rapporto annuale ISTAT 2026 letto da OIDA Labs: 1,14 figli per donna, 355 mila nati a fronte di 760 mila attesi dalle intenzioni. La denatalità come misura di una domanda di salute riproduttiva ampia, motivata e intercettata troppo tardi dalle strutture private."
+description: "Il Rapporto ISTAT 2026 letto da OIDA Labs: 1,14 figli per donna e una domanda di salute riproduttiva intercettata troppo tardi dalle strutture private."
 date: 2026-05-22
 author: "OIDA Labs"
 kicker: "OIDA Insight — Maggio 2026"
@@ -11,7 +11,7 @@ image: "img/insights/salute-riproduttiva-divario-desiderio-natalita.webp"
 og_image: "img/insights/salute-riproduttiva-divario-desiderio-natalita-og.jpg"
 image_alt: "Salute riproduttiva e marketing sanitario — analisi OIDA Labs sul Rapporto ISTAT 2026"
 keywords: "marketing sanitario, salute riproduttiva, medicina della riproduzione, PMA marketing, marketing fertilità, ginecologia privata, posizionamento centri PMA, preservazione fertilità, marketing strutture sanitarie private, comunicazione sanitaria, Rapporto ISTAT 2026, denatalità sanità privata"
-tags: ["marketing sanitario", "salute riproduttiva", "ginecologia privata", "posizionamento specialistico", "comunicazione sanitaria", "strutture private", "sanità privata"]
+tags: ["mercato sanitario", "strategia"]
 stats:
   - number: "1,14"
     label: "figli per donna nel 2025, minimo storico italiano (era 1,18 nel 2024)."

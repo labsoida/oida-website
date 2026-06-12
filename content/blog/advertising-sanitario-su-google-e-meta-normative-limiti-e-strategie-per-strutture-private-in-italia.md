@@ -1,12 +1,13 @@
 ---
 title: "Advertising sanitario su Google e Meta: normative, limiti e strategie per strutture private in Italia"
-description: "Le campagne pubblicitarie per strutture sanitarie private in Italia operano sotto vincoli normativi precisi. Come investire in advertising rispettando le regole e ottenendo risultati misurabili."
+description: "Campagne Google e Meta per strutture sanitarie private in Italia: i vincoli normativi che contano e come investire con risultati misurabili."
 date: 2026-04-11
 author: "Oida Labs"
 image: "img/blog/advertising-sanitario-su-google-e-meta-normative-limiti-e-strategie-per-strutture-private-in-italia.webp"
 og_image: "img/blog/advertising-sanitario-google-meta-og.jpg"
 image_alt: "Advertising sanitario su Google e Meta: normative, limiti e strategie per strutture private in Italia"
-tags: ["marketing sanitario", "advertising sanitario", "google ads sanità", "meta ads salute", "strutture private"]
+tags: ["advertising", "normativa"]
+servizio: "advertising-sanitario"
 keywords: "advertising sanitario Google Meta strutture private, campagne Google Ads cliniche private, Meta Ads strutture sanitarie normativa, pubblicità sanitaria online regole, Google Ads sanità privata Italia"
 sources: "Legge 175/1992 (pubblicità sanitaria); Garante per la Protezione dei Dati Personali (provvedimenti tracciamento web sanità 2022-2024); Google Healthcare and medicines advertising policies (2025); Meta Advertising policies: health and wellness (2025); Dati interni OIDA Labs (analisi campagne Search su strutture sanitarie private 2023-2025)."
 faqs:

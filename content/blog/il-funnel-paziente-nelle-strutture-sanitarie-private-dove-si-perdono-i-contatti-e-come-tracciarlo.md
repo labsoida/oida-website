@@ -1,12 +1,13 @@
 ---
 title: "Il funnel paziente nelle strutture sanitarie private: dove si perdono i contatti e come tracciarlo"
-description: "Le strutture sanitarie private perdono una quota consistente di potenziali pazienti tra il primo contatto e la prenotazione. Identificare dove avviene la perdita è il primo passo per ridurla."
+description: "Dove si perdono i potenziali pazienti tra il primo contatto e la prenotazione, e come tracciare il funnel di una struttura sanitaria privata."
 date: 2026-05-02
 author: "Oida Labs"
 image: "img/blog/il-funnel-paziente-nelle-strutture-sanitarie-private-dove-si-perdono-i-contatti-e-come-tracciarlo.webp"
 og_image: "img/blog/funnel-paziente-strutture-sanitarie-og.jpg"
 image_alt: "Il funnel paziente nelle strutture sanitarie private: dove si perdono i contatti e come tracciarlo"
-tags: ["marketing sanitario", "funnel paziente", "tasso conversione", "acquisizione pazienti", "pipeline"]
+tags: ["acquisizione pazienti", "metriche e kpi"]
+servizio: "crm-automation-sanita"
 keywords: "funnel paziente strutture sanitarie private, tasso conversione clinica privata, gestione lead sanitario, costo acquisizione paziente, pipeline paziente poliambulatorio, ottimizzazione conversione sanità privata"
 sources: "Dati interni OIDA Labs (analisi funnel paziente e tasso di conversione su strutture monitorate 2023-2025); InsideSales.com / MIT Sloan Lead Response Management Definitive Guide (2023); CERGAS Bocconi Rapporto OASI 2024; BrightLocal Healthcare Consumer Review Survey 2024."
 faqs:

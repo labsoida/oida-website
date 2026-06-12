@@ -36,6 +36,12 @@
     {{ range . }}<span>#{{ . }}</span>{{ end }}
   </div>
   {{ end }}
+  {{ with .Params.servizio }}{{ with site.GetPage (printf "/servizi/%s" .) }}
+  <aside class="post-attr">
+    <div class="post-attr-lab">// Su questo tema</div>
+    <p>{{ .Description }} <a href="{{ .RelPermalink }}">{{ .Title }} &rarr;</a></p>
+  </aside>
+  {{ end }}{{ end }}
   <aside class="post-attr">
     <div class="post-attr-lab">// Su OIDA Labs</div>
     <p>OIDA Labs è un'agenzia di marketing sanitario fondata da medici. Opera esclusivamente nel settore sanitario in Italia, Svizzera e Regno Unito, al servizio di cliniche, studi medici e strutture sanitarie private. <a href="{{ "/" | relURL }}">Scopri di più &rarr;</a></p>
@@ -65,6 +71,15 @@
   {{ end }}
 </section>
 {{ end }}
+
+<section class="ins-cta">
+  <div>
+    <div class="ins-cta-lab">// Prossimo passo</div>
+    <h2>Vuoi capire come si applica<br>alla tua struttura?</h2>
+    <p>La prima conversazione è gratuita e serve a inquadrare specialità, bacino e processi esistenti. Nessun impegno.</p>
+  </div>
+  <a class="ins-cta-btn" href="{{ "/" | relURL }}#contatti">Parliamone &rarr;</a>
+</section>
 
 {{ $related := first 3 (site.RegularPages.Related .) }}
 {{ if not $related }}{{ $related = first 3 (where (where site.RegularPages "Section" "blog") "Permalink" "ne" .Permalink).ByDate.Reverse }}{{ end }}

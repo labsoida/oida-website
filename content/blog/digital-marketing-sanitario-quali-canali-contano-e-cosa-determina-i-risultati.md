@@ -6,7 +6,8 @@ author: "Oida Labs"
 image: "img/blog/digital-marketing-sanitario-quali-canali-contano-e-cosa-determina-i-risultati.webp"
 og_image: "img/blog/digital-marketing-sanitario-og.jpg"
 image_alt: "Digital marketing sanitario: quali canali contano e cosa determina i risultati"
-tags: ["marketing sanitario", "digital marketing sanitario", "seo sanitario", "campagne sanitarie", "canali digitali"]
+tags: ["strategia", "advertising"]
+servizio: "advertising-sanitario"
 keywords: "digital marketing sanitario, marketing digitale sanità, canali digitali strutture sanitarie, SEO sanitario, campagne digitali cliniche, marketing online clinica privata"
 sources: "BrightLocal Healthcare Local SEO Report 2024; Dati interni OIDA Labs (analisi campagne digitali strutture sanitarie 2023-2025); Google Ads Healthcare Advertising Policy 2025; Meta Advertising Policies: Health and Wellness 2025."
 faqs:

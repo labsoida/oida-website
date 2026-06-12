@@ -1,12 +1,13 @@
 ---
 title: "Telemedicina nelle cliniche private: opportunità concreta o moda passeggera?"
-description: "La telemedicina in sanità privata è già realtà per alcune strutture e ancora irrisolta per molte altre. Cosa funziona davvero, cosa non ha ancora trovato il suo modello e perché la distinzione conta."
+description: "Telemedicina in sanità privata: cosa funziona già, cosa non ha trovato un modello sostenibile e come capire se conviene alla tua struttura."
 date: 2026-04-05
 author: "Oida Labs"
 image: "img/blog/telemedicina-nelle-cliniche-private-opportunita-concreta-o-moda-passeggera.webp"
 og_image: "img/blog/telemedicina-cliniche-private-og.jpg"
 image_alt: "Telemedicina nelle cliniche private: opportunità concreta o moda passeggera"
-tags: ["marketing sanitario", "telemedicina sanità", "cliniche private", "innovazione clinica", "teleconsulto"]
+tags: ["sanità digitale", "strategia"]
+servizio: "consulenza-strategica-sanitaria"
 keywords: "telemedicina cliniche private, teleconsulto strutture sanitarie, telemedicina poliambulatori, visita online clinica privata, servizi digitali clinica privata"
 sources: "Ministero della Salute: Indicazioni nazionali per l'erogazione di prestazioni di telemedicina (2022); Regolamento UE 2016/679 (GDPR); Dati interni OIDA Labs (analisi adozione telemedicina strutture sanitarie private 2024-2025); Osservatorio Innovazione Digitale in Sanità, Politecnico di Milano (2025)."
 faqs:

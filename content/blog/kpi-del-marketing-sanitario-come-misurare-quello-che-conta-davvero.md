@@ -1,12 +1,13 @@
 ---
 title: "KPI del marketing sanitario: come misurare quello che conta davvero"
-description: "Le strutture sanitarie private misurano spesso le metriche sbagliate. Quali KPI determinano davvero se una strategia di marketing funziona, e come si costruisce un sistema di misurazione che produce decisioni informate."
+description: "Quali KPI dicono davvero se il marketing sanitario funziona e come costruire un sistema di misurazione che produce decisioni informate."
 date: 2026-05-08
 author: "Oida Labs"
 image: "img/blog/kpi-del-marketing-sanitario-come-misurare-quello-che-conta-davvero.webp"
 og_image: "img/blog/kpi-marketing-sanitario-og.jpg"
 image_alt: "KPI del marketing sanitario: come misurare quello che conta davvero"
-tags: ["marketing sanitario", "kpi sanitario", "misurazione marketing", "marketing clinica", "metriche"]
+tags: ["metriche e kpi", "strategia"]
+servizio: "consulenza-strategica-sanitaria"
 keywords: "kpi marketing sanitario, metriche marketing clinica privata, misurare marketing sanitario, indicatori performance strutture sanitarie"
 sources: "Dati interni OIDA Labs (framework di misurazione CAC/LTV per specialità sanitarie su strutture monitorate 2023-2025); MIT Sloan / InsideSales.com Lead Response Management Study; HubSpot State of Marketing Report 2025 (sezione Healthcare)."
 faqs:

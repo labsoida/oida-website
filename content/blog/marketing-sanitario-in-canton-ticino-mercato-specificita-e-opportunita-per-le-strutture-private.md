@@ -1,12 +1,13 @@
 ---
 title: "Marketing sanitario in Canton Ticino: mercato, specificità e opportunità per le strutture private"
-description: "Il Canton Ticino è un mercato sanitario privato con dinamiche proprie: sistema LAMAL, pazienti italiani di confine e keyword quasi senza concorrenza. Cosa devono sapere le strutture che vogliono investire qui."
+description: "Sistema LAMAL, pazienti italiani di confine e concorrenza digitale bassa: cosa sapere prima di investire nel mercato sanitario del Canton Ticino."
 date: 2026-03-30
 author: "Oida Labs"
 image: "img/blog/marketing-sanitario-in-canton-ticino-mercato-specificita-e-opportunita-per-le-strutture-private.webp"
 og_image: "img/blog/marketing-sanitario-canton-ticino-og.jpg"
 image_alt: "Marketing sanitario in Canton Ticino: mercato, specificità e opportunità per le strutture private"
-tags: ["marketing sanitario", "marketing sanitario ticino", "sanità canton ticino", "marketing cliniche private", "lamal"]
+tags: ["canton ticino", "strategia"]
+servizio: "consulenza-strategica-sanitaria"
 keywords: "marketing sanitario canton ticino, marketing cliniche svizzera, agenzia marketing sanità svizzera, comunicazione sanitaria ticino, strutture sanitarie canton ticino"
 sources: "Ufficio federale della sanità pubblica (UFSP): Dati sistema sanitario svizzero 2024; Dati interni OIDA Labs (analisi mercato digitale sanitario Canton Ticino 2024-2025); Cantone Ticino Dipartimento della Sanità e della Socialità; santésuisse Statistiche assicurazioni malattia Canton Ticino 2024."
 faqs:

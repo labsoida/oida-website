@@ -1,12 +1,13 @@
 ---
 title: "Agenzia di marketing sanitario: quattro criteri oggettivi per valutarla"
-description: "Scegliere un'agenzia di marketing sanitario richiede criteri precisi. Quattro parametri operativi per valutare specializzazione, metodo e accountability di chi lavora in sanità."
+description: "Quattro parametri operativi per scegliere un'agenzia di marketing sanitario: specializzazione, metodo e responsabilità sui risultati."
 date: 2026-04-14
 author: "Oida Labs"
 image: "img/blog/agenzia-marketing-sanitario-quattro-criteri-oggettivi-valutarla.webp"
 og_image: "img/blog/agenzia-marketing-sanitario-og.jpg"
 image_alt: "Agenzia di marketing sanitario: quattro criteri oggettivi per valutarla"
-tags: ["marketing sanitario", "agenzia marketing sanitario", "scelta agenzia", "strategia"]
+tags: ["strategia", "metriche e kpi"]
+servizio: "consulenza-strategica-sanitaria"
 sources: "Dati interni OIDA Labs (analisi su campagne di marketing sanitario gestite 2023–2025), BrightLocal Healthcare Consumer Review Survey 2024, MIT Sloan / InsideSales.com Lead Response Management Study."
 faqs:
   - q: "Qual è il budget indicativo per un'agenzia di marketing sanitario?"

@@ -1,12 +1,13 @@
 ---
 title: "Come misurare il ritorno sull'investimento in marketing sanitario: metodologia per strutture private"
-description: "Le strutture sanitarie private che misurano il ROI del marketing prendono decisioni diverse da quelle che non lo fanno. La metodologia che separa chi spende in modo informato da chi spende per sentito dire."
+description: "Misurare il ROI del marketing sanitario cambia le decisioni di spesa. La metodologia per le strutture private che vogliono investire in modo informato."
 date: 2026-05-05
 author: "Oida Labs"
 image: "img/blog/come-misurare-il-ritorno-sullinvestimento-in-marketing-sanitario-metodologia-per-strutture-private.webp"
 og_image: "img/blog/roi-marketing-sanitario-og.jpg"
 image_alt: "Come misurare il ritorno sull'investimento in marketing sanitario: metodologia per strutture private"
-tags: ["marketing sanitario", "roi marketing", "cac sanitario", "metriche marketing", "strutture private"]
+tags: ["metriche e kpi", "strategia"]
+servizio: "consulenza-strategica-sanitaria"
 keywords: "ROI marketing sanitario strutture private, misurare ritorno investimento marketing clinica, CAC marketing sanitario, metriche marketing sanitario poliambulatorio, costo acquisizione paziente calcolo, lifetime value paziente sanitario"
 sources: "Dati interni OIDA Labs (analisi CAC e LTV per specialità su strutture monitorate 2023-2025); CERGAS Bocconi Rapporto OASI 2024; Harvard Business Review, The value of customer experience, quantified (2023); InsideSales.com Sales conversion benchmarks by industry (2024)."
 faqs:

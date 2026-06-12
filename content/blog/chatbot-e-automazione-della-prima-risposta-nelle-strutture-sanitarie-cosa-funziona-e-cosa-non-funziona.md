@@ -1,12 +1,13 @@
 ---
 title: "Chatbot e automazione della prima risposta nelle strutture sanitarie: cosa funziona e cosa non funziona"
-description: "Le strutture sanitarie private che automatizzano la prima risposta ai contatti riducono i lead persi per ritardo. Ma non tutti i sistemi di automazione producono lo stesso risultato. Cosa distingue quelli efficaci."
+description: "Automatizzare la prima risposta riduce i lead persi per ritardo, ma non tutti i sistemi producono lo stesso risultato. Cosa distingue quelli efficaci."
 date: 2026-04-28
 author: "Oida Labs"
 image: "img/blog/chatbot-e-automazione-della-prima-risposta-nelle-strutture-sanitarie-cosa-funziona-e-cosa-non-funziona.webp"
 og_image: "img/blog/chatbot-automazione-sanitaria-og.jpg"
 image_alt: "Chatbot e automazione della prima risposta nelle strutture sanitarie: cosa funziona e cosa non funziona"
-tags: ["marketing sanitario", "chatbot sanitario", "automazione lead", "ai marketing sanitario", "gestione lead"]
+tags: ["intelligenza artificiale", "acquisizione pazienti"]
+servizio: "intelligenza-artificiale-sanita"
 keywords: "chatbot strutture sanitarie private, automazione risposta lead sanitario, chatbot prenotazione clinica, AI marketing sanitario risposta automatica, gestione lead sanitario automazione"
 sources: "InsideSales.com Lead Response Management Study (aggiornamento 2024); MIT Sloan Management Review Speed and the art of revenue generation (2021); Dati interni OIDA Labs (analisi lead digitali su strutture monitorate 2023-2025); Garante per la Protezione dei Dati Personali Linee guida su AI e dati sanitari (2024)."
 faqs:

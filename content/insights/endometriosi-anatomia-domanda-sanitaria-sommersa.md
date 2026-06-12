@@ -1,6 +1,6 @@
 ---
 title: "Endometriosi: anatomia di una domanda sanitaria sommersa"
-description: "Il Report GIMBE 2/2026 letto da OIDA Labs: sette-dieci anni di ritardo diagnostico come percorso informativo quasi interamente digitale, stadi I-II fuori dall'esenzione 063, mappa regionale dei PDTA come scenario per la ginecologia privata italiana."
+description: "Il Report GIMBE 2/2026 letto da OIDA Labs: ritardo diagnostico, esenzione 063 e mappa dei PDTA come scenario per la ginecologia privata italiana."
 date: 2026-04-22
 author: "OIDA Labs"
 kicker: "OIDA Insight — Aprile 2026"
@@ -9,7 +9,7 @@ about: "Marketing sanitario per ginecologia specialistica e endometriosi"
 image: "img/insights/endometriosi-anatomia-domanda-sanitaria-sommersa.webp"
 og_image: "img/insights/endometriosi-og.jpg"
 image_alt: "Endometriosi: anatomia di una domanda sanitaria sommersa — analisi OIDA Labs"
-tags: ["marketing sanitario", "ginecologia privata", "comunicazione sanitaria", "endometriosi", "posizionamento specialistico"]
+tags: ["mercato sanitario", "strategia"]
 stats:
   - number: "1,8"
     suffix: "M"

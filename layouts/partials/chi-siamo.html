@@ -6,10 +6,18 @@
     <div class="s-toggle" aria-hidden="true">+</div>
   </div>
   <div class="section-body" id="chi-body">
-    <div class="chi-text">
-      <p>{{ $d.intro }}</p>
-      {{ with $d.body }}<p>{{ . }}</p>{{ end }}
-      <p>{{ $d.closing }}</p>
+    <div class="chi-grid">
+      <div class="chi-text">
+        <p>{{ $d.intro }}</p>
+        {{ with $d.body }}<p>{{ . }}</p>{{ end }}
+        <p>{{ $d.closing }}</p>
+      </div>
+      <aside class="chi-side">
+        <div class="chi-side-label">{{ $d.subtitle }}</div>
+        {{ range $d.kpis }}
+        <div><div class="chi-kpi-num">{{ .number }}</div><p>{{ .description }}</p></div>
+        {{ end }}
+      </aside>
     </div>
   </div>
 </section>
