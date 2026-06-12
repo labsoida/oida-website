@@ -2,6 +2,7 @@
 title: "Digital Marketing e ADV per la Sanità"
 linktitle: "Digital Marketing e ADV"
 description: "Campagne Google e Meta costruite per studi medici e cliniche: i pazienti giusti ti trovano, budget misurato. Gestite da chi viene dalla sanità."
+og_image: "img/servizi/advertising-sanitario-og.jpg"
 date: 2026-05-21
 draft: false
 type: "servizio"

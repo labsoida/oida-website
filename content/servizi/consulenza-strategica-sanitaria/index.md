@@ -2,6 +2,7 @@
 title: "Consulenza Strategica per la Sanità"
 linktitle: "Consulenza Strategica"
 description: "Analizziamo la tua struttura e ti diciamo cosa fare, in che ordine e con quali priorità. Strategia di marketing sanitario basata sui dati."
+og_image: "img/servizi/consulenza-strategica-sanitaria-og.jpg"
 date: 2026-05-21
 draft: false
 type: "servizio"

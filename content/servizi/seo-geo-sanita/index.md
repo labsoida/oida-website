@@ -1,6 +1,7 @@
 ---
 title: "SEO e GEO per la Sanità"
 description: "Ti facciamo trovare da chi cerca le tue prestazioni, su Google e sulle risposte AI. SEO e GEO per la sanità, curate da chi viene dalla sanità."
+og_image: "img/servizi/seo-geo-sanita-og.jpg"
 date: 2026-05-21
 draft: false
 type: "servizio"
