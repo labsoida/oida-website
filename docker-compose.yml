@@ -1,6 +1,8 @@
 services:
   hugo:
-    image: hugomods/hugo:latest
+    # Pinnata alla versione usata in produzione (hugo v0.160.1 extended):
+    # "latest" rendeva le build non riproducibili tra macchine.
+    image: hugomods/hugo:exts-0.160.1
     command: hugo server --bind 0.0.0.0 --disableFastRender
     ports:
       - "1313:1313"
