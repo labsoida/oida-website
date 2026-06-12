@@ -81,10 +81,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="apple-touch-icon" href="{{ "img/apple-touch-icon.png" | relURL }}">
 <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
 
-<!-- Font preloads (tutti self-hosted) -->
+<!-- Font preloads (tutti self-hosted, solo quelli above-the-fold) -->
 <link rel="preload" href="{{ "fonts/glaseer-stencil.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ "fonts/bank-gothic.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ "fonts/barlow-semi-condensed-400.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ "fonts/jetbrains-mono-variable.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
 
 <!-- Meta Pixel: caricato dinamicamente da cookie-consent-config.js solo dopo consenso marketing.
      Volutamente NESSUN <noscript><img> qui: sparerebbe PageView bypassando il Consent Mode (problema GDPR). -->
@@ -95,9 +96,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script defer src="{{ "js/vendor/cookieconsent.umd.js" | relURL }}"></script>
 <script defer src="{{ "js/cookie-consent-config.js" | relURL }}"></script>
 
-<!-- Stylesheet (minified + fingerprinted via Hugo asset pipeline) -->
-{{- $css := resources.Get "css/style.css" | resources.Minify | resources.Fingerprint -}}
-<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous">
+<!-- Stylesheet incorporato: elimina la richiesta render-blocking (PSI -1130ms su mobile).
+     Con la cache di GitHub Pages a 10 minuti il file separato non dava benefici di caching reali. -->
+{{- $css := resources.Get "css/style.css" | resources.Minify -}}
+<style>{{ $css.Content | safeCSS }}</style>
 
 <!-- Schema.org: Organization (ProfessionalService, sottotipo LocalBusiness) -->
 <script type="application/ld+json">
