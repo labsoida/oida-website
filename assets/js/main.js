@@ -143,7 +143,7 @@
     console.log('%c// End of line.', 'color:#00C2B2;' + mono);
   } catch (e) {}
 
-  // --- ↑↑↓↓←→←→BA ---
+  // --- ↑↑↓↓←→←→BA (tastiera) ---
   var seq = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
   var seqIdx = 0;
   document.addEventListener('keydown', function (e) {
@@ -155,6 +155,40 @@
       seqIdx = (k === seq[0]) ? 1 : 0;
     }
   });
+  // --- Konami touch (mobile): swipe su su giu giu sx dx sx dx + 2 tap ---
+  (function () {
+    var tseq = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'tap', 'tap'];
+    var ti = 0, sx = 0, sy = 0, st = 0, timer;
+    function reset() { ti = 0; }
+    function feed(g) {
+      clearTimeout(timer);
+      if (g === tseq[ti]) {
+        ti++;
+        if (ti === tseq.length) { ti = 0; hyperspace(); return; }
+        timer = setTimeout(reset, 2500); // combo da fare fluida
+      } else {
+        ti = (g === tseq[0]) ? 1 : 0;
+        if (ti) timer = setTimeout(reset, 2500);
+      }
+    }
+    document.addEventListener('touchstart', function (e) {
+      var t = e.changedTouches[0];
+      sx = t.clientX; sy = t.clientY; st = e.timeStamp;
+    }, { passive: true });
+    document.addEventListener('touchend', function (e) {
+      if (e.changedTouches.length !== 1) return;
+      var t = e.changedTouches[0];
+      var dx = t.clientX - sx, dy = t.clientY - sy;
+      var adx = Math.abs(dx), ady = Math.abs(dy);
+      if (adx < 24 && ady < 24) {
+        if (e.timeStamp - st < 500) feed('tap'); else reset();
+      } else if (adx > ady) {
+        feed(dx > 0 ? 'right' : 'left');
+      } else {
+        feed(dy > 0 ? 'down' : 'up');
+      }
+    }, { passive: true });
+  })();
   // Salto nell'iperspazio stile Star Wars: stelle in proiezione prospettica che
   // volano verso lo spettatore, "punch it" iniziale, lampo al balzo, scie con
   // motion-blur. ~4,2s. Auto-cleanup a tempo (sopravvive al cambio scheda).
