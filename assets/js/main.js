@@ -197,16 +197,15 @@
     var DURATION = 4200;
     var c = document.createElement('canvas');
     c.id = 'hyperspace';
-    c.style.cssText = 'position:fixed;inset:0;z-index:9999;pointer-events:none;background:#000';
-    document.body.appendChild(c);
     var dpr = Math.min(window.devicePixelRatio || 1, 2);
-    // misura il box reso del canvas (fixed inset:0 = layout viewport): su mobile
-    // innerHeight e' il visual viewport (piu' corto per la barra URL) e
-    // sballerebbe il centro. getBoundingClientRect da' il box davvero dipinto.
-    var rect = c.getBoundingClientRect();
-    var cssW = rect.width || window.innerWidth, cssH = rect.height || window.innerHeight;
-    var W = c.width = Math.round(cssW * dpr);
-    var H = c.height = Math.round(cssH * dpr);
+    // Dimensione ESPLICITA = area visibile (innerWidth/innerHeight), non inset:0:
+    // su mobile il box fixed inset:0 puo' eccedere l'area vista (barra URL) e
+    // spostare il centro. Cosi' box CSS = buffer/dpr = area vista -> centro reale.
+    var vw = window.innerWidth, vh = window.innerHeight;
+    c.style.cssText = 'position:fixed;left:0;top:0;width:' + vw + 'px;height:' + vh + 'px;z-index:9999;pointer-events:none;background:#000';
+    document.body.appendChild(c);
+    var W = c.width = Math.round(vw * dpr);
+    var H = c.height = Math.round(vh * dpr);
     var ctx = c.getContext('2d'), cx = W / 2, cy = H / 2, FOCAL = W, N = 360, stars = [], i;
     function spawn(deep) {
       return {
