@@ -155,30 +155,74 @@
       seqIdx = (k === seq[0]) ? 1 : 0;
     }
   });
+  // Salto nell'iperspazio stile Star Wars: stelle in proiezione prospettica che
+  // volano verso lo spettatore, "punch it" iniziale, lampo al balzo, scie con
+  // motion-blur. ~4,2s. Auto-cleanup a tempo (sopravvive al cambio scheda).
   function hyperspace() {
     if (prefersReducedMotion || document.getElementById('hyperspace')) return;
+    var DURATION = 4200;
     var c = document.createElement('canvas');
     c.id = 'hyperspace';
-    c.style.cssText = 'position:fixed;inset:0;z-index:9999;pointer-events:none';
+    c.style.cssText = 'position:fixed;inset:0;z-index:9999;pointer-events:none;background:#000';
     document.body.appendChild(c);
-    c.width = window.innerWidth; c.height = window.innerHeight;
-    var ctx = c.getContext('2d'), cx = c.width / 2, cy = c.height / 2, stars = [], i;
-    for (i = 0; i < 140; i++) { stars.push({ a: Math.random() * Math.PI * 2, d: 20 + Math.random() * Math.max(cx, cy), s: 0.5 + Math.random() * 2 }); }
-    var t0 = performance.now(), DURATION = 1400;
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var W = c.width = Math.round(window.innerWidth * dpr);
+    var H = c.height = Math.round(window.innerHeight * dpr);
+    var ctx = c.getContext('2d'), cx = W / 2, cy = H / 2, FOCAL = W, N = 360, stars = [], i;
+    function spawn(deep) {
+      return {
+        x: (Math.random() * 2 - 1) * W,
+        y: (Math.random() * 2 - 1) * H,
+        z: deep ? W * (0.2 + Math.random() * 0.8) : Math.random() * W,
+        white: Math.random() < 0.22
+      };
+    }
+    for (i = 0; i < N; i++) { stars.push(spawn(false)); }
+    // safety: se la scheda va in background a metà salto, rAF si ferma; questo lo rimuove comunque
+    var killer = setTimeout(function () { if (c.parentNode) c.remove(); }, DURATION + 800);
+    var t0 = performance.now();
     function frame(now) {
       var t = (now - t0) / DURATION;
-      if (t >= 1) { c.remove(); return; }
-      ctx.clearRect(0, 0, c.width, c.height);
-      ctx.globalAlpha = t > .8 ? (1 - t) * 5 : 1;
-      var speed = Math.pow(t, 2) * 40 + 1;
+      if (t >= 1) { clearTimeout(killer); c.remove(); return; }
+      // profilo velocita: deriva sublight -> SPINTA -> crociera lightspeed -> decelera
+      var warp;
+      if (t < 0.20) warp = 0.6 + t * 4;                       // sublight
+      else if (t < 0.30) warp = 1.4 + ((t - 0.20) / 0.10) * 15; // punch it
+      else if (t < 0.82) warp = 16.4;                          // lightspeed
+      else warp = 16.4 * (1 - (t - 0.82) / 0.18);              // drop out
+      var speed = warp * 14 * dpr + 0.5;
+      var fade = t > 0.9 ? (1 - t) / 0.1 : 1;
+      // motion-blur: velo nero semitrasparente invece del clear
+      ctx.globalAlpha = 1;
+      ctx.fillStyle = 'rgba(0,0,0,0.32)';
+      ctx.fillRect(0, 0, W, H);
+      ctx.lineCap = 'round';
       for (i = 0; i < stars.length; i++) {
-        var s = stars[i], d1 = s.d + t * speed * 8, d2 = d1 + s.s * speed * 3;
-        ctx.strokeStyle = i % 5 === 0 ? 'rgba(255,255,255,.85)' : 'rgba(0,194,178,.8)';
-        ctx.lineWidth = s.s * (0.5 + t);
+        var s = stars[i], pz = s.z;
+        s.z -= speed;
+        if (s.z < 1) { stars[i] = spawn(true); continue; }
+        var k = FOCAL / s.z, pk = FOCAL / pz;
+        var b = Math.min(1, (W - s.z) / W);
+        ctx.globalAlpha = b * fade;
+        ctx.strokeStyle = s.white ? 'rgba(225,255,252,1)' : 'rgba(0,194,178,1)';
+        ctx.lineWidth = Math.max(0.7, b * 2.6) * dpr;
         ctx.beginPath();
-        ctx.moveTo(cx + Math.cos(s.a) * d1, cy + Math.sin(s.a) * d1);
-        ctx.lineTo(cx + Math.cos(s.a) * d2, cy + Math.sin(s.a) * d2);
+        ctx.moveTo(cx + s.x * pk, cy + s.y * pk);
+        ctx.lineTo(cx + s.x * k, cy + s.y * k);
         ctx.stroke();
+      }
+      // lampo centrale al momento della spinta (~t 0.30)
+      if (t > 0.20 && t < 0.46) {
+        var fa = 1 - Math.abs(t - 0.31) / 0.13;
+        if (fa > 0) {
+          var g = ctx.createRadialGradient(cx, cy, 0, cx, cy, W * 0.55);
+          g.addColorStop(0, 'rgba(200,255,250,' + (fa * 0.55) + ')');
+          g.addColorStop(0.35, 'rgba(0,194,178,' + (fa * 0.20) + ')');
+          g.addColorStop(1, 'rgba(0,0,0,0)');
+          ctx.globalAlpha = 1;
+          ctx.fillStyle = g;
+          ctx.fillRect(0, 0, W, H);
+        }
       }
       requestAnimationFrame(frame);
     }
