@@ -200,8 +200,13 @@
     c.style.cssText = 'position:fixed;inset:0;z-index:9999;pointer-events:none;background:#000';
     document.body.appendChild(c);
     var dpr = Math.min(window.devicePixelRatio || 1, 2);
-    var W = c.width = Math.round(window.innerWidth * dpr);
-    var H = c.height = Math.round(window.innerHeight * dpr);
+    // misura il box reso del canvas (fixed inset:0 = layout viewport): su mobile
+    // innerHeight e' il visual viewport (piu' corto per la barra URL) e
+    // sballerebbe il centro. getBoundingClientRect da' il box davvero dipinto.
+    var rect = c.getBoundingClientRect();
+    var cssW = rect.width || window.innerWidth, cssH = rect.height || window.innerHeight;
+    var W = c.width = Math.round(cssW * dpr);
+    var H = c.height = Math.round(cssH * dpr);
     var ctx = c.getContext('2d'), cx = W / 2, cy = H / 2, FOCAL = W, N = 360, stars = [], i;
     function spawn(deep) {
       return {
