@@ -10,9 +10,9 @@ photo: "/img/team/giulia-nasini-brand-marketing-strategist-oida-labs.webp"
 photo_alt: "Giulia Nasini, Co-Founder e Strategic Marketing Advisor di OIDA Labs, agenzia di marketing sanitario"
 card_meta: "Strategic Marketing Advisor & Co-Founder"
 card_role: "Marketing Executive"
-card_bio: "Co-Founder e Strategic Marketing Advisor di OIDA Labs. 20 anni di marketing internazionale tra tech, assicurativo, SaaS e automotive, dal brand agli eventi."
+card_bio: "Co-Founder e Strategic Marketing Advisor di OIDA Labs. venti anni di marketing internazionale tra insurtech, SaaS e automotive, dal brand agli eventi."
 role: "Marketing Executive"
-lead: "Strategic Marketing Advisor e Co-Founder di OIDA Labs. 20 anni di marketing internazionale tra tech, assicurativo, SaaS e automotive, dal brand agli eventi."
+lead: "Strategic Marketing Advisor e Co-Founder di OIDA Labs. venti anni di marketing internazionale tra insurtech, SaaS e automotive, dal brand agli eventi."
 linkedin: "https://www.linkedin.com/in/giulianasini/"
 sameas_extra: ["https://www.thebespokecmo.com"]
 person:
@@ -42,7 +42,7 @@ faqs:
     a: "Guida un'azienda come Chief Marketing Officer ma a tempo parziale, senza il costo per l'impresa di una figura senior a tempo pieno, utile alle strutture in crescita che hanno bisogno di metodo, leadership e guida nell'esecuzione."
 ---
 
-Giulia Nasini è Co-Founder e Strategic Marketing Advisor di OIDA Labs. Marketing executive con 20 anni di esperienza tra i settori insurtech, SaaS e automotive, in Italia, Europa e US. In OIDA porta il marchio e la comunicazione delle strutture sanitarie agli standard di una grande azienda.
+Giulia Nasini è Co-Founder e Strategic Marketing Advisor di OIDA Labs. Marketing executive con venti anni di esperienza tra i settori insurtech, SaaS e automotive, in Italia, Europa e Stati Uniti. In OIDA porta il marchio e la comunicazione delle strutture sanitarie agli standard di una grande azienda.
 
 La sua esperienza aziendale più rilevante è in Octo Telematics, pioniere della telematica assicurativa, dove ha guidato le attività di marketing globale come Head of Global Operational Marketing a Londra. Ha gestito le sponsorizzazioni di alto profilo in MotoGP e Moto-E, gli eventi corporate come l'OCTO Global Summit e l'OCTO Connected Forum, la comunicazione digitale e due progetti di rebranding globale, contribuendo alla preparazione dell'azienda alla quotazione in borsa. I suoi progetti hanno ricevuto riconoscimenti internazionali, tra cui FWA Mobile of the Day, BMA Silver Winner e gli Interactive Key Awards.
 
