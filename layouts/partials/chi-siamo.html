@@ -5,13 +5,26 @@
     <div class="s-titlebox"><div class="s-label">// {{ $d.label }}</div><button type="button" class="s-title s-disclose" aria-expanded="false" aria-controls="chi-body">{{ $d.title }}</button></div>
     <div class="s-toggle" aria-hidden="true">+</div>
   </div>
-  {{- /* La colonna destra resta libera di proposito: ospiterà il box team
-         (foto + link ai profili) quando i profili saranno approvati. */ -}}
   <div class="section-body" id="chi-body">
-    <div class="chi-text">
-      <p>{{ $d.intro }}</p>
-      {{ with $d.body }}<p>{{ . }}</p>{{ end }}
-      <p>{{ $d.closing }}</p>
+    <div class="chi-wrap">
+      <div class="chi-text">
+        <p>{{ $d.intro }}</p>
+        {{ with $d.body }}<p>{{ . }}</p>{{ end }}
+        <p>{{ $d.closing }}</p>
+      </div>
+      {{- $team := sort (where site.RegularPages "Type" "team") "Weight" -}}
+      {{- with $team }}
+      <aside class="chi-team">
+        <div class="ct-lab">// Le persone dietro OIDA</div>
+        {{ range first 4 . }}
+        <a class="ct-row" href="{{ .RelPermalink }}">
+          <img src="{{ .Params.photo | relURL }}" alt="{{ .Params.photo_alt | default .Title }}" width="48" height="48" loading="lazy">
+          <span class="ct-id"><b>{{ .Title }}</b><em>{{ .Params.card_meta }}</em></span>
+        </a>
+        {{ end }}
+        <a class="ct-all" href="{{ "team/" | relURL }}">Conosci il team &rarr;</a>
+      </aside>
+      {{- end }}
     </div>
   </div>
 </section>

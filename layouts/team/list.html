@@ -1,0 +1,30 @@
+{{ define "main" }}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="{{ "/" | relURL }}">Home</a><span class="sep">/</span><span class="current">Team</span>
+</nav>
+
+<section class="page-hero dusted">
+  <div class="kicker">// {{ .Params.kicker | default "CREW · OIDA-1" }}</div>
+  <h1>{{ .Params.heading_html | default .Title | safeHTML }}</h1>
+  {{ with .Params.subtitle }}<p>{{ . }}</p>{{ end }}
+</section>
+
+<div class="team-grid">
+  {{ range $i, $p := sort (where site.RegularPages "Type" "team") "Weight" }}
+  <a class="team-card" href="{{ $p.RelPermalink }}">
+    <span class="tc-photo"><img src="{{ $p.Params.photo | relURL }}" alt="{{ $p.Params.photo_alt | default $p.Title }}" width="132" height="132" loading="lazy"></span>
+    <div>
+      <div class="tc-meta">// {{ printf "%02d" (add $i 1) }} · {{ $p.Params.card_meta }}</div>
+      <div class="tc-name">{{ $p.Title }}</div>
+      <div class="tc-role">{{ $p.Params.card_role }}</div>
+      <div class="tc-bio">{{ $p.Params.card_bio }}</div>
+      <span class="tc-link">Profilo &rarr;</span>
+    </div>
+  </a>
+  {{ end }}
+</div>
+
+<div class="cta-back">
+  <a href="{{ "/#contatti" | relURL }}">Parliamone &rarr;</a>
+</div>
+{{ end }}
