@@ -737,3 +737,118 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
 }
 
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* ============================================================
+   TEAM — indice (/team/) + profili (/team/<persona>/) + box home
+   ============================================================ */
+.kicker{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.18em;text-transform:uppercase;margin-bottom:24px}
+.kicker b{color:var(--gray-5);font-weight:400}
+
+/* indice: hero pagina */
+.page-hero{padding:84px 32px 56px;max-width:1280px;margin:0 auto;border-bottom:var(--cut)}
+.page-hero h1{font-family:'Glaseer',sans-serif;font-size:88px;line-height:.95;letter-spacing:0;text-transform:uppercase;margin-bottom:32px}
+.page-hero h1 span{color:var(--teal)}
+.page-hero p{font-size:19px;color:var(--gray-6);max-width:680px;line-height:1.55}
+
+/* indice: griglia team */
+.team-grid{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(2,1fr);border-bottom:var(--cut)}
+.team-card{padding:44px 32px;border-right:var(--hairline);border-bottom:var(--hairline);display:grid;grid-template-columns:132px 1fr;gap:30px;align-items:start;text-decoration:none;color:inherit;transition:background .15s}
+.team-card:nth-child(2n){border-right:none}
+.team-card:nth-last-child(-n+2){border-bottom:none}
+a.team-card:hover{background:var(--gray-1)}
+.tc-photo{width:132px;height:132px;display:block}
+.tc-photo img{width:100%;height:100%;object-fit:contain;display:block}
+.tc-meta{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--teal);letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px}
+.tc-name{font-family:'Glaseer',sans-serif;font-size:29px;text-transform:uppercase;line-height:1;color:var(--ink);margin-bottom:8px;letter-spacing:0}
+.tc-role{font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--gray-5);margin-bottom:16px;letter-spacing:.03em;line-height:1.5}
+.tc-bio{font-size:14px;color:var(--gray-6);line-height:1.6;margin-bottom:18px}
+.tc-link{font-family:'BankGothic',sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);display:inline-flex;align-items:center;gap:10px;transition:gap .15s}
+.team-card:hover .tc-link{gap:18px}
+.cta-back{padding:80px 32px;max-width:1280px;margin:0 auto;text-align:center}
+.cta-back a{display:inline-block;padding:24px 40px;font-family:'BankGothic',sans-serif;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:#000;background:var(--teal);text-decoration:none;font-weight:600;border:var(--cut);transition:background .15s,color .15s}
+.cta-back a:hover{background:var(--bg);color:var(--ink)}
+
+/* profilo: hero */
+.prof-hero{max-width:1280px;margin:0 auto;padding:72px 32px 56px;border-bottom:var(--cut);display:grid;grid-template-columns:1fr 300px;gap:56px;align-items:center}
+.prof-hero h1{font-family:'Glaseer',sans-serif;font-size:76px;line-height:.92;letter-spacing:0;text-transform:uppercase;margin-bottom:18px}
+.prof-hero h1 span{color:var(--teal)}
+.prof-role{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--gray-5);letter-spacing:.04em;margin-bottom:26px;line-height:1.5}
+.prof-lead{font-size:19px;color:var(--gray-6);line-height:1.55;max-width:600px}
+.prof-photo{width:300px;height:300px;justify-self:end}
+.prof-photo img{width:100%;height:100%;object-fit:contain;display:block}
+
+/* profilo: corpo */
+.prof-body{max-width:760px;margin:0 auto;padding:64px 32px 24px}
+.prof-body p{font-size:17px;line-height:1.75;color:var(--gray-6);margin-bottom:24px}
+.prof-body p strong{color:var(--ink);font-weight:600}
+
+/* profilo: credenziali */
+.prof-cred{max-width:1280px;margin:0 auto;padding:0 32px 64px}
+.prof-cred-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:var(--hairline);border-left:var(--hairline)}
+.cred-cell{padding:28px 28px;border-right:var(--hairline);border-bottom:var(--hairline)}
+.cred-lab{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--teal);letter-spacing:.14em;text-transform:uppercase;margin-bottom:12px}
+.cred-val{font-size:14.5px;color:var(--gray-6);line-height:1.55}
+
+/* profilo: FAQ */
+.prof-faq{max-width:880px;margin:0 auto;padding:8px 32px 72px}
+.prof-faq-h{font-family:'Glaseer',sans-serif;font-size:30px;text-transform:uppercase;letter-spacing:0;margin-bottom:8px}
+.prof-faq-sub{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.16em;text-transform:uppercase;margin-bottom:28px}
+.prof-faq details{border-top:var(--hairline)}
+.prof-faq details:last-child{border-bottom:var(--hairline)}
+.prof-faq summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:54px 1fr 40px;align-items:center;padding:24px 4px;font-size:18px;color:var(--ink);user-select:none}
+.prof-faq summary::-webkit-details-marker{display:none}
+.prof-faq .faq-num{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--teal);letter-spacing:.08em}
+.prof-faq .faq-plus{font-family:'JetBrains Mono',monospace;font-size:24px;color:var(--teal);text-align:center;transition:transform .25s}
+.prof-faq details[open] .faq-plus{transform:rotate(45deg)}
+.prof-faq details > div{padding:0 40px 26px 58px;font-size:15.5px;color:var(--gray-6);line-height:1.7}
+.prof-faq details > div a{color:var(--teal);text-decoration:none;border-bottom:1px solid rgba(0,194,178,.4)}
+
+/* profilo: links */
+.prof-links{max-width:1280px;margin:0 auto;padding:56px 32px;border-top:var(--cut);display:grid;grid-template-columns:1fr 1fr;gap:0;border-bottom:var(--cut)}
+.pl-col{padding:0 36px}
+.pl-col:first-child{border-right:var(--hairline);padding-left:0}
+.pl-lab{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--teal);letter-spacing:.14em;text-transform:uppercase;margin-bottom:18px}
+.pl-col a{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:14px 0;border-bottom:var(--hairline);color:var(--ink);text-decoration:none;font-size:15px;transition:color .15s}
+.pl-col a:last-child{border-bottom:none}
+.pl-col a:hover{color:var(--teal)}
+.pl-col a .arr{color:var(--teal);font-family:'JetBrains Mono',monospace}
+
+/* home: box team nella colonna destra di Chi siamo */
+.chi-wrap{display:grid;grid-template-columns:1.35fr 1fr}
+.chi-wrap .chi-text{border-right:var(--hairline)}
+.chi-team{padding:56px 32px;display:flex;flex-direction:column}
+.ct-lab{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--teal);letter-spacing:.14em;text-transform:uppercase;margin-bottom:20px}
+.ct-row{display:flex;align-items:center;gap:16px;padding:13px 0;border-bottom:var(--hairline);text-decoration:none;color:var(--ink);transition:opacity .15s}
+.ct-row:hover{opacity:.72}
+.ct-row img{width:48px;height:48px;object-fit:contain;flex:none}
+.ct-id b{display:block;font-size:15px;font-weight:600;line-height:1.2;color:var(--ink)}
+.ct-id em{display:block;font-style:normal;font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--gray-5);letter-spacing:.03em;margin-top:3px}
+.ct-all{margin-top:22px;font-family:'BankGothic',sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);text-decoration:none;display:inline-flex;align-items:center;gap:10px;transition:gap .15s}
+.ct-all:hover{gap:18px}
+
+@media(max-width:900px){
+  .page-hero{padding:56px 18px 36px}
+  .page-hero h1{font-size:48px}
+  .team-grid{grid-template-columns:1fr}
+  .team-card{grid-template-columns:1fr;border-right:none;padding:32px 18px;gap:20px;justify-items:center;text-align:center}
+  .tc-photo{width:120px;height:120px}
+  .team-card:nth-last-child(-n+2){border-bottom:var(--hairline)}
+  .team-card:last-child{border-bottom:none}
+  .cta-back{padding:48px 18px}
+  .prof-hero{grid-template-columns:1fr;padding:48px 18px 40px;gap:36px}
+  .prof-hero h1{font-size:46px}
+  .prof-photo{width:200px;height:200px;justify-self:center;order:-1}
+  .prof-body{padding:44px 18px 16px}
+  .prof-body p{font-size:16px}
+  .prof-cred{padding:0 18px 44px}
+  .prof-cred-grid{grid-template-columns:1fr}
+  .prof-faq{padding:8px 18px 52px}
+  .prof-faq summary{grid-template-columns:42px 1fr 34px;font-size:16px;padding:20px 2px}
+  .prof-faq details > div{padding:0 18px 22px 42px;font-size:14.5px}
+  .prof-links{grid-template-columns:1fr;padding:40px 18px}
+  .pl-col{padding:0}
+  .pl-col:first-child{border-right:none;border-bottom:var(--hairline);padding-bottom:28px;margin-bottom:28px}
+  .chi-wrap{grid-template-columns:1fr}
+  .chi-wrap .chi-text{border-right:none;border-bottom:var(--hairline)}
+  .chi-team{padding:32px 18px}
+}
