@@ -2,7 +2,7 @@
 title: "Agenzia di marketing sanitario: quattro criteri oggettivi per valutarla"
 description: "Quattro parametri operativi per scegliere un'agenzia di marketing sanitario: specializzazione, metodo e responsabilità sui risultati."
 date: 2026-04-14
-author: "Oida Labs"
+author: "OIDA Labs"
 image: "img/blog/agenzia-marketing-sanitario-quattro-criteri-oggettivi-valutarla.webp"
 og_image: "img/blog/agenzia-marketing-sanitario-og.jpg"
 image_alt: "Agenzia di marketing sanitario: quattro criteri oggettivi per valutarla"

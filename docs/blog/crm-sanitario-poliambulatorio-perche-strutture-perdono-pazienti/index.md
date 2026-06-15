@@ -8,7 +8,7 @@
 > Un CRM sanitario non è un software: è il processo che decide quanti lead diventano pazienti. Cosa succede nelle strutture che non lo governano.
 
 **Data:** 2026-04-24
-**Autore:** Oida Labs
+**Autore:** OIDA Labs
 **Tag:** crm e automazioni, acquisizione pazienti
 
 ---

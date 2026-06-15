@@ -8,7 +8,7 @@
 > Il CPL misura il costo del lead, il CAC il costo per paziente acquisito. La differenza tra i due numeri determina la redditività reale del marketing.
 
 **Data:** 2026-04-20
-**Autore:** Oida Labs
+**Autore:** OIDA Labs
 **Tag:** metriche e kpi, advertising
 
 ---

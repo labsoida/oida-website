@@ -8,7 +8,7 @@
 > Quattro parametri operativi per scegliere un'agenzia di marketing sanitario: specializzazione, metodo e responsabilità sui risultati.
 
 **Data:** 2026-04-14
-**Autore:** Oida Labs
+**Autore:** OIDA Labs
 **Tag:** strategia, metriche e kpi
 
 ---

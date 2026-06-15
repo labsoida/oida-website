@@ -13,6 +13,7 @@
         <div class="cta-meta">// RISPOSTA IN <b>24H</b> &middot; NESSUN IMPEGNO &middot; PRIMO CONTATTO <b>GRATUITO</b></div>
       </div>
       <form class="cta-form" action="https://formspree.io/f/{{ $d.formspree_id }}" method="POST" id="cta-form">
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
         {{ range $d.fields }}
         {{ if eq .type "textarea" }}
         <textarea name="{{ .name }}" placeholder="{{ .placeholder }}" rows="5"{{ if .required }} required{{ end }} aria-label="{{ .placeholder }}"></textarea>

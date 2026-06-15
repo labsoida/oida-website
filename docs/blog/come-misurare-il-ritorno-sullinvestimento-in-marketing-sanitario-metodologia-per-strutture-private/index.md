@@ -8,7 +8,7 @@
 > Misurare il ROI del marketing sanitario cambia le decisioni di spesa. La metodologia per le strutture private che vogliono investire in modo informato.
 
 **Data:** 2026-05-05
-**Autore:** Oida Labs
+**Autore:** OIDA Labs
 **Tag:** metriche e kpi, strategia
 
 ---

@@ -2,7 +2,7 @@
 title: "Come misurare il ritorno sull'investimento in marketing sanitario: metodologia per strutture private"
 description: "Misurare il ROI del marketing sanitario cambia le decisioni di spesa. La metodologia per le strutture private che vogliono investire in modo informato."
 date: 2026-05-05
-author: "Oida Labs"
+author: "OIDA Labs"
 image: "img/blog/come-misurare-il-ritorno-sullinvestimento-in-marketing-sanitario-metodologia-per-strutture-private.webp"
 og_image: "img/blog/roi-marketing-sanitario-og.jpg"
 image_alt: "Come misurare il ritorno sull'investimento in marketing sanitario: metodologia per strutture private"

@@ -2,7 +2,7 @@
 title: "Telemedicina nelle cliniche private: opportunità concreta o moda passeggera?"
 description: "Telemedicina in sanità privata: cosa funziona già, cosa non ha trovato un modello sostenibile e come capire se conviene alla tua struttura."
 date: 2026-04-05
-author: "Oida Labs"
+author: "OIDA Labs"
 image: "img/blog/telemedicina-nelle-cliniche-private-opportunita-concreta-o-moda-passeggera.webp"
 og_image: "img/blog/telemedicina-cliniche-private-og.jpg"
 image_alt: "Telemedicina nelle cliniche private: opportunità concreta o moda passeggera"

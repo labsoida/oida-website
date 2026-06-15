@@ -8,7 +8,7 @@
 > Intelligenza artificiale nel marketing sanitario: follow-up automatizzato, campagne e analisi predittiva per le strutture sanitarie private.
 
 **Data:** 2026-04-16
-**Autore:** Oida Labs
+**Autore:** OIDA Labs
 **Tag:** intelligenza artificiale, strategia
 
 ---

@@ -8,7 +8,7 @@
 > Dove si perdono i potenziali pazienti tra il primo contatto e la prenotazione, e come tracciare il funnel di una struttura sanitaria privata.
 
 **Data:** 2026-05-02
-**Autore:** Oida Labs
+**Autore:** OIDA Labs
 **Tag:** acquisizione pazienti, metriche e kpi
 
 ---

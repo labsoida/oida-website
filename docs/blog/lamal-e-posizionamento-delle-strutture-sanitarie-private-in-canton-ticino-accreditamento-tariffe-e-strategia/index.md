@@ -8,7 +8,7 @@
 > Accreditarsi LAMAL o operare in regime privato: cosa implica la scelta per il marketing e il posizionamento di una struttura in Canton Ticino.
 
 **Data:** 2026-03-24
-**Autore:** Oida Labs
+**Autore:** OIDA Labs
 **Tag:** canton ticino, strategia, normativa
 
 ---

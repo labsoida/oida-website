@@ -8,7 +8,7 @@
 > Il digital marketing sanitario non è uguale per tutte le strutture. Quali canali producono risultati reali, perché e come cambiano in base alla specialità.
 
 **Data:** 2026-05-11
-**Autore:** Oida Labs
+**Autore:** OIDA Labs
 **Tag:** strategia, advertising
 
 ---

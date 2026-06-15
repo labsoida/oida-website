@@ -94,7 +94,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="stylesheet" href="{{ "css/vendor/cookieconsent.css" | relURL }}" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="{{ "css/vendor/cookieconsent.css" | relURL }}"></noscript>
 <script defer src="{{ "js/vendor/cookieconsent.umd.js" | relURL }}"></script>
-<script defer src="{{ "js/cookie-consent-config.js" | relURL }}"></script>
+{{- $cc := resources.Get "js/cookie-consent-config.js" | resources.Minify | resources.Fingerprint -}}
+<script defer src="{{ $cc.RelPermalink }}" integrity="{{ $cc.Data.Integrity }}" crossorigin="anonymous"></script>
 
 <!-- Stylesheet incorporato: elimina la richiesta render-blocking (PSI -1130ms su mobile).
      Con la cache di GitHub Pages a 10 minuti il file separato non dava benefici di caching reali. -->

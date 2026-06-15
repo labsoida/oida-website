@@ -8,7 +8,7 @@
 > Automatizzare la prima risposta riduce i lead persi per ritardo, ma non tutti i sistemi producono lo stesso risultato. Cosa distingue quelli efficaci.
 
 **Data:** 2026-04-28
-**Autore:** Oida Labs
+**Autore:** OIDA Labs
 **Tag:** intelligenza artificiale, acquisizione pazienti
 
 ---

@@ -8,7 +8,7 @@
 > Telemedicina in sanità privata: cosa funziona già, cosa non ha trovato un modello sostenibile e come capire se conviene alla tua struttura.
 
 **Data:** 2026-04-05
-**Autore:** Oida Labs
+**Autore:** OIDA Labs
 **Tag:** sanità digitale, strategia
 
 ---

@@ -8,7 +8,7 @@
 > Il front office è il punto in cui le campagne diventano pazienti, o si perdono. Cosa distingue un processo di accoglienza che converte.
 
 **Data:** 2026-04-30
-**Autore:** Oida Labs
+**Autore:** OIDA Labs
 **Tag:** acquisizione pazienti, crm e automazioni
 
 ---

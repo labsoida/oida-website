@@ -25,7 +25,7 @@
         consentModal: {
           layout: 'box',
           position: 'bottom right',
-          equalWeightButtons: false,
+          equalWeightButtons: true,
           flipButtons: false
         },
         preferencesModal: {
@@ -63,12 +63,15 @@
         }
       },
 
-      onConsent: function (cookie) {
-        updateConsentState(cookie);
+      // cookieconsent v3 passa un oggetto { cookie, ... }: serve param.cookie
+      // (con .categories), non il parametro grezzo, altrimenti le categorie
+      // risultano sempre vuote e nulla viene concesso anche dopo il consenso.
+      onConsent: function (param) {
+        updateConsentState(param.cookie);
       },
 
-      onChange: function (cookie) {
-        updateConsentState(cookie);
+      onChange: function (param) {
+        updateConsentState(param.cookie);
       },
 
       language: {

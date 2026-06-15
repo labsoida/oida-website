@@ -54,7 +54,7 @@ I cookie di marketing sono attivati tramite **Meta Pixel** (ID: 2642752085357754
 
 Alcuni servizi integrati nel sito possono installare cookie di terze parti. Tali cookie sono regolati dalle informative privacy dei rispettivi fornitori, di seguito riportate:
 
-- **Google (Tag Manager, Analytics, Fonts):** [policies.google.com/privacy](https://policies.google.com/privacy)
+- **Google (Tag Manager, Analytics):** [policies.google.com/privacy](https://policies.google.com/privacy)
 - **Meta (Pixel):** [www.facebook.com/privacy/policy/](https://www.facebook.com/privacy/policy/)
 - **Formspree (modulo contatti):** [formspree.io/legal/privacy-policy/](https://formspree.io/legal/privacy-policy/)
 - **GitHub (hosting):** [docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)

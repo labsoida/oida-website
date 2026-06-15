@@ -8,7 +8,7 @@
 > Le recensioni online guidano la scelta dei pazienti che valutano una struttura privata. Come gestirle in modo sistematico per la reputazione digitale.
 
 **Data:** 2026-04-26
-**Autore:** Oida Labs
+**Autore:** OIDA Labs
 **Tag:** reputazione online, seo locale
 
 ---

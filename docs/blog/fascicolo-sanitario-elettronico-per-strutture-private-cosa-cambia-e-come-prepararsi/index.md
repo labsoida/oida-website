@@ -8,7 +8,7 @@
 > Il fascicolo sanitario elettronico interessa anche le strutture private: gli obblighi per cliniche e poliambulatori e come trasformarli in vantaggio.
 
 **Data:** 2026-04-02
-**Autore:** Oida Labs
+**Autore:** OIDA Labs
 **Tag:** sanità digitale, normativa
 
 ---

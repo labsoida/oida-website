@@ -76,7 +76,7 @@ I dati personali possono essere comunicati ai seguenti fornitori di servizi (res
 | Fornitore | Servizio | Sede | Trasferimento extra-SEE |
 |---|---|---|---|
 | **Formspree** | Gestione modulo di contatto | Stati Uniti | Sì — clausole contrattuali standard UE |
-| **Google LLC** | Google Tag Manager, Google Fonts | Stati Uniti / UE | Sì — clausole contrattuali standard UE |
+| **Google LLC** | Google Tag Manager, Google Analytics | Stati Uniti / UE | Sì — clausole contrattuali standard UE |
 | **Meta Platforms Inc.** | Meta Pixel (Facebook/Instagram) | Stati Uniti / UE | Sì — clausole contrattuali standard UE |
 | **GitHub Inc. (Microsoft)** | Hosting del sito (GitHub Pages) | Stati Uniti | Sì — clausole contrattuali standard UE |
 

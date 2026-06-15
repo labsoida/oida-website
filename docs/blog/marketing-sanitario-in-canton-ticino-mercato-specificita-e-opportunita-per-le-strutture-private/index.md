@@ -8,7 +8,7 @@
 > Sistema LAMAL, pazienti italiani di confine e concorrenza digitale bassa: cosa sapere prima di investire nel mercato sanitario del Canton Ticino.
 
 **Data:** 2026-03-30
-**Autore:** Oida Labs
+**Autore:** OIDA Labs
 **Tag:** canton ticino, strategia
 
 ---

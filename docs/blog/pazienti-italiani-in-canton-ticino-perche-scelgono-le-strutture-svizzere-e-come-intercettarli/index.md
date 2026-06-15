@@ -8,7 +8,7 @@
 > I pazienti italiani sono un segmento strutturale del mercato ticinese. Come una struttura costruisce visibilità e accessibilità verso questo bacino.
 
 **Data:** 2026-03-21
-**Autore:** Oida Labs
+**Autore:** OIDA Labs
 **Tag:** canton ticino, acquisizione pazienti
 
 ---

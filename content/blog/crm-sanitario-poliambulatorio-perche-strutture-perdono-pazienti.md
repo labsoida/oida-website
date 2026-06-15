@@ -2,7 +2,7 @@
 title: "CRM sanitario: perché le strutture private perdono pazienti dopo il primo contatto"
 description: "Un CRM sanitario non è un software: è il processo che decide quanti lead diventano pazienti. Cosa succede nelle strutture che non lo governano."
 date: 2026-04-24
-author: "Oida Labs"
+author: "OIDA Labs"
 image: "img/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti.webp"
 og_image: "img/blog/crm-sanitario-og.jpg"
 image_alt: "CRM sanitario: perché le strutture private perdono pazienti dopo il primo contatto"

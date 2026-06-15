@@ -8,7 +8,7 @@
 > Quali KPI dicono davvero se il marketing sanitario funziona e come costruire un sistema di misurazione che produce decisioni informate.
 
 **Data:** 2026-05-08
-**Autore:** Oida Labs
+**Autore:** OIDA Labs
 **Tag:** metriche e kpi, strategia
 
 ---

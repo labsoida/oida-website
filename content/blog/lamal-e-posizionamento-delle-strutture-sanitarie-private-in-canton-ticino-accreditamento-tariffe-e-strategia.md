@@ -2,7 +2,7 @@
 title: "LAMAL e posizionamento delle strutture sanitarie private in Canton Ticino: accreditamento, tariffe e strategia"
 description: "Accreditarsi LAMAL o operare in regime privato: cosa implica la scelta per il marketing e il posizionamento di una struttura in Canton Ticino."
 date: 2026-03-24
-author: "Oida Labs"
+author: "OIDA Labs"
 image: "img/blog/lamal-e-posizionamento-delle-strutture-sanitarie-private-in-canton-ticino-accreditamento-tariffe-e-strategia.webp"
 og_image: "img/blog/lamal-strutture-canton-ticino-og.jpg"
 image_alt: "LAMAL e posizionamento delle strutture sanitarie private in Canton Ticino"

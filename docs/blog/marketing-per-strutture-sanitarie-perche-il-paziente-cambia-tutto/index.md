@@ -8,7 +8,7 @@
 > Il marketing per strutture sanitarie segue regole proprie: cosa determina l'efficacia di una strategia quando il decisore è un paziente.
 
 **Data:** 2026-05-17
-**Autore:** Oida Labs
+**Autore:** OIDA Labs
 **Tag:** strategia, acquisizione pazienti
 
 ---

@@ -8,7 +8,7 @@
 > Il Google Business Profile è spesso compilato ma raramente performante. Cosa separa un profilo presente da uno che genera pazienti.
 
 **Data:** 2026-04-18
-**Autore:** Oida Labs
+**Autore:** OIDA Labs
 **Tag:** seo locale, acquisizione pazienti
 
 ---

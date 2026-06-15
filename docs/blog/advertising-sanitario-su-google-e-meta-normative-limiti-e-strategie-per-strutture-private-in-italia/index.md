@@ -8,7 +8,7 @@
 > Campagne Google e Meta per strutture sanitarie private in Italia: i vincoli normativi che contano e come investire con risultati misurabili.
 
 **Data:** 2026-04-11
-**Autore:** Oida Labs
+**Autore:** OIDA Labs
 **Tag:** advertising, normativa
 
 ---

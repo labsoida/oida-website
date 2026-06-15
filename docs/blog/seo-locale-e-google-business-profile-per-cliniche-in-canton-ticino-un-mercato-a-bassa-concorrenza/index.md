@@ -8,7 +8,7 @@
 > SEO locale e Google Business Profile in Canton Ticino: un mercato a bassa concorrenza digitale e una finestra da sfruttare prima che si chiuda.
 
 **Data:** 2026-03-27
-**Autore:** Oida Labs
+**Autore:** OIDA Labs
 **Tag:** canton ticino, seo locale
 
 ---

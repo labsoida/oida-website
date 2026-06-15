@@ -2,7 +2,7 @@
 title: "Il funnel paziente nelle strutture sanitarie private: dove si perdono i contatti e come tracciarlo"
 description: "Dove si perdono i potenziali pazienti tra il primo contatto e la prenotazione, e come tracciare il funnel di una struttura sanitaria privata."
 date: 2026-05-02
-author: "Oida Labs"
+author: "OIDA Labs"
 image: "img/blog/il-funnel-paziente-nelle-strutture-sanitarie-private-dove-si-perdono-i-contatti-e-come-tracciarlo.webp"
 og_image: "img/blog/funnel-paziente-strutture-sanitarie-og.jpg"
 image_alt: "Il funnel paziente nelle strutture sanitarie private: dove si perdono i contatti e come tracciarlo"

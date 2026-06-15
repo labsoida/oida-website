@@ -8,7 +8,7 @@
 > Le liste d'attesa del pubblico spingono i pazienti verso la sanità privata. Come intercettare questa domanda nel momento in cui decide di pagare.
 
 **Data:** 2026-04-08
-**Autore:** Oida Labs
+**Autore:** OIDA Labs
 **Tag:** acquisizione pazienti, strategia
 
 ---

@@ -2,7 +2,7 @@
 title: "Front office di una clinica privata: cosa determina la conversione al primo contatto"
 description: "Il front office è il punto in cui le campagne diventano pazienti, o si perdono. Cosa distingue un processo di accoglienza che converte."
 date: 2026-04-30
-author: "Oida Labs"
+author: "OIDA Labs"
 image: "img/blog/front-office-di-una-clinica-privata-cosa-determina-la-conversione-al-primo-contatto.webp"
 og_image: "img/blog/front-office-clinica-og.jpg"
 image_alt: "Front office di una clinica privata: cosa determina la conversione al primo contatto"

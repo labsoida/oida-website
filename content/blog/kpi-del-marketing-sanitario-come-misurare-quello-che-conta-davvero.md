@@ -2,7 +2,7 @@
 title: "KPI del marketing sanitario: come misurare quello che conta davvero"
 description: "Quali KPI dicono davvero se il marketing sanitario funziona e come costruire un sistema di misurazione che produce decisioni informate."
 date: 2026-05-08
-author: "Oida Labs"
+author: "OIDA Labs"
 image: "img/blog/kpi-del-marketing-sanitario-come-misurare-quello-che-conta-davvero.webp"
 og_image: "img/blog/kpi-marketing-sanitario-og.jpg"
 image_alt: "KPI del marketing sanitario: come misurare quello che conta davvero"
