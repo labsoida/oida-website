@@ -13,7 +13,7 @@ card_role: "Medico Specialista in Anestesia, Rianimazione, Terapia Intensiva e d
 card_bio: "Founder di OIDA Labs. Unisce la pratica clinica alla direzione del marketing e della comunicazione per la sanità, tra Italia, Svizzera e Regno Unito."
 role: "Medico Specialista in Anestesia, Rianimazione, Terapia Intensiva e del Dolore"
 lead: "Founder di OIDA Labs. Unisce la pratica clinica alla direzione del marketing e della comunicazione per la sanità, tra Italia, Svizzera e Regno Unito."
-linkedin: "https://www.linkedin.com/in/stefano-giarratana-85032620b/"
+linkedin: "https://www.linkedin.com/in/stefano-giarratana/"
 sameas_extra: []
 person:
   honorificPrefix: "Dr."
