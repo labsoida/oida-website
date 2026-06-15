@@ -191,14 +191,14 @@ img{max-width:100%}
 .cta-final-text p{font-size:18px;color:var(--gray-6);max-width:540px;line-height:1.55;margin-bottom:32px}
 .cta-meta{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--gray-5);letter-spacing:.06em;line-height:1.8}
 .cta-meta b{color:var(--teal);font-weight:400}
-.cta-form{display:flex;flex-direction:column;gap:0}
-.cta-form input,.cta-form textarea{width:100%;padding:18px 0;background:transparent;border:none;border-bottom:1px solid var(--gray-3);color:var(--ink);font-family:'Barlow Semi Condensed',sans-serif;font-size:16px;line-height:1.4;transition:border-color .15s}
+.cta-form{display:flex;flex-direction:column;gap:0;background:var(--gray-1);border:var(--hairline);border-top:2px solid var(--teal);padding:34px 30px;box-shadow:0 0 0 1px rgba(0,194,178,.22),0 0 60px rgba(0,194,178,.22),0 36px 100px -20px rgba(0,194,178,.45)}
+.cta-form input,.cta-form textarea{width:100%;padding:15px 14px;background:rgba(255,255,255,.03);border:none;border-bottom:1px solid rgba(255,255,255,.22);color:var(--ink);font-family:'Barlow Semi Condensed',sans-serif;font-size:16px;line-height:1.4;margin-bottom:12px;transition:border-color .15s,background .15s}
 /* i campi testo segnalano il focus con la riga teal; il checkbox con l'outline */
 .cta-form input:not([type=checkbox]):focus,.cta-form textarea:focus{outline:none}
 .cta-form input[type=checkbox]:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
 .cta-form textarea{resize:vertical;min-height:120px}
-.cta-form input::placeholder,.cta-form textarea::placeholder{color:var(--gray-4);font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.04em}
-.cta-form input:focus,.cta-form textarea:focus{border-bottom-color:var(--teal)}
+.cta-form input::placeholder,.cta-form textarea::placeholder{color:var(--gray-6);font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.04em;opacity:1}
+.cta-form input:focus,.cta-form textarea:focus{border-bottom-color:var(--teal);background:rgba(0,194,178,.06)}
 .cta-form .cta-privacy{display:flex;align-items:flex-start;gap:10px;margin-top:20px;font-size:12.5px;color:var(--gray-5);line-height:1.6;cursor:pointer}
 .cta-form .cta-privacy input{width:auto;padding:0;margin-top:3px;accent-color:var(--teal);border:none;flex-shrink:0}
 .cta-form .cta-privacy a{color:var(--gray-6);border-bottom:1px solid var(--gray-3)}
@@ -629,7 +629,8 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
   .cta-final-text h2{font-size:30px;margin-bottom:18px}
   .cta-final-text p{font-size:15px;margin-bottom:18px}
   .cta-meta{font-size:10px;line-height:1.7}
-  .cta-form input,.cta-form textarea{padding:14px 0;font-size:15px}
+  .cta-form{padding:24px 18px}
+  .cta-form input,.cta-form textarea{padding:14px 12px;font-size:15px}
   .cta-form button{padding:18px 24px;align-self:center}
 
   .rings-divider{height:60px}
