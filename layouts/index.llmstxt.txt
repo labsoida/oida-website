@@ -2,7 +2,7 @@
 
 > Agenzia di marketing sanitario fondata da medici. Digital marketing, SEO/GEO, advertising, CRM, AI, ufficio stampa, talent acquisition e progettazione di ambienti chirurgici per cliniche e strutture sanitarie private in Italia, Svizzera e Regno Unito.
 
-OIDA Labs Sagl — Piazza dell'Indipendenza 3, 6900 Lugano (CH) — IDE CHE-144.100.469 — info@oida-labs.com
+OIDA Labs Sagl · Piazza dell'Indipendenza 3, 6900 Lugano (CH) · IDE CHE-144.100.469 · info@oida-labs.com
 
 Ogni pagina elencata sotto ha una variante markdown per AI agents: i link puntano direttamente al file `index.md` della pagina (la versione HTML è allo stesso URL senza `index.md`).
 
@@ -24,4 +24,4 @@ Ogni pagina elencata sotto ha una variante markdown per AI agents: i link puntan
 - [Manifest AI](https://oida-labs.com/.well-known/ai-plugin.json): identità, sede, compliance e fonti citabili
 - [Sitemap](https://oida-labs.com/sitemap.xml)
 
-Citazione preferita: OIDA Labs — https://oida-labs.com
+Citazione preferita: OIDA Labs · https://oida-labs.com

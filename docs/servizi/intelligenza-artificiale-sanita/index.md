@@ -1,18 +1,18 @@
 ---
-# Markdown version per AI agents — generata da Hugo
+# Markdown version per AI agents, generata da Hugo
 # Vedi link rel="alternate" type="text/markdown" sulla versione HTML
 ---
 
 # Intelligenza Artificiale per la Sanità
 
-> Integriamo gli strumenti di AI utili alla tua struttura e ne sviluppiamo su misura quando servono. Senza hype, scelti da chi viene dalla sanità.
+> Integriamo gli strumenti di AI utili alla tua struttura e ne sviluppiamo dedicati quando servono. Senza clamore, scelti da chi viene dalla sanità.
 
 **Data:** 2026-05-21
 
 ---
 
 
-*Gli strumenti di AI che servono davvero alla tua struttura, senza l'hype.*
+*Gli strumenti di AI che servono davvero alla tua struttura, senza il clamore.*
 
 ## Tutti parlano di AI, pochi sanno cosa serve davvero
 
@@ -24,7 +24,7 @@ Sappiamo com'è fatta davvero la giornata di una struttura, quindi riconosciamo 
 
 ## Cosa cambia per la tua struttura
 
-Integriamo nei tuoi processi gli strumenti di AI che hanno senso: dalla [gestione automatica delle richieste](/servizi/crm-automation-sanita/) alla preparazione dei follow-up, fino alla lettura dei [dati che già produci](/servizi/seo-geo-sanita/). E quando lo strumento giusto non esiste, lo sviluppiamo noi su misura: abbiamo costruito assistenti conversazionali e applicazioni dedicate per il settore. Tu mantieni il controllo, l'AI si prende il lavoro ripetitivo.
+Integriamo nei tuoi processi gli strumenti di AI che hanno senso: dalla [gestione automatica delle richieste](/servizi/crm-automation-sanita/) alla preparazione dei follow-up, fino alla lettura dei [dati che già produci](/servizi/seo-geo-sanita/). E quando lo strumento giusto non esiste, lo sviluppiamo noi per la tua struttura: abbiamo costruito assistenti conversazionali e applicazioni dedicate per il settore. Tu mantieni il controllo, l'AI si prende il lavoro ripetitivo.
 
 
 ## FAQ
@@ -33,7 +33,7 @@ Integriamo nei tuoi processi gli strumenti di AI che hanno senso: dalla [gestion
 
 No. Partiamo da quello che già usi e aggiungiamo l'AI dove serve, senza stravolgere il tuo modo di lavorare.
 
-**Sviluppate anche strumenti su misura?**
+**Sviluppate anche strumenti costruiti ad hoc?**
 
 Sì. Quando lo strumento giusto non esiste sul mercato, lo sviluppiamo internamente: dall'assistente conversazionale all'automazione dedicata alla tua attività.
 
@@ -49,6 +49,6 @@ No. Anche un singolo studio può automatizzare attività ripetitive con strument
 ---
 
 **Fonte:** https://oida-labs.com/servizi/intelligenza-artificiale-sanita/index.md
-**Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
+**Sito:** https://oida-labs.com · OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

@@ -64,7 +64,7 @@ Le **strutture private non accreditate** hanno obblighi più limitati, ma la dir
 
 **Cosa serve tecnicamente per integrare i sistemi della struttura con il FSE?**
 
-L'integrazione tecnica richiede che i sistemi informativi della struttura — gestionale, sistema di refertazione, LIS/RIS per laboratorio e radiologia — siano in grado di produrre e inviare documenti nei formati standard richiesti (**HL7 FHIR, CDA2** secondo le specifiche nazionali).
+L'integrazione tecnica richiede che i sistemi informativi della struttura (gestionale, sistema di refertazione, LIS/RIS per laboratorio e radiologia) siano in grado di produrre e inviare documenti nei formati standard richiesti (**HL7 FHIR, CDA2** secondo le specifiche nazionali).
 
 In pratica, due cose:
 
@@ -78,7 +78,7 @@ Il costo di implementazione varia molto in base al livello di modernizzazione de
 
 **Come una struttura privata può usare il FSE come leva operativa e non solo come adempimento?**
 
-La logica dell'adempimento minimo porta a implementare il FSE con il minimo indispensabile per non incorrere in sanzioni, senza trarne vantaggio reale. **La logica opposta — usare l'implementazione del FSE come occasione per digitalizzare e strutturare i processi documentali — produce un ritorno operativo che va oltre la compliance.**
+La logica dell'adempimento minimo porta a implementare il FSE con il minimo indispensabile per non incorrere in sanzioni, senza trarne vantaggio reale. **La logica opposta (usare l'implementazione del FSE come occasione per digitalizzare e strutturare i processi documentali) produce un ritorno operativo che va oltre la compliance.**
 
 Tre aree in cui il FSE può diventare un vantaggio operativo reale.
 
@@ -94,7 +94,7 @@ Il collegamento con la [telemedicina](/blog/telemedicina-nelle-cliniche-private-
 
 **Qual è lo stato di attuazione del FSE 2.0 nelle diverse regioni italiane?**
 
-Lo stato di attuazione varia significativamente per regione. Le regioni più avanzate — **Lombardia, Veneto, Toscana, Emilia-Romagna** — hanno sistemi FSE già funzionanti con buona copertura e stanno completando l'adeguamento agli standard FSE 2.0. Le regioni più indietro stanno ancora completando l'implementazione della prima versione.
+Lo stato di attuazione varia significativamente per regione. Le regioni più avanzate (**Lombardia, Veneto, Toscana, Emilia-Romagna**) hanno sistemi FSE già funzionanti con buona copertura e stanno completando l'adeguamento agli standard FSE 2.0. Le regioni più indietro stanno ancora completando l'implementazione della prima versione.
 
 Per le strutture private, il riferimento pratico non è la mappa nazionale ma la situazione specifica della propria regione: qual è il calendario di obbligo per le strutture accreditate, quali formati tecnici sono stati adottati come standard regionali, quali sono le modalità di accreditamento tecnico al gateway regionale FSE.
 

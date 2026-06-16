@@ -4,12 +4,12 @@ linktitle: "Sanità digitale: i pazienti sono davvero pronti?"
 description: "Il Rapporto ISTAT 2026 letto da OIDA Labs: il 54,3% degli italiani ha competenze digitali di base. Cosa significa per la comunicazione sanitaria."
 date: 2026-05-22
 author: "OIDA Labs"
-kicker: "OIDA Insight — Maggio 2026"
+kicker: "OIDA Insight · Maggio 2026"
 base: "Base empirica: Rapporto annuale ISTAT 2026"
 about: "Marketing sanitario e comunicazione digitale per strutture sanitarie private"
 image: "img/insights/sanita-digitale-pazienti-pronti.webp"
 og_image: "img/insights/sanita-digitale-pazienti-pronti-og.jpg"
-image_alt: "Sanità digitale e marketing sanitario — analisi OIDA Labs sul Rapporto ISTAT 2026"
+image_alt: "Sanità digitale e marketing sanitario: analisi OIDA Labs sul Rapporto ISTAT 2026"
 keywords: "marketing sanitario, comunicazione sanitaria digitale, sanità digitale, competenze digitali pazienti, divario digitale sanità, intelligenza artificiale sanità, presenza digitale strutture sanitarie, prenotazione online sanità, posizionamento cliniche private, Rapporto ISTAT 2026, front office sanitario"
 tags: ["mercato sanitario", "sanità digitale"]
 stats:
@@ -111,7 +111,7 @@ Il Rapporto annuale ISTAT 2026 non parla di marketing sanitario. Misura però, c
 {{< insight-conclusion >}}
 Chi gestisce una struttura sanitaria privata non deve decidere se digitalizzare la propria comunicazione, ma su quale livello di competenza del pubblico tararla. I dati ISTAT indicano che quel livello è più basso di quanto il dibattito di settore lasci credere, e che è distribuito in modo diseguale tra Nord e Sud, tra generazioni e tra livelli di istruzione. Costruire l'esperienza digitale sul paziente reale, e non su quello immaginato, è ciò che separa un investimento che converte da uno che esclude.
 
-Questo non significa rinunciare all'intelligenza artificiale o ai canali online: significa collocarli dove rendono. L'IA nel back office, nella gestione dei contatti e nel CRM è una possibilità concreta già oggi; l'IA come interfaccia verso il paziente è prematura per la maggior parte del pubblico italiano. Il canale digitale verso il paziente va affiancato a un front office umano e a percorsi semplici, perché è questo che oggi consente di non perdere le fasce con meno competenze.
+Questo non significa rinunciare all'intelligenza artificiale o ai canali online: significa collocarli dove rendono. L'IA nel back office, nella gestione dei contatti e nel CRM è una possibilità concreta già oggi; l'IA come interfaccia verso il paziente è prematura per gran parte del pubblico italiano. Il canale digitale verso il paziente va affiancato a un front office umano e a percorsi semplici, perché è questo che oggi consente di non perdere le fasce con meno competenze.
 
 È il genere di analisi che, nella nostra prassi, chiamiamo flusso lento: una lettura che parte dal dato pubblico di sistema e ne ricava le condizioni reali entro cui una struttura comunica. Il Rapporto ISTAT non le enuncia in chiave di marketing. Ma chi deve decidere dove investire le trova, fra le sue tavole, già quantificate.
 {{< /insight-conclusion >}}

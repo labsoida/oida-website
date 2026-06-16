@@ -1,5 +1,5 @@
 ---
-# Markdown version per AI agents — generata da Hugo
+# Markdown version per AI agents, generata da Hugo
 # Vedi link rel="alternate" type="text/markdown" sulla versione HTML
 ---
 
@@ -75,10 +75,10 @@ I dati personali possono essere comunicati ai seguenti fornitori di servizi (res
 
 | Fornitore | Servizio | Sede | Trasferimento extra-SEE |
 |---|---|---|---|
-| **Formspree** | Gestione modulo di contatto | Stati Uniti | Sì — clausole contrattuali standard UE |
-| **Google LLC** | Google Tag Manager, Google Analytics | Stati Uniti / UE | Sì — clausole contrattuali standard UE |
-| **Meta Platforms Inc.** | Meta Pixel (Facebook/Instagram) | Stati Uniti / UE | Sì — clausole contrattuali standard UE |
-| **GitHub Inc. (Microsoft)** | Hosting del sito (GitHub Pages) | Stati Uniti | Sì — clausole contrattuali standard UE |
+| **Formspree** | Gestione modulo di contatto | Stati Uniti | Sì, clausole contrattuali standard UE |
+| **Google LLC** | Google Tag Manager, Google Analytics | Stati Uniti / UE | Sì, clausole contrattuali standard UE |
+| **Meta Platforms Inc.** | Meta Pixel (Facebook/Instagram) | Stati Uniti / UE | Sì, clausole contrattuali standard UE |
+| **GitHub Inc. (Microsoft)** | Hosting del sito (GitHub Pages) | Stati Uniti | Sì, clausole contrattuali standard UE |
 
 I trasferimenti verso paesi terzi avvengono in conformità all'art. 16 LPD e agli artt. 44-49 GDPR, attraverso clausole contrattuali standard approvate dalla Commissione UE e dal Consiglio federale svizzero, o sulla base di decisioni di adeguatezza ove applicabili.
 
@@ -93,7 +93,7 @@ L'utente ha il diritto, in qualsiasi momento, di:
 - **Cancellare** i dati personali (art. 32 LPD; art. 17 GDPR)
 - **Limitare** il trattamento (art. 18 GDPR)
 - **Opporsi** al trattamento per finalità di marketing o profilazione (art. 21 GDPR)
-- **Ricevere** i propri dati in formato strutturato (portabilità — art. 20 GDPR)
+- **Ricevere** i propri dati in formato strutturato (portabilità: art. 20 GDPR)
 - **Revocare il consenso** prestato in qualsiasi momento, senza pregiudizio della liceità del trattamento basato sul consenso prima della revoca (art. 7.3 GDPR)
 - **Proporre reclamo** all'autorità di controllo competente
 
@@ -107,7 +107,7 @@ Feldeggweg 1, 3003 Berna
 [www.edoeb.admin.ch](https://www.edoeb.admin.ch)
 
 **Per utenti residenti nell'Unione Europea:**
-Autorità di controllo dello Stato membro di residenza. Per l'Italia: Garante per la protezione dei dati personali, Piazza Venezia 11, 00187 Roma — [www.garanteprivacy.it](https://www.garanteprivacy.it)
+Autorità di controllo dello Stato membro di residenza. Per l'Italia: Garante per la protezione dei dati personali, Piazza Venezia 11, 00187 Roma: [www.garanteprivacy.it](https://www.garanteprivacy.it)
 
 ## 8. Cookie
 
@@ -125,6 +125,6 @@ La presente informativa può essere aggiornata in conseguenza di modifiche norma
 ---
 
 **Fonte:** https://oida-labs.com/legal/privacy-policy/index.md
-**Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
+**Sito:** https://oida-labs.com · OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

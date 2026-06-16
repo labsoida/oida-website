@@ -75,7 +75,7 @@ Il calcolo del LTV per specialità richiede dati storici sul comportamento dei p
 
 Un paziente che oggi prenota una visita dermatologica può aver trovato la struttura su Google sei settimane fa, aver letto le recensioni su Maps, aver visto una foto su Instagram e poi aver chiesto a un collega che era già paziente della struttura. **Quale canale ha "generato" quel paziente?**
 
-La risposta onesta è che tutti questi touchpoint hanno contribuito. L'attribuzione classica *last-click* — quella che attribuisce il paziente all'ultimo canale con cui ha interagito prima della prenotazione — è la più semplice da implementare ma la più inaccurata nella descrizione della realtà.
+La risposta onesta è che tutti questi touchpoint hanno contribuito. L'attribuzione classica *last-click*, quella che attribuisce il paziente all'ultimo canale con cui ha interagito prima della prenotazione, è la più semplice da implementare ma la più inaccurata nella descrizione della realtà.
 
 Per le strutture sanitarie private, il modello di attribuzione più pragmatico combina due fonti di dato: i **dati di tracciamento digitale** (Google Analytics, pixel delle campagne) per l'attribuzione dei touchpoint online, e la **domanda diretta al paziente** durante il primo contatto ("come ha conosciuto la nostra struttura?") per catturare tutto quello che il tracciamento digitale non vede, incluso il passaparola.
 

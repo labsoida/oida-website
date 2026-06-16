@@ -11,7 +11,7 @@ servizio: "advertising-sanitario"
 sources: "Dati interni OIDA Labs (analisi su campagne di marketing sanitario gestite 2023–2025), MIT Sloan / InsideSales.com Lead Response Management Study, Harvard Business Review The Short Life of Online Sales Leads (2011)."
 faqs:
   - q: "Qual è un CAC di riferimento nel marketing sanitario?"
-    a: "Il benchmark varia per specialità e per ticket medio del servizio. Per visite a basso commitment economico — fisioterapia, dermatologia di base — il CAC sostenibile si colloca tipicamente tra €30 e €80. Per specialità a ticket elevato — chirurgia estetica, odontoiatria implantologica, bariatrica — il CAC può essere sostenibile anche oltre €300–400, purché il lifetime value del paziente giustifichi l'investimento."
+    a: "Il benchmark varia per specialità e per ticket medio del servizio. Per visite a basso commitment economico (fisioterapia, dermatologia di base) il CAC sostenibile si colloca tipicamente tra €30 e €80. Per specialità a ticket elevato (chirurgia estetica, odontoiatria implantologica, bariatrica) il CAC può essere sostenibile anche oltre €300–400, purché il lifetime value del paziente giustifichi l'investimento."
   - q: "Ogni quanto tempo va ricalcolato il CAC?"
     a: "Su base mensile per l'operatività, su base trimestrale per le decisioni strategiche. Finestre più brevi risentono della volatilità settimanale; finestre più lunghe fanno perdere reattività sulle correzioni."
   - q: "Chi deve avere visibilità sul CAC in una struttura sanitaria?"
@@ -34,15 +34,15 @@ Nel **marketing sanitario** la scelta della metrica di riferimento condiziona og
 
 ## Cosa misura il CPL e perché non basta
 
-Il *cost per lead* indica quanto costa generare un contatto qualificato — una richiesta di informazioni, una compilazione di form, una chiamata in arrivo da canale digitale. È una metrica utile per valutare l'efficienza della campagna pubblicitaria in sé: quanto efficacemente il budget produce contatti.
+Il *cost per lead* indica quanto costa generare un contatto qualificato: una richiesta di informazioni, una compilazione di form, una chiamata in arrivo da canale digitale. È una metrica utile per valutare l'efficienza della campagna pubblicitaria in sé: quanto efficacemente il budget produce contatti.
 
 Il limite del CPL è che **si ferma al click**. Non dice nulla sul fatto che il lead abbia risposto al richiamo, sia arrivato all'appuntamento, si sia presentato in studio, abbia svolto la visita. Una struttura che ragiona solo sul CPL ottimizza una parte del funnel e lascia scoperta la parte che effettivamente determina il fatturato.
 
-In un settore come quello sanitario, dove il tasso di conversione lead-paziente varia in modo significativo tra specialità — dalla fisioterapia alla cardiologia passando per la chirurgia estetica — il CPL da solo non è sufficiente a orientare le scelte di investimento.
+In un settore come quello sanitario, dove il tasso di conversione lead-paziente varia in modo significativo tra specialità (dalla fisioterapia alla cardiologia passando per la chirurgia estetica) il CPL da solo non è sufficiente a orientare le scelte di investimento.
 
 ## Cosa misura il CAC e come si calcola
 
-Il *customer acquisition cost*, applicato alla sanità, rappresenta il costo effettivo per portare un paziente a svolgere la prima visita. Si ottiene dividendo il totale investito — budget pubblicitario più costi di gestione — per il numero di pazienti effettivamente acquisiti nel periodo considerato.
+Il *customer acquisition cost*, applicato alla sanità, rappresenta il costo effettivo per portare un paziente a svolgere la prima visita. Si ottiene dividendo il totale investito (budget pubblicitario più costi di gestione) per il numero di pazienti effettivamente acquisiti nel periodo considerato.
 
 Il calcolo richiede un tracciamento esteso lungo l'intero funnel. Servono quattro dati:
 
@@ -57,7 +57,7 @@ Ciascun passaggio ha un tasso di conversione proprio, e ogni percentuale che si 
 
 ## Il gap tra le due metriche: un caso reale
 
-In un progetto di **marketing sanitario** seguito da OIDA Labs, una struttura con un investimento pubblicitario di **€8.000 mensili** registrava un CPL dichiarato di **€67** — un risultato tecnicamente solido. Il calcolo del CAC reale, esteso all'intero percorso dal click alla visita effettuata, portava il costo per paziente acquisito a **€470**.
+In un progetto di **marketing sanitario** seguito da OIDA Labs, una struttura con un investimento pubblicitario di **€8.000 mensili** registrava un CPL dichiarato di **€67**, un risultato tecnicamente solido. Il calcolo del CAC reale, esteso all'intero percorso dal click alla visita effettuata, portava il costo per paziente acquisito a **€470**.
 
 La differenza non era imputabile alla qualità delle campagne. La generazione dei lead era ben tarata per targeting e creatività. Il divario emergeva nel processo a valle: tempi di risposta lunghi, assenza di script strutturati per il richiamo, tassi di no-show non monitorati, nessuna sequenza di reminder automatizzata per gli appuntamenti fissati. Ogni anello del funnel perdeva una quota di contatti che, cumulata, moltiplicava per sette il costo finale.
 
@@ -79,11 +79,11 @@ Ottimizzare il CAC significa presidiare tutti e quattro questi fattori in modo c
 
 ## Come impostare una misurazione operativa
 
-Il primo passaggio è rendere tracciabile l'intero percorso. Ogni lead deve essere associato a una fonte riconoscibile — campagna, canale, creatività — e seguito fino all'esito finale. Un CRM anche minimo è sufficiente, purché venga effettivamente aggiornato — abbiamo approfondito i meccanismi di una pipeline paziente funzionante nel nostro articolo [su come strutturare un CRM sanitario](/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/).
+Il primo passaggio è rendere tracciabile l'intero percorso. Ogni lead deve essere associato a una fonte riconoscibile (campagna, canale, creatività) e seguito fino all'esito finale. Un CRM anche minimo è sufficiente, purché venga effettivamente aggiornato. Abbiamo approfondito i meccanismi di una pipeline paziente funzionante nel nostro articolo [su come strutturare un CRM sanitario](/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/).
 
 Il secondo passaggio consiste nel definire i tassi di conversione di riferimento. I benchmark variano tra specialità, ma calcolare il proprio storico consente di identificare in quale fase del funnel la struttura perde più valore.
 
-Il terzo passaggio è la **revisione mensile**. I numeri vanno letti insieme all'agenzia, al responsabile delle campagne interno e al personale di front-office. Le decisioni di ottimizzazione — alzare o ridurre il budget, cambiare creatività, modificare lo script di richiamo — si prendono sui dati, non sulle impressioni.
+Il terzo passaggio è la **revisione mensile**. I numeri vanno letti insieme all'agenzia, al responsabile delle campagne interno e al personale di front-office. Le decisioni di ottimizzazione (alzare o ridurre il budget, cambiare creatività, modificare lo script di richiamo) si prendono sui dati, non sulle impressioni.
 
 ---
 

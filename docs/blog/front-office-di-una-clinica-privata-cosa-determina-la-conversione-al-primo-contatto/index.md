@@ -1,5 +1,5 @@
 ---
-# Markdown version per AI agents — generata da Hugo
+# Markdown version per AI agents, generata da Hugo
 # Vedi link rel="alternate" type="text/markdown" sulla versione HTML
 ---
 
@@ -116,6 +116,6 @@ Indirettamente sì. Ogni cambio di personale di front office implica un periodo 
 ---
 
 **Fonte:** https://oida-labs.com/blog/front-office-di-una-clinica-privata-cosa-determina-la-conversione-al-primo-contatto/index.md
-**Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
+**Sito:** https://oida-labs.com · OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

@@ -43,9 +43,9 @@ Il fenomeno non è omogeneo. Almeno tre categorie distinte, con motivazioni e fr
 
 **La prima categoria è quella dei lavoratori frontalieri.** Circa 80.000 cittadini italiani lavorano ogni giorno in Canton Ticino. Una parte ha optato per l'assicurazione LAMAL svizzera, rinunciando alla copertura del SSN italiano. Per questa categoria, accedere alle strutture ticinesi accreditate è la modalità naturale di fruizione dei servizi sanitari: non devono superare barriere culturali o logistiche specifiche.
 
-**La seconda categoria è quella dei residenti italiani delle province di confine** — Como, Varese, Verbano-Cusio-Ossola e in parte Novara — che non lavorano in Svizzera ma valutano le strutture ticinesi come alternative geograficamente accessibili. Per questa categoria, la distanza fisica da Lugano o Mendrisio può essere inferiore alla distanza dal capoluogo di provincia italiano.
+**La seconda categoria è quella dei residenti italiani delle province di confine** (Como, Varese, Verbano-Cusio-Ossola e in parte Novara) che non lavorano in Svizzera ma valutano le strutture ticinesi come alternative geograficamente accessibili. Per questa categoria, la distanza fisica da Lugano o Mendrisio può essere inferiore alla distanza dal capoluogo di provincia italiano.
 
-**La terza categoria è quella dei pazienti da aree più distanti** che si muovono specificamente per specializzazioni non disponibili o non accessibili nel proprio territorio. In alcune specialità — chirurgia ortopedica specializzata, oncologia di supporto, odontoiatria ad alta complessità — il Canton Ticino ospita strutture con competenze specifiche.
+**La terza categoria è quella dei pazienti da aree più distanti** che si muovono specificamente per specializzazioni non disponibili o non accessibili nel proprio territorio. In alcune specialità (chirurgia ortopedica specializzata, oncologia di supporto, odontoiatria ad alta complessità) il Canton Ticino ospita strutture con competenze specifiche.
 
 ## Le motivazioni: cosa spinge verso le strutture ticinesi
 
@@ -63,7 +63,7 @@ Il fenomeno non è omogeneo. Almeno tre categorie distinte, con motivazioni e fr
 
 ### Il percorso di ricerca con le sue specificità
 
-**Google è il punto di partenza per la grande maggioranza** di questo segmento. La ricerca avviene quasi sempre in italiano, con query che combinano la specialità cercata e la localizzazione: *"ortopedico privato Lugano"*, *"fisioterapista canton ticino"*, *"neurologo svizzero"*, *"clinica privata Lugano prenotazione"*. Le strutture che non compaiono in queste ricerche — perché non hanno contenuti ottimizzati per keyword italiane con riferimento ticinese — non esistono per questo segmento.
+**Google è il punto di partenza per la grande maggioranza** di questo segmento. La ricerca avviene quasi sempre in italiano, con query che combinano la specialità cercata e la localizzazione: *"ortopedico privato Lugano"*, *"fisioterapista canton ticino"*, *"neurologo svizzero"*, *"clinica privata Lugano prenotazione"*. Le strutture che non compaiono in queste ricerche (perché non hanno contenuti ottimizzati per keyword italiane con riferimento ticinese) non esistono per questo segmento.
 
 La visibilità digitale in italiano con riferimento geografico ticinese è il fattore tecnico su cui si costruisce l'intercettazione. Come costruirla in modo sistematico è analizzato nell'articolo su [SEO locale e Google Business Profile per cliniche in Canton Ticino](/blog/seo-locale-e-google-business-profile-per-cliniche-in-canton-ticino-un-mercato-a-bassa-concorrenza/).
 

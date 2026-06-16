@@ -1,5 +1,5 @@
 /**
- * OIDA Labs — Cookie Consent configuration
+ * OIDA Labs · Cookie Consent configuration
  * Uses cookieconsent v3 (https://cookieconsent.orestbida.com)
  * MIT License, open source
  *

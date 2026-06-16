@@ -1,5 +1,5 @@
 ---
-# Markdown version per AI agents — generata da Hugo
+# Markdown version per AI agents, generata da Hugo
 # Vedi link rel="alternate" type="text/markdown" sulla versione HTML
 ---
 
@@ -37,7 +37,7 @@ Il termine "telemedicina" copre una gamma molto ampia di servizi, con livelli di
 
 **Il teleconsulto** è l'interazione a distanza tra medico e paziente per una valutazione clinica, una prescrizione o un follow-up. È la forma più diffusa di telemedicina nelle strutture private italiane ed è quella con il modello operativo più consolidato: visita in videochiamata, referto digitale, eventuale prescrizione elettronica.
 
-**Il telemonitoraggio** riguarda la raccolta e trasmissione di dati clinici a distanza: parametri vitali, ECG, glicemia, saturazione. È più diffuso nelle strutture con specialità croniche — cardiologia, diabetologia, pneumologia — dove il monitoraggio continuativo aggiunge valore clinico rispetto alla sola visita periodica.
+**Il telemonitoraggio** riguarda la raccolta e trasmissione di dati clinici a distanza: parametri vitali, ECG, glicemia, saturazione. È più diffuso nelle strutture con specialità croniche (cardiologia, diabetologia, pneumologia) dove il monitoraggio continuativo aggiunge valore clinico rispetto alla sola visita periodica.
 
 **La teleassistenza** riguarda il supporto a pazienti che necessitano di assistenza continuativa, spesso in ambito post-operatorio o in cure domiciliari integrate.
 
@@ -55,7 +55,7 @@ La telemedicina funziona meno bene, o non funziona, in situazioni che richiedono
 
 **La telemedicina può essere usata per attrarre nuovi pazienti in una struttura sanitaria privata?**
 
-La telemedicina ha un potenziale di acquisizione reale ma limitato rispetto a ciò che spesso viene comunicato. Il potenziale è reale: un paziente che abita a 50 km dalla struttura e che difficilmente avrebbe prenotato una visita in presenza può essere raggiunto attraverso un servizio di teleconsulto. Per alcune specialità — psicologia, nutrizione e follow-up cronici — la distanza geografica smette di essere un vincolo alla scelta della struttura.
+La telemedicina ha un potenziale di acquisizione reale ma limitato rispetto a ciò che spesso viene comunicato. Il potenziale è reale: un paziente che abita a 50 km dalla struttura e che difficilmente avrebbe prenotato una visita in presenza può essere raggiunto attraverso un servizio di teleconsulto. Per alcune specialità (psicologia, nutrizione e follow-up cronici) la distanza geografica smette di essere un vincolo alla scelta della struttura.
 
 Il limite è che i pazienti che cercano attivamente una struttura privata per un problema nuovo hanno bisogno di costruire fiducia prima di affidarsi clinicamente. Questa fiducia si costruisce più facilmente in presenza. Il teleconsulto come canale di acquisizione funziona meglio **per pazienti già noti alla struttura, per follow-up programmati dopo procedure in presenza** e per prestazioni di consulenza con bassa componente di esame fisico.
 
@@ -63,7 +63,7 @@ Il limite è che i pazienti che cercano attivamente una struttura privata per un
 
 **Come si usa la telemedicina per aumentare la retention dei pazienti in una struttura privata?**
 
-Qui la telemedicina esprime il suo valore più consistente. I pazienti con patologie croniche o con percorsi di cura a lungo termine — diabetologia, cardiologia, reumatologia, oncologia di supporto — hanno necessità di contatto con la struttura in momenti che non giustificano ogni volta un accesso fisico. **Un sistema di telemonitoraggio integrato con la cartella clinica digitale permette al medico di seguire l'andamento del paziente senza richiedere visite in presenza** che il paziente potrebbe ritenere eccessive o gravose.
+Qui la telemedicina esprime il suo valore più consistente. I pazienti con patologie croniche o con percorsi di cura a lungo termine (diabetologia, cardiologia, reumatologia, oncologia di supporto) hanno necessità di contatto con la struttura in momenti che non giustificano ogni volta un accesso fisico. **Un sistema di telemonitoraggio integrato con la cartella clinica digitale permette al medico di seguire l'andamento del paziente senza richiedere visite in presenza** che il paziente potrebbe ritenere eccessive o gravose.
 
 Il valore per la struttura è doppio: aumenta la frequenza di contatto con il paziente (e quindi la revenue potenziale per paziente nel tempo), e aumenta la percezione di un'assistenza continuativa e personalizzata che differenzia la struttura da quelle che vedono il paziente solo durante le visite programmate.
 
@@ -110,6 +110,6 @@ L'integrazione con il sistema di prenotazione è uno dei punti operativi più fr
 ---
 
 **Fonte:** https://oida-labs.com/blog/telemedicina-nelle-cliniche-private-opportunita-concreta-o-moda-passeggera/index.md
-**Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
+**Sito:** https://oida-labs.com · OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

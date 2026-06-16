@@ -1,5 +1,5 @@
 ---
-# Markdown version per AI agents — generata da Hugo
+# Markdown version per AI agents, generata da Hugo
 # Vedi link rel="alternate" type="text/markdown" sulla versione HTML
 ---
 
@@ -35,7 +35,7 @@ L'automazione della prima risposta non è un tema di innovazione tecnologica. È
 
 Una struttura sanitaria che gestisce le richieste attraverso un form sul sito, un numero WhatsApp o una chat live ha un problema di gestione del tempo di risposta che i dati rendono concreto. Ricerche di InsideSales.com e MIT Sloan mostrano che **la probabilità di qualificare un lead scende del 90% se la prima risposta arriva dopo più di cinque minuti**. In cinque minuti, il paziente che ha compilato un form ha già continuato la ricerca altrove.
 
-Nelle strutture sanitarie private, il problema si stratifica. Il front office risponde alle telefonate in tempo reale durante l'orario di apertura, ma i canali digitali — email, form, WhatsApp, chat — vengono spesso gestiti in modo discontinuo, tra una telefonata e l'altra, o solo in determinati momenti della giornata. Il paziente che contatta alle 14:30 durante l'orario di punta del [front office](/blog/front-office-di-una-clinica-privata-cosa-determina-la-conversione-al-primo-contatto/) o alle 19:00 dopo la chiusura non viene raggiunto finché non è troppo tardi.
+Nelle strutture sanitarie private, il problema si stratifica. Il front office risponde alle telefonate in tempo reale durante l'orario di apertura, ma i canali digitali (email, form, WhatsApp, chat) vengono spesso gestiti in modo discontinuo, tra una telefonata e l'altra, o solo in determinati momenti della giornata. Il paziente che contatta alle 14:30 durante l'orario di punta del [front office](/blog/front-office-di-una-clinica-privata-cosa-determina-la-conversione-al-primo-contatto/) o alle 19:00 dopo la chiusura non viene raggiunto finché non è troppo tardi.
 
 Dati interni OIDA Labs su strutture monitorate tra il 2023 e il 2025 mostrano che il **34% dei lead digitali che non ricevono risposta entro 30 minuti non risponde a un ricontatto successivo**. Non si tratta di lead di qualità inferiore: si tratta di lead che hanno già prenotato altrove.
 
@@ -131,6 +131,6 @@ I chatbot che raccolgono informazioni legate alla salute dei pazienti sono sogge
 ---
 
 **Fonte:** https://oida-labs.com/blog/chatbot-e-automazione-della-prima-risposta-nelle-strutture-sanitarie-cosa-funziona-e-cosa-non-funziona/index.md
-**Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
+**Sito:** https://oida-labs.com · OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

@@ -60,7 +60,7 @@ Le strutture che ottengono i risultati più solidi nel tempo non scelgono tra do
 
 Il **72% dei pazienti consulta le recensioni online prima di scegliere una struttura**. Non è una tendenza in crescita: è già la norma. E la reputazione digitale di una struttura non è solo il numero di stelle su Google: è la somma di ogni segnale che il paziente raccoglie nel suo percorso informativo.
 
-La reputazione si costruisce prima di tutto attraverso la qualità clinica e l'esperienza in struttura. Ma anche la [gestione attiva della presenza digitale](/blog/gestione-delle-recensioni-online-nelle-cliniche-private-reputazione-digitale-e-acquisizione-pazienti/) — rispondere alle recensioni, mantenere aggiornate le informazioni, presidiare i canali dove i pazienti cercano — ha un peso concreto nella percezione che il potenziale paziente si forma prima di prenotare.
+La reputazione si costruisce prima di tutto attraverso la qualità clinica e l'esperienza in struttura. Ma anche la [gestione attiva della presenza digitale](/blog/gestione-delle-recensioni-online-nelle-cliniche-private-reputazione-digitale-e-acquisizione-pazienti/), rispondere alle recensioni, mantenere aggiornate le informazioni, presidiare i canali dove i pazienti cercano, ha un peso concreto nella percezione che il potenziale paziente si forma prima di prenotare.
 
 Una struttura con eccellenza clinica ma presenza digitale trascurata cede sistematicamente visibilità a strutture meno competitive sul piano clinico ma più curate su quello digitale. Il [profilo Google Business](/blog/google-business-profile-marketing-sanitario-profili-non-producono-risultati/) è spesso il primo elemento di valutazione per chi cerca una struttura nella propria area geografica.
 

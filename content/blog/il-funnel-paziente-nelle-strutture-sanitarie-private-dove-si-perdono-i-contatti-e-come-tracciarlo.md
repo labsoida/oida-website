@@ -22,7 +22,7 @@ draft: false
 
 Una struttura sanitaria privata che investe in pubblicità online, in SEO o in campagne Meta Ads misura quasi sempre il costo per lead: quanto costa generare un contatto. Poche strutture misurano il costo per paziente acquisito, ovvero quanto costa trasformare quel contatto in un paziente che ha effettivamente prenotato, si è presentato alla visita e ha potenzialmente costruito una relazione con la struttura.
 
-**La differenza tra questi due numeri — il CPL e il CAC reale — è la misura di ciò che si perde nel funnel. E in sanità privata, quello che si perde nel funnel è sistematicamente sottostimato.**
+**La differenza tra questi due numeri (il CPL e il CAC reale) è la misura di ciò che si perde nel funnel. E in sanità privata, quello che si perde nel funnel è sistematicamente sottostimato.**
 
 ---
 
@@ -57,13 +57,13 @@ Dati interni OIDA Labs su strutture monitorate tra il 2023 e il 2025 mostrano ch
 
 ### 2. Tra contatto e prenotazione: il problema del tempo di risposta
 
-La seconda perdita è spesso la più costosa in termini assoluti. Il paziente ha fatto il passo difficile — contattare la struttura — e non ha ricevuto risposta nei tempi che considerava accettabili.
+La seconda perdita è spesso la più costosa in termini assoluti. Il paziente ha fatto il passo difficile (contattare la struttura) e non ha ricevuto risposta nei tempi che considerava accettabili.
 
 Il tema del tempo di risposta e dell'automazione della prima interazione è approfondito nell'articolo su [chatbot e automazione della prima risposta](/blog/chatbot-e-automazione-della-prima-risposta-nelle-strutture-sanitarie-cosa-funziona-e-cosa-non-funziona/). Qui è rilevante sottolineare che questa perdita è misurabile: il numero di contatti ricevuti meno il numero di prenotazioni confermate, diviso per il numero di contatti, dà un tasso di conversione contatto-prenotazione che in strutture non ottimizzate può essere **inferiore al 40%**.
 
 ### 3. Tra prenotazione e presentazione: il problema del no-show
 
-Il no-show — il paziente che ha prenotato e non si presenta senza disdire — è un costo operativo e di marketing che poche strutture tracciano sistematicamente. La percentuale di no-show varia per specialità: in psicologia può superare il 20%, in fisioterapia e in alcune specialità chirurgiche è inferiore. Ma ogni no-show è un appuntamento non generato, un professionista con un'ora non valorizzata e un costo di acquisizione del lead che non ha prodotto ricavo.
+Il no-show (il paziente che ha prenotato e non si presenta senza disdire) è un costo operativo e di marketing che poche strutture tracciano sistematicamente. La percentuale di no-show varia per specialità: in psicologia può superare il 20%, in fisioterapia e in alcune specialità chirurgiche è inferiore. Ma ogni no-show è un appuntamento non generato, un professionista con un'ora non valorizzata e un costo di acquisizione del lead che non ha prodotto ricavo.
 
 > I sistemi di promemoria automatici (SMS, email, WhatsApp) riducono il no-show in modo documentato. **La riduzione media rilevabile con un sistema di promemoria a 24-48 ore dall'appuntamento è tra il 20% e il 35%** del tasso di no-show precedente all'implementazione.
 

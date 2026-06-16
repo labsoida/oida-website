@@ -93,7 +93,7 @@ Il collegamento tra CPL (costo per lead delle campagne) e CAC reale (costo per p
 
 L'automazione AI in un CRM sanitario interviene principalmente su tre attività: notifiche e alert in tempo reale per i lead che superano la soglia di tempo senza risposta, sequenze di follow-up automatiche per i lead non convertiti, e scoring dei contatti in entrata per aiutare il front desk a prioritizzare.
 
-Il valore dell'automazione non è eliminare il lavoro umano — la decisione clinica e la costruzione di fiducia con il paziente richiedono intervento umano — ma eliminare la parte meccanica e ripetitiva che consuma attenzione e crea errori di omissione. Un sistema che notifica automaticamente quando un lead supera due ore senza risposta non sostituisce chi risponde: assicura che nessun lead venga dimenticato per distrazione o sovraccarico operativo.
+Il valore dell'automazione non è eliminare il lavoro umano (la decisione clinica e la costruzione di fiducia con il paziente richiedono intervento umano) ma eliminare la parte meccanica e ripetitiva che consuma attenzione e crea errori di omissione. Un sistema che notifica automaticamente quando un lead supera due ore senza risposta non sostituisce chi risponde: assicura che nessun lead venga dimenticato per distrazione o sovraccarico operativo.
 
 Le implicazioni più ampie dell'[AI applicata al marketing sanitario](/blog/ai-marketing-sanitario-applicazioni-cliniche-poliambulatori/), incluse automazione del follow-up, riduzione dei no-show e ottimizzazione delle campagne, sono analizzate nell'articolo dedicato.
 

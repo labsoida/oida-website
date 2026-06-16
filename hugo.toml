@@ -1,7 +1,7 @@
 baseURL = "https://oida-labs.com/"
 relativeURLs = true
 languageCode = "it"
-title = "OIDA Labs — Agenzia di Marketing Sanitario fondata da medici"
+title = "OIDA Labs · Agenzia di Marketing Sanitario fondata da medici"
 publishDir = "docs"
 enableRobotsTXT = true
 enableGitInfo = true

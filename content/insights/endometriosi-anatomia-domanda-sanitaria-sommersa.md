@@ -3,12 +3,12 @@ title: "Endometriosi: anatomia di una domanda sanitaria sommersa"
 description: "Il Report GIMBE 2/2026 letto da OIDA Labs: ritardo diagnostico, esenzione 063 e mappa dei PDTA come scenario per la ginecologia privata italiana."
 date: 2026-04-22
 author: "OIDA Labs"
-kicker: "OIDA Insight — Aprile 2026"
+kicker: "OIDA Insight · Aprile 2026"
 base: "Base empirica: Report GIMBE 2/2026"
 about: "Marketing sanitario per ginecologia specialistica e endometriosi"
 image: "img/insights/endometriosi-anatomia-domanda-sanitaria-sommersa.webp"
 og_image: "img/insights/endometriosi-og.jpg"
-image_alt: "Endometriosi: anatomia di una domanda sanitaria sommersa — analisi OIDA Labs"
+image_alt: "Endometriosi: anatomia di una domanda sanitaria sommersa, analisi OIDA Labs"
 tags: ["mercato sanitario", "strategia"]
 stats:
   - number: "1,8"
@@ -164,7 +164,7 @@ La conseguenza operativa è netta. In una strategia di comunicazione rivolta a q
 In un percorso di scelta lungo sette-dieci anni, il vantaggio non lo costruisce chi compra traffico: lo costruisce chi ha accumulato autorevolezza specialistica mentre la paziente era ancora nella fase esplorativa.
 {{< /insight-pullquote >}}
 
-L'esperienza digitale della paziente, in questo segmento, è quindi un oggetto diverso da quello che la maggior parte dei reparti comunicazione delle strutture sanitarie italiane abitualmente progetta. Non è un percorso di conversione da forzare con qualche tocco pubblicitario; è un presidio editoriale da costruire nel tempo. I riferimenti diagnostici precisi (classificazione ASRM, ecografia pelvica di secondo livello, stadiazione, percorso per fenotipo clinico), i dati di volumetria chirurgica, i curriculum delle figure clinicamente responsabili, la dichiarazione esplicita di cosa la struttura tratta in sede e cosa indirizza altrove sono gli unici contenuti che, nel nostro monitoraggio dei comportamenti di ricerca, generano tempo di permanenza significativo e contatto qualificato in questo segmento. La paziente con sette anni di ricerca alle spalle non è intercettabile con la brochure aziendale. **È intercettabile con la precisione.**
+L'esperienza digitale della paziente, in questo segmento, è quindi un oggetto diverso da quello che molti reparti comunicazione delle strutture sanitarie italiane abitualmente progettano. Non è un percorso di conversione da forzare con qualche tocco pubblicitario; è un presidio editoriale da costruire nel tempo. I riferimenti diagnostici precisi (classificazione ASRM, ecografia pelvica di secondo livello, stadiazione, percorso per fenotipo clinico), i dati di volumetria chirurgica, i curriculum delle figure clinicamente responsabili, la dichiarazione esplicita di cosa la struttura tratta in sede e cosa indirizza altrove sono gli unici contenuti che, nel nostro monitoraggio dei comportamenti di ricerca, generano tempo di permanenza significativo e contatto qualificato in questo segmento. La paziente con sette anni di ricerca alle spalle non è intercettabile con la brochure aziendale. **È intercettabile con la precisione.**
 
 ## Segmentazione della domanda: un pubblico definito, escluso dall'esenzione nazionale
 

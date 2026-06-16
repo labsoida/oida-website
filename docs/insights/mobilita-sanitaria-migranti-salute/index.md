@@ -1,5 +1,5 @@
 ---
-# Markdown version per AI agents — generata da Hugo
+# Markdown version per AI agents, generata da Hugo
 # Vedi link rel="alternate" type="text/markdown" sulla versione HTML
 ---
 
@@ -9,7 +9,7 @@
 
 **Data:** 2026-05-22
 **Autore:** OIDA Labs
-**Categoria:** OIDA Insight — Maggio 2026
+**Categoria:** OIDA Insight · Maggio 2026
 **Base empirica:** Base empirica: Rapporto annuale ISTAT 2026
 **Tag:** mercato sanitario, strategia
 
@@ -77,7 +77,7 @@ Il paziente che parte per curarsi altrove ha già compiuto la scelta più diffic
 
 Per una struttura sanitaria privata, la mobilità del paziente cambia il modo di ragionare sul proprio bacino di utenza. Il bacino non coincide più con il territorio amministrativo in cui la struttura ha sede: include chi, da un'area vicina mal servita, è disposto a spostarsi se trova una risposta chiara e raggiungibile. Una struttura collocata a ridosso di un'Area Interna, o di una provincia con offerta pubblica debole, ha davanti un bacino reale più ampio di quello apparente, a condizione di rendersi visibile a chi sta già cercando fuori dal proprio comune.
 
-La visibilità, in questo caso, ha una componente geografica precisa. Le ricerche dei pazienti contengono quasi sempre un riferimento al luogo, e una struttura che presidia il proprio bacino allargato — con una [strategia SEO e GEO costruita sul comportamento di ricerca locale](/servizi/seo-geo-sanita/) e informazioni chiare su prestazioni, tempi e accessibilità — intercetta la domanda nel momento in cui si forma la decisione di spostarsi. Chi resta visibile solo nel proprio comune lascia che quella decisione maturi a favore di un concorrente più avanti lungo la stessa direttrice. È il punto che approfondiamo anche nell'analisi sul [Google Business Profile come canale critico del marketing sanitario locale](/blog/google-business-profile-marketing-sanitario-profili-non-producono-risultati/).
+La visibilità, in questo caso, ha una componente geografica precisa. Le ricerche dei pazienti contengono quasi sempre un riferimento al luogo, e una struttura che presidia il proprio bacino allargato (con una [strategia SEO e GEO costruita sul comportamento di ricerca locale](/servizi/seo-geo-sanita/) e informazioni chiare su prestazioni, tempi e accessibilità) intercetta la domanda nel momento in cui si forma la decisione di spostarsi. Chi resta visibile solo nel proprio comune lascia che quella decisione maturi a favore di un concorrente più avanti lungo la stessa direttrice. È il punto che approfondiamo anche nell'analisi sul [Google Business Profile come canale critico del marketing sanitario locale](/blog/google-business-profile-marketing-sanitario-profili-non-producono-risultati/).
 
 C'è poi il tema dell'accesso, che nelle Aree Interne pesa più che altrove. Un pubblico mediamente più anziano, meno servito dai trasporti e con minore dimestichezza digitale chiede percorsi semplici: informazioni raggiungibili anche senza strumenti complessi, un primo contatto umano efficiente e indicazioni pratiche su come arrivare e cosa aspettarsi. La struttura che riduce l'attrito di accesso per chi viene da lontano trasforma una domanda potenziale in un paziente effettivo.
 
@@ -97,6 +97,6 @@ La leva non è clinica, è di posizionamento e di accessibilità: presidiare le 
 ---
 
 **Fonte:** https://oida-labs.com/insights/mobilita-sanitaria-migranti-salute/index.md
-**Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
+**Sito:** https://oida-labs.com · OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

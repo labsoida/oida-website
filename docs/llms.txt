@@ -2,7 +2,7 @@
 
 > Agenzia di marketing sanitario fondata da medici. Digital marketing, SEO/GEO, advertising, CRM, AI, ufficio stampa, talent acquisition e progettazione di ambienti chirurgici per cliniche e strutture sanitarie private in Italia, Svizzera e Regno Unito.
 
-OIDA Labs Sagl — Piazza dell'Indipendenza 3, 6900 Lugano (CH) — IDE CHE-144.100.469 — info@oida-labs.com
+OIDA Labs Sagl · Piazza dell'Indipendenza 3, 6900 Lugano (CH) · IDE CHE-144.100.469 · info@oida-labs.com
 
 Ogni pagina elencata sotto ha una variante markdown per AI agents: i link puntano direttamente al file `index.md` della pagina (la versione HTML è allo stesso URL senza `index.md`).
 
@@ -13,7 +13,7 @@ Ogni pagina elencata sotto ha una variante markdown per AI agents: i link puntan
 - [Consulenza Strategica per la Sanità](https://oida-labs.com/servizi/consulenza-strategica-sanitaria/index.md): Analizziamo la tua struttura e ti diciamo cosa fare, in che ordine e con quali priorità. Strategia di marketing sanitario basata sui dati.
 - [CRM e Automazioni per la Sanità](https://oida-labs.com/servizi/crm-automation-sanita/index.md): Ti aiutiamo a scegliere e configurare il CRM giusto e automatizziamo i follow-up, così nessuna richiesta si perde. Indipendenti, nessun software nostro.
 - [Digital Marketing e ADV per la Sanità](https://oida-labs.com/servizi/advertising-sanitario/index.md): Campagne Google e Meta costruite per studi medici e cliniche: i pazienti giusti ti trovano, budget misurato. Gestite da chi viene dalla sanità.
-- [Intelligenza Artificiale per la Sanità](https://oida-labs.com/servizi/intelligenza-artificiale-sanita/index.md): Integriamo gli strumenti di AI utili alla tua struttura e ne sviluppiamo su misura quando servono. Senza hype, scelti da chi viene dalla sanità.
+- [Intelligenza Artificiale per la Sanità](https://oida-labs.com/servizi/intelligenza-artificiale-sanita/index.md): Integriamo gli strumenti di AI utili alla tua struttura e ne sviluppiamo dedicati quando servono. Senza clamore, scelti da chi viene dalla sanità.
 - [Progettazione di Ambienti Chirurgici](https://oida-labs.com/servizi/progettazione-ambienti-chirurgici/index.md): Ti affianchiamo per aprire o ampliare sale operatorie e ambulatori chirurgici: fattibilità, norme, strumentari. La competenza di chi li ha vissuti.
 - [SEO e GEO per la Sanità](https://oida-labs.com/servizi/seo-geo-sanita/index.md): Ti facciamo trovare da chi cerca le tue prestazioni, su Google e sulle risposte AI. SEO e GEO per la sanità, curate da chi viene dalla sanità.
 - [Siti Web per la Sanità](https://oida-labs.com/servizi/siti-web-sanitari/index.md): Realizziamo siti web per studi medici, cliniche e poliambulatori: chiari, veloci e pensati per chi cerca cura. Costruiti da chi viene dalla sanità.
@@ -32,7 +32,7 @@ Ogni pagina elencata sotto ha una variante markdown per AI agents: i link puntan
 - [Gestione delle recensioni online nelle cliniche private: reputazione digitale e acquisizione pazienti](https://oida-labs.com/blog/gestione-delle-recensioni-online-nelle-cliniche-private-reputazione-digitale-e-acquisizione-pazienti/index.md): Le recensioni online guidano la scelta dei pazienti che valutano una struttura privata. Come gestirle in modo sistematico per la reputazione digitale.
 - [CRM sanitario: perché le strutture private perdono pazienti dopo il primo contatto](https://oida-labs.com/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/index.md): Un CRM sanitario non è un software: è il processo che decide quanti lead diventano pazienti. Cosa succede nelle strutture che non lo governano.
 - [CPL e CAC nel marketing sanitario: quale metrica misura davvero la redditività](https://oida-labs.com/blog/cpl-cac-marketing-sanitario-metrica-redditivita/index.md): Il CPL misura il costo del lead, il CAC il costo per paziente acquisito. La differenza tra i due numeri determina la redditività reale del marketing.
-- [Google Business Profile e marketing sanitario: perché la maggior parte dei profili non produce risultati](https://oida-labs.com/blog/google-business-profile-marketing-sanitario-profili-non-producono-risultati/index.md): Il Google Business Profile è spesso compilato ma raramente performante. Cosa separa un profilo presente da uno che genera pazienti.
+- [Google Business Profile e marketing sanitario: perché molti profili non producono risultati](https://oida-labs.com/blog/google-business-profile-marketing-sanitario-profili-non-producono-risultati/index.md): Il Google Business Profile è spesso compilato ma raramente performante. Cosa separa un profilo presente da uno che genera pazienti.
 - [AI e marketing sanitario: applicazioni concrete per cliniche e poliambulatori](https://oida-labs.com/blog/ai-marketing-sanitario-applicazioni-cliniche-poliambulatori/index.md): Intelligenza artificiale nel marketing sanitario: follow-up automatizzato, campagne e analisi predittiva per le strutture sanitarie private.
 - [Agenzia di marketing sanitario: quattro criteri oggettivi per valutarla](https://oida-labs.com/blog/agenzia-marketing-sanitario-quattro-criteri-oggettivi-valutarla/index.md): Quattro parametri operativi per scegliere un'agenzia di marketing sanitario: specializzazione, metodo e responsabilità sui risultati.
 - [Advertising sanitario su Google e Meta: normative, limiti e strategie per strutture private in Italia](https://oida-labs.com/blog/advertising-sanitario-su-google-e-meta-normative-limiti-e-strategie-per-strutture-private-in-italia/index.md): Campagne Google e Meta per strutture sanitarie private in Italia: i vincoli normativi che contano e come investire con risultati misurabili.
@@ -56,4 +56,4 @@ Ogni pagina elencata sotto ha una variante markdown per AI agents: i link puntan
 - [Manifest AI](https://oida-labs.com/.well-known/ai-plugin.json): identità, sede, compliance e fonti citabili
 - [Sitemap](https://oida-labs.com/sitemap.xml)
 
-Citazione preferita: OIDA Labs — https://oida-labs.com
+Citazione preferita: OIDA Labs · https://oida-labs.com

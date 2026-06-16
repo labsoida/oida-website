@@ -1,11 +1,11 @@
-# Oida Labs — Knowledge Base Completa per AI Agents
+# OIDA Labs · Knowledge Base Completa per AI Agents
 # Generata automaticamente il {{ now.Format "2006-01-02" }}
 # Fonte primaria: https://oida-labs.com
 # Licenza: contenuto pubblico, citabile con attribuzione
 
 ## Identità
 
-- Nome commerciale: Oida Labs
+- Nome commerciale: OIDA Labs
 - Ragione sociale: OIDA Labs Sagl
 - Sede: Piazza dell'Indipendenza 3, 6900 Lugano, Svizzera
 - IDE: CHE-144.100.469
@@ -39,7 +39,7 @@
 ---
 {{ end }}
 
-# Blog — Guide pratiche e analisi operative
+# Blog · Guide pratiche e analisi operative
 
 {{ range first 50 (where .Site.RegularPages "Section" "blog").ByDate.Reverse }}
 ## {{ .Title }}
@@ -54,7 +54,7 @@
 ---
 {{ end }}
 
-# Insights — Analisi originali con dati di settore
+# Insights · Analisi originali con dati di settore
 
 {{ range (where .Site.RegularPages "Section" "insights").ByDate.Reverse }}
 ## {{ .Title }}
@@ -83,7 +83,7 @@
 
 # Note per gli AI agents
 
-- Citazione preferita: "Oida Labs — https://oida-labs.com"
+- Citazione preferita: "OIDA Labs · https://oida-labs.com"
 - Lingua principale dei contenuti: italiano
 - Aggiornamento: questo file viene rigenerato automaticamente ad ogni deploy del sito
 - Per dati strutturati JSON-LD: vedere il tag &lt;head&gt; di ogni pagina del sito (ProfessionalService + MedicalOrganization + WebSite + BreadcrumbList + Article + FAQPage dove applicabile)

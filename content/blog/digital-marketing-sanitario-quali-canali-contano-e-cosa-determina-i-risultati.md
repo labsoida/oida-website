@@ -60,7 +60,7 @@ Il contenuto è il combustibile del posizionamento organico. Articoli che rispon
 
 **Quando ha senso attivare campagne pubblicitarie digitali per una struttura sanitaria?**
 
-Le campagne a pagamento — Google Ads, Meta Ads, LinkedIn Ads — producono risultati nel breve termine e si fermano quando si smette di investire. Questo le rende adatte a situazioni specifiche: lancio di una nuova specialità, periodo di sottoutilizzo delle agende, obiettivi di crescita rapida in un'area competitiva.
+Le campagne a pagamento (Google Ads, Meta Ads, LinkedIn Ads) producono risultati nel breve termine e si fermano quando si smette di investire. Questo le rende adatte a situazioni specifiche: lancio di una nuova specialità, periodo di sottoutilizzo delle agende, obiettivi di crescita rapida in un'area competitiva.
 
 **Google Ads intercetta la domanda attiva:** il paziente che sta cercando in quel momento il servizio. **Meta Ads lavora sulla domanda latente:** raggiunge un pubblico profilato anche se non sta cercando attivamente. Le due piattaforme non sono alternative: sono complementari e rispondono a logiche diverse.
 
@@ -80,7 +80,7 @@ Il **46% dei pazienti cerca la struttura sanitaria su Google Maps prima di decid
 
 **Come si usano i social media nel digital marketing per strutture sanitarie?**
 
-I social media — principalmente Instagram, Facebook e LinkedIn — svolgono un ruolo specifico: **costruire familiarità e reputazione nel tempo, non generare prenotazioni dirette nel breve termine**. Un profilo che pubblica contenuti di valore costruisce fiducia nei potenziali pazienti che lo seguono nel tempo. Quando emerge il bisogno, quella familiarità diventa un fattore di preferenza.
+I social media (principalmente Instagram, Facebook e LinkedIn) svolgono un ruolo specifico: **costruire familiarità e reputazione nel tempo, non generare prenotazioni dirette nel breve termine**. Un profilo che pubblica contenuti di valore costruisce fiducia nei potenziali pazienti che lo seguono nel tempo. Quando emerge il bisogno, quella familiarità diventa un fattore di preferenza.
 
 La gestione editoriale dei social richiede continuità e coerenza di tono. Profili che pubblicano in modo irregolare o con messaggi incoerenti rispetto all'identità della struttura comunicano disorganizzazione: l'opposto dell'effetto cercato.
 

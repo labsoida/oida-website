@@ -1,5 +1,5 @@
 ---
-# Markdown version per AI agents — generata da Hugo
+# Markdown version per AI agents, generata da Hugo
 # Vedi link rel="alternate" type="text/markdown" sulla versione HTML
 ---
 
@@ -35,7 +35,7 @@ Nessuna delle due è la scelta giusta in assoluto, ma sono scelte con implicazio
 
 Una struttura accreditata LAMAL può erogare prestazioni rimborsabili dall'assicurazione di base ai propri pazienti. Questo significa che si rivolge a un bacino che include tutti i residenti svizzeri con LAMAL (che in Canton Ticino comprende anche circa 80.000 frontalieri italiani che hanno optato per la copertura svizzera). **L'accesso per il paziente è economicamente accessibile**: paga franchigia e aliquota, il resto è a carico dell'assicuratore.
 
-Una struttura non accreditata si rivolge a un segmento più ristretto: pazienti con assicurazioni complementari che coprono strutture non accreditate, pazienti italiani in regime privato, pazienti svizzeri disposti a pagare integralmente per ragioni di preferenza. Questo segmento è economicamente più qualificato — il paziente ha già superato la barriera del pagamento integrale — e **la struttura mantiene piena libertà tariffaria**.
+Una struttura non accreditata si rivolge a un segmento più ristretto: pazienti con assicurazioni complementari che coprono strutture non accreditate, pazienti italiani in regime privato, pazienti svizzeri disposti a pagare integralmente per ragioni di preferenza. Questo segmento è economicamente più qualificato (il paziente ha già superato la barriera del pagamento integrale) e **la struttura mantiene piena libertà tariffaria**.
 
 > La distinzione non è che una struttura accreditata sia "più pubblica" e una non accreditata sia "più privata" nel senso italiano del termine. In Canton Ticino, l'accreditamento LAMAL è compatibile con la gestione completamente privata della struttura: si è privati nell'organizzazione, ma si aderisce al sistema di rimborso dell'assicurazione obbligatoria.
 
@@ -107,7 +107,7 @@ Le strutture che gestiscono questo ibrido in modo efficace hanno investito in pr
 
 ## Sintesi
 
-L'accreditamento LAMAL è una scelta di posizionamento, non solo un atto amministrativo. Definisce il bacino di pazienti, la libertà tariffaria e le leve di marketing disponibili. **Le strutture che gestiscono questa variabile in modo consapevole — accreditamento, regime privato, o strategia mista — costruiscono un posizionamento coerente con il proprio modello economico.** Quelle che la subiscono come dato di fatto perdono opportunità di differenziazione.
+L'accreditamento LAMAL è una scelta di posizionamento, non solo un atto amministrativo. Definisce il bacino di pazienti, la libertà tariffaria e le leve di marketing disponibili. **Le strutture che gestiscono questa variabile in modo consapevole (accreditamento, regime privato, o strategia mista) costruiscono un posizionamento coerente con il proprio modello economico.** Quelle che la subiscono come dato di fatto perdono opportunità di differenziazione.
 
 
 ## FAQ
@@ -128,6 +128,6 @@ La chiarezza nella comunicazione pre-visita è fondamentale. La prassi più effi
 ---
 
 **Fonte:** https://oida-labs.com/blog/lamal-e-posizionamento-delle-strutture-sanitarie-private-in-canton-ticino-accreditamento-tariffe-e-strategia/index.md
-**Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
+**Sito:** https://oida-labs.com · OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

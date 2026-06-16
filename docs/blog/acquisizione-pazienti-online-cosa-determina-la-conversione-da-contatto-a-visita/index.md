@@ -1,5 +1,5 @@
 ---
-# Markdown version per AI agents — generata da Hugo
+# Markdown version per AI agents, generata da Hugo
 # Vedi link rel="alternate" type="text/markdown" sulla versione HTML
 ---
 
@@ -79,9 +79,9 @@ Un sistema di acquisizione pazienti sostenibile nel lungo termine si costruisce 
 
 **La prima è la presenza digitale:** il posizionamento organico, il profilo Google Business, la reputazione raccolta attraverso le recensioni. Questa componente lavora in modo continuativo anche quando le campagne a pagamento sono inattive.
 
-**La seconda è il processo di gestione dei lead:** chi risponde, come risponde, in quanto tempo, con quale sistema di follow-up per i contatti che non si convertono immediatamente. Questo processo è un asset operativo della struttura — il cuore di un [CRM sanitario funzionante](/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/) — non una responsabilità dell'agenzia di marketing.
+**La seconda è il processo di gestione dei lead:** chi risponde, come risponde, in quanto tempo, con quale sistema di follow-up per i contatti che non si convertono immediatamente. Questo processo è un asset operativo della struttura, il cuore di un [CRM sanitario funzionante](/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/), non una responsabilità dell'agenzia di marketing.
 
-**La terza è la fidelizzazione dei pazienti esistenti.** Un paziente soddisfatto che torna è significativamente meno costoso da acquisire rispetto a un paziente nuovo. Le specialità con possibilità di follow-up ricorrente — fisioterapia, odontoiatria, medicina preventiva — hanno un lifetime value del paziente che giustifica investimenti di acquisizione inizialmente elevati.
+**La terza è la fidelizzazione dei pazienti esistenti.** Un paziente soddisfatto che torna è significativamente meno costoso da acquisire rispetto a un paziente nuovo. Le specialità con possibilità di follow-up ricorrente (fisioterapia, odontoiatria, medicina preventiva) hanno un lifetime value del paziente che giustifica investimenti di acquisizione inizialmente elevati.
 
 ---
 
@@ -98,7 +98,7 @@ Dipende dal tasso di conversione della struttura, che varia in base alla special
 
 **Il numero di no-show è un problema di marketing o di gestione interna?**
 
-Di entrambi. Il marketing può contribuire riducendo il mismatch tra il paziente acquisito e il servizio offerto. La gestione del no-show — promemoria, conferme, politiche di cancellazione — è però un processo interno che il marketing non può sostituire.
+Di entrambi. Il marketing può contribuire riducendo il mismatch tra il paziente acquisito e il servizio offerto. La gestione del no-show (promemoria, conferme, politiche di cancellazione) è però un processo interno che il marketing non può sostituire.
 
 **Conviene raccogliere i dati dei pazienti per fare remarketing?**
 
@@ -108,6 +108,6 @@ Il remarketing verso utenti che hanno già visitato il sito è uno degli strumen
 ---
 
 **Fonte:** https://oida-labs.com/blog/acquisizione-pazienti-online-cosa-determina-la-conversione-da-contatto-a-visita/index.md
-**Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
+**Sito:** https://oida-labs.com · OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

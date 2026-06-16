@@ -14,7 +14,7 @@ faqs:
   - q: "Quanti lead serve generare per riempire un'agenda?"
     a: "Dipende dal tasso di conversione della struttura, che varia in base alla specialità, alla qualità del processo di gestione dei contatti e al mercato locale. Conoscere il proprio tasso di conversione reale è il punto di partenza per qualsiasi ragionamento sul budget da investire."
   - q: "Il numero di no-show è un problema di marketing o di gestione interna?"
-    a: "Di entrambi. Il marketing può contribuire riducendo il mismatch tra il paziente acquisito e il servizio offerto. La gestione del no-show — promemoria, conferme, politiche di cancellazione — è però un processo interno che il marketing non può sostituire."
+    a: "Di entrambi. Il marketing può contribuire riducendo il mismatch tra il paziente acquisito e il servizio offerto. La gestione del no-show (promemoria, conferme, politiche di cancellazione) è però un processo interno che il marketing non può sostituire."
   - q: "Conviene raccogliere i dati dei pazienti per fare remarketing?"
     a: "Il remarketing verso utenti che hanno già visitato il sito è uno degli strumenti più efficaci per aumentare la conversione a basso costo. Richiede la corretta implementazione degli strumenti di tracciamento e la conformità al GDPR per il consenso alla raccolta dei dati."
 draft: false
@@ -85,9 +85,9 @@ Un sistema di acquisizione pazienti sostenibile nel lungo termine si costruisce 
 
 **La prima è la presenza digitale:** il posizionamento organico, il profilo Google Business, la reputazione raccolta attraverso le recensioni. Questa componente lavora in modo continuativo anche quando le campagne a pagamento sono inattive.
 
-**La seconda è il processo di gestione dei lead:** chi risponde, come risponde, in quanto tempo, con quale sistema di follow-up per i contatti che non si convertono immediatamente. Questo processo è un asset operativo della struttura — il cuore di un [CRM sanitario funzionante](/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/) — non una responsabilità dell'agenzia di marketing.
+**La seconda è il processo di gestione dei lead:** chi risponde, come risponde, in quanto tempo, con quale sistema di follow-up per i contatti che non si convertono immediatamente. Questo processo è un asset operativo della struttura, il cuore di un [CRM sanitario funzionante](/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/), non una responsabilità dell'agenzia di marketing.
 
-**La terza è la fidelizzazione dei pazienti esistenti.** Un paziente soddisfatto che torna è significativamente meno costoso da acquisire rispetto a un paziente nuovo. Le specialità con possibilità di follow-up ricorrente — fisioterapia, odontoiatria, medicina preventiva — hanno un lifetime value del paziente che giustifica investimenti di acquisizione inizialmente elevati.
+**La terza è la fidelizzazione dei pazienti esistenti.** Un paziente soddisfatto che torna è significativamente meno costoso da acquisire rispetto a un paziente nuovo. Le specialità con possibilità di follow-up ricorrente (fisioterapia, odontoiatria, medicina preventiva) hanno un lifetime value del paziente che giustifica investimenti di acquisizione inizialmente elevati.
 
 ---
 

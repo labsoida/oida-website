@@ -1,5 +1,5 @@
 ---
-# Markdown version per AI agents — generata da Hugo
+# Markdown version per AI agents, generata da Hugo
 # Vedi link rel="alternate" type="text/markdown" sulla versione HTML
 ---
 
@@ -9,7 +9,7 @@
 
 **Data:** 2026-04-22
 **Autore:** OIDA Labs
-**Categoria:** OIDA Insight — Aprile 2026
+**Categoria:** OIDA Insight · Aprile 2026
 **Base empirica:** Base empirica: Report GIMBE 2/2026
 **Tag:** mercato sanitario, strategia
 
@@ -140,7 +140,7 @@ La conseguenza operativa è netta. In una strategia di comunicazione rivolta a q
 In un percorso di scelta lungo sette-dieci anni, il vantaggio non lo costruisce chi compra traffico: lo costruisce chi ha accumulato autorevolezza specialistica mentre la paziente era ancora nella fase esplorativa.
 {{< /insight-pullquote >}}
 
-L'esperienza digitale della paziente, in questo segmento, è quindi un oggetto diverso da quello che la maggior parte dei reparti comunicazione delle strutture sanitarie italiane abitualmente progetta. Non è un percorso di conversione da forzare con qualche tocco pubblicitario; è un presidio editoriale da costruire nel tempo. I riferimenti diagnostici precisi (classificazione ASRM, ecografia pelvica di secondo livello, stadiazione, percorso per fenotipo clinico), i dati di volumetria chirurgica, i curriculum delle figure clinicamente responsabili, la dichiarazione esplicita di cosa la struttura tratta in sede e cosa indirizza altrove sono gli unici contenuti che, nel nostro monitoraggio dei comportamenti di ricerca, generano tempo di permanenza significativo e contatto qualificato in questo segmento. La paziente con sette anni di ricerca alle spalle non è intercettabile con la brochure aziendale. **È intercettabile con la precisione.**
+L'esperienza digitale della paziente, in questo segmento, è quindi un oggetto diverso da quello che molti reparti comunicazione delle strutture sanitarie italiane abitualmente progettano. Non è un percorso di conversione da forzare con qualche tocco pubblicitario; è un presidio editoriale da costruire nel tempo. I riferimenti diagnostici precisi (classificazione ASRM, ecografia pelvica di secondo livello, stadiazione, percorso per fenotipo clinico), i dati di volumetria chirurgica, i curriculum delle figure clinicamente responsabili, la dichiarazione esplicita di cosa la struttura tratta in sede e cosa indirizza altrove sono gli unici contenuti che, nel nostro monitoraggio dei comportamenti di ricerca, generano tempo di permanenza significativo e contatto qualificato in questo segmento. La paziente con sette anni di ricerca alle spalle non è intercettabile con la brochure aziendale. **È intercettabile con la precisione.**
 
 ## Segmentazione della domanda: un pubblico definito, escluso dall'esenzione nazionale
 
@@ -354,6 +354,6 @@ Il compito residuo, non clinico ma di posizionamento, strategia dei contenuti e 
 ---
 
 **Fonte:** https://oida-labs.com/insights/endometriosi-anatomia-domanda-sanitaria-sommersa/index.md
-**Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
+**Sito:** https://oida-labs.com · OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

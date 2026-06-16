@@ -1,5 +1,5 @@
 ---
-# Markdown version per AI agents — generata da Hugo
+# Markdown version per AI agents, generata da Hugo
 # Vedi link rel="alternate" type="text/markdown" sulla versione HTML
 ---
 
@@ -9,7 +9,7 @@
 
 **Data:** 2026-05-22
 **Autore:** OIDA Labs
-**Categoria:** OIDA Insight — Maggio 2026
+**Categoria:** OIDA Insight · Maggio 2026
 **Base empirica:** Base empirica: Rapporto annuale ISTAT 2026
 **Tag:** mercato sanitario, sanità digitale
 
@@ -85,7 +85,7 @@ Il Rapporto annuale ISTAT 2026 non parla di marketing sanitario. Misura però, c
 {{< insight-conclusion >}}
 Chi gestisce una struttura sanitaria privata non deve decidere se digitalizzare la propria comunicazione, ma su quale livello di competenza del pubblico tararla. I dati ISTAT indicano che quel livello è più basso di quanto il dibattito di settore lasci credere, e che è distribuito in modo diseguale tra Nord e Sud, tra generazioni e tra livelli di istruzione. Costruire l'esperienza digitale sul paziente reale, e non su quello immaginato, è ciò che separa un investimento che converte da uno che esclude.
 
-Questo non significa rinunciare all'intelligenza artificiale o ai canali online: significa collocarli dove rendono. L'IA nel back office, nella gestione dei contatti e nel CRM è una possibilità concreta già oggi; l'IA come interfaccia verso il paziente è prematura per la maggior parte del pubblico italiano. Il canale digitale verso il paziente va affiancato a un front office umano e a percorsi semplici, perché è questo che oggi consente di non perdere le fasce con meno competenze.
+Questo non significa rinunciare all'intelligenza artificiale o ai canali online: significa collocarli dove rendono. L'IA nel back office, nella gestione dei contatti e nel CRM è una possibilità concreta già oggi; l'IA come interfaccia verso il paziente è prematura per gran parte del pubblico italiano. Il canale digitale verso il paziente va affiancato a un front office umano e a percorsi semplici, perché è questo che oggi consente di non perdere le fasce con meno competenze.
 
 È il genere di analisi che, nella nostra prassi, chiamiamo flusso lento: una lettura che parte dal dato pubblico di sistema e ne ricava le condizioni reali entro cui una struttura comunica. Il Rapporto ISTAT non le enuncia in chiave di marketing. Ma chi deve decidere dove investire le trova, fra le sue tavole, già quantificate.
 {{< /insight-conclusion >}}
@@ -94,6 +94,6 @@ Questo non significa rinunciare all'intelligenza artificiale o ai canali online:
 ---
 
 **Fonte:** https://oida-labs.com/insights/sanita-digitale-pazienti-pronti/index.md
-**Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
+**Sito:** https://oida-labs.com · OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

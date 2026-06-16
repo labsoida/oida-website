@@ -22,7 +22,7 @@ draft: false
 
 La decisione di rivolgersi a una struttura sanitaria privata raramente nasce da una preferenza astratta per il settore privato. Nasce quasi sempre da un'urgenza concreta: un dolore che non passa, un sospetto che non si può ignorare, **un'attesa sul sistema pubblico che si misura in mesi** e che il paziente non riesce o non vuole sostenere. In quel momento specifico, il paziente che finora si era affidato esclusivamente al SSN diventa un potenziale paziente privato.
 
-Le strutture che capiscono questo meccanismo — e costruiscono la propria presenza digitale in funzione di esso — intercettano una domanda che esiste già, nel momento in cui si manifesta. Le strutture che non lo capiscono cercano di convincere il paziente a scegliere il privato quando non ha ancora un motivo urgente per farlo.
+Le strutture che capiscono questo meccanismo (e costruiscono la propria presenza digitale in funzione di esso) intercettano una domanda che esiste già, nel momento in cui si manifesta. Le strutture che non lo capiscono cercano di convincere il paziente a scegliere il privato quando non ha ancora un motivo urgente per farlo.
 
 ---
 
@@ -39,7 +39,7 @@ Le strutture che capiscono questo meccanismo — e costruiscono la propria prese
 
 **In che modo le liste d'attesa del sistema sanitario pubblico influenzano la scelta della sanità privata?**
 
-Il Servizio Sanitario Nazionale italiano garantisce l'accesso alle prestazioni sanitarie, ma non garantisce i tempi di accesso. Per le prestazioni non urgenti — visite specialistiche di primo accesso, esami diagnostici in elezione, interventi programmati — **l'attesa può variare da settimane a mesi** in base alla specialità, alla regione e al periodo dell'anno.
+Il Servizio Sanitario Nazionale italiano garantisce l'accesso alle prestazioni sanitarie, ma non garantisce i tempi di accesso. Per le prestazioni non urgenti (visite specialistiche di primo accesso, esami diagnostici in elezione, interventi programmati) **l'attesa può variare da settimane a mesi** in base alla specialità, alla regione e al periodo dell'anno.
 
 Questa variabilità crea un segmento di domanda strutturale per la sanità privata: pazienti che avrebbero utilizzato il sistema pubblico ma che, di fronte a un'attesa non compatibile con l'urgenza percepita del proprio problema, scelgono di pagare per accedere più rapidamente. Non è una scelta ideologica, è una scelta pragmatica determinata dalla **distanza tra il tempo che il paziente è disposto ad aspettare e il tempo che il sistema può offrire**.
 
@@ -51,9 +51,9 @@ Il dato rilevante non è il tempo medio di attesa a livello nazionale, ma la per
 
 La pressione è più alta nelle specialità in cui la combinazione tra urgenza percepita e attesa sul sistema pubblico è più critica. Non tutte le specialità hanno la stessa dinamica.
 
-**Le specialità con alta urgenza percepita e attese lunghe** sul sistema pubblico — ortopedia, cardiologia, neurologia, oculistica e fisioterapia post-evento acuto — generano la quota maggiore di passaggi spontanei al privato. In questi ambiti il paziente non sta scegliendo il privato in modo programmatico: sta risolvendo un problema che non può rimandare.
+**Le specialità con alta urgenza percepita e attese lunghe** sul sistema pubblico (ortopedia, cardiologia, neurologia, oculistica e fisioterapia post-evento acuto) generano la quota maggiore di passaggi spontanei al privato. In questi ambiti il paziente non sta scegliendo il privato in modo programmatico: sta risolvendo un problema che non può rimandare.
 
-**Le specialità con ciclo decisionale più lungo** — chirurgia estetica, odontoiatria elettiva, medicina preventiva e check-up — hanno una dinamica diversa: la scelta del privato non è guidata dall'urgenza ma da altri fattori (qualità percepita, personalizzazione, esperienza del paziente). Per queste specialità, la strategia di marketing deve essere costruita su orizzonti temporali più lunghi.
+**Le specialità con ciclo decisionale più lungo** (chirurgia estetica, odontoiatria elettiva, medicina preventiva e check-up) hanno una dinamica diversa: la scelta del privato non è guidata dall'urgenza ma da altri fattori (qualità percepita, personalizzazione, esperienza del paziente). Per queste specialità, la strategia di marketing deve essere costruita su orizzonti temporali più lunghi.
 
 Le specialità pediatriche occupano una posizione intermedia: l'urgenza percepita dai genitori è molto alta, anche per problemi clinicamente non critici.
 
@@ -94,4 +94,4 @@ Queste stagionalità non sono rigide ma sono abbastanza consistenti da giustific
 
 ## Sintesi
 
-Le liste d'attesa del sistema sanitario pubblico generano una domanda strutturale per la sanità privata che non richiede convincimento: richiede intercettazione nel momento giusto. **Le strutture che costruiscono la propria presenza digitale in funzione di questa domanda** — con posizionamento organico locale, profilo GBP curato e campagne calibrate sulla stagionalità delle specialità — trasformano un problema del sistema pubblico in una componente prevedibile del proprio flusso di nuovi pazienti.
+Le liste d'attesa del sistema sanitario pubblico generano una domanda strutturale per la sanità privata che non richiede convincimento: richiede intercettazione nel momento giusto. **Le strutture che costruiscono la propria presenza digitale in funzione di questa domanda** (con posizionamento organico locale, profilo GBP curato e campagne calibrate sulla stagionalità delle specialità) trasformano un problema del sistema pubblico in una componente prevedibile del proprio flusso di nuovi pazienti.

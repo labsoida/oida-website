@@ -4,12 +4,12 @@ linktitle: "Salute riproduttiva: il divario tra desiderio e natalità"
 description: "Il Rapporto ISTAT 2026 letto da OIDA Labs: 1,14 figli per donna e una domanda di salute riproduttiva intercettata troppo tardi dalle strutture private."
 date: 2026-05-22
 author: "OIDA Labs"
-kicker: "OIDA Insight — Maggio 2026"
+kicker: "OIDA Insight · Maggio 2026"
 base: "Base empirica: Rapporto annuale ISTAT 2026"
 about: "Marketing sanitario per medicina della riproduzione, PMA e ginecologia della fertilità"
 image: "img/insights/salute-riproduttiva-divario-desiderio-natalita.webp"
 og_image: "img/insights/salute-riproduttiva-divario-desiderio-natalita-og.jpg"
-image_alt: "Salute riproduttiva e marketing sanitario — analisi OIDA Labs sul Rapporto ISTAT 2026"
+image_alt: "Salute riproduttiva e marketing sanitario: analisi OIDA Labs sul Rapporto ISTAT 2026"
 keywords: "marketing sanitario, salute riproduttiva, medicina della riproduzione, PMA marketing, marketing fertilità, ginecologia privata, posizionamento centri PMA, preservazione fertilità, marketing strutture sanitarie private, comunicazione sanitaria, Rapporto ISTAT 2026, denatalità sanità privata"
 tags: ["mercato sanitario", "strategia"]
 stats:
@@ -89,7 +89,7 @@ Lo stesso spostamento si legge nella crescita delle persone che arrivano a 50 an
 </table>
 {{< /insight-data >}}
 
-Per chi comunica servizi di salute riproduttiva, lo spostamento in avanti dell'età ha una conseguenza precisa sul momento in cui la domanda va raggiunta. Una struttura che si fa trovare soltanto a valle, quando la difficoltà a concepire è già un problema dichiarato, intercetta una paziente che ha perso anni preziosi e che arriva con aspettative alte e margini clinici ridotti. Una struttura che presidia la fase a monte, quella della consapevolezza sulla riserva ovarica, sui tempi della fertilità e sulle opzioni di preservazione, raggiunge la stessa persona quando le scelte disponibili sono di più. La differenza tra i due approcci non è clinica, è di posizionamento e di contenuto informativo — un punto che approfondiamo anche nella nostra lettura sul [percorso informativo lungo della paziente con endometriosi](/insights/endometriosi-anatomia-domanda-sanitaria-sommersa/).
+Per chi comunica servizi di salute riproduttiva, lo spostamento in avanti dell'età ha una conseguenza precisa sul momento in cui la domanda va raggiunta. Una struttura che si fa trovare soltanto a valle, quando la difficoltà a concepire è già un problema dichiarato, intercetta una paziente che ha perso anni preziosi e che arriva con aspettative alte e margini clinici ridotti. Una struttura che presidia la fase a monte, quella della consapevolezza sulla riserva ovarica, sui tempi della fertilità e sulle opzioni di preservazione, raggiunge la stessa persona quando le scelte disponibili sono di più. La differenza tra i due approcci non è clinica, è di posizionamento e di contenuto informativo, un punto che approfondiamo anche nella nostra lettura sul [percorso informativo lungo della paziente con endometriosi](/insights/endometriosi-anatomia-domanda-sanitaria-sommersa/).
 
 {{< insight-pullquote >}}
 La domanda di salute riproduttiva non va creata: esiste, ed è quantificata in milioni di desideri non realizzati. Va raggiunta prima, quando è ancora consapevolezza e non urgenza.
@@ -113,7 +113,7 @@ La denatalità non è uniforme sul territorio, e nemmeno lo è il modo in cui le
 
 C'è un'ulteriore distinzione che il Rapporto rende misurabile. La probabilità di non voler avere figli è più alta del 29,0 per cento tra i residenti del Nord rispetto a quelli del Centro, ma disporre di risorse economiche adeguate o buone la riduce del 24,0 per cento. Si delinea così un pubblico che, dove il reddito lo consente, mantiene il progetto di genitorialità anche quando lo posticipa, e che si concentra nelle aree urbane del Centro-nord, le stesse in cui la quota di persone arrivate a 50 anni senza figli è più elevata. È la coincidenza tra disponibilità economica, posticipo e concentrazione urbana che definisce il bacino solvibile per i servizi di medicina della riproduzione privata.
 
-Per una struttura, questo significa che il messaggio non può essere nazionale e indistinto. Un centro che opera in una grande area metropolitana del Centro-nord si rivolge a un pubblico informato, con reddito disponibile e con un progetto rinviato; un centro del Mezzogiorno parla a un pubblico in cui l'incertezza sulla genitorialità è più diffusa e in cui il lavoro di consapevolezza precede quello di acquisizione. Cambiano il contenuto, il registro e il momento giusto per farsi trovare — è quello che costruiamo con la nostra [consulenza strategica sanitaria](/servizi/consulenza-strategica-sanitaria/) e con i [percorsi SEO e GEO calibrati sul territorio](/servizi/seo-geo-sanita/).
+Per una struttura, questo significa che il messaggio non può essere nazionale e indistinto. Un centro che opera in una grande area metropolitana del Centro-nord si rivolge a un pubblico informato, con reddito disponibile e con un progetto rinviato; un centro del Mezzogiorno parla a un pubblico in cui l'incertezza sulla genitorialità è più diffusa e in cui il lavoro di consapevolezza precede quello di acquisizione. Cambiano il contenuto, il registro e il momento giusto per farsi trovare: è quello che costruiamo con la nostra [consulenza strategica sanitaria](/servizi/consulenza-strategica-sanitaria/) e con i [percorsi SEO e GEO calibrati sul territorio](/servizi/seo-geo-sanita/).
 
 ## Dal dato alla lettura: cosa fa OIDA quando legge un report di sistema
 

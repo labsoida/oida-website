@@ -1,5 +1,5 @@
 ---
-# Markdown version per AI agents — generata da Hugo
+# Markdown version per AI agents, generata da Hugo
 # Vedi link rel="alternate" type="text/markdown" sulla versione HTML
 ---
 
@@ -51,7 +51,7 @@ Google Business Profile non mostra per prime le strutture con il rating più alt
 
 La frequenza è un segnale di attività: una struttura che riceve una recensione ogni due-tre settimane appare più "viva" di una che ha ricevuto 50 recensioni due anni fa e nessuna negli ultimi sei mesi. L'algoritmo locale di Google interpreta la frequenza delle recensioni recenti come un proxy dell'attività commerciale corrente.
 
-La risposta alle recensioni — sia positive che negative — è un segnale di presenza attiva. Le strutture che non rispondono lasciano un vuoto che Google interpreta negativamente e che i potenziali pazienti interpretano come disinteresse verso il feedback ricevuto.
+La risposta alle recensioni (sia positive che negative) è un segnale di presenza attiva. Le strutture che non rispondono lasciano un vuoto che Google interpreta negativamente e che i potenziali pazienti interpretano come disinteresse verso il feedback ricevuto.
 
 ## Come le strutture che funzionano raccolgono recensioni
 
@@ -67,7 +67,7 @@ Il momento ideale varia per specialità. In odontoiatria, il picco di soddisfazi
 
 Le strutture che hanno costruito un volume consistente di recensioni non hanno fatto campagne di raccolta una tantum. Hanno costruito un processo: formazione del [front office](/blog/front-office-di-una-clinica-privata-cosa-determina-la-conversione-al-primo-contatto/) su come menzionare la possibilità di lasciare un feedback, sistema automatizzato di invio della richiesta post-visita, monitoraggio settimanale del flusso di nuove recensioni.
 
-La parte tecnica — l'integrazione con i sistemi di gestione appuntamenti e l'automazione degli invii — è il punto in cui il fai-da-te produce risultati discontinui. La parte organizzativa — coinvolgere il personale clinico e amministrativo nella cultura del feedback — richiede un intervento su processi e formazione che va oltre la configurazione degli strumenti.
+La parte tecnica (l'integrazione con i sistemi di gestione appuntamenti e l'automazione degli invii) è il punto in cui il fai-da-te produce risultati discontinui. La parte organizzativa (coinvolgere il personale clinico e amministrativo nella cultura del feedback) richiede un intervento su processi e formazione che va oltre la configurazione degli strumenti.
 
 ## Come rispondere alle recensioni negative senza peggiorare la situazione
 
@@ -123,6 +123,6 @@ Doctolib, TrustPilot, iDoctors e piattaforme specializzate per specialità contr
 ---
 
 **Fonte:** https://oida-labs.com/blog/gestione-delle-recensioni-online-nelle-cliniche-private-reputazione-digitale-e-acquisizione-pazienti/index.md
-**Sito:** https://oida-labs.com — OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
+**Sito:** https://oida-labs.com · OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
 **Knowledge base completa:** https://oida-labs.com/llms-full.txt
 **Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

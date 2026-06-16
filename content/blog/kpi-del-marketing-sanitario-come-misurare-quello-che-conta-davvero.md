@@ -22,7 +22,7 @@ draft: false
 
 La misurazione è il punto in cui molte strategie di marketing sanitario perdono coerenza. Si investono risorse in campagne, in SEO, in contenuti, e poi la valutazione dei risultati si ferma alle metriche che le piattaforme rendono più visibili: il numero di click, le impressioni, il costo per click e i "mi piace" sui social. **Queste metriche misurano l'attività, non il risultato.** Una campagna che genera centinaia di lead con un CPL basso può essere meno efficace di una che genera pochi lead con un CAC molto più basso.
 
-Il problema è che le metriche che contano — quelle collegate ai risultati economici della struttura — richiedono integrazione tra i dati delle campagne e i dati operativi della struttura. Questa integrazione è il lavoro più difficile, e quasi mai viene fatto in modo sistematico.
+Il problema è che le metriche che contano (quelle collegate ai risultati economici della struttura) richiedono integrazione tra i dati delle campagne e i dati operativi della struttura. Questa integrazione è il lavoro più difficile, e quasi mai viene fatto in modo sistematico.
 
 ---
 
@@ -39,7 +39,7 @@ Il problema è che le metriche che contano — quelle collegate ai risultati eco
 
 **Qual è la differenza tra le metriche fornite dalle piattaforme pubblicitarie e le metriche di business utili per una struttura sanitaria?**
 
-Le piattaforme pubblicitarie — Google Ads, Meta Ads, LinkedIn — forniscono metriche ottimizzate per il loro modello di business: impressioni, clic, CTR, CPL, ROAS parziale. Queste metriche sono utili per ottimizzare le campagne all'interno della piattaforma, ma non dicono nulla su ciò che succede dopo il clic: quanti dei lead generati ricevono risposta, quanti fissano un appuntamento, quanti si presentano, quanti diventano pazienti ricorrenti.
+Le piattaforme pubblicitarie (Google Ads, Meta Ads, LinkedIn) forniscono metriche ottimizzate per il loro modello di business: impressioni, clic, CTR, CPL, ROAS parziale. Queste metriche sono utili per ottimizzare le campagne all'interno della piattaforma, ma non dicono nulla su ciò che succede dopo il clic: quanti dei lead generati ricevono risposta, quanti fissano un appuntamento, quanti si presentano, quanti diventano pazienti ricorrenti.
 
 Le metriche di business di una struttura sanitaria privata iniziano dove le piattaforme finiscono: **dal primo contatto al CRM, dalla prenotazione alla visita erogata, dalla singola visita al valore del paziente nel tempo**.
 
@@ -51,13 +51,13 @@ L'agenzia che riporta ogni mese il CPL della campagna senza collegarlo al CAC re
 
 Il funnel di acquisizione paziente ha quattro stadi, ognuno con la propria metrica chiave.
 
-**Stadio 1 — Traffico e lead:** quanti visitatori arrivano sul sito, quanti compilano un form o chiamano, da quale canale arrivano. Metriche: volume di lead per canale, costo per lead (CPL) per canale, tasso di conversione del traffico in lead.
+**Stadio 1 · Traffico e lead:** quanti visitatori arrivano sul sito, quanti compilano un form o chiamano, da quale canale arrivano. Metriche: volume di lead per canale, costo per lead (CPL) per canale, tasso di conversione del traffico in lead.
 
-**Stadio 2 — Risposta e qualificazione:** quanti lead ricevono risposta entro la finestra critica, quanti vengono qualificati come potenziali pazienti, quanti fissano un appuntamento. Metriche: tasso di risposta entro X ore, tasso di conversione da lead a appuntamento fissato, tempo medio di risposta.
+**Stadio 2 · Risposta e qualificazione:** quanti lead ricevono risposta entro la finestra critica, quanti vengono qualificati come potenziali pazienti, quanti fissano un appuntamento. Metriche: tasso di risposta entro X ore, tasso di conversione da lead a appuntamento fissato, tempo medio di risposta.
 
-**Stadio 3 — Visita erogata:** quanti degli appuntamenti fissati vengono onorati, quanti si presentano senza cancellare. Metriche: tasso di no-show, tasso di conversione da appuntamento fissato a visita erogata.
+**Stadio 3 · Visita erogata:** quanti degli appuntamenti fissati vengono onorati, quanti si presentano senza cancellare. Metriche: tasso di no-show, tasso di conversione da appuntamento fissato a visita erogata.
 
-**Stadio 4 — Valore nel tempo:** quanti dei pazienti tornano per una seconda visita o per una prestazione correlata, qual è il lifetime value medio per specialità. Metriche: tasso di ritorno, numero medio di visite per paziente nel primo anno, lifetime value per specialità.
+**Stadio 4 · Valore nel tempo:** quanti dei pazienti tornano per una seconda visita o per una prestazione correlata, qual è il lifetime value medio per specialità. Metriche: tasso di ritorno, numero medio di visite per paziente nel primo anno, lifetime value per specialità.
 
 > Il CAC, costo di acquisizione paziente, si calcola dividendo il costo totale del marketing (campagne, fee di gestione e costo del personale dedicato al marketing) per il numero di nuovi pazienti effettivamente acquisiti nel periodo. Questa metrica integra tutti e quattro gli stadi e dà una visibilità reale sull'efficienza dell'investimento.
 

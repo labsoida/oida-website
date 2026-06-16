@@ -8,7 +8,7 @@
 <header class="list-head list-head--mark starry">
   <img class="list-head-mark" src="{{ "img/pittogramma.svg" | relURL }}" alt="" aria-hidden="true" width="130" height="130">
   <div class="list-head-text">
-    <div class="list-kicker">// Insight &mdash; Healthcare Market Intelligence</div>
+    <div class="list-kicker">// Insight &middot; Healthcare Market Intelligence</div>
     <h1>Letture dei dati</h1>
     <p class="list-sub">Analisi originali sul mercato sanitario italiano. Dati, segmentazioni e scenari competitivi nel settore della sanità privata, letti dal punto di osservazione di chi progetta comunicazione specialistica.</p>
     {{ with $sorted }}<div class="list-count">// <b>{{ len . }}</b> analisi pubblicate</div>{{ end }}
@@ -22,7 +22,7 @@
   {{ range $sorted }}
   <a class="ins-card" href="{{ .RelPermalink }}">
     <div class="ins-card-meta">
-      <div class="ins-card-kicker">{{ replace (.Params.kicker | default "OIDA Insight") " — " "<br>" | safeHTML }}</div>
+      <div class="ins-card-kicker">{{ replace (.Params.kicker | default "OIDA Insight") " · " "<br>" | safeHTML }}</div>
       <div class="ins-card-date">{{ .Date.Format "02.01.2006" }}</div>
     </div>
     <div class="ins-card-body">
