@@ -10,9 +10,9 @@ photo: "/img/team/giulia-nasini-brand-marketing-strategist-oida-labs.webp"
 photo_alt: "Giulia Nasini, Co-Founder e Strategic Marketing Advisor di OIDA Labs, agenzia di marketing sanitario"
 card_meta: "Strategic Marketing Advisor & Co-Founder"
 card_role: "Marketing Executive"
-card_bio: "Co-Founder e Strategic Marketing Advisor di OIDA Labs. venti anni di marketing internazionale tra insurtech, SaaS e automotive, dal brand agli eventi."
+card_bio: "Co-Founder e Strategic Marketing Advisor di OIDA Labs. Venti anni di marketing internazionale tra insurtech, SaaS e automotive, dal brand agli eventi."
 role: "Marketing Executive"
-lead: "Strategic Marketing Advisor e Co-Founder di OIDA Labs. venti anni di marketing internazionale tra insurtech, SaaS e automotive, dal brand agli eventi."
+lead: "Strategic Marketing Advisor e Co-Founder di OIDA Labs. Venti anni di marketing internazionale tra insurtech, SaaS e automotive, dal brand agli eventi."
 linkedin: "https://www.linkedin.com/in/giulianasini/"
 sameas_extra: ["https://www.thebespokecmo.com"]
 person:

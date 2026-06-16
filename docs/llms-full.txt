@@ -1049,9 +1049,9 @@ Il compito residuo, non clinico ma di posizionamento, strategia dei contenuti e 
 
 - URL: https://oida-labs.com/legal/cookie-policy/
 
-La presente Cookie Policy descrive le tipologie di cookie utilizzati sul sito oida-labs.com di OIDA Labs SAGL, le finalità per cui vengono utilizzati e le modalità con cui l&rsquo;utente può gestire le proprie preferenze.
+La presente Cookie Policy descrive le tipologie di cookie utilizzati sul sito oida-labs.com di OIDA Labs Sagl, le finalità per cui vengono utilizzati e le modalità con cui l&rsquo;utente può gestire le proprie preferenze.
 1. Cosa sono i cookieI cookie sono piccoli file di testo che i siti web visitati salvano sul dispositivo dell&rsquo;utente per memorizzare informazioni utili a migliorare l&rsquo;esperienza di navigazione, per analisi statistiche o per finalità di marketing. Alcuni cookie sono indispensabili per il funzionamento del sito, altri sono opzionali e si attivano solo previo consenso dell&rsquo;utente.
-2. Categorie di cookie utilizzate sul sitoOIDA Labs SAGL utilizza tre categorie di cookie:
+2. Categorie di cookie utilizzate sul sitoOIDA Labs Sagl utilizza tre categorie di cookie:
 2.1 Cookie tecnici (necessari)Sono cookie indispensabili per il funzionamento del sito e non richiedono il consenso dell&rsquo;utente ai sensi dell&rsquo;art. 6 LPD e del Considerando 49 del GDPR.
 Cookie Finalità Durata Fornitore cc_cookie Memorizza le preferenze sui cookie espresse dall&rsquo;utente nel banner CMP 6 mesi Prima parte (oida-labs.com) 2.2 Cookie analitici (richiedono consenso)Servono a raccogliere informazioni aggregate sull&rsquo;utilizzo del sito per analisi statistiche.
 Cookie Finalità Durata Fornitore _ga, _ga_* Identificazione anonima dell&rsquo;utente per analisi Google Analytics 14 mesi Google LLC (US) _gid Identificazione anonima dell&rsquo;utente per analisi Google Analytics 24 ore Google LLC (US) _gat Limita la frequenza delle richieste a Google Analytics 1 minuto Google LLC (US) I cookie analitici sono attivati tramite Google Tag Manager (ID: GTM-M3B73NRN), che gestisce la distribuzione condizionata dei tag in base al consenso espresso.
@@ -1065,7 +1065,7 @@ Chrome: support.google.com/chrome/answer/95647 Firefox: support.mozilla.org/it/k
 5. Consent Mode v2 di GoogleIl sito utilizza Google Consent Mode v2, che consente di adattare il comportamento dei tag di Google (Analytics, Ads) in base al consenso espresso dall&rsquo;utente. Quando l&rsquo;utente nega il consenso, i tag di Google ricevono segnali aggregati e anonimizzati che non permettono l&rsquo;identificazione individuale, in conformità con le linee guida della Commissione UE.
 6. Modifiche alla Cookie PolicyLa presente Cookie Policy può essere aggiornata in caso di modifiche tecniche o normative. La data di ultimo aggiornamento è riportata in cima a questa pagina.
 7. ContattiPer qualsiasi richiesta relativa all&rsquo;uso dei cookie sul sito:
-OIDA Labs SAGL Piazza dell&rsquo;Indipendenza 3, 6900 Lugano, Svizzera IDE: CHE-144.100.469 Email: info@oida-labs.com
+OIDA Labs Sagl Piazza dell&rsquo;Indipendenza 3, 6900 Lugano, Svizzera IDE: CHE-144.100.469 Email: info@oida-labs.com
 Per ulteriori informazioni sul trattamento dei dati personali si rimanda alla Privacy Policy completa.
 
 
@@ -1075,27 +1075,27 @@ Per ulteriori informazioni sul trattamento dei dati personali si rimanda alla Pr
 
 - URL: https://oida-labs.com/legal/privacy-policy/
 
-La presente informativa descrive come OIDA Labs SAGL raccoglie e tratta i dati personali degli utenti che visitano il sito oida-labs.com e/o entrano in contatto con la società tramite i canali messi a disposizione.
+La presente informativa descrive come OIDA Labs Sagl raccoglie e tratta i dati personali degli utenti che visitano il sito oida-labs.com e/o entrano in contatto con la società tramite i canali messi a disposizione.
 Il trattamento dei dati è conforme alla Legge federale svizzera sulla protezione dei dati (LPD) in vigore dal 1° settembre 2023 e, per gli utenti residenti nell&rsquo;Unione Europea, al Regolamento UE 2016/679 (GDPR) in base al principio di applicazione extraterritoriale.
-1. Titolare del trattamentoOIDA Labs SAGL Piazza dell&rsquo;Indipendenza 3 6900 Lugano, Svizzera IDE: CHE-144.100.469
+1. Titolare del trattamentoOIDA Labs Sagl Piazza dell&rsquo;Indipendenza 3 6900 Lugano, Svizzera IDE: CHE-144.100.469
 Contatti per richieste sulla privacy: Email: info@oida-labs.com
-OIDA Labs SAGL non ha nominato un Responsabile della Protezione dei Dati (DPO), in quanto non rientra tra i soggetti tenuti a tale designazione ai sensi dell&rsquo;art. 10 LPD e dell&rsquo;art. 37 GDPR.
-2. Categorie di dati raccoltiOIDA Labs SAGL tratta le seguenti categorie di dati personali:
+OIDA Labs Sagl non ha nominato un Responsabile della Protezione dei Dati (DPO), in quanto non rientra tra i soggetti tenuti a tale designazione ai sensi dell&rsquo;art. 10 LPD e dell&rsquo;art. 37 GDPR.
+2. Categorie di dati raccoltiOIDA Labs Sagl tratta le seguenti categorie di dati personali:
 2.1 Dati forniti volontariamente dall&rsquo;utente Quando l&rsquo;utente compila il modulo di contatto presente sul sito, vengono raccolti:
 Nome (facoltativo) Indirizzo email (obbligatorio) Numero di telefono (facoltativo) Contenuto del messaggio 2.2 Dati raccolti automaticamente durante la navigazione
-Indirizzo IP (in forma anonimizzata dove possibile) Tipo di browser e dispositivo Pagine visitate e tempo di permanenza Sorgente di provenienza (referer) Identificatori dei cookie tecnici e di analisi 2.3 Dati non trattati OIDA Labs SAGL non raccoglie volontariamente dati appartenenti a categorie particolari (dati relativi alla salute, opinioni politiche, convinzioni religiose, dati genetici o biometrici). Si invitano gli utenti a non includere informazioni di tale natura nei messaggi inviati tramite il modulo di contatto.
+Indirizzo IP (in forma anonimizzata dove possibile) Tipo di browser e dispositivo Pagine visitate e tempo di permanenza Sorgente di provenienza (referer) Identificatori dei cookie tecnici e di analisi 2.3 Dati non trattati OIDA Labs Sagl non raccoglie volontariamente dati appartenenti a categorie particolari (dati relativi alla salute, opinioni politiche, convinzioni religiose, dati genetici o biometrici). Si invitano gli utenti a non includere informazioni di tale natura nei messaggi inviati tramite il modulo di contatto.
 3. Finalità e basi giuridiche del trattamentoFinalità Base giuridica (LPD / GDPR) Rispondere alle richieste inviate tramite il modulo di contatto Esecuzione di misure precontrattuali / Consenso (art. 6.1.b GDPR; art. 31 LPD) Analisi statistica della navigazione del sito (tramite cookie analitici) Consenso esplicito dell&rsquo;utente (art. 6.1.a GDPR; art. 6 LPD) Marketing e profilazione tramite cookie di terze parti (Google, Meta) Consenso esplicito dell&rsquo;utente (art. 6.1.a GDPR; art. 6 LPD) Adempimento di obblighi di legge Obbligo legale (art. 6.1.c GDPR) I cookie di analisi e marketing sono attivati esclusivamente previo consenso esplicito dell&rsquo;utente tramite il banner di consenso (CMP) presente al primo accesso al sito.
 4. Modalità di trattamento e conservazioneI dati personali sono trattati con strumenti elettronici, con misure di sicurezza adeguate a prevenire l&rsquo;accesso non autorizzato, la perdita o la distruzione dei dati.
 Periodi di conservazione:
 Dati di contatto: fino a 24 mesi dall&rsquo;ultimo contatto utile, salvo richiesta di cancellazione anticipata Dati di navigazione e cookie: fino a 14 mesi (cookie analitici) o 13 mesi (cookie pubblicitari) Dati per obblighi di legge: per il periodo previsto dalla normativa applicabile 5. Comunicazione a terzi e trasferimenti extra-SEEI dati personali possono essere comunicati ai seguenti fornitori di servizi (responsabili del trattamento esterni):
 Fornitore Servizio Sede Trasferimento extra-SEE Formspree Gestione modulo di contatto Stati Uniti Sì — clausole contrattuali standard UE Google LLC Google Tag Manager, Google Analytics Stati Uniti / UE Sì — clausole contrattuali standard UE Meta Platforms Inc. Meta Pixel (Facebook/Instagram) Stati Uniti / UE Sì — clausole contrattuali standard UE GitHub Inc. (Microsoft) Hosting del sito (GitHub Pages) Stati Uniti Sì — clausole contrattuali standard UE I trasferimenti verso paesi terzi avvengono in conformità all&rsquo;art. 16 LPD e agli artt. 44-49 GDPR, attraverso clausole contrattuali standard approvate dalla Commissione UE e dal Consiglio federale svizzero, o sulla base di decisioni di adeguatezza ove applicabili.
-OIDA Labs SAGL non vende, affitta o cede dati personali a soggetti terzi per finalità commerciali proprie di tali soggetti.
+OIDA Labs Sagl non vende, affitta o cede dati personali a soggetti terzi per finalità commerciali proprie di tali soggetti.
 6. Diritti dell&rsquo;interessatoL&rsquo;utente ha il diritto, in qualsiasi momento, di:
 Accedere ai dati personali che lo riguardano (art. 25 LPD; art. 15 GDPR) Rettificare dati inesatti o incompleti (art. 32 LPD; art. 16 GDPR) Cancellare i dati personali (art. 32 LPD; art. 17 GDPR) Limitare il trattamento (art. 18 GDPR) Opporsi al trattamento per finalità di marketing o profilazione (art. 21 GDPR) Ricevere i propri dati in formato strutturato (portabilità — art. 20 GDPR) Revocare il consenso prestato in qualsiasi momento, senza pregiudizio della liceità del trattamento basato sul consenso prima della revoca (art. 7.3 GDPR) Proporre reclamo all&rsquo;autorità di controllo competente Per esercitare questi diritti è sufficiente scrivere a info@oida-labs.com. La risposta sarà fornita entro 30 giorni dalla ricezione della richiesta.
 7. Autorità di controlloPer utenti residenti in Svizzera: Incaricato federale della protezione dei dati e della trasparenza (IFPDT) Feldeggweg 1, 3003 Berna www.edoeb.admin.ch
 Per utenti residenti nell&rsquo;Unione Europea: Autorità di controllo dello Stato membro di residenza. Per l&rsquo;Italia: Garante per la protezione dei dati personali, Piazza Venezia 11, 00187 Roma — www.garanteprivacy.it
 8. CookieL&rsquo;uso dei cookie sul sito è descritto in dettaglio nella Cookie Policy dedicata.
-9. Modifiche all&rsquo;informativaLa presente informativa può essere aggiornata in conseguenza di modifiche normative o organizzative. La data di ultimo aggiornamento è riportata in cima a questa pagina. Gli utenti registrati o in contatto attivo con OIDA Labs SAGL saranno informati delle modifiche sostanziali tramite email.
+9. Modifiche all&rsquo;informativaLa presente informativa può essere aggiornata in conseguenza di modifiche normative o organizzative. La data di ultimo aggiornamento è riportata in cima a questa pagina. Gli utenti registrati o in contatto attivo con OIDA Labs Sagl saranno informati delle modifiche sostanziali tramite email.
 La presente informativa è redatta in lingua italiana. In caso di traduzione, in caso di contestazione prevale la versione italiana.
 
 

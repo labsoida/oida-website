@@ -59,6 +59,8 @@ rssLimit = 20
   unsafe = true
 
 [markup.goldmark.parser]
+  # ID heading in ASCII puro (é→e): evita il mismatch tra id (é) e ancore TOC percent-encoded (%C3%A9)
+  autoHeadingIDType = "github-ascii"
   [markup.goldmark.parser.attribute]
     block = true
     title = true

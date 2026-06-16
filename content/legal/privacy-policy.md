@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-description: "Informativa sul trattamento dei dati personali di OIDA Labs SAGL ai sensi della LPD svizzera e del GDPR UE."
+description: "Informativa sul trattamento dei dati personali di OIDA Labs Sagl ai sensi della LPD svizzera e del GDPR UE."
 updated: "25 maggio 2026"
 type: "legal"
 layout: "single"
@@ -8,13 +8,13 @@ sitemap:
   priority: 0.3
 ---
 
-La presente informativa descrive come **OIDA Labs SAGL** raccoglie e tratta i dati personali degli utenti che visitano il sito [oida-labs.com](https://oida-labs.com) e/o entrano in contatto con la società tramite i canali messi a disposizione.
+La presente informativa descrive come **OIDA Labs Sagl** raccoglie e tratta i dati personali degli utenti che visitano il sito [oida-labs.com](https://oida-labs.com) e/o entrano in contatto con la società tramite i canali messi a disposizione.
 
 Il trattamento dei dati è conforme alla **Legge federale svizzera sulla protezione dei dati (LPD)** in vigore dal 1° settembre 2023 e, per gli utenti residenti nell'Unione Europea, al **Regolamento UE 2016/679 (GDPR)** in base al principio di applicazione extraterritoriale.
 
 ## 1. Titolare del trattamento
 
-**OIDA Labs SAGL**
+**OIDA Labs Sagl**
 Piazza dell'Indipendenza 3
 6900 Lugano, Svizzera
 IDE: CHE-144.100.469
@@ -22,11 +22,11 @@ IDE: CHE-144.100.469
 **Contatti per richieste sulla privacy:**
 Email: [info@oida-labs.com](mailto:info@oida-labs.com)
 
-OIDA Labs SAGL non ha nominato un Responsabile della Protezione dei Dati (DPO), in quanto non rientra tra i soggetti tenuti a tale designazione ai sensi dell'art. 10 LPD e dell'art. 37 GDPR.
+OIDA Labs Sagl non ha nominato un Responsabile della Protezione dei Dati (DPO), in quanto non rientra tra i soggetti tenuti a tale designazione ai sensi dell'art. 10 LPD e dell'art. 37 GDPR.
 
 ## 2. Categorie di dati raccolti
 
-OIDA Labs SAGL tratta le seguenti categorie di dati personali:
+OIDA Labs Sagl tratta le seguenti categorie di dati personali:
 
 **2.1 Dati forniti volontariamente dall'utente**
 Quando l'utente compila il modulo di contatto presente sul sito, vengono raccolti:
@@ -43,7 +43,7 @@ Quando l'utente compila il modulo di contatto presente sul sito, vengono raccolt
 - Identificatori dei cookie tecnici e di analisi
 
 **2.3 Dati non trattati**
-OIDA Labs SAGL non raccoglie volontariamente dati appartenenti a categorie particolari (dati relativi alla salute, opinioni politiche, convinzioni religiose, dati genetici o biometrici). Si invitano gli utenti a non includere informazioni di tale natura nei messaggi inviati tramite il modulo di contatto.
+OIDA Labs Sagl non raccoglie volontariamente dati appartenenti a categorie particolari (dati relativi alla salute, opinioni politiche, convinzioni religiose, dati genetici o biometrici). Si invitano gli utenti a non includere informazioni di tale natura nei messaggi inviati tramite il modulo di contatto.
 
 ## 3. Finalità e basi giuridiche del trattamento
 
@@ -78,7 +78,7 @@ I dati personali possono essere comunicati ai seguenti fornitori di servizi (res
 
 I trasferimenti verso paesi terzi avvengono in conformità all'art. 16 LPD e agli artt. 44-49 GDPR, attraverso clausole contrattuali standard approvate dalla Commissione UE e dal Consiglio federale svizzero, o sulla base di decisioni di adeguatezza ove applicabili.
 
-OIDA Labs SAGL non vende, affitta o cede dati personali a soggetti terzi per finalità commerciali proprie di tali soggetti.
+OIDA Labs Sagl non vende, affitta o cede dati personali a soggetti terzi per finalità commerciali proprie di tali soggetti.
 
 ## 6. Diritti dell'interessato
 
@@ -111,7 +111,7 @@ L'uso dei cookie sul sito è descritto in dettaglio nella [Cookie Policy](/legal
 
 ## 9. Modifiche all'informativa
 
-La presente informativa può essere aggiornata in conseguenza di modifiche normative o organizzative. La data di ultimo aggiornamento è riportata in cima a questa pagina. Gli utenti registrati o in contatto attivo con OIDA Labs SAGL saranno informati delle modifiche sostanziali tramite email.
+La presente informativa può essere aggiornata in conseguenza di modifiche normative o organizzative. La data di ultimo aggiornamento è riportata in cima a questa pagina. Gli utenti registrati o in contatto attivo con OIDA Labs Sagl saranno informati delle modifiche sostanziali tramite email.
 
 ---
 

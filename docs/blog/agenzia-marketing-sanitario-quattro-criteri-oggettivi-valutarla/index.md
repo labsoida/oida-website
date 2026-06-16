@@ -20,7 +20,7 @@ La scelta di un'agenzia di **marketing sanitario** è una decisione che incide s
 
 1. [Specializzazione verticale e conoscenza del settore](#specializzazione-verticale-e-conoscenza-del-settore)
 2. [Metrica di riferimento: CAC invece di CPL](#metrica-di-riferimento-cac-invece-di-cpl)
-3. [Continuità tra presentazione commerciale e gestione operativa](#continuità-tra-presentazione-commerciale-e-gestione-operativa)
+3. [Continuità tra presentazione commerciale e gestione operativa](#continuita-tra-presentazione-commerciale-e-gestione-operativa)
 4. [Struttura contrattuale e definizione dei KPI](#struttura-contrattuale-e-definizione-dei-kpi)
 5. [FAQ](#faq)
 

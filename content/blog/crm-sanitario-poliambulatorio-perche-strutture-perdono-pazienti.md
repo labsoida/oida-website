@@ -25,7 +25,7 @@ Il **CRM sanitario** non è un software da acquistare. È un processo da costrui
 
 ---
 
-1. [Cos'è un CRM sanitario e perché serve davvero](#cosè-un-crm-sanitario-e-perché-serve-davvero)
+1. [Cos'è un CRM sanitario e perché serve davvero](#cose-un-crm-sanitario-e-perche-serve-davvero)
 2. [I tre punti in cui le strutture perdono i lead](#i-tre-punti-in-cui-le-strutture-perdono-i-lead)
 3. [Come si costruisce una pipeline paziente funzionante](#come-si-costruisce-una-pipeline-paziente-funzionante)
 4. [Il dato che le strutture non hanno](#il-dato-che-le-strutture-non-hanno)

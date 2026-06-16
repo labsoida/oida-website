@@ -5,7 +5,7 @@
    ============================================================ */
 
 /* === FONT (tutti self-hosted: nessuna chiamata a terze parti pre-consenso) === */
-@font-face{font-family:'Glaseer';src:url('/fonts/glaseer-stencil.woff2') format('woff2');font-display:swap}
+@font-face{font-family:'Glaseer';src:url('/fonts/glaseer-stencil.woff2') format('woff2');font-display:optional}
 @font-face{font-family:'BankGothic';src:url('/fonts/bank-gothic.woff2') format('woff2');font-display:swap}
 @font-face{font-family:'Barlow Semi Condensed';font-style:normal;font-weight:400;src:url('/fonts/barlow-semi-condensed-400.woff2') format('woff2');font-display:swap}
 @font-face{font-family:'Barlow Semi Condensed';font-style:italic;font-weight:400;src:url('/fonts/barlow-semi-condensed-italic-400.woff2') format('woff2');font-display:swap}
@@ -734,6 +734,7 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
   .planet-rise .pr-glow{top:144px;width:200px;height:200px}
   .planet-rise .pr-label{left:0;right:0;bottom:14px;text-align:center;font-size:9.5px;letter-spacing:.08em;padding:0 12px}
   .footer-inner{grid-template-columns:1fr 1fr;gap:28px 18px;padding:24px 18px;align-items:start}
+  footer a{padding:6px 0}
   footer .ft-copy{border-top:none;padding:8px 18px 20px}
 }
 

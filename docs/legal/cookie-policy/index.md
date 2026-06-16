@@ -5,14 +5,14 @@
 
 # Cookie Policy
 
-> Informativa sull'uso dei cookie sul sito di OIDA Labs SAGL ai sensi della LPD svizzera e del GDPR UE.
+> Informativa sull'uso dei cookie sul sito di OIDA Labs Sagl ai sensi della LPD svizzera e del GDPR UE.
 
 
 
 ---
 
 
-La presente Cookie Policy descrive le tipologie di cookie utilizzati sul sito [oida-labs.com](https://oida-labs.com) di **OIDA Labs SAGL**, le finalità per cui vengono utilizzati e le modalità con cui l'utente può gestire le proprie preferenze.
+La presente Cookie Policy descrive le tipologie di cookie utilizzati sul sito [oida-labs.com](https://oida-labs.com) di **OIDA Labs Sagl**, le finalità per cui vengono utilizzati e le modalità con cui l'utente può gestire le proprie preferenze.
 
 ## 1. Cosa sono i cookie
 
@@ -20,7 +20,7 @@ I cookie sono piccoli file di testo che i siti web visitati salvano sul disposit
 
 ## 2. Categorie di cookie utilizzate sul sito
 
-OIDA Labs SAGL utilizza tre categorie di cookie:
+OIDA Labs Sagl utilizza tre categorie di cookie:
 
 ### 2.1 Cookie tecnici (necessari)
 
@@ -97,7 +97,7 @@ La presente Cookie Policy può essere aggiornata in caso di modifiche tecniche o
 
 Per qualsiasi richiesta relativa all'uso dei cookie sul sito:
 
-**OIDA Labs SAGL**
+**OIDA Labs Sagl**
 Piazza dell'Indipendenza 3, 6900 Lugano, Svizzera
 IDE: CHE-144.100.469
 Email: [info@oida-labs.com](mailto:info@oida-labs.com)

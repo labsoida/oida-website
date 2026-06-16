@@ -4,7 +4,7 @@
 User-agent: *
 Allow: /
 Disallow: /lab/
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
+# Content-Signal: ai-train=yes, search=yes, ai-input=yes  (segnale non-REP, vedi contentsignals.org)
 
 # --- AI Crawlers: training + retrieval per LLM ---
 # OIDA Labs autorizza esplicitamente l'uso dei propri contenuti pubblici

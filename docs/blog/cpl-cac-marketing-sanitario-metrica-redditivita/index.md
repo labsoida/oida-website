@@ -18,7 +18,7 @@ Nel **marketing sanitario** la scelta della metrica di riferimento condiziona og
 
 ---
 
-1. [Cosa misura il CPL e perché non basta](#cosa-misura-il-cpl-e-perché-non-basta)
+1. [Cosa misura il CPL e perché non basta](#cosa-misura-il-cpl-e-perche-non-basta)
 2. [Cosa misura il CAC e come si calcola](#cosa-misura-il-cac-e-come-si-calcola)
 3. [Il gap tra le due metriche: un caso reale](#il-gap-tra-le-due-metriche-un-caso-reale)
 4. [Da cosa dipende il CAC](#da-cosa-dipende-il-cac)

@@ -23,10 +23,10 @@ Nel **marketing sanitario** il Google Business Profile è uno degli strumenti pi
 
 ---
 
-1. [Il profilo è presente, ma non lavora](#il-profilo-è-presente-ma-non-lavora)
+1. [Il profilo è presente, ma non lavora](#il-profilo-e-presente-ma-non-lavora)
 2. [Cosa Google valuta realmente nella ricerca sanitaria](#cosa-google-valuta-realmente-nella-ricerca-sanitaria)
 3. [Le recensioni come sistema, non come numero](#le-recensioni-come-sistema-non-come-numero)
-4. [Perché la manutenzione è la variabile che definisce il risultato](#perché-la-manutenzione-è-la-variabile-che-definisce-il-risultato)
+4. [Perché la manutenzione è la variabile che definisce il risultato](#perche-la-manutenzione-e-la-variabile-che-definisce-il-risultato)
 5. [FAQ](#faq)
 
 ---
