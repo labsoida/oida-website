@@ -9,6 +9,9 @@ Ogni pagina elencata sotto ha una variante markdown per AI agents: i link puntan
 ## Guida
 {{ with .Site.GetPage "/marketing-sanitario" }}- [{{ .Title }}]({{ with .OutputFormats.Get "agentmd" }}{{ .Permalink }}{{ else }}{{ .Permalink }}{{ end }}): {{ .Description }}
 {{ end }}
+## Team
+{{ range (where .Site.RegularPages "Type" "team").ByWeight }}- [{{ .Title }}]({{ with .OutputFormats.Get "agentmd" }}{{ .Permalink }}{{ else }}{{ .Permalink }}{{ end }}): {{ .Params.card_meta }}, {{ .Params.role }}. {{ .Description }}
+{{ end }}
 ## Servizi
 {{ range (where .Site.RegularPages "Section" "servizi").ByTitle }}- [{{ .Title }}]({{ with .OutputFormats.Get "agentmd" }}{{ .Permalink }}{{ else }}{{ .Permalink }}{{ end }}): {{ .Description }}
 {{ end }}

@@ -9,6 +9,13 @@ Ogni pagina elencata sotto ha una variante markdown per AI agents: i link puntan
 ## Guida
 - [Marketing sanitario: la guida per le strutture private](https://oida-labs.com/marketing-sanitario/index.md): Guida al marketing sanitario per cliniche e strutture private: normativa, canali, funnel del paziente e metriche. Scritta da un'agenzia fondata da medici.
 
+## Team
+- [Stefano Giarratana](https://oida-labs.com/team/stefano-giarratana/index.md): CEO & Founder, Medico Specialista in Anestesia, Rianimazione, Terapia Intensiva e del Dolore. Stefano Giarratana, medico anestesista e founder di OIDA Labs. Marketing e comunicazione per la sanità privata in Italia e Svizzera.
+- [Alessandro Catalano](https://oida-labs.com/team/alessandro-catalano/index.md): CMO & Co-Founder, Performance Marketing · Lead Generation. Alessandro Catalano, Co-Founder e CMO di OIDA Labs. Google Ads, performance marketing e lead generation per strutture sanitarie.
+- [Giulia Nasini](https://oida-labs.com/team/giulia-nasini/index.md): Strategic Marketing Advisor & Co-Founder, Marketing Executive. Giulia Nasini, Co-Founder e Strategic Marketing Advisor di OIDA Labs. Branding, comunicazione ed eventi per la sanità privata.
+- [Giacomo Baldi](https://oida-labs.com/team/giacomo-baldi/index.md): Investor · Healthcare & Tech Advisor, Imprenditore · Medico Specialista in Anestesia · Ingegnere Informatico. Giacomo Baldi, medico anestesista e ingegnere informatico, Healthcare & Tech Advisor e investitore di OIDA Labs. AI e automazione per il marketing sanitario.
+- [Andrea Pisoni](https://oida-labs.com/team/andrea-pisoni/index.md): Head of Healthcare Design & Build, Architetto · Progettazione Ambienti Sanitari. Andrea Pisoni, architetto e responsabile della progettazione sanitaria di OIDA Labs: autorizzazioni ATS, layout clinici e Medical Turn Key.
+
 ## Servizi
 - [Consulenza Strategica per la Sanità](https://oida-labs.com/servizi/consulenza-strategica-sanitaria/index.md): Analizziamo la tua struttura e ti diciamo cosa fare, in che ordine e con quali priorità. Strategia di marketing sanitario basata sui dati.
 - [CRM e Automazioni per la Sanità](https://oida-labs.com/servizi/crm-automation-sanita/index.md): Ti aiutiamo a scegliere e configurare il CRM giusto e automatizziamo i follow-up, così nessuna richiesta si perde. Indipendenti, nessun software nostro.

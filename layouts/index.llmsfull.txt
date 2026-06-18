@@ -26,6 +26,21 @@
 
 ---
 
+# Team
+
+{{ range (where .Site.RegularPages "Type" "team").ByWeight }}
+## {{ .Title }}
+
+- URL: {{ .Permalink }}
+- Ruolo: {{ .Params.card_meta }} · {{ .Params.role }}
+{{ with .Params.linkedin }}- LinkedIn: {{ . }}
+{{ end }}- Descrizione: {{ .Description }}
+
+{{ .Plain }}
+
+---
+{{ end }}
+
 # Servizi
 
 {{ range where .Site.RegularPages "Section" "servizi" }}
