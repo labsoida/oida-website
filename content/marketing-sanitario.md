@@ -5,7 +5,7 @@ description: "Guida al marketing sanitario per cliniche e strutture private: nor
 date: 2026-06-12
 author: "OIDA Labs"
 layout: "pillar"
-og_image: "img/og-image.jpg"
+og_image: "img/marketing-sanitario-og.jpg"
 kicker: "La guida"
 sources: "Legge 175/1992 e Codice di Deontologia Medica; BrightLocal Local Consumer Review Survey 2024 e Healthcare Consumer Review Survey 2024; Google Healthcare and medicines advertising policies (2025); Meta Advertising policies: health and wellness (2025); Dati interni OIDA Labs su strutture monitorate tra il 2023 e il 2025."
 faqs:
