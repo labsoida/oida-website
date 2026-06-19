@@ -468,6 +468,21 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
 .ins-body .insight-data-block{border:var(--hairline);padding:32px 28px;margin:36px 0;background:var(--gray-1)}
 .ins-body .insight-data-block__title{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px}
 .ins-body .insight-data-block__subtitle{font-size:13px;color:var(--gray-5);line-height:1.5;margin-bottom:16px}
+
+/* === Tabelle nei contenuti: cornice teal, header, scroll su mobile (render-hook _markup/render-table.html) === */
+.table-wrap{margin:34px 0;overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid rgba(0,194,178,.45);background:var(--gray-1)}
+.table-wrap table{width:100%;border-collapse:collapse;font-family:'Barlow Semi Condensed',sans-serif;font-size:15.5px;line-height:1.45;min-width:480px}
+.table-wrap thead th{background:rgba(0,194,178,.12);color:var(--teal);text-align:left;font-weight:600;text-transform:uppercase;letter-spacing:.05em;font-size:12px;padding:14px 20px;border-bottom:1px solid rgba(0,194,178,.55);white-space:nowrap}
+.table-wrap tbody td{padding:13px 20px;color:var(--gray-6);border-top:1px solid rgba(255,255,255,.08);vertical-align:top}
+.table-wrap tbody td:first-child{color:var(--ink);font-weight:500}
+.table-wrap tbody tr:hover td{background:rgba(255,255,255,.02)}
+/* Tabella shortcode insight: stesso linguaggio visivo, dentro il blocco già incorniciato */
+.ins-body .insight-data-block{overflow-x:auto}
+.ins-body .insight-data-table{width:100%;border-collapse:collapse;font-family:'Barlow Semi Condensed',sans-serif;font-size:15px;line-height:1.4;min-width:420px}
+.ins-body .insight-data-table th{text-align:left;color:var(--teal);text-transform:uppercase;letter-spacing:.05em;font-size:11.5px;font-weight:600;padding:11px 16px;border-bottom:1px solid rgba(0,194,178,.5)}
+.ins-body .insight-data-table td{padding:11px 16px;color:var(--gray-6);border-top:1px solid rgba(255,255,255,.08);vertical-align:top}
+.ins-body .insight-data-table td:first-child{color:var(--ink)}
+@media(max-width:600px){.table-wrap table{font-size:14.5px}.table-wrap thead th,.table-wrap tbody td{padding:11px 15px}}
 .ins-body .insight-stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));border:var(--cut);margin:36px 0}
 .ins-body .insight-stat-card{padding:28px;border-right:var(--hairline)}
 .ins-body .insight-stat-card:last-child{border-right:none}
