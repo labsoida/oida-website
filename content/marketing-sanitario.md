@@ -21,7 +21,7 @@ faqs:
 
 Il **marketing sanitario** è l'insieme delle attività con cui una struttura sanitaria privata costruisce visibilità, acquisisce pazienti e ne governa il percorso, dal primo contatto alla visita. Funziona con regole proprie: il "cliente" è un paziente che decide sulla propria salute, la comunicazione è vincolata da una normativa specifica e il risultato dipende tanto dalle campagne quanto da ciò che accade dopo il click, al telefono e in accettazione.
 
-Questa guida raccoglie il metodo che applichiamo come agenzia fondata da medici: cosa rende diverso il marketing in sanità, cosa permette la legge, quali canali contano, dove si perdono i pazienti e come si misura il ritorno. Ogni sezione rimanda a un approfondimento dedicato.
+Questa guida raccoglie il metodo che applichiamo come agenzia fondata da medici: cosa rende diverso il marketing in sanità, cosa permette la legge, quali canali contano, dove si perdono i pazienti, come si misura il ritorno e cosa presidia un'agenzia sanitaria oltre l'acquisizione. Ogni sezione rimanda a un approfondimento dedicato.
 
 ---
 
@@ -31,8 +31,9 @@ Questa guida raccoglie il metodo che applichiamo come agenzia fondata da medici:
 4. [Il funnel del paziente: dove si vincono e si perdono i contatti](#il-funnel-del-paziente-dove-si-vincono-e-si-perdono-i-contatti)
 5. [Misurare: CPL, CAC e ROI](#misurare-cpl-cac-e-roi)
 6. [AI e GEO: dove sta andando la ricerca sanitaria](#ai-e-geo-dove-sta-andando-la-ricerca-sanitaria)
-7. [Da dove cominciare: l'ordine operativo](#da-dove-cominciare-lordine-operativo)
-8. [FAQ](#faq)
+7. [Oltre l'acquisizione: reputazione, persone e spazi](#oltre-lacquisizione-reputazione-persone-e-spazi)
+8. [Da dove cominciare: l'ordine operativo](#da-dove-cominciare-lordine-operativo)
+9. [FAQ](#faq)
 
 ---
 
@@ -81,6 +82,16 @@ I benchmark variano per specialità e ticket: nelle prestazioni a basso valore u
 Una quota crescente di ricerche sanitarie non passa più dai dieci link blu: passa dalle risposte degli assistenti AI e dalle AI Overviews di Google. Per le strutture questo apre un secondo fronte di visibilità, la **GEO** (Generative Engine Optimization): essere la fonte che i modelli citano quando un paziente chiede di una prestazione o di una specialità.
 
 I requisiti sono in parte gli stessi della SEO (contenuti accurati, fonti dichiarate e dati strutturati) e in parte nuovi: contenuti leggibili dalle macchine, entità chiare e segnali di autorevolezza verificabili. L'intelligenza artificiale tocca anche l'operatività interna, dal follow-up automatizzato all'analisi predittiva: le applicazioni concrete sono nell'articolo su [AI e marketing sanitario](/blog/ai-marketing-sanitario-applicazioni-cliniche-poliambulatori/), con il contrappeso critico dell'analisi su [chatbot e automazione della prima risposta](/blog/chatbot-e-automazione-della-prima-risposta-nelle-strutture-sanitarie-cosa-funziona-e-cosa-non-funziona/).
+
+## Oltre l'acquisizione: reputazione, persone e spazi {#oltre-lacquisizione-reputazione-persone-e-spazi}
+
+Acquisire pazienti è una parte del lavoro, non tutto il lavoro. Una struttura sanitaria privata che cresce ha tre asset che le campagne da sole non costruiscono: la reputazione presso i media e gli interlocutori istituzionali, i medici che la fanno funzionare e lo spazio fisico in cui cura. Un'agenzia sanitaria completa li presidia con lo stesso metodo con cui gestisce l'acquisizione.
+
+**Reputazione e relazioni con i media.** Le recensioni e i contenuti costruiscono fiducia verso il paziente; l'ufficio stampa e le relazioni pubbliche la costruiscono verso il sistema: testate, ordini professionali e interlocutori istituzionali. È la differenza tra essere conosciuti dai pazienti ed essere riconosciuti dal settore. Il metodo è nella pagina [ufficio stampa e PR per la sanità](/servizi/ufficio-stampa-sanita/).
+
+**Le persone: attrarre e trattenere i medici.** La crescita di una struttura è limitata, prima ancora che dai pazienti, dai professionisti disposti a lavorarci. L'employer branding e una selezione costruita sul profilo clinico reale sono marketing rivolto a un altro pubblico, i medici, ed è il fronte trattato nella pagina [talent acquisition sanitaria](/servizi/talent-acquisition-sanita/).
+
+**Lo spazio di cura.** Una struttura nasce o si amplia a partire da un luogo conforme e funzionante: layout clinici, autorizzazioni ATS e cantiere. È il fronte che quasi nessuna agenzia copre e che per noi è parte del servizio, perché OIDA è fondata da medici e include un architetto dedicato alla [progettazione e allo sviluppo degli ambienti sanitari](/servizi/progettazione-ambienti-chirurgici/). A tenere insieme i fronti c'è [un team che unisce competenza clinica, marketing e progettazione](/team/).
 
 ## Da dove cominciare: l'ordine operativo {#da-dove-cominciare-lordine-operativo}
 
