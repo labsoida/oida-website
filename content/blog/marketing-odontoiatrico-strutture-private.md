@@ -2,7 +2,7 @@
 title: "Marketing odontoiatrico: perché le logiche generali non funzionano per i centri dentali privati"
 seo_title: "Marketing odontoiatrico per strutture private"
 description: "Marketing odontoiatrico per strutture private: LTV alto, famiglia come unità decisionale e normative specifiche. Cosa lo distingue dalle altre specialità."
-date: 2026-06-09
+date: 2026-06-17
 author: "OIDA Labs"
 image: "img/blog/marketing-odontoiatrico-strutture-private.webp"
 og_image: "img/blog/marketing-odontoiatrico-strutture-private-og.jpg"
@@ -24,7 +24,7 @@ draft: true
 
 L'odontoiatria privata ha le caratteristiche economiche più favorevoli al marketing di qualsiasi altra specialità sanitaria: il lifetime value del paziente è tra i più alti del settore, il ciclo di cura è strutturato e prevedibile, la ricorrenza è garantita dal ciclo igiene-prevenzione-trattamento. Eppure molti studi dentistici privati investono in marketing senza tenere conto di nessuna di queste specificità.
 
-Il risultato è che applicano al **marketing odontoiatrico** le stesse logiche di acquisizione che userebbero per una specialità con ciclo breve e basso LTV. Ottimizzano il CPL ignorando che un paziente di odontoiatria, se fidelizzato, vale tra 2.000 e 6.000 euro nel tempo. Inseguono nuovi pazienti senza lavorare sulla retention di quelli già acquisiti. Ignorano la famiglia come unità decisionale, trattando ogni paziente come un caso isolato.
+Il risultato è che applicano al **marketing odontoiatrico** le stesse logiche di acquisizione che userebbero per una specialità con ciclo breve e basso LTV. Ottimizzano il CPL ignorando che un paziente di odontoiatria, se fidelizzato, vale tra 2.000 e 6.000 euro nel tempo. Inseguono nuovi pazienti senza lavorare sulla retention di quelli già acquisiti. Ignorano la famiglia come unità decisionale, trattando ogni paziente come un caso isolato. Le regole generali della [guida al marketing sanitario](/marketing-sanitario/) restano valide, ma l'odontoiatria le piega a logiche proprie.
 
 ---
 

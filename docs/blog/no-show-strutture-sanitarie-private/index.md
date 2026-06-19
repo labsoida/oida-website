@@ -7,7 +7,7 @@
 
 > Come calcolare il costo reale delle mancate presentazioni nelle strutture sanitarie private e quali processi riducono il no-show in modo misurabile.
 
-**Data:** 2026-06-18
+**Data:** 2026-06-12
 **Autore:** OIDA Labs
 **Tag:** metriche e kpi, crm e automazioni
 
@@ -16,7 +16,7 @@
 
 Un appuntamento a cui il paziente non si presenta non costa zero: costa quanto sarebbe valsa quella prestazione, più il tempo del professionista che resta fermo, più il paziente in lista che avrebbe potuto occupare quello spazio. Il **no-show nelle strutture sanitarie private** è una delle poche perdite di fatturato che una struttura subisce senza vederla in bilancio, perché non compare come costo: compare come agenda mezza vuota.
 
-Il fenomeno viene trattato quasi sempre come un problema di organizzazione, da risolvere con un promemoria. È anche un problema di marketing, perché ogni paziente acquisito che poi non si presenta ha consumato budget di acquisizione senza generare valore. Ridurre il no-show non significa solo riempire l'agenda: significa recuperare il ritorno di un investimento già sostenuto.
+Il fenomeno viene trattato quasi sempre come un problema di organizzazione, da risolvere con un promemoria. È anche un problema di marketing, perché ogni paziente acquisito che poi non si presenta ha consumato budget di acquisizione senza generare valore. Ridurre il no-show non significa solo riempire l'agenda: significa recuperare il ritorno di un investimento già sostenuto, l'ultimo anello del funnel descritto nella [guida al marketing sanitario](/marketing-sanitario/) per le strutture private.
 
 ---
 

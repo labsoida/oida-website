@@ -2,7 +2,7 @@
 title: "Meta Ads per cliniche: come calcolare il costo per paziente (e smettere di guardare il CPL)"
 seo_title: "Meta Ads per cliniche: il costo per paziente reale"
 description: "Perché il CPL inganna su Meta, come calcolare il costo per paziente reale e come strutturare campagne Facebook e Instagram che riempiono l'agenda."
-date: 2026-06-13
+date: 2026-06-04
 author: "OIDA Labs"
 image: "img/blog/meta-ads-cliniche-costo-per-paziente.webp"
 og_image: "img/blog/meta-ads-cliniche-costo-per-paziente-og.jpg"

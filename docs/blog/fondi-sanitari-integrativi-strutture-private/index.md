@@ -7,7 +7,7 @@
 
 > Convenzioni con i fondi sanitari integrativi per strutture private: come valutarle, quali specialità portano volume e come gestire il paziente assicurato.
 
-**Data:** 2026-06-11
+**Data:** 2026-05-27
 **Autore:** OIDA Labs
 **Tag:** normativa, acquisizione pazienti
 

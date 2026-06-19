@@ -7,7 +7,7 @@
 
 > I cinque errori che bruciano budget in Google Ads per strutture sanitarie senza portare pazienti, e come riconoscerli prima di rifinanziare la campagna.
 
-**Data:** 2026-06-16
+**Data:** 2026-06-08
 **Autore:** OIDA Labs
 **Tag:** advertising, acquisizione pazienti
 
@@ -16,7 +16,7 @@
 
 Quando una campagna **Google Ads per strutture sanitarie** non funziona, la spiegazione che la struttura riceve è quasi sempre "serve più budget". Nei casi che arrivano in analisi, il budget è raramente il problema: lo è la struttura della campagna, e aumentare la spesa amplifica gli stessi errori a un costo più alto.
 
-Google Ads è il canale più diretto per intercettare un paziente che sta già cercando una prestazione. Proprio perché l'intenzione di ricerca è esplicita, una campagna ben costruita produce risultati in poche settimane. Ma la stessa esplicitezza rende ogni errore di impostazione immediatamente costoso: si paga per clic che non avevano alcuna possibilità di diventare pazienti. Cinque errori ricorrenti spiegano la quasi totalità delle campagne che spendono senza convertire.
+Google Ads è il canale più diretto per intercettare un paziente che sta già cercando una prestazione. Proprio perché l'intenzione di ricerca è esplicita, una campagna ben costruita produce risultati in poche settimane. Ma la stessa esplicitezza rende ogni errore di impostazione immediatamente costoso: si paga per clic che non avevano alcuna possibilità di diventare pazienti. Cinque errori ricorrenti spiegano la quasi totalità delle campagne che spendono senza convertire. Dove la Search si colloca tra gli altri canali è inquadrato nella [guida al marketing sanitario](/marketing-sanitario/) per le strutture private.
 
 ---
 

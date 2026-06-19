@@ -2,7 +2,7 @@
 title: "SEO per strutture sanitarie: da zero a leader organico (un caso reale)"
 seo_title: "SEO strutture sanitarie: un caso reale"
 description: "SEO per strutture sanitarie: un caso reale di crescita organica. Cosa determina il posizionamento di una clinica e perché richiede tempo e metodo."
-date: 2026-06-17
+date: 2026-06-19
 author: "OIDA Labs"
 image: "img/blog/seo-strutture-sanitarie-caso-reale-crescita-organica.webp"
 og_image: "img/blog/seo-strutture-sanitarie-caso-reale-crescita-organica-og.jpg"
@@ -22,7 +22,7 @@ draft: true
 
 Un poliambulatorio in Lombardia è passato da zero traffico organico a 52.000 visite mensili in quindici mesi, con 4.434 keyword posizionate e un valore equivalente in pubblicità superiore a 15.000 euro al mese. Non è successo con un intervento tecnico isolato, ed è il motivo per cui la **SEO per strutture sanitarie** viene sottovalutata: il risultato è grande, ma si costruisce lentamente e non si può comprare.
 
-La SEO, cioè il posizionamento organico sui motori di ricerca, è il canale con il costo per paziente più basso nel tempo, perché non si paga per ogni clic. È anche quello con l'orizzonte temporale più lungo e con i requisiti di qualità più alti, perché la sanità rientra tra i temi che Google valuta con i criteri più severi. Questo caso mostra cosa serve davvero, oltre cosa promettono le guide generiche.
+La SEO, cioè il posizionamento organico sui motori di ricerca, è il canale con il costo per paziente più basso nel tempo, perché non si paga per ogni clic. È anche quello con l'orizzonte temporale più lungo e con i requisiti di qualità più alti, perché la sanità rientra tra i temi che Google valuta con i criteri più severi. Questo caso mostra cosa serve davvero, oltre cosa promettono le guide generiche, e dove la SEO si colloca tra i canali della [guida al marketing sanitario](/marketing-sanitario/) per le strutture private.
 
 ---
 

@@ -7,7 +7,7 @@
 
 > Cosa converte una landing page sanitaria: trust signal, CTA unica, coerenza con la campagna e velocità. Guida per strutture private che gestiscono paid.
 
-**Data:** 2026-06-06
+**Data:** 2026-05-31
 **Autore:** OIDA Labs
 **Tag:** advertising, acquisizione pazienti
 
@@ -16,7 +16,7 @@
 
 Una campagna Google Ads o Meta Ads che porta traffico a una pagina sbagliata non ha solo un problema di budget sprecato. Ha un problema strutturale: il paziente ha mostrato un'intenzione, ha cliccato, ed è atterrato su qualcosa che non ha risposto in modo convincente a quella intenzione. Tutto il lavoro di targeting e impostazione della campagna si vanifica nell'ultimo miglio. Come strutturare a monte quelle campagne è trattato nei blog su [Meta Ads per cliniche](/blog/meta-ads-cliniche-costo-per-paziente/) e su [Google Ads per strutture sanitarie](/blog/google-ads-strutture-sanitarie-errori-campagna/).
 
-La **landing page sanitaria** è questo ultimo miglio. È il punto in cui il traffico pagato, o anche organico, si trasforma in una prenotazione o scompare. Il tasso di conversione medio di una landing page nel settore dei servizi medici è del 7,4%, con una mediana al 3,8%. Il range reale tra le pagine migliori e peggiori è molto più ampio: la differenza tra una pagina ben costruita e una generica non è di pochi punti percentuali.
+La **landing page sanitaria** è questo ultimo miglio. È il punto in cui il traffico pagato, o anche organico, si trasforma in una prenotazione o scompare, e dove si gioca la conversione che la [guida al marketing sanitario](/marketing-sanitario/) colloca a valle di ogni campagna. Il tasso di conversione medio di una landing page nel settore dei servizi medici è del 7,4%, con una mediana al 3,8%. Il range reale tra le pagine migliori e peggiori è molto più ampio: la differenza tra una pagina ben costruita e una generica non è di pochi punti percentuali.
 
 ---
 

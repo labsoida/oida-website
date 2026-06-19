@@ -7,14 +7,14 @@
 
 > Fasi, budget e KPI per costruire un piano marketing sanitario che collega obiettivi di business a canali, spesa e cicli di revisione misurabili.
 
-**Data:** 2026-06-02
+**Data:** 2026-05-19
 **Autore:** OIDA Labs
 **Tag:** strategia, metriche e kpi
 
 ---
 
 
-La differenza tra una struttura sanitaria privata che cresce in modo prevedibile e una che dipende dalla fortuna del passaparola non è quasi mai il budget. È la presenza, o l'assenza, di un piano. Un **piano marketing sanitario** per strutture private non è una lista di attività da spuntare: è un documento che collega obiettivi di business (quanti nuovi pazienti, in quali specialità, con quale CAC sostenibile) a scelte operative concrete su canali, budget e tempi. Senza questo collegamento, ogni campagna diventa un esperimento isolato il cui esito è impossibile da interpretare.
+La differenza tra una struttura sanitaria privata che cresce in modo prevedibile e una che dipende dalla fortuna del passaparola non è quasi mai il budget. È la presenza, o l'assenza, di un piano. Un **piano marketing sanitario** per strutture private non è una lista di attività da spuntare: è un documento che collega obiettivi di business (quanti nuovi pazienti, in quali specialità, con quale CAC sostenibile) a scelte operative concrete su canali, budget e tempi. Senza questo collegamento, ogni campagna diventa un esperimento isolato il cui esito è impossibile da interpretare. Il piano è il livello strategico che tiene insieme le singole leve descritte nella [guida al marketing sanitario](/marketing-sanitario/) per le strutture private.
 
 ---
 

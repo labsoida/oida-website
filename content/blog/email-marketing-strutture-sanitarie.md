@@ -2,7 +2,7 @@
 title: "Email marketing per strutture sanitarie: come usare la lista pazienti senza sprecarla"
 seo_title: "Email marketing strutture sanitarie: la guida"
 description: "Come usare la lista pazienti in modo GDPR-compliant per riattivare gli inattivi, seguire i lead non convertiti e ridurre il churn in una struttura privata."
-date: 2026-06-04
+date: 2026-05-23
 author: "OIDA Labs"
 image: "img/blog/email-marketing-strutture-sanitarie.webp"
 og_image: "img/blog/email-marketing-strutture-sanitarie-og.jpg"
@@ -20,7 +20,7 @@ faqs:
 draft: false
 ---
 
-Quasi tutte le strutture sanitarie private hanno già una lista email. Non la usano. I database accumulati negli anni contengono pazienti con storico di visite, specialità di riferimento e consenso già raccolto: sono l'asset digitale meno lavorato del settore. Le stesse strutture che investono in campagne paid per acquisire nuovi contatti non attivano alcuna comunicazione sistematica verso chi ha già scelto loro almeno una volta. L'**email marketing per strutture sanitarie** non funziona come quello di un e-commerce: ha vincoli normativi specifici, richiede una segmentazione completamente diversa e produce risultati su metriche che cambiano rispetto al modello standard. Ma quando è strutturato correttamente, è il canale con il CAC più basso disponibile per una struttura sanitaria privata.
+Quasi tutte le strutture sanitarie private hanno già una lista email. Non la usano. I database accumulati negli anni contengono pazienti con storico di visite, specialità di riferimento e consenso già raccolto: sono l'asset digitale meno lavorato del settore. Le stesse strutture che investono in campagne paid per acquisire nuovi contatti non attivano alcuna comunicazione sistematica verso chi ha già scelto loro almeno una volta. L'**email marketing per strutture sanitarie** non funziona come quello di un e-commerce: ha vincoli normativi specifici, richiede una segmentazione completamente diversa e produce risultati su metriche che cambiano rispetto al modello standard. Ma quando è strutturato correttamente, è il canale con il CAC più basso disponibile per una struttura sanitaria privata, e uno dei tasselli della [guida al marketing sanitario](/marketing-sanitario/) per le strutture private.
 
 ---
 

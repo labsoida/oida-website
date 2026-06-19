@@ -2,7 +2,7 @@
 title: "WhatsApp Business per strutture sanitarie: come usarlo come canale, non come centralino"
 seo_title: "WhatsApp Business per strutture sanitarie"
 description: "Differenza tra App e API, regole GDPR per i dati sanitari e come usare WhatsApp lungo il funnel del paziente senza trasformarlo in un centralino."
-date: 2026-06-19
+date: 2026-06-15
 author: "OIDA Labs"
 image: "img/blog/whatsapp-business-strutture-sanitarie.webp"
 og_image: "img/blog/whatsapp-business-strutture-sanitarie-og.jpg"
@@ -22,7 +22,7 @@ draft: false
 
 WhatsApp è il canale su cui i pazienti rispondono di più, e proprio per questo è quello su cui le strutture sanitarie sbagliano di più. Usato come un centralino dove qualcuno risponde quando può, genera attese, conversazioni perse e un rischio di conformità che pochi calcolano. Usato come un canale strutturato, **WhatsApp Business per le strutture sanitarie** riduce il no-show, accorcia i tempi di risposta ai contatti e riattiva i pazienti dormienti meglio di qualunque altro strumento di contatto diretto.
 
-La differenza non sta nell'app, sta nell'impostazione. WhatsApp Business per una clinica non è "siamo anche su WhatsApp": è una scelta su quale versione usare, su come trattare i dati dei pazienti e su quali momenti del percorso affidare al canale. Senza queste tre decisioni, il canale lavora contro la struttura.
+La differenza non sta nell'app, sta nell'impostazione. WhatsApp Business per una clinica non è "siamo anche su WhatsApp": è una scelta su quale versione usare, su come trattare i dati dei pazienti e su quali momenti del percorso affidare al canale. Senza queste tre decisioni, il canale lavora contro la struttura. Dove WhatsApp si inserisce tra i canali di contatto è inquadrato nella [guida al marketing sanitario](/marketing-sanitario/) per le strutture private.
 
 ---
 

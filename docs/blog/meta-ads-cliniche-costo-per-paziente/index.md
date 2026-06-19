@@ -7,7 +7,7 @@
 
 > Perché il CPL inganna su Meta, come calcolare il costo per paziente reale e come strutturare campagne Facebook e Instagram che riempiono l'agenda.
 
-**Data:** 2026-06-13
+**Data:** 2026-06-04
 **Autore:** OIDA Labs
 **Tag:** advertising, metriche e kpi
 

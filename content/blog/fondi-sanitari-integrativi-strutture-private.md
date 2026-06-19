@@ -2,7 +2,7 @@
 title: "Fondi sanitari integrativi e strutture private: come valutare le convenzioni e gestire il canale"
 seo_title: "Fondi sanitari integrativi e strutture private"
 description: "Convenzioni con i fondi sanitari integrativi per strutture private: come valutarle, quali specialità portano volume e come gestire il paziente assicurato."
-date: 2026-06-11
+date: 2026-05-27
 author: "OIDA Labs"
 image: "img/blog/fondi-sanitari-integrativi-strutture-private.webp"
 og_image: "img/blog/fondi-sanitari-integrativi-strutture-private-og.jpg"
