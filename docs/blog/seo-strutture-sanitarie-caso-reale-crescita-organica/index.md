@@ -1,24 +1,18 @@
 ---
-title: "SEO per strutture sanitarie: da zero a leader organico (un caso reale)"
-seo_title: "SEO strutture sanitarie: un caso reale"
-description: "SEO per strutture sanitarie: un caso reale di crescita organica. Cosa determina il posizionamento di una clinica e perché richiede tempo e metodo."
-date: 2026-06-19
-author: "OIDA Labs"
-image: "img/blog/seo-strutture-sanitarie-caso-reale-crescita-organica.webp"
-og_image: "img/blog/seo-strutture-sanitarie-caso-reale-crescita-organica-og.jpg"
-image_alt: "SEO per strutture sanitarie: da zero a leader organico (un caso reale)"
-tags: ["acquisizione pazienti", "metriche e kpi"]
-servizio: "seo-geo-sanita"
-sources: "Google, Search Quality Rater Guidelines, criteri E-E-A-T e classificazione YMYL; Dati interni OIDA Labs, caso studio poliambulatorio in Lombardia, crescita traffico organico su 15 mesi (0 → 52.000 visite mensili, 4.434 keyword posizionate, +2.391% di traffico organico, valore equivalente in advertising superiore a 15.000 euro mensili)."
-faqs:
-  - q: "In quanto tempo una struttura sanitaria vede i primi risultati SEO?"
-    a: "I primi segnali, cioè keyword che entrano in prima pagina e crescita iniziale del traffico, compaiono in genere tra il terzo e il sesto mese, a seconda della competitività locale e del punto di partenza. Il risultato di scala, come quello del caso descritto, richiede più di un anno di lavoro continuativo. Chi promette prime posizioni in poche settimane su keyword competitive in sanità sta descrivendo qualcosa che la categoria YMYL rende implausibile."
-  - q: "La SEO sostituisce le campagne a pagamento?"
-    a: "No, hanno funzioni e tempi diversi. Le campagne producono traffico subito e servono quando una struttura ha bisogno di pazienti nell'immediato o vuole spingere una specialità in un periodo preciso. La SEO produce dopo e costruisce un canale stabile nel tempo. Una struttura matura usa le campagne per il breve periodo e la SEO per ridurre, mese dopo mese, la dipendenza dal traffico a pagamento."
-  - q: "Serve un medico per fare SEO sanitaria?"
-    a: "Serve la competenza clinica nella produzione e validazione dei contenuti, perché i criteri E-E-A-T premiano l'autorevolezza dimostrabile. Non significa che un medico debba scrivere ogni pagina, significa che i contenuti vanno prodotti o supervisionati da chi ha competenza reale sulla materia, e che la struttura va resa identificabile e affidabile agli occhi di Google. La SEO sanitaria fatta senza alcun presidio di competenza clinica è il modo più rapido per produrre contenuti che non si posizionano."
-draft: false
+# Markdown version per AI agents, generata da Hugo
+# Vedi link rel="alternate" type="text/markdown" sulla versione HTML
 ---
+
+# SEO per strutture sanitarie: da zero a leader organico (un caso reale)
+
+> SEO per strutture sanitarie: un caso reale di crescita organica. Cosa determina il posizionamento di una clinica e perché richiede tempo e metodo.
+
+**Data:** 2026-06-19
+**Autore:** OIDA Labs
+**Tag:** acquisizione pazienti, metriche e kpi
+
+---
+
 
 Un poliambulatorio in Lombardia è passato da zero traffico organico a 52.000 visite mensili in quindici mesi, con 4.434 keyword posizionate e un valore equivalente in pubblicità superiore a 15.000 euro al mese. Non è successo con un intervento tecnico isolato, ed è il motivo per cui la **SEO per strutture sanitarie** viene sottovalutata: il risultato è grande, ma si costruisce lentamente e non si può comprare.
 
@@ -96,3 +90,26 @@ Questo rende la SEO un investimento, non una spesa ricorrente come l'advertising
 | Proprietà del canale | Della struttura | Della piattaforma |
 
 Il caso da zero a 52.000 visite non è la storia di un trucco tecnico, è la dimostrazione di cosa la SEO sanitaria può produrre quando viene trattata come un investimento pluriennale e non come un intervento spot. Il valore non sta solo nel traffico, sta nel possedere un canale di acquisizione che non si paga a clic e che i concorrenti non possono replicare comprando budget. La struttura che capisce questo smette di chiedersi se la SEO costi troppo e comincia a chiedersi quanto le costa, ogni mese, non averla.
+
+
+## FAQ
+
+**In quanto tempo una struttura sanitaria vede i primi risultati SEO?**
+
+I primi segnali, cioè keyword che entrano in prima pagina e crescita iniziale del traffico, compaiono in genere tra il terzo e il sesto mese, a seconda della competitività locale e del punto di partenza. Il risultato di scala, come quello del caso descritto, richiede più di un anno di lavoro continuativo. Chi promette prime posizioni in poche settimane su keyword competitive in sanità sta descrivendo qualcosa che la categoria YMYL rende implausibile.
+
+**La SEO sostituisce le campagne a pagamento?**
+
+No, hanno funzioni e tempi diversi. Le campagne producono traffico subito e servono quando una struttura ha bisogno di pazienti nell'immediato o vuole spingere una specialità in un periodo preciso. La SEO produce dopo e costruisce un canale stabile nel tempo. Una struttura matura usa le campagne per il breve periodo e la SEO per ridurre, mese dopo mese, la dipendenza dal traffico a pagamento.
+
+**Serve un medico per fare SEO sanitaria?**
+
+Serve la competenza clinica nella produzione e validazione dei contenuti, perché i criteri E-E-A-T premiano l'autorevolezza dimostrabile. Non significa che un medico debba scrivere ogni pagina, significa che i contenuti vanno prodotti o supervisionati da chi ha competenza reale sulla materia, e che la struttura va resa identificabile e affidabile agli occhi di Google. La SEO sanitaria fatta senza alcun presidio di competenza clinica è il modo più rapido per produrre contenuti che non si posizionano.
+
+
+---
+
+**Fonte:** https://oida-labs.com/blog/seo-strutture-sanitarie-caso-reale-crescita-organica/index.md
+**Sito:** https://oida-labs.com · OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
+**Knowledge base completa:** https://oida-labs.com/llms-full.txt
+**Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json
