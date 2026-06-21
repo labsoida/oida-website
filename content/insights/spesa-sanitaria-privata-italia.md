@@ -7,6 +7,8 @@ author: "OIDA Labs"
 kicker: "OIDA Insight · Marzo 2025"
 base: "Base empirica: Report GIMBE 2/2025"
 about: "Mercato della sanità privata in Italia e marketing sanitario"
+og_image: "img/insights/spesa-sanitaria-privata-og.jpg"
+image_alt: "Spesa sanitaria privata in Italia: analisi OIDA Labs sul Report GIMBE 2/2025"
 tags: ["mercato sanitario", "strategia"]
 stats:
   - number: "40,6"

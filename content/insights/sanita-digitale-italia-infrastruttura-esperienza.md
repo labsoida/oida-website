@@ -7,8 +7,8 @@ author: "OIDA Labs"
 kicker: "OIDA Insight · Giugno 2026"
 base: "Base empirica: Commissione UE, Digital Decade 2026 Country Report Italia"
 about: "Marketing sanitario ed esperienza digitale del paziente per strutture sanitarie private"
-image: "img/og-image.jpg" # TEMP: rimettere "img/insights/sanita-digitale-italia-infrastruttura-esperienza.webp" quando arriva l'OG di Alessandro
-og_image: "img/og-image.jpg" # TEMP: rimettere "img/insights/sanita-digitale-italia-og.jpg" quando arriva l'OG di Alessandro
+image: "img/insights/sanita-digitale-italia-infrastruttura-esperienza.webp"
+og_image: "img/insights/sanita-digitale-italia-og.jpg"
 image_alt: "Sanità digitale italiana: analisi OIDA Labs sul report Digital Decade 2026 della Commissione UE"
 keywords: "sanità digitale italiana, fascicolo sanitario elettronico, FSE 2.0, esperienza digitale del paziente, marketing sanitario digitale, posizionamento cliniche private, servizi sanitari online, Digital Decade Italia 2026, prenotazione online sanità, IA in sanità"
 tags: ["mercato sanitario", "sanità digitale"]

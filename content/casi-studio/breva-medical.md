@@ -2,6 +2,8 @@
 title: "BREVA Medical: marca, sito e CRM per la sanità B2B"
 seo_title: "Marketing sanitario e CRM per BREVA Medical"
 description: "Marketing sanitario B2B per BREVA Medical: brand, sito, SEO/GEO e CRM costruiti da OIDA per una società di anestesia in Canton Ticino."
+og_image: "img/casi-studio/breva-medical-og.jpg"
+image_alt: "Case study OIDA Labs: marca, sito e CRM per BREVA Medical, sanità B2B in Canton Ticino"
 cliente: "BREVA Medical"
 settore: "Servizi anestesiologici B2B"
 luogo: "Canton Ticino (CH)"
