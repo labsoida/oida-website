@@ -327,7 +327,8 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
    SINGOLA BLOG
    ============================================================ */
 .post-head{max-width:900px;margin:0 auto;padding:64px 32px 40px}
-.post-meta{display:flex;gap:18px;align-items:center;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.06em;text-transform:uppercase;margin-bottom:28px}
+.post-meta{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.06em;text-transform:uppercase;margin-bottom:28px}
+.post-meta>span,.post-meta>time{white-space:nowrap}
 .post-meta .dot{color:var(--gray-4)}
 .post-meta .rt{color:var(--gray-5)}
 .post-head h1{font-family:'Glaseer',sans-serif;font-size:48px;line-height:1.04;letter-spacing:.02em;text-transform:uppercase;margin-bottom:28px;text-shadow:0 0 40px rgba(0,0,0,.9)}
