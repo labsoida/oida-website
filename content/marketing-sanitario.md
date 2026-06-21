@@ -23,6 +23,8 @@ Il **marketing sanitario** è l'insieme delle attività con cui una struttura sa
 
 Questa guida raccoglie il metodo che applichiamo come agenzia fondata da medici: cosa rende diverso il marketing in sanità, cosa permette la legge, quali canali contano, dove si perdono i pazienti, come si misura il ritorno e cosa presidia un'agenzia sanitaria oltre l'acquisizione. Ogni sezione rimanda a un approfondimento dedicato.
 
+È anche un mercato grande e in crescita: nel 2023 le famiglie italiane hanno pagato di tasca propria oltre 40 miliardi di euro per la salute, come analizziamo nell'insight sulla [spesa sanitaria privata in Italia](/insights/spesa-sanitaria-privata-italia/).
+
 ---
 
 1. [Perché il marketing sanitario è diverso](#perche-il-marketing-sanitario-e-diverso)

@@ -44,6 +44,8 @@ Il Ministero della Salute gestisce un Registro dei fondi sanitari, che al 2024 c
 
 Ogni fondo ha un proprio piano sanitario che definisce quali prestazioni sono coperte, con quale modalità di rimborso (diretta o a piè di lista) e con quale tetto massimo. Le strutture sanitarie possono convenzionarsi con i fondi che lo consentono, diventando parte della rete di strutture convenzionate a cui l'assicurato può rivolgersi.
 
+Va tenuto presente il peso reale del canale: sul totale della spesa sanitaria privata italiana, fondi e polizze intermediano ancora soltanto l'11,4%, contro l'88,6% che le famiglie pagano direttamente di tasca propria. I numeri di mercato sono nell'analisi sulla [spesa sanitaria privata in Italia](/insights/spesa-sanitaria-privata-italia/).
+
 Il modello di accesso varia per fondo. In alcuni casi (rimborso diretto, sistema cashless) il paziente non anticipa nulla: la struttura fattura direttamente al fondo secondo il tariffario concordato. In altri casi (rimborso a piè di lista) il paziente paga la struttura e poi chiede il rimborso al fondo. Dal punto di vista dell'acquisizione paziente, il modello cashless è quello che abbassa maggiormente la barriera all'accesso.
 
 ## Cosa significa convenzionarsi con un fondo: processo e implicazioni
