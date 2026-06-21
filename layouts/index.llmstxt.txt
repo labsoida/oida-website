@@ -21,6 +21,9 @@ Ogni pagina elencata sotto ha una variante markdown per AI agents: i link puntan
 ## Insight
 {{ range (where .Site.RegularPages "Section" "insights").ByDate.Reverse }}- [{{ .Title }}]({{ with .OutputFormats.Get "agentmd" }}{{ .Permalink }}{{ else }}{{ .Permalink }}{{ end }}): {{ .Description }}
 {{ end }}
+## Casi studio
+{{ range (where .Site.RegularPages "Section" "casi-studio") }}- [{{ .Title }}]({{ with .OutputFormats.Get "agentmd" }}{{ .Permalink }}{{ else }}{{ .Permalink }}{{ end }}): {{ .Description }}
+{{ end }}
 ## Risorse
 
 - [Knowledge base completa](https://oida-labs.com/llms-full.txt): tutti i contenuti del sito in un unico file di testo, rigenerato a ogni pubblicazione

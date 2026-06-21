@@ -1,0 +1,110 @@
+{{ define "main" }}
+{{- /* Case study: nessuna data visibile (contenuto evergreen), meta chips dal front matter. */ -}}
+
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="{{ "/" | relURL }}">Home</a><span class="sep">/</span><a href="{{ "casi-studio/" | relURL }}">Casi studio</a><span class="sep">/</span><span class="current">{{ .Title }}</span>
+</nav>
+
+<header class="post-head starry">
+  <div class="post-meta">
+    <span>// Caso studio</span>
+    {{ with .Params.settore }}<span class="dot">&middot;</span><span class="rt">{{ . }}</span>{{ end }}
+  </div>
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="post-sub">{{ . }}</p>{{ end }}
+</header>
+
+{{ with .Params.screenshot }}
+<div class="cs-shot"><img src="{{ . | relURL }}" alt="{{ $.Params.image_alt | default $.Title }}" loading="lazy"></div>
+{{ end }}
+
+{{ if .Params.cliente }}
+<div class="cs-meta">
+  <div class="cs-meta-cell"><div class="cs-meta-lab">// Cliente</div><div class="cs-meta-val">{{ .Params.cliente }}</div></div>
+  {{ with .Params.luogo }}<div class="cs-meta-cell"><div class="cs-meta-lab">// Luogo</div><div class="cs-meta-val">{{ . }}</div></div>{{ end }}
+  {{ with .Params.servizi_label }}<div class="cs-meta-cell"><div class="cs-meta-lab">// Servizi</div><div class="cs-meta-val">{{ . }}</div></div>{{ end }}
+  {{ with .Params.sito_cliente }}<div class="cs-meta-cell"><div class="cs-meta-lab">// Sito</div><div class="cs-meta-val"><a href="{{ . }}" target="_blank" rel="noopener">{{ replaceRE `https?://` "" . | replaceRE `/$` "" }}</a></div></div>{{ end }}
+</div>
+{{ end }}
+
+<article class="post-body">
+  {{ .Content }}
+</article>
+
+{{ with .Params.faqs }}
+<section class="post-faq" id="faq">
+  <div class="post-faq-header">
+    <div class="post-faq-num">FAQ</div>
+    <div class="post-faq-tit">
+      <div class="lab">// Domande frequenti</div>
+      <div class="ttl">Quello che ci chiedono</div>
+    </div>
+  </div>
+  {{ range $i, $faq := . }}
+  <details>
+    <summary><span class="num">/{{ printf "%02d" (add $i 1) }}</span><span>{{ $faq.q }}</span><span class="plus">+</span></summary>
+    <div>{{ $faq.a }}</div>
+  </details>
+  {{ end }}
+</section>
+{{ end }}
+
+<section class="ins-cta">
+  <div>
+    <div class="ins-cta-lab">// Prossimo passo</div>
+    <h2>Vuoi un percorso simile<br>per la tua struttura?</h2>
+    <p>La prima conversazione è gratuita e serve a capire da dove si parte: marca, presenza digitale o sistema di acquisizione. Nessun impegno.</p>
+  </div>
+  <a class="ins-cta-btn" href="{{ "/" | relURL }}#contatti">Parliamone &rarr;</a>
+</section>
+
+{{ with .Params.faqs }}
+<!-- Schema.org: FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{- range $i, $faq := . }}{{ if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": {{ $faq.q | jsonify | safeJS }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ $faq.a | jsonify | safeJS }} }
+    }
+    {{- end }}
+  ]
+}
+</script>
+{{ end }}
+
+<!-- Schema.org: CreativeWork (case study, senza date: evergreen) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": {{ .Title | jsonify | safeJS }},
+  "headline": {{ .Title | jsonify | safeJS }},
+  "description": {{ .Description | jsonify | safeJS }},
+  "inLanguage": "it-IT",
+  "url": {{ .Permalink | jsonify | safeJS }},
+  "author": { "@type": "Organization", "@id": "https://oida-labs.com/#organization", "name": "OIDA Labs" },
+  "publisher": { "@type": "Organization", "@id": "https://oida-labs.com/#organization", "name": "OIDA Labs", "url": "https://oida-labs.com" }
+  {{- with .Params.cliente }},
+  "about": { "@type": "Organization", "name": {{ . | jsonify | safeJS }}{{ with $.Params.sito_cliente }}, "url": {{ . | jsonify | safeJS }}{{ end }} }
+  {{- end }}
+}
+</script>
+
+<!-- Schema.org: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://oida-labs.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Casi studio", "item": "https://oida-labs.com/casi-studio/" },
+    { "@type": "ListItem", "position": 3, "name": {{ .Title | jsonify | safeJS }}, "item": "{{ .Permalink }}" }
+  ]
+}
+</script>
+{{ end }}
