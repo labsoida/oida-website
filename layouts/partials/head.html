@@ -81,10 +81,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="apple-touch-icon" href="{{ "img/apple-touch-icon.png" | relURL }}">
 <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
 
-<!-- Font preloads (tutti self-hosted, solo quelli above-the-fold) -->
-<link rel="preload" href="{{ "fonts/glaseer-stencil.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+<!-- Font critici (hero Glaseer + body Barlow-400) INLINE in base64: disponibili al
+     parse dell'HTML, zero richieste di rete, nessun FOUT anche a cache fredda. -->
+{{- $glaseer := resources.Get "fonts/glaseer-stencil.woff2" -}}
+{{- $barlow := resources.Get "fonts/barlow-semi-condensed-400.woff2" -}}
+<style>
+@font-face{font-family:'Glaseer';src:url(data:font/woff2;base64,{{ $glaseer.Content | base64Encode }}) format('woff2');font-display:swap}
+@font-face{font-family:'Barlow Semi Condensed';font-style:normal;font-weight:400;src:url(data:font/woff2;base64,{{ $barlow.Content | base64Encode }}) format('woff2');font-display:swap}
+</style>
+<!-- Font secondari (nav, label) self-hosted con preload -->
 <link rel="preload" href="{{ "fonts/bank-gothic.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="{{ "fonts/barlow-semi-condensed-400.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ "fonts/jetbrains-mono-variable.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
 
 <!-- Meta Pixel: caricato dinamicamente da cookie-consent-config.js solo dopo consenso marketing.

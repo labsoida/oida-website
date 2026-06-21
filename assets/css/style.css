@@ -4,10 +4,9 @@
    Struttura: token · decor condiviso · chrome · home · liste · singole · mobile
    ============================================================ */
 
-/* === FONT (tutti self-hosted: nessuna chiamata a terze parti pre-consenso) === */
-@font-face{font-family:'Glaseer';src:url('/fonts/glaseer-stencil.woff2') format('woff2');font-display:optional}
+/* === FONT (self-hosted; Glaseer e Barlow-400 sono INLINE base64 nell'head per
+   eliminare il FOUT a cache fredda — non reintrodurli qui o sovrascrivono l'inline) === */
 @font-face{font-family:'BankGothic';src:url('/fonts/bank-gothic.woff2') format('woff2');font-display:swap}
-@font-face{font-family:'Barlow Semi Condensed';font-style:normal;font-weight:400;src:url('/fonts/barlow-semi-condensed-400.woff2') format('woff2');font-display:swap}
 @font-face{font-family:'Barlow Semi Condensed';font-style:italic;font-weight:400;src:url('/fonts/barlow-semi-condensed-italic-400.woff2') format('woff2');font-display:swap}
 @font-face{font-family:'Barlow Semi Condensed';font-style:normal;font-weight:500;src:url('/fonts/barlow-semi-condensed-500.woff2') format('woff2');font-display:swap}
 @font-face{font-family:'Barlow Semi Condensed';font-style:normal;font-weight:600;src:url('/fonts/barlow-semi-condensed-600.woff2') format('woff2');font-display:swap}
