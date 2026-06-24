@@ -38,7 +38,7 @@ cta:
 
 ## Quante richieste si perdono senza che te ne accorga?
 
-Ogni richiesta che non riceve risposta in tempo è una persona che si rivolge altrove. Senza un sistema, le richieste arrivano da telefono, email, sito e social, e si perdono nei passaggi tra una persona e l'altra. Più la struttura cresce, più il problema si moltiplica.
+Ogni richiesta che non riceve risposta in tempo è una persona che si rivolge altrove. Senza un sistema, le richieste arrivano da telefono, email, sito e social, e si perdono nei passaggi tra una persona e l'altra: è il [meccanismo per cui le strutture perdono pazienti dopo il primo contatto](/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/). Più la struttura cresce, più il problema si moltiplica.
 
 ## Lo facciamo da sanitari, non solo da tecnici
 
