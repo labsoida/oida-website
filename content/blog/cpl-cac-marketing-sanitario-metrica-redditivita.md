@@ -1,5 +1,6 @@
 ---
 title: "CPL e CAC nel marketing sanitario: quale metrica misura davvero la redditività"
+seo_title: "CAC nel marketing sanitario: la metrica della redditività"
 description: "Il CPL misura il costo del lead, il CAC il costo per paziente acquisito. La differenza tra i due numeri determina la redditività reale del marketing."
 date: 2026-04-20
 author: "OIDA Labs"

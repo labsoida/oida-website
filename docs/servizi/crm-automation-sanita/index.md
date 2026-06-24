@@ -3,7 +3,7 @@
 # Vedi link rel="alternate" type="text/markdown" sulla versione HTML
 ---
 
-# CRM e Automazioni per la Sanità
+# CRM per la Sanità e Automazioni
 
 > Ti aiutiamo a scegliere e configurare il CRM giusto e automatizziamo i follow-up, così nessuna richiesta si perde. Indipendenti, nessun software nostro.
 

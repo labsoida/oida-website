@@ -1,5 +1,6 @@
 ---
 title: "Digital marketing sanitario: quali canali contano e cosa determina i risultati"
+seo_title: "Web marketing sanitario: quali canali contano davvero"
 description: "Il digital marketing sanitario non è uguale per tutte le strutture. Quali canali producono risultati reali, perché e come cambiano in base alla specialità."
 date: 2026-05-11
 author: "OIDA Labs"

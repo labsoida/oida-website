@@ -1,6 +1,6 @@
 ---
 title: "No-show nelle strutture sanitarie private: quanto costa davvero e come ridurlo"
-seo_title: "No-show strutture sanitarie private"
+seo_title: "Ridurre i no-show nelle strutture sanitarie private"
 description: "Come calcolare il costo reale delle mancate presentazioni nelle strutture sanitarie private e quali processi riducono il no-show in modo misurabile."
 date: 2026-06-12
 author: "OIDA Labs"

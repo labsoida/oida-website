@@ -1,6 +1,6 @@
 ---
 title: "Google Ads per strutture sanitarie: anatomia di una campagna che non funziona"
-seo_title: "Google Ads strutture sanitarie: 5 errori"
+seo_title: "Google Ads per medici e strutture sanitarie: 5 errori"
 description: "I cinque errori che bruciano budget in Google Ads per strutture sanitarie senza portare pazienti, e come riconoscerli prima di rifinanziare la campagna."
 date: 2026-06-08
 author: "OIDA Labs"
