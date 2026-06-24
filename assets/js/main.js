@@ -113,9 +113,10 @@
           status.textContent = '// messaggio inviato. Ti rispondiamo entro 24h.';
           status.setAttribute('data-status', 'success');
           ctaForm.reset();
-          // GA4: invio form contatti come lead. Passa per il Consent Mode:
-          // registrato se l'utente ha concesso l'analytics, altrimenti modellato.
-          try { if (window.gtag) gtag('event', 'generate_lead', { form_id: 'cta-form' }); } catch (e) {}
+          // GA4 lead: push su dataLayer come Custom Event, così GTM lo intercetta
+          // (trigger "generate_lead" -> tag evento GA4). Il gtag('event') diretto
+          // NON veniva inoltrato da GTM, quindi l'evento si perdeva.
+          try { window.dataLayer = window.dataLayer || []; window.dataLayer.push({ event: 'generate_lead', form_id: 'cta-form' }); } catch (e) {}
         } else {
           status.textContent = '// errore. Scrivici a info@oida-labs.com';
           status.setAttribute('data-status', 'error');
