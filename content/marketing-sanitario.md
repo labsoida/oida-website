@@ -7,7 +7,7 @@ author: "OIDA Labs"
 layout: "pillar"
 og_image: "img/marketing-sanitario-og.jpg"
 kicker: "La guida"
-sources: "Legge 175/1992 e Codice di Deontologia Medica; BrightLocal Local Consumer Review Survey 2024 e Healthcare Consumer Review Survey 2024; Google Healthcare and medicines advertising policies (2025); Meta Advertising policies: health and wellness (2025); Dati interni OIDA Labs su strutture monitorate tra il 2023 e il 2025."
+sources: "Legge 145/2018 (comma 525) come modificata dal D.L. 69/2023 convertito in Legge 103/2023; Decreto Bersani (D.L. 223/2006); Codice di Deontologia Medica FNOMCeO artt. 55-57; BrightLocal Local Consumer Review Survey 2024 e Healthcare Consumer Review Survey 2024; Google Healthcare and medicines advertising policies (2025); Meta Advertising policies: health and wellness (2025); Dati interni OIDA Labs su strutture monitorate tra il 2023 e il 2025."
 faqs:
   - q: "Quanto costa il marketing sanitario per una struttura privata?"
     a: "Dipende da specialità, mercato locale, obiettivi e stato di partenza della presenza digitale. La domanda corretta non è quanto costa, ma quanto rende: una struttura che misura CPL e CAC sa esattamente quanto paga ogni paziente acquisito e può decidere su quei numeri. Le attività continuative hanno senso con un orizzonte di almeno 6 mesi; i progetti puntuali (audit, riposizionamento) si chiudono in 1-3 mesi."
@@ -16,7 +16,7 @@ faqs:
   - q: "Una struttura può gestire il marketing internamente o serve un'agenzia?"
     a: "Le due cose non si escludono. La struttura deve comunque presidiare internamente il front office e la qualità dei dati; la scelta riguarda campagne, SEO e infrastruttura tecnica. Il criterio onesto è la specializzazione: chi gestisce le campagne deve conoscere i vincoli normativi della pubblicità sanitaria e i benchmark per specialità, altrimenti impara a spese della struttura."
   - q: "La pubblicità sanitaria è legale in Italia?"
-    a: "Sì, dentro un perimetro preciso. La Legge 175/1992 e la Legge 145/2018 consentono l'informazione sanitaria e vietano la pubblicità comparativa, i claim di eccellenza non documentabili e l'uso promozionale delle testimonianze. Il Codice di Deontologia Medica aggiunge vincoli per i singoli professionisti. Dentro questi limiti le leve di marketing legittime sono molte e misurabili."
+    a: "Sì, dentro un perimetro preciso. La norma di riferimento è la Legge 145/2018 (comma 525), come modificata dal D.L. 69/2023 convertito in Legge 103/2023: consente l'informazione sanitaria veritiera ed esclude gli elementi attrattivi e suggestivi, tra cui offerte, sconti e promozioni, idonei a indurre il ricorso improprio alle prestazioni. Il Codice di Deontologia Medica aggiunge il principio di non promozionalità per i singoli professionisti. Dentro questi limiti gli strumenti di marketing legittimi sono molti e misurabili."
   - q: "Come funziona il marketing per i medici e per i piccoli studi?"
     a: "Il marketing medico efficace parte dalla specialità e dal tipo di paziente, non dal canale. Per un medico o un piccolo studio le priorità sono la presenza locale su Google, una scheda Google Business curata e un sito che converta le ricerche in prenotazioni; le campagne a pagamento hanno senso solo quando il front office riesce a gestire le richieste che generano."
 ---
@@ -51,7 +51,7 @@ L'analisi completa di queste dinamiche è nel nostro articolo su [perché il paz
 
 ## Il quadro normativo: cosa si può fare {#il-quadro-normativo-cosa-si-puo-fare}
 
-In Italia la comunicazione sanitaria opera su tre livelli di vincolo che si sovrappongono. La **Legge 175/1992**, integrata dalla Legge 145/2018, consente l'informazione sanitaria (esistenza, localizzazione e caratteristiche dei servizi) e vieta la pubblicità comparativa, i claim di primato non documentabili e l'uso promozionale delle testimonianze. Il **Codice di Deontologia Medica** aggiunge vincoli per i singoli professionisti. Le **policy di Google e Meta** per le categorie sensibili limitano targeting e formati delle campagne sanitarie.
+In Italia la comunicazione sanitaria opera su più livelli di vincolo che si sovrappongono. Il **decreto Bersani** (D.L. 223/2006) ha liberalizzato la pubblicità informativa, e la **Legge 145/2018 (comma 525)**, come modificata dal D.L. 69/2023 convertito in Legge 103/2023, fissa il perimetro vigente: ammette solo le informazioni funzionali a una corretta informazione sanitaria ed esclude gli elementi attrattivi e suggestivi, tra cui offerte, sconti e promozioni, idonei a indurre il ricorso improprio alle prestazioni. Il **Codice di Deontologia Medica** aggiunge il principio di non promozionalità per i singoli professionisti. Le **policy di Google e Meta** per le categorie sensibili limitano targeting e formati delle campagne sanitarie.
 
 Per le strutture che operano in Svizzera valgono la legislazione cantonale e le norme deontologiche FMH; sul fronte dei dati personali si applicano il GDPR e, per le strutture svizzere, la LPD.
 

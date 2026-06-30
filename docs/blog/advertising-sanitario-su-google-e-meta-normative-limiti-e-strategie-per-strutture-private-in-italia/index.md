@@ -14,7 +14,7 @@
 ---
 
 
-Le campagne pubblicitarie per strutture sanitarie private in Italia operano all'interno di un quadro normativo che non ha equivalenti in altri settori. Il Codice di Deontologia Medica, la Legge 175/1992 sulla pubblicità sanitaria, le policy aggiornate di Google e Meta per le categorie sensibili: **tre livelli di vincolo che si sovrappongono** e che definiscono un perimetro preciso dentro il quale una campagna può operare.
+Le campagne pubblicitarie per strutture sanitarie private in Italia operano all'interno di un quadro normativo che non ha equivalenti in altri settori. Il decreto Bersani che ha liberalizzato la pubblicità informativa, la Legge 145/2018 (comma 525) come modificata nel 2023, il Codice di Deontologia Medica e le policy aggiornate di Google e Meta per le categorie sensibili: **più livelli di vincolo che si sovrappongono** e che definiscono un perimetro preciso dentro il quale una campagna può operare.
 
 **Dentro questo perimetro ci sono strategie efficaci.** Il problema non è la normativa in sé, ma la tendenza delle strutture a interpretarla in modo più restrittivo di quanto sia, rinunciando a leve pubblicitarie che sarebbero legittime e misurabili.
 
@@ -33,19 +33,20 @@ Le campagne pubblicitarie per strutture sanitarie private in Italia operano all'
 
 ### I tre livelli di vincolo
 
-**Il primo livello è la Legge 175/1992**, la legge che regola la pubblicità sanitaria in Italia. Stabilisce che le strutture sanitarie possono pubblicizzare l'esistenza e la localizzazione dei propri servizi, ma non possono fare pubblicità comparativa, attribuirsi caratteristiche di eccellenza non documentabili, o usare testimonial. La norma è stata scritta prima dell'era digitale e la sua interpretazione in un contesto di campagne digitali richiede un'applicazione ragionata che distingue tra ciò che è vietato, ciò che è consentito e ciò che ricade in zone interpretative.
+**Il primo livello è la legge sulla pubblicità sanitaria.** Il decreto Bersani (D.L. 223/2006) ha liberalizzato la pubblicità informativa, ammettendo le informazioni su titoli, specializzazioni, caratteristiche dei servizi e prezzi, se trasparenti e veritiere. La norma oggi di riferimento è la Legge 145/2018 (comma 525), come modificata dal D.L. 69/2023 convertito in Legge 103/2023: ammette solo le informazioni funzionali a garantire una corretta informazione sanitaria ed esclude qualsiasi elemento attrattivo e suggestivo, tra cui esplicitamente offerte, sconti e promozioni, idoneo a determinare il ricorso improprio a trattamenti sanitari. Della storica Legge 175/1992 resta in vigore essenzialmente l'obbligo di indicare il direttore sanitario nella comunicazione.
 
-**Il secondo livello è il Codice di Deontologia Medica**, che vieta ai medici di fare pubblicità finalizzata a procurarsi clienti. Il Codice si applica ai singoli professionisti, non alle strutture, ma la distinzione diventa rilevante quando la campagna promuove sia la struttura sia il professionista che vi lavora.
+**Il secondo livello è il Codice di Deontologia Medica** (artt. 55-57), che fissa il principio generale: l'informazione del medico può essere data, ma non può essere promozionale, autocelebrativa né suggestiva. Il Codice si applica ai singoli professionisti, non alle strutture, ma la distinzione diventa rilevante quando la campagna promuove sia la struttura sia il professionista che vi lavora. Testimonial emotivamente suggestivi, immagini del prima e dopo e influencer non sono nominati dalla legge: è a questo livello, nelle linee guida degli Ordini e della FNOMCeO, che vengono ricondotti al divieto, valutati caso per caso.
 
 **Il terzo livello sono le policy di Google e Meta** per la pubblicità nelle categorie sensibili, che includono la sanità. Le restrizioni di queste piattaforme, aggiornate frequentemente, limitano alcune tipologie di targeting e richiedono certificazioni per certe categorie di inserzionisti.
 
-### Cosa è esplicitamente vietato
+### Cosa non è ammesso
 
-In sintesi operativa, sono vietate in modo chiaro:
+In sintesi operativa, restano fuori dal perimetro:
+- Offerte, sconti e promozioni sulle prestazioni: sono gli esempi che la legge esclude in modo esplicito
 - Le affermazioni di primato non documentabile ("i migliori specialisti", "la clinica più avanzata")
-- Le testimonianze di pazienti che attribuiscono alla struttura risultati clinici specifici
 - Le promesse di risultati clinici garantiti
 - La pubblicità comparativa diretta
+- I testimonial e le testimonianze emotivamente suggestivi e le immagini del prima e dopo, che gli Ordini riconducono al divieto caso per caso
 - Le comunicazioni che inducono il paziente a credere di avere una patologia che non ha diagnosticato
 
 ## Cosa si può fare su Google Ads per strutture sanitarie {#cosa-si-puo-fare-su-google-ads-per-strutture-sanitarie}
@@ -84,7 +85,7 @@ Il contenuto delle inserzioni Meta in sanità deve rispettare la normativa itali
 
 ### Le testimonianze di pazienti
 
-Le testimonianze di pazienti sono tecnicamente vietate dalla normativa italiana se attribuiscono risultati clinici specifici alla struttura. La linea di confine tra una testimonianza sull'esperienza di cura e una testimonianza che induce aspettative cliniche è sfumata nella pratica.
+La legge non nomina le testimonianze dei pazienti: sono le linee guida degli Ordini a ricondurle al divieto quando assumono carattere emotivamente suggestivo, per esempio attribuendo alla struttura risultati clinici specifici. La linea di confine tra una testimonianza sull'esperienza di cura e una che induce aspettative cliniche è sfumata nella pratica, e la valutazione è caso per caso.
 
 **La scelta più cauta**, e quella che protegge la struttura da contestazioni, è di non usare testimonial di pazienti nelle campagne pubblicitarie. Le [recensioni su Google](/blog/gestione-delle-recensioni-online-nelle-cliniche-private-reputazione-digitale-e-acquisizione-pazienti/), che non sono campagne pubblicitarie ma contenuto organico generato dagli utenti, rientrano in un regime diverso.
 

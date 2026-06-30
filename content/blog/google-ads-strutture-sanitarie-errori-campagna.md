@@ -9,7 +9,7 @@ og_image: "img/blog/google-ads-strutture-sanitarie-errori-campagna-og.jpg"
 image_alt: "Google Ads per strutture sanitarie: anatomia di una campagna che non funziona"
 tags: ["advertising", "acquisizione pazienti"]
 servizio: "advertising-sanitario"
-sources: "Google Ads, policy Healthcare and medicines; Legge 145/2018, art. 1, commi 525 e 536, come modificata dalla Legge 103/2023 e dal D.L. 69/2023, disciplina della comunicazione sanitaria in Italia; Regolamento UE 2016/679 (GDPR), art. 9, trattamento di categorie particolari di dati; Dati interni OIDA Labs su campagne Search per strutture sanitarie private monitorate tra il 2023 e il 2025."
+sources: "Google Ads, policy Healthcare and medicines; Legge 145/2018, art. 1, commi 525 e 536, come modificata dal D.L. 69/2023 convertito in Legge 103/2023, disciplina della comunicazione sanitaria in Italia; Regolamento UE 2016/679 (GDPR), art. 9, trattamento di categorie particolari di dati; Dati interni OIDA Labs su campagne Search per strutture sanitarie private monitorate tra il 2023 e il 2025."
 faqs:
   - q: "Con quale budget mensile ha senso avviare Google Ads per una struttura sanitaria?"
     a: "La cifra dipende dalla specialità e dal costo per clic locale, non da una soglia universale. Più utile del budget di partenza è la condizione di partenza: avere keyword specifiche, una pagina di destinazione coerente e il tracciamento delle conversioni attivo. Una campagna ben strutturata con budget contenuto produce dati leggibili che permettono di scalare con metodo; una campagna mal strutturata con budget alto produce solo perdite più rapide."

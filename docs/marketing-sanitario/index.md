@@ -44,7 +44,7 @@ L'analisi completa di queste dinamiche è nel nostro articolo su [perché il paz
 
 ## Il quadro normativo: cosa si può fare {#il-quadro-normativo-cosa-si-puo-fare}
 
-In Italia la comunicazione sanitaria opera su tre livelli di vincolo che si sovrappongono. La **Legge 175/1992**, integrata dalla Legge 145/2018, consente l'informazione sanitaria (esistenza, localizzazione e caratteristiche dei servizi) e vieta la pubblicità comparativa, i claim di primato non documentabili e l'uso promozionale delle testimonianze. Il **Codice di Deontologia Medica** aggiunge vincoli per i singoli professionisti. Le **policy di Google e Meta** per le categorie sensibili limitano targeting e formati delle campagne sanitarie.
+In Italia la comunicazione sanitaria opera su più livelli di vincolo che si sovrappongono. Il **decreto Bersani** (D.L. 223/2006) ha liberalizzato la pubblicità informativa, e la **Legge 145/2018 (comma 525)**, come modificata dal D.L. 69/2023 convertito in Legge 103/2023, fissa il perimetro vigente: ammette solo le informazioni funzionali a una corretta informazione sanitaria ed esclude gli elementi attrattivi e suggestivi, tra cui offerte, sconti e promozioni, idonei a indurre il ricorso improprio alle prestazioni. Il **Codice di Deontologia Medica** aggiunge il principio di non promozionalità per i singoli professionisti. Le **policy di Google e Meta** per le categorie sensibili limitano targeting e formati delle campagne sanitarie.
 
 Per le strutture che operano in Svizzera valgono la legislazione cantonale e le norme deontologiche FMH; sul fronte dei dati personali si applicano il GDPR e, per le strutture svizzere, la LPD.
 
@@ -122,7 +122,7 @@ Le due cose non si escludono. La struttura deve comunque presidiare internamente
 
 **La pubblicità sanitaria è legale in Italia?**
 
-Sì, dentro un perimetro preciso. La Legge 175/1992 e la Legge 145/2018 consentono l'informazione sanitaria e vietano la pubblicità comparativa, i claim di eccellenza non documentabili e l'uso promozionale delle testimonianze. Il Codice di Deontologia Medica aggiunge vincoli per i singoli professionisti. Dentro questi limiti le leve di marketing legittime sono molte e misurabili.
+Sì, dentro un perimetro preciso. La norma di riferimento è la Legge 145/2018 (comma 525), come modificata dal D.L. 69/2023 convertito in Legge 103/2023: consente l'informazione sanitaria veritiera ed esclude gli elementi attrattivi e suggestivi, tra cui offerte, sconti e promozioni, idonei a indurre il ricorso improprio alle prestazioni. Il Codice di Deontologia Medica aggiunge il principio di non promozionalità per i singoli professionisti. Dentro questi limiti gli strumenti di marketing legittimi sono molti e misurabili.
 
 **Come funziona il marketing per i medici e per i piccoli studi?**
 
