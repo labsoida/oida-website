@@ -299,7 +299,7 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
 
 /* BLOG lista: feed denso */
 .blog-rows{max-width:1280px;margin:0 auto;border-bottom:var(--cut)}
-.blog-row{display:grid;grid-template-columns:1fr 60px;align-items:center;border-bottom:var(--hairline);text-decoration:none;color:inherit;transition:background .15s}
+.blog-row{display:grid;grid-template-columns:1fr 60px;align-items:center;border-bottom:var(--hairline);text-decoration:none;color:inherit;transition:background .06s ease,box-shadow .06s ease}
 .blog-row:last-child{border-bottom:none}
 .blog-row:hover{background:rgba(0,194,178,.1);box-shadow:inset 4px 0 0 var(--teal)}
 .blog-row:hover .blog-row-arr{transform:translateX(4px)}
@@ -308,10 +308,7 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
 .blog-row-title{font-family:'Glaseer',sans-serif;letter-spacing:.02em;font-size:24px;text-transform:uppercase;line-height:1.12;color:var(--ink)}
 .blog-row-excerpt{font-size:14.5px;color:var(--gray-6);line-height:1.55;max-width:840px}
 .blog-row-arr{font-family:'JetBrains Mono',monospace;font-size:26px;color:var(--teal);text-align:center;transition:color .15s,transform .15s}
-/* Riga sotto il puntatore: evidenziazione teal istantanea (desktop). Su touch non c'e hover, lista normale. */
-.blog-row-title{transition:color .12s ease}
-.blog-row:hover .blog-row-title{color:var(--teal)}
-.blog-rows:has(.blog-row:hover) .blog-row:not(:hover) .blog-row-title{color:var(--gray-5)}
+/* Riga sotto il puntatore: solo sfondo + barra teal, il titolo non cambia colore. Desktop; su touch lista normale. */
 
 /* INSIGHT lista: card editoriali */
 .ins-cards{max-width:1280px;margin:0 auto;border-bottom:var(--cut)}
