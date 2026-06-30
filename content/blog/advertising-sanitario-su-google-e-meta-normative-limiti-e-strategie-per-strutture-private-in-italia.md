@@ -116,4 +116,4 @@ In pratica:
 
 ## Sintesi
 
-L'advertising sanitario in Italia è regolato ma non bloccato. Le strutture che operano dentro il perimetro normativo ottengono risultati misurabili sulla [Search di Google](/blog/google-business-profile-marketing-sanitario-profili-non-producono-risultati/) con campagne segmentate per specialità, sul remarketing di Meta e sui canali brand awareness con aspettative corrette sul ritorno. La chiave è conoscere il perimetro e progettare la campagna al suo interno.
+L'advertising sanitario in Italia è regolato ma non bloccato. Le strutture che operano dentro il perimetro normativo ottengono risultati misurabili sulla [Search di Google](/blog/google-business-profile-marketing-sanitario-profili-non-producono-risultati/) con campagne segmentate per specialità, sul remarketing di Meta e sui canali brand awareness con aspettative corrette sul ritorno. La chiave è conoscere il perimetro e progettare la campagna al suo interno: è il lavoro del nostro servizio di [advertising sanitario su Google e Meta](/servizi/advertising-sanitario/).

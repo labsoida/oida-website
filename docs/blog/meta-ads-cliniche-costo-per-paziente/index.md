@@ -91,7 +91,7 @@ La scelta tra i due canali non è una preferenza, è una funzione del tipo di do
 
 ## Sintesi
 
-Su Meta il rischio non è spendere troppo, è misurare la cosa sbagliata. Una campagna costruita sul CPL può sembrare efficiente mentre il costo per paziente reale la rende insostenibile. La struttura che misura il funnel completo, allinea creatività e pagina di destinazione e collega la campagna a un front desk rapido smette di valutare Meta come un canale economico o costoso in assoluto, e comincia a valutarlo per quello che è: un canale che genera domanda, redditizio solo quando la domanda generata viene gestita fino alla visita. Per inquadrare Meta dentro la strategia complessiva rimandiamo alla guida pillar sul [marketing sanitario](/marketing-sanitario/).
+Su Meta il rischio non è spendere troppo, è misurare la cosa sbagliata. Una campagna costruita sul CPL può sembrare efficiente mentre il costo per paziente reale la rende insostenibile. La struttura che misura il funnel completo, allinea creatività e pagina di destinazione e collega la campagna a un front desk rapido smette di valutare Meta come un canale economico o costoso in assoluto, e comincia a valutarlo per quello che è: un canale che genera domanda, redditizio solo quando la domanda generata viene gestita fino alla visita. È il principio operativo di una [campagna Meta per cliniche e studi](/servizi/advertising-sanitario/) costruita sul costo per paziente. Per inquadrare Meta dentro la strategia complessiva rimandiamo alla guida pillar sul [marketing sanitario](/marketing-sanitario/).
 
 
 ## FAQ

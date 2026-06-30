@@ -99,7 +99,7 @@ Il paradosso è che le strutture che non misurano tendono a concludere che "il m
 
 Una volta che i dati di funnel sono disponibili, la priorità di intervento segue una logica di ritorno sull'investimento: si interviene prima sulla fase in cui la perdita è percentualmente più alta e dove l'intervento ha il costo operativo più basso.
 
-- Se il tasso di conversione da contatto a prenotazione è inferiore al 50%, il problema è nella gestione dei lead e nell'automazione della prima risposta
+- Se il tasso di conversione da contatto a prenotazione è inferiore al 50%, il problema è nella [gestione dei lead e nell'automazione della prima risposta](/servizi/crm-automation-sanita/)
 - Se la conversione da contatto a prenotazione è buona ma il no-show supera il 15%, il problema è nel processo di conferma e nei promemoria automatici
 - Se l'acquisizione e la presentazione funzionano ma il ritorno è basso, il problema è nella fidelizzazione post-visita
 

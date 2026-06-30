@@ -80,7 +80,7 @@ L'errore qui è di omissione: il budget piatto sembra prudente, in realtà lasci
 | Niente tracciamento | Si corregge alla cieca | Conversioni reali, conformi GDPR |
 | Budget piatto | Si perde nei picchi di domanda | Spesa calibrata sulla stagionalità |
 
-Una campagna Google Ads sanitaria che non funziona quasi mai ha bisogno di più budget: ha bisogno di keyword più specifiche, di una lista di esclusioni aggiornata, di pagine di destinazione coerenti, di un tracciamento conforme delle conversioni e di una spesa calibrata sulla stagionalità. Sono cinque interventi, non cinque opinioni, e ognuno è verificabile leggendo i dati della campagna. La struttura che li affronta in ordine smette di rifinanziare l'errore e comincia a pagare per pazienti, non per clic.
+Una campagna Google Ads sanitaria che non funziona quasi mai ha bisogno di più budget: ha bisogno di keyword più specifiche, di una lista di esclusioni aggiornata, di pagine di destinazione coerenti, di un tracciamento conforme delle conversioni e di una spesa calibrata sulla stagionalità. Sono cinque interventi, non cinque opinioni, e ognuno è verificabile leggendo i dati della campagna. La struttura che li affronta in ordine smette di rifinanziare l'errore e comincia a pagare per pazienti, non per clic. È la logica su cui si costruisce una [campagna Google Ads per la sanità](/servizi/advertising-sanitario/) che porta prenotazioni.
 
 
 ## FAQ

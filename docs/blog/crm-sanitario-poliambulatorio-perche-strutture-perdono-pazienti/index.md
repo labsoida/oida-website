@@ -96,7 +96,7 @@ Le implicazioni più ampie dell'[AI applicata al marketing sanitario](/blog/ai-m
 
 ## Sintesi
 
-Un CRM sanitario è lo strumento che trasforma la gestione dei lead da attività individuale a processo misurabile e migliorabile. **Le strutture che lo costruiscono in modo sistematico ottengono un vantaggio competitivo stabile: non perché abbiano campagne più performanti, ma perché convertono una quota maggiore dei contatti che già generano.** Il punto di partenza non è il software: è la definizione del processo, delle fasi della pipeline e delle responsabilità per ciascuna fase.
+Un CRM sanitario è lo strumento che trasforma la gestione dei lead da attività individuale a processo misurabile e migliorabile. **Le strutture che lo costruiscono in modo sistematico ottengono un vantaggio competitivo stabile: non perché abbiano campagne più performanti, ma perché convertono una quota maggiore dei contatti che già generano.** Il punto di partenza non è il software: è la definizione del processo, delle fasi della pipeline e delle responsabilità per ciascuna fase. È da qui che partiamo quando aiutiamo una struttura a [scegliere e configurare il CRM giusto](/servizi/crm-automation-sanita/), senza vendere un software nostro.
 
 
 ## FAQ
