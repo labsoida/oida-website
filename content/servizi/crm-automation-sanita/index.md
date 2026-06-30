@@ -4,6 +4,7 @@ seo_title: "CRM per la sanità: scelta e configurazione indipendente"
 linktitle: "CRM e Automazioni"
 description: "Ti aiutiamo a scegliere e configurare il CRM giusto e automatizziamo i follow-up, così nessuna richiesta si perde. Indipendenti, nessun software nostro."
 og_image: "img/servizi/crm-automation-sanita-og.jpg"
+image_alt: "CRM e automazioni per la gestione dei contatti pazienti in sanità"
 date: 2026-05-21
 draft: false
 type: "servizio"

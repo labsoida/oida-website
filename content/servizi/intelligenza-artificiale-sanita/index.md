@@ -3,6 +3,7 @@ title: "Intelligenza Artificiale per la Sanità"
 linktitle: "Intelligenza Artificiale"
 description: "Integriamo gli strumenti di AI utili alla tua struttura e ne sviluppiamo dedicati quando servono. Senza clamore, scelti da chi viene dalla sanità."
 og_image: "img/servizi/intelligenza-artificiale-sanita-og.jpg"
+image_alt: "Intelligenza artificiale applicata al marketing sanitario"
 date: 2026-05-21
 draft: false
 type: "servizio"

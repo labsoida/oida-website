@@ -17,6 +17,8 @@ faqs:
     a: "Le due cose non si escludono. La struttura deve comunque presidiare internamente il front office e la qualità dei dati; la scelta riguarda campagne, SEO e infrastruttura tecnica. Il criterio onesto è la specializzazione: chi gestisce le campagne deve conoscere i vincoli normativi della pubblicità sanitaria e i benchmark per specialità, altrimenti impara a spese della struttura."
   - q: "La pubblicità sanitaria è legale in Italia?"
     a: "Sì, dentro un perimetro preciso. La Legge 175/1992 e la Legge 145/2018 consentono l'informazione sanitaria e vietano la pubblicità comparativa, i claim di eccellenza non documentabili e l'uso promozionale delle testimonianze. Il Codice di Deontologia Medica aggiunge vincoli per i singoli professionisti. Dentro questi limiti le leve di marketing legittime sono molte e misurabili."
+  - q: "Come funziona il marketing per i medici e per i piccoli studi?"
+    a: "Il marketing medico efficace parte dalla specialità e dal tipo di paziente, non dal canale. Per un medico o un piccolo studio le priorità sono la presenza locale su Google, una scheda Google Business curata e un sito che converta le ricerche in prenotazioni; le campagne a pagamento hanno senso solo quando il front office riesce a gestire le richieste che generano."
 ---
 
 Il **marketing sanitario** è l'insieme delle attività con cui una struttura sanitaria privata costruisce visibilità, acquisisce pazienti e ne governa il percorso, dal primo contatto alla visita. Funziona con regole proprie: il "cliente" è un paziente che decide sulla propria salute, la comunicazione è vincolata da una normativa specifica e il risultato dipende tanto dalle campagne quanto da ciò che accade dopo il click, al telefono e in accettazione.

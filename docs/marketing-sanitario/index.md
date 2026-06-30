@@ -124,6 +124,10 @@ Le due cose non si escludono. La struttura deve comunque presidiare internamente
 
 Sì, dentro un perimetro preciso. La Legge 175/1992 e la Legge 145/2018 consentono l'informazione sanitaria e vietano la pubblicità comparativa, i claim di eccellenza non documentabili e l'uso promozionale delle testimonianze. Il Codice di Deontologia Medica aggiunge vincoli per i singoli professionisti. Dentro questi limiti le leve di marketing legittime sono molte e misurabili.
 
+**Come funziona il marketing per i medici e per i piccoli studi?**
+
+Il marketing medico efficace parte dalla specialità e dal tipo di paziente, non dal canale. Per un medico o un piccolo studio le priorità sono la presenza locale su Google, una scheda Google Business curata e un sito che converta le ricerche in prenotazioni; le campagne a pagamento hanno senso solo quando il front office riesce a gestire le richieste che generano.
+
 
 ---
 

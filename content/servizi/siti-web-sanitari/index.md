@@ -2,6 +2,7 @@
 title: "Siti Web per la Sanità"
 description: "Realizziamo siti web per studi medici, cliniche e poliambulatori: chiari, veloci e pensati per chi cerca cura. Costruiti da chi viene dalla sanità."
 og_image: "img/servizi/siti-web-sanitari-og.jpg"
+image_alt: "Siti web per cliniche, studi medici e strutture sanitarie"
 date: 2026-05-21
 draft: false
 type: "servizio"

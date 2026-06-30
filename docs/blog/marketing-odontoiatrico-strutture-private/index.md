@@ -121,6 +121,10 @@ Il quadro normativo è complesso. La Legge 145/2018, art. 1, commi 525 e 536, e 
 
 Sì, con una premessa. La specializzazione nel marketing ha senso quando la struttura ha effettivamente un'expertise differenziata in quella nicchia, quando il volume di domanda locale per quella specialità giustifica l'investimento e quando il posizionamento di nicchia non esclude il bacino di pazienti per le prestazioni ordinarie. Una struttura che comunica "specialisti in implantologia" deve sostenere quel claim con volume di casi, tecnologie disponibili e formazione del team. Una specializzazione comunicata senza sostanza non costruisce fiducia: la erode.
 
+**Come si fa pubblicità per un dentista o uno studio dentistico?**
+
+La pubblicità per un dentista in Italia deve restare dentro i limiti della comunicazione sanitaria: informazioni veritiere e verificabili, niente promesse di risultato. Funziona meglio quando è mirata per prestazione (implantologia, ortodonzia, igiene) e per zona, con una pagina di destinazione coerente e un percorso di prenotazione semplice. La concorrenza locale è alta: vince chi è più pertinente, non chi spende di più.
+
 
 ---
 

@@ -3,6 +3,7 @@ title: "Ufficio Stampa e PR per la Sanità"
 linktitle: "Ufficio Stampa e PR"
 description: "Costruiamo la reputazione mediatica di strutture e gruppi sanitari: relazioni con i media e autorevolezza istituzionale, da chi viene dalla sanità."
 og_image: "img/servizi/ufficio-stampa-sanita-og.jpg"
+image_alt: "Ufficio stampa e PR per il settore sanitario"
 date: 2026-05-21
 draft: false
 type: "servizio"
