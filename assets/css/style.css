@@ -308,6 +308,13 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
 .blog-row-title{font-family:'Glaseer',sans-serif;letter-spacing:.02em;font-size:24px;text-transform:uppercase;line-height:1.12;color:var(--ink)}
 .blog-row-excerpt{font-size:14.5px;color:var(--gray-6);line-height:1.55;max-width:840px}
 .blog-row-arr{font-family:'JetBrains Mono',monospace;font-size:26px;color:var(--teal);text-align:center;transition:color .15s,transform .15s}
+/* Highlight riga in lettura: attivo solo con JS (.sh-active). Senza JS o con reduced-motion la lista resta a piena leggibilita. */
+.blog-rows.sh-active .blog-row{transition:background .2s ease,box-shadow .2s ease}
+.blog-rows.sh-active .blog-row-title{color:var(--gray-5);transition:color .2s ease}
+.blog-rows.sh-active .blog-row-excerpt{color:var(--gray-4);transition:color .2s ease}
+.blog-rows.sh-active .blog-row.is-reading{background:rgba(0,194,178,.06);box-shadow:inset 3px 0 0 var(--teal)}
+.blog-rows.sh-active .blog-row.is-reading .blog-row-title{color:var(--ink)}
+.blog-rows.sh-active .blog-row.is-reading .blog-row-excerpt{color:var(--gray-6)}
 
 /* INSIGHT lista: card editoriali */
 .ins-cards{max-width:1280px;margin:0 auto;border-bottom:var(--cut)}
