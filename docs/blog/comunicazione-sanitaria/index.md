@@ -38,7 +38,7 @@ Le due attività si rafforzano, ma non si sostituiscono. La pubblicità senza co
 
 ## Il perimetro normativo della comunicazione sanitaria
 
-La comunicazione di una struttura sanitaria privata è regolata, qualunque forma assuma. La Legge 145/2018, art. 1, commi 525 e 536, e le successive modifiche (D.L. 69/2023) stabiliscono che la comunicazione sanitaria deve essere funzionale a garantire la sicurezza dei trattamenti, veritiera, verificabile, non comparativa e priva di carattere promozionale o suggestivo. Il Codice di Deontologia Medica FNOMCeO (artt. 55-57) aggiunge il divieto di testimonianze dei pazienti, di promesse di risultato e di linguaggio sensazionalistico.
+La comunicazione di una struttura sanitaria privata è regolata, qualunque forma assuma, su due piani che vanno tenuti distinti. Il Codice di Deontologia Medica FNOMCeO (artt. 55-57) fissa il principio generale: l'informazione sanitaria può essere data, ma non può essere comparativa, promozionale, autocelebrativa né suggestiva. La Legge 145/2018 (art. 1, commi 525 e 536), come modificata dalla Legge 103/2023 e dal D.L. 69/2023, traduce quel principio in divieti espliciti: ammette solo le comunicazioni funzionali alla sicurezza delle cure e vieta le testimonianze e i testimonial emotivamente suggestivi, le immagini del prima e dopo e il ricorso agli influencer. La recensione autentica del paziente resta invece utilizzabile, purché veritiera, non concordata né incentivata e con il consenso scritto richiesto dalla normativa privacy. La responsabilità di una comunicazione non conforme ricade sul professionista e sul direttore sanitario della struttura, anche quando il contenuto è prodotto da un'agenzia.
 
 Il confine non è tra ciò che si può dire e ciò che si deve tacere, ma tra informare e reclamizzare. Una struttura può comunicare le proprie competenze, le tecnologie, i percorsi di cura e i dati verificabili sulla propria attività. Non può trasformare questa informazione in un messaggio che promette o suggerisce un risultato. La comunicazione che resta sul terreno dell'informazione corretta non solo rispetta la norma: costruisce un'autorità che il messaggio promozionale non raggiunge.
 
@@ -79,7 +79,7 @@ La pubblicità sanitaria acquista visibilità a pagamento con un obiettivo defin
 
 **La comunicazione sanitaria è regolamentata?**
 
-Sì, in ogni forma. La Legge 145/2018 e il Codice di Deontologia Medica FNOMCeO stabiliscono che deve essere veritiera, verificabile, non comparativa e priva di carattere promozionale o suggestivo, e vietano le testimonianze dei pazienti e le promesse di risultato. Il confine non è tra ciò che si può dire e ciò che si deve tacere, ma tra informare e reclamizzare.
+Sì, in ogni forma. Il Codice di Deontologia Medica (artt. 55-57) fissa il principio generale: l'informazione sanitaria non può essere comparativa, promozionale né suggestiva. La Legge 145/2018, come modificata dalla Legge 103/2023 e dal D.L. 69/2023, lo traduce in divieti espliciti: testimonianze e testimonial emotivamente suggestivi, immagini del prima e dopo e ricorso agli influencer. La recensione autentica del paziente resta invece utilizzabile se veritiera e non incentivata. Il confine non è tra ciò che si può dire e ciò che si deve tacere, ma tra informare e reclamizzare.
 
 **Serve un ufficio stampa a una struttura sanitaria privata?**
 

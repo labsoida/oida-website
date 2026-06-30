@@ -9,7 +9,7 @@ og_image: "img/blog/marketing-medicina-estetica-og.jpg"
 image_alt: "Marketing per la medicina estetica: domanda da generare, non da intercettare"
 tags: ["advertising", "acquisizione pazienti", "normativa"]
 servizio: "advertising-sanitario"
-sources: "Legge 145/2018, art. 1, commi 525 e 536, e successive modifiche (D.L. 69/2023). Codice di Deontologia Medica FNOMCeO, artt. 55-57. Policy pubblicitarie di Meta, sezione salute e aspetto della persona. Google Ads, policy per il settore sanitario e cosmetico. BrightLocal, Local Consumer Review Survey 2025, settore sanitario. Dati interni OIDA Labs su strutture monitorate tra il 2023 e il 2025."
+sources: "Legge 145/2018, art. 1, commi 525 e 536, come modificata dalla Legge 103/2023 e dal D.L. 69/2023. Codice di Deontologia Medica FNOMCeO, artt. 55-57 (Titolo IX). Policy pubblicitarie di Meta, sezione salute e aspetto della persona. Google Ads, policy per il settore sanitario e cosmetico. BrightLocal, Local Consumer Review Survey 2025, settore sanitario. Dati interni OIDA Labs su strutture monitorate tra il 2023 e il 2025."
 faqs:
   - q: "Conviene di più Google Ads o Meta per una clinica di medicina estetica?"
     a: "Dipende dalla fase di domanda che si vuole raggiungere. Meta e Instagram servono a generare l'intenzione su un pubblico che non sta ancora cercando il trattamento, ed è la parte di domanda più estesa in medicina estetica. La rete di ricerca intercetta chi ha già deciso e cerca un trattamento o una struttura per nome. Una clinica che usa solo la ricerca presidia la frazione più matura e competitiva del mercato, e rinuncia a quella che potrebbe costruire."
@@ -57,7 +57,7 @@ La fiducia, inoltre, non si costruisce con il claim ma con la prova di competenz
 
 ## I vincoli normativi e di piattaforma
 
-La pubblicità in medicina estetica è soggetta alle stesse norme di ogni struttura sanitaria privata, con un'applicazione più stringente perché tocca l'aspetto fisico. La Legge 145/2018, art. 1, commi 525 e 536, e le successive modifiche (D.L. 69/2023) ammettono la comunicazione sanitaria solo se veritiera, non comparativa e priva di carattere promozionale o suggestivo. Il Codice di Deontologia Medica FNOMCeO (artt. 55-57) vieta le testimonianze dei pazienti, le promesse di risultato e il linguaggio sensazionalistico.
+La pubblicità in medicina estetica è soggetta alle stesse norme di ogni struttura sanitaria privata, con un'applicazione più stringente perché tocca l'aspetto fisico. Il Codice di Deontologia Medica FNOMCeO (artt. 55-57) fissa il principio generale: l'informazione sanitaria non può essere comparativa, promozionale né suggestiva. La Legge 145/2018 (art. 1, commi 525 e 536), come modificata dalla Legge 103/2023 e dal D.L. 69/2023, lo traduce in divieti espliciti, e qui tocca da vicino l'estetica: vieta le testimonianze e i testimonial emotivamente suggestivi, le immagini del prima e dopo e il ricorso agli influencer. La recensione autentica del paziente resta invece utilizzabile, purché veritiera, non concordata né incentivata.
 
 A queste norme si aggiungono le policy delle piattaforme, che in medicina estetica sono spesso il vincolo operativo più rigido. Le condizioni pubblicitarie di Meta vietano gli annunci che mostrano immagini del prima e dopo e quelli costruiti per generare una percezione negativa del proprio corpo, e limitano la profilazione del pubblico basata su attributi di salute e aspetto. Le policy di Google pongono restrizioni analoghe sui claim relativi ai trattamenti estetici e cosmetici.
 

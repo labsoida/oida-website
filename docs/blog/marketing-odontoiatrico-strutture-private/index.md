@@ -80,9 +80,9 @@ L'odontoiatria ha una caratteristica favorevole all'email marketing: la cadenza 
 
 ## Normative specifiche per la pubblicità odontoiatrica
 
-L'odontoiatria è soggetta alle stesse norme generali sulla pubblicità sanitaria valide per tutte le strutture private (Legge 145/2018, art. 1, commi 525 e 536, e successive modifiche (D.L. 69/2023), Codice di Deontologia Medica, policy di Google e Meta), con alcune specificità operative.
+L'odontoiatria è soggetta alle stesse norme generali sulla pubblicità sanitaria valide per tutte le strutture private (Legge 145/2018, art. 1, commi 525 e 536, come modificata dalla Legge 103/2023 e dal D.L. 69/2023, Codice di Deontologia Medica, policy di Google e Meta), con alcune specificità operative.
 
-Il Codice di Deontologia Medica FNOMCeO (artt. 55-57) vieta la pubblicità che induca a confronto con altri professionisti, utilizzi attestazioni di pazienti, prometta risultati garantiti o utilizzi linguaggio sensazionalistico. In odontoiatria, le aree di attenzione specifiche riguardano:
+Il Codice di Deontologia Medica FNOMCeO (artt. 55-57) fissa il principio generale: l'informazione sanitaria non può essere comparativa, promozionale né suggestiva. È la Legge 145/2018, come modificata dalla Legge 103/2023 e dal D.L. 69/2023, a tradurlo in divieti espliciti, tra cui le testimonianze e i testimonial emotivamente suggestivi, le immagini del prima e dopo e il ricorso agli influencer; la recensione autentica del paziente resta invece utilizzabile se veritiera e non incentivata. In odontoiatria, le aree di attenzione specifiche riguardano:
 
 Le "offerte" su prestazioni odontoiatriche. Frasi come "prima visita gratuita", "sconto del 30% sull'impianto" o "prezzi convenienti garantiti" sono in area grigia normativa e in alcuni contesti esplicitamente vietate. Le policy di Google Healthcare Ads limitano ulteriormente questo tipo di claim.
 
@@ -115,7 +115,7 @@ La metrica più rilevante non è il costo per lead o per appuntamento, ma il rap
 
 **Le promozioni sui trattamenti odontoiatrici sono consentite per legge?**
 
-Il quadro normativo è complesso. La Legge 145/2018, art. 1, commi 525 e 536, e successive modifiche (D.L. 69/2023) consente la pubblicità sanitaria purché sia funzionale a garantire la sicurezza dei trattamenti, veritiera, non comparativa e priva di carattere promozionale o suggestivo. Le promozioni sui prezzi sono in area grigia: alcune forme (prima visita con valutazione inclusa) sono diffuse e tollerate; altre (sconto esplicito su prestazioni specifiche) sono più rischiose sul piano deontologico e spesso bloccate dalle piattaforme di advertising. Prima di impostare qualsiasi campagna promozionale, è consigliabile verificare la policy specifica della piattaforma utilizzata e il proprio ordine professionale territoriale.
+Il quadro normativo è complesso. La Legge 145/2018, art. 1, commi 525 e 536, come modificata dalla Legge 103/2023 e dal D.L. 69/2023 consente la pubblicità sanitaria purché sia funzionale a garantire la sicurezza dei trattamenti, veritiera, non comparativa e priva di carattere promozionale o suggestivo. Le promozioni sui prezzi sono in area grigia: alcune forme (prima visita con valutazione inclusa) sono diffuse e tollerate; altre (sconto esplicito su prestazioni specifiche) sono più rischiose sul piano deontologico e spesso bloccate dalle piattaforme di advertising. Prima di impostare qualsiasi campagna promozionale, è consigliabile verificare la policy specifica della piattaforma utilizzata e il proprio ordine professionale territoriale.
 
 **Conviene specializzarsi su una nicchia (implantologia, ortodonzia invisibile, odontoiatria pediatrica) nel marketing?**
 
