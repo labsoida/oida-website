@@ -301,7 +301,7 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
 .blog-rows{max-width:1280px;margin:0 auto;border-bottom:var(--cut)}
 .blog-row{display:grid;grid-template-columns:1fr 60px;align-items:center;border-bottom:var(--hairline);text-decoration:none;color:inherit;transition:background .06s ease,box-shadow .06s ease}
 .blog-row:last-child{border-bottom:none}
-.blog-row:hover{background:rgba(0,194,178,.2);box-shadow:inset 4px 0 0 var(--teal)}
+.blog-row:hover{position:relative;z-index:1;background:rgba(0,194,178,.07);box-shadow:inset 4px 0 0 var(--teal),0 0 40px -6px rgba(0,194,178,.6)}
 .blog-row:hover .blog-row-arr{transform:translateX(4px)}
 .blog-row-body{padding:28px 32px;display:flex;flex-direction:column;gap:8px}
 .blog-row-date{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.06em}
