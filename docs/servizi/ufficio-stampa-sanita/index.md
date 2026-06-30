@@ -16,7 +16,7 @@
 
 ## La reputazione di una struttura passa anche dai media
 
-Quando un gruppo o una struttura cresce, la sua autorevolezza non può restare affidata solo al passaparola. Pazienti, istituzioni e professionisti si fidano di chi vedono citato, intervistato, riconosciuto come riferimento nel proprio campo. Quello spazio, se non lo presidi tu, lo occupa un altro gruppo.
+Quando un gruppo o una struttura cresce, la sua autorevolezza non può restare affidata solo al passaparola. Pazienti, istituzioni e professionisti si fidano di chi vedono citato, intervistato, riconosciuto come riferimento nel proprio campo. Quello spazio, se non lo presidi tu, lo occupa un altro gruppo. Le media relations sono la componente mediatica di una [comunicazione sanitaria](/blog/comunicazione-sanitaria/) più ampia, che comprende reputazione, contenuto e relazione con il pubblico.
 
 ## La costruiamo conoscendo il settore e i suoi media
 
