@@ -21,7 +21,7 @@ faqs:
 draft: false
 ---
 
-La presenza digitale di una struttura sanitaria si costruisce su canali molto diversi tra loro, con logiche di funzionamento e tempistiche di risultato che non sono intercambiabili. Scegliere su quali canali concentrare attenzione e investimento è una decisione strategica che dipende dalla specialità, dalla situazione competitiva locale e dagli obiettivi della struttura.
+La presenza digitale di una struttura sanitaria si costruisce su canali molto diversi tra loro, con logiche di funzionamento e tempistiche di risultato che non sono intercambiabili. Scegliere su quali canali concentrare attenzione e investimento è una decisione strategica che dipende dalla specialità, dalla situazione competitiva locale e dagli obiettivi della struttura. I canali digitali sono la componente operativa di una [strategia di marketing sanitario](/marketing-sanitario/) più ampia, che comprende funnel del paziente, normativa e metriche di ritorno.
 
 **Non esiste una risposta universale. Esiste però un metodo per ragionare su questa scelta senza sprecare budget su canali che non sono adatti al proprio contesto specifico.**
 
