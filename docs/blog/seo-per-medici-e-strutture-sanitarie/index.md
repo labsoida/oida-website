@@ -5,7 +5,7 @@
 
 # SEO per medici e strutture sanitarie: la guida al posizionamento su Google
 
-> SEO per medici e strutture sanitarie: perché la salute è contenuto YMYL, come funzionano E-E-A-T, SEO locale e GEO, e cosa determina davvero il posizionamento.
+> SEO per medici e strutture sanitarie: perché la salute è contenuto YMYL, come funzionano E-E-A-T, SEO locale e GEO, e cosa determina il posizionamento.
 
 **Data:** 2026-07-01
 **Autore:** OIDA Labs

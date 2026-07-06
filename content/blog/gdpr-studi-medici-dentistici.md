@@ -1,7 +1,7 @@
 ---
 title: "GDPR per studi medici e dentistici: dove tocca il marketing e la comunicazione"
 seo_title: "GDPR per studi medici e dentistici"
-description: "GDPR per studi medici e dentistici: quando serve il consenso dei pazienti nel marketing, cookie e recensioni, e cosa distingue il piano privacy da quello deontologico."
+description: "GDPR per studi medici e dentistici: quando serve il consenso dei pazienti nel marketing, cookie e recensioni, e la distinzione tra privacy e deontologia."
 date: 2026-07-01
 author: "OIDA Labs"
 image: "img/blog/gdpr-studi-medici-dentistici-og.jpg"

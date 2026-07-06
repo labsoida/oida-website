@@ -5,7 +5,7 @@
 
 # Giacomo Baldi
 
-> Giacomo Baldi, medico anestesista e ingegnere informatico, Healthcare & Tech Advisor e investitore di OIDA Labs. AI e automazione per il marketing sanitario.
+> Giacomo Baldi, medico anestesista e ingegnere informatico, Healthcare & Tech Advisor e investitore di OIDA Labs. AI e automazione nel marketing sanitario.
 
 
 

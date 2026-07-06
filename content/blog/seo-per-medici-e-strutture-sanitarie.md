@@ -1,7 +1,7 @@
 ---
 title: "SEO per medici e strutture sanitarie: la guida al posizionamento su Google"
 seo_title: "SEO per medici e strutture sanitarie"
-description: "SEO per medici e strutture sanitarie: perché la salute è contenuto YMYL, come funzionano E-E-A-T, SEO locale e GEO, e cosa determina davvero il posizionamento."
+description: "SEO per medici e strutture sanitarie: perché la salute è contenuto YMYL, come funzionano E-E-A-T, SEO locale e GEO, e cosa determina il posizionamento."
 date: 2026-07-01
 author: "OIDA Labs"
 image: "img/blog/seo-per-medici-e-strutture-sanitarie-og.jpg"

@@ -5,7 +5,7 @@
 
 # Le AI sbagliano la normativa sanitaria: perché non puoi chiederle cosa pubblicare
 
-> Le AI inventano norme sulla pubblicità sanitaria. Cosa dice davvero la legge vigente su cosa una struttura può pubblicare, e perché la verifica resta umana.
+> Le AI inventano norme sulla pubblicità sanitaria. Cosa dice davvero la legge vigente, cosa si può pubblicare e perché la verifica resta umana.
 
 **Data:** 2026-07-01
 **Autore:** OIDA Labs

@@ -1,7 +1,7 @@
 ---
 title: "Giacomo Baldi"
 seo_title: "Giacomo Baldi, Healthcare & Tech Advisor"
-description: "Giacomo Baldi, medico anestesista e ingegnere informatico, Healthcare & Tech Advisor e investitore di OIDA Labs. AI e automazione per il marketing sanitario."
+description: "Giacomo Baldi, medico anestesista e ingegnere informatico, Healthcare & Tech Advisor e investitore di OIDA Labs. AI e automazione nel marketing sanitario."
 type: "team"
 weight: 4
 name_first: "Giacomo"

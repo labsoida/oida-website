@@ -43,6 +43,10 @@ Gestiamo le campagne, ma il budget resta sul tuo account e sotto il tuo controll
 
 Sì, spesso lì rende ancora di più: campagne locali mirate su poche prestazioni, senza dispersione.
 
+**Fate pubblicità per dentisti e studi odontoiatrici?**
+
+Sì, e l'odontoiatria è tra i settori dove rende di più, per il valore del paziente nel tempo. Lavoriamo per prestazione (implantologia, ortodonzia, igiene) e per zona, con una pagina di atterraggio coerente e dentro i limiti della pubblicità sanitaria. Come cambiano le logiche nel <a href="/blog/marketing-odontoiatrico-strutture-private/">marketing odontoiatrico</a>.
+
 **La pubblicità sanitaria ha limiti di legge?**
 
 Sì, la Legge 145/2018 e i codici deontologici degli ordini professionali. Costruiamo le campagne per essere efficaci e conformi allo stesso tempo.

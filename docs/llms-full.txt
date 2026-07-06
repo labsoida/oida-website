@@ -83,7 +83,7 @@ In OIDA Labs è la figura che dà forma alla strategia del brand e alla narrazio
 - URL: https://oida-labs.com/team/giacomo-baldi/
 - Ruolo: Investor · Healthcare & Tech Advisor · Imprenditore · Medico Specialista in Anestesia · Ingegnere Informatico
 - LinkedIn: https://www.linkedin.com/in/giacomo-baldi/
-- Descrizione: Giacomo Baldi, medico anestesista e ingegnere informatico, Healthcare & Tech Advisor e investitore di OIDA Labs. AI e automazione per il marketing sanitario.
+- Descrizione: Giacomo Baldi, medico anestesista e ingegnere informatico, Healthcare & Tech Advisor e investitore di OIDA Labs. AI e automazione nel marketing sanitario.
 
 Giacomo Baldi è Healthcare &amp; Tech Advisor e investitore di OIDA Labs. Medico specialista in anestesia, rianimazione, terapia intensiva e del dolore e ingegnere informatico, ha conseguito all&rsquo;Università di Pisa due lauree magistrali, in Medicina e Chirurgia e in Informatica, e la relativa specializzazione. È uno dei profili rari che uniscono pratica clinica, ingegneria del software e imprenditoria, ed è questa combinazione a dare fondamento al lavoro di OIDA Labs in ambito tecnologico e di intelligenza artificiale. Dal 2022 si dedica a tempo pieno all&rsquo;attività imprenditoriale.
 Come ingegnere e imprenditore ha cofondato Zerynth, piattaforma per l&rsquo;Internet of Things industriale, che ha guidato come CTO dalla fondazione fino ai round di investimento istituzionali, sviluppando strumenti hardware e software per connettere macchinari e prodotti e guidando un team internazionale. In precedenza aveva cofondato Medita Engineering, tra le prime realtà italiane a sviluppare applicazioni mobili in ambito medico, e aveva lavorato sullo sviluppo di sistemi embedded per dispositivi medici.
@@ -245,7 +245,7 @@ Cosa cambia per il tuo progettoTi affianchiamo lungo tutto il percorso: studio 
 
 - URL: https://oida-labs.com/blog/seo-per-medici-e-strutture-sanitarie/
 - Data: 2026-07-01
-- Descrizione: SEO per medici e strutture sanitarie: perché la salute è contenuto YMYL, come funzionano E-E-A-T, SEO locale e GEO, e cosa determina davvero il posizionamento.
+- Descrizione: SEO per medici e strutture sanitarie: perché la salute è contenuto YMYL, come funzionano E-E-A-T, SEO locale e GEO, e cosa determina il posizionamento.
 - Tag: seo locale, strategia
 
 La SEO per una struttura sanitaria segue regole più severe di quelle di qualunque altro settore, e la ragione è precisa. La salute rientra infatti tra i temi che Google classifica come YMYL, &ldquo;Your Money or Your Life&rdquo;, quelli su cui il motore applica lo standard di qualità più alto, e a questo si somma un secondo tratto distintivo, l&rsquo;intento locale, dal momento che chi cerca un medico o una struttura lo fa quasi sempre sul proprio territorio. È la combinazione di questi due fattori a rendere la SEO per medici e strutture sanitarie un lavoro con poco in comune rispetto al posizionamento di un e-commerce o di un sito generalista: le regole generali della guida al marketing sanitario restano valide, ma qui vengono portate all&rsquo;estremo.
@@ -268,7 +268,7 @@ La SEO in sanità premia, in fondo, ciò che una struttura fatta di professionis
 
 - URL: https://oida-labs.com/blog/ai-normativa-pubblicita-sanitaria/
 - Data: 2026-07-01
-- Descrizione: Le AI inventano norme sulla pubblicità sanitaria. Cosa dice davvero la legge vigente su cosa una struttura può pubblicare, e perché la verifica resta umana.
+- Descrizione: Le AI inventano norme sulla pubblicità sanitaria. Cosa dice davvero la legge vigente, cosa si può pubblicare e perché la verifica resta umana.
 - Tag: normativa, strategia
 
 Una struttura sanitaria privata che chiede a un&rsquo;intelligenza artificiale generativa &ldquo;cosa posso pubblicare?&rdquo; riceve una risposta immediata, sicura di sé e formattata come un parere. A volte è anche sbagliata. In un nostro test una AI ha citato, come norma di riferimento della pubblicità sanitaria, una inesistente &ldquo;Legge Boldi&rdquo;. Il testo era plausibile, il tono autorevole e il contenuto falso.
@@ -315,7 +315,7 @@ La GEO ribalta un&rsquo;abitudine consolidata del marketing digitale: non si tra
 
 - URL: https://oida-labs.com/blog/gdpr-studi-medici-dentistici/
 - Data: 2026-07-01
-- Descrizione: GDPR per studi medici e dentistici: quando serve il consenso dei pazienti nel marketing, cookie e recensioni, e cosa distingue il piano privacy da quello deontologico.
+- Descrizione: GDPR per studi medici e dentistici: quando serve il consenso dei pazienti nel marketing, cookie e recensioni, e la distinzione tra privacy e deontologia.
 - Tag: normativa, strategia
 
 I dati dei pazienti sono la categoria di informazioni che il GDPR protegge più severamente, e per uno studio medico o dentistico la posta in gioco è concreta: le sanzioni per un trattamento illecito di dati sulla salute arrivano fino a 20 milioni di euro o al 4% del fatturato (art. 83 GDPR). Il punto, per una struttura, non è però diventare esperta di privacy, ma evitare che il proprio marketing si trasformi in un problema. Gli adempimenti strutturali, dal registro dei trattamenti alla nomina del responsabile della protezione dei dati, restano il terreno del consulente legale e del DPO; questa guida guarda invece al punto in cui la privacy incrocia la comunicazione e l&rsquo;acquisizione dei pazienti, che è il terreno del marketing. Le regole generali del settore sono nella guida al marketing sanitario; qui vediamo dove il GDPR tocca concretamente il lavoro di uno studio.
@@ -424,7 +424,7 @@ SEO e advertising: orizzonti diversiDimensione SEO Advertising Orizzonte Mesi, 
 
 - URL: https://oida-labs.com/blog/marketing-odontoiatrico-strutture-private/
 - Data: 2026-06-17
-- Descrizione: Marketing odontoiatrico per strutture private: LTV alto, famiglia come unità decisionale e normative specifiche. Cosa lo distingue dalle altre specialità.
+- Descrizione: Marketing odontoiatrico per strutture private: LTV alto, famiglia come unità decisionale e norme specifiche. Cosa lo distingue dalle altre specialità.
 - Tag: strategia, acquisizione pazienti
 
 L&rsquo;odontoiatria privata ha le caratteristiche economiche più favorevoli al marketing di qualsiasi altra specialità sanitaria: il lifetime value del paziente è tra i più alti del settore, il ciclo di cura è strutturato e prevedibile, la ricorrenza è garantita dal ciclo igiene-prevenzione-trattamento. Eppure molti studi dentistici privati investono in marketing senza tenere conto di nessuna di queste specificità.
@@ -797,7 +797,7 @@ SintesiL&rsquo;acquisizione di pazienti online non si esaurisce con la generazi
 
 - URL: https://oida-labs.com/blog/digital-marketing-sanitario-quali-canali-contano-e-cosa-determina-i-risultati/
 - Data: 2026-05-11
-- Descrizione: Il digital marketing sanitario non è uguale per tutte le strutture. Quali canali producono risultati reali, perché e come cambiano in base alla specialità.
+- Descrizione: Il digital marketing sanitario non è uguale per tutte le strutture. Quali canali producono risultati, perché e come cambiano in base alla specialità.
 - Tag: strategia, advertising
 
 La presenza digitale di una struttura sanitaria si costruisce su canali molto diversi tra loro, con logiche di funzionamento e tempistiche di risultato che non sono intercambiabili. Scegliere su quali canali concentrare attenzione e investimento è una decisione strategica che dipende dalla specialità, dalla situazione competitiva locale e dagli obiettivi della struttura. I canali digitali sono la componente operativa di una strategia di marketing sanitario più ampia, che comprende funnel del paziente, normativa e metriche di ritorno.

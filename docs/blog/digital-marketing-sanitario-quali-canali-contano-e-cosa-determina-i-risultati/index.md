@@ -5,7 +5,7 @@
 
 # Digital marketing sanitario: quali canali contano e cosa determina i risultati
 
-> Il digital marketing sanitario non è uguale per tutte le strutture. Quali canali producono risultati reali, perché e come cambiano in base alla specialità.
+> Il digital marketing sanitario non è uguale per tutte le strutture. Quali canali producono risultati, perché e come cambiano in base alla specialità.
 
 **Data:** 2026-05-11
 **Autore:** OIDA Labs

@@ -103,6 +103,7 @@
   "description": {{ .Description | jsonify | safeJS }},
   "datePublished": "{{ .Date.Format "2006-01-02" }}",
   {{ with .Lastmod }}"dateModified": "{{ .Format "2006-01-02" }}",{{ end }}
+  {{ with or .Params.image .Params.og_image }}"image": "{{ . | absURL }}",{{ end }}
   "wordCount": {{ countwords .Content }},
   "author": {
     "@type": "Organization",

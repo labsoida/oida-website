@@ -1,7 +1,7 @@
 ---
 title: "Le AI sbagliano la normativa sanitaria: perché non puoi chiederle cosa pubblicare"
 seo_title: "Normativa pubblicità sanitaria: cosa è ammesso"
-description: "Le AI inventano norme sulla pubblicità sanitaria. Cosa dice davvero la legge vigente su cosa una struttura può pubblicare, e perché la verifica resta umana."
+description: "Le AI inventano norme sulla pubblicità sanitaria. Cosa dice davvero la legge vigente, cosa si può pubblicare e perché la verifica resta umana."
 date: 2026-07-01
 author: "OIDA Labs"
 image: "img/blog/ai-normativa-pubblicita-sanitaria-og.jpg"

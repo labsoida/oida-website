@@ -5,7 +5,7 @@
 
 # GDPR per studi medici e dentistici: dove tocca il marketing e la comunicazione
 
-> GDPR per studi medici e dentistici: quando serve il consenso dei pazienti nel marketing, cookie e recensioni, e cosa distingue il piano privacy da quello deontologico.
+> GDPR per studi medici e dentistici: quando serve il consenso dei pazienti nel marketing, cookie e recensioni, e la distinzione tra privacy e deontologia.
 
 **Data:** 2026-07-01
 **Autore:** OIDA Labs

@@ -1,7 +1,7 @@
 ---
 title: "Marketing odontoiatrico: perché le logiche generali non funzionano per i centri dentali privati"
 seo_title: "Marketing odontoiatrico per strutture private"
-description: "Marketing odontoiatrico per strutture private: LTV alto, famiglia come unità decisionale e normative specifiche. Cosa lo distingue dalle altre specialità."
+description: "Marketing odontoiatrico per strutture private: LTV alto, famiglia come unità decisionale e norme specifiche. Cosa lo distingue dalle altre specialità."
 date: 2026-06-17
 author: "OIDA Labs"
 image: "img/blog/marketing-odontoiatrico-strutture-private.webp"

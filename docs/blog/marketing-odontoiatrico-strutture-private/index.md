@@ -5,7 +5,7 @@
 
 # Marketing odontoiatrico: perché le logiche generali non funzionano per i centri dentali privati
 
-> Marketing odontoiatrico per strutture private: LTV alto, famiglia come unità decisionale e normative specifiche. Cosa lo distingue dalle altre specialità.
+> Marketing odontoiatrico per strutture private: LTV alto, famiglia come unità decisionale e norme specifiche. Cosa lo distingue dalle altre specialità.
 
 **Data:** 2026-06-17
 **Autore:** OIDA Labs
