@@ -1,5 +1,6 @@
 ---
 title: "Marketing sanitario in Canton Ticino: mercato, specificità e opportunità per le strutture private"
+seo_title: "Marketing sanitario in Canton Ticino"
 description: "Sistema LAMAL, pazienti italiani di confine e concorrenza digitale bassa: cosa sapere prima di investire nel mercato sanitario del Canton Ticino."
 date: 2026-03-30
 author: "OIDA Labs"

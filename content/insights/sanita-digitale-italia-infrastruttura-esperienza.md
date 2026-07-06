@@ -1,5 +1,6 @@
 ---
 title: "Sanità digitale italiana: infrastruttura in cima, esperienza in fondo"
+seo_title: "Sanità digitale italiana: infrastruttura ed esperienza"
 linktitle: "Sanità digitale italiana: infrastruttura e esperienza"
 description: "Il report UE Digital Decade 2026 letto da OIDA Labs: l'Italia ha l'infrastruttura sanitaria digitale tra le migliori d'Europa e l'esperienza peggiore."
 date: 2026-06-21

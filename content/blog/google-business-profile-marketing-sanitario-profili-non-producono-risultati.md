@@ -1,5 +1,6 @@
 ---
 title: "Google Business Profile e marketing sanitario: perché molti profili non producono risultati"
+seo_title: "Google Business Profile per il marketing sanitario"
 description: "Il Google Business Profile è spesso compilato ma raramente performante. Cosa separa un profilo presente da uno che genera pazienti."
 date: 2026-04-18
 author: "OIDA Labs"

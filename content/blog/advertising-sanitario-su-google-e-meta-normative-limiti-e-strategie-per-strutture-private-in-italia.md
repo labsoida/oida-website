@@ -1,5 +1,6 @@
 ---
 title: "Advertising sanitario su Google e Meta: normative, limiti e strategie per strutture private in Italia"
+seo_title: "Advertising sanitario su Google e Meta"
 description: "Campagne Google e Meta per strutture sanitarie private in Italia: i vincoli normativi che contano e come investire con risultati misurabili."
 date: 2026-04-11
 author: "OIDA Labs"

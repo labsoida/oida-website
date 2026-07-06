@@ -1,5 +1,6 @@
 ---
 title: "Salute riproduttiva: il divario tra desiderio e natalità. Marketing sanitario per medicina della fertilità e PMA"
+seo_title: "Salute riproduttiva: marketing per fertilità e PMA"
 linktitle: "Salute riproduttiva: il divario tra desiderio e natalità"
 description: "Il Rapporto ISTAT 2026 letto da OIDA Labs: 1,14 figli per donna e una domanda di salute riproduttiva intercettata troppo tardi dalle strutture private."
 date: 2026-05-22

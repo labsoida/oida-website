@@ -7,7 +7,7 @@
 {{- with $tocBlock -}}
   {{- $ol := index (findRE `(?s)<ol>.*?</ol>` . 1) 0 -}}
   {{- $ol = replaceRE `<li><a href="#faq">[^<]*</a></li>\s*` "" $ol -}}
-  {{- $new := printf `<nav class="post-toc"><div class="post-toc-lab">// In questo articolo</div>%s</nav><div class="post-divider" aria-hidden="true"><img src="%s" alt="" width="46" height="46"></div>` $ol (relURL "img/pittogramma.svg") -}}
+  {{- $new := printf `<nav class="post-toc"><div class="post-toc-lab">// In questo articolo</div>%s</nav><div class="post-divider" aria-hidden="true"><img src="%s" alt="OIDA Labs" width="46" height="46"></div>` $ol (relURL "img/pittogramma.svg") -}}
   {{- $content = replace $content . $new 1 -}}
 {{- end -}}
 

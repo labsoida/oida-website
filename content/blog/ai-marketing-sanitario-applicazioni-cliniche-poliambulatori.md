@@ -1,5 +1,6 @@
 ---
 title: "AI e marketing sanitario: applicazioni concrete per cliniche e poliambulatori"
+seo_title: "AI e marketing sanitario per cliniche"
 description: "Intelligenza artificiale nel marketing sanitario: follow-up automatizzato, campagne e analisi predittiva per le strutture sanitarie private."
 date: 2026-04-16
 author: "OIDA Labs"

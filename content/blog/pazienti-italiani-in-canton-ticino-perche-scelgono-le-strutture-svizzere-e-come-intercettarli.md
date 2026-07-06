@@ -1,5 +1,6 @@
 ---
 title: "Pazienti italiani in Canton Ticino: perché scelgono le strutture svizzere e come intercettarli"
+seo_title: "Pazienti italiani in Canton Ticino"
 description: "I pazienti italiani sono un segmento strutturale del mercato ticinese. Come una struttura costruisce visibilità e accessibilità verso questo bacino."
 date: 2026-03-21
 author: "OIDA Labs"

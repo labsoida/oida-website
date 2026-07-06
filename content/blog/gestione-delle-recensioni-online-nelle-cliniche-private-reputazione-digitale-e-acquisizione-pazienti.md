@@ -1,5 +1,6 @@
 ---
 title: "Gestione delle recensioni online nelle cliniche private: reputazione digitale e acquisizione pazienti"
+seo_title: "Recensioni online per le cliniche private"
 description: "Le recensioni online guidano la scelta dei pazienti che valutano una struttura privata. Come gestirle in modo sistematico per la reputazione digitale."
 date: 2026-04-26
 author: "OIDA Labs"

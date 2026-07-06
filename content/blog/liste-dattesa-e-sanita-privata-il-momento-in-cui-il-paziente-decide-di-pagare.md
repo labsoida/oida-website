@@ -1,5 +1,6 @@
 ---
 title: "Liste d'attesa e sanità privata: il momento in cui il paziente decide di pagare"
+seo_title: "Liste d'attesa e sanità privata"
 description: "Le liste d'attesa del pubblico spingono i pazienti verso la sanità privata. Come intercettare questa domanda nel momento in cui decide di pagare."
 date: 2026-04-08
 author: "OIDA Labs"

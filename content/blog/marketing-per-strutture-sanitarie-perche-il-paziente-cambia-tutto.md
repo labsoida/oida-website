@@ -1,5 +1,6 @@
 ---
 title: "Marketing per strutture sanitarie: perché il paziente cambia tutto"
+seo_title: "Marketing per strutture sanitarie"
 description: "Il marketing per strutture sanitarie segue regole proprie: cosa determina l'efficacia di una strategia quando il decisore è un paziente."
 date: 2026-05-17
 author: "OIDA Labs"

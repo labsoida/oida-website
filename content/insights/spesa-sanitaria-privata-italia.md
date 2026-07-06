@@ -1,5 +1,6 @@
 ---
 title: "Spesa sanitaria privata in Italia: il mercato che il marketing sanitario legge male"
+seo_title: "Spesa sanitaria privata in Italia"
 description: "Il Report GIMBE 2/2025 letto da OIDA Labs: 40,6 miliardi out-of-pocket, 4,5 milioni di rinunce e il 40% di spesa privata che non genera salute."
 date: 2025-03-15
 lastmod: 2025-03-15
