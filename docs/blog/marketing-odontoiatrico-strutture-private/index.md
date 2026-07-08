@@ -125,6 +125,10 @@ Sì, con una premessa. La specializzazione nel marketing ha senso quando la stru
 
 La pubblicità per un dentista in Italia deve restare dentro i limiti della comunicazione sanitaria: informazioni veritiere e verificabili, niente promesse di risultato. Funziona meglio quando è mirata per prestazione (implantologia, ortodonzia, igiene) e per zona, con una pagina di destinazione coerente e un percorso di prenotazione semplice. La concorrenza locale è alta: vince chi è più pertinente, non chi spende di più.
 
+**Come si acquisiscono nuovi pazienti per uno studio dentistico?**
+
+Acquisire nuovi pazienti per uno studio dentistico non dipende da un singolo canale, ma da un sistema in cui i canali si rinforzano. La visibilità sulle ricerche locali, con Google Business Profile e SEO locale sulle query di prossimità, intercetta chi cerca un dentista sul territorio; le campagne Google Ads sulle prestazioni ad alta intenzione raggiungono chi è già in valutazione; le recensioni determinano quale studio viene scelto tra quelli trovati. Trovare nuovi pazienti costa meno quando la reputazione online è già costruita, perché lo stesso traffico converte di più. E poiché il valore di un paziente odontoiatrico si realizza negli anni, acquisire nuovi pazienti senza un sistema di richiamo e fidelizzazione che li trattenga significa alimentare un funnel che perde a valle.
+
 
 ---
 
