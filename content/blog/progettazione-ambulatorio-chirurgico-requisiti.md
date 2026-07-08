@@ -4,8 +4,8 @@ seo_title: "Normativa e progettazione ambulatorio chirurgico"
 description: "Progettazione dell'ambulatorio chirurgico: perché spazi, impianti e percorsi sono requisiti che decidono quali prestazioni una struttura può erogare."
 date: 2026-07-06
 author: "OIDA Labs"
-image: "img/og-image.jpg"
-og_image: "img/og-image.jpg"
+image: "img/blog/progettazione-ambulatorio-chirurgico-requisiti-og.jpg"
+og_image: "img/blog/progettazione-ambulatorio-chirurgico-requisiti-og.jpg"
 image_alt: "Progettazione di un ambulatorio chirurgico: layout, percorsi e requisiti di una sala operatoria"
 tags: ["normativa", "strategia"]
 servizio: "progettazione-ambienti-chirurgici"

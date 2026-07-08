@@ -4,8 +4,8 @@ seo_title: "Marketing per medici e liberi professionisti"
 description: "Marketing per medici e liberi professionisti: perché per il singolo cambiano l'economia della fiducia e i vincoli deontologici rispetto a una struttura."
 date: 2026-07-06
 author: "OIDA Labs"
-image: "img/og-image.jpg"
-og_image: "img/og-image.jpg"
+image: "img/blog/marketing-medico-libero-professionista-og.jpg"
+og_image: "img/blog/marketing-medico-libero-professionista-og.jpg"
 image_alt: "Marketing per il medico libero professionista: cosa cambia rispetto alla struttura"
 tags: ["strategia", "normativa"]
 servizio: "consulenza-strategica-sanitaria"
