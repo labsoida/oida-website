@@ -8,7 +8,7 @@ author: "OIDA Labs"
 kicker: "OIDA Insight · Luglio 2026"
 base: "Base empirica: Rapporto SDGs 2026 (ISTAT)"
 about: "Domanda sanitaria, prevenzione e marketing delle strutture private"
-og_image: "img/og-image.jpg"
+og_image: "img/insights/prevenzione-divari-territoriali-domanda-sanitaria-og.jpg"
 image_alt: "Rapporto SDGs 2026 ISTAT: prevenzione e divari territoriali nella domanda sanitaria, analisi OIDA Labs"
 tags: ["mercato sanitario", "strategia"]
 stats:
