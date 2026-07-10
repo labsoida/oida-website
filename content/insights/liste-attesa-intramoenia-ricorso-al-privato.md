@@ -8,7 +8,7 @@ author: "OIDA Labs"
 kicker: "OIDA Insight · Luglio 2026"
 base: "Base empirica: indagine FNOMCeO-Istituto Piepoli 2026"
 about: "Domanda sanitaria, liste d'attesa e ricorso al privato"
-og_image: "img/og-image.jpg"
+og_image: "img/insights/liste-attesa-intramoenia-ricorso-al-privato-og.jpg"
 image_alt: "Liste d'attesa e intramoenia: comportamento della domanda sanitaria privata, analisi OIDA Labs sull'indagine FNOMCeO-Piepoli 2026"
 tags: ["mercato sanitario", "strategia"]
 stats:
