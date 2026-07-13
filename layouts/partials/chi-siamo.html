@@ -18,7 +18,8 @@
         <div class="ct-lab">// Le persone dietro OIDA</div>
         {{ range first 4 . }}
         <a class="ct-row" href="{{ .RelPermalink }}">
-          <img src="{{ .Params.photo | relURL }}" alt="{{ .Params.photo_alt | default .Title }}" width="48" height="48" loading="lazy">
+          {{- /* avatar 48px: miniatura 96x96 (-thumb), non l'originale 1000px (~85KB vs ~3KB) */ -}}
+          <img src="{{ replace .Params.photo ".webp" "-thumb.webp" | relURL }}" alt="{{ .Params.photo_alt | default .Title }}" width="48" height="48" loading="lazy">
           <span class="ct-id"><b>{{ .Title }}</b><em>{{ .Params.card_meta }}</em></span>
         </a>
         {{ end }}
