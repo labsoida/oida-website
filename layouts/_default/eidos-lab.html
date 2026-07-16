@@ -1,0 +1,72 @@
+{{ define "main" }}
+{{- /* PROTOTIPO INTERNO Eidos — pagina lab: noindex (header /lab/* + robots.txt),
+       esclusa da sitemap/liste via _build.list=never, nessun link dai menu.
+       Layout ibrido: hero da servizio + stats da insight + corpo con shortcode insight.
+       Se il test convince, questo layout è la base del futuro layout "prodotto". */ -}}
+
+<div class="eidos-proto-note">// PROTOTIPO INTERNO &middot; noindex &middot; non collegato ai menu &middot; per revisione team</div>
+
+<section class="svc-hero starry">
+  <aside class="svc-hero-left">
+    <img class="svc-hero-mark" src="{{ "img/pittogramma.svg" | relURL }}" alt="OIDA Labs" width="120" height="120">
+    <div class="svc-hero-tag">// PRODOTTO <b>EIDOS</b><br>// GESTIONE SITI<br>// SETTORE <b>SANITARIO</b></div>
+  </aside>
+  <div class="svc-hero-content">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.tagline }}<p class="svc-tagline">{{ . | safeHTML }}</p>{{ end }}
+    {{ with .Description }}<p class="svc-hero-sub">{{ . }}</p>{{ end }}
+    <a class="svc-cta" href="{{ "/" | relURL }}#contatti">Chiedici un'analisi gratuita &rarr;</a>
+  </div>
+</section>
+
+{{ with .Params.stats }}
+<section class="ins-stats">
+  <div class="ins-stats-grid">
+    {{ range . }}
+    <div class="ins-stat">
+      <div class="ins-stat-num">{{ .number | safeHTML }}{{ with .suffix }}<span class="suf">{{ . | safeHTML }}</span>{{ end }}</div>
+      <div class="ins-stat-lab">{{ .label | safeHTML }}</div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+<div class="ins-divider" aria-hidden="true"><img src="{{ "img/pittogramma.svg" | relURL }}" alt="OIDA Labs" width="46" height="46"></div>
+
+<article class="svc-body ins-body">
+  {{ .Content }}
+</article>
+
+{{ with .Params.faqs }}
+<section class="svc-faq">
+  <div class="svc-faq-header">
+    <div class="svc-faq-num">{{ printf "%02d" (len .) }}</div>
+    <div class="svc-faq-tit">
+      <div class="lab">// Domande sul servizio</div>
+      <div class="ttl">Quello che ci chiedono</div>
+    </div>
+  </div>
+  {{ range $i, $faq := . }}
+  <details>
+    <summary><span class="num">/{{ printf "%02d" (add $i 1) }}</span><span>{{ $faq.q }}</span><span class="plus">+</span></summary>
+    <div>{{ $faq.a | safeHTML }}</div>
+  </details>
+  {{ end }}
+</section>
+{{ end }}
+
+{{ $cta := .Params.cta }}
+<section class="svc-cta-final">
+  <div>
+    <h2>{{ with $cta }}{{ .title }}{{ else }}Parliamone.{{ end }}</h2>
+    <p>{{ with $cta }}{{ .body }}{{ end }}</p>
+  </div>
+  <a class="svc-cta" href="{{ with $cta }}{{ .link | default "/#contatti" }}{{ else }}/#contatti{{ end }}">{{ with $cta }}{{ .button }}{{ else }}Parliamone &rarr;{{ end }}</a>
+</section>
+
+<style>
+/* Solo per il prototipo: striscia interna. Solo token di palette, nessun colore nuovo. */
+.eidos-proto-note{border:1px solid var(--teal);color:var(--teal);font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.06em;padding:10px 16px;margin:18px auto 0;max-width:1200px;text-transform:uppercase}
+</style>
+{{ end }}
