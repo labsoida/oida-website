@@ -15,6 +15,9 @@
 @font-face{font-family:'Barlow Semi Condensed';font-style:normal;font-weight:600;src:url('/fonts/barlow-semi-condensed-600.woff2') format('woff2');font-display:swap}
 @font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:400 600;src:url('/fonts/jetbrains-mono-variable.woff2') format('woff2');font-display:swap}
 
+/* Wrapper del form incorporato nelle pagine servizio/prodotto (partial cta-form-embed) */
+.cta-embed{max-width:1200px;margin:56px auto 32px;padding:0 32px}
+
 /* === RESET + TOKEN === */
 *,*:before,*:after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-padding-top:76px}

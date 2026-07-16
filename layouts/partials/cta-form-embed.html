@@ -1,0 +1,32 @@
+{{- /* Form contatti incorporato in pagina (stesso Formspree della home).
+       Contesto (dict): origine (obbligatorio, es. "servizio:advertising-sanitario"),
+       title, body, button, meta. Un solo uso per pagina: id cta-form aggancia
+       l'invio AJAX + evento GA4 generate_lead di main.js; il valore fisso di
+       "origine" non viene sovrascritto dalla logica referrer. */ -}}
+{{ $d := hugo.Data.contatti }}
+<section id="contatti-pagina" class="cta-embed">
+  <div class="cta-final">
+    <div class="cta-final-text">
+      <h2>{{ .title | default "Parliamone." }}</h2>
+      <p>{{ .body | default "Analizziamo gratuitamente la tua situazione e ti diciamo cosa ha senso fare per primo." }}</p>
+      <div class="cta-meta">{{ .meta | default "// NESSUN IMPEGNO &middot; PRIMO CONTATTO <b>GRATUITO</b>" | safeHTML }}</div>
+    </div>
+    <form class="cta-form" action="https://formspree.io/f/{{ $d.formspree_id }}" method="POST" id="cta-form">
+      <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
+      <input type="hidden" name="origine" value="{{ .origine }}">
+      {{ range $d.fields }}
+      {{ if eq .type "textarea" }}
+      <textarea name="{{ .name }}" placeholder="{{ .placeholder }}" rows="5"{{ if .required }} required{{ end }} aria-label="{{ .placeholder }}"></textarea>
+      {{ else }}
+      <input type="{{ .type }}" name="{{ .name }}" placeholder="{{ .placeholder }}"{{ if .required }} required{{ end }} aria-label="{{ .placeholder }}">
+      {{ end }}
+      {{ end }}
+      <label class="cta-privacy">
+        <input type="checkbox" name="privacy_consent" required aria-label="Consenso privacy">
+        <span>Ho letto la <a href="{{ "legal/privacy-policy/" | relURL }}" target="_blank" rel="noopener">Privacy Policy</a> e acconsento al trattamento dei miei dati per essere ricontattato.</span>
+      </label>
+      <button type="submit">{{ .button | default "Invia &rarr;" | safeHTML }}</button>
+      <div class="cta-status" aria-live="polite"></div>
+    </form>
+  </div>
+</section>

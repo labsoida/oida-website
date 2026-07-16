@@ -25,7 +25,7 @@
     <h1>{{ .Title }}</h1>
     {{ with $tagline }}<p class="svc-tagline">{{ . | safeHTML }}</p>{{ end }}
     {{ with .Description }}<p class="svc-hero-sub">{{ . }}</p>{{ end }}
-    <a class="svc-cta" href="{{ "/" | relURL }}#contatti">Chiedici un'analisi gratuita &rarr;</a>
+    <a class="svc-cta" href="#contatti-pagina">Chiedici un'analisi gratuita &rarr;</a>
   </div>
 </section>
 
@@ -51,14 +51,15 @@
 </section>
 {{ end }}
 
+{{- /* Form incorporato al posto del rimando a /#contatti: il visitatore converte
+       qui, e il lead arriva con origine=servizio:<slug> (attribuzione). */ -}}
 {{ $cta := .Params.cta }}
-<section class="svc-cta-final">
-  <div>
-    <h2>{{ with $cta }}{{ .title | default "Parliamone." }}{{ else }}Vuoi saperne di pi&ugrave;?{{ end }}</h2>
-    <p>{{ with $cta }}{{ .body | default "Analizziamo gratuitamente la tua situazione e ti diciamo cosa ha senso fare per primo." }}{{ else }}Analizziamo gratuitamente la tua situazione e ti diciamo cosa ha senso fare per primo.{{ end }}</p>
-  </div>
-  <a class="svc-cta" href="{{ with $cta }}{{ .link | default "/#contatti" }}{{ else }}/#contatti{{ end }}">{{ with $cta }}{{ .button | default "Parliamone →" }}{{ else }}Parliamone &rarr;{{ end }}</a>
-</section>
+{{ partial "cta-form-embed.html" (dict
+  "origine" (printf "servizio:%s" (path.Base .RelPermalink))
+  "title" (or (and $cta $cta.title) "Parliamone.")
+  "body" (or (and $cta $cta.body) "Analizziamo gratuitamente la tua situazione e ti diciamo cosa ha senso fare per primo.")
+  "button" (or (and $cta $cta.button) "Parliamone →")
+) }}
 
 {{ $related := first 3 (where $ordered "Permalink" "ne" .Permalink) }}
 {{ with $related }}
