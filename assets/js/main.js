@@ -95,6 +95,22 @@
   // --- Form Formspree con feedback inline (no redirect) ---
   var ctaForm = document.getElementById('cta-form');
   if (ctaForm) {
+    // Attribuzione lead: da dove arriva chi compila. Ordine: parametro ?da=
+    // (campagne/casi speciali) > referrer interno (pagina di provenienza) >
+    // referrer esterno (host) > 'diretto'. Non sovrascrive i valori fissati
+    // nel template (es. origine=eidos sulla pagina prodotto).
+    var orig = ctaForm.querySelector('input[name="origine"]');
+    if (orig && (!orig.value || orig.value === 'diretto')) {
+      var da = new URLSearchParams(location.search).get('da');
+      if (da) {
+        orig.value = 'param:' + da.slice(0, 60);
+      } else if (document.referrer) {
+        try {
+          var ref = new URL(document.referrer);
+          orig.value = ref.host === location.host ? 'pagina:' + ref.pathname : 'esterno:' + ref.host;
+        } catch (err) {}
+      }
+    }
     ctaForm.addEventListener('submit', function (e) {
       e.preventDefault();
       var status = ctaForm.querySelector('.cta-status');

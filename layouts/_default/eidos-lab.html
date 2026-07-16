@@ -194,7 +194,7 @@
       <p>{{ with $cta }}{{ .body }}{{ end }}</p>
       <div class="cta-meta">// NESSUN IMPEGNO &middot; ANALISI <b>GRATUITA</b> E PER ISCRITTO</div>
     </div>
-    <form class="cta-form" action="https://formspree.io/f/{{ $d.formspree_id }}" method="POST">
+    <form class="cta-form" action="https://formspree.io/f/{{ $d.formspree_id }}" method="POST" id="cta-form">
       <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
       <input type="hidden" name="origine" value="eidos">
       {{ range $d.fields }}
