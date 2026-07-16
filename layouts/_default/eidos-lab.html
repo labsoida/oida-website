@@ -1,8 +1,7 @@
 {{ define "main" }}
-{{- /* PROTOTIPO INTERNO Eidos — pagina lab: noindex (header /lab/* + robots.txt),
-       esclusa da sitemap/liste via _build.list=never, nessun link dai menu.
-       Layout ibrido: hero da servizio + stats da insight + corpo con shortcode insight.
-       Se il test convince, questo layout è la base del futuro layout "prodotto". */ -}}
+{{- /* PROTOTIPO INTERNO Eidos v2 — gerarchia: hero → cosa comprende (8 voci generose)
+       → 3 livelli spiegati → prova misurata → coda (comparativa, nota) → FAQ → CTA.
+       Solo token di palette. Noindex via /lab/* headers + robots + build.list=never. */ -}}
 
 <div class="eidos-proto-note">// PROTOTIPO INTERNO &middot; noindex &middot; non collegato ai menu &middot; per revisione team</div>
 
@@ -19,6 +18,49 @@
   </div>
 </section>
 
+{{ with .Params.intro }}
+<div class="ex-wrap"><p class="ex-intro">{{ . | safeHTML }}</p></div>
+{{ end }}
+
+{{ with .Params.features }}
+<section class="ex-wrap">
+  <div class="ex-lab">// Cosa comprende il canone</div>
+  <h2 class="ex-h2">Otto cose che facciamo noi,<br>così non le fai tu</h2>
+  <div class="ex-grid">
+    {{ range $i, $f := . }}
+    <div class="ex-feat">
+      <div class="ex-feat-num">/{{ printf "%02d" (add $i 1) }}</div>
+      <div class="ex-feat-body">
+        <h3>{{ $f.title }}</h3>
+        <p>{{ $f.body | markdownify }}</p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.livelli }}
+<section class="ex-wrap">
+  <div class="ex-lab">// I tre livelli</div>
+  <h2 class="ex-h2">Quanta autonomia vuoi: la decidi tu</h2>
+  <div class="ex-levels">
+    {{ range . }}
+    <div class="ex-level">
+      <div class="ex-level-kicker">{{ .kicker }}</div>
+      <div class="ex-level-name">{{ .name }}</div>
+      <p>{{ .body | markdownify }}</p>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+<section class="ex-wrap">
+  <div class="ex-lab">// La prova, misurata</div>
+  <h2 class="ex-h2">Il primo cliente dello stack siamo noi</h2>
+  <p class="ex-intro">Il sito di OIDA Labs &egrave; costruito e gestito con lo stesso impianto che proponiamo alle strutture. Questi numeri sono i suoi: misurati con Lighthouse, non promessi.</p>
+</section>
 {{ with .Params.stats }}
 <section class="ins-stats">
   <div class="ins-stats-grid">
@@ -31,8 +73,6 @@
   </div>
 </section>
 {{ end }}
-
-<div class="ins-divider" aria-hidden="true"><img src="{{ "img/pittogramma.svg" | relURL }}" alt="OIDA Labs" width="46" height="46"></div>
 
 <article class="svc-body ins-body">
   {{ .Content }}
@@ -66,7 +106,32 @@
 </section>
 
 <style>
-/* Solo per il prototipo: striscia interna. Solo token di palette, nessun colore nuovo. */
+/* Solo per il prototipo. Esclusivamente token di palette esistenti. */
 .eidos-proto-note{border:1px solid var(--teal);color:var(--teal);font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.06em;padding:10px 16px;margin:18px auto 0;max-width:1200px;text-transform:uppercase}
+.ex-wrap{max-width:1200px;margin:0 auto;padding:0 32px}
+.ex-intro{font-size:19px;line-height:1.65;max-width:840px;margin:40px 0 8px}
+.ex-lab{font-family:'JetBrains Mono',monospace;color:var(--teal);font-size:13px;letter-spacing:.06em;text-transform:uppercase;margin:72px 0 12px}
+.ex-h2{font-family:'Glaseer',sans-serif;letter-spacing:.02em;font-size:40px;text-transform:uppercase;color:var(--ink);line-height:1.05;margin:0 0 32px}
+.ex-grid{display:grid;grid-template-columns:1fr 1fr;border:var(--hairline);border-bottom:none}
+.ex-feat{display:grid;grid-template-columns:88px 1fr;border-bottom:var(--hairline);min-height:150px}
+.ex-feat:nth-child(odd){border-right:var(--hairline)}
+.ex-feat-num{border-right:var(--hairline);font-family:'Glaseer',sans-serif;letter-spacing:.02em;font-size:26px;color:var(--teal);display:flex;align-items:center;justify-content:center}
+.ex-feat-body{padding:26px 30px}
+.ex-feat-body h3{font-family:'Glaseer',sans-serif;letter-spacing:.02em;font-size:21px;text-transform:uppercase;color:var(--ink);line-height:1.15;margin:0 0 12px}
+.ex-feat-body p{font-size:15px;line-height:1.65;margin:0}
+.ex-levels{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:var(--hairline)}
+.ex-level{padding:30px 30px 34px;border-right:var(--hairline)}
+.ex-level:last-child{border-right:none}
+.ex-level-kicker{font-family:'JetBrains Mono',monospace;color:var(--teal);font-size:12px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:14px}
+.ex-level-name{font-family:'Glaseer',sans-serif;letter-spacing:.02em;font-size:24px;text-transform:uppercase;color:var(--ink);line-height:1.1;margin-bottom:14px}
+.ex-level p{font-size:15px;line-height:1.65;margin:0}
+@media (max-width:900px){
+  .ex-grid{grid-template-columns:1fr}
+  .ex-feat:nth-child(odd){border-right:none}
+  .ex-levels{grid-template-columns:1fr}
+  .ex-level{border-right:none;border-bottom:var(--hairline)}
+  .ex-level:last-child{border-bottom:none}
+  .ex-h2{font-size:30px}
+}
 </style>
 {{ end }}
