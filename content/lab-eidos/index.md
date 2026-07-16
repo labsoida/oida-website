@@ -1,63 +1,112 @@
 ---
-title: "Il sito della tua struttura. Costruito e gestito."
-description: "Eidos è il servizio di gestione siti di OIDA Labs per studi medici, cliniche e poliambulatori: costruzione, contenuti, sicurezza e conformità, dentro un canone."
+title: "Eidos, il servizio OIDA Labs per realizzare e gestire il sito della tua struttura"
+description: "Realizzazione e gestione di siti web per studi medici, cliniche e poliambulatori: costruzione, contenuti, sicurezza e verifica di compliance sanitaria, dentro un canone."
 layout: "eidos-lab"
 url: "/lab/eidos/"
 date: 2026-07-16
 draft: false
 build:
   list: never
-tagline: "Eidos dà forma alla presenza online della tua struttura: la costruiamo, la teniamo veloce e sicura, la rendiamo leggibile a chi cerca, sui motori e nelle risposte AI."
-intro: "In sanità il sito non è un lavoro in più da imparare. Con Eidos il sito lo costruiamo noi, i contenuti li aggiorniamo noi, la sicurezza e la conformità restano nostre, dentro un canone mensile. Il tuo tempo va ai pazienti, non a un pannello di amministrazione."
+tagline: "Eidos dà forma alla presenza online della tua struttura: la costruiamo, la teniamo veloce e sicura, ne verifichiamo la conformità alla normativa sulla comunicazione sanitaria e la rendiamo leggibile a chi cerca, sui motori e nelle risposte AI."
+intro: "In sanità il sito non è un lavoro in più da imparare, ed è comunicazione che risponde a regole precise. Con Eidos il sito lo costruiamo noi, i contenuti li aggiorniamo noi e ogni testo passa la **verifica di compliance** alla normativa sulla comunicazione sanitaria, dentro un canone mensile. Il tuo tempo va ai pazienti, non a un pannello di amministrazione."
 features:
   - title: "La costruzione"
-    body: "Il sito lo progettiamo e lo scriviamo noi, con supervisione medico-scientifica sui contenuti clinici. Nasce per il telefono, dove il paziente cerca, e rispetta le regole della comunicazione sanitaria dei due Paesi in cui lavoriamo, Italia e Svizzera."
+    body: "Il sito lo progettiamo e lo scriviamo noi, con supervisione medico-scientifica sui contenuti clinici. Nasce per il telefono, dove il paziente cerca, e rispetta le regole della comunicazione sanitaria dei due Paesi in cui lavoriamo, **Italia e Svizzera**."
   - title: "I contenuti, aggiornati da noi"
-    body: "Una nuova prestazione, un medico che entra in équipe, un orario che cambia: ce lo comunichi e lo aggiorniamo noi, dentro il canone. Nessun pannello da imparare e nessun sito che invecchia perché in struttura manca il tempo di seguirlo."
+    body: "Una nuova prestazione, un medico che entra in équipe, un orario che cambia: ce lo comunichi e lo aggiorniamo noi, **dentro il canone**. Nessun pannello da imparare e nessun sito che invecchia perché in struttura manca il tempo di seguirlo."
   - title: "Velocità e infrastruttura"
-    body: "Pagine statiche servite da una rete di distribuzione globale, certificato SSL emesso e rinnovato in automatico e cache configurata per ogni tipo di contenuto. I punteggi che questa architettura produce li misuriamo sul nostro stesso sito: sono più sotto."
+    body: "Pagine statiche servite da una rete di distribuzione globale, certificato SSL emesso e rinnovato in automatico e cache configurata per ogni tipo di contenuto. La **velocità** che questa architettura produce la misuriamo sul nostro stesso sito: i numeri sono più sotto."
   - title: "Sicurezza per costruzione"
-    body: "Un sito statico non ha database, non ha plugin e non esegue codice sul server: la superficie d'attacco è prossima allo zero per architettura, non per vigilanza. Per chi tratta dati sanitari, categoria particolare ai sensi dell'art. 9 GDPR e della nLPD svizzera, è la differenza tra difendere ed evitare di esporsi."
+    body: "Un sito statico non ha database, non ha plugin e non esegue codice sul server: la **superficie d'attacco è prossima allo zero** per architettura, non per vigilanza. Per chi tratta dati sanitari, categoria particolare ai sensi dell'art. 9 GDPR e della nLPD svizzera, è la differenza tra difendere ed evitare di esporsi: ne scriviamo in [GDPR per studi medici e dentistici](/blog/gdpr-studi-medici-dentistici/)."
   - title: "Trovabilità: motori e risposte AI"
-    body: "La SEO tecnica è nativa: dati strutturati, sitemap pulita e pagine leggibili sia dai motori sia dagli assistenti AI, che il 36% degli italiani ha già usato per informarsi su salute, farmaci o terapie (Osservatorio Sanità Digitale, Politecnico di Milano, 2026). Il lavoro editoriale che ci si costruisce sopra è quello di [SEO e GEO per la sanità](/servizi/seo-geo-sanita/)."
-  - title: "Conformità e revisione legale"
-    body: "Privacy policy, cookie policy e gestione del consenso entrano nel canone, con revisione legale inclusa. La comunicazione rispetta le norme della professione sanitaria: è il terreno su cui OIDA è nata."
+    body: "La **SEO tecnica è nativa**: dati strutturati, sitemap pulita e pagine leggibili sia dai motori sia dagli assistenti AI, che il 36% degli italiani ha già usato per informarsi su salute, farmaci o terapie (Osservatorio Sanità Digitale, Politecnico di Milano, 2026). Il lavoro editoriale che ci si costruisce sopra è quello di [SEO e GEO per la sanità](/servizi/seo-geo-sanita/), e di come le AI leggono i siti parliamo in [GEO: farsi trovare nelle risposte AI](/blog/geo-ai-search-per-la-sanita/)."
+  - title: "Compliance della comunicazione sanitaria"
+    body: "Ogni contenuto passa la **verifica di conformità alla normativa sulla comunicazione sanitaria**, italiana e svizzera, prima di andare online. Privacy policy, cookie policy e gestione del consenso entrano nel canone. Un sito sanitario che comunica bene è un sito che comunica [dentro le regole](/blog/comunicazione-sanitaria/)."
   - title: "Presidio e reversibilità"
-    body: "Monitoriamo il sito in modo continuativo e verifichiamo ogni modifica prima e dopo la pubblicazione. Ogni stato del sito è versionato: qualunque intervento si può ripristinare, niente va perso."
+    body: "Monitoriamo il sito in modo continuativo e **verifichiamo ogni modifica** prima e dopo la pubblicazione. Ogni stato del sito è versionato: qualunque intervento si può ripristinare, niente va perso."
   - title: "Proprietà ed export"
-    body: "Il dominio è intestato a te e resta tuo. Se vuoi i contenuti e il sito, li hai in mano entro 48 ore: è scritto nel contratto. Chi vuole anche la proprietà diretta dei file la aggiunge come livello ulteriore."
+    body: "Il dominio è intestato a te e resta tuo. Se vuoi i contenuti e il sito, li hai in mano **entro 48 ore**: è scritto nel contratto. Chi vuole anche la proprietà diretta dei file la aggiunge come livello ulteriore."
+verticale:
+  title: "La compliance non si aggiunge dopo: è nel servizio"
+  body: "Uno stack tecnico veloce e sicuro lo si può comprare in molti posti. La **verifica di compliance alla normativa sulla comunicazione sanitaria** no: richiede di conoscere le regole della professione, gli orientamenti degli Ordini e le differenze tra Italia e Svizzera. OIDA Labs è fondata da medici, e ogni sito Eidos nasce già dentro questo perimetro: è la somma delle due cose, **architettura tecnica e competenza sanitaria**, a fare il servizio."
 livelli:
   - kicker: "// Livello 1"
     name: "Delega completa"
-    body: "Sito, contenuti, sicurezza e aggiornamenti: tutto dentro il canone, tutto gestito da noi. È il livello per chi il sito non vuole gestirlo, e vuole poterlo dimenticare senza che invecchi."
+    body: "Sito, contenuti, sicurezza e aggiornamenti: tutto dentro il canone, **tutto gestito da noi**. È il livello per chi il sito non vuole gestirlo, e vuole poterlo dimenticare senza che invecchi."
   - kicker: "// Livello 2"
     name: "Autonomia sui testi"
-    body: "Aggiunge un pannello di modifica leggero, per chi preferisce mettere mano ai testi in prima persona. La gestione tecnica, la sicurezza e il presidio restano nostri."
+    body: "Aggiunge un pannello di modifica leggero, per chi preferisce mettere mano ai testi in prima persona. La gestione tecnica, la sicurezza e il presidio **restano nostri**."
   - kicker: "// Livello 3"
     name: "Sito applicativo"
-    body: "Prenotazioni integrate con i gestionali, aree riservate e logiche dedicate. Si progetta e si quota come progetto a parte, sopra la stessa base tecnica."
+    body: "Prenotazioni integrate con i gestionali, aree riservate e logiche dedicate, in dialogo con [CRM e automazioni](/servizi/crm-automation-sanita/). Si progetta e si quota come **progetto a parte**, sopra la stessa base tecnica."
+prova: "Il sito di OIDA Labs è costruito e gestito con lo stesso impianto che proponiamo alle strutture: i numeri qui sotto sono i suoi, misurati con Google Lighthouse, non promessi. Con la stessa architettura statica abbiamo realizzato il sito di [BREVA Medical](/casi-studio/breva-medical/)."
 stats:
   - number: "100"
-    label: "SEO, Accessibilità e Best practice di oida-labs.com (Lighthouse)"
+    label: "SEO<br>(Lighthouse, oida-labs.com)"
+  - number: "100"
+    label: "Accessibilità<br>(Lighthouse, oida-labs.com)"
+  - number: "100"
+    label: "Best practice<br>(Lighthouse, oida-labs.com)"
+  - number: "3/3"
+    label: "navigazione agentica: leggibilità del sito da parte degli agenti AI"
   - number: "0"
     label: "spostamenti di layout durante il caricamento (CLS)"
   - number: "1,2"
     suffix: "s"
     label: "primo contenuto a schermo su rete 4G (First Contentful Paint)"
+compare:
+  title: "Il confronto con le alternative"
+  intro: "Il confronto corretto non è tra fornitori ma tra architetture: cosa cambia tra le pagine statiche gestite di Eidos, i CMS con database e plugin e i costruttori di siti chiusi."
+  cols:
+    - "CMS con database e plugin"
+    - "Costruttori di siti chiusi"
+  rows:
+    - label: "Velocità"
+      eidos: "Pagine statiche, punteggi misurati in questa pagina"
+      others:
+        - "Dipende da temi e plugin installati"
+        - "Media, poco controllabile"
+    - label: "Sicurezza"
+      eidos: "Superficie d'attacco prossima allo zero per architettura"
+      others:
+        - "Plugin e database da aggiornare e difendere"
+        - "Bassa, ma non ispezionabile"
+    - label: "Compliance sanitaria"
+      eidos: "Verifica di conformità inclusa nel canone"
+      others:
+        - "A carico della struttura"
+        - "A carico della struttura"
+    - label: "Motori e AI"
+      eidos: "Leggibilità nativa, dati strutturati inclusi"
+      others:
+        - "Dipende dalla configurazione"
+        - "Limitata"
+    - label: "Contenuti"
+      eidos: "Li aggiorniamo noi, nel canone"
+      others:
+        - "A carico della struttura, o assistenza a parte"
+        - "A carico della struttura"
+    - label: "Proprietà"
+      eidos: "Dominio del cliente, export in 48 ore a contratto"
+      others:
+        - "Migrazione complessa"
+        - "Contenuti difficili da portare via"
 faqs:
-  - q: "Devo saper aggiornare il sito?"
-    a: "No. Nel livello base non lo tocchi: i contenuti li aggiorniamo noi dentro il canone. Chi preferisce gestire i testi in prima persona ha un livello dedicato."
-  - q: "E se provano a violarlo?"
-    a: "Un sito statico non ha database né plugin da attaccare: la superficie d'attacco è vicina allo zero per architettura. In sanità, dove i dati sono quelli dei pazienti, è il punto che pesa di più."
-  - q: "Mi trovano ancora su Google, o conta solo l'AI?"
-    a: "Conta ancora e soprattutto Google: la ricerca sui motori resta il canale principale con cui un paziente arriva a una struttura. Il sito nasce per la SEO, e in più è leggibile dalle risposte generate delle AI, che sono un fronte in crescita."
-  - q: "Perdo il posizionamento se rifaccio il sito?"
+  - q: "Chi aggiorna il sito e i contenuti di uno studio medico con Eidos?"
+    a: "Noi, dentro il canone. Nuove prestazioni, medici che entrano in équipe, orari e recapiti: ce li comunichi e li aggiorniamo noi, con la verifica di compliance prima della pubblicazione. Chi preferisce gestire i testi in prima persona ha un livello dedicato."
+  - q: "Il sito sarà a norma con la normativa sanitaria e il GDPR?"
+    a: "Sì, ed è il cuore del servizio: ogni contenuto passa la verifica di conformità alla normativa sulla comunicazione sanitaria, italiana e svizzera, e privacy policy, cookie policy e gestione del consenso entrano nel canone."
+  - q: "Devo saper usare un pannello di amministrazione?"
+    a: "No. Nel livello base non c'è nessun pannello da imparare: il sito lo gestiamo noi. Il pannello esiste solo come livello aggiuntivo, per chi lo chiede."
+  - q: "Perdo il posizionamento su Google se rifaccio il sito?"
     a: "No, se la migrazione è gestita: i vecchi indirizzi vengono reindirizzati uno a uno e la struttura delle pagine resta pulita. Un sito più veloce è di per sé un segnale positivo per i motori."
-  - q: "I dati e il sito sono miei?"
+  - q: "E se provano a violare il sito?"
+    a: "Un sito statico non ha database né plugin da attaccare: la superficie d'attacco è vicina allo zero per architettura. In sanità, dove i dati sono quelli dei pazienti, è il punto che pesa di più."
+  - q: "Il sito e i contenuti restano miei?"
     a: "Il dominio è tuo. Nel livello base l'infrastruttura la gestiamo noi, e se ti servono i contenuti e il sito li hai in mano entro 48 ore, scritto nel contratto. Chi vuole la proprietà diretta dei file può aggiungerla."
-  - q: "Quanto costa?"
+  - q: "Quanto costa un sito web per uno studio medico o un poliambulatorio?"
     a: "Su quotazione, perché dipende dal lavoro dietro: numero di pagine, migrazione o apertura, livello e contenuti. La struttura è un costo di avvio una tantum più un canone di gestione."
-  - q: "Chi costruisce il sito?"
+  - q: "Chi realizza i siti di Eidos?"
     a: "OIDA Labs, agenzia di marketing sanitario fondata da medici. Il sito è pensato da chi conosce le regole della professione, non solo il web."
 cta:
   title: "Vuoi vedere come apparirebbe la tua struttura online?"
@@ -65,18 +114,5 @@ cta:
   button: "Chiedici un'analisi gratuita del tuo sito →"
   link: "/#contatti"
 ---
-
-## Il confronto con le alternative tecniche
-
-Il confronto corretto non è tra agenzie ma tra architetture. Eidos usa pagine statiche gestite: la tabella riassume cosa cambia rispetto ai CMS con database e plugin e ai costruttori di siti chiusi.
-
-| | Eidos | CMS con database e plugin | Costruttori di siti chiusi |
-|---|---|---|---|
-| Velocità di caricamento | Pagine statiche, punteggi misurati in questa pagina | Dipende da temi e plugin installati | Media, poco controllabile |
-| Superficie d'attacco | Prossima allo zero per architettura | Plugin e database da aggiornare e difendere | Bassa, ma non ispezionabile |
-| Conformità privacy sanitaria | Revisione legale inclusa nel canone | A carico della struttura | A carico della struttura |
-| Leggibilità da motori e AI | Nativa, dati strutturati inclusi | Dipende dalla configurazione | Limitata |
-| Aggiornamento dei contenuti | Lo facciamo noi, nel canone | A carico della struttura, o assistenza a parte | A carico della struttura |
-| Proprietà ed export | Dominio del cliente, export in 48 ore a contratto | Migrazione complessa | Contenuti difficili da portare via |
 
 *Eidos è un servizio di OIDA Labs. Descriviamo come lavoriamo, senza promettere risultati che dipendono anche dal contesto di ogni struttura. Prezzo su quotazione. Comunicazione conforme alla normativa sanitaria italiana e svizzera.*

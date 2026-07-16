@@ -1,14 +1,14 @@
 {{ define "main" }}
-{{- /* PROTOTIPO INTERNO Eidos v2 — gerarchia: hero → cosa comprende (8 voci generose)
-       → 3 livelli spiegati → prova misurata → coda (comparativa, nota) → FAQ → CTA.
-       Solo token di palette. Noindex via /lab/* headers + robots + build.list=never. */ -}}
+{{- /* PROTOTIPO INTERNO Eidos v3 — hero col nome, 8 voci, banda compliance in evidenza,
+       3 livelli, prova estesa (6 stat), comparativa custom con colonna Eidos evidenziata.
+       Solo token di palette (+ rgba del teal #00C2B2 per il bagliore, stesso hue). */ -}}
 
 <div class="eidos-proto-note">// PROTOTIPO INTERNO &middot; noindex &middot; non collegato ai menu &middot; per revisione team</div>
 
 <section class="svc-hero starry">
   <aside class="svc-hero-left">
     <img class="svc-hero-mark" src="{{ "img/pittogramma.svg" | relURL }}" alt="OIDA Labs" width="120" height="120">
-    <div class="svc-hero-tag">// PRODOTTO <b>EIDOS</b><br>// GESTIONE SITI<br>// SETTORE <b>SANITARIO</b></div>
+    <div class="svc-hero-tag">// PRODOTTO <b>EIDOS</b><br>// REALIZZAZIONE E GESTIONE SITI<br>// SETTORE <b>SANITARIO</b></div>
   </aside>
   <div class="svc-hero-content">
     <h1>{{ .Title }}</h1>
@@ -19,7 +19,7 @@
 </section>
 
 {{ with .Params.intro }}
-<div class="ex-wrap"><p class="ex-intro">{{ . | safeHTML }}</p></div>
+<div class="ex-wrap"><p class="ex-intro">{{ . | markdownify }}</p></div>
 {{ end }}
 
 {{ with .Params.features }}
@@ -36,6 +36,16 @@
       </div>
     </div>
     {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.verticale }}
+<section class="ex-wrap">
+  <div class="ex-vert">
+    <div class="ex-lab" style="margin-top:0">// Il verticale sanitario</div>
+    <h2 class="ex-h2" style="font-size:32px">{{ .title }}</h2>
+    <p>{{ .body | markdownify }}</p>
   </div>
 </section>
 {{ end }}
@@ -58,8 +68,8 @@
 
 <section class="ex-wrap">
   <div class="ex-lab">// La prova, misurata</div>
-  <h2 class="ex-h2">Il primo cliente dello stack siamo noi</h2>
-  <p class="ex-intro">Il sito di OIDA Labs &egrave; costruito e gestito con lo stesso impianto che proponiamo alle strutture. Questi numeri sono i suoi: misurati con Lighthouse, non promessi.</p>
+  <h2 class="ex-h2">Il primo cliente di Eidos siamo noi</h2>
+  <p class="ex-intro">{{ .Params.prova | markdownify }}</p>
 </section>
 {{ with .Params.stats }}
 <section class="ins-stats">
@@ -70,6 +80,34 @@
       <div class="ins-stat-lab">{{ .label | safeHTML }}</div>
     </div>
     {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.compare }}
+<section class="ex-wrap">
+  <div class="ex-lab">// Le architetture a confronto</div>
+  <h2 class="ex-h2">{{ .title }}</h2>
+  <p class="ex-intro" style="margin-top:0">{{ .intro | markdownify }}</p>
+  <div class="table-wrap">
+    <table class="ex-compare">
+      <thead>
+        <tr>
+          <th></th>
+          <th class="hl">Eidos</th>
+          {{ range .cols }}<th>{{ . }}</th>{{ end }}
+        </tr>
+      </thead>
+      <tbody>
+        {{ range .rows }}
+        <tr>
+          <td class="rowlab">{{ .label }}</td>
+          <td class="hl">{{ .eidos }}</td>
+          {{ range .others }}<td>{{ . }}</td>{{ end }}
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
   </div>
 </section>
 {{ end }}
@@ -106,12 +144,13 @@
 </section>
 
 <style>
-/* Solo per il prototipo. Esclusivamente token di palette esistenti. */
+/* Solo per il prototipo. Token di palette; bagliore = rgba del teal di brand (#00C2B2). */
 .eidos-proto-note{border:1px solid var(--teal);color:var(--teal);font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.06em;padding:10px 16px;margin:18px auto 0;max-width:1200px;text-transform:uppercase}
 .ex-wrap{max-width:1200px;margin:0 auto;padding:0 32px}
-.ex-intro{font-size:19px;line-height:1.65;max-width:840px;margin:40px 0 8px}
+.ex-intro{font-size:19px;line-height:1.65;max-width:860px;margin:40px 0 8px}
 .ex-lab{font-family:'JetBrains Mono',monospace;color:var(--teal);font-size:13px;letter-spacing:.06em;text-transform:uppercase;margin:72px 0 12px}
 .ex-h2{font-family:'Glaseer',sans-serif;letter-spacing:.02em;font-size:40px;text-transform:uppercase;color:var(--ink);line-height:1.05;margin:0 0 32px}
+.ex-intro strong,.ex-feat-body strong,.ex-level strong,.ex-vert strong{color:var(--teal);font-weight:600}
 .ex-grid{display:grid;grid-template-columns:1fr 1fr;border:var(--hairline);border-bottom:none}
 .ex-feat{display:grid;grid-template-columns:88px 1fr;border-bottom:var(--hairline);min-height:150px}
 .ex-feat:nth-child(odd){border-right:var(--hairline)}
@@ -119,12 +158,22 @@
 .ex-feat-body{padding:26px 30px}
 .ex-feat-body h3{font-family:'Glaseer',sans-serif;letter-spacing:.02em;font-size:21px;text-transform:uppercase;color:var(--ink);line-height:1.15;margin:0 0 12px}
 .ex-feat-body p{font-size:15px;line-height:1.65;margin:0}
+.ex-vert{border:1px solid var(--teal);box-shadow:0 0 44px rgba(0,194,178,.14);padding:38px 42px;margin-top:24px}
+.ex-vert p{font-size:17px;line-height:1.7;max-width:900px;margin:0}
 .ex-levels{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:var(--hairline)}
 .ex-level{padding:30px 30px 34px;border-right:var(--hairline)}
 .ex-level:last-child{border-right:none}
 .ex-level-kicker{font-family:'JetBrains Mono',monospace;color:var(--teal);font-size:12px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:14px}
 .ex-level-name{font-family:'Glaseer',sans-serif;letter-spacing:.02em;font-size:24px;text-transform:uppercase;color:var(--ink);line-height:1.1;margin-bottom:14px}
 .ex-level p{font-size:15px;line-height:1.65;margin:0}
+.ex-compare{width:100%;border-collapse:separate;border-spacing:0;font-size:14.5px}
+.ex-compare th,.ex-compare td{padding:16px 18px;border-bottom:var(--hairline);text-align:left;vertical-align:top;line-height:1.55}
+.ex-compare thead th{font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:12px;letter-spacing:.06em;color:var(--gray-4);border-bottom:1px solid var(--teal)}
+.ex-compare thead th.hl{font-family:'Glaseer',sans-serif;font-size:19px;letter-spacing:.02em;color:var(--teal)}
+.ex-compare td.rowlab{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink);width:190px}
+.ex-compare .hl{background:rgba(0,194,178,.07);border-left:1px solid var(--teal);border-right:1px solid var(--teal)}
+.ex-compare tbody tr:last-child .hl{border-bottom:1px solid var(--teal)}
+.ex-compare td.hl{color:var(--ink);font-weight:600}
 @media (max-width:900px){
   .ex-grid{grid-template-columns:1fr}
   .ex-feat:nth-child(odd){border-right:none}
@@ -132,6 +181,7 @@
   .ex-level{border-right:none;border-bottom:var(--hairline)}
   .ex-level:last-child{border-bottom:none}
   .ex-h2{font-size:30px}
+  .ex-vert{padding:26px 24px}
 }
 </style>
 {{ end }}
