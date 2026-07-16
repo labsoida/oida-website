@@ -17,6 +17,18 @@
 
 ## FAQ
 
+**Ho già un sito: rifate da zero o partite da quello?**
+
+Dipende da cosa conviene alla struttura. Se quello che hai regge, lo miglioriamo; se frena più di quanto aiuti, lo ricostruiamo partendo dai suoi contenuti, con i redirect da ogni vecchio indirizzo. Lo decidiamo dopo l'analisi, non prima.
+
+**In quanto tempo il sito è online?**
+
+<span class="ex-todo">// RISPOSTA DA CONFERMARE INTERNAMENTE: serve lo standard sui tempi di consegna (costruzione e migrazione) prima di pubblicare questa FAQ.</span>
+
+**Il canone ha vincoli di durata?**
+
+<span class="ex-todo">// RISPOSTA DA CONFERMARE CON CLAUDIO: condizioni contrattuali del canone (durata minima, disdetta) in corso di formalizzazione.</span>
+
 **Chi aggiorna il sito e i contenuti di uno studio medico con Eidos?**
 
 Noi, dentro il canone. Nuove prestazioni, medici che entrano in équipe, orari e recapiti: ce li comunichi e li aggiorniamo noi, con la verifica di compliance prima della pubblicazione. Chi preferisce gestire i testi in prima persona ha un livello dedicato.

@@ -11,7 +11,7 @@ tagline: "Eidos dà forma alla presenza online della tua struttura: la costruiam
 intro: "In sanità il sito non è un lavoro in più da imparare, ed è comunicazione che risponde a regole precise. Con Eidos il sito lo costruiamo noi, i contenuti li aggiorniamo noi e ogni testo passa la **verifica di compliance** alla normativa sulla comunicazione sanitaria, dentro un canone mensile. Il tuo tempo va ai pazienti, non a un pannello di amministrazione."
 features:
   - title: "La costruzione"
-    body: "Il sito lo progettiamo e lo scriviamo noi, con supervisione medico-scientifica sui contenuti clinici. Nasce per il telefono, dove il paziente cerca, e rispetta le regole della comunicazione sanitaria dei due Paesi in cui lavoriamo, **Italia e Svizzera**."
+    body: "Il sito lo progettiamo e lo scriviamo noi, con supervisione medico-scientifica sui contenuti clinici, **partendo da quello che hai già o da zero**, secondo cosa conviene alla struttura. Nasce per il telefono, dove il paziente cerca, e rispetta le regole della comunicazione sanitaria dei due Paesi in cui lavoriamo, **Italia e Svizzera**."
   - title: "I contenuti, aggiornati da noi"
     body: "Una nuova prestazione, un medico che entra in équipe, un orario che cambia: ce lo comunichi e lo aggiorniamo noi, **dentro il canone**. Nessun pannello da imparare e nessun sito che invecchia perché in struttura manca il tempo di seguirlo."
   - title: "Velocità e infrastruttura"
@@ -39,7 +39,20 @@ livelli:
   - kicker: "// Livello 3"
     name: "Sito applicativo"
     body: "Prenotazioni integrate con i gestionali, aree riservate e logiche dedicate, in dialogo con [CRM e automazioni](/servizi/crm-automation-sanita/). Si progetta e si quota come **progetto a parte**, sopra la stessa base tecnica."
-prova: "Il sito di OIDA Labs è costruito e gestito con lo stesso impianto che proponiamo alle strutture: i numeri qui sotto sono i suoi, misurati con Google Lighthouse, non promessi. Con la stessa architettura statica abbiamo realizzato il sito di [BREVA Medical](/casi-studio/breva-medical/)."
+prova: "Il sito di OIDA Labs è costruito e gestito con lo stesso impianto che proponiamo alle strutture: i numeri qui sotto sono i suoi, misurati con Google Lighthouse, non promessi. Non devi fidarti di uno screenshot: [misuralo tu stesso, adesso, su PageSpeed Insights](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Foida-labs.com%2F). Con la stessa architettura statica abbiamo realizzato il sito di [BREVA Medical](/casi-studio/breva-medical/)."
+ctamid:
+  title: "Prima di decidere, misura quello che hai"
+  body: "L'analisi gratuita non è una telefonata di vendita: è un documento scritto su **velocità, sicurezza e conformità** del tuo sito attuale, con quello che va tenuto e quello che va cambiato. Poi decidi tu se e con chi."
+  button: "Richiedi l'analisi del tuo sito"
+steps:
+  - name: "L'analisi"
+    body: "Guardiamo il tuo sito attuale e ti mandiamo per iscritto cosa funziona e cosa no: **velocità, sicurezza e conformità**. Gratuita e senza impegno."
+  - name: "La proposta"
+    body: "Perimetro, livello e quotazione: costo di avvio una tantum più canone di gestione. Nessuna voce a sorpresa."
+  - name: "La costruzione"
+    body: "Progettiamo, scriviamo e verifichiamo: supervisione medico-scientifica sui contenuti clinici e **verifica di compliance** prima della pubblicazione. <span class=\"ex-todo\">// TEMPI STANDARD DA CONFERMARE INTERNAMENTE</span>"
+  - name: "Online, e gestito"
+    body: "Il sito va in produzione con i redirect dai vecchi indirizzi. Da qui in poi vale il canone: **aggiornamenti, sicurezza e presidio** li facciamo noi."
 stats:
   - number: "100"
     label: "SEO<br>(Lighthouse, oida-labs.com)"
@@ -92,6 +105,12 @@ compare:
         - "Migrazione complessa"
         - "Contenuti difficili da portare via"
 faqs:
+  - q: "Ho già un sito: rifate da zero o partite da quello?"
+    a: "Dipende da cosa conviene alla struttura. Se quello che hai regge, lo miglioriamo; se frena più di quanto aiuti, lo ricostruiamo partendo dai suoi contenuti, con i redirect da ogni vecchio indirizzo. Lo decidiamo dopo l'analisi, non prima."
+  - q: "In quanto tempo il sito è online?"
+    a: "<span class=\"ex-todo\">// RISPOSTA DA CONFERMARE INTERNAMENTE: serve lo standard sui tempi di consegna (costruzione e migrazione) prima di pubblicare questa FAQ.</span>"
+  - q: "Il canone ha vincoli di durata?"
+    a: "<span class=\"ex-todo\">// RISPOSTA DA CONFERMARE CON CLAUDIO: condizioni contrattuali del canone (durata minima, disdetta) in corso di formalizzazione.</span>"
   - q: "Chi aggiorna il sito e i contenuti di uno studio medico con Eidos?"
     a: "Noi, dentro il canone. Nuove prestazioni, medici che entrano in équipe, orari e recapiti: ce li comunichi e li aggiorniamo noi, con la verifica di compliance prima della pubblicazione. Chi preferisce gestire i testi in prima persona ha un livello dedicato."
   - q: "Il sito sarà a norma con la normativa sanitaria e il GDPR?"
