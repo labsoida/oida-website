@@ -81,7 +81,7 @@
   <p class="ex-intro">{{ .Params.prova | markdownify }}</p>
 </section>
 {{ with .Params.stats }}
-<section class="ins-stats">
+<section class="ins-stats ex-stats">
   <div class="ins-stats-grid">
     {{ range . }}
     <div class="ins-stat">
@@ -247,6 +247,10 @@
 .ex-member-name{font-family:'Glaseer',sans-serif;letter-spacing:.02em;font-size:16px;text-transform:uppercase;color:var(--ink);margin-bottom:6px}
 .ex-member-role{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.04em;color:var(--gray-4);text-transform:uppercase}
 .ex-todo{color:var(--teal);font-family:'JetBrains Mono',monospace;font-size:.82em;letter-spacing:.04em;border:1px dashed var(--teal);padding:2px 8px;text-transform:uppercase;display:inline-block;margin-top:4px}
+.ex-stats{margin-top:48px}
+.ex-stats .ins-stat{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:46px 30px}
+.ex-stats .ins-stat-num{margin-bottom:16px}
+.ex-stats .ins-stat-lab{max-width:260px;line-height:1.5}
 #contatti-pagina{margin-bottom:24px}
 @media (max-width:900px){
   .ex-grid{grid-template-columns:1fr}
