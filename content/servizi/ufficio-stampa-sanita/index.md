@@ -28,7 +28,7 @@ faqs:
     a: "No. Scriviamo i contenuti e prepariamo le persone tenendo conto della Legge 145/2018 e dei codici deontologici degli ordini professionali, così l'autorevolezza cresce restando in regola."
 cta:
   label: "Costruiamo insieme la tua presenza sui media"
-  title: "Vuoi che si parli della tua struttura nei posti che contano?"
+  title: "Vuoi che si parli della tua struttura **nei posti che contano**?"
   body: "Partiamo da qui. Analizziamo gratuitamente la tua presenza sui media e ti diciamo dove c'è spazio per crescere."
   button: "Chiedici un'analisi gratuita della presenza sui media →"
   link: "/#contatti"

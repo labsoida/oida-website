@@ -28,7 +28,7 @@ faqs:
     a: "Le prime candidature arrivano in poche settimane dalle campagne; la reputazione come datore di lavoro si costruisce nel tempo."
 cta:
   label: "Costruiamo la tua attrattività"
-  title: "Fatichi a trovare e a trattenere i professionisti giusti?"
+  title: "Fatichi a **trovare e a trattenere** i professionisti giusti?"
   body: "Partiamo da qui. Analizziamo gratuitamente come la tua struttura è percepita dai professionisti e dove c'è spazio per renderla più attrattiva."
   button: "Chiedici un'analisi gratuita della tua attrattività →"
   link: "/#contatti"

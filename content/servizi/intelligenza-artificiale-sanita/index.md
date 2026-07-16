@@ -28,7 +28,7 @@ faqs:
     a: "No. Anche un singolo studio può automatizzare attività ripetitive con strumenti semplici e ben scelti."
 cta:
   label: "Dove l'AI può davvero aiutarti"
-  title: "Vuoi capire dove l'AI può aiutarti, senza perderti nel clamore?"
+  title: "Vuoi capire dove l'AI può aiutarti, **senza perderti nel clamore**?"
   body: "Partiamo da qui. Analizziamo gratuitamente i tuoi processi e ti diciamo dove l'AI fa risparmiare tempo e dove invece non serve."
   button: "Chiedici un'analisi gratuita dei tuoi processi →"
   link: "/#contatti"

@@ -12,7 +12,7 @@
     <div class="svc-hero-tag">// PRODOTTO <b>EIDOS</b><br>// REALIZZAZIONE E GESTIONE SITI<br>// SETTORE <b>SANITARIO</b></div>
   </aside>
   <div class="svc-hero-content">
-    <h1>{{ .Title }}</h1>
+    <h1>{{ .Title | replaceRE `^Eidos` `<span class="tglow">Eidos</span>` | safeHTML }}</h1>
     {{ with .Params.tagline }}<p class="svc-tagline">{{ . | safeHTML }}</p>{{ end }}
     <a class="svc-cta" href="#contatti-pagina">Chiedici un'analisi gratuita &rarr;</a>
   </div>
@@ -25,7 +25,7 @@
 {{ with .Params.features }}
 <section class="ex-wrap">
   <div class="ex-lab">// Cosa comprende il canone</div>
-  <h2 class="ex-h2">Otto cose che facciamo noi,<br>così non le fai tu</h2>
+  <h2 class="ex-h2">Otto cose che facciamo noi,<br><span class="tglow">così non le fai tu</span></h2>
   <div class="ex-grid">
     {{ range $i, $f := . }}
     <div class="ex-feat">
@@ -77,7 +77,7 @@
 
 <section class="ex-wrap">
   <div class="ex-lab">// La prova, misurata</div>
-  <h2 class="ex-h2">Il primo cliente di Eidos siamo noi</h2>
+  <h2 class="ex-h2">Il primo cliente di Eidos <span class="tglow">siamo noi</span></h2>
   <p class="ex-intro">{{ .Params.prova | markdownify }}</p>
 </section>
 {{ with .Params.stats }}
@@ -97,7 +97,7 @@
 <section class="ex-wrap">
   <div class="ex-ctamid">
     <div>
-      <h2 class="ex-h2" style="font-size:30px;margin-bottom:14px">{{ .title }}</h2>
+      <h2 class="ex-h2" style="font-size:30px;margin-bottom:14px">{{ .title | replaceRE `\*\*(.+?)\*\*` `<span class="tglow">$1</span>` | safeHTML }}</h2>
       <p>{{ .body | markdownify }}</p>
     </div>
     <a class="svc-cta" href="#contatti-pagina">{{ .button }} &rarr;</a>

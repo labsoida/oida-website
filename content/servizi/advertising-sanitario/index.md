@@ -33,7 +33,7 @@ faqs:
     a: "Google, per intercettare chi cerca attivamente, e Meta o Instagram, per farti conoscere. Scegliamo in base a chi vuoi raggiungere e a cosa cerca."
 cta:
   label: "Stai investendo senza misurare?"
-  title: "Stai già investendo in pubblicità e non sai se rende davvero?"
+  title: "Stai già investendo in pubblicità e non sai se **rende davvero**?"
   body: "Partiamo da lì. Analizziamo gratuitamente le tue campagne attuali e ti diciamo cosa funziona, cosa no e dove conviene intervenire."
   button: "Chiedici un'analisi gratuita delle tue campagne →"
   link: "/#contatti"

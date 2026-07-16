@@ -28,7 +28,7 @@ faqs:
     a: "No, è consulenza clinica e tecnica. È il servizio dove la nostra origine medica conta più di tutto: nasce dall'aver vissuto quegli ambienti."
 cta:
   label: "Partiamo dal tuo progetto"
-  title: "Stai pensando di aprire o ampliare una sala operatoria?"
+  title: "Stai pensando di aprire o ampliare una **sala operatoria**?"
   body: "Partiamo dal capire se e come si può fare. Raccontaci il tuo progetto e ti diciamo cosa serve e da dove iniziare."
   button: "Raccontaci il tuo progetto →"
   link: "/#contatti"

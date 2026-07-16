@@ -29,7 +29,7 @@ faqs:
     a: "Sì. Scegliamo e configuriamo gli strumenti nel rispetto della normativa privacy (GDPR in Italia, nLPD in Svizzera), perché un CRM sanitario gestisce dati delicati."
 cta:
   label: "Vediamo cosa si perde per strada"
-  title: "Quante richieste si perdono oggi nella tua struttura?"
+  title: "Quante richieste **si perdono** oggi nella tua struttura?"
   body: "Partiamo da qui. Analizziamo gratuitamente i tuoi flussi di richieste e ti diciamo dove c'è spazio per renderli più efficienti."
   button: "Chiedici un'analisi gratuita dei tuoi flussi →"
   link: "/#contatti"

@@ -28,7 +28,7 @@ faqs:
     a: "Su dati verificabili: la domanda sul territorio, i numeri della tua presenza attuale e l'analisi di chi ti sta intorno. Non su impressioni."
 cta:
   label: "Da dove iniziamo"
-  title: "Non sai da dove partire?"
+  title: "Non sai **da dove partire**?"
   body: "È esattamente da lì che partiamo noi. Analizziamo gratuitamente la tua situazione e ti diciamo cosa ha senso fare per primo."
   button: "Chiedici un'analisi gratuita della tua situazione →"
   link: "/#contatti"

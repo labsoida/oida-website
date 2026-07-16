@@ -7,7 +7,8 @@
 <section id="contatti-pagina" class="cta-embed">
   <div class="cta-final">
     <div class="cta-final-text">
-      <h2>{{ .title | default "Parliamone." }}</h2>
+      {{- /* **parole** nel title diventano <span class="tglow"> (alone teal) */ -}}
+      <h2>{{ .title | default "Parliamone." | replaceRE `\*\*(.+?)\*\*` `<span class="tglow">$1</span>` | safeHTML }}</h2>
       <p>{{ .body | default "Analizziamo gratuitamente la tua situazione e ti diciamo cosa ha senso fare per primo." }}</p>
       <div class="cta-meta">{{ .meta | default "// NESSUN IMPEGNO &middot; PRIMO CONTATTO <b>GRATUITO</b>" | safeHTML }}</div>
     </div>

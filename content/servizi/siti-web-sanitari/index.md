@@ -29,7 +29,7 @@ faqs:
     a: "Sì. Lo costruiamo con privacy policy, banner cookie e gestione dei dati a norma (GDPR in Italia, nLPD in Svizzera), perché un sito sanitario raccoglie dati delicati."
 cta:
   label: "Diamo uno sguardo al tuo sito attuale"
-  title: "Vuoi vedere come apparirebbe la tua struttura online?"
+  title: "Vuoi vedere come apparirebbe **la tua struttura online**?"
   body: "Partiamo da uno sguardo al tuo sito attuale, ti diciamo cosa funziona e cosa cambierebbe in modo concreto."
   button: "Chiedici un'analisi gratuita del tuo sito →"
   link: "/#contatti"

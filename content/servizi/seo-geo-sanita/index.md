@@ -29,7 +29,7 @@ faqs:
     a: "Sì, operiamo in Italia, Svizzera e Regno Unito. Sul territorio in cui hai sede curiamo anche la visibilità nelle ricerche locali."
 cta:
   label: "Iniziamo dall'analisi"
-  title: "Vuoi sapere perché chi cerca le tue prestazioni oggi non ti trova?"
+  title: "Vuoi sapere perché chi cerca le tue prestazioni oggi **non ti trova**?"
   body: "Partiamo da lì. Ti facciamo un'analisi gratuita del tuo sito e dei tuoi punti deboli sulla ricerca."
   button: "Chiedici un'analisi gratuita →"
   link: "/#contatti"

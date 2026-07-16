@@ -41,7 +41,7 @@ livelli:
     body: "Prenotazioni integrate con i gestionali, aree riservate e logiche dedicate, in dialogo con [CRM e automazioni](/servizi/crm-automation-sanita/). Si progetta e si quota come **progetto a parte**, sopra la stessa base tecnica."
 prova: "Il sito di OIDA Labs è costruito e gestito con lo stesso impianto che proponiamo alle strutture: i numeri qui sotto sono i suoi, misurati con Google Lighthouse, non promessi. Non devi fidarti di uno screenshot: [misuralo tu stesso, adesso, su PageSpeed Insights](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Foida-labs.com%2F). Con la stessa architettura statica abbiamo realizzato il sito di [BREVA Medical](/casi-studio/breva-medical/)."
 ctamid:
-  title: "Prima di decidere, misura quello che hai"
+  title: "Prima di decidere, **misura** quello che hai"
   body: "L'analisi gratuita non è una telefonata di vendita: è un documento scritto su **velocità, sicurezza e conformità** del tuo sito attuale, con quello che va tenuto e quello che va cambiato. Poi decidi tu se e con chi."
   button: "Richiedi l'analisi del tuo sito"
 steps:
@@ -128,7 +128,7 @@ faqs:
   - q: "Chi realizza i siti di Eidos?"
     a: "OIDA Labs, agenzia di marketing sanitario fondata da medici. Il sito è pensato da chi conosce le regole della professione, non solo il web."
 cta:
-  title: "Vuoi vedere come apparirebbe la tua struttura online?"
+  title: "Vuoi vedere come apparirebbe **la tua struttura online**?"
   body: "Partiamo da uno sguardo al tuo sito attuale: ti diciamo cosa funziona e cosa cambierebbe, in modo concreto."
   button: "Chiedici un'analisi gratuita del tuo sito →"
   link: "/#contatti"
