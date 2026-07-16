@@ -18,10 +18,10 @@
 /* Wrapper del form incorporato nelle pagine servizio/prodotto (partial cta-form-embed) */
 .cta-embed{max-width:1200px;margin:56px auto 32px;padding:0 32px}
 
-/* Alone teal sulle parole focali dei titoli forti (stessa luce del bordo form).
-   Nei title in front matter si scrive **parole** (convertito dalla partial/layout).
-   Regola d'uso: massimo un alone per schermata. */
-.tglow,.hero-content h1 span,.cta-final-text h2 span{color:var(--teal);text-shadow:0 0 22px rgba(0,194,178,.5),0 0 64px rgba(0,194,178,.22)}
+/* Parole focali dei titoli forti in teal, SENZA alone: il text-shadow sfuoca i
+   tagli dello stencil Glaseer e riduce la leggibilità (deciso 16/07). Nei title
+   in front matter si scrive **parole** (convertito dalla partial/layout). */
+.tglow{color:var(--teal)}
 
 /* === RESET + TOKEN === */
 *,*:before,*:after{box-sizing:border-box;margin:0;padding:0}
