@@ -131,4 +131,3 @@ cta:
   link: "/#contatti"
 ---
 
-*Eidos è un servizio di OIDA Labs. Descriviamo come lavoriamo, senza promettere risultati che dipendono anche dal contesto di ogni struttura. Prezzo su quotazione. Comunicazione conforme alla normativa sanitaria italiana e svizzera.*
