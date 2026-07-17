@@ -19,7 +19,7 @@
 <section class="svc-hero starry">
   <aside class="svc-hero-left">
     <img class="svc-hero-mark" src="{{ "img/pittogramma.svg" | relURL }}" alt="OIDA Labs" width="120" height="120">
-    <div class="svc-hero-tag">// SERVIZIO {{ if $num }}<b>/{{ printf "%02d" $num }}</b>{{ end }}<br>{{ with .Params.servizio_gruppo }}// {{ . | upper }}<br>{{ end }}// SETTORE <b>SANITARIO</b></div>
+    <div class="svc-hero-tag">// {{ .Params.hero_label | default "SERVIZIO" | upper }} {{ if $num }}<b>/{{ printf "%02d" $num }}</b>{{ end }}<br>{{ with .Params.servizio_gruppo }}// {{ . | upper }}<br>{{ end }}// SETTORE <b>SANITARIO</b></div>
   </aside>
   <div class="svc-hero-content">
     <h1>{{ .Title }}</h1>
@@ -32,6 +32,201 @@
 <article class="svc-body">
   {{ $content | safeHTML }}
 </article>
+
+{{- /* ===== Blocchi prodotto (attivi solo se il front matter li definisce; oggi: Eidos).
+       Convenzione **parola** nei titoli/testi = enfasi teal (.tglow). ===== */ -}}
+{{ with .Params.intro }}
+<div class="ex-wrap"><p class="ex-intro">{{ . | markdownify }}</p></div>
+{{ end }}
+
+{{ with .Params.features }}
+<section class="ex-wrap">
+  <div class="ex-lab">{{ $.Params.features_kicker | default "// Cosa comprende il canone" }}</div>
+  <h2 class="ex-h2">{{ $.Params.features_title | default "Otto cose che facciamo noi,<br>**così non le fai tu**" | replaceRE `\*\*(.+?)\*\*` `<span class="tglow">$1</span>` | safeHTML }}</h2>
+  <div class="ex-grid">
+    {{ range $i, $f := . }}
+    <div class="ex-feat">
+      <div class="ex-feat-num">/{{ printf "%02d" (add $i 1) }}</div>
+      <div class="ex-feat-body">
+        <h3>{{ $f.title }}</h3>
+        <p>{{ $f.body | markdownify }}</p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.verticale }}
+<section class="ex-wrap">
+  <div class="ex-vert">
+    <div class="ex-lab" style="margin-top:0">{{ .kicker | default "// Il verticale sanitario" }}</div>
+    <h2 class="ex-h2" style="font-size:32px">{{ .title }}</h2>
+    <p>{{ .body | markdownify }}</p>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.formula }}
+<section class="ex-wrap">
+  <div class="ex-lab">{{ .kicker }}</div>
+  <h2 class="ex-h2">{{ .title }}</h2>
+  <div class="ex-primary">
+    <p>{{ .body | markdownify }}</p>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.estensioni }}
+<section class="ex-wrap">
+  <div class="ex-ext-lab">{{ $.Params.estensioni_label | default "// Su richiesta, per chi preferisce metterci le mani" }}</div>
+  <div class="ex-ext">
+    {{ range . }}
+    <div class="ex-ext-item">
+      <div class="ex-ext-name">{{ .name }}</div>
+      <p>{{ .body | markdownify }}</p>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.prova }}
+<section class="ex-wrap">
+  <div class="ex-lab">{{ $.Params.prova_kicker | default "// La prova, dal vivo" }}</div>
+  <h2 class="ex-h2">{{ $.Params.prova_title | default "Il primo cliente **siamo noi**" | replaceRE `\*\*(.+?)\*\*` `<span class="tglow">$1</span>` | safeHTML }}</h2>
+  <p class="ex-intro">{{ . | markdownify }}</p>
+</section>
+{{ end }}
+{{ with .Params.stats }}
+<section class="ins-stats ex-stats">
+  <div class="ins-stats-grid">
+    {{ range . }}
+    <div class="ins-stat">
+      <div class="ins-stat-num">{{ .number | safeHTML }}{{ with .suffix }}<span class="suf">{{ . | safeHTML }}</span>{{ end }}</div>
+      <div class="ins-stat-lab">{{ .label | safeHTML }}</div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.ctamid }}
+<section class="ex-wrap">
+  <div class="ex-ctamid">
+    <div>
+      <h2 class="ex-h2" style="font-size:30px;margin-bottom:14px">{{ .title | replaceRE `\*\*(.+?)\*\*` `<span class="tglow">$1</span>` | safeHTML }}</h2>
+      <p>{{ .body | markdownify }}</p>
+    </div>
+    <a class="svc-cta" href="#contatti-pagina">{{ .button }} &rarr;</a>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.steps }}
+<section class="ex-wrap">
+  <div class="ex-lab">{{ $.Params.steps_kicker | default "// Come si parte" }}</div>
+  <h2 class="ex-h2">{{ $.Params.steps_title | default "Dal primo contatto al sito gestito" }}</h2>
+  <div class="ex-steps">
+    {{ range $i, $s := . }}
+    <div class="ex-step">
+      <div class="ex-step-num">{{ printf "%02d" (add $i 1) }}</div>
+      <div class="ex-step-name">{{ $s.name }}</div>
+      <p>{{ $s.body | markdownify }}</p>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.compare }}
+<section class="ex-wrap">
+  <div class="ex-lab">{{ .kicker | default "// Le architetture a confronto" }}</div>
+  <h2 class="ex-h2">{{ .title }}</h2>
+  <p class="ex-intro" style="margin-top:0">{{ .intro | markdownify }}</p>
+  <div class="table-wrap">
+    <table class="ex-compare">
+      <thead>
+        <tr>
+          <th></th>
+          <th class="hl">{{ .self | default "Eidos" }}</th>
+          {{ range .cols }}<th>{{ . }}</th>{{ end }}
+        </tr>
+      </thead>
+      <tbody>
+        {{ range .rows }}
+        <tr>
+          <td class="rowlab">{{ .label }}</td>
+          <td class="hl">{{ .eidos }}</td>
+          {{ range .others }}<td>{{ . }}</td>{{ end }}
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+</section>
+{{ end }}
+
+{{ if .Params.features }}
+<style>
+/* Blocchi prodotto (solo pagine con features nel front matter). Token di palette. */
+.ex-wrap{max-width:1200px;margin:0 auto;padding:0 32px}
+.ex-intro{font-size:19px;line-height:1.65;max-width:860px;margin:40px 0 8px}
+.ex-lab{font-family:'JetBrains Mono',monospace;color:var(--teal);font-size:13px;letter-spacing:.06em;text-transform:uppercase;margin:72px 0 12px}
+.ex-h2{font-family:'Glaseer',sans-serif;letter-spacing:.02em;font-size:40px;text-transform:uppercase;color:var(--ink);line-height:1.05;margin:0 0 32px}
+.ex-intro strong,.ex-feat-body strong,.ex-primary strong,.ex-vert strong,.ex-step strong,.ex-ctamid strong{color:var(--teal);font-weight:600}
+.ex-grid{display:grid;grid-template-columns:1fr 1fr;border:var(--hairline);border-bottom:none}
+.ex-feat{display:grid;grid-template-columns:88px 1fr;border-bottom:var(--hairline);min-height:150px}
+.ex-feat:nth-child(odd){border-right:var(--hairline)}
+.ex-feat-num{border-right:var(--hairline);font-family:'Glaseer',sans-serif;letter-spacing:.02em;font-size:26px;color:var(--teal);display:flex;align-items:center;justify-content:center}
+.ex-feat-body{padding:26px 30px}
+.ex-feat-body h3{font-family:'Glaseer',sans-serif;letter-spacing:.02em;font-size:21px;text-transform:uppercase;color:var(--ink);line-height:1.15;margin:0 0 12px}
+.ex-feat-body p{font-size:15px;line-height:1.65;margin:0}
+.ex-vert{border:1px solid var(--teal);box-shadow:0 0 44px rgba(0,194,178,.14);padding:38px 42px;margin-top:24px}
+.ex-vert p{font-size:17px;line-height:1.7;max-width:900px;margin:0}
+.ex-primary{border:var(--hairline);padding:40px 44px}
+.ex-primary p{font-size:18px;line-height:1.7;max-width:920px;margin:0}
+.ex-ext-lab{font-family:'JetBrains Mono',monospace;color:var(--gray-4);font-size:12px;letter-spacing:.06em;text-transform:uppercase;margin:28px 0 10px}
+.ex-ext{display:grid;grid-template-columns:1fr 1fr;border:var(--hairline)}
+.ex-ext-item{padding:22px 26px;border-right:var(--hairline)}
+.ex-ext-item:last-child{border-right:none}
+.ex-ext-name{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--gray-4);margin-bottom:8px}
+.ex-ext-item p{font-size:14px;line-height:1.6;margin:0;color:var(--gray-4)}
+.ex-stats{margin-top:48px}
+.ex-stats .ins-stats-grid{grid-template-columns:repeat(4,1fr)}
+.ex-stats .ins-stat{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:46px 30px}
+.ex-stats .ins-stat-num{margin-bottom:16px}
+.ex-stats .ins-stat-lab{max-width:260px;line-height:1.5}
+.ex-ctamid{border:1px solid var(--teal);box-shadow:0 0 44px rgba(0,194,178,.14);padding:36px 42px;margin-top:64px;display:grid;grid-template-columns:1fr auto;gap:36px;align-items:center}
+.ex-ctamid p{font-size:16px;line-height:1.65;margin:0;max-width:720px}
+.ex-steps{display:grid;grid-template-columns:repeat(4,1fr);border:var(--hairline)}
+.ex-step{padding:28px 26px 32px;border-right:var(--hairline)}
+.ex-step:last-child{border-right:none}
+.ex-step-num{font-family:'Glaseer',sans-serif;letter-spacing:.02em;font-size:34px;color:var(--teal);margin-bottom:14px}
+.ex-step-name{font-family:'Glaseer',sans-serif;letter-spacing:.02em;font-size:19px;text-transform:uppercase;color:var(--ink);line-height:1.15;margin-bottom:12px}
+.ex-step p{font-size:14.5px;line-height:1.6;margin:0}
+.ex-compare{width:100%;border-collapse:separate;border-spacing:0;font-size:14.5px}
+.ex-compare th,.ex-compare td{padding:16px 18px;border-bottom:var(--hairline);text-align:left;vertical-align:top;line-height:1.55}
+.ex-compare thead th{font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:12px;letter-spacing:.06em;color:var(--gray-4);border-bottom:1px solid var(--teal);text-align:center;vertical-align:middle;padding:20px 18px}
+.ex-compare thead th.hl{font-family:'Glaseer',sans-serif;font-size:20px;letter-spacing:.02em;color:var(--ink)}
+.ex-compare td.rowlab{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink);width:190px}
+.ex-compare .hl{background:rgba(0,194,178,.07);border-left:1px solid var(--teal);border-right:1px solid var(--teal)}
+.ex-compare tbody tr:last-child .hl{border-bottom:1px solid var(--teal)}
+.ex-compare td.hl{color:var(--ink);font-weight:600}
+@media (max-width:900px){
+  .ex-grid{grid-template-columns:1fr}
+  .ex-feat:nth-child(odd){border-right:none}
+  .ex-steps,.ex-ext{grid-template-columns:1fr}
+  .ex-step,.ex-ext-item{border-right:none;border-bottom:var(--hairline)}
+  .ex-step:last-child,.ex-ext-item:last-child{border-bottom:none}
+  .ex-stats .ins-stats-grid{grid-template-columns:1fr}
+  .ex-h2{font-size:30px}
+  .ex-vert,.ex-ctamid{padding:26px 24px}
+  .ex-ctamid{grid-template-columns:1fr}
+  .ex-primary{padding:26px 24px}
+}
+</style>
+{{ end }}
 
 {{ with .Params.faqs }}
 <section class="svc-faq">
