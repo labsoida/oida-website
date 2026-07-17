@@ -50,30 +50,29 @@
 </section>
 {{ end }}
 
-{{ with .Params.livelli }}
+{{ with .Params.formula }}
 <section class="ex-wrap">
-  <div class="ex-lab">// I tre livelli</div>
-  <h2 class="ex-h2">Quanta autonomia vuoi: la decidi tu</h2>
-  <div class="ex-levels">
+  <div class="ex-lab">{{ .kicker }}</div>
+  <h2 class="ex-h2">{{ .title }}</h2>
+  <div class="ex-primary">
+    <p>{{ .body | markdownify }}</p>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.estensioni }}
+<section class="ex-wrap">
+  <div class="ex-ext-lab">// Su richiesta, per chi preferisce metterci le mani</div>
+  <div class="ex-ext">
     {{ range . }}
-    <div class="ex-level">
-      <div class="ex-level-kicker">{{ .kicker }}</div>
-      <div class="ex-level-name">{{ .name }}</div>
+    <div class="ex-ext-item">
+      <div class="ex-ext-name">{{ .name }}</div>
       <p>{{ .body | markdownify }}</p>
     </div>
     {{ end }}
   </div>
 </section>
 {{ end }}
-
-<section class="ex-wrap">
-  <div class="ex-lab">// Come appare</div>
-  <h2 class="ex-h2">Un sito Eidos, visto da chi cerca cura</h2>
-  <div class="ex-shot">
-    <div class="ex-shot-bar"><span></span><span></span><span></span></div>
-    <div class="ex-shot-body">[ SCREENSHOT SITO REALIZZATO CON EIDOS &middot; DA CONFERMARE QUALE MOSTRARE ]</div>
-  </div>
-</section>
 
 <section class="ex-wrap">
   <div class="ex-lab">// La prova, misurata</div>
@@ -149,23 +148,6 @@
 </section>
 {{ end }}
 
-<section class="ex-wrap">
-  <div class="ex-lab">// Le persone</div>
-  <h2 class="ex-h2">Chi c'&egrave; dietro Eidos</h2>
-  <div class="ex-team">
-    {{ range seq 3 }}
-    <div class="ex-member">
-      <div class="ex-ava">?</div>
-      <div>
-        <div class="ex-member-name">[ NOME &middot; DA CONFERMARE ]</div>
-        <div class="ex-member-role">[ ruolo &middot; da confermare chi presidia Eidos ]</div>
-      </div>
-    </div>
-    {{ end }}
-  </div>
-  <p style="margin-top:16px"><a href="{{ "team/" | relURL }}">Conosci il team &rarr;</a></p>
-</section>
-
 {{ with .Params.faqs }}
 <section class="svc-faq">
   <div class="svc-faq-header">
@@ -214,16 +196,14 @@
 .ex-feat-body p{font-size:15px;line-height:1.65;margin:0}
 .ex-vert{border:1px solid var(--teal);box-shadow:0 0 44px rgba(0,194,178,.14);padding:38px 42px;margin-top:24px}
 .ex-vert p{font-size:17px;line-height:1.7;max-width:900px;margin:0}
-.ex-levels{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:var(--hairline)}
-.ex-level{padding:30px 30px 34px;border-right:var(--hairline)}
-.ex-level:last-child{border-right:none}
-.ex-level-kicker{font-family:'JetBrains Mono',monospace;color:var(--teal);font-size:12px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:14px}
-.ex-level-name{font-family:'Glaseer',sans-serif;letter-spacing:.02em;font-size:24px;text-transform:uppercase;color:var(--ink);line-height:1.1;margin-bottom:14px}
-.ex-level p{font-size:15px;line-height:1.65;margin:0}
-.ex-shot{border:var(--hairline)}
-.ex-shot-bar{display:flex;gap:7px;padding:13px 16px;border-bottom:var(--hairline)}
-.ex-shot-bar span{width:10px;height:10px;border-radius:50%;background:var(--gray-4);opacity:.5}
-.ex-shot-body{min-height:340px;display:flex;align-items:center;justify-content:center;color:var(--gray-4);font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.06em;text-align:center;padding:24px}
+.ex-primary{border:var(--hairline);padding:40px 44px}
+.ex-primary p{font-size:18px;line-height:1.7;max-width:920px;margin:0}
+.ex-ext-lab{font-family:'JetBrains Mono',monospace;color:var(--gray-4);font-size:12px;letter-spacing:.06em;text-transform:uppercase;margin:28px 0 10px}
+.ex-ext{display:grid;grid-template-columns:1fr 1fr;border:var(--hairline)}
+.ex-ext-item{padding:22px 26px;border-right:var(--hairline)}
+.ex-ext-item:last-child{border-right:none}
+.ex-ext-name{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--gray-4);margin-bottom:8px}
+.ex-ext-item p{font-size:14px;line-height:1.6;margin:0;color:var(--gray-4)}
 .ex-ctamid{border:1px solid var(--teal);box-shadow:0 0 44px rgba(0,194,178,.14);padding:36px 42px;margin-top:64px;display:grid;grid-template-columns:1fr auto;gap:36px;align-items:center}
 .ex-ctamid p{font-size:16px;line-height:1.65;margin:0;max-width:720px}
 .ex-steps{display:grid;grid-template-columns:repeat(4,1fr);border:var(--hairline)}
@@ -240,12 +220,6 @@
 .ex-compare .hl{background:rgba(0,194,178,.07);border-left:1px solid var(--teal);border-right:1px solid var(--teal)}
 .ex-compare tbody tr:last-child .hl{border-bottom:1px solid var(--teal)}
 .ex-compare td.hl{color:var(--ink);font-weight:600}
-.ex-team{display:grid;grid-template-columns:repeat(3,1fr);border:var(--hairline)}
-.ex-member{padding:26px;border-right:var(--hairline);display:flex;gap:18px;align-items:center}
-.ex-member:last-child{border-right:none}
-.ex-ava{width:64px;height:64px;border-radius:50%;border:1px dashed var(--teal);display:flex;align-items:center;justify-content:center;color:var(--teal);font-family:'Glaseer',sans-serif;font-size:22px;flex-shrink:0}
-.ex-member-name{font-family:'Glaseer',sans-serif;letter-spacing:.02em;font-size:16px;text-transform:uppercase;color:var(--ink);margin-bottom:6px}
-.ex-member-role{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.04em;color:var(--gray-4);text-transform:uppercase}
 .ex-todo{color:var(--teal);font-family:'JetBrains Mono',monospace;font-size:.82em;letter-spacing:.04em;border:1px dashed var(--teal);padding:2px 8px;text-transform:uppercase;display:inline-block;margin-top:4px}
 .ex-stats{margin-top:48px}
 .ex-stats .ins-stat{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:46px 30px}
@@ -255,9 +229,10 @@
 @media (max-width:900px){
   .ex-grid{grid-template-columns:1fr}
   .ex-feat:nth-child(odd){border-right:none}
-  .ex-levels,.ex-steps,.ex-team{grid-template-columns:1fr}
-  .ex-level,.ex-step,.ex-member{border-right:none;border-bottom:var(--hairline)}
-  .ex-level:last-child,.ex-step:last-child,.ex-member:last-child{border-bottom:none}
+  .ex-steps,.ex-ext{grid-template-columns:1fr}
+  .ex-step,.ex-ext-item{border-right:none;border-bottom:var(--hairline)}
+  .ex-step:last-child,.ex-ext-item:last-child{border-bottom:none}
+  .ex-primary{padding:26px 24px}
   .ex-h2{font-size:30px}
   .ex-vert,.ex-ctamid{padding:26px 24px}
   .ex-ctamid{grid-template-columns:1fr}

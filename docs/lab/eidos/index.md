@@ -21,17 +21,13 @@
 
 Dipende da cosa conviene alla struttura. Se quello che hai regge, lo miglioriamo; se frena più di quanto aiuti, lo ricostruiamo partendo dai suoi contenuti, con i redirect da ogni vecchio indirizzo. Lo decidiamo dopo l'analisi, non prima.
 
-**In quanto tempo il sito è online?**
-
-<span class="ex-todo">// RISPOSTA DA CONFERMARE INTERNAMENTE: serve lo standard sui tempi di consegna (costruzione e migrazione) prima di pubblicare questa FAQ.</span>
-
 **Il canone ha vincoli di durata?**
 
 <span class="ex-todo">// RISPOSTA DA CONFERMARE CON CLAUDIO: condizioni contrattuali del canone (durata minima, disdetta) in corso di formalizzazione.</span>
 
 **Chi aggiorna il sito e i contenuti di uno studio medico con Eidos?**
 
-Noi, dentro il canone. Nuove prestazioni, medici che entrano in équipe, orari e recapiti: ce li comunichi e li aggiorniamo noi, con la verifica di compliance prima della pubblicazione. Chi preferisce gestire i testi in prima persona ha un livello dedicato.
+Noi, dentro il canone. Nuove prestazioni, medici che entrano in équipe, orari e recapiti: ce li comunichi e li aggiorniamo noi, con la verifica di compliance prima della pubblicazione. Chi preferisce gestire i testi in prima persona può chiedere il pannello di modifica come estensione.
 
 **Il sito sarà a norma con la normativa sanitaria e il GDPR?**
 
@@ -39,7 +35,7 @@ Sì, ed è il cuore del servizio: ogni contenuto passa la verifica di conformit�
 
 **Devo saper usare un pannello di amministrazione?**
 
-No. Nel livello base non c'è nessun pannello da imparare: il sito lo gestiamo noi. Il pannello esiste solo come livello aggiuntivo, per chi lo chiede.
+No. Con Eidos il sito lo gestiamo noi e nessuno in struttura deve imparare niente. Il pannello di modifica esiste come estensione, solo per chi lo chiede.
 
 **Perdo il posizionamento su Google se rifaccio il sito?**
 
@@ -47,15 +43,15 @@ No, se la migrazione è gestita: i vecchi indirizzi vengono reindirizzati uno a 
 
 **E se provano a violare il sito?**
 
-Un sito statico non ha database né plugin da attaccare: la superficie d'attacco è vicina allo zero per architettura. In sanità, dove i dati sono quelli dei pazienti, è il punto che pesa di più.
+I siti Eidos non hanno database né plugin da attaccare: quello che di solito si viola, semplicemente non c'è. In sanità, dove i dati sono quelli dei pazienti, è il punto che pesa di più.
 
 **Il sito e i contenuti restano miei?**
 
-Il dominio è tuo. Nel livello base l'infrastruttura la gestiamo noi, e se ti servono i contenuti e il sito li hai in mano entro 48 ore, scritto nel contratto. Chi vuole la proprietà diretta dei file può aggiungerla.
+Il dominio è tuo. L'infrastruttura la gestiamo noi, e se ti servono i contenuti e il sito li hai in mano entro 48 ore, scritto nel contratto. Chi vuole la proprietà diretta dei file può aggiungerla.
 
 **Quanto costa un sito web per uno studio medico o un poliambulatorio?**
 
-Su quotazione, perché dipende dal lavoro dietro: numero di pagine, migrazione o apertura, livello e contenuti. La struttura è un costo di avvio una tantum più un canone di gestione.
+Su quotazione, perché dipende dal lavoro dietro: numero di pagine, migrazione o apertura, contenuti ed eventuali estensioni. La struttura è un costo di avvio una tantum più un canone di gestione.
 
 **Chi realizza i siti di Eidos?**
 
