@@ -38,7 +38,7 @@ estensioni:
     body: "Per chi preferisce gestire i testi in prima persona: un pannello leggero, in aggiunta alla gestione. La parte tecnica resta comunque nostra."
   - name: "Progetti applicativi"
     body: "Prenotazioni integrate con i gestionali, aree riservate e logiche dedicate, in dialogo con [CRM e automazioni](/servizi/crm-automation-sanita/). Si progettano e si quotano a parte."
-prova: "Il sito di OIDA Labs è costruito e gestito con lo stesso impianto dei siti Eidos: i numeri qui sotto sono i suoi, misurati con Google Lighthouse. Puoi [verificarli tu stesso, adesso, su PageSpeed Insights](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Foida-labs.com%2F)."
+prova: "Il sito di OIDA Labs è costruito e gestito con lo stesso impianto dei siti Eidos: i numeri qui sotto sono i suoi, misurati con Google Lighthouse. Puoi [verificarli tu stesso, adesso, su PageSpeed Insights](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Foida-labs.com%2F&form_factor=desktop)."
 ctamid:
   title: "Prima di decidere, **misura** quello che hai"
   body: "L'analisi gratuita è un documento scritto su **velocità, sicurezza e conformità** del tuo sito attuale, con quello che va tenuto e quello che va cambiato. Poi decidi tu se e con chi."
