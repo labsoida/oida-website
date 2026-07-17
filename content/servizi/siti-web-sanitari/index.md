@@ -1,5 +1,6 @@
 ---
 title: "Eidos, il servizio OIDA Labs per realizzare e gestire il sito della tua struttura"
+linktitle: "Siti Web per la Sanità"
 seo_title: "Siti Web per la Sanità: realizzazione e gestione"
 description: "Realizzazione e gestione di siti web per studi medici, cliniche e poliambulatori: contenuti, sicurezza e compliance sanitaria, dentro un canone."
 og_image: "img/servizi/siti-web-sanitari-og.jpg"

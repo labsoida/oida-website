@@ -39,7 +39,7 @@
   {{ with .Params.servizio }}{{ with site.GetPage (printf "/servizi/%s" .) }}
   <aside class="post-attr">
     <div class="post-attr-lab">// Su questo tema</div>
-    <p>{{ .Description }} <a href="{{ .RelPermalink }}">{{ .Title }} &rarr;</a></p>
+    <p>{{ .Description }} <a href="{{ .RelPermalink }}">{{ .LinkTitle }} &rarr;</a></p>
   </aside>
   {{ end }}{{ end }}
   <aside class="post-attr">

@@ -19,19 +19,26 @@
 <section class="svc-hero starry">
   <aside class="svc-hero-left">
     <img class="svc-hero-mark" src="{{ "img/pittogramma.svg" | relURL }}" alt="OIDA Labs" width="120" height="120">
-    <div class="svc-hero-tag">// {{ .Params.hero_label | default "SERVIZIO" | upper }} {{ if $num }}<b>/{{ printf "%02d" $num }}</b>{{ end }}<br>{{ with .Params.servizio_gruppo }}// {{ . | upper }}<br>{{ end }}// SETTORE <b>SANITARIO</b></div>
+    <div class="svc-hero-tag">// SERVIZIO {{ if .Params.hero_label }}<b>/{{ .Params.hero_label | upper }}</b>{{ else if $num }}<b>/{{ printf "%02d" $num }}</b>{{ end }}<br>{{ with .Params.servizio_gruppo }}// {{ . | upper }}<br>{{ end }}// SETTORE <b>SANITARIO</b></div>
   </aside>
   <div class="svc-hero-content">
-    <h1>{{ .Title }}</h1>
+    {{- /* Il nome prodotto (hero_label) nel titolo va in teal */ -}}
+    {{- $h1 := .Title -}}
+    {{- with .Params.hero_label }}{{ $h1 = replace $h1 . (printf `<span class="tglow">%s</span>` .) 1 }}{{ end -}}
+    <h1>{{ $h1 | safeHTML }}</h1>
     {{ with $tagline }}<p class="svc-tagline">{{ . | safeHTML }}</p>{{ end }}
     {{ with .Description }}<p class="svc-hero-sub">{{ . }}</p>{{ end }}
     <a class="svc-cta" href="#contatti-pagina">Chiedici un'analisi gratuita &rarr;</a>
   </div>
 </section>
 
+{{- /* Se il corpo resta vuoto dopo l'estrazione della tagline (pagine-prodotto),
+       niente article: il suo padding creerebbe un vuoto tra hero e blocchi. */ -}}
+{{ if gt (len (trim ($content | plainify) " \r\n\t")) 0 }}
 <article class="svc-body">
   {{ $content | safeHTML }}
 </article>
+{{ end }}
 
 {{- /* ===== Blocchi prodotto (attivi solo se il front matter li definisce; oggi: Eidos).
        Convenzione **parola** nei titoli/testi = enfasi teal (.tglow). ===== */ -}}
