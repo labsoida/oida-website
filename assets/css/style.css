@@ -8,7 +8,7 @@
    Glaseer resta font-display:optional: con swap l'h1 hero faceva CLS 0.244 su mobile.
    Barlow-400 è il body: swap + preload (finestra di fallback minima con cache CF 1y). === */
 @font-face{font-family:'Glaseer';src:url('/fonts/glaseer-stencil-s.woff2') format('woff2');font-display:optional}
-@font-face{font-family:'Barlow Semi Condensed';font-style:normal;font-weight:400;src:url('/fonts/barlow-semi-condensed-400.woff2') format('woff2');font-display:swap}
+@font-face{font-family:'Barlow Semi Condensed';font-style:normal;font-weight:400;src:url('/fonts/barlow-semi-condensed-400-s.woff2') format('woff2');font-display:swap}
 @font-face{font-family:'BankGothic';src:url('/fonts/bank-gothic.woff2') format('woff2');font-display:swap}
 @font-face{font-family:'Barlow Semi Condensed';font-style:italic;font-weight:400;src:url('/fonts/barlow-semi-condensed-italic-400.woff2') format('woff2');font-display:swap}
 @font-face{font-family:'Barlow Semi Condensed';font-style:normal;font-weight:500;src:url('/fonts/barlow-semi-condensed-500.woff2') format('woff2');font-display:swap}
