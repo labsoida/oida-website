@@ -81,14 +81,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="apple-touch-icon" href="{{ "img/apple-touch-icon.png" | relURL }}">
 <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
 
-<!-- Font critici (hero Glaseer + body Barlow-400) self-hosted con preload; @font-face
-     in style.css. L'inline base64 serviva con la cache 10-min di GitHub Pages: su
-     Cloudflare i font hanno cache 1 anno (~65KB di HTML in meno per pagina). -->
-<link rel="preload" href="{{ "fonts/glaseer-stencil.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+<!-- Font critici (hero Glaseer subsettato + body Barlow-400) self-hosted con preload;
+     @font-face in style.css. SOLO questi due in preload: Glaseer è l'elemento LCP e
+     ha fetchpriority high; bank-gothic e jetbrains (nav, label) caricano on-demand
+     dal CSS per non rubargli banda sulla 4G (fix LCP mobile 17/07). -->
+<link rel="preload" href="{{ "fonts/glaseer-stencil-s.woff2" | relURL }}" as="font" type="font/woff2" crossorigin fetchpriority="high">
 <link rel="preload" href="{{ "fonts/barlow-semi-condensed-400.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
-<!-- Font secondari (nav, label) self-hosted con preload -->
-<link rel="preload" href="{{ "fonts/bank-gothic.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="{{ "fonts/jetbrains-mono-variable.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
 
 <!-- Meta Pixel: caricato dinamicamente da cookie-consent-config.js solo dopo consenso marketing.
      Volutamente NESSUN <noscript><img> qui: sparerebbe PageView bypassando il Consent Mode (problema GDPR). -->
