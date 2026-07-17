@@ -75,7 +75,7 @@
 {{ end }}
 
 <section class="ex-wrap">
-  <div class="ex-lab">// La prova, misurata</div>
+  <div class="ex-lab">// La prova, dal vivo</div>
   <h2 class="ex-h2">Il primo cliente di Eidos <span class="tglow">siamo noi</span></h2>
   <p class="ex-intro">{{ .Params.prova | markdownify }}</p>
 </section>
@@ -222,6 +222,7 @@
 .ex-compare td.hl{color:var(--ink);font-weight:600}
 .ex-todo{color:var(--teal);font-family:'JetBrains Mono',monospace;font-size:.82em;letter-spacing:.04em;border:1px dashed var(--teal);padding:2px 8px;text-transform:uppercase;display:inline-block;margin-top:4px}
 .ex-stats{margin-top:48px}
+.ex-stats .ins-stats-grid{grid-template-columns:repeat(4,1fr)}
 .ex-stats .ins-stat{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:46px 30px}
 .ex-stats .ins-stat-num{margin-bottom:16px}
 .ex-stats .ins-stat-lab{max-width:260px;line-height:1.5}
@@ -230,6 +231,7 @@
   .ex-grid{grid-template-columns:1fr}
   .ex-feat:nth-child(odd){border-right:none}
   .ex-steps,.ex-ext{grid-template-columns:1fr}
+  .ex-stats .ins-stats-grid{grid-template-columns:1fr}
   .ex-step,.ex-ext-item{border-right:none;border-bottom:var(--hairline)}
   .ex-step:last-child,.ex-ext-item:last-child{border-bottom:none}
   .ex-primary{padding:26px 24px}
