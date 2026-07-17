@@ -103,14 +103,10 @@ compare:
 faqs:
   - q: "Ho già un sito: rifate da zero o partite da quello?"
     a: "Dipende da cosa conviene alla struttura. Se quello che hai regge, lo miglioriamo; se frena più di quanto aiuti, lo ricostruiamo partendo dai suoi contenuti, con i redirect da ogni vecchio indirizzo. Lo decidiamo dopo l'analisi, non prima."
-  - q: "Il canone ha vincoli di durata?"
-    a: "<span class=\"ex-todo\">// RISPOSTA DA CONFERMARE CON CLAUDIO: condizioni contrattuali del canone (durata minima, disdetta) in corso di formalizzazione.</span>"
   - q: "Chi aggiorna il sito e i contenuti di uno studio medico con Eidos?"
     a: "Noi, dentro il canone. Nuove prestazioni, medici che entrano in équipe, orari e recapiti: ce li comunichi e li aggiorniamo noi, con la verifica di compliance prima della pubblicazione. Chi preferisce gestire i testi in prima persona può chiedere il pannello di modifica come estensione."
   - q: "Il sito sarà a norma con la normativa sanitaria e il GDPR?"
     a: "Sì, ed è il cuore del servizio: ogni contenuto passa la verifica di conformità alla normativa sulla comunicazione sanitaria, italiana e svizzera, e privacy policy, cookie policy e gestione del consenso entrano nel canone."
-  - q: "Devo saper usare un pannello di amministrazione?"
-    a: "No. Con Eidos il sito lo gestiamo noi e nessuno in struttura deve imparare niente. Il pannello di modifica esiste come estensione, solo per chi lo chiede."
   - q: "Perdo il posizionamento su Google se rifaccio il sito?"
     a: "No, se la migrazione è gestita: i vecchi indirizzi vengono reindirizzati uno a uno e la struttura delle pagine resta pulita. Un sito più veloce è di per sé un segnale positivo per i motori."
   - q: "E se provano a violare il sito?"
@@ -119,8 +115,6 @@ faqs:
     a: "Il dominio è tuo. L'infrastruttura la gestiamo noi, e se ti servono i contenuti e il sito li hai in mano entro 48 ore, scritto nel contratto. Chi vuole la proprietà diretta dei file può aggiungerla."
   - q: "Quanto costa un sito web per uno studio medico o un poliambulatorio?"
     a: "Su quotazione, perché dipende dal lavoro dietro: numero di pagine, migrazione o apertura, contenuti ed eventuali estensioni. La struttura è un costo di avvio una tantum più un canone di gestione."
-  - q: "Chi realizza i siti di Eidos?"
-    a: "OIDA Labs, agenzia di marketing sanitario fondata da medici. Il sito è pensato da chi conosce le regole della professione, non solo il web."
 cta:
   title: "Vuoi vedere come apparirebbe **la tua struttura online**?"
   body: "Partiamo da uno sguardo al tuo sito attuale: ti diciamo cosa funziona e cosa cambierebbe, in modo concreto."

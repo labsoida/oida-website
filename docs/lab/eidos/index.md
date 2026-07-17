@@ -20,10 +20,6 @@
 
 Dipende da cosa conviene alla struttura. Se quello che hai regge, lo miglioriamo; se frena più di quanto aiuti, lo ricostruiamo partendo dai suoi contenuti, con i redirect da ogni vecchio indirizzo. Lo decidiamo dopo l'analisi, non prima.
 
-**Il canone ha vincoli di durata?**
-
-<span class="ex-todo">// RISPOSTA DA CONFERMARE CON CLAUDIO: condizioni contrattuali del canone (durata minima, disdetta) in corso di formalizzazione.</span>
-
 **Chi aggiorna il sito e i contenuti di uno studio medico con Eidos?**
 
 Noi, dentro il canone. Nuove prestazioni, medici che entrano in équipe, orari e recapiti: ce li comunichi e li aggiorniamo noi, con la verifica di compliance prima della pubblicazione. Chi preferisce gestire i testi in prima persona può chiedere il pannello di modifica come estensione.
@@ -31,10 +27,6 @@ Noi, dentro il canone. Nuove prestazioni, medici che entrano in équipe, orari e
 **Il sito sarà a norma con la normativa sanitaria e il GDPR?**
 
 Sì, ed è il cuore del servizio: ogni contenuto passa la verifica di conformità alla normativa sulla comunicazione sanitaria, italiana e svizzera, e privacy policy, cookie policy e gestione del consenso entrano nel canone.
-
-**Devo saper usare un pannello di amministrazione?**
-
-No. Con Eidos il sito lo gestiamo noi e nessuno in struttura deve imparare niente. Il pannello di modifica esiste come estensione, solo per chi lo chiede.
 
 **Perdo il posizionamento su Google se rifaccio il sito?**
 
@@ -51,10 +43,6 @@ Il dominio è tuo. L'infrastruttura la gestiamo noi, e se ti servono i contenuti
 **Quanto costa un sito web per uno studio medico o un poliambulatorio?**
 
 Su quotazione, perché dipende dal lavoro dietro: numero di pagine, migrazione o apertura, contenuti ed eventuali estensioni. La struttura è un costo di avvio una tantum più un canone di gestione.
-
-**Chi realizza i siti di Eidos?**
-
-OIDA Labs, agenzia di marketing sanitario fondata da medici. Il sito è pensato da chi conosce le regole della professione, non solo il web.
 
 
 ---
