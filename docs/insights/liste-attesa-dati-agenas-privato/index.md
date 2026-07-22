@@ -63,7 +63,7 @@ Una cautela conclude la lettura del dato. In alcune Regioni la quota di prescriz
 
 ## La distanza tra percezione e dato
 
-È in questo punto che i due versanti della medesima domanda si incontrano. L'indagine Piepoli rilevava un 68% di cittadini critici verso i tempi del Servizio Sanitario Nazionale e un 63% orientato, di fronte a un'attesa prolungata, verso una via a pagamento; il bollettino Agenas documenta tempi in miglioramento. Le due evidenze coesistono, poiché la percezione evolve con maggiore lentezza rispetto al dato amministrativo: il giudizio del paziente si forma sull'esperienza recente e sul passaparola, con un ritardo fisiologico rispetto all'ultima rilevazione statistica.
+È in questo punto che i due versanti della medesima domanda si incontrano. [L'indagine Piepoli](/insights/liste-attesa-intramoenia-ricorso-al-privato/) rilevava un 68% di cittadini critici verso i tempi del Servizio Sanitario Nazionale e un 63% orientato, di fronte a un'attesa prolungata, verso una via a pagamento; il bollettino Agenas documenta tempi in miglioramento. Le due evidenze coesistono, poiché la percezione evolve con maggiore lentezza rispetto al dato amministrativo: il giudizio del paziente si forma sull'esperienza recente e sul passaparola, con un ritardo fisiologico rispetto all'ultima rilevazione statistica.
 
 {{< insight-pullquote >}}
 La percezione dei tempi pubblici evolve con maggiore lentezza rispetto al dato: il giudizio del paziente matura sull'esperienza recente e sul passaparola, con un ritardo fisiologico rispetto all'ultima rilevazione statistica.
@@ -76,7 +76,7 @@ Il primo bollettino Agenas è una rilevazione di sistema, concepita a fini di tr
 
 Conserva stabilità, invece, la struttura della domanda residua: un volume assoluto tuttora rilevante di prestazioni erogate oltre i tempi, concentrato in alcune Regioni e in specifiche prestazioni, unito a una percezione dei cittadini che rimane più severa del dato. È su questo terreno che un posizionamento acquista solidità nel tempo, quando si àncora alla singola prestazione, allo specifico territorio e a una promessa di accesso e di percorso verificabile, in luogo di un generico richiamo all'attesa pubblica.
 
-La mappa, con questa lettura, si completa: l'indagine Piepoli restituisce il comportamento del paziente nel momento della scelta, il bollettino Agenas ne misura il presupposto, ossia l'entità e la collocazione dell'attesa. Una struttura in grado di leggere entrambe ne conosce l'esatta collocazione, per prestazione, per territorio e per durata residua.
+La mappa, con questa lettura, si completa: [l'indagine Piepoli](/insights/liste-attesa-intramoenia-ricorso-al-privato/) restituisce il comportamento del paziente nel momento della scelta, il bollettino Agenas ne misura il presupposto, ossia l'entità e la collocazione dell'attesa. Una struttura in grado di leggere entrambe ne conosce l'esatta collocazione, per prestazione, per territorio e per durata residua.
 {{< /insight-conclusion >}}
 
 
