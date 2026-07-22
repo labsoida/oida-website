@@ -458,6 +458,8 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
 .ins-body a{color:var(--teal);text-decoration:none;border-bottom:1px solid rgba(0,194,178,.4);transition:border-color .15s}
 .ins-body a:hover{border-bottom-color:var(--teal)}
 .ins-sidebar{position:sticky;top:96px;display:flex;flex-direction:column;border:var(--hairline)}
+/* fix overflow mobile: i grid item devono poter stringere sotto il min-content, altrimenti una tabella o un grafico largo spinge tutta la colonna oltre la viewport e taglia il testo */
+.ins-layout>.ins-body,.ins-layout>.ins-sidebar{min-width:0}
 .ins-sb-block{padding:24px;border-bottom:var(--hairline)}
 .ins-sb-block:last-child{border-bottom:none}
 .ins-sb-lab{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--teal);letter-spacing:.12em;text-transform:uppercase;margin-bottom:12px;line-height:1.4}
