@@ -42,16 +42,16 @@ Sul campione verificato i profili si distribuiscono per gravità come riportato 
     <g><title>Conforme — 6% (16 strutture su 262)</title><text x="124" y="210" text-anchor="end" style="fill:var(--gray-6);font-size:14px">Conforme</text><rect x="140" y="192" width="72" height="26" rx="4" style="fill:var(--gray-4)"></rect><text x="220" y="210" style="font-size:13.5px"><tspan style="fill:var(--ink);font-weight:600">6%</tspan><tspan dx="7" style="fill:var(--gray-5)">16</tspan></text></g>
   </svg>
   <div class="insight-data-table-wrap">
-    <table class="insight-data-table">
+    <table class="insight-data-table insight-data-table--stack">
       <thead>
         <tr><th>Profilo di gravità</th><th>Strutture</th><th>% del campione</th></tr>
       </thead>
       <tbody>
-        <tr><td>Critico</td><td>59</td><td>23%</td></tr>
-        <tr><td>Alto</td><td>69</td><td>26%</td></tr>
-        <tr><td>Medio</td><td>86</td><td>33%</td></tr>
-        <tr><td>Basso</td><td>32</td><td>12%</td></tr>
-        <tr><td>Conforme</td><td>16</td><td>6%</td></tr>
+        <tr><td data-label="Profilo di gravità">Critico</td><td data-label="Strutture">59</td><td data-label="% del campione">23%</td></tr>
+        <tr><td data-label="Profilo di gravità">Alto</td><td data-label="Strutture">69</td><td data-label="% del campione">26%</td></tr>
+        <tr><td data-label="Profilo di gravità">Medio</td><td data-label="Strutture">86</td><td data-label="% del campione">33%</td></tr>
+        <tr><td data-label="Profilo di gravità">Basso</td><td data-label="Strutture">32</td><td data-label="% del campione">12%</td></tr>
+        <tr><td data-label="Profilo di gravità">Conforme</td><td data-label="Strutture">16</td><td data-label="% del campione">6%</td></tr>
       </tbody>
     </table>
   </div>
@@ -76,14 +76,14 @@ La prevalenza di almeno una criticità resta elevata in tutte le aree, tra il 90
     <g><title>Sud e Isole — 62% con almeno una violazione chiara</title><rect x="456" y="113.6" width="88" height="136.4" rx="4" style="fill:var(--teal);fill-opacity:.9"></rect><text x="500" y="103" text-anchor="middle" style="fill:var(--ink);font-size:15px;font-weight:600">62%</text><text x="500" y="272" text-anchor="middle" style="fill:var(--gray-6);font-size:13.5px">Sud e Isole</text></g>
   </svg>
   <div class="insight-data-table-wrap">
-    <table class="insight-data-table">
+    <table class="insight-data-table insight-data-table--stack">
       <thead>
         <tr><th>Macro-area</th><th>Strutture</th><th>≥1 criticità</th><th>≥1 violazione chiara</th><th>Gravità critica o alta</th></tr>
       </thead>
       <tbody>
-        <tr><td>Nord</td><td>100</td><td>90%</td><td>41%</td><td>38%</td></tr>
-        <tr><td>Centro</td><td>94</td><td>96%</td><td>53%</td><td>50%</td></tr>
-        <tr><td>Sud e Isole</td><td>68</td><td>97%</td><td>62%</td><td>63%</td></tr>
+        <tr><td data-label="Macro-area">Nord</td><td data-label="Strutture">100</td><td data-label="≥1 criticità">90%</td><td data-label="≥1 violazione chiara">41%</td><td data-label="Gravità critica o alta">38%</td></tr>
+        <tr><td data-label="Macro-area">Centro</td><td data-label="Strutture">94</td><td data-label="≥1 criticità">96%</td><td data-label="≥1 violazione chiara">53%</td><td data-label="Gravità critica o alta">50%</td></tr>
+        <tr><td data-label="Macro-area">Sud e Isole</td><td data-label="Strutture">68</td><td data-label="≥1 criticità">97%</td><td data-label="≥1 violazione chiara">62%</td><td data-label="Gravità critica o alta">63%</td></tr>
       </tbody>
     </table>
   </div>
