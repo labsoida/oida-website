@@ -38,15 +38,15 @@ Sul versante opposto, la spesa out-of-pocket per abitante è di 1.115 dollari, s
   <figcaption class="insight-data-block__title">Spesa sanitaria pro-capite: Italia, OCSE, UE (dollari, 2023)</figcaption>
   <div class="insight-data-block__subtitle">Fonte: Report Osservatorio GIMBE 2/2025, elaborazione su dati OCSE 2023.</div>
   <div class="insight-data-table-wrap">
-    <table class="insight-data-table">
+    <table class="insight-data-table insight-data-table--stack">
       <thead>
         <tr><th>Componente di spesa</th><th>Italia</th><th>Media OCSE</th><th>Media UE</th></tr>
       </thead>
       <tbody>
-        <tr><td>Spesa pubblica pro-capite</td><td>3.574 $</td><td>4.318 $</td><td>4.344 $</td></tr>
-        <tr><td>Spesa out-of-pocket pro-capite</td><td>1.115 $</td><td>906 $</td><td>906 $</td></tr>
-        <tr><td>Spesa intermediata pro-capite</td><td>143 $</td><td>299 $</td><td>262 $</td></tr>
-        <tr style="font-weight:600;color:var(--ink)"><td>Spesa privata totale pro-capite</td><td>1.258 $</td><td>1.206 $</td><td>1.169 $</td></tr>
+        <tr><td data-label="Componente di spesa">Spesa pubblica pro-capite</td><td data-label="Italia">3.574 $</td><td data-label="Media OCSE">4.318 $</td><td data-label="Media UE">4.344 $</td></tr>
+        <tr><td data-label="Componente di spesa">Spesa out-of-pocket pro-capite</td><td data-label="Italia">1.115 $</td><td data-label="Media OCSE">906 $</td><td data-label="Media UE">906 $</td></tr>
+        <tr><td data-label="Componente di spesa">Spesa intermediata pro-capite</td><td data-label="Italia">143 $</td><td data-label="Media OCSE">299 $</td><td data-label="Media UE">262 $</td></tr>
+        <tr style="font-weight:600;color:var(--ink)"><td data-label="Componente di spesa">Spesa privata totale pro-capite</td><td data-label="Italia">1.258 $</td><td data-label="Media OCSE">1.206 $</td><td data-label="Media UE">1.169 $</td></tr>
       </tbody>
     </table>
   </div>
