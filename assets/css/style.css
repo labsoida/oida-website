@@ -30,6 +30,8 @@ html{scroll-padding-top:76px}
   color-scheme:dark;
   --bg:#000;--ink:#fff;--teal:#00C2B2;
   --gray-1:#0d0d0d;--gray-2:#1a1a1a;--gray-3:#2c2c2c;--gray-4:#777;--gray-5:#999;--gray-6:#ccc;
+  /* colori di stato per le barre di distribuzione (insight-dist-table): buono -> assente */
+  --status-good:#00C2B2;--status-partial:#5FBE86;--status-progress:#E0A63A;--status-none:#D66054;
   --hairline:1px solid var(--gray-3);
   --cut:2px solid var(--ink);
 }
@@ -505,6 +507,22 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
 .ins-body .insight-data-table th{text-align:left;color:var(--teal);text-transform:uppercase;letter-spacing:.05em;font-size:11.5px;font-weight:600;padding:11px 16px;border-bottom:1px solid rgba(0,194,178,.5)}
 .ins-body .insight-data-table td{padding:11px 16px;color:var(--gray-6);border-top:1px solid rgba(255,255,255,.08);vertical-align:top}
 .ins-body .insight-data-table td:first-child{color:var(--ink)}
+/* insight-dist-table: tabella di distribuzione con barre di stato colorate */
+.ins-body .insight-dist-table{width:100%;border-collapse:collapse;font-family:'Barlow Semi Condensed',sans-serif;font-size:15px;line-height:1.4;min-width:440px}
+.ins-body .insight-dist-table th{text-align:left;color:var(--teal);text-transform:uppercase;letter-spacing:.05em;font-size:11.5px;font-weight:600;padding:11px 16px;border-bottom:1px solid rgba(0,194,178,.5)}
+.ins-body .insight-dist-table th.th-n,.ins-body .insight-dist-table th.th-pct{text-align:right;white-space:nowrap}
+.ins-body .insight-dist-table th.th-bar{width:36%}
+.ins-body .insight-dist-table td{padding:11px 16px;color:var(--gray-6);border-top:1px solid rgba(255,255,255,.08);vertical-align:middle}
+.ins-body .insight-dist-table td.td-status{color:var(--ink)}
+.ins-body .insight-dist-table td.td-n,.ins-body .insight-dist-table td.td-pct{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.ins-body .insight-dist-table .small{color:var(--gray-5);font-size:12px;margin-left:2px}
+.ins-body .insight-mini-bar{position:relative;height:8px;background:var(--gray-3);border-radius:4px;overflow:hidden}
+.ins-body .insight-mini-bar__fill{height:100%;border-radius:4px;background:var(--teal)}
+.ins-body .insight-mini-bar__fill--teal{background:var(--status-good)}
+.ins-body .insight-mini-bar__fill--hybrid{background:var(--status-partial)}
+.ins-body .insight-mini-bar__fill--amber{background:var(--status-progress)}
+.ins-body .insight-mini-bar__fill--red{background:var(--status-none)}
+@media(max-width:600px){.ins-body .insight-dist-table{min-width:0;font-size:14px}.ins-body .insight-dist-table thead{display:none}.ins-body .insight-dist-table tr{display:block;border-top:1px solid rgba(255,255,255,.09);padding:13px 0}.ins-body .insight-dist-table tbody tr:first-child{border-top:none}.ins-body .insight-dist-table td{display:block;padding:0;border:none;text-align:left}.ins-body .insight-dist-table td.td-status{color:var(--ink);font-weight:600;margin-bottom:5px}.ins-body .insight-dist-table td.td-n,.ins-body .insight-dist-table td.td-pct{display:inline-block;color:var(--gray-6);text-align:left}.ins-body .insight-dist-table td.td-pct::before{content:"·";margin:0 7px;color:var(--gray-4)}.ins-body .insight-dist-table td:last-child{margin-top:9px}}
 @media(max-width:600px){.table-wrap table{min-width:0;font-size:13.5px}.table-wrap thead th,.table-wrap tbody td{padding:9px 11px}.ins-body .insight-data-table{min-width:0;font-size:12.5px}.ins-body .insight-data-table th{padding:8px 8px;font-size:9.5px;letter-spacing:0}.ins-body .insight-data-table td{padding:8px 8px}}
 /* mobile: tabelle insight con classe --stack diventano schede impilate (una riga per record, etichetta di colonna accanto al valore), per non scrollare di lato */
 @media(max-width:600px){.ins-body .insight-data-table--stack{font-size:14px}.ins-body .insight-data-table--stack thead{display:none}.ins-body .insight-data-table--stack tr{display:block;padding:14px 0;border-top:1px solid rgba(255,255,255,.09)}.ins-body .insight-data-table--stack tbody tr:first-child{border-top:none}.ins-body .insight-data-table--stack td{display:flex;justify-content:space-between;align-items:baseline;gap:18px;padding:5px 2px;border:none;color:var(--gray-6)}.ins-body .insight-data-table--stack td::before{content:attr(data-label);color:var(--gray-5);font-size:11px;text-transform:uppercase;letter-spacing:.04em;text-align:left}.ins-body .insight-data-table--stack td:first-child{color:var(--teal);font-family:'Glaseer',sans-serif;font-size:16px;letter-spacing:.02em;text-transform:uppercase;padding:0 0 8px;justify-content:flex-start}.ins-body .insight-data-table--stack td:first-child::before{display:none}}
