@@ -58,6 +58,14 @@ Sul campione verificato i profili si distribuiscono per gravità come riportato 
 <figure class="insight-data-block">
   <figcaption class="insight-data-block__title">Distribuzione dei profili di gravità sul campione (n = 262)</figcaption>
   <div class="insight-data-block__subtitle">Fonte: indagine OIDA Labs 2026.</div>
+  <svg viewBox="0 0 660 240" style="width:100%;min-width:480px;max-width:660px;height:auto;margin:6px 0 22px;font-family:'Barlow Semi Condensed',sans-serif" role="img" aria-label="Distribuzione dei profili di gravità: Critico 23%, Alto 26%, Medio 33%, Basso 12%, Conforme 6% del campione di 262 strutture.">
+    <line x1="140" y1="8" x2="140" y2="234" style="stroke:var(--gray-3);stroke-width:1"></line>
+    <g><title>Critico — 23% (59 strutture su 262)</title><text x="124" y="34" text-anchor="end" style="fill:var(--gray-6);font-size:14px">Critico</text><rect x="140" y="16" width="276" height="26" rx="4" style="fill:var(--teal);fill-opacity:1"></rect><text x="424" y="34" style="font-size:13.5px"><tspan style="fill:var(--ink);font-weight:600">23%</tspan><tspan dx="7" style="fill:var(--gray-5)">59</tspan></text></g>
+    <g><title>Alto — 26% (69 strutture su 262)</title><text x="124" y="78" text-anchor="end" style="fill:var(--gray-6);font-size:14px">Alto</text><rect x="140" y="60" width="312" height="26" rx="4" style="fill:var(--teal);fill-opacity:.78"></rect><text x="460" y="78" style="font-size:13.5px"><tspan style="fill:var(--ink);font-weight:600">26%</tspan><tspan dx="7" style="fill:var(--gray-5)">69</tspan></text></g>
+    <g><title>Medio — 33% (86 strutture su 262)</title><text x="124" y="122" text-anchor="end" style="fill:var(--gray-6);font-size:14px">Medio</text><rect x="140" y="104" width="396" height="26" rx="4" style="fill:var(--teal);fill-opacity:.58"></rect><text x="544" y="122" style="font-size:13.5px"><tspan style="fill:var(--ink);font-weight:600">33%</tspan><tspan dx="7" style="fill:var(--gray-5)">86</tspan></text></g>
+    <g><title>Basso — 12% (32 strutture su 262)</title><text x="124" y="166" text-anchor="end" style="fill:var(--gray-6);font-size:14px">Basso</text><rect x="140" y="148" width="144" height="26" rx="4" style="fill:var(--teal);fill-opacity:.42"></rect><text x="292" y="166" style="font-size:13.5px"><tspan style="fill:var(--ink);font-weight:600">12%</tspan><tspan dx="7" style="fill:var(--gray-5)">32</tspan></text></g>
+    <g><title>Conforme — 6% (16 strutture su 262)</title><text x="124" y="210" text-anchor="end" style="fill:var(--gray-6);font-size:14px">Conforme</text><rect x="140" y="192" width="72" height="26" rx="4" style="fill:var(--gray-4)"></rect><text x="220" y="210" style="font-size:13.5px"><tspan style="fill:var(--ink);font-weight:600">6%</tspan><tspan dx="7" style="fill:var(--gray-5)">16</tspan></text></g>
+  </svg>
   <div class="insight-data-table-wrap">
     <table class="insight-data-table">
       <thead>
@@ -80,7 +88,18 @@ La prevalenza di almeno una criticità resta elevata in tutte le aree, tra il 90
 
 <figure class="insight-data-block">
   <figcaption class="insight-data-block__title">Prevalenza e gravità per macro-area</figcaption>
-  <div class="insight-data-block__subtitle">Fonte: indagine OIDA Labs 2026.</div>
+  <div class="insight-data-block__subtitle">Quota di strutture con almeno una violazione di evidenza inequivoca, per macro-area. La differenza Nord-Sud è una tendenza ai limiti della significatività statistica. Fonte: indagine OIDA Labs 2026.</div>
+  <svg viewBox="0 0 660 300" style="width:100%;min-width:440px;max-width:660px;height:auto;margin:6px 0 22px;font-family:'Barlow Semi Condensed',sans-serif" role="img" aria-label="Quota con almeno una violazione chiara per macro-area: Nord 41%, Centro 53%, Sud e Isole 62%.">
+    <line x1="90" y1="30" x2="620" y2="30" style="stroke:var(--gray-2);stroke-width:1"></line>
+    <line x1="90" y1="140" x2="620" y2="140" style="stroke:var(--gray-2);stroke-width:1"></line>
+    <line x1="90" y1="250" x2="620" y2="250" style="stroke:var(--gray-3);stroke-width:1"></line>
+    <text x="74" y="34" text-anchor="end" style="fill:var(--gray-4);font-size:12px">100%</text>
+    <text x="74" y="144" text-anchor="end" style="fill:var(--gray-4);font-size:12px">50%</text>
+    <text x="74" y="254" text-anchor="end" style="fill:var(--gray-4);font-size:12px">0%</text>
+    <g><title>Nord — 41% con almeno una violazione chiara</title><rect x="166" y="159.8" width="88" height="90.2" rx="4" style="fill:var(--teal);fill-opacity:.9"></rect><text x="210" y="150" text-anchor="middle" style="fill:var(--ink);font-size:15px;font-weight:600">41%</text><text x="210" y="272" text-anchor="middle" style="fill:var(--gray-6);font-size:13.5px">Nord</text></g>
+    <g><title>Centro — 53% con almeno una violazione chiara</title><rect x="311" y="133.4" width="88" height="116.6" rx="4" style="fill:var(--teal);fill-opacity:.9"></rect><text x="355" y="123" text-anchor="middle" style="fill:var(--ink);font-size:15px;font-weight:600">53%</text><text x="355" y="272" text-anchor="middle" style="fill:var(--gray-6);font-size:13.5px">Centro</text></g>
+    <g><title>Sud e Isole — 62% con almeno una violazione chiara</title><rect x="456" y="113.6" width="88" height="136.4" rx="4" style="fill:var(--teal);fill-opacity:.9"></rect><text x="500" y="103" text-anchor="middle" style="fill:var(--ink);font-size:15px;font-weight:600">62%</text><text x="500" y="272" text-anchor="middle" style="fill:var(--gray-6);font-size:13.5px">Sud e Isole</text></g>
+  </svg>
   <div class="insight-data-table-wrap">
     <table class="insight-data-table">
       <thead>
