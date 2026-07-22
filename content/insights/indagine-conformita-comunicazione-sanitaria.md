@@ -58,7 +58,7 @@ Sul campione verificato i profili si distribuiscono per gravità come riportato 
 <figure class="insight-data-block">
   <figcaption class="insight-data-block__title">Distribuzione dei profili di gravità sul campione (n = 262)</figcaption>
   <div class="insight-data-block__subtitle">Fonte: indagine OIDA Labs 2026.</div>
-  <svg viewBox="0 0 660 240" style="width:100%;min-width:480px;max-width:660px;height:auto;margin:6px 0 22px;font-family:'Barlow Semi Condensed',sans-serif" role="img" aria-label="Distribuzione dei profili di gravità: Critico 23%, Alto 26%, Medio 33%, Basso 12%, Conforme 6% del campione di 262 strutture.">
+  <svg viewBox="0 0 660 240" style="width:100%;max-width:660px;height:auto;margin:6px 0 22px;font-family:'Barlow Semi Condensed',sans-serif" role="img" aria-label="Distribuzione dei profili di gravità: Critico 23%, Alto 26%, Medio 33%, Basso 12%, Conforme 6% del campione di 262 strutture.">
     <line x1="140" y1="8" x2="140" y2="234" style="stroke:var(--gray-3);stroke-width:1"></line>
     <g><title>Critico — 23% (59 strutture su 262)</title><text x="124" y="34" text-anchor="end" style="fill:var(--gray-6);font-size:14px">Critico</text><rect x="140" y="16" width="276" height="26" rx="4" style="fill:var(--teal);fill-opacity:1"></rect><text x="424" y="34" style="font-size:13.5px"><tspan style="fill:var(--ink);font-weight:600">23%</tspan><tspan dx="7" style="fill:var(--gray-5)">59</tspan></text></g>
     <g><title>Alto — 26% (69 strutture su 262)</title><text x="124" y="78" text-anchor="end" style="fill:var(--gray-6);font-size:14px">Alto</text><rect x="140" y="60" width="312" height="26" rx="4" style="fill:var(--teal);fill-opacity:.78"></rect><text x="460" y="78" style="font-size:13.5px"><tspan style="fill:var(--ink);font-weight:600">26%</tspan><tspan dx="7" style="fill:var(--gray-5)">69</tspan></text></g>
@@ -89,7 +89,7 @@ La prevalenza di almeno una criticità resta elevata in tutte le aree, tra il 90
 <figure class="insight-data-block">
   <figcaption class="insight-data-block__title">Prevalenza e gravità per macro-area</figcaption>
   <div class="insight-data-block__subtitle">Quota di strutture con almeno una violazione di evidenza inequivoca, per macro-area. La differenza Nord-Sud è una tendenza ai limiti della significatività statistica. Fonte: indagine OIDA Labs 2026.</div>
-  <svg viewBox="0 0 660 300" style="width:100%;min-width:440px;max-width:660px;height:auto;margin:6px 0 22px;font-family:'Barlow Semi Condensed',sans-serif" role="img" aria-label="Quota con almeno una violazione chiara per macro-area: Nord 41%, Centro 53%, Sud e Isole 62%.">
+  <svg viewBox="0 0 660 300" style="width:100%;max-width:660px;height:auto;margin:6px 0 22px;font-family:'Barlow Semi Condensed',sans-serif" role="img" aria-label="Quota con almeno una violazione chiara per macro-area: Nord 41%, Centro 53%, Sud e Isole 62%.">
     <line x1="90" y1="30" x2="620" y2="30" style="stroke:var(--gray-2);stroke-width:1"></line>
     <line x1="90" y1="140" x2="620" y2="140" style="stroke:var(--gray-2);stroke-width:1"></line>
     <line x1="90" y1="250" x2="620" y2="250" style="stroke:var(--gray-3);stroke-width:1"></line>
