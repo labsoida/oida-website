@@ -1,44 +1,20 @@
 ---
-title: "Liste d'attesa: il recupero del pubblico e il posizionamento del privato"
-seo_title: "Liste d'attesa: dati Agenas 2026 e privato"
-description: "Il primo bollettino Agenas sulle liste d'attesa registra tempi di garanzia in miglioramento nel primo semestre 2026. La lettura di OIDA Labs per il posizionamento di una struttura privata."
-date: 2026-07-22
-lastmod: 2026-07-22
-author: "OIDA Labs"
-kicker: "OIDA Insight · Luglio 2026"
-base: "Base empirica: Bollettino Agenas Liste di Attesa n. 0, dati PNLA, I semestre 2026"
-about: "Liste d'attesa, tempi di garanzia e posizionamento della sanità privata"
-og_image: "img/insights/liste-attesa-recupero-pubblico-privato-og.jpg"
-image_alt: "Liste d'attesa: il recupero dei tempi del servizio pubblico e il posizionamento della sanità privata, analisi OIDA Labs sul bollettino Agenas 2026"
-tags: ["mercato sanitario", "strategia"]
-stats:
-  - number: "78,5"
-    suffix: "%"
-    label: "rispetto dei tempi massimi di garanzia per le prime visite nel primo semestre 2026, in crescita dal 76,4% del 2025. Il dato pubblico migliora, ora sotto monitoraggio trimestrale."
-  - number: "1,44"
-    suffix: " mln"
-    label: "prime visite erogate oltre i tempi di garanzia nel solo primo semestre 2026, cui si aggiungono 759 mila esami diagnostici. La quota percentuale diminuisce, il volume assoluto rimane elevato."
-  - number: "5"
-    suffix: ""
-    label: "le Regioni in cui il rispetto dei tempi sulle prime visite permane inferiore al 70%. La domanda intercettabile presenta una distribuzione territoriale diseguale."
-sidebar:
-  - label: "L'attività erogata cresce"
-    stat: "13,3 → 14,9 mln"
-    note: "Le prenotazioni nel Servizio Sanitario Nazionale salgono da 13,3 a 14,9 milioni tra il primo semestre 2025 e il 2026, con oltre 1,6 milioni di prestazioni in più garantite entro i tempi."
-  - label: "Le classi urgenti recuperano"
-    stat: "77,7% → 81,0%"
-    note: "Le prime visite in classe Urgente, da erogare entro tre giorni, salgono dal 77,7% all'81,0%; le Differibili entro 30 giorni dal 70% al 73,3%."
-  - label: "La diagnostica guida il recupero"
-    stat: "60,8% → 69,8%"
-    note: "La colonscopia registra l'incremento più elevato tra le prestazioni monitorate; la mammografia sale dall'86,1% all'89%."
-  - label: "Una distorsione da conoscere"
-    stat: "87,7%"
-    note: "Quota di prescrizioni in classe programmabile, entro 120 giorni, in Basilicata, con la Campania all'84,4%: un'attribuzione della priorità che innalza il rispetto dei tempi senza accelerare l'accesso."
-sources:
-  primary: "Agenas, <em>Bollettino Liste di Attesa n. 0</em>, dati della Piattaforma Nazionale delle Liste di Attesa (PNLA), istituita dal decreto-legge 73/2024 convertito nella legge 107/2024. Confronto I semestre 2026 - I semestre 2025, dati aggiornati al 30 giugno 2026."
-  secondary: "Si tratta di una rilevazione amministrativa (prenotazioni e rispetto effettivo dei tempi di garanzia), primo numero di una serie trimestrale con metodo in evoluzione e confronto anno su anno. Va letta insieme al dato di percezione dell'indagine FNOMCeO-Piepoli, di natura diversa."
-draft: false
+# Markdown version per AI agents, generata da Hugo
+# Vedi link rel="alternate" type="text/markdown" sulla versione HTML
 ---
+
+# Liste d'attesa: cosa dicono i nuovi dati Agenas per la sanità privata
+
+> Il primo bollettino Agenas sulle liste d'attesa registra tempi di garanzia in miglioramento nel primo semestre 2026. La lettura di OIDA Labs per il posizionamento di una struttura privata.
+
+**Data:** 2026-07-22
+**Autore:** OIDA Labs
+**Categoria:** OIDA Insight · Luglio 2026
+**Base empirica:** Base empirica: Bollettino Agenas Liste di Attesa n. 0, dati PNLA, I semestre 2026
+**Tag:** mercato sanitario, strategia
+
+---
+
 
 {{< insight-callout label="Nota di perimetro" >}}
 Il bollettino è una rilevazione amministrativa, distinta dalle statistiche di percezione. La sua lettura, in questa sede, è circoscritta al punto di vista del marketing di una struttura privata, estranea al piano delle politiche sanitarie pubbliche.
@@ -102,3 +78,11 @@ Conserva stabilità, invece, la struttura della domanda residua: un volume assol
 
 La mappa, con questa lettura, si completa: l'indagine Piepoli restituisce il comportamento del paziente nel momento della scelta, il bollettino Agenas ne misura il presupposto, ossia l'entità e la collocazione dell'attesa. Una struttura in grado di leggere entrambe ne conosce l'esatta collocazione, per prestazione, per territorio e per durata residua.
 {{< /insight-conclusion >}}
+
+
+---
+
+**Fonte:** https://oida-labs.com/insights/liste-attesa-dati-agenas-privato/index.md
+**Sito:** https://oida-labs.com · OIDA Labs Sagl, Piazza dell'Indipendenza 3, 6900 Lugano (CH)
+**Knowledge base completa:** https://oida-labs.com/llms-full.txt
+**Manifest agent:** https://oida-labs.com/.well-known/ai-plugin.json

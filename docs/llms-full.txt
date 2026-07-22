@@ -1556,9 +1556,9 @@ SintesiIl bacino di pazienti italiani in Canton Ticino è una componente strutt
 # Insights · Analisi originali con dati di settore
 
 
-## Liste d'attesa: il recupero del pubblico e il posizionamento del privato
+## Liste d'attesa: cosa dicono i nuovi dati Agenas per la sanità privata
 
-- URL: https://oida-labs.com/insights/liste-attesa-recupero-pubblico-privato/
+- URL: https://oida-labs.com/insights/liste-attesa-dati-agenas-privato/
 - Data: 2026-07-22
 - Base empirica: Base empirica: Bollettino Agenas Liste di Attesa n. 0, dati PNLA, I semestre 2026
 - Descrizione: Il primo bollettino Agenas sulle liste d'attesa registra tempi di garanzia in miglioramento nel primo semestre 2026. La lettura di OIDA Labs per il posizionamento di una struttura privata.
