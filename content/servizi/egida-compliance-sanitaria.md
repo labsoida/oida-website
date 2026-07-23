@@ -39,8 +39,8 @@ features:
   - title: "Il badge di verifica"
     body: "Al termine della verifica la struttura riceve il badge **contenuti verificati**, da esporre sul proprio sito. Dichiara che la comunicazione è stata sottoposta a verifica secondo una metodologia definita, alla data indicata, e resta valido finché il presidio è attivo."
 verticale:
-  title: "Un perimetro normativo che cambia, e che ogni Ordine legge a modo suo"
-  body: "La disciplina della comunicazione sanitaria è passata attraverso revisioni successive: dal regime restrittivo del 1992 alla liberalizzazione del 2006, dalla stretta del 2018 fino alla formulazione vigente introdotta nel 2023. A queste si sommano il Codice di Deontologia Medica, la disciplina sulla protezione dei dati personali per immagini e testimonianze, e l'interpretazione che ne danno i singoli Ordini territoriali, non uniforme tra territori. **Seguire questo quadro non rientra tra i compiti di chi dirige una struttura. Rientra tra i nostri, insieme allo studio legale che ci affianca.**"
+  title: "Un perimetro normativo in continua evoluzione"
+  body: "La disciplina della comunicazione sanitaria è passata attraverso revisioni successive: dal regime restrittivo del 1992 alla liberalizzazione del 2006, dalla stretta del 2018 fino alla formulazione vigente introdotta nel 2023. A queste si sommano il Codice di Deontologia Medica, la disciplina sulla protezione dei dati personali per immagini e testimonianze e gli orientamenti interpretativi degli Ordini territoriali. **Seguire questo quadro non rientra tra i compiti di chi dirige una struttura. Rientra tra i nostri, insieme allo studio legale che ci affianca.**"
 rischio:
   kicker: "// Il rischio"
   title: "Che cosa si rischia"
