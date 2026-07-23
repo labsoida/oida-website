@@ -84,13 +84,20 @@ Il punto raramente esplicitato in fase commerciale è la ripartizione della resp
 
 Le stesse domande, poste a più agenzie, rendono il confronto comparabile. La tabella riassume che cosa chiedere per ciascun criterio e come leggere le risposte.
 
-| Criterio | Che cosa chiedere | Risposta solida | Segnale d'allarme |
-|---|---|---|---|
-| Specializzazione verticale | Quali specialità ha presidiato, su quali volumi e con quali benchmark | Numeri: CPL medi, conversione lead-paziente, durata dei cicli | Portfolio di settori senza alcun dato di conversione |
-| Metrica di riferimento | Misura il costo per lead o il costo di acquisizione del paziente? | Misura il CAC ed entra nel funnel a valle del click | Si ferma al CPL e non chiede come rispondete alle richieste |
-| Continuità operativa | Chi segue il progetto, quanti ne gestisce, con quale esperienza nel settore | Referente indicato per nome, con esperienza sanitaria verificabile | Chi presenta il servizio non è chi lo eseguirà, e non è dato sapere chi |
-| Struttura contrattuale | Quali obiettivi misurabili mette per iscritto, con quale ripartizione | Soglie e tempi definiti, perimetri di responsabilità distinti | Obiettivi generici come "aumentare la visibilità" |
-| Conformità normativa | Come garantisce la conformità della comunicazione | Distingue la legge dall'interpretazione degli Ordini e progetta dentro quel perimetro | Il tema non viene sollevato in fase commerciale |
+<div class="table-wrap">
+  <table class="insight-data-table insight-data-table--stack">
+    <thead>
+      <tr><th>Criterio</th><th>Che cosa chiedere</th><th>Risposta solida</th><th>Segnale d'allarme</th></tr>
+    </thead>
+    <tbody>
+      <tr><td data-label="Criterio">Specializzazione verticale</td><td data-label="Che cosa chiedere">Quali specialità ha presidiato, su quali volumi e con quali benchmark</td><td data-label="Risposta solida">Numeri: CPL medi, conversione lead-paziente, durata dei cicli</td><td data-label="Segnale d'allarme">Portfolio di settori senza alcun dato di conversione</td></tr>
+      <tr><td data-label="Criterio">Metrica di riferimento</td><td data-label="Che cosa chiedere">Misura il costo per lead o il costo di acquisizione del paziente?</td><td data-label="Risposta solida">Misura il CAC ed entra nel funnel a valle del click</td><td data-label="Segnale d'allarme">Si ferma al CPL e non chiede come rispondete alle richieste</td></tr>
+      <tr><td data-label="Criterio">Continuità operativa</td><td data-label="Che cosa chiedere">Chi segue il progetto, quanti ne gestisce, con quale esperienza nel settore</td><td data-label="Risposta solida">Referente indicato per nome, con esperienza sanitaria verificabile</td><td data-label="Segnale d'allarme">Chi presenta il servizio non è chi lo eseguirà, e non è dato sapere chi</td></tr>
+      <tr><td data-label="Criterio">Struttura contrattuale</td><td data-label="Che cosa chiedere">Quali obiettivi misurabili mette per iscritto, con quale ripartizione</td><td data-label="Risposta solida">Soglie e tempi definiti, perimetri di responsabilità distinti</td><td data-label="Segnale d'allarme">Obiettivi generici come "aumentare la visibilità"</td></tr>
+      <tr><td data-label="Criterio">Conformità normativa</td><td data-label="Che cosa chiedere">Come garantisce la conformità della comunicazione</td><td data-label="Risposta solida">Distingue la legge dall'interpretazione degli Ordini e progetta dentro quel perimetro</td><td data-label="Segnale d'allarme">Il tema non viene sollevato in fase commerciale</td></tr>
+    </tbody>
+  </table>
+</div>
 
 ---
 
