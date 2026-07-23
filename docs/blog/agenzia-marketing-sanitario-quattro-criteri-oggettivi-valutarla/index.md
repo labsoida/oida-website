@@ -22,7 +22,9 @@ La scelta di un'agenzia di **marketing sanitario** è una decisione che incide s
 2. [Metrica di riferimento: CAC invece di CPL](#metrica-di-riferimento-cac-invece-di-cpl)
 3. [Continuità tra presentazione commerciale e gestione operativa](#continuita-tra-presentazione-commerciale-e-gestione-operativa)
 4. [Struttura contrattuale e definizione dei KPI](#struttura-contrattuale-e-definizione-dei-kpi)
-5. [FAQ](#faq)
+5. [Il criterio non dichiarato: il rischio normativo](#il-rischio-normativo)
+6. [Le domande da porre, con la tabella di confronto](#le-domande-da-porre)
+7. [FAQ](#faq)
 
 ---
 
@@ -66,19 +68,29 @@ Un buon accordo distingue con chiarezza ciò che dipende dall'agenzia e ciò che
 
 > Questa chiarezza contrattuale è ciò che rende sostenibile il rapporto nel tempo. Indica un metodo di lavoro basato su accountability reciproca, non su aspettative implicite.
 
-## Il criterio che le presentazioni commerciali non dichiarano: il rischio normativo
+## Il criterio che le presentazioni commerciali non dichiarano: il rischio normativo {#il-rischio-normativo}
 
 Ai quattro criteri se ne aggiunge uno che distingue più nettamente chi opera in sanità da chi vi si affaccia da altri settori: la padronanza del perimetro normativo. La comunicazione sanitaria è regolata, e la linea tra informazione lecita ed elemento attrattivo o suggestivo è sottile e valutata caso per caso dagli Ordini; un'agenzia che non la conosce può costruire una campagna efficace sul piano dei numeri e sanzionabile su quello deontologico.
 
 Il punto raramente esplicitato in fase commerciale è la ripartizione della responsabilità: una comunicazione non conforme non espone l'agenzia, ma il professionista e il Direttore Sanitario della struttura, anche quando il contenuto è stato prodotto da terzi. Valutare un'agenzia di marketing sanitario significa dunque verificare che sappia distinguere ciò che la legge consente da ciò che gli Ordini ricostruiscono in via interpretativa, e che progetti le campagne dentro quel perimetro. È la differenza tra un fornitore che espone la struttura e un partner che la protegge.
 
-## Le domande da porre in fase di valutazione
+## Le domande da porre in fase di valutazione {#le-domande-da-porre}
 
 - Quali specialità ha presidiato l'agenzia, su quali volumi e con quali benchmark di conversione?
 - Con quale metrica misura i risultati: costo per lead o costo di acquisizione del paziente?
 - Chi seguirà operativamente il progetto, quanti ne gestisce in parallelo e con quale esperienza nel settore?
 - Come garantisce la conformità della comunicazione alla normativa sanitaria?
 - Quali obiettivi misurabili è disposta a mettere per iscritto, e con quale ripartizione delle responsabilità?
+
+Le stesse domande, poste a più agenzie, rendono il confronto comparabile. La tabella riassume che cosa chiedere per ciascun criterio e come leggere le risposte.
+
+| Criterio | Che cosa chiedere | Risposta solida | Segnale d'allarme |
+|---|---|---|---|
+| Specializzazione verticale | Quali specialità ha presidiato, su quali volumi e con quali benchmark | Numeri: CPL medi, conversione lead-paziente, durata dei cicli | Portfolio di settori senza alcun dato di conversione |
+| Metrica di riferimento | Misura il costo per lead o il costo di acquisizione del paziente? | Misura il CAC ed entra nel funnel a valle del click | Si ferma al CPL e non chiede come rispondete alle richieste |
+| Continuità operativa | Chi segue il progetto, quanti ne gestisce, con quale esperienza nel settore | Referente indicato per nome, con esperienza sanitaria verificabile | Chi presenta il servizio non è chi lo eseguirà, e non è dato sapere chi |
+| Struttura contrattuale | Quali obiettivi misurabili mette per iscritto, con quale ripartizione | Soglie e tempi definiti, perimetri di responsabilità distinti | Obiettivi generici come "aumentare la visibilità" |
+| Conformità normativa | Come garantisce la conformità della comunicazione | Distingue la legge dall'interpretazione degli Ordini e progetta dentro quel perimetro | Il tema non viene sollevato in fase commerciale |
 
 ---
 
@@ -88,6 +100,10 @@ I quattro criteri (**specializzazione verticale, metrica CAC, continuità operat
 
 
 ## FAQ
+
+**Come si confrontano più agenzie di marketing sanitario tra loro?**
+
+Sottoponendo a ciascuna le stesse domande e confrontando le risposte sui medesimi cinque criteri: specializzazione verticale, metrica di riferimento, continuità operativa, struttura contrattuale e padronanza del perimetro normativo. Il confronto diventa oggettivo quando le risposte contengono numeri, nomi e perimetri di responsabilità; resta impressionistico quando si fonda su portfolio e affermazioni generali.
 
 **Qual è il budget indicativo per un'agenzia di marketing sanitario?**
 
