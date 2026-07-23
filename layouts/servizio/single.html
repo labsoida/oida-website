@@ -157,6 +157,7 @@
 {{ end }}
 
 {{ with .Params.compare }}
+{{- $self := .self | default "Eidos" -}}{{- $cols := .cols -}}
 <section class="ex-wrap">
   <div class="ex-lab">{{ .kicker | default "// Le architetture a confronto" }}</div>
   <h2 class="ex-h2">{{ .title }}</h2>
@@ -174,8 +175,8 @@
         {{ range .rows }}
         <tr>
           <td class="rowlab">{{ .label }}</td>
-          <td class="hl">{{ .eidos }}</td>
-          {{ range .others }}<td>{{ . }}</td>{{ end }}
+          <td class="hl" data-label="{{ $self }}">{{ .eidos }}</td>
+          {{ range $i, $o := .others }}<td data-label="{{ index $cols $i }}">{{ $o }}</td>{{ end }}
         </tr>
         {{ end }}
       </tbody>
@@ -239,6 +240,20 @@
 .ex-compare .hl{background:rgba(0,194,178,.07);border-left:1px solid var(--teal);border-right:1px solid var(--teal)}
 .ex-compare tbody tr:last-child .hl{border-bottom:1px solid var(--teal)}
 .ex-compare td.hl{color:var(--ink);font-weight:600}
+/* mobile: la tabella di confronto diventa una scheda per riga, con l'etichetta di colonna accanto al valore */
+@media(max-width:600px){
+.ex-compare{font-size:14px}
+.ex-compare thead{display:none}
+.ex-compare tbody,.ex-compare tr{display:block}
+.ex-compare tr{border-top:1px solid rgba(255,255,255,.1);padding:14px 0}
+.ex-compare tbody tr:first-child{border-top:none}
+.ex-compare td{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:5px 2px;border:none;text-align:right}
+.ex-compare td::before{content:attr(data-label);color:var(--gray-5);font-family:'JetBrains Mono',monospace;font-size:10.5px;text-transform:uppercase;letter-spacing:.04em;text-align:left;flex:0 0 auto}
+.ex-compare td.rowlab{display:block;width:auto;color:var(--teal);font-size:12.5px;padding:0 0 9px;text-align:left}
+.ex-compare td.rowlab::before{display:none}
+.ex-compare td.hl{background:none;border:none}
+.ex-compare tbody tr:last-child .hl{border-bottom:none}
+}
 @media (max-width:900px){
   .ex-grid{grid-template-columns:1fr}
   .ex-feat:nth-child(odd){border-right:none}
