@@ -74,6 +74,16 @@
 </section>
 {{ end }}
 
+{{ with .Params.rischio }}
+<section class="ex-wrap">
+  <div class="ex-rischio">
+    <div class="ex-lab" style="margin-top:0">{{ .kicker | default "// Il rischio" }}</div>
+    <h2 class="ex-h2" style="font-size:28px">{{ .title }}</h2>
+    {{ .body | markdownify }}
+  </div>
+</section>
+{{ end }}
+
 {{ with .Params.formula }}
 <section class="ex-wrap">
   <div class="ex-lab">{{ .kicker }}</div>
@@ -190,6 +200,15 @@
 .ex-feat-body h3{font-family:'Glaseer',sans-serif;letter-spacing:.02em;font-size:21px;text-transform:uppercase;color:var(--ink);line-height:1.15;margin:0 0 12px}
 .ex-feat-body p{font-size:15px;line-height:1.65;margin:0}
 .ex-vert{border:1px solid var(--teal);box-shadow:0 0 44px rgba(0,194,178,.14);padding:38px 42px;margin-top:24px}
+.ex-rischio{border:1px solid var(--teal);box-shadow:0 0 44px rgba(0,194,178,.14);background:rgba(0,194,178,.045);padding:32px 42px;margin-top:24px}
+.ex-rischio p{margin-bottom:14px}
+.ex-rischio p:last-child{margin-bottom:0}
+.ex-rischio ul{margin:0;padding-left:0;list-style:none}
+.ex-rischio li{position:relative;padding-left:22px;margin-bottom:11px;line-height:1.6}
+.ex-rischio li:last-child{margin-bottom:0}
+.ex-rischio li::before{content:"";position:absolute;left:0;top:12px;width:8px;height:1px;background:var(--teal)}
+.ex-rischio strong{color:var(--teal);font-weight:600}
+@media(max-width:600px){.ex-rischio{padding:24px 20px}}
 .ex-vert p{font-size:17px;line-height:1.7;max-width:900px;margin:0}
 .ex-primary{border:var(--hairline);padding:40px 44px}
 .ex-primary p{font-size:18px;line-height:1.7;max-width:920px;margin:0}
