@@ -18,7 +18,7 @@
 
 <section class="svc-hero starry">
   <aside class="svc-hero-left">
-    <img class="svc-hero-mark" src="{{ "img/pittogramma.svg" | relURL }}" alt="OIDA Labs" width="120" height="120">
+    <img class="svc-hero-mark" src="{{ (.Params.hero_mark | default "img/pittogramma.svg") | relURL }}" alt="{{ .Params.hero_mark_alt | default "OIDA Labs" }}" width="120" height="120">
     <div class="svc-hero-tag">// SERVIZIO {{ if .Params.hero_label }}<b>/{{ .Params.hero_label | upper }}</b>{{ else if $num }}<b>/{{ printf "%02d" $num }}</b>{{ end }}<br>{{ with .Params.servizio_gruppo }}// {{ . | upper }}<br>{{ end }}// SETTORE <b>SANITARIO</b></div>
   </aside>
   <div class="svc-hero-content">

@@ -11,6 +11,8 @@ weight: 25
 servizio_gruppo: "Presidio e Conformità"
 servizio_icona: "web"
 hero_label: "Egida"
+hero_mark: "img/servizi/egida-mark.png"
+hero_mark_alt: "Egida, il servizio di compliance della comunicazione sanitaria di OIDA Labs"
 serviceType: "Egida: verifica, adeguamento e mantenimento della conformità normativa della comunicazione sanitaria"
 audience: "Studi medici, cliniche, poliambulatori e strutture sanitarie private"
 robots: "noindex, nofollow"
@@ -22,7 +24,7 @@ keywords:
   - "normativa pubblicità sanitaria"
   - "adeguamento normativo studio medico"
   - "conformità sito clinica"
-intro: "Con Egida verifichiamo la comunicazione della tua struttura, ne correggiamo gli elementi che la espongono a sanzioni e ne presidiamo la conformità nel tempo, mentre il quadro normativo si muove. Il metodo è validato da uno **studio legale specializzato**, e la lettura è quella di chi la professione la esercita. **Egida è il primo servizio in Italia di verifica, adeguamento e mantenimento della comunicazione conforme alla normativa sanitaria.**"
+intro: "Con Egida verifichiamo la comunicazione della tua struttura, ne correggiamo gli elementi che la espongono a sanzioni e ne presidiamo la conformità nel tempo, mentre il quadro normativo si evolve. Il metodo è validato da uno **studio legale specializzato**, e la lettura è quella di chi la professione la esercita. **Egida è il primo servizio in Italia di verifica, adeguamento e mantenimento della comunicazione conforme alla normativa sanitaria.**"
 features:
   - title: "La verifica"
     body: "Sottoponiamo a verifica tutto ciò che la struttura comunica al pubblico: pagine del sito, descrizioni delle prestazioni, immagini, testimonianze e prezzi. Ogni elemento è classificato per gravità, con la norma di riferimento e un **profilo di rischio complessivo**. Il risultato è un documento che indica con precisione dove la struttura è esposta."
@@ -60,7 +62,7 @@ estensioni:
   - name: "Per chi ha già un sito"
     body: "Egida opera su qualunque sito, indipendentemente da chi lo ha realizzato. La verifica e l'adeguamento non richiedono di spostare nulla."
 prova_title: "Il problema, **misurato da noi**"
-prova: "Abbiamo analizzato la comunicazione di **2.800 strutture sanitarie private italiane**. Il 93,9% presenta almeno una criticità di conformità."
+prova: "Abbiamo analizzato la comunicazione di **2.800 strutture sanitarie private italiane** e approfondito, caso per caso, un campione casuale rappresentativo di 262. Il 93,9% presenta almeno una criticità di conformità. Sono dati raccolti direttamente da OIDA Labs: metodo, risultati e limiti sono nell'[indagine completa](/insights/indagine-conformita-comunicazione-sanitaria/)."
 stats:
   - number: "2.800"
     label: "strutture sanitarie private vagliate in Italia"
@@ -87,39 +89,40 @@ steps:
   - name: "Il presidio"
     body: "Da qui in avanti la vigilanza è nostra: **ricontrollo a ogni modifica**, allineamento normativo e supporto legale sui casi limite."
 compare:
+  kicker: "// Le alternative a confronto"
   title: "Il confronto con le alternative"
-  intro: "Ecco cosa cambia, in concreto, tra Egida, chi si occupa del sito sul piano tecnico e il controllo svolto internamente."
+  intro: "Che cosa cambia, in concreto, rispetto alle due alternative più diffuse."
   self: "Egida"
   cols:
     - "Il webmaster"
     - "Controllo interno"
   rows:
     - label: "Perimetro"
-      eidos: "Sito, testi, immagini, testimonianze e prezzi, con metodo definito"
+      eidos: "Contenuti, immagini, testimonianze e prezzi"
       others:
         - "Il funzionamento tecnico del sito"
-        - "Dipende dal tempo di chi se ne occupa"
-    - label: "Competenza normativa"
+        - "Variabile"
+    - label: "Competenza"
       eidos: "Medici e studio legale"
       others:
-        - "Non rientra tra le competenze richieste"
-        - "Raramente verticale sulla comunicazione sanitaria"
+        - "Fuori dal suo ruolo"
+        - "Raramente specialistica"
     - label: "Adeguamento"
-      eidos: "I contenuti li correggiamo noi"
+      eidos: "Lo eseguiamo noi"
       others:
         - "Fuori perimetro"
         - "Resta da eseguire"
     - label: "Continuità"
-      eidos: "Ricontrollo a ogni modifica"
+      eidos: "A ogni modifica"
       others:
         - "Assente"
         - "Occasionale"
-    - label: "Aggiornamenti normativi"
+    - label: "Aggiornamenti"
       eidos: "Inclusi nel presidio"
       others:
         - "Assenti"
         - "A carico della struttura"
-    - label: "Badge di verifica"
+    - label: "Badge"
       eidos: "Sì, finché il presidio è attivo"
       others:
         - "No"
