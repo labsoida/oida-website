@@ -1,6 +1,16 @@
-{{- /* Tutte le tabelle Markdown del sito: incorniciate in .table-wrap (cornice teal + scroll orizzontale su mobile), stile in style.css */ -}}
+{{- /* Tutte le tabelle Markdown del sito: incorniciate in .table-wrap (cornice teal + scroll orizzontale su mobile), stile in style.css.
+       Ogni cella porta il data-label della propria intestazione: sotto i 600px la tabella si impila
+       (classe .md-table--stack) e non richiede più lo scroll laterale. */ -}}
+{{- $heads := slice -}}
+{{- with .THead -}}
+  {{- range . -}}
+    {{- range . -}}
+      {{- $heads = $heads | append (.Text | plainify) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 <div class="table-wrap">
-  <table>
+  <table class="md-table md-table--stack">
     {{- with .THead }}
     <thead>
       {{- range . }}
@@ -16,8 +26,8 @@
     <tbody>
       {{- range . }}
       <tr>
-        {{- range . }}
-        <td{{ with .Alignment }} style="text-align:{{ . }}"{{ end }}>{{ .Text }}</td>
+        {{- range $ci, $cell := . }}
+        <td{{ with $cell.Alignment }} style="text-align:{{ . }}"{{ end }}{{ if lt $ci (len $heads) }} data-label="{{ index $heads $ci }}"{{ end }}>{{ $cell.Text }}</td>
         {{- end }}
       </tr>
       {{- end }}

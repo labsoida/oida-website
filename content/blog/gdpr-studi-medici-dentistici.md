@@ -32,7 +32,7 @@ I dati dei pazienti sono la categoria di informazioni che il GDPR protegge più 
 2. [Email, newsletter e CRM: il consenso al marketing è separato](#email-newsletter-e-crm)
 3. [Il sito: form di prenotazione e tracciamento](#il-sito-form-e-tracciamento)
 4. [Recensioni, testimonianze, foto e prima e dopo: il doppio binario](#recensioni-testimonianze-e-immagini)
-5. [Il perimetro strutturale, in breve](#il-perimetro-strutturale)
+5. [Gli adempimenti privacy dello studio medico fuori dal marketing](#il-perimetro-strutturale)
 6. [FAQ](#faq)
 
 ---
@@ -40,6 +40,8 @@ I dati dei pazienti sono la categoria di informazioni che il GDPR protegge più 
 ## La regola che governa tutto: cura senza consenso, marketing con consenso {#la-regola-che-governa-tutto}
 
 Esiste una distinzione che, una volta compresa, chiarisce quasi ogni dubbio. Per le prestazioni di cura il professionista sanitario tenuto al segreto non deve richiedere il consenso privacy del paziente, dal momento che la base giuridica del trattamento è la finalità di cura stessa (art. 9, par. 2, lett. h, GDPR), come il Garante ha chiarito con il provvedimento del 7 marzo 2019. Nel momento in cui il trattamento esce dalla cura, però, quella base non opera più, e per qualunque finalità promozionale, di fidelizzazione o di comunicazione l'unico fondamento legittimo diventa il consenso esplicito del paziente (art. 9, par. 2, lett. a). Tradotto per il marketing, significa che tutto ciò che una struttura fa con i dati dei pazienti oltre a curarli richiede un consenso raccolto a parte, libero, specifico e revocabile.
+
+### Consenso privacy e consenso informato all'atto medico
 
 Va aggiunta una precisazione che evita l'errore più comune: il consenso privacy per la cura non serve, ma il consenso informato all'atto medico o odontoiatrico (Legge 219/2017) resta sempre dovuto, poiché è un istituto diverso, che nella pratica di studio viene spesso confuso con quello privacy.
 
@@ -49,19 +51,29 @@ La conseguenza più diretta riguarda la comunicazione verso la lista pazienti. U
 
 ## Il sito: form di prenotazione e tracciamento {#il-sito-form-e-tracciamento}
 
+### I consensi sui form di prenotazione di uno studio medico
+
 Il sito di uno studio è il secondo luogo in cui la privacy incrocia il marketing. Sui form di contatto e di prenotazione il Garante, nel compendio del 2024 dedicato alle piattaforme che mettono in contatto pazienti e professionisti, è esplicito: la base giuridica della prenotazione è il consenso, e per ogni finalità ulteriore, il marketing in primo luogo, serve un consenso distinto per ciascuna finalità. In pratica questo si traduce in un'informativa chiara e accessibile, in caselle non pre-selezionate e nel consenso marketing come opzione separata, mai obbligatoria per prenotare.
+
+### Cookie e strumenti di analisi sul sito di uno studio sanitario
 
 Sul tracciamento vale il quadro delle linee guida cookie del Garante del 2021: i cookie tecnici richiedono la sola informativa, mentre quelli di profilazione richiedono un consenso preventivo, con un banner che offra il rifiuto con la stessa evidenza dell'accettazione e senza forzature come lo scrolling o i cookie wall. Un punto merita attenzione, perché viene spesso raccontato in modo scorretto: nel 2022 il Garante aveva contestato l'uso di Google Analytics per il trasferimento di dati verso gli Stati Uniti, ma dal luglio 2023 quel trasferimento è coperto dall'accordo EU-US Data Privacy Framework, a cui Google aderisce. Presentare oggi Google Analytics come "illegale" è quindi impreciso, e la lettura corretta è che lo strumento è utilizzabile con il contratto adeguato e l'anonimizzazione dell'indirizzo IP, mentre il quadro resta soggetto a un contenzioso ancora aperto e per uno studio sanitario può avere senso valutare strumenti di analisi con server europei come misura di prudenza. Vale infine come buona pratica non tracciare i percorsi del sito che rivelano la prestazione cercata da un singolo utente, perché un'informazione di questo tipo può avvicinarsi a un dato sulla salute.
 
 ## Recensioni, testimonianze, foto e prima e dopo: il doppio binario {#recensioni-testimonianze-e-immagini}
 
+### Il consenso richiesto per diffondere foto e video di un paziente
+
 Il terreno più delicato per il marketing di uno studio è l'uso promozionale di ciò che riguarda un paziente identificabile: una recensione con nome e cognome, una testimonianza, una foto, un video, un prima e dopo. Anche l'immagine, se la persona è riconoscibile, è un dato sulla salute, e la sua diffusione a fini promozionali esce dalla cura, per cui l'unico fondamento è il consenso esplicito, scritto, specifico e revocabile, che indichi con chiarezza dove e per quanto tempo il contenuto sarà pubblicato. Che la posta sia reale lo mostra un caso concreto: nel gennaio 2024 il Garante ha sanzionato un centro di medicina estetica per aver pubblicato su Instagram, senza un consenso adeguato, un video di trentaquattro secondi in cui era riconoscibile il volto di un paziente durante una procedura.
+
+### Testimonial e prima e dopo nella pubblicità sanitaria
 
 Qui, però, va tenuto distinto un secondo piano, ed è la distinzione che quasi nessuno fa. Il consenso del paziente risolve il problema sul versante privacy, ma non su quello deontologico: la normativa sulla pubblicità sanitaria, con l'art. 1, comma 525, della Legge 145/2018 come modificato nel 2023, esclude gli elementi attrattivi e suggestivi, e su questo piano una testimonianza costruita o un prima e dopo restano esposti anche quando il consenso privacy è perfetto. La recensione autentica e spontanea del paziente è generalmente ammessa, mentre l'uso attivo di testimonial e di immagini del risultato è un terreno di rischio, come approfondiamo a proposito della [comunicazione sanitaria](/blog/comunicazione-sanitaria/). Il consenso richiesto dal GDPR, in altre parole, è condizione necessaria ma non sufficiente.
 
-## Il perimetro strutturale, in breve {#il-perimetro-strutturale}
+## Gli adempimenti privacy dello studio medico fuori dal marketing {#il-perimetro-strutturale}
 
 Attorno a questi temi di marketing esiste un perimetro strutturale che non è compito di un'agenzia, ma che è utile conoscere perché lo studio non lo sottovaluti. Anche uno studio di piccole dimensioni, trattando dati sanitari, è tenuto a mantenere il registro delle attività di trattamento, a differenza di quanto si crede appellandosi alla soglia dei dipendenti; le strutture più grandi, come i poliambulatori e le catene, possono ricadere nell'obbligo di nominare un responsabile della protezione dei dati e di condurre una valutazione d'impatto; e chiunque subisca una violazione dei dati deve valutarne la notifica al Garante entro settantadue ore. Sono adempimenti che competono al consulente legale e al responsabile della protezione dei dati della struttura, non al marketing, ed è a loro che vanno indirizzati.
+
+### La conformità privacy come componente della fiducia del paziente
 
 La conformità privacy, vista dal marketing, non è un vincolo da subire ma una componente della fiducia che una struttura costruisce: il paziente che affida i propri dati a chi li tratta con cura è lo stesso che affiderà la propria salute. Progettare la comunicazione e l'acquisizione dei pazienti dentro questo perimetro è il lavoro di un'agenzia che conosce la sanità, e distingue chi protegge la struttura da chi la espone.
 

@@ -453,7 +453,7 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
 .ins-layout{max-width:1280px;margin:0 auto;padding:0 32px 56px;display:grid;grid-template-columns:1fr 320px;gap:64px;align-items:start}
 .ins-body h2{font-family:'Glaseer',sans-serif;font-size:30px;line-height:1.1;letter-spacing:.02em;text-transform:uppercase;margin:48px 0 20px;color:var(--ink)}
 .ins-body h2:first-child{margin-top:0}
-.ins-body h3{font-family:'Glaseer',sans-serif;letter-spacing:.02em;font-size:22px;text-transform:uppercase;margin:32px 0 14px;color:var(--ink)}
+.ins-body h3{font-family:'Glaseer',sans-serif;letter-spacing:.02em;font-size:22px;line-height:1.15;text-transform:uppercase;margin:32px 0 14px;color:var(--ink)}
 .ins-body p{font-size:17px;line-height:1.78;color:var(--gray-6);margin-bottom:24px}
 .ins-body strong{color:var(--ink);font-weight:600}
 .ins-body em{color:var(--gray-5);font-style:italic}
@@ -526,6 +526,8 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
 @media(max-width:600px){.table-wrap table{min-width:0;font-size:13.5px}.table-wrap thead th,.table-wrap tbody td{padding:9px 11px}:is(.ins-body,.post-body) .insight-data-table{min-width:0;font-size:12.5px}:is(.ins-body,.post-body) .insight-data-table th{padding:8px 8px;font-size:9.5px;letter-spacing:0}:is(.ins-body,.post-body) .insight-data-table td{padding:8px 8px}}
 /* mobile: tabelle insight con classe --stack diventano schede impilate (una riga per record, etichetta di colonna accanto al valore), per non scrollare di lato */
 @media(max-width:600px){:is(.ins-body,.post-body) .insight-data-table--stack{font-size:14px}:is(.ins-body,.post-body) .insight-data-table--stack thead{display:none}:is(.ins-body,.post-body) .insight-data-table--stack tr{display:block;padding:14px 0;border-top:1px solid rgba(255,255,255,.09)}:is(.ins-body,.post-body) .insight-data-table--stack tbody tr:first-child{border-top:none}:is(.ins-body,.post-body) .insight-data-table--stack td{display:flex;justify-content:space-between;align-items:baseline;gap:18px;padding:5px 2px;border:none;color:var(--gray-6)}:is(.ins-body,.post-body) .insight-data-table--stack td::before{content:attr(data-label);color:var(--gray-5);font-size:11px;text-transform:uppercase;letter-spacing:.04em;text-align:left}:is(.ins-body,.post-body) .insight-data-table--stack td:first-child{color:var(--teal);font-family:'Glaseer',sans-serif;font-size:16px;letter-spacing:.02em;text-transform:uppercase;padding:0 0 8px;justify-content:flex-start}:is(.ins-body,.post-body) .insight-data-table--stack td:first-child::before{display:none}}
+/* mobile: ogni tabella Markdown del sito (render hook render-table.html) si impila in schede, etichetta di colonna sopra il valore. Elimina lo scroll laterale anche sui testi lunghi */
+@media(max-width:600px){.table-wrap .md-table--stack{font-size:14.5px}.table-wrap .md-table--stack thead{display:none}.table-wrap .md-table--stack tr{display:block;padding:14px 16px;border-top:1px solid rgba(0,194,178,.3)}.table-wrap .md-table--stack tbody tr:first-child{border-top:none}.table-wrap .md-table--stack tbody tr:hover td{background:none}.table-wrap .md-table--stack td{display:block;padding:7px 0;border:none;text-align:left;color:var(--gray-6);line-height:1.5}.table-wrap .md-table--stack td::before{content:attr(data-label);display:block;color:var(--gray-5);font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px}.table-wrap .md-table--stack td:first-child{color:var(--teal);font-family:'Glaseer',sans-serif;font-size:16px;letter-spacing:.02em;text-transform:uppercase;padding:0 0 6px;line-height:1.15}.table-wrap .md-table--stack td:first-child::before{display:none}}
 .ins-body .insight-stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));border:var(--cut);margin:36px 0}
 .ins-body .insight-stat-card{padding:28px;border-right:var(--hairline)}
 .ins-body .insight-stat-card:last-child{border-right:none}
@@ -722,6 +724,7 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
   .post-sub{font-size:17px}
   .post-body{padding:0 18px 48px}
   .post-body h2{font-size:23px;margin:40px 0 16px}
+  .post-body h3{font-size:18px;margin:30px 0 12px}
   .post-body p,.post-body ul li,.post-body ol li{font-size:15.5px}
   .post-toc{padding:20px;margin-bottom:32px}
   .post-foot{padding:0 18px}
@@ -750,6 +753,7 @@ footer .ft-copy{text-align:center;color:var(--gray-4);padding:20px 32px;border-t
   .ins-divider{padding:0 18px;margin-bottom:32px}
   .ins-layout{grid-template-columns:1fr;gap:40px;padding:0 18px 48px}
   .ins-body h2{font-size:23px;margin:36px 0 16px}
+  .ins-body h3{font-size:18px;margin:28px 0 12px}
   .ins-body p{font-size:15.5px}
   .ins-sidebar{position:relative;top:auto}
   .ins-sources{padding:28px 18px}

@@ -16,7 +16,7 @@
 ---
 
 
-## Un'Italia digitale che funziona benissimo dentro e male fuori
+## Che cosa dice il report UE Digital Decade 2026 sulla sanità italiana
 
 Il 17 giugno 2026 la Commissione europea ha pubblicato la quarta edizione dello State of the Digital Decade, il rapporto annuale con cui monitora il progresso dei 27 Stati membri verso gli obiettivi digitali del 2030. Il country report dedicato all'Italia, contenuto nel documento SWD(2026) 155 PART 15/27, restituisce un'immagine articolata: il Paese monitora molto bene i propri obiettivi, con il 92 per cento dei target considerati on track, ma ha recepito soltanto il 13 per cento delle otto raccomandazioni che la Commissione gli aveva rivolto nel 2025. L'81 per cento dei cittadini italiani, sentiti dall'Eurobarometro 2026, considera la politica digitale una priorità alta o molto alta, e il 91 per cento chiede più programmi di educazione e competenze digitali.
 
@@ -28,9 +28,11 @@ Questa analisi non è una valutazione del Servizio Sanitario Nazionale, e non di
 
 I due passaggi che seguono ricostruiscono i due lati del paradosso: prima l'infrastruttura tecnica, dove l'Italia compete sul podio europeo, poi l'esperienza del cittadino, dove la stessa Italia si colloca all'ultimo posto tra i propri servizi digitali. Il quarto passaggio trae l'implicazione per il [marketing sanitario](/marketing-sanitario/) delle strutture private.
 
-## Cosa l'Italia ha costruito, e che in Europa pochi hanno
+## L'infrastruttura digitale della sanità italiana nel confronto europeo
 
 L'infrastruttura digitale della sanità italiana è una delle più sviluppate dell'Unione, e il country report 2026 lo documenta con precisione. Sull'indicatore relativo all'accesso ai fascicoli sanitari elettronici, l'Italia segna un punteggio di 89,93 su 100, superando la media UE di 86,51, con una crescita annua del 6,9 per cento (Commissione UE, Digital Decade 2026). Il [Fascicolo Sanitario Elettronico nella versione 2.0](/blog/fascicolo-sanitario-elettronico-per-strutture-private-cosa-cambia-e-come-prepararsi/) e l'Ecosistema Dati Sanitari hanno raggiunto, sempre nel 2026, stadi di maturità rilevanti: estensione dell'interoperabilità a livello nazionale, ampliamento dei documenti clinici disponibili, miglioramento della qualità e standardizzazione dei dati nel rispetto dell'organizzazione regionale dei servizi sanitari.
+
+### Quanti medici italiani usano il fascicolo sanitario elettronico
 
 Sul piano dell'adozione professionale, il dato è ancora più nitido. A febbraio 2026, il 95 per cento dei medici di medicina generale e dei pediatri italiani aveva trasmesso documenti firmati digitalmente o gestito ricette elettroniche attraverso il sistema nazionale, e l'iniziativa si sta estendendo a farmacisti, infermieri e ostetriche. Per tutti i tipi di documento sanitario previsti dalla normativa, incluso il Decreto FSE 2.0 del 7 settembre 2023, è disponibile una componente strutturata standardizzata basata sugli standard internazionali di scambio dei dati clinici CDA2 e FHIR.
 
@@ -38,13 +40,15 @@ Sul piano dell'adozione professionale, il dato è ancora più nitido. A febbraio
 Pochi sistemi sanitari pubblici in Europa hanno realizzato in così pochi anni una cornice digitale di questa ampiezza. Il problema italiano non è la mancanza di infrastruttura: è la sua resa per chi quella infrastruttura dovrebbe usarla.
 {{< /insight-pullquote >}}
 
+### La Legge 132/2025 e la prima regolamentazione dell'IA in sanità
+
 Il quadro normativo accompagna il primato infrastrutturale. La Legge 132 del settembre 2025 ha introdotto la prima regolamentazione organica dell'intelligenza artificiale in sanità in Italia, allineata all'AI Act europeo; la Strategia Italiana per l'Intelligenza Artificiale 2024-2026 identifica esplicitamente sanità e life sciences come settori prioritari, mentre una strategia dedicata alla sanità è in fase di elaborazione. Quindici organizzazioni italiane fanno già parte del Network of AI-powered Advanced Medical Centres, dedicato a prevenzione, individuazione precoce e diagnosi di tumori e malattie cardiovascolari.
 
 Sul fronte europeo, l'Italia non è destinataria passiva dei processi UE ma contributore attivo. Partecipa a MyHealth@EU, a TEHDAS 2 e a Xt-EHR, le tre iniziative che stanno definendo gli standard per lo scambio sicuro e interoperabile dei dati sanitari nell'European Health Data Space, ed è parte del progetto European Genomic Data Infrastructure. AGENAS, come ente pubblico nazionale, sta attuando un investimento finanziato dal PNRR per sviluppare un'infrastruttura di [intelligenza artificiale](/servizi/intelligenza-artificiale-sanita/) a supporto dell'assistenza primaria e di comunità, con riferimento specifico alle Case della Comunità. Altri progetti finanziati dal PNRR riguardano la digitalizzazione dei dipartimenti di emergenza e accettazione di primo e secondo livello e il consolidamento dell'uso del FSE da parte dei medici di medicina generale.
 
 In termini di investimento aggregato, l'Italia destina il 26,5 per cento del proprio Piano Nazionale di Ripresa e Resilienza alle politiche digitali, pari a 49,8 miliardi di euro, a cui si aggiungono 6,1 miliardi di fondi della politica di coesione dedicati alla trasformazione digitale. La domanda non è se l'infrastruttura esiste, perché esiste e funziona meglio della media europea. La domanda è cosa accade quando quella infrastruttura incontra il cittadino.
 
-## La parte del report che pochi citano
+## Il benchmark europeo sull'esperienza dei servizi sanitari digitali
 
 La stessa Commissione, nello stesso documento, misura non solo l'infrastruttura ma anche l'esperienza che i servizi pubblici digitali offrono al cittadino. Lo fa attraverso un benchmark europeo costruito per eventi di vita (life events): situazioni reali in cui un cittadino deve completare un percorso amministrativo online, dal trasloco alla nascita di un figlio, dall'iscrizione a un corso di studi all'accesso ai servizi sanitari. Per ciascun life event, il punteggio va da 0 a 100 e misura quanto un cittadino possa portare a termine il percorso in modo digitale dall'inizio alla fine, senza dover ricorrere a canali tradizionali o moduli cartacei.
 
@@ -64,7 +68,11 @@ Sul punteggio complessivo dei servizi pubblici digitali per i cittadini, l'Itali
 </table>
 {{< /insight-data >}}
 
+### La salute è il life event digitale peggiore in Italia
+
 La salute è il life event peggiore in assoluto dei servizi pubblici digitali italiani per il cittadino. Il distacco non è marginale: quasi 25 punti dal life event peggiore successivo, i trasporti, e oltre 30 punti dalla media degli altri eventi misurati. È un dato che la Commissione registra senza commento, ma che, accostato al primato sull'infrastruttura tecnica del passaggio precedente, descrive con precisione la distanza tra ciò che il sistema sanitario digitale italiano è in grado di fare e ciò che il cittadino è in grado effettivamente di usare.
+
+### Supporto, moduli precompilati e mobile: l'Italia sotto la media UE
 
 Gli indicatori trasversali sull'esperienza utente dei servizi digitali pubblici italiani confermano la fotografia. L'Italia segna 70,37 sul supporto all'utente, contro una media UE di 90,01: una quota relativamente più bassa di servizi italiani online offre strumenti di assistenza, aiuto guidato o canali di riscontro. Sui moduli online che ripresentano dati già in possesso della pubblica amministrazione, l'Italia segna 63,55 contro una media UE di 75,93; sulla trasparenza dell'erogazione dei servizi, 42,47 contro 60,82; sulla trasparenza della progettazione, 58,33 contro 71,81. Anche la fruibilità da mobile, pur alta in assoluto, resta sotto media, con 89,83 contro 97,35.
 
@@ -83,15 +91,19 @@ Gli indicatori trasversali sull'esperienza utente dei servizi digitali pubblici 
 
 Il quadro che ne emerge non è quello di un sistema arretrato. È quello di un sistema in cui la sofisticazione dell'infrastruttura non si traduce in un'esperienza altrettanto sofisticata per chi quella infrastruttura dovrebbe utilizzare. È un divario di superficie, non di sostanza, ma è esattamente la superficie con cui un cittadino si rapporta quando cerca, prenota, paga o riceve un servizio sanitario.
 
-## L'esperienza digitale come spazio di posizionamento competitivo
+## L'esperienza digitale del paziente come spazio di posizionamento
 
 Sulla base di quanto descritto, il cittadino italiano che accede ai servizi sanitari arriva con due aspettative compresenti, entrambe documentabili. La prima è la fiducia in un'infrastruttura digitale che funziona e che lui stesso, o i suoi familiari, hanno imparato a riconoscere: il Fascicolo Sanitario Elettronico esiste, la ricetta arriva al telefono, il referto si consulta da casa, le credenziali digitali sono diffuse. La seconda è la frustrazione di un'interfaccia pubblica con cui interagire resta operativamente faticoso, e che il benchmark europeo certifica come la peggiore tra tutti i suoi servizi digitali nazionali. Per chi gestisce una struttura sanitaria privata, queste due aspettative compresenti definiscono lo spazio competitivo del momento.
+
+### Che cosa può fare una struttura sanitaria privata sull'esperienza digitale
 
 Una struttura privata che oggi investe nella qualità dell'esperienza digitale del proprio paziente, dalla [pagina di prestazione e dalla prenotazione](/blog/landing-page-sanitaria-conversione/) fino al recupero del referto e al pagamento online, non sta inseguendo una moda: sta colmando un divario specifico, misurato a livello europeo, che il sistema pubblico in Italia non riesce ancora a chiudere. Lo sta facendo, peraltro, su un pubblico che la cornice digitale del Servizio Sanitario Nazionale ha già abituato all'idea che la sanità possa essere digitale, riducendo la fatica di alfabetizzazione che esisteva anche solo pochi anni fa.
 
 {{< insight-pullquote >}}
 Il privato non costruisce infrastruttura, che il pubblico ha già costruito meglio. Costruisce esperienza, che è precisamente quello che il pubblico, oggi, fatica a offrire.
 {{< /insight-pullquote >}}
+
+### Su quali terreni digitali può distinguersi una struttura sanitaria privata
 
 Tradotto in posizionamento operativo: i terreni dell'esperienza digitale su cui una struttura sanitaria privata può collocarsi sopra la media nazionale, oggi, sono gli stessi su cui il benchmark europeo certifica il divario del settore pubblico. La trasparenza nella descrizione del percorso di cura, l'assistenza nel processo di prenotazione, il riempimento automatico dei dati già noti del paziente, la qualità dell'interfaccia da mobile e la possibilità di completare un percorso amministrativo dall'inizio alla fine senza interruzioni sono tutti elementi che il country report misura e su cui l'Italia, nel suo complesso, è documentabilmente sotto media. È lo stesso punto in cui si gioca la conversione al [primo contatto con la struttura](/blog/front-office-di-una-clinica-privata-cosa-determina-la-conversione-al-primo-contatto/).
 

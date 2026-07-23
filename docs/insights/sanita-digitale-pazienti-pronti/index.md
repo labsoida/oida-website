@@ -20,6 +20,8 @@
 
 Il [marketing sanitario](/servizi/) degli ultimi anni ha adottato un assunto comodo: che il paziente sia ormai un utente digitale evoluto, capace di completare una prenotazione online, leggere un referto su un portale e interagire con un assistente automatico. Il Rapporto annuale ISTAT 2026 smentisce l'assunto con i numeri. Nel 2025, il 54,3 per cento delle persone di 16–74 anni possiede competenze digitali almeno di base nei cinque domini del quadro europeo di riferimento, un valore lontano dall'obiettivo dell'80 per cento fissato dalla Commissione europea per il 2030 e inferiore di 6,1 punti alla media dell'Unione (ISTAT 2026, §3.2.4).
 
+### Quanti italiani hanno davvero usato l'intelligenza artificiale
+
 Il dato sull'intelligenza artificiale è ancora più netto: soltanto il 19,9 per cento dei 16–74enni ha usato almeno una volta strumenti di IA, valore che colloca l'Italia al penultimo posto nella graduatoria europea, contro una media UE del 32,7 per cento. Anche tra i più giovani, dove l'uso sale al 47,2 per cento nella fascia 16–24 anni, la distanza dalla media europea (63,8 per cento) resta ampia. Per chi progetta la comunicazione di una struttura sanitaria, ignorare questi numeri significa parlare a un pubblico che non esiste ancora.
 
 {{< insight-callout label="Nota di posizionamento" >}}
@@ -28,7 +30,7 @@ Questa analisi non misura la digitalizzazione delle strutture sanitarie, ma quel
 
 I tre passaggi che seguono mettono a fuoco il paziente reale dietro i dati, il rapporto tra l'annuncio dell'IA e la sua diffusione effettiva, e il modo in cui un divario di questa portata si trasforma, per una struttura, da problema in spazio di posizionamento.
 
-## Il paziente reale non è quello dei convegni
+## Le competenze digitali del paziente reale per età, istruzione e territorio
 
 Le competenze digitali non sono distribuite in modo omogeneo, e i divari coincidono con le fasce di pubblico che molte strutture sanitarie servono ogni giorno. Il possesso di competenze almeno di base passa dal 60,0 per cento nel Nord al 56,9 per cento nel Centro fino al 44,8 per cento nel Mezzogiorno (ISTAT 2026, §3.2.4). Tra gli anziani il salto è ancora più ampio: il 62,8 per cento degli over 75 non usa Internet, una quota che scende al 32,9 per cento tra chi, nella stessa età, ha almeno il diploma. Il titolo di studio, più ancora dell'età anagrafica, separa chi è dentro e chi è fuori dalla Rete.
 
@@ -44,9 +46,11 @@ Le competenze digitali non sono distribuite in modo omogeneo, e i divari coincid
 </table>
 {{< /insight-data >}}
 
+### Chi resta escluso da un percorso di prenotazione solo online
+
 La conseguenza pratica si vede nell'uso dei servizi online, anche i più semplici. Nel 2025 il 34,3 per cento delle persone di 16 anni e più non ricorre all'identità digitale, il 33,2 per cento non effettua acquisti online e il 36,1 per cento non interagisce con la Pubblica amministrazione attraverso la Rete (ISTAT 2026, §3.2.4). Una struttura sanitaria che costruisce il proprio percorso di prenotazione interamente online, con autenticazione complessa e nessun canale alternativo, taglia fuori una parte consistente del proprio pubblico, e quella parte coincide spesso con chi ha più bisogno di cure: gli anziani, i meno istruiti e i residenti nel Mezzogiorno. È un punto che ritorna anche nella nostra analisi sul [front office come momento decisivo della conversione](/blog/front-office-di-una-clinica-privata-cosa-determina-la-conversione-al-primo-contatto/).
 
-## L'intelligenza artificiale tra annuncio e diffusione reale
+## L'adozione reale dell'intelligenza artificiale tra imprese e pazienti
 
 Lo scarto tra il racconto dell'IA e la sua adozione effettiva vale anche dal lato delle imprese, e quindi delle strutture sanitarie private, che sono in larga parte piccole e medie organizzazioni. Le imprese con almeno dieci addetti che hanno usato almeno una tecnologia di IA sono il 16,4 per cento nel 2025, una quota più che triplicata in due anni ma molto disomogenea per dimensione (ISTAT 2026, §4.3.1).
 
@@ -62,19 +66,27 @@ Lo scarto tra il racconto dell'IA e la sua adozione effettiva vale anche dal lat
 </table>
 {{< /insight-data >}}
 
+### Dove l'intelligenza artificiale rende oggi in una struttura sanitaria
+
 Oltre metà delle imprese sotto i 250 addetti che hanno considerato l'IA senza adottarla indica come ostacolo principale la mancanza di competenze interne, non il costo. Lo stesso freno che ISTAT rileva tra i cittadini, dove l'uso dell'IA sale dal 3,6 per cento tra chi ha al massimo la licenza media al 32,0 per cento tra chi ha un titolo terziario, si ripresenta dentro le organizzazioni. Per una struttura sanitaria privata, questo ha una doppia implicazione: l'[intelligenza artificiale è una possibilità concreta nel back office](/servizi/intelligenza-artificiale-sanita/), dalla gestione dei contatti al [CRM sanitario](/servizi/crm-automation-sanita/), ma è prematura come interfaccia rivolta a un paziente che, nella maggioranza dei casi, non ha ancora dimestichezza con questi strumenti.
 
 {{< insight-pullquote >}}
 Investire in un assistente intelligente rivolto al paziente, in un paese dove quattro persone su cinque non hanno mai usato l'IA, significa costruire una porta che il pubblico non sa ancora aprire.
 {{< /insight-pullquote >}}
 
+### La fiducia del paziente in un ambiente informativo inaffidabile
+
 C'è poi un dato che riguarda direttamente la fiducia, materia prima di qualsiasi relazione di cura: il 38,3 per cento delle persone dichiara di aver incontrato online contenuti falsi o dubbi, e di queste solo una parte ne ha verificato l'attendibilità. In un ambiente informativo in cui il paziente fatica a distinguere la fonte affidabile da quella inattendibile, l'autorevolezza dichiarata e verificabile di una struttura vale più di qualsiasi automazione.
 
-## Il divario come vincolo e come spazio di posizionamento
+## Il divario digitale come vincolo e come spazio per una struttura sanitaria
 
 Un divario digitale di questa ampiezza si legge in due modi. Il primo è il vincolo: una strategia di comunicazione sanitaria che presuppone un pubblico interamente connesso esclude le fasce con meno competenze, che sono anche quelle con maggiori bisogni di salute. Le famiglie in cui almeno un componente possiede competenze adeguate sono il 50,1 per cento nel Sud contro il 60,0 per cento nel Centro-nord, e tra le più svantaggiate figurano gli anziani soli e i nuclei con bassi titoli di studio (ISTAT 2026, §3.2.4). Per una struttura che opera in questi territori o si rivolge a questi pazienti, il canale digitale puro non basta, e affiancarlo a un front office umano efficiente non è un costo ma una condizione di accesso.
 
+### Che cosa significa una comunicazione sanitaria accessibile
+
 Il secondo modo di leggere il divario è lo spazio. In un panorama in cui molte strutture inseguono l'automazione e danno per scontata la competenza del paziente, chi progetta una comunicazione accessibile raggiunge proprio il pubblico che gli altri perdono. Accessibile significa percorsi di prenotazione semplici, alternative al canale online, linguaggio chiaro al posto del gergo tecnico, e segnali di affidabilità leggibili anche da chi non sa verificare una fonte. Non è un ritorno all'analogico: è la scelta di calibrare il digitale sul livello reale di alfabetizzazione del pubblico, invece che su quello desiderato.
+
+### Il territorio cambia la resa dell'investimento digitale in sanità
 
 La distinzione vale anche sul territorio. Una struttura del Centro-nord che si rivolge a un pubblico urbano e istruito può spingere su servizi digitali avanzati; una struttura del Mezzogiorno o che serve una popolazione anziana deve costruire prima la fiducia e l'accesso, e solo dopo la sofisticazione tecnologica. Lo stesso investimento digitale produce risultati opposti a seconda del pubblico a cui è rivolto.
 

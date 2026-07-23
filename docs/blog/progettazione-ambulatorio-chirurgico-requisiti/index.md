@@ -20,17 +20,21 @@ Questo articolo spiega, a livello informativo e non di consulenza autorizzativa,
 
 ---
 
-1. [Cornice nazionale, requisiti regionali: come leggere la normativa](#cornice-nazionale-requisiti-regionali)
+1. [Cornice nazionale e requisiti regionali dell'ambulatorio chirurgico](#cornice-nazionale-requisiti-regionali)
 2. [Ambulatorio chirurgico, chirurgia ambulatoriale e day surgery](#ambulatorio-chirurgico-chirurgia-ambulatoriale-e-day-surgery)
-3. [I tre requisiti: strutturali, tecnologici e organizzativi](#i-tre-requisiti-strutturali-tecnologici-e-organizzativi)
+3. [I requisiti strutturali, tecnologici e organizzativi di un ambulatorio](#i-tre-requisiti-strutturali-tecnologici-e-organizzativi)
 4. [Perché il progetto degli spazi è una decisione strategica](#perche-il-progetto-degli-spazi-e-una-decisione-strategica)
 5. [FAQ](#faq)
 
 ---
 
-## Cornice nazionale, requisiti regionali
+## Cornice nazionale e requisiti regionali dell'ambulatorio chirurgico {#cornice-nazionale-requisiti-regionali}
+
+### Su quale normativa si fonda l'autorizzazione di una struttura sanitaria
 
 La prima cosa da capire è dove guardare. In Italia l'esercizio delle attività sanitarie da parte delle strutture private è soggetto ad autorizzazione, sulla base del D.Lgs. 502/1992 e successive modificazioni. I requisiti minimi comuni sono fissati dal D.P.R. 14 gennaio 1997, l'atto di indirizzo e coordinamento noto come Decreto Bindi, che li raggruppa in requisiti strutturali, tecnologici e organizzativi e ne demanda alle Regioni l'accertamento, con una verifica periodica della loro permanenza. Questa base non è rimasta ferma al 1997: è stata aggiornata a livello nazionale, in particolare con l'Intesa Stato-Regioni del 20 dicembre 2012 sulla revisione della normativa dell'accreditamento, e integrata dalle Regioni con requisiti propri più recenti.
+
+### Perché i requisiti puntuali vanno letti sulla normativa regionale
 
 Il punto operativo è che la cornice è nazionale, ma i requisiti puntuali e le procedure sono disciplinati da ciascuna Regione. Non esiste un unico standard italiano dell'ambulatorio chirurgico: esiste una base comune e tante declinazioni regionali, che possono differire su metrature, dotazioni, impianti e organizzazione, e che vengono aggiornate nel tempo. Per la chirurgia ambulatoriale la disciplina poggia anche su riferimenti nazionali più recenti, come il D.M. 70/2015 e il D.P.C.M. del 12 gennaio 2017 sui livelli essenziali di assistenza, che rimandano comunque alle Regioni la classificazione delle strutture. Chiunque legga un requisito deve quindi chiedersi a quale Regione appartiene e a quale anno risale, e affidare la lettura definitiva alla normativa vigente nel proprio territorio e al direttore sanitario, non a una fonte generica. È lo stesso principio di prudenza che vale per tutta la [normativa della comunicazione sanitaria](/blog/ai-normativa-pubblicita-sanitaria/): la fonte va verificata aggiornata, non ricostruita a memoria.
 
@@ -38,13 +42,19 @@ Il punto operativo è che la cornice è nazionale, ma i requisiti puntuali e le 
 
 Le tre espressioni non sono sinonimi, e la differenza cambia i requisiti. La chirurgia ambulatoriale comprende gli interventi e le procedure invasive o semi-invasive eseguibili senza ricovero, in anestesia locale o loco-regionale. La day surgery è invece un regime di ricovero a ciclo diurno, disciplinato dall'Accordo Stato-Regioni del 1° agosto 2002. La prima è attività eseguita fuori dal ricovero, la seconda è un ricovero breve.
 
+### I livelli di complessità della chirurgia ambulatoriale
+
 Dentro la chirurgia ambulatoriale, gli atti regionali distinguono a loro volta livelli di complessità, da procedure semplici su cute e annessi in anestesia per infiltrazione fino a interventi più avanzati con breve sorveglianza post-operatoria. La conseguenza è netta e va colta prima di progettare: più cresce la complessità e l'invasività degli interventi previsti, più lo standard strutturale e impiantistico si avvicina a quello di una sala operatoria vera e propria, con zone filtro, percorsi separati e impianti dedicati. Il livello di attività che si intende svolgere non è un dettaglio clinico da definire dopo: è la variabile che determina il progetto.
 
-## I tre requisiti: strutturali, tecnologici e organizzativi
+## I requisiti strutturali, tecnologici e organizzativi di un ambulatorio {#i-tre-requisiti-strutturali-tecnologici-e-organizzativi}
 
 La ripartizione del D.P.R. 14 gennaio 1997 è utile come mappa. I requisiti strutturali riguardano gli spazi e i percorsi: i locali correlati al tipo e al volume delle prestazioni, le superfici, le zone dedicate e la separazione tra materiale pulito e sporco. I requisiti tecnologici riguardano gli impianti e le dotazioni: ventilazione, impianto elettrico, apparecchiature e dispositivi. I requisiti organizzativi riguardano la gestione: il personale, le procedure, il sistema di qualità e la documentazione.
 
+### Come i requisiti si traducono negli spazi di un ambulatorio chirurgico
+
 Questi requisiti prendono forma concreta a livello regionale, ed è lì che vanno letti. In Lombardia, il mercato principale del settore sanitario privato italiano, il quadro è definito dal Testo unico delle leggi regionali in materia di sanità (L.R. 33/2009) e dalla riforma del sistema sociosanitario (L.R. 23/2015), e il procedimento per l'esercizio di una struttura ambulatoriale si svolge presso l'Agenzia di Tutela della Salute territorialmente competente. Sul piano operativo, per un ambulatorio chirurgico i tre tipi di requisito si traducono in locali dimensionati sul tipo e sul volume delle prestazioni, superfici lavabili e disinfettabili, separazione fisica dei percorsi e dei depositi tra pulito e sporco, impianti di ventilazione e una classificazione elettrica dei locali a uso medico conforme alle norme tecniche, oltre alle dotazioni cliniche e di emergenza e alla documentazione degli interventi. I valori puntuali, come le metrature minime dei locali o i ricambi d'aria, sono fissati dalla normativa regionale e vanno verificati sul testo vigente nella Regione in cui si opera: non esiste un numero valido ovunque.
+
+### Il ruolo del direttore sanitario nella conformità della struttura
 
 La responsabilità di tenere insieme questi tre piani fa capo al direttore sanitario, che cura l'organizzazione tecnico-sanitaria della struttura, valida l'elenco delle prestazioni erogabili e comunica il proprio incarico all'Ordine, come previsto dall'art. 69 del Codice di Deontologia Medica. Anche i suoi requisiti e l'impegno orario minimo sono stabiliti dalla singola Regione e differiscono.
 
@@ -52,7 +62,11 @@ La responsabilità di tenere insieme questi tre piani fa capo al direttore sanit
 
 Da tutto questo discende la ragione per cui la progettazione di un ambulatorio chirurgico non è un tema estetico. Metrature minime, superfici lavabili, separazione dei flussi tra pulito e sporco, ventilazione e classificazione elettrica dei locali sono requisiti cogenti ai fini dell'autorizzazione, non abbellimenti. E poiché il livello di complessità degli interventi determina lo standard richiesto, il progetto degli spazi decide, in concreto, quali prestazioni la struttura potrà essere autorizzata a erogare.
 
+### Quando dimensionare il layout dell'ambulatorio sul livello di attività
+
 Questo cambia il momento in cui la progettazione va affrontata. Dimensionare il layout sul livello di attività previsto fin dall'inizio evita l'errore più costoso: aprire con uno standard tarato al ribasso e doverne rifare gli spazi e gli impianti per ampliare la gamma di prestazioni. Il progetto degli ambienti chirurgici richiede una competenza che tiene insieme tre linguaggi che di solito restano separati: quello architettonico dei percorsi e degli impianti, quello clinico di come si lavora davvero in una sala, e quello normativo dei requisiti che l'autorizzazione impone. È la ragione per cui OIDA Labs affronta la [progettazione di ambienti chirurgici](/servizi/progettazione-ambienti-chirurgici/) con un architetto e con medici nello stesso team, come descritto nel profilo di [Andrea Pisoni](/team/andrea-pisoni/), Head of Healthcare Design & Build.
+
+### Cosa il paziente percepisce degli spazi di una struttura chirurgica
 
 C'è infine un piano che tiene insieme la conformità e il posizionamento della struttura. Gli stessi elementi che la norma impone, come la separazione dei percorsi, l'area riservata alla preparazione del paziente e la cura degli ambienti, sono anche ciò che il paziente percepisce come sicurezza e competenza. Uno spazio progettato bene non è solo autorizzabile: è un segnale di affidabilità che precede la prestazione, e che nessuna comunicazione può sostituire.
 

@@ -32,6 +32,8 @@ La scelta di un'agenzia di **marketing sanitario** è una decisione che incide s
 
 La prima distinzione utile riguarda la profondità della competenza settoriale. Il **marketing sanitario** ha dinamiche che non si trovano in altri mercati: il paziente decide in tempi brevi, spesso in una condizione emotiva particolare, e filtra le opzioni attraverso un sistema di fiducia diverso da quello che regola altri acquisti. Le stagionalità delle patologie (il picco delle richieste ortopediche a settembre, la domanda cardiologica invernale, la curva primaverile della chirurgia estetica) orientano in modo significativo la pianificazione media.
 
+### Che cosa sa un'agenzia che lavora stabilmente in sanità
+
 Un'agenzia che lavora stabilmente nel settore ha internalizzato questi elementi. Conosce i tempi medi di risposta a un lead sanitario, capisce il peso della reputazione del singolo professionista rispetto alla reputazione della struttura, sa distinguere tra specialità ad alto commitment decisionale e specialità a conversione rapida. Questa familiarità si riflette nelle scelte di targeting, nella costruzione delle creatività e nell'allocazione del budget lungo l'anno. In un settore in cui il 69% dei pazienti considera le recensioni un elemento determinante nella scelta della struttura (Nomisma, 2024), la reputazione digitale non è un accessorio ma un canale di acquisizione, e un'agenzia settoriale la governa come tale.
 
 > Il criterio operativo è semplice: chiedere quali specialità ha presidiato l'agenzia, su quali volumi, con quali benchmark di conversione. Le risposte che includono numeri (CPL medi, conversion rate lead-paziente, durata tipica dei cicli di campagna) sono quelle che dimostrano lavoro sul campo.
@@ -40,15 +42,23 @@ Un'agenzia che lavora stabilmente nel settore ha internalizzato questi elementi.
 
 La seconda differenza si misura sulla metrica primaria. Il **CPL**, costo per lead, indica quanto costa generare un contatto. Il **CAC**, costo di acquisizione per paziente, indica quanto costa trasformare quel contatto in una visita effettivamente svolta. Tra i due numeri esiste spesso una distanza significativa, [ne abbiamo parlato in dettaglio in un articolo dedicato alla differenza tra CPL e CAC](/blog/cpl-cac-marketing-sanitario-metrica-redditivita/), e gestirla è ciò che separa una campagna tecnicamente corretta da una campagna economicamente sostenibile.
 
+### La distanza tra CPL e CAC nei progetti sanitari
+
 Nei progetti che OIDA Labs segue direttamente, la distanza tra i due indicatori può risultare rilevante. Una campagna tarata correttamente sul CPL può convivere con un CAC molto più alto del previsto quando il funnel a valle del click non è strutturato per convertire: tempi di risposta dilatati, tassi di show non monitorati, sequenze di reminder assenti.
 
+### Il tempo di prima risposta a una richiesta del paziente
+
 Il tempo di prima risposta è la variabile più sottovalutata del funnel. La ricerca sul lead response management documenta che ricontattare una richiesta entro la prima ora aumenta di circa sette volte la probabilità di qualificarla, e che solo il 37% delle organizzazioni rispetta tale soglia (Harvard Business Review, 2011). Un'agenzia che accetta di essere misurata sul CAC pretende quindi che il front office risponda con tempestività, poiché è in quel passaggio che si determina la conversione.
+
+### Il coinvolgimento dell'agenzia nel follow-up interno della struttura
 
 Un'agenzia specializzata lavora su entrambe le metriche. Ottimizza la generazione dei lead, ma misura anche il tasso di conversione lead-paziente e, dove possibile, contribuisce a strutturare il processo di follow-up interno. Questo approccio richiede di entrare nella meccanica operativa della struttura cliente, capire come vengono gestite le richieste in arrivo, quali [strumenti di CRM sanitario](/blog/crm-sanitario-poliambulatorio-perche-strutture-perdono-pazienti/) sono disponibili, come il personale di front-office viene coinvolto. **Chiedere in fase di valutazione come l'agenzia misura il CAC, e non solo il CPL, è un indicatore immediato del livello di lavoro offerto.**
 
 ## Continuità tra presentazione commerciale e gestione operativa
 
 Il terzo criterio riguarda la coerenza tra chi presenta il servizio e chi poi lo eroga. Nella fase commerciale il confronto avviene tipicamente con un account senior o con un socio dell'agenzia. L'operatività quotidiana (gli interventi sulle campagne, i report, la gestione creativa) può poi essere affidata a figure con seniority e specializzazione differenti.
+
+### Seniority e continuità di conoscenza del contesto clinico
 
 Non è la seniority in sé a fare la differenza. È la **continuità di conoscenza del cliente**. In un settore dove ogni decisione creativa e strategica è influenzata dal contesto clinico, la persona che gestisce operativamente il progetto deve avere la stessa comprensione del settore che ha chi ha condotto la presentazione iniziale.
 
@@ -64,6 +74,8 @@ Le risposte forniscono un'indicazione più accurata di qualsiasi portfolio prese
 
 Il quarto criterio si gioca sull'architettura dell'accordo. Un'agenzia che lavora con metodo definisce gli obiettivi prima di iniziare in termini misurabili: non formule generiche come "aumentare la visibilità", ma parametri specifici come *"portare il CPL sotto una soglia X entro novanta giorni"* o *"incrementare il tasso di show degli appuntamenti fissati del Y%"*.
 
+### Che cosa dipende dall'agenzia e che cosa dalla struttura sanitaria
+
 Un buon accordo distingue con chiarezza ciò che dipende dall'agenzia e ciò che dipende dalla struttura. Una campagna ottimizzata produce lead qualificati; la conversione in pazienti dipende dalla velocità di risposta, dalla formazione del front-office, dalla disponibilità delle agende, dal processo di follow-up. Un'agenzia che accetta di essere misurata sul CAC pretende anche che questi elementi vengano gestiti a monte, e mette nero su bianco i rispettivi perimetri di responsabilità.
 
 > Questa chiarezza contrattuale è ciò che rende sostenibile il rapporto nel tempo. Indica un metodo di lavoro basato su accountability reciproca, non su aspettative implicite.
@@ -71,6 +83,8 @@ Un buon accordo distingue con chiarezza ciò che dipende dall'agenzia e ciò che
 ## Il criterio che le presentazioni commerciali non dichiarano: il rischio normativo {#il-rischio-normativo}
 
 Ai quattro criteri se ne aggiunge uno che distingue più nettamente chi opera in sanità da chi vi si affaccia da altri settori: la padronanza del perimetro normativo. La comunicazione sanitaria è regolata, e la linea tra informazione lecita ed elemento attrattivo o suggestivo è sottile e valutata caso per caso dagli Ordini; un'agenzia che non la conosce può costruire una campagna efficace sul piano dei numeri e sanzionabile su quello deontologico.
+
+### Chi risponde di una comunicazione sanitaria non conforme
 
 Il punto raramente esplicitato in fase commerciale è la ripartizione della responsabilità: una comunicazione non conforme non espone l'agenzia, ma il professionista e il Direttore Sanitario della struttura, anche quando il contenuto è stato prodotto da terzi. Valutare un'agenzia di marketing sanitario significa dunque verificare che sappia distinguere ciò che la legge consente da ciò che gli Ordini ricostruiscono in via interpretativa, e che progetti le campagne dentro quel perimetro. È la differenza tra un fornitore che espone la struttura e un partner che la protegge.
 
