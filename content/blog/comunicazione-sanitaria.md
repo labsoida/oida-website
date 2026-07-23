@@ -20,7 +20,9 @@ faqs:
   - q: "La comunicazione interna fa parte della comunicazione sanitaria?"
     a: "Sì. Il front office è comunicazione a tutti gli effetti: il primo contatto telefonico o digitale determina la percezione della struttura prima della visita, e una comunicazione esterna curata che si scontra con un primo contatto trascurato perde la fiducia appena costruita. La coerenza tra ciò che si comunica all'esterno e ciò che il pubblico sperimenta al primo contatto è parte della comunicazione."
   - q: "Come si misura l'efficacia della comunicazione sanitaria?"
-    a: "Non si misura sul costo per contatto della singola campagna, ma su indicatori di autorità accumulata: la crescita delle ricerche dirette del nome della struttura, la presenza su fonti autorevoli, il volume e la qualità delle recensioni e il tasso di conversione del traffico, che migliora quando la fiducia è già stata costruita. Sono metriche più lente della pubblicità, ma misurano una risorsa che non si esaurisce con il budget."
+    a: "Si misura su indicatori di autorità accumulata più che sul costo per contatto della singola campagna: la crescita delle ricerche dirette del nome della struttura, la presenza su fonti autorevoli, il volume e la qualità delle recensioni e il tasso di conversione del traffico, che migliora quando la fiducia è già stata costruita. Sono metriche più lente della pubblicità, e misurano una risorsa che non si esaurisce con il budget."
+  - q: "Un medico può pubblicare contenuti sui social senza violare il Codice Deontologico?"
+    a: "Sì, se resta nel registro dell'informazione. Il Codice di Deontologia Medica (art. 55) chiede al medico che fa divulgazione di evitare la pubblicità diretta o indiretta della propria attività e la promozione delle proprie prestazioni. Un contenuto che spiega una condizione o una procedura è ammesso; un contenuto che, con la scusa della divulgazione, promuove sé stessi o alimenta aspettative supera la linea. È il motivo per cui il content marketing sanitario rende quando informa e diventa un problema quando si trasforma in autopromozione."
 draft: false
 ---
 

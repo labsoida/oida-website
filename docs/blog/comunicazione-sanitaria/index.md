@@ -91,7 +91,11 @@ Sì. Il front office è comunicazione a tutti gli effetti: il primo contatto tel
 
 **Come si misura l'efficacia della comunicazione sanitaria?**
 
-Non si misura sul costo per contatto della singola campagna, ma su indicatori di autorità accumulata: la crescita delle ricerche dirette del nome della struttura, la presenza su fonti autorevoli, il volume e la qualità delle recensioni e il tasso di conversione del traffico, che migliora quando la fiducia è già stata costruita. Sono metriche più lente della pubblicità, ma misurano una risorsa che non si esaurisce con il budget.
+Si misura su indicatori di autorità accumulata più che sul costo per contatto della singola campagna: la crescita delle ricerche dirette del nome della struttura, la presenza su fonti autorevoli, il volume e la qualità delle recensioni e il tasso di conversione del traffico, che migliora quando la fiducia è già stata costruita. Sono metriche più lente della pubblicità, e misurano una risorsa che non si esaurisce con il budget.
+
+**Un medico può pubblicare contenuti sui social senza violare il Codice Deontologico?**
+
+Sì, se resta nel registro dell'informazione. Il Codice di Deontologia Medica (art. 55) chiede al medico che fa divulgazione di evitare la pubblicità diretta o indiretta della propria attività e la promozione delle proprie prestazioni. Un contenuto che spiega una condizione o una procedura è ammesso; un contenuto che, con la scusa della divulgazione, promuove sé stessi o alimenta aspettative supera la linea. È il motivo per cui il content marketing sanitario rende quando informa e diventa un problema quando si trasforma in autopromozione.
 
 
 ---

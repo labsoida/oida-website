@@ -118,7 +118,11 @@ L'advertising sanitario in Italia è regolato ma non bloccato. Le strutture che 
 
 **Una struttura sanitaria privata può usare Google Ads per promuovere un check-up o una promozione stagionale?**
 
-Le promozioni temporanee su prestazioni specifiche rientrano in una zona normativa da gestire con attenzione. La normativa italiana vieta la pubblicità sanitaria che tende a promuovere il consumo di prestazioni sanitarie in modo lesivo della dignità professionale. Una campagna su un check-up di primavera a prezzo ridotto può essere percepita come borderline. La consulenza di un legale esperto in diritto sanitario sulla specifica comunicazione è la scelta più prudente.
+No, se la promozione ha la forma di un'offerta a tempo o di uno sconto. La Legge 145/2018 (comma 525), come modificata nel 2023, esclude espressamente offerte, sconti e promozioni tra gli elementi attrattivi e suggestivi non ammessi, e un check-up di primavera a prezzo ridotto ricade in questa categoria. La struttura può invece comunicare in modo lecito il check-up e il suo prezzo trasparente: ciò che la norma esclude è la meccanica promozionale che trasforma il numero in urgenza, non l'informazione sulla prestazione.
+
+**Che cosa vietano Google e Meta alle campagne sanitarie?**
+
+Le due piattaforme intervengono su fronti diversi. Google classifica la salute tra le categorie di interesse sensibili e disattiva gli strumenti di pubblico proprietario: niente Customer Match, remarketing su liste proprie, audience expansion o segmenti simili. Meta agisce sulla creatività e vieta di formulare l'annuncio in modo che insinui di conoscere la condizione medica di chi legge; nei suoi esempi ufficiali "Nuove cure per il diabete disponibili" è ammesso, "Hai il diabete?" no. Le regole delle piattaforme si sommano a quelle di legge, non le sostituiscono.
 
 **Le campagne Google Ads per strutture sanitarie richiedono una certificazione specifica in Italia?**
 
