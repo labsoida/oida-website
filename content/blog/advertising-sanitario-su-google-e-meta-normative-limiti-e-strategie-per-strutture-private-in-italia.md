@@ -10,7 +10,7 @@ image_alt: "Advertising sanitario su Google e Meta: normative, limiti e strategi
 tags: ["advertising", "normativa"]
 servizio: "advertising-sanitario"
 keywords: "advertising sanitario Google Meta strutture private, campagne Google Ads cliniche private, Meta Ads strutture sanitarie normativa, pubblicità sanitaria online regole, Google Ads sanità privata Italia"
-sources: "Legge 145/2018 (comma 525) come modificata dal D.L. 69/2023 convertito in Legge 103/2023; Decreto Bersani (D.L. 223/2006); Codice di Deontologia Medica FNOMCeO, artt. 55-57; Garante per la Protezione dei Dati Personali (provvedimenti tracciamento web sanità 2022-2024); Google Healthcare and medicines advertising policies (2025); Meta Advertising policies: health and wellness (2025); Dati interni OIDA Labs (analisi campagne Search su strutture sanitarie private 2023-2025)."
+sources: "Legge 145/2018 (comma 525) come modificata dal D.L. 69/2023 convertito in Legge 103/2023; Decreto Bersani (D.L. 223/2006); Codice di Deontologia Medica FNOMCeO, artt. 55-57; Garante per la Protezione dei Dati Personali, provvedimento del 9 giugno 2022 su Google Analytics (Caffeina Media) e Linee guida sull'uso dei cookie 2021; Google Healthcare and medicines advertising policies; Meta Advertising Standards, Health and Wellness; Dati interni OIDA Labs (analisi campagne Search su strutture sanitarie private 2023-2025)."
 faqs:
   - q: "Una struttura sanitaria privata può usare Google Ads per promuovere un check-up o una promozione stagionale?"
     a: "Le promozioni temporanee su prestazioni specifiche rientrano in una zona normativa da gestire con attenzione. La normativa italiana vieta la pubblicità sanitaria che tende a promuovere il consumo di prestazioni sanitarie in modo lesivo della dignità professionale. Una campagna su un check-up di primavera a prezzo ridotto può essere percepita come borderline. La consulenza di un legale esperto in diritto sanitario sulla specifica comunicazione è la scelta più prudente."
@@ -64,7 +64,7 @@ La Search di Google è il canale pubblicitario più diretto per le strutture san
 
 Le campagne Search per strutture sanitarie funzionano meglio quando sono segmentate per specialità, non per struttura. Una campagna che intercetta "visita cardiologica privata Milano" o "ecografia addome prenotazione Torino" ha un intento di ricerca molto più qualificato di una campagna su "clinica privata Milano". Il volume è inferiore, il costo per click può essere più alto, ma il tasso di conversione è significativamente superiore. Gli schemi che bruciano budget su Search, dalla keyword generica all'assenza di tracciamento, sono analizzati in dettaglio nell'articolo sugli [errori di campagna Google Ads delle strutture sanitarie](/blog/google-ads-strutture-sanitarie-errori-campagna/).
 
-> Dati interni OIDA Labs su campagne Search per strutture sanitarie private gestite tra il 2023 e il 2025 mostrano che le **campagne segmentate per specialità producono un CAC mediamente inferiore del 38%** rispetto alle campagne sulla keyword generica della struttura, a parità di budget mensile.
+> Nella nostra esperienza operativa sulle campagne Search per strutture sanitarie private gestite tra il 2023 e il 2025, le **campagne segmentate per specialità mostrano un CAC inferiore di circa il 38%** rispetto alle campagne sulla keyword generica della struttura, a parità di budget mensile.
 
 ### Display e YouTube: brand awareness con limitazioni
 

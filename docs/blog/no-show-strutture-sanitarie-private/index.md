@@ -35,6 +35,8 @@ Una struttura che spende per acquisire pazienti e poi ne perde una quota all'ult
 
 I dati interni OIDA Labs su strutture monitorate tra il 2023 e il 2025 mostrano tassi di mancata presentazione che oscillano, a seconda della specialità e del canale di prenotazione, tra una quota contenuta e una abbastanza alta da incidere in modo sensibile sulla saturazione dell'agenda. La variabilità è il dato interessante: dipende da come l'appuntamento è stato fissato, da quanto tempo prima e da quanto contatto c'è stato tra la prenotazione e la visita.
 
+Per dare un ordine di grandezza al fenomeno, uno studio su un ampio sistema ospedaliero pubblico statunitense (Veterans Affairs) ha rilevato un tasso medio di mancata presentazione del 18,8%, con differenze marcate tra le specialità (Kheirkhah et al., BMC Health Services Research, 2016). È un contesto sanitario diverso da quello di una struttura privata italiana, e va letto come misura della portata del problema più che come parametro di riferimento diretto.
+
 La perdita non è solo lo slot vuoto. È il paziente che era in lista e che avrebbe occupato quello spazio, il tempo del professionista pagato a vuoto e il costo di acquisizione di un paziente che non genererà la prima visita né le successive. Sommati, questi effetti rendono il no-show una delle inefficienze più costose e meno presidiate di una struttura privata.
 
 ## Come si calcola il costo reale di una mancata presentazione

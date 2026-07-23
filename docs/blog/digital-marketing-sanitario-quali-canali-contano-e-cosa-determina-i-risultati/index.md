@@ -68,7 +68,7 @@ Le specificità normative dell'advertising sanitario sono analizzate nell'artico
 
 Il profilo Google Business è **il canale con il miglior rapporto tra investimento e impatto immediato** per le strutture sanitarie private nelle prime fasi di costruzione della visibilità digitale. Non richiede budget pubblicitario ed è determinante per la visibilità nella ricerca locale.
 
-Il **46% dei pazienti cerca la struttura sanitaria su Google Maps prima di decidere dove prenotare** (BrightLocal 2024). Per le strutture che non hanno ancora curato il proprio profilo, il recupero di visibilità in questa area è tra gli interventi a più alto ritorno nel breve termine. Il tema è approfondito nell'articolo su [Google Business Profile e marketing sanitario](/blog/google-business-profile-marketing-sanitario-profili-non-producono-risultati/).
+Il **47% dei pazienti ricorre a Google per individuare la struttura sanitaria** a cui rivolgersi (Nomisma, indagine Salute e benessere 2024). Per le strutture che non hanno ancora curato il proprio profilo, il recupero di visibilità in questa area è tra gli interventi a più alto ritorno nel breve termine. Il tema è approfondito nell'articolo su [Google Business Profile e marketing sanitario](/blog/google-business-profile-marketing-sanitario-profili-non-producono-risultati/).
 
 ## Social media: quale ruolo in una strategia sanitaria
 
@@ -101,7 +101,7 @@ Il digital marketing sanitario non è un canale: è un insieme di strumenti che 
 
 **Quanto budget serve per fare digital marketing sanitario in modo efficace?**
 
-Per campagne pubblicitarie su Google e Meta, strutture di dimensioni medie lavorano generalmente con budget tra €1.500 e €5.000 al mese per l'advertising, escluse le fee di gestione. Il SEO e il presidio del profilo Google Business hanno costi di gestione inferiori ma richiedono continuità nel tempo.
+Per campagne pubblicitarie su Google e Meta, nella nostra esperienza le strutture di dimensioni medie che seguiamo lavorano con budget tra €1.500 e €5.000 al mese per l'advertising, escluse le fee di gestione. Il SEO e il presidio del profilo Google Business hanno costi di gestione inferiori ma richiedono continuità nel tempo.
 
 **I social media servono davvero a una struttura sanitaria?**
 

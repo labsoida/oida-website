@@ -109,7 +109,7 @@ Per una struttura privata è un messaggio forte, e vero: la storia clinica del p
 
 ### Le sanzioni del Garante sul tracciamento degli accessi al FSE
 
-Non è materia solo di immagine. Il Garante applica queste regole a qualsiasi struttura, pubblica o privata: in un caso recente ha sanzionato con 80.000 euro una realtà sanitaria per un tracciamento degli accessi incompleto e per l'impossibilità di oscurare singoli eventi clinici. La conformità sostanziale, qui, è essa stessa un elemento di reputazione, e la sua responsabilità ultima resta del titolare del trattamento e del direttore sanitario.
+Non è materia solo di immagine. Il Garante applica le regole sul tracciamento degli accessi e sull'oscuramento a qualsiasi struttura, pubblica o privata, e gli stessi principi valgono per il Fascicolo: in un caso relativo al dossier sanitario elettronico di un'azienda ospedaliera pubblica ha contestato un tracciamento degli accessi incompleto e l'impossibilità di oscurare singoli eventi clinici, con una sanzione di 80.000 euro poi ridotta a 20.000 in sede giudiziale. La conformità sostanziale, qui, è essa stessa un elemento di reputazione, e la sua responsabilità ultima resta del titolare del trattamento e del direttore sanitario.
 
 ## Tempi e stato di attuazione regionale
 

@@ -14,7 +14,7 @@
 ---
 
 
-Un poliambulatorio in Lombardia è passato da zero traffico organico a 52.000 visite mensili in quindici mesi, con 4.434 keyword posizionate e un valore equivalente in pubblicità superiore a 15.000 euro al mese. Non è successo con un intervento tecnico isolato, ed è il motivo per cui la **SEO per strutture sanitarie** viene sottovalutata: il risultato è grande, ma si costruisce lentamente e non si può comprare.
+Un poliambulatorio in Lombardia è passato da una base di traffico organico pressoché nulla a 52.000 visite mensili in quindici mesi, con 4.434 keyword posizionate, fino a fare della ricerca organica il suo principale canale di acquisizione. Non è successo con un intervento tecnico isolato, ed è il motivo per cui la **SEO per strutture sanitarie** viene sottovalutata: il risultato è grande, ma si costruisce lentamente e non si può comprare.
 
 La SEO, cioè il posizionamento organico sui motori di ricerca, è il canale con il costo per paziente più basso nel tempo, perché non si paga per ogni clic. È anche quello con l'orizzonte temporale più lungo e con i requisiti di qualità più alti, perché la sanità rientra tra i temi che Google valuta con i criteri più severi. Questo caso mostra cosa serve davvero, oltre cosa promettono le guide generiche, e dove la SEO si colloca tra i canali della [guida al marketing sanitario](/marketing-sanitario/) per le strutture private.
 
@@ -36,15 +36,15 @@ La struttura partiva da un sito che esisteva ma non era visibile: nessuna keywor
 
 Questo punto di partenza è meno svantaggioso di quanto sembri. Significa che ogni keyword conquistata è guadagno netto, e che non ci sono errori storici di posizionamento da correggere prima di costruire. La crescita da zero è più lenta all'inizio, perché manca qualunque autorità accumulata, ma è anche più pulita.
 
-Il dato che conta non è "il sito è migliorato": è la crescita del traffico organico del 2.391% in quindici mesi, da una base prossima allo zero a 52.000 visite mensili. Una variazione di questa ampiezza non si ottiene con ritocchi, ma con un lavoro continuativo su contenuti, struttura tecnica e autorevolezza del dominio.
+Il dato che conta va oltre un generico "il sito è migliorato": in quindici mesi il traffico organico è cresciuto da una base prossima allo zero a 52.000 visite mensili, fino a diventare il principale canale di acquisizione della struttura. Una progressione di questa ampiezza richiede un lavoro continuativo su contenuti, struttura tecnica e autorevolezza del dominio, ben oltre singoli ritocchi.
 
 ## Cosa significano 52.000 visite per una struttura sanitaria
 
 Il numero di visite, da solo, è una metrica di piattaforma. Conta per la struttura solo se si traduce in pazienti e in valore economico. Due letture rendono il dato concreto.
 
-La prima è il valore equivalente in pubblicità. Le 4.434 keyword posizionate generano un traffico che, per ottenere lo stesso volume con campagne a pagamento, costerebbe oltre 15.000 euro al mese. Questa è la spesa che la struttura non sostiene più, mese dopo mese, perché quel traffico arriva senza pagare il clic. La differenza tra SEO e advertising non è la visibilità, è chi possiede il canale: le campagne smettono di portare traffico nel momento in cui si smette di pagarle, il posizionamento organico resta. Il metodo per quantificare questo ritorno è descritto nel blog su [come misurare il ritorno sull'investimento in marketing sanitario](/blog/come-misurare-il-ritorno-sullinvestimento-in-marketing-sanitario-metodologia-per-strutture-private/).
+La prima è la natura del canale. Le 4.434 keyword posizionate generano un traffico che arriva senza pagare il singolo clic: lo stesso volume, con le campagne a pagamento, andrebbe finanziato ogni mese per continuare a esistere. La differenza tra SEO e advertising sta in chi possiede il canale: le campagne smettono di portare traffico nel momento in cui si smette di pagarle, il posizionamento organico resta. Il metodo per quantificare il ritorno di questo canale è descritto nel blog su [come misurare il ritorno sull'investimento in marketing sanitario](/blog/come-misurare-il-ritorno-sullinvestimento-in-marketing-sanitario-metodologia-per-strutture-private/).
 
-La seconda è la qualità dell'intenzione. Una parte rilevante di quelle keyword sono ricerche locali e specifiche per prestazione, fatte da persone che stanno valutando dove prenotare. Questo traffico ha un'intenzione vicina alla prenotazione, e si raccoglie nel momento in cui il paziente cerca, non quando un annuncio lo interrompe. Il modo in cui questo canale si integra con gli altri nel piano complessivo è trattato nel blog sul [digital marketing sanitario](/blog/digital-marketing-sanitario-quali-canali-contano-e-cosa-determina-i-risultati/).
+La seconda è la qualità dell'intenzione. A un volume di questa scala una parte del traffico è informazionale, mentre una quota è composta da ricerche locali e specifiche per prestazione, fatte da persone che stanno valutando dove prenotare. È quest'ultima quota ad avere un'intenzione vicina alla prenotazione, e si raccoglie nel momento in cui il paziente cerca, non quando un annuncio lo interrompe. Il modo in cui questo canale si integra con gli altri nel piano complessivo è trattato nel blog sul [digital marketing sanitario](/blog/digital-marketing-sanitario-quali-canali-contano-e-cosa-determina-i-risultati/).
 
 ## Perché la SEO sanitaria è più difficile delle altre
 
@@ -89,14 +89,14 @@ Questo rende la SEO un investimento, non una spesa ricorrente come l'advertising
 | Se smetti | Il traffico resta | Il traffico si ferma |
 | Proprietà del canale | Della struttura | Della piattaforma |
 
-Il caso da zero a 52.000 visite non è la storia di un trucco tecnico, è la dimostrazione di cosa la SEO sanitaria può produrre quando viene trattata come un investimento pluriennale, con il metodo descritto nella [guida alla SEO per medici e strutture sanitarie](/blog/seo-per-medici-e-strutture-sanitarie/), e non come un intervento spot. Il valore non sta solo nel traffico, sta nel possedere un canale di acquisizione che non si paga a clic e che i concorrenti non possono replicare comprando budget. La struttura che capisce questo smette di chiedersi se la SEO costi troppo e comincia a chiedersi quanto le costa, ogni mese, non averla.
+Il caso di crescita da una base pressoché nulla a 52.000 visite non è la storia di un trucco tecnico, è la dimostrazione di cosa la SEO sanitaria può produrre quando viene trattata come un investimento pluriennale, con il metodo descritto nella [guida alla SEO per medici e strutture sanitarie](/blog/seo-per-medici-e-strutture-sanitarie/), e non come un intervento spot. Il valore non sta solo nel traffico, sta nel possedere un canale di acquisizione che non si paga a clic e che i concorrenti non possono replicare comprando budget. La struttura che capisce questo smette di chiedersi se la SEO costi troppo e comincia a chiedersi quanto le costa, ogni mese, non averla.
 
 
 ## FAQ
 
 **In quanto tempo una struttura sanitaria vede i primi risultati SEO?**
 
-I primi segnali, cioè keyword che entrano in prima pagina e crescita iniziale del traffico, compaiono in genere tra il terzo e il sesto mese, a seconda della competitività locale e del punto di partenza. Il risultato di scala, come quello del caso descritto, richiede più di un anno di lavoro continuativo. Chi promette prime posizioni in poche settimane su keyword competitive in sanità sta descrivendo qualcosa che la categoria YMYL rende implausibile.
+Nella nostra esperienza, i primi segnali, cioè keyword che entrano in prima pagina e crescita iniziale del traffico, compaiono in genere tra il terzo e il sesto mese, a seconda della competitività locale e del punto di partenza. Il risultato di scala, come quello del caso descritto, richiede più di un anno di lavoro continuativo. Chi promette prime posizioni in poche settimane su keyword competitive in sanità sta descrivendo qualcosa che la categoria YMYL rende implausibile.
 
 **La SEO sostituisce le campagne a pagamento?**
 

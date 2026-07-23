@@ -54,7 +54,7 @@ Per la struttura questo ha tre conseguenze operative.
 2. **La fiducia si costruisce prima del contatto**, sulla reputazione digitale e sui contenuti.
 3. **La conversione avviene fuori dal digitale**, nella telefonata e in accettazione, dove una campagna eccellente può essere vanificata da un processo di risposta debole.
 
-L'analisi completa di queste dinamiche è nel nostro articolo su [perché il paziente cambia tutto nel marketing per strutture sanitarie](/blog/marketing-per-strutture-sanitarie-perche-il-paziente-cambia-tutto/).
+L'analisi completa di queste dinamiche è nel nostro articolo su [perché il marketing sanitario è diverso dal marketing tradizionale](/blog/marketing-per-strutture-sanitarie-perche-il-paziente-cambia-tutto/).
 
 ## Il quadro normativo: cosa si può fare {#il-quadro-normativo-cosa-si-puo-fare}
 
@@ -172,11 +172,11 @@ Una quota crescente di ricerche sanitarie non si conclude più con la selezione 
 
 ### Che cos'è la GEO (Generative Engine Optimization)
 
-Si apre così un secondo fronte di visibilità, la **GEO** (Generative Engine Optimization): essere la fonte che i modelli citano nel formulare una risposta, il tema che approfondiamo nel pezzo dedicato alla [GEO per la sanità](/blog/geo-ai-search-per-la-sanita/). Su questo terreno esiste un riscontro sperimentale, non un'opinione: una ricerca di Princeton presentata alla conferenza ACM SIGKDD 2024 ha misurato che l'integrazione di statistiche e citazioni di fonti in un contenuto ne aumenta fino al 40% la probabilità di essere ripreso nelle risposte generative. L'intelligenza artificiale privilegia quindi l'elemento meno diffuso nella comunicazione sanitaria online: il dato accurato e verificabile. Coerentemente, gli utenti giudicano questi strumenti comodi ma ne riconoscono l'accuratezza solo nel 18% dei casi (Pew Research Center, 2026).
+Si apre così un secondo fronte di visibilità, la **GEO** (Generative Engine Optimization): essere la fonte che i modelli citano nel formulare una risposta, il tema che approfondiamo nel pezzo dedicato alla [GEO per la sanità](/blog/geo-ai-search-per-la-sanita/). Su questo terreno esiste un riscontro sperimentale, non un'opinione: la ricerca *GEO: Generative Engine Optimization* (Aggarwal et al.), presentata alla conferenza ACM SIGKDD 2024, ha misurato che l'integrazione di statistiche e citazioni di fonti in un contenuto ne aumenta fino al 40% la probabilità di essere ripreso nelle risposte generative. L'intelligenza artificiale privilegia quindi l'elemento meno diffuso nella comunicazione sanitaria online: il dato accurato e verificabile. Coerentemente, gli utenti giudicano questi strumenti comodi ma ne riconoscono l'accuratezza solo nel 18% dei casi (Pew Research Center, 2026).
 
 ### Dove la GEO non arriva: le ricerche locali in sanità
 
-L'ambito va però delimitato con precisione. Allo stato attuale Google esclude dalle risposte generative le ricerche a intento locale, quelle di chi cerca una struttura sul proprio territorio: per una struttura sanitaria la GEO incide dunque sul piano dell'autorevolezza informativa, mentre sull'intento di prenotazione locale la determinante resta la presenza sui servizi di mappa e il profilo di recensioni.
+L'ambito va però delimitato con precisione. Le risposte generative di Google compaiono ormai anche sulle ricerche a intento locale, eppure, quando l'intento è prenotare presso una struttura del proprio territorio, la determinante resta la presenza sui servizi di mappa e il profilo di recensioni. Per una struttura sanitaria la GEO incide dunque soprattutto sul piano dell'autorevolezza informativa, che agisce a monte della scelta locale.
 
 ### L'intelligenza artificiale dentro l'operatività della struttura sanitaria
 

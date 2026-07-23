@@ -9,7 +9,7 @@ og_image: "img/blog/comunicazione-sanitaria-og.jpg"
 image_alt: "Comunicazione sanitaria: cos'è e perché non coincide con la pubblicità"
 tags: ["strategia", "reputazione online", "normativa"]
 servizio: "ufficio-stampa-sanita"
-sources: "Legge 145/2018, art. 1, comma 525, come modificato dal D.L. 69/2023 convertito in Legge 103/2023. Decreto Bersani (D.L. 223/2006), liberalizzazione della pubblicità informativa. Codice di Deontologia Medica FNOMCeO, artt. 55-57 (Titolo IX). BrightLocal, Local Consumer Review Survey 2025, settore sanitario. Dati interni OIDA Labs su strutture monitorate tra il 2023 e il 2025."
+sources: "Legge 145/2018, art. 1, comma 525, come modificato dal D.L. 69/2023 convertito in Legge 103/2023. Decreto Bersani (D.L. 223/2006), liberalizzazione della pubblicità informativa. Codice di Deontologia Medica FNOMCeO, artt. 55-57 (Titolo IX)."
 faqs:
   - q: "Che differenza c'è tra comunicazione sanitaria e pubblicità sanitaria?"
     a: "La pubblicità sanitaria acquista visibilità a pagamento con un obiettivo definito e un orizzonte breve, e si misura sul costo per contatto. La comunicazione sanitaria è il sistema più ampio con cui una struttura costruisce reputazione e autorità nel tempo, di cui la pubblicità è una componente. Le due si rafforzano, ma rispondono a obiettivi e tempi diversi: una genera contatti, l'altra costruisce le ragioni per cui quei contatti scelgono."

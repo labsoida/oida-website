@@ -35,7 +35,7 @@ Essere visibili e comprensibili per questo segmento richiede scelte precise di p
 
 Il fenomeno non è omogeneo. Almeno tre categorie distinte, con motivazioni e framework assicurativi molto diversi, compongono il bacino italiano delle strutture ticinesi.
 
-**La prima categoria è quella dei lavoratori frontalieri.** Circa 80.000 cittadini italiani lavorano ogni giorno in Canton Ticino. Una parte ha optato per l'assicurazione LAMAL svizzera, rinunciando alla copertura del SSN italiano. Per questa categoria, accedere alle strutture ticinesi accreditate è la modalità naturale di fruizione dei servizi sanitari: non devono superare barriere culturali o logistiche specifiche.
+**La prima categoria è quella dei lavoratori frontalieri.** In Canton Ticino lavorano ogni giorno circa 79.000 frontalieri con permesso G, in larga maggioranza cittadini italiani (UST, Statistica dei frontalieri, 2025). Una parte ha optato per l'assicurazione LAMAL svizzera, rinunciando alla copertura del SSN italiano. Per questa categoria, accedere alle strutture ticinesi accreditate è la modalità naturale di fruizione dei servizi sanitari: non devono superare barriere culturali o logistiche specifiche.
 
 **La seconda categoria è quella dei residenti italiani delle province di confine** (Como, Varese, Verbano-Cusio-Ossola e in parte Novara) che non lavorano in Svizzera ma valutano le strutture ticinesi come alternative geograficamente accessibili. Per questa categoria, la distanza fisica da Lugano o Mendrisio può essere inferiore alla distanza dal capoluogo di provincia italiano.
 
@@ -87,7 +87,7 @@ Le strutture ticinesi che intercettano pazienti italiani si trovano a gestire du
 
 **Il frontaliere con LAMAL svizzera** accede come qualsiasi residente svizzero: paga franchigia e aliquota, il resto è a carico dell'assicuratore LAMAL. La comunicazione verso questo segmento non deve spiegare la LAMAL, che il frontaliere già conosce: deve comunicare se la struttura è accreditata e per quali specialità.
 
-**Il residente italiano non frontaliere paga in regime privato.** Non può usare la Tessera Europea di Assicurazione Malattia per prestazioni programmate (che copre solo le urgenze). Le strutture che vogliono ridurre la barriera di accesso per questo segmento **comunicano proattivamente**:
+**Il residente italiano non frontaliere paga in regime privato.** Non può usare la Tessera Europea di Assicurazione Malattia (TEAM) per le prestazioni programmate: la TEAM copre le cure medicalmente necessarie durante un soggiorno temporaneo, mentre per le cure pianificate all'estero serve l'autorizzazione preventiva della propria ASL (modello S2). Le strutture che vogliono ridurre la barriera di accesso per questo segmento **comunicano proattivamente**:
 - Le tariffe orientative (in CHF)
 - I metodi di pagamento
 - La disponibilità a rilasciare documentazione fiscale dettagliata in italiano per il paziente con polizza privata italiana
@@ -111,7 +111,7 @@ Dipende dalla specialità e dal volume di ricerche organiche disponibile. In spe
 
 **Come si gestisce la qualificazione del lead italiano di confine: le caratteristiche sono diverse dal lead ticinese locale?**
 
-Il lead italiano di confine ha in media un processo decisionale più lungo e un tasso di no-show più alto rispetto al paziente locale, specialmente per le categorie che devono organizzare la logistica del confine. La struttura che vuole ridurre il no-show per questo segmento investe in un processo di conferma più strutturato (promemoria aggiuntivi, conferma esplicita delle informazioni logistiche) e in un front office che sa gestire le domande pratiche specifiche di chi viene dall'Italia.
+Nella nostra esperienza sulle strutture che seguiamo, il lead italiano di confine tende ad avere un processo decisionale più lungo e un tasso di no-show più alto rispetto al paziente locale, specialmente per le categorie che devono organizzare la logistica del confine. La struttura che vuole ridurre il no-show per questo segmento investe in un processo di conferma più strutturato (promemoria aggiuntivi, conferma esplicita delle informazioni logistiche) e in un front office che sa gestire le domande pratiche specifiche di chi viene dall'Italia.
 
 **Ci sono specialità in cui il bacino italiano vale un investimento specifico di marketing distinto dalla strategia generale della struttura?**
 

@@ -14,7 +14,7 @@
 ---
 
 
-Quattordici milioni di italiani hanno oggi una copertura sanitaria integrativa attraverso un fondo di categoria, una polizza collettiva aziendale o un fondo bilaterale. Ogni volta che uno di questi assicurati ha bisogno di una visita specialistica, di un esame diagnostico o di una prestazione odontoiatrica, cerca una struttura convenzionata con il proprio fondo per non anticipare la spesa.
+Oltre sedici milioni di italiani hanno oggi una copertura sanitaria integrativa attraverso un fondo di categoria, una polizza collettiva aziendale o un fondo bilaterale (Ministero della Salute, Anagrafe dei fondi sanitari, terzo Reporting System, dati 2022). Ogni volta che uno di questi assicurati ha bisogno di una visita specialistica, di un esame diagnostico o di una prestazione odontoiatrica, cerca una struttura convenzionata con il proprio fondo per non anticipare la spesa.
 
 Quasi tutte le strutture sanitarie private trattano le convenzioni con i fondi integrativi come una variabile secondaria: qualcosa che "si può valutare in futuro", non un canale di acquisizione strutturato. Il risultato è che perdono sistematicamente pazienti già coperti da rimborso, che sono disposti a spendere perché non sentono il costo direttamente, verso strutture concorrenti che hanno investito nel convenzionamento.
 
@@ -34,11 +34,11 @@ I **fondi sanitari integrativi per le strutture sanitarie private** non sono un 
 
 ## Come funziona il sistema dei fondi sanitari integrativi in Italia
 
-Il Ministero della Salute gestisce un Registro dei fondi sanitari, che al 2024 conta oltre 300 fondi iscritti. Si tratta di entità diverse tra loro per origine, governance e tipologia di iscritti: fondi di categoria (Metasalute per i metalmeccanici, FASDAC per i dirigenti del commercio, FASI per i dirigenti industriali), fondi bilaterali, polizze collettive gestite da compagnie assicurative (Unisalute, Previmedical, Intesa Sanpaolo RBM Salute), fondi professionali.
+Il Ministero della Salute gestisce un Registro dei fondi sanitari, che al 2023 conta oltre 300 fondi iscritti. Si tratta di entità diverse tra loro per origine, governance e tipologia di iscritti: fondi di categoria (Metasalute per i metalmeccanici, FASDAC per i dirigenti del commercio, FASI per i dirigenti industriali), fondi bilaterali, polizze collettive gestite da compagnie assicurative (come UniSalute o Intesa Sanpaolo Protezione, con la gestione operativa dei rimborsi spesso affidata a provider terzi come Previmedical), fondi professionali.
 
 Ogni fondo ha un proprio piano sanitario che definisce quali prestazioni sono coperte, con quale modalità di rimborso (diretta o a piè di lista) e con quale tetto massimo. Le strutture sanitarie possono convenzionarsi con i fondi che lo consentono, diventando parte della rete di strutture convenzionate a cui l'assicurato può rivolgersi.
 
-Va tenuto presente il peso reale del canale: sul totale della spesa sanitaria privata italiana, fondi e polizze intermediano ancora soltanto l'11,4%, contro l'88,6% che le famiglie pagano direttamente di tasca propria. I numeri di mercato sono nell'analisi sulla [spesa sanitaria privata in Italia](/insights/spesa-sanitaria-privata-italia/).
+Va tenuto presente il peso reale del canale: sul totale della spesa sanitaria privata italiana, fondi e polizze intermediano ancora soltanto l'11,4%, contro l'88,6% che le famiglie pagano direttamente di tasca propria (Osservatorio GIMBE, spesa sanitaria privata 2023). I numeri di mercato sono nell'analisi sulla [spesa sanitaria privata in Italia](/insights/spesa-sanitaria-privata-italia/).
 
 Il modello di accesso varia per fondo. In alcuni casi (rimborso diretto, sistema cashless) il paziente non anticipa nulla: la struttura fattura direttamente al fondo secondo il tariffario concordato. In altri casi (rimborso a piè di lista) il paziente paga la struttura e poi chiede il rimborso al fondo. Dal punto di vista dell'acquisizione paziente, il modello cashless è quello che abbassa maggiormente la barriera all'accesso.
 
@@ -68,7 +68,7 @@ I fondi con alta domanda su odontoiatria, diagnostica per immagini, visite cardi
 
 I fondi con rimborso diretto (cashless) portano un volume di pazienti più alto perché abbassano la barriera economica percepita dall'assicurato. I fondi con rimborso a piè di lista portano meno pazienti ma con minore peso sulla tesoreria della struttura.
 
-Tra i fondi con maggiore copertura e volumi significativi sul mercato italiano, i più rilevanti per una struttura multidisciplinare privata sono Unisalute, Previmedical, Metasalute, FASDAC, FASI e i fondi della contrattazione collettiva nazionale di categoria (commercio, artigianato, turismo). Il peso di ciascuno cambia significativamente per territorio e specialità.
+Tra i fondi con maggiore copertura e volumi significativi sul mercato italiano, i più rilevanti per una struttura multidisciplinare privata sono UniSalute, Metasalute, FASDAC, FASI e i fondi della contrattazione collettiva nazionale di categoria (commercio, artigianato, turismo). Il peso di ciascuno cambia significativamente per territorio e specialità.
 
 | Criterio | Perché conta |
 | --- | --- |

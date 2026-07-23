@@ -10,10 +10,10 @@ image_alt: "Come misurare il ritorno sull'investimento in marketing sanitario: m
 tags: ["metriche e kpi", "strategia"]
 servizio: "consulenza-strategica-sanitaria"
 keywords: "ROI marketing sanitario strutture private, misurare ritorno investimento marketing clinica, CAC marketing sanitario, metriche marketing sanitario poliambulatorio, costo acquisizione paziente calcolo, lifetime value paziente sanitario"
-sources: "Dati interni OIDA Labs (analisi CAC e LTV per specialità su strutture monitorate 2023-2025); CERGAS Bocconi Rapporto OASI 2024; Harvard Business Review, The value of customer experience, quantified (2023); InsideSales.com Sales conversion benchmarks by industry (2024)."
+sources: "Dati interni OIDA Labs (analisi CAC e LTV per specialità su strutture monitorate 2023-2025)."
 faqs:
   - q: "Qual è un CAC accettabile per una struttura sanitaria privata in Italia?"
-    a: "Il CAC accettabile varia enormemente in funzione della specialità, della tipologia di prestazione e del LTV medio del paziente. Come punto di orientamento generale: un CAC inferiore al 20-25% del valore medio della prima prestazione è considerato efficiente; un CAC che supera il valore della prima prestazione è giustificabile solo se il LTV atteso è significativamente superiore al costo di acquisizione. Strutture con specialità ad alta fidelizzazione (odontoiatria, fisioterapia, psicologia) possono giustificare CAC superiori rispetto a strutture di diagnostica o di medicina generale a bassa frequenza di ritorno."
+    a: "Il CAC accettabile varia enormemente in funzione della specialità, della tipologia di prestazione e del LTV medio del paziente. Come punto di orientamento che usiamo nei nostri progetti: un CAC inferiore al 20-25% del valore medio della prima prestazione è generalmente efficiente; un CAC che supera il valore della prima prestazione è giustificabile solo se il LTV atteso è significativamente superiore al costo di acquisizione. Strutture con specialità ad alta fidelizzazione (odontoiatria, fisioterapia, psicologia) possono giustificare CAC superiori rispetto a strutture di diagnostica o di medicina generale a bassa frequenza di ritorno."
   - q: "Come si include il passaparola nel calcolo del ROI del marketing?"
     a: "Il passaparola è il canale più difficile da tracciare e uno dei più rilevanti in sanità. Un modo operativo per tenerlo in considerazione è separare i nuovi pazienti acquisiti per referral (segnalati da un altro paziente o da un medico di base) da quelli acquisiti attraverso canali attivi, e calcolare per il referral un costo di acquisizione pari a zero (o al costo delle attività di relazione che lo hanno alimentato). In questo modo si può calcolare la quota di nuovi pazienti che la struttura genera senza investimento pubblicitario diretto."
   - q: "Con quale frequenza va rivisto il modello di misurazione del ROI?"
@@ -94,7 +94,7 @@ La metrica di riferimento per le campagne a pagamento non è il ROAS calcolato s
 
 Il ritorno sull'investimento in SEO è più difficile da calcolare perché il suo valore si accumula nel tempo e non è direttamente attribuibile a un singolo clic tracciabile.
 
-> Come punto di riferimento operativo, il ritorno sull'investimento in SEO sanitario diventa positivo in un orizzonte di **12-18 mesi** dall'avvio, e cresce nel tempo in modo non lineare: la struttura che ha investito tre anni fa in SEO ha oggi un vantaggio competitivo in posizionamento organico che richiederebbe investimenti molto superiori a quelli originali per essere replicato.
+> Nella nostra esperienza operativa, il ritorno sull'investimento in SEO sanitario diventa positivo in un orizzonte di **12-18 mesi** dall'avvio, e cresce nel tempo in modo non lineare: la struttura che ha investito tre anni fa in SEO ha oggi un vantaggio competitivo in posizionamento organico che richiederebbe investimenti molto superiori a quelli originali per essere replicato.
 
 ### Presidio organico (social, contenuti, email)
 
@@ -104,7 +104,7 @@ Il presidio organico dei canali social, la pubblicazione di contenuti e la gesti
 
 **L'analisi che produce decisioni utili.**
 
-Un modello di misurazione del ROI produce valore solo se porta a decisioni concrete. La struttura che sa che il CAC dalla Search di Google è 45 euro e il CAC da Meta è 120 euro, con LTV simile per entrambi i canali, ha un'indicazione chiara su dove orientare il budget marginale disponibile. La struttura che sa che il CAC è aumentato del 35% nell'ultimo trimestre senza un aumento del CPL ha un segnale che il problema è nel processo di conversione, non nella qualità dei lead.
+Un modello di misurazione del ROI produce valore solo se porta a decisioni concrete. La struttura che rileva, per esempio, un CAC dalla Search di Google di 45 euro e un CAC da Meta di 120 euro, con LTV simile per entrambi i canali, ha un'indicazione chiara su dove orientare il budget marginale disponibile. La struttura che sa che il CAC è aumentato del 35% nell'ultimo trimestre senza un aumento del CPL ha un segnale che il problema è nel processo di conversione, non nella qualità dei lead.
 
 Le strutture che misurano sistematicamente queste metriche e le revisionano mensilmente prendono decisioni di budget molto diverse da quelle che si basano sull'impressione che "il marketing stia andando bene". **L'impressione è utile come direzione. Il dato è necessario per quantificare quanto investire e dove.** La definizione degli indicatori da monitorare è il tema dell'articolo sui [KPI del marketing sanitario](/blog/kpi-del-marketing-sanitario-come-misurare-quello-che-conta-davvero/).
 

@@ -28,7 +28,7 @@ Nel **marketing sanitario** il Google Business Profile è uno degli strumenti pi
 
 ## Il profilo è presente, ma non lavora
 
-Secondo BrightLocal, nel 2024 **il 46% dei pazienti consulta Google Maps prima di scegliere dove prenotare una visita specialistica**. Il profilo che compare in quella fase iniziale orienta la decisione quanto, se non più, della presentazione del sito web. Dall'analisi condotta da OIDA Labs su profili sanitari italiani, il 60% delle strutture presenta un grado di compilazione intorno al 40% del potenziale reale del profilo.
+Secondo l'indagine Nomisma Salute e benessere 2024, **il 47% dei pazienti ricorre a Google per individuare la struttura sanitaria a cui rivolgersi**. Il profilo che compare in quella fase iniziale orienta la decisione quanto, se non più, della presentazione del sito web. Nella nostra esperienza operativa sui profili sanitari italiani che analizziamo, circa il 60% delle strutture compila il profilo intorno al 40% delle funzionalità che Google mette a disposizione.
 
 Il dato in sé dice poco se non viene letto insieme al suo correlato operativo: i profili "sotto il 50% di potenziale" non sono quelli con campi vuoti. Sono quelli in cui i campi compilati lo sono in modo generico, statico, incoerente con il modo in cui i pazienti effettivamente cercano la struttura. Un profilo che dichiara "clinica" invece di specificare le specialità erogate, che mostra fotografie datate di tre anni fa, che non ha mai risposto a una recensione negativa, è un profilo presente e non performante.
 
@@ -48,7 +48,7 @@ Curare questi segnali in modo coordinato è lavoro continuativo di analisi, non 
 
 ## Le recensioni come sistema, non come numero
 
-**Il 72% dei pazienti consulta le recensioni prima di scegliere una struttura sanitaria** (BrightLocal, 2024). Il dato è noto, e per questa ragione la risposta tipica delle strutture è concentrarsi sul volume: raccogliere più recensioni, raggiungere una certa soglia, mantenere una media elevata.
+**Il 69% dei pazienti considera le recensioni un fattore determinante nella scelta di una struttura sanitaria** (Nomisma, indagine Salute e benessere 2024). Il dato è noto, e per questa ragione la risposta tipica delle strutture è concentrarsi sul volume: raccogliere più recensioni, raggiungere una certa soglia, mantenere una media elevata.
 
 Questo approccio coglie una parte del problema e ne manca un'altra. Le recensioni funzionano come segnale di acquisizione quando sono inserite in un sistema più ampio che lavora su tre dimensioni contemporaneamente:
 

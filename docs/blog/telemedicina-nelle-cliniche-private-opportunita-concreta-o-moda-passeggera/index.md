@@ -45,11 +45,11 @@ Il termine "telemedicina" copre una gamma molto ampia di servizi, con livelli di
 
 **In quali specialità e situazioni la telemedicina produce valore reale per una struttura sanitaria privata?**
 
-La telemedicina funziona bene in situazioni in cui la componente clinica della visita non richiede esame fisico diretto e in cui la videochiamata aggiunge valore rispetto a una semplice telefonata. **Le specialità con tassi di adozione più alti** includono psicologia e psicoterapia, dermatologia (con limitazioni sulla prima visita), nutrizione e dietistica, follow-up endocrinologici, consulenza oncologica di supporto.
+La telemedicina funziona bene in situazioni in cui la componente clinica della visita non richiede esame fisico diretto e in cui la videochiamata aggiunge valore rispetto a una semplice telefonata. **Le specialità che si prestano meglio al teleconsulto** includono psicologia e psicoterapia, dermatologia (con limitazioni sulla prima visita), nutrizione e dietistica, follow-up endocrinologici, consulenza oncologica di supporto.
 
 La telemedicina funziona meno bene, o non funziona, in situazioni che richiedono **esame fisico diretto, strumentazione specialistica o procedure interventistiche**. Un teleconsulto ortopedico può avere senso per un follow-up post-operatorio, ma difficilmente può sostituire una prima visita con palpazione e test di mobilità.
 
-> Una categoria specifica che merita attenzione è il **primo accesso**. La prima visita con un paziente nuovo è il momento in cui si costruisce la relazione clinica e si raccoglie l'anamnesi completa. Molte strutture che hanno provato a gestire i primi accessi in telemedicina hanno riscontrato tassi di conversione a paziente ricorrente più bassi e soddisfazione inferiore rispetto alle prime visite in presenza. **Il teleconsulto funziona meglio come strumento di continuità del percorso di cura che come porta di ingresso.**
+> Una categoria specifica che merita attenzione è il **primo accesso**. La prima visita con un paziente nuovo è il momento in cui si costruisce la relazione clinica e si raccoglie l'anamnesi completa. Nella nostra esperienza sulle strutture che seguiamo, i primi accessi gestiti in telemedicina hanno mostrato tassi di conversione a paziente ricorrente più bassi e una soddisfazione inferiore rispetto alle prime visite in presenza. **Il teleconsulto funziona meglio come strumento di continuità del percorso di cura che come porta di ingresso.**
 
 ## Telemedicina come canale di acquisizione pazienti
 
@@ -73,10 +73,10 @@ La connessione tra telemedicina, continuità di cura e [lifetime value del pazie
 
 **Quali sono i requisiti tecnici e normativi per attivare un servizio di telemedicina in una clinica privata?**
 
-Il Ministero della Salute ha pubblicato nel 2022 le **Indicazioni nazionali per l'erogazione di prestazioni di telemedicina**, che definiscono i requisiti minimi per l'erogazione in sicurezza. I punti principali per una struttura privata:
+Il quadro nazionale è definito dall'Accordo Stato-Regioni del 17 dicembre 2020 (Rep. Atti n. 215/CSR), che ha approvato le **Indicazioni nazionali per l'erogazione di prestazioni in telemedicina**, e dal successivo D.M. 21 settembre 2022, che ne ha fissato i requisiti funzionali e i livelli di servizio. I punti principali per una struttura privata:
 
 La piattaforma di teleconsulto deve garantire:
-- **Riservatezza della comunicazione** (crittografia end-to-end)
+- **Riservatezza e sicurezza della comunicazione**, con misure conformi alle linee guida AGID (cifratura dei dati, gestione degli accessi e tracciabilità delle operazioni)
 - **Registrazione del consenso informato digitale**
 - **Refertazione conforme** agli standard della cartella clinica
 - **Integrazione** con i sistemi di gestione della struttura o esportazione documentale
@@ -96,11 +96,11 @@ La telemedicina nelle cliniche private non è moda né distrazione: è uno strum
 
 **Un teleconsulto può sostituire la ricetta medica in presenza?**
 
-In Italia, la prescrizione farmaceutica può essere rilasciata in formato digitale dal medico durante un teleconsulto, a condizione che la visita sia condotta su una piattaforma conforme alle indicazioni ministeriali e che la prescrizione sia inviata tramite il Fascicolo Sanitario Elettronico o altro sistema abilitato. Le prescrizioni di farmaci di fascia A in telemedicina richiedono un percorso prescrittivo che varia per specialità e per tipo di farmaco. La verifica della normativa aggiornata per la specialità specifica è necessaria prima di attivare il servizio.
+In Italia, la prescrizione farmaceutica può essere rilasciata in formato digitale dal medico durante un teleconsulto, a condizione che la visita sia condotta su una piattaforma conforme alle indicazioni ministeriali e che la prescrizione sia gestita come ricetta dematerializzata attraverso il Sistema Tessera Sanitaria, con il numero di ricetta elettronica reso disponibile al paziente via SMS, e-mail o Fascicolo Sanitario Elettronico. Le prescrizioni di farmaci di fascia A in telemedicina richiedono un percorso prescrittivo che varia per specialità e per tipo di farmaco. La verifica della normativa aggiornata per la specialità specifica è necessaria prima di attivare il servizio.
 
 **Come si stabilisce il prezzo di un teleconsulto rispetto a una visita in presenza?**
 
-Le strutture applicano in genere un prezzo inferiore per il teleconsulto rispetto alla visita in presenza, con riduzioni tra il 15% e il 30%. Il ragionamento è che il teleconsulto ha costi di struttura inferiori e che il paziente percepisce comunque un servizio meno pieno rispetto alla visita fisica. La scelta del differenziale dipende dalla specialità.
+Le strutture applicano in genere un prezzo inferiore per il teleconsulto rispetto alla visita in presenza. Il ragionamento è che il teleconsulto ha costi di struttura inferiori e che il paziente percepisce comunque un servizio meno pieno rispetto alla visita fisica. L'entità del differenziale dipende dalla specialità e va calibrata caso per caso.
 
 **Come si integra la telemedicina con il sistema di prenotazione della struttura?**
 

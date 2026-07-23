@@ -87,7 +87,7 @@ La metrica di riferimento per le campagne a pagamento non è il ROAS calcolato s
 
 Il ritorno sull'investimento in SEO è più difficile da calcolare perché il suo valore si accumula nel tempo e non è direttamente attribuibile a un singolo clic tracciabile.
 
-> Come punto di riferimento operativo, il ritorno sull'investimento in SEO sanitario diventa positivo in un orizzonte di **12-18 mesi** dall'avvio, e cresce nel tempo in modo non lineare: la struttura che ha investito tre anni fa in SEO ha oggi un vantaggio competitivo in posizionamento organico che richiederebbe investimenti molto superiori a quelli originali per essere replicato.
+> Nella nostra esperienza operativa, il ritorno sull'investimento in SEO sanitario diventa positivo in un orizzonte di **12-18 mesi** dall'avvio, e cresce nel tempo in modo non lineare: la struttura che ha investito tre anni fa in SEO ha oggi un vantaggio competitivo in posizionamento organico che richiederebbe investimenti molto superiori a quelli originali per essere replicato.
 
 ### Presidio organico (social, contenuti, email)
 
@@ -97,7 +97,7 @@ Il presidio organico dei canali social, la pubblicazione di contenuti e la gesti
 
 **L'analisi che produce decisioni utili.**
 
-Un modello di misurazione del ROI produce valore solo se porta a decisioni concrete. La struttura che sa che il CAC dalla Search di Google è 45 euro e il CAC da Meta è 120 euro, con LTV simile per entrambi i canali, ha un'indicazione chiara su dove orientare il budget marginale disponibile. La struttura che sa che il CAC è aumentato del 35% nell'ultimo trimestre senza un aumento del CPL ha un segnale che il problema è nel processo di conversione, non nella qualità dei lead.
+Un modello di misurazione del ROI produce valore solo se porta a decisioni concrete. La struttura che rileva, per esempio, un CAC dalla Search di Google di 45 euro e un CAC da Meta di 120 euro, con LTV simile per entrambi i canali, ha un'indicazione chiara su dove orientare il budget marginale disponibile. La struttura che sa che il CAC è aumentato del 35% nell'ultimo trimestre senza un aumento del CPL ha un segnale che il problema è nel processo di conversione, non nella qualità dei lead.
 
 Le strutture che misurano sistematicamente queste metriche e le revisionano mensilmente prendono decisioni di budget molto diverse da quelle che si basano sull'impressione che "il marketing stia andando bene". **L'impressione è utile come direzione. Il dato è necessario per quantificare quanto investire e dove.** La definizione degli indicatori da monitorare è il tema dell'articolo sui [KPI del marketing sanitario](/blog/kpi-del-marketing-sanitario-come-misurare-quello-che-conta-davvero/).
 
@@ -112,7 +112,7 @@ Il ROI del marketing sanitario è misurabile se la struttura si impegna a costru
 
 **Qual è un CAC accettabile per una struttura sanitaria privata in Italia?**
 
-Il CAC accettabile varia enormemente in funzione della specialità, della tipologia di prestazione e del LTV medio del paziente. Come punto di orientamento generale: un CAC inferiore al 20-25% del valore medio della prima prestazione è considerato efficiente; un CAC che supera il valore della prima prestazione è giustificabile solo se il LTV atteso è significativamente superiore al costo di acquisizione. Strutture con specialità ad alta fidelizzazione (odontoiatria, fisioterapia, psicologia) possono giustificare CAC superiori rispetto a strutture di diagnostica o di medicina generale a bassa frequenza di ritorno.
+Il CAC accettabile varia enormemente in funzione della specialità, della tipologia di prestazione e del LTV medio del paziente. Come punto di orientamento che usiamo nei nostri progetti: un CAC inferiore al 20-25% del valore medio della prima prestazione è generalmente efficiente; un CAC che supera il valore della prima prestazione è giustificabile solo se il LTV atteso è significativamente superiore al costo di acquisizione. Strutture con specialità ad alta fidelizzazione (odontoiatria, fisioterapia, psicologia) possono giustificare CAC superiori rispetto a strutture di diagnostica o di medicina generale a bassa frequenza di ritorno.
 
 **Come si include il passaparola nel calcolo del ROI del marketing?**
 

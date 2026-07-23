@@ -49,7 +49,7 @@ L'analisi su strutture sanitarie monitorate da OIDA Labs tra il 2023 e il 2025 m
 
 ### Il tempo di risposta al primo contatto del paziente
 
-**Il primo punto è il tempo di risposta al primo contatto.** Il lead che compila un form o invia un messaggio su WhatsApp sta valutando più strutture in parallelo. Se la risposta arriva dopo ore o il giorno successivo, la probabilità che il paziente abbia già scelto un'altra struttura è alta. Questo dato è documentato anche dalla ricerca MIT Sloan/InsideSales.com sul Lead Response Management, che quantifica il calo di probabilità di conversione al di fuori della finestra critica, analizzato in dettaglio nel nostro [articolo sulla differenza tra CPL e CAC nel marketing sanitario](/blog/cpl-cac-marketing-sanitario-metrica-redditivita/).
+**Il primo punto è il tempo di risposta al primo contatto.** Il lead che compila un form o invia un messaggio su WhatsApp sta valutando più strutture in parallelo. Se la risposta arriva dopo ore o il giorno successivo, la probabilità che il paziente abbia già scelto un'altra struttura è alta. Questo dato è documentato dall'audit su 2.241 aziende pubblicato da Harvard Business Review, che quantifica il calo di probabilità di qualificare il contatto al di fuori della prima ora, analizzato in dettaglio nel nostro [articolo sulla differenza tra CPL e CAC nel marketing sanitario](/blog/cpl-cac-marketing-sanitario-metrica-redditivita/).
 
 ### La qualità della prima risposta al paziente che contatta la struttura
 
@@ -119,11 +119,11 @@ Un CRM sanitario è lo strumento che trasforma la gestione dei lead da attività
 
 **Quale CRM è più adatto per una struttura sanitaria privata di medie dimensioni?**
 
-Non esiste una risposta universale, perché la scelta dipende dal volume di contatti, dalla complessità delle specialità gestite, dall'integrazione richiesta con il gestionale clinico e dal livello di personalizzazione necessario. I sistemi più usati in ambito sanitario privato italiano sono HubSpot, Salesforce Health Cloud, Monday.com configurato per use case sanitari e soluzioni verticali specifiche per healthcare. La scelta va preceduta da un'analisi del processo attuale: un CRM sofisticato su un processo non definito produce caos digitale invece di efficienza.
+Non esiste una risposta universale, perché la scelta dipende dal volume di contatti, dalla complessità delle specialità gestite, dall'integrazione richiesta con il gestionale clinico e dal livello di personalizzazione necessario. Tra i sistemi che incontriamo più spesso in ambito sanitario privato italiano ci sono HubSpot, Salesforce Health Cloud, Monday.com configurato per use case sanitari e soluzioni verticali specifiche per healthcare. La scelta va preceduta da un'analisi del processo attuale: un CRM sofisticato su un processo non definito produce caos digitale invece di efficienza.
 
 **Quanto tempo serve per implementare un CRM funzionante in una struttura sanitaria?**
 
-Un'implementazione con pipeline definite, automazioni di base e personale formato richiede generalmente tra 6 e 12 settimane. Il tempo dipende più dalla complessità del processo interno e dalla qualità dei dati storici da importare che dalla piattaforma scelta. Le implementazioni che falliscono o restano inutilizzate saltano quasi sempre la fase di progettazione del processo e passano direttamente all'acquisto del software.
+Nella nostra esperienza, un'implementazione con pipeline definite, automazioni di base e personale formato richiede generalmente tra 6 e 12 settimane. Il tempo dipende più dalla complessità del processo interno e dalla qualità dei dati storici da importare che dalla piattaforma scelta. Le implementazioni che falliscono o restano inutilizzate saltano quasi sempre la fase di progettazione del processo e passano direttamente all'acquisto del software.
 
 **Il GDPR impone vincoli specifici alla gestione dei dati pazienti in un CRM sanitario?**
 

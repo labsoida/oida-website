@@ -32,7 +32,7 @@ Questo articolo spiega, a livello informativo e non di consulenza autorizzativa,
 
 ### Su quale normativa si fonda l'autorizzazione di una struttura sanitaria
 
-La prima cosa da capire è dove guardare. In Italia l'esercizio delle attività sanitarie da parte delle strutture private è soggetto ad autorizzazione, sulla base del D.Lgs. 502/1992 e successive modificazioni. I requisiti minimi comuni sono fissati dal D.P.R. 14 gennaio 1997, l'atto di indirizzo e coordinamento noto come Decreto Bindi, che li raggruppa in requisiti strutturali, tecnologici e organizzativi e ne demanda alle Regioni l'accertamento, con una verifica periodica della loro permanenza. Questa base non è rimasta ferma al 1997: è stata aggiornata a livello nazionale, in particolare con l'Intesa Stato-Regioni del 20 dicembre 2012 sulla revisione della normativa dell'accreditamento, e integrata dalle Regioni con requisiti propri più recenti.
+La prima cosa da capire è dove guardare. In Italia l'esercizio delle attività sanitarie da parte delle strutture private è soggetto ad autorizzazione, sulla base del D.Lgs. 502/1992 e successive modificazioni. I requisiti minimi comuni sono fissati dal D.P.R. 14 gennaio 1997, l'atto di indirizzo e coordinamento sui requisiti minimi delle strutture sanitarie, che li raggruppa in requisiti strutturali, tecnologici e organizzativi e ne demanda alle Regioni l'accertamento, con una verifica periodica della loro permanenza. Questa base non è rimasta ferma al 1997: è stata aggiornata a livello nazionale, in particolare con l'Intesa Stato-Regioni del 20 dicembre 2012 sulla revisione della normativa dell'accreditamento, e integrata dalle Regioni con requisiti propri più recenti.
 
 ### Perché i requisiti puntuali vanno letti sulla normativa regionale
 
@@ -56,7 +56,7 @@ Questi requisiti prendono forma concreta a livello regionale, ed è lì che vann
 
 ### Il ruolo del direttore sanitario nella conformità della struttura
 
-La responsabilità di tenere insieme questi tre piani fa capo al direttore sanitario, che cura l'organizzazione tecnico-sanitaria della struttura, valida l'elenco delle prestazioni erogabili e comunica il proprio incarico all'Ordine, come previsto dall'art. 69 del Codice di Deontologia Medica. Anche i suoi requisiti e l'impegno orario minimo sono stabiliti dalla singola Regione e differiscono.
+La responsabilità di tenere insieme questi tre piani fa capo al direttore sanitario, che cura l'organizzazione tecnico-sanitaria della struttura, vigila sulla qualità e sulla sicurezza delle prestazioni e comunica il proprio incarico all'Ordine, come previsto dall'art. 69 del Codice di Deontologia Medica. L'elenco delle prestazioni effettivamente erogabili discende invece dai requisiti autorizzativi regionali. Anche i requisiti del direttore sanitario e il suo impegno orario minimo sono stabiliti dalla singola Regione e differiscono.
 
 ## Perché il progetto degli spazi è una decisione strategica
 
@@ -93,7 +93,7 @@ In modo diretto. Metrature, superfici lavabili, separazione dei flussi, impianti
 
 **Chi è responsabile della conformità di un ambulatorio chirurgico?**
 
-La responsabilità tecnico-sanitaria fa capo al direttore sanitario, che cura l'organizzazione della struttura sotto il profilo igienico-sanitario e organizzativo, valida l'elenco delle prestazioni erogabili e comunica il proprio incarico all'Ordine. I suoi requisiti e l'impegno orario minimo sono stabiliti dalla singola Regione e differiscono. La conformità non è un adempimento una tantum: la permanenza dei requisiti è soggetta a verifica periodica.
+La responsabilità tecnico-sanitaria fa capo al direttore sanitario, che cura l'organizzazione della struttura sotto il profilo igienico-sanitario e organizzativo, vigila sulla qualità e sulla sicurezza delle prestazioni e comunica il proprio incarico all'Ordine (art. 69 del Codice di Deontologia Medica). L'elenco delle prestazioni erogabili è invece definito in sede di autorizzazione regionale. I requisiti del direttore sanitario e il suo impegno orario minimo sono stabiliti dalla singola Regione e differiscono. La conformità non è un adempimento una tantum: la permanenza dei requisiti è soggetta a verifica periodica.
 
 
 ---

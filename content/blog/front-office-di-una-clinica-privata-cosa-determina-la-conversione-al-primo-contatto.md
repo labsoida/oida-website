@@ -10,7 +10,7 @@ image_alt: "Front office di una clinica privata: cosa determina la conversione a
 tags: ["acquisizione pazienti", "crm e automazioni"]
 servizio: "crm-automation-sanita"
 keywords: "front office clinica privata, gestione reception clinica, accoglienza pazienti struttura sanitaria, processo prenotazione clinica privata, performance front desk sanitario"
-sources: "Dati interni OIDA Labs (analisi conversione lead per tipologia di struttura sanitaria 2023-2025); MIT Sloan / InsideSales.com Lead Response Management Study; Dossier Cergas Bocconi Strutture sanitarie private in Italia (2024)."
+sources: "Dati interni OIDA Labs (analisi conversione lead per tipologia di struttura sanitaria 2023-2025); Harvard Business Review, The Short Life of Online Sales Leads (2011), audit su 2.241 aziende statunitensi; CERGAS-SDA Bocconi, Rapporto OASI 2024, cap. 4 «Gli erogatori privati accreditati»."
 faqs:
   - q: "Quante ore al giorno dovrebbe essere presidiato il front office di una clinica privata?"
     a: "Dipende dalla specialità e dalla composizione del target. Per strutture generaliste con pazienti che lavorano, i picchi di contatto si concentrano in fasce orarie precise: prima mattina (7-9), pausa pranzo (12-14) e tarda mattinata. Un front office non presidiato in queste fasce perde contatti che arriveranno probabilmente all'ora sbagliata per essere gestiti bene. La risposta è pianificare la copertura in modo coerente con i picchi di contatto specifici della struttura."

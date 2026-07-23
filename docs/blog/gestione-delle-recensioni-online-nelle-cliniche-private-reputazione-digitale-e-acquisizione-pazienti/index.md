@@ -14,7 +14,7 @@
 ---
 
 
-Il **77% dei pazienti legge le recensioni online prima di scegliere una struttura sanitaria privata** (BrightLocal 2024). Questo dato non è una sorpresa per chi lavora nel settore. Quello che sorprende è che il comportamento delle strutture rispetto a questa evidenza resta prevalentemente reattivo: si risponde alle recensioni negative quando arrivano, si ignora la costruzione sistematica della reputazione finché non diventa un problema.
+Il **69% dei pazienti considera le recensioni online un fattore determinante nella scelta di una struttura sanitaria** (Nomisma, indagine Salute e benessere 2024). Questo dato non è una sorpresa per chi lavora nel settore. Quello che sorprende è che il comportamento delle strutture rispetto a questa evidenza resta prevalentemente reattivo: si risponde alle recensioni negative quando arrivano, si ignora la costruzione sistematica della reputazione finché non diventa un problema.
 
 **Le strutture con rating alto e volume costante di recensioni positive non ci sono arrivate per caso. Ci sono arrivate attraverso processi interni che rendono la raccolta di feedback parte dell'esperienza di cura, non un'aggiunta opzionale.**
 
@@ -35,13 +35,13 @@ Il **77% dei pazienti legge le recensioni online prima di scegliere una struttur
 
 La reputazione digitale non è un fattore di brand awareness. **È un fattore di conversione.** Un paziente che trova una struttura attraverso Google Search o Google Maps non prende una decisione in isolamento: confronta il rating, legge alcune recensioni recenti, valuta come la struttura ha risposto ai commenti negativi. Questo processo avviene prima del primo contatto telefonico o digitale.
 
-Dati interni OIDA Labs su strutture monitorate tra il 2023 e il 2025 mostrano che la differenza nel tasso di conversione da ricerca organica tra strutture con rating medio superiore a 4,5 stelle e strutture con rating tra 3,8 e 4,2 stelle è di **circa 23 punti percentuali**, a parità di traffico generato.
+Nella nostra esperienza operativa, sulle strutture che seguiamo tra il 2023 e il 2025, tra quelle con rating medio superiore a 4,5 stelle e quelle con rating tra 3,8 e 4,2 stelle abbiamo osservato una differenza nel tasso di conversione da ricerca organica di **circa 23 punti percentuali**.
 
 > Il rating non compensa altri fattori di conversione, ma un rating insufficiente azzera il contributo di tutti gli altri. Il paziente che arriva sulla pagina Google di una struttura con 3,7 stelle e 18 recensioni ha già deciso prima ancora di chiamare.
 
 ### La soglia psicologica dei 4,5
 
-Esiste una soglia percettiva documentata dalla ricerca comportamentale: **sotto 4,5 stelle, il tasso di fiducia del paziente scende in modo non lineare**. Tra 4,5 e 5 stelle le differenze sono marginali. Tra 4,2 e 4,5 stelle la differenza è sostanziale. Sotto 4,0 stelle la struttura viene esclusa attivamente dalla considerazione da una quota rilevante di potenziali pazienti, indipendentemente dalla qualità effettiva del servizio.
+Nella nostra esperienza operativa esiste una soglia percettiva intorno alle 4,5 stelle: **sotto questo livello, la fiducia del paziente tende a calare in modo più che proporzionale**. Tra 4,5 e 5 stelle le differenze sono marginali. Tra 4,2 e 4,5 stelle la differenza è sostanziale. Sotto 4,0 stelle la struttura viene esclusa attivamente dalla considerazione da una quota rilevante di potenziali pazienti, indipendentemente dalla qualità effettiva del servizio.
 
 ## La logica dell'algoritmo: volume, frequenza e risposta
 

@@ -61,7 +61,7 @@ Il punto di partenza è la base giuridica del trattamento. Per inviare email di 
 
 Cosa è consentito:
 
-- Email transazionali (conferma prenotazione, promemoria appuntamento, riepilogo post-visita): non richiedono consenso marketing, rientrano nell'esecuzione del contratto.
+- Email transazionali (conferma prenotazione, promemoria appuntamento, riepilogo post-visita): non richiedono consenso marketing, perché si fondano sulla finalità di cura (art. 9, par. 2, lett. h, GDPR), la stessa base che regge il trattamento dei dati del paziente.
 - Email di reattivazione e marketing: richiedono consenso esplicito per finalità promozionali, separato dal consenso clinico.
 - Newsletter: richiedono lo stesso consenso, con possibilità di disiscrizione immediata in ogni email.
 
@@ -75,7 +75,7 @@ Il modo più efficace per costruire una lista email marketing GDPR-compliant in 
 
 | Tipo di email | Consenso richiesto |
 | --- | --- |
-| Transazionale (conferma, promemoria) | No: esecuzione del contratto |
+| Transazionale (conferma, promemoria) | No: finalità di cura (art. 9.2.h) |
 | Reattivazione e marketing | Sì: consenso marketing separato |
 | Newsletter | Sì, con disiscrizione in ogni email |
 

@@ -10,7 +10,7 @@ image_alt: "Acquisizione pazienti online: cosa determina la conversione da conta
 tags: ["acquisizione pazienti", "crm e automazioni"]
 servizio: "crm-automation-sanita"
 keywords: "acquisizione pazienti online, marketing sanitario, acquisizione nuovi pazienti clinica, conversione lead pazienti, funnel acquisizione pazienti, costo acquisizione paziente"
-sources: "Lead Response Management Study, MIT Sloan / InsideSales.com; Dati interni OIDA Labs (analisi su campagne e funnel di acquisizione 2023-2025); BrightLocal Healthcare Consumer Review Survey 2024; Regolamento UE 2016/679 (GDPR)."
+sources: "Harvard Business Review, The Short Life of Online Sales Leads (2011), audit su 2.241 aziende statunitensi; Dati interni OIDA Labs (analisi su campagne e funnel di acquisizione 2023-2025); Regolamento UE 2016/679 (GDPR)."
 faqs:
   - q: "Quanti lead serve generare per riempire un'agenda?"
     a: "Dipende dal tasso di conversione della struttura, che varia in base alla specialità, alla qualità del processo di gestione dei contatti e al mercato locale. Conoscere il proprio tasso di conversione reale è il punto di partenza per qualsiasi ragionamento sul budget da investire."
@@ -62,7 +62,7 @@ Il tasso di conversione da lead a paziente varia in modo significativo tra strut
 
 **Quanto conta il tempo di risposta a un lead nel settore sanitario?**
 
-La ricerca sul Lead Response Management condotta da MIT Sloan e InsideSales.com mostra che **la probabilità di convertire un lead scende del 90% se la risposta arriva dopo i primi dieci minuti dal contatto**. Nel settore sanitario, dove il paziente sta spesso confrontando più strutture in parallelo, questa finestra è se possibile ancora più ristretta.
+L'audit su 2.241 aziende pubblicato da Harvard Business Review mostra che **contattare una richiesta entro la prima ora rende circa sette volte più probabile qualificarla** rispetto a farlo anche solo un'ora più tardi. Nel settore sanitario, dove il paziente sta spesso confrontando più strutture in parallelo, questa finestra è se possibile ancora più ristretta.
 
 Non è sempre possibile rispondere in dieci minuti. Ma è possibile costruire un processo che si avvicini: notifiche immediate ai contatti in entrata, [un sistema di risposta automatica](/blog/chatbot-e-automazione-della-prima-risposta-nelle-strutture-sanitarie-cosa-funziona-e-cosa-non-funziona/) che conferma la ricezione, una procedura interna che garantisce il follow-up entro un tempo definito.
 

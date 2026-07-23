@@ -18,7 +18,7 @@ faqs:
   - q: "Come si fa comparire una struttura sanitaria nelle risposte di ChatGPT?"
     a: "La ricerca web di ChatGPT si appoggia all'indice di Bing, per cui la presenza su Bing e la notifica immediata degli aggiornamenti tramite IndexNow sono un requisito operativo. A questo si aggiungono i fattori di contenuto: paragrafi che aprono con la risposta diretta, dati citati con la fonte, dati strutturati e contenuti firmati da un autore con competenza verificabile."
   - q: "La GEO aiuta a farsi prenotare da un paziente del territorio?"
-    a: "In modo indiretto. Allo stato attuale Google esclude dalle risposte generative le ricerche a intento locale, quelle di chi cerca una struttura sul proprio territorio: per l'intento di prenotazione locale restano decisivi il Google Business Profile e le recensioni. La GEO incide invece sul piano dell'informazione e dell'autorevolezza, che precedono e alimentano la scelta."
+    a: "In modo indiretto. Per l'intento di prenotazione locale, quello di chi cerca una struttura sul proprio territorio, restano decisivi il Google Business Profile e le recensioni. La GEO incide sul piano dell'informazione e dell'autorevolezza, che precedono e alimentano la scelta."
 draft: false
 ---
 
@@ -41,9 +41,9 @@ La SEO ha l'obiettivo di far comparire una pagina in alto tra i risultati, perch
 
 ## Perché la sanità è il terreno d'elezione della GEO {#perche-la-sanita-e-il-terreno-delezione-della-geo}
 
-In pochi ambiti la GEO conta quanto in sanità, per una ragione che è insieme un rischio e un'opportunità. Gli utenti usano già gli assistenti di intelligenza artificiale per informarsi sulla propria salute, come documentiamo nell'insight sulla [sanità digitale e i pazienti](/insights/sanita-digitale-pazienti-pronti/), ma ne diffidano sul piano dell'accuratezza: li giudicano comodi e tuttavia ne riconoscono l'affidabilità solo nel 18% dei casi (Pew Research Center, 2026). Esiste dunque una domanda di informazione sanitaria accurata che gli strumenti attuali soddisfano male, ed è esattamente lo spazio in cui una struttura fatta di professionisti può inserirsi.
+In pochi ambiti la GEO conta quanto in sanità, per una ragione che è insieme un rischio e un'opportunità. Gli utenti usano già gli assistenti di intelligenza artificiale per informarsi sulla propria salute, come documentiamo nell'insight sulla [sanità digitale e i pazienti](/insights/sanita-digitale-pazienti-pronti/), ma ne diffidano sul piano dell'accuratezza: li giudicano comodi e tuttavia, negli Stati Uniti, solo il 18% di chi già li usa per informarsi sulla salute ne giudica le risposte molto accurate (Pew Research Center, 2026). Esiste dunque una domanda di informazione sanitaria accurata che gli strumenti attuali soddisfano male, ed è esattamente lo spazio in cui una struttura fatta di professionisti può inserirsi.
 
-Che questo funzioni non è un'ipotesi. Una ricerca condotta da Princeton e presentata alla conferenza ACM SIGKDD 2024 ha misurato che arricchire un contenuto con statistiche e citazioni di fonti ne aumenta fino al 40% la probabilità di essere ripreso nelle risposte generative. L'intelligenza artificiale, in sanità come altrove, premia ciò che alla comunicazione online manca più spesso, ossia il dato accurato e verificabile prodotto da chi ha la competenza per sostenerlo.
+Che questo funzioni non è un'ipotesi. Una ricerca accademica presentata alla conferenza ACM SIGKDD 2024 ha misurato che arricchire un contenuto con statistiche e citazioni di fonti ne aumenta fino al 40% la probabilità di essere ripreso nelle risposte generative. L'intelligenza artificiale, in sanità come altrove, premia ciò che alla comunicazione online manca più spesso, ossia il dato accurato e verificabile prodotto da chi ha la competenza per sostenerlo.
 
 ## Come si costruisce la presenza nelle risposte AI {#come-si-costruisce-la-presenza-nelle-risposte-ai}
 
@@ -55,7 +55,7 @@ A questi fattori se ne aggiunge uno operativo, spesso ignorato: la ricerca web d
 
 La GEO va collocata nel quadro giusto, senza sopravvalutarla. Il traffico che gli assistenti di intelligenza artificiale generano cresce rapidamente, ma la ricerca tradizionale resta di gran lunga la principale fonte di visite, e circa il 95% di chi usa ChatGPT continua a servirsi anche di Google (Similarweb, 2025): la GEO è un fronte aggiuntivo, non un sostituto della SEO.
 
-C'è poi una precisazione che riguarda proprio le strutture sanitarie. Allo stato attuale Google esclude dalle risposte generative le ricerche a intento locale, quelle di chi cerca uno studio sul proprio territorio, per cui la GEO incide sul piano dell'informazione e dell'autorevolezza mentre sull'intento di prenotazione locale la determinante resta la presenza sui servizi di mappa e il profilo di recensioni, come approfondiamo nella [guida alla SEO per medici e strutture sanitarie](/blog/seo-per-medici-e-strutture-sanitarie/). Va infine ricordato che i numeri di questo ambito evolvono di trimestre in trimestre, e vanno letti come una direzione più che come una fotografia definitiva.
+C'è poi una precisazione che riguarda proprio le strutture sanitarie. Sull'intento di prenotazione locale, quello di chi cerca uno studio sul proprio territorio, la determinante resta la presenza sui servizi di mappa e il profilo di recensioni, mentre la GEO incide soprattutto sul piano dell'informazione e dell'autorevolezza, come approfondiamo nella [guida alla SEO per medici e strutture sanitarie](/blog/seo-per-medici-e-strutture-sanitarie/). Va infine ricordato che i numeri di questo ambito evolvono di trimestre in trimestre, e vanno letti come una direzione più che come una fotografia definitiva.
 
 ## Misurare la GEO {#misurare-la-geo}
 

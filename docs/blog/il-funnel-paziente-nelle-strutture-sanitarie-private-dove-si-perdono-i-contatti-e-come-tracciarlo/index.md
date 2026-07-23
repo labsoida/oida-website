@@ -53,13 +53,13 @@ Dati interni OIDA Labs su strutture monitorate tra il 2023 e il 2025 mostrano ch
 
 La seconda perdita è spesso la più costosa in termini assoluti. Il paziente ha fatto il passo difficile (contattare la struttura) e non ha ricevuto risposta nei tempi che considerava accettabili.
 
-Il tema del tempo di risposta e dell'automazione della prima interazione è approfondito nell'articolo su [chatbot e automazione della prima risposta](/blog/chatbot-e-automazione-della-prima-risposta-nelle-strutture-sanitarie-cosa-funziona-e-cosa-non-funziona/). Qui è rilevante sottolineare che questa perdita è misurabile: il numero di contatti ricevuti meno il numero di prenotazioni confermate, diviso per il numero di contatti, dà un tasso di conversione contatto-prenotazione che in strutture non ottimizzate può essere **inferiore al 40%**.
+Il tema del tempo di risposta e dell'automazione della prima interazione è approfondito nell'articolo su [chatbot e automazione della prima risposta](/blog/chatbot-e-automazione-della-prima-risposta-nelle-strutture-sanitarie-cosa-funziona-e-cosa-non-funziona/). Qui è rilevante sottolineare che questa perdita è misurabile: il numero di contatti ricevuti meno il numero di prenotazioni confermate, diviso per il numero di contatti, dà un tasso di conversione contatto-prenotazione che nelle strutture non ottimizzate risulta spesso molto più basso di quanto la struttura si aspetti.
 
 ### 3. Tra prenotazione e presentazione: il problema del no-show
 
-Il no-show (il paziente che ha prenotato e non si presenta senza disdire) è un costo operativo e di marketing che poche strutture tracciano sistematicamente. La percentuale di no-show varia per specialità: in psicologia può superare il 20%, in fisioterapia e in alcune specialità chirurgiche è inferiore. Ma ogni no-show è un appuntamento non generato, un professionista con un'ora non valorizzata e un costo di acquisizione del lead che non ha prodotto ricavo.
+Il no-show (il paziente che ha prenotato e non si presenta senza disdire) è un costo operativo e di marketing che poche strutture tracciano sistematicamente. La percentuale di no-show varia per specialità: in psicologia è tendenzialmente più alta, in fisioterapia e in alcune specialità chirurgiche più bassa. Ma ogni no-show è un appuntamento non generato, un professionista con un'ora non valorizzata e un costo di acquisizione del lead che non ha prodotto ricavo.
 
-> I sistemi di promemoria automatici (SMS, email, WhatsApp) riducono il no-show in modo documentato. **La riduzione media rilevabile con un sistema di promemoria a 24-48 ore dall'appuntamento è tra il 20% e il 35%** del tasso di no-show precedente all'implementazione.
+> I sistemi di promemoria automatici (SMS, email, WhatsApp) riducono il no-show. **La riduzione ottenibile con un sistema di promemoria a 24-48 ore dall'appuntamento è significativa** rispetto al tasso precedente all'implementazione.
 
 ### 4. Tra presentazione e ritorno: il problema della discontinuità
 
@@ -93,8 +93,8 @@ Il paradosso è che le strutture che non misurano tendono a concludere che "il m
 
 Una volta che i dati di funnel sono disponibili, la priorità di intervento segue una logica di ritorno sull'investimento: si interviene prima sulla fase in cui la perdita è percentualmente più alta e dove l'intervento ha il costo operativo più basso.
 
-- Se il tasso di conversione da contatto a prenotazione è inferiore al 50%, il problema è nella [gestione dei lead e nell'automazione della prima risposta](/servizi/crm-automation-sanita/)
-- Se la conversione da contatto a prenotazione è buona ma il no-show supera il 15%, il problema è nel processo di conferma e nei promemoria automatici
+- Se il tasso di conversione da contatto a prenotazione è basso rispetto al benchmark del canale, il problema è nella [gestione dei lead e nell'automazione della prima risposta](/servizi/crm-automation-sanita/)
+- Se la conversione da contatto a prenotazione è buona ma il no-show è elevato, il problema è nel processo di conferma e nei promemoria automatici
 - Se l'acquisizione e la presentazione funzionano ma il ritorno è basso, il problema è nella fidelizzazione post-visita
 
 Le strutture che costruiscono questo tipo di analisi in modo continuativo, non come esercizio una tantum, sviluppano nel tempo **una capacità di diagnosi del proprio funnel che è di per sé un vantaggio competitivo**: sanno dove guardare quando i risultati cambiano.
@@ -110,7 +110,7 @@ Il funnel paziente è il luogo in cui si decide la reale efficacia del marketing
 
 **Qual è un tasso di conversione da contatto a prenotazione considerato accettabile per una struttura sanitaria privata?**
 
-Il range varia per specialità, canale di acquisizione e tipologia di prestazione. Come punto di riferimento, strutture che gestiscono i lead con processo sistematico raggiungono tassi di conversione contatto-prenotazione tra il 55% e il 70% per i canali diretti (telefono, WhatsApp). Per i canali digitali indiretti (form sul sito, landing page di campagne), il range accettabile si abbassa, tra il 30% e il 50%, in funzione della qualità del traffico generato. Sotto il 30% su qualsiasi canale, c'è una perdita significativa che merita analisi.
+Il range varia per specialità, canale di acquisizione e tipologia di prestazione. Come punto di riferimento, nella nostra esperienza operativa le strutture che gestiscono i lead con processo sistematico raggiungono tassi di conversione contatto-prenotazione tra il 55% e il 70% per i canali diretti (telefono, WhatsApp). Per i canali digitali indiretti (form sul sito, landing page di campagne), il range si abbassa, indicativamente tra il 30% e il 50%, in funzione della qualità del traffico generato. Sotto il 30% su qualsiasi canale, c'è una perdita significativa che merita analisi.
 
 **Come si attribuisce il canale di acquisizione quando un paziente usa più touchpoint prima di prenotare?**
 

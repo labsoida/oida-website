@@ -9,7 +9,7 @@ og_image: "img/blog/email-marketing-strutture-sanitarie-og.jpg"
 image_alt: "Email marketing per strutture sanitarie: come usare la lista pazienti senza sprecarla"
 tags: ["crm e automazioni", "acquisizione pazienti"]
 servizio: "crm-automation-sanita"
-sources: "Regolamento UE 2016/679 (GDPR), art. 9, Trattamento di categorie particolari di dati personali; Garante per la Protezione dei Dati Personali, Linee guida sul trattamento dati nel settore sanitario; Dati interni OIDA Labs su campagne di reattivazione pazienti inattivi per strutture sanitarie private monitorate tra il 2023 e il 2025."
+sources: "Regolamento UE 2016/679 (GDPR), art. 9, Trattamento di categorie particolari di dati personali; Garante per la Protezione dei Dati Personali, Provv. n. 55 del 7 marzo 2019 (Chiarimenti sull'applicazione della disciplina per il trattamento dei dati relativi alla salute in ambito sanitario); Dati interni OIDA Labs su campagne di reattivazione pazienti inattivi per strutture sanitarie private monitorate tra il 2023 e il 2025."
 faqs:
   - q: "Un poliambulatorio con 3.000 pazienti nel gestionale può fare email marketing subito?"
     a: "Dipende dai consensi già raccolti. Se il database include solo il consenso al trattamento dati clinici (obbligatorio per la presa in carico), non si può inviare email di marketing senza raccogliere il consenso specifico. Il primo passo è un'analisi del database per capire quanti pazienti hanno già espresso consenso per finalità promozionali. Da lì si costruisce la lista utilizzabile e si pianifica una raccolta progressiva del consenso sui nuovi pazienti in accettazione."
@@ -67,7 +67,7 @@ Il punto di partenza è la base giuridica del trattamento. Per inviare email di 
 
 Cosa è consentito:
 
-- Email transazionali (conferma prenotazione, promemoria appuntamento, riepilogo post-visita): non richiedono consenso marketing, rientrano nell'esecuzione del contratto.
+- Email transazionali (conferma prenotazione, promemoria appuntamento, riepilogo post-visita): non richiedono consenso marketing, perché si fondano sulla finalità di cura (art. 9, par. 2, lett. h, GDPR), la stessa base che regge il trattamento dei dati del paziente.
 - Email di reattivazione e marketing: richiedono consenso esplicito per finalità promozionali, separato dal consenso clinico.
 - Newsletter: richiedono lo stesso consenso, con possibilità di disiscrizione immediata in ogni email.
 
@@ -81,7 +81,7 @@ Il modo più efficace per costruire una lista email marketing GDPR-compliant in 
 
 | Tipo di email | Consenso richiesto |
 | --- | --- |
-| Transazionale (conferma, promemoria) | No: esecuzione del contratto |
+| Transazionale (conferma, promemoria) | No: finalità di cura (art. 9.2.h) |
 | Reattivazione e marketing | Sì: consenso marketing separato |
 | Newsletter | Sì, con disiscrizione in ogni email |
 

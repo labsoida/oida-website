@@ -9,7 +9,7 @@ og_image: "img/blog/piano-marketing-sanitario-strutture-private-og.jpg"
 image_alt: "Piano marketing sanitario per strutture private: come costruirlo e misurarlo"
 tags: ["strategia", "metriche e kpi"]
 servizio: "consulenza-strategica-sanitaria"
-sources: "Dati interni OIDA Labs su strutture sanitarie private monitorate tra il 2023 e il 2025 (specialità monitorate: fisioterapia, odontoiatria, cardiologia, ortopedia e ginecologia); Ministero della Salute, Report annuale sull'accesso alle prestazioni sanitarie 2024; MIT Sloan / InsideSales.com Lead Response Management Study."
+sources: "Dati interni OIDA Labs su strutture sanitarie private monitorate tra il 2023 e il 2025 (specialità monitorate: fisioterapia, odontoiatria, cardiologia, ortopedia e ginecologia)."
 faqs:
   - q: "Quanto tempo richiede costruire un piano marketing sanitario da zero?"
     a: "La fase di analisi della situazione attuale, se i dati sono disponibili e organizzati, richiede 2-3 settimane. La definizione degli obiettivi e del mix di canali richiede un confronto tra la direzione e chi gestisce il marketing, in genere 1-2 sessioni di lavoro. Il piano operativo con calendario e budget può essere completato in 4-6 settimane dall'avvio. Il vero investimento di tempo non è nella costruzione iniziale: è nel mantenere il ciclo di revisione mensile attivo nel tempo senza che venga sacrificato alle urgenze operative."
@@ -73,7 +73,7 @@ Esistono due metodi per fissare il budget in modo razionale.
 
 Il primo parte dal CAC target per specialità. Se si vuole acquisire 20 nuovi pazienti di odontoiatria al mese con un CAC massimo di 120 euro, il budget massimo per quel canale è 2.400 euro mensili. Se il tasso di conversione lead-appuntamento è del 30%, si ha bisogno di circa 67 lead al mese: questo consente di calcolare il CPL massimo accettabile e verificare se il canale scelto lo consente. La relazione tra queste due metriche è approfondita nell'articolo su [CPL e CAC nel marketing sanitario](/blog/cpl-cac-marketing-sanitario-metrica-redditivita/).
 
-Il secondo parte dal LTV del paziente per specialità. Per una specialità ad alta ricorrenza come la fisioterapia, dove un paziente vale tra 1.200 e 2.500 euro nel primo anno di trattamento, un CAC di 150 euro è sostenibile. Per una visita una tantum da 80 euro, lo stesso CAC non lo è. Il budget si calibra in base a questo rapporto, non in base a una percentuale fissa del fatturato.
+Il secondo parte dal LTV del paziente per specialità. Per una specialità ad alta ricorrenza come la fisioterapia, dove nella nostra esperienza operativa un paziente vale indicativamente tra 1.200 e 2.500 euro nel primo anno di trattamento, un CAC di 150 euro è sostenibile. Per una visita una tantum da 80 euro, lo stesso CAC non lo è. Il budget si calibra in base a questo rapporto, non in base a una percentuale fissa del fatturato.
 
 | Metodo | Logica | Esempio |
 | --- | --- | --- |

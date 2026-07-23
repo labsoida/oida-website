@@ -10,7 +10,7 @@ image_alt: "Liste d'attesa e sanità privata: il momento in cui il paziente deci
 tags: ["acquisizione pazienti", "strategia"]
 servizio: "advertising-sanitario"
 keywords: "liste d'attesa sanità privata, intercettare domanda da liste attesa, sanità privata tempi di accesso strutture, marketing sanitario liste attesa, domanda privata da liste attesa SSN"
-sources: "Ministero della Salute Monitoraggio tempi di attesa 2024; Censis Rapporto sulla situazione sociale del Paese 2025 (sezione sanità); Dati interni OIDA Labs (analisi stagionalità domanda per specialità su strutture monitorate 2023-2025); AGENAS Osservatorio Nazionale Screening e Liste d'Attesa 2024."
+sources: "Osservatorio Nazionale sulle Liste di Attesa presso il Ministero della Salute; Piattaforma Nazionale delle Liste di Attesa (PNLA) presso AGENAS, istituita dal D.L. 73/2024 convertito in Legge 107/2024; Piano Nazionale di Governo delle Liste di Attesa (PNGLA) 2025-2027 e linee guida attuative (decreto 17 febbraio 2025); Dati interni OIDA Labs (analisi stagionalità domanda per specialità su strutture monitorate 2023-2025)."
 faqs:
   - q: "Una struttura privata dovrebbe comunicare esplicitamente i propri tempi di attesa?"
     a: "Sì, se i tempi sono un vantaggio competitivo reale. Per un paziente che viene dalla frustrazione di un'attesa di tre mesi sul sistema pubblico, sapere che la prima disponibilità nella struttura privata è entro la settimana è un criterio di scelta determinante. Comunicarlo chiaramente sul sito, sul profilo GBP, nella risposta ai contatti in entrata aumenta il tasso di conversione dei lead più motivati."

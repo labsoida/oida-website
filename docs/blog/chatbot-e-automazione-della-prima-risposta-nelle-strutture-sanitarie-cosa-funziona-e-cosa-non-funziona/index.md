@@ -14,7 +14,7 @@
 ---
 
 
-Il 78% dei pazienti che contatta una struttura sanitaria privata e non riceve risposta entro un'ora sceglie un'alternativa. Questo dato si applica con precisione alla sanità privata: il paziente che cerca una visita non posticipa la decisione. Cerca, contatta due o tre strutture in parallelo **e prenoterà con quella che risponde per prima in modo adeguato**.
+Il paziente che cerca una visita non posticipa la decisione: cerca, contatta due o tre strutture in parallelo **e prenota con quella che risponde per prima in modo adeguato**. Il tempo della prima risposta pesa sulla conversione quanto la qualità della campagna che ha generato il contatto.
 
 L'automazione della prima risposta non è un tema di innovazione tecnologica. È un tema di gestione del lead. Il chatbot è uno strumento, non una soluzione: il risultato dipende da come è configurato, da dove è posizionato nel funnel e da come si integra con i processi umani della struttura.
 
@@ -33,15 +33,15 @@ L'automazione della prima risposta non è un tema di innovazione tecnologica. È
 
 ### Il lead perso prima del primo contatto umano
 
-Una struttura sanitaria che gestisce le richieste attraverso un form sul sito, un numero WhatsApp o una chat live ha un problema di gestione del tempo di risposta che i dati rendono concreto. Ricerche di InsideSales.com e MIT Sloan mostrano che **la probabilità di qualificare un lead scende del 90% se la prima risposta arriva dopo più di cinque minuti**. In cinque minuti, il paziente che ha compilato un form ha già continuato la ricerca altrove.
+Una struttura sanitaria che gestisce le richieste attraverso un form sul sito, un numero WhatsApp o una chat live ha un problema di gestione del tempo di risposta che i dati rendono concreto. L'audit su 2.241 aziende pubblicato da Harvard Business Review mostra che **rispondere entro la prima ora rende circa sette volte più probabile qualificare il contatto**, e che solo il 37% delle organizzazioni rientra in quella soglia. Nel frattempo il paziente che ha compilato un form ha già continuato la ricerca altrove.
 
 Nelle strutture sanitarie private, il problema si stratifica. Il front office risponde alle telefonate in tempo reale durante l'orario di apertura, ma i canali digitali (email, form, WhatsApp, chat) vengono spesso gestiti in modo discontinuo, tra una telefonata e l'altra, o solo in determinati momenti della giornata. Il paziente che contatta alle 14:30 durante l'orario di punta del [front office](/blog/front-office-di-una-clinica-privata-cosa-determina-la-conversione-al-primo-contatto/) o alle 19:00 dopo la chiusura non viene raggiunto finché non è troppo tardi.
 
-Dati interni OIDA Labs su strutture monitorate tra il 2023 e il 2025 mostrano che il **34% dei lead digitali che non ricevono risposta entro 30 minuti non risponde a un ricontatto successivo**. Non si tratta di lead di qualità inferiore: si tratta di lead che hanno già prenotato altrove.
+Dalle strutture che seguiamo tra il 2023 e il 2025 osserviamo che **circa il 34% dei lead digitali non raggiunti rapidamente non risponde a un ricontatto successivo**. Non si tratta di lead di qualità inferiore: si tratta di lead che hanno già prenotato altrove.
 
 ### La finestra temporale nei momenti chiave
 
-La domanda sanitaria non è omogenea durante la giornata. Picchi di ricerca e di contatto si concentrano in tre finestre: la pausa pranzo (12:00-14:00), il tardo pomeriggio (17:00-19:00) e la sera (20:00-22:00). Questi tre momenti coincidono in parte con la chiusura del front office o con i momenti di massimo carico. **L'automazione della prima risposta ha il suo maggiore impatto proprio in queste finestre**, dove la probabilità di non risposta manuale è più alta.
+La domanda sanitaria non è omogenea durante la giornata. Dalle strutture che seguiamo, i picchi di ricerca e di contatto tendono a concentrarsi in tre finestre: la pausa pranzo (12-14), il tardo pomeriggio (17-19) e la sera (20-22). Questi tre momenti coincidono in parte con la chiusura del front office o con i momenti di massimo carico. **L'automazione della prima risposta ha il suo maggiore impatto proprio in queste finestre**, dove la probabilità di non risposta manuale è più alta.
 
 ## Cosa può fare un chatbot e cosa non può fare {#cosa-puo-fare-un-chatbot-e-cosa-non-puo-fare}
 

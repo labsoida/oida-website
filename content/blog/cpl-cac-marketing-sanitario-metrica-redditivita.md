@@ -9,10 +9,10 @@ og_image: "img/blog/cpl-cac-marketing-sanitario-og.jpg"
 image_alt: "CPL e CAC nel marketing sanitario: quale metrica misura davvero la redditività"
 tags: ["metriche e kpi", "advertising"]
 servizio: "advertising-sanitario"
-sources: "Dati interni OIDA Labs (analisi su campagne di marketing sanitario gestite 2023–2025), MIT Sloan / InsideSales.com Lead Response Management Study, Harvard Business Review The Short Life of Online Sales Leads (2011)."
+sources: "Dati interni OIDA Labs (analisi su campagne di marketing sanitario gestite 2023–2025), Harvard Business Review, The Short Life of Online Sales Leads (2011), audit su 2.241 aziende statunitensi."
 faqs:
   - q: "Qual è un CAC di riferimento nel marketing sanitario?"
-    a: "Il benchmark varia per specialità e per ticket medio del servizio. Per visite a basso commitment economico (fisioterapia, dermatologia di base) il CAC sostenibile si colloca tipicamente tra €30 e €80. Per specialità a ticket elevato (chirurgia estetica, odontoiatria implantologica, bariatrica) il CAC può essere sostenibile anche oltre €300–400, purché il lifetime value del paziente giustifichi l'investimento."
+    a: "Il riferimento varia per specialità e per ticket medio del servizio. Nella nostra esperienza, per visite a basso commitment economico (fisioterapia, dermatologia di base) il CAC sostenibile si colloca tipicamente tra €30 e €80, mentre per specialità a ticket elevato (chirurgia estetica, odontoiatria implantologica, bariatrica) può risultare sostenibile anche oltre €300–400, purché il lifetime value del paziente giustifichi l'investimento."
   - q: "Ogni quanto tempo va ricalcolato il CAC?"
     a: "Su base mensile per l'operatività, su base trimestrale per le decisioni strategiche. Finestre più brevi risentono della volatilità settimanale; finestre più lunghe fanno perdere reattività sulle correzioni."
   - q: "Chi deve avere visibilità sul CAC in una struttura sanitaria?"
@@ -62,7 +62,7 @@ In un progetto di **marketing sanitario** seguito da OIDA Labs, una struttura co
 
 La differenza non era imputabile alla qualità delle campagne. La generazione dei lead era ben tarata per targeting e creatività. Il divario emergeva nel processo a valle: tempi di risposta lunghi, assenza di script strutturati per il richiamo, tassi di no-show non monitorati, nessuna sequenza di reminder automatizzata per gli appuntamenti fissati. Ogni anello del funnel perdeva una quota di contatti che, cumulata, moltiplicava per sette il costo finale.
 
-La correzione non ha richiesto di aumentare il budget pubblicitario. Ha richiesto di intervenire sul processo di gestione dei lead: introduzione di un CRM operativo, definizione di un protocollo di risposta entro trenta minuti, sequenze di reminder automatiche per gli appuntamenti, tracciamento del tasso di show. Nei tre mesi successivi, **il CAC reale si è ridotto in modo significativo a parità di investimento**.
+La correzione non ha richiesto di aumentare il budget pubblicitario. Ha richiesto di intervenire sul processo di gestione dei lead: introduzione di un CRM operativo, definizione di un protocollo di risposta rapida ai lead, sequenze di reminder automatiche per gli appuntamenti, tracciamento del tasso di show. Nei tre mesi successivi, **il CAC reale si è ridotto in modo significativo a parità di investimento**.
 
 ## Da cosa dipende il CAC
 
@@ -70,7 +70,7 @@ Il CAC non dipende unicamente dall'attività pubblicitaria. Sono quattro i fatto
 
 **La qualità della campagna** determina il volume e la pertinenza dei lead in ingresso. È la parte gestita dall'agenzia e può essere ottimizzata attraverso targeting, creatività e landing page dedicate.
 
-**La velocità di risposta** incide direttamente sul tasso di conversione. Studi sul lead management mostrano che contattare un lead entro i primi cinque minuti aumenta di un ordine di grandezza la probabilità di conversione rispetto a un contatto effettuato dopo trenta minuti. [Automatizzare questo processo con strumenti AI](/blog/ai-marketing-sanitario-applicazioni-cliniche-poliambulatori/) è oggi uno dei modi più efficaci per comprimere i tempi.
+**La velocità di risposta** incide direttamente sul tasso di conversione. L'audit di Harvard Business Review su 2.241 aziende mostra che contattare una richiesta entro la prima ora rende circa sette volte più probabile qualificarla rispetto a un contatto effettuato anche solo un'ora dopo. [Automatizzare questo processo con strumenti AI](/blog/ai-marketing-sanitario-applicazioni-cliniche-poliambulatori/) è oggi uno dei modi più efficaci per comprimere i tempi.
 
 **La qualità della conversazione commerciale** condiziona il passaggio da interesse a appuntamento. Uno script strutturato, la capacità di gestire le obiezioni più frequenti, la conoscenza clinica di base necessaria a orientare il paziente fanno la differenza sul tasso di fissazione.
 

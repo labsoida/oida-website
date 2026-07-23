@@ -67,7 +67,7 @@ Esistono due metodi per fissare il budget in modo razionale.
 
 Il primo parte dal CAC target per specialità. Se si vuole acquisire 20 nuovi pazienti di odontoiatria al mese con un CAC massimo di 120 euro, il budget massimo per quel canale è 2.400 euro mensili. Se il tasso di conversione lead-appuntamento è del 30%, si ha bisogno di circa 67 lead al mese: questo consente di calcolare il CPL massimo accettabile e verificare se il canale scelto lo consente. La relazione tra queste due metriche è approfondita nell'articolo su [CPL e CAC nel marketing sanitario](/blog/cpl-cac-marketing-sanitario-metrica-redditivita/).
 
-Il secondo parte dal LTV del paziente per specialità. Per una specialità ad alta ricorrenza come la fisioterapia, dove un paziente vale tra 1.200 e 2.500 euro nel primo anno di trattamento, un CAC di 150 euro è sostenibile. Per una visita una tantum da 80 euro, lo stesso CAC non lo è. Il budget si calibra in base a questo rapporto, non in base a una percentuale fissa del fatturato.
+Il secondo parte dal LTV del paziente per specialità. Per una specialità ad alta ricorrenza come la fisioterapia, dove nella nostra esperienza operativa un paziente vale indicativamente tra 1.200 e 2.500 euro nel primo anno di trattamento, un CAC di 150 euro è sostenibile. Per una visita una tantum da 80 euro, lo stesso CAC non lo è. Il budget si calibra in base a questo rapporto, non in base a una percentuale fissa del fatturato.
 
 | Metodo | Logica | Esempio |
 | --- | --- | --- |

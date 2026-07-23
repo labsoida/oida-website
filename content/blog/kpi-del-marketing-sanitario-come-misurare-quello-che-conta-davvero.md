@@ -10,10 +10,10 @@ image_alt: "KPI del marketing sanitario: come misurare quello che conta davvero"
 tags: ["metriche e kpi", "strategia"]
 servizio: "consulenza-strategica-sanitaria"
 keywords: "kpi marketing sanitario, metriche marketing clinica privata, misurare marketing sanitario, indicatori performance strutture sanitarie"
-sources: "Dati interni OIDA Labs (framework di misurazione CAC/LTV per specialità sanitarie su strutture monitorate 2023-2025); MIT Sloan / InsideSales.com Lead Response Management Study; HubSpot State of Marketing Report 2025 (sezione Healthcare)."
+sources: "Dati interni OIDA Labs (framework di misurazione CAC/LTV per specialità sanitarie su strutture monitorate 2023-2025)."
 faqs:
   - q: "Con quale frequenza dovrebbe essere prodotto un report di marketing per una struttura sanitaria?"
-    a: "La frequenza dipende dalla complessità e dal budget investito. Per strutture con investimento pubblicitario mensile sopra i €2.000, un report mensile è il minimo. Review trimestrale per valutare andamento e aggiustamenti strategici. Review annuale per la pianificazione del budget. Per campagne in fase di ottimizzazione attiva, review settimanale dei dati di piattaforma con segnalazione delle anomalie."
+    a: "La frequenza dipende dalla complessità e dal budget investito. Per strutture con un investimento pubblicitario mensile significativo (nella nostra esperienza, indicativamente sopra i €2.000), un report mensile è il minimo. Review trimestrale per valutare andamento e aggiustamenti strategici. Review annuale per la pianificazione del budget. Per campagne in fase di ottimizzazione attiva, review settimanale dei dati di piattaforma con segnalazione delle anomalie."
   - q: "Come si raccolgono i dati necessari per calcolare il CAC se la struttura non ha un CRM?"
     a: "Senza un CRM, la raccolta è manuale ma possibile: un foglio di tracciamento dei contatti in entrata con data, canale di provenienza e esito (appuntamento fissato, no-show, visita erogata) permette di ricostruire il funnel anche in modo semplice. Non è ottimale ma è infinitamente meglio di non avere dati."
   - q: "Cosa fare se il CAC calcolato supera la marginalità della singola visita?"
@@ -76,11 +76,11 @@ Sette KPI che, insieme, danno una visione completa della performance.
 
 ### I KPI del front desk: risposta, appuntamento e no-show
 
-**2. Tasso di risposta entro la finestra critica.** La percentuale di lead che ricevono una prima risposta entro il tempo definito dalla procedura interna (generalmente entro 4 ore durante l'orario operativo). Misura la performance del processo di front desk, non della campagna.
+**2. Tasso di risposta entro la finestra critica.** La percentuale di lead che ricevono una prima risposta entro il tempo definito dalla procedura interna della struttura. Misura la performance del processo di front desk, non della campagna.
 
 **3. Tasso di conversione lead-appuntamento.** Quanti dei lead che ricevono risposta fissano un appuntamento. Se questo dato è basso a fronte di CPL basso, il problema è nella qualità del primo contatto, non nella campagna.
 
-**4. Tasso di no-show.** La percentuale di appuntamenti fissati che non vengono onorati. Sopra il 15-20% segnala un disallineamento tra aspettative create e realtà della struttura, o una mancanza di sistema di promemoria e conferma.
+**4. Tasso di no-show.** La percentuale di appuntamenti fissati che non vengono onorati. Un valore elevato segnala un disallineamento tra aspettative create e realtà della struttura, o una mancanza di sistema di promemoria e conferma.
 
 ### CAC e LTV: i KPI economici dell'acquisizione paziente
 
@@ -127,7 +127,7 @@ Le specialità con **ciclo decisionale lungo** (chirurgia estetica, odontoiatria
 
 ### L'LTV nelle specialità mediche ad alta ricorrenza
 
-Le specialità con **alta ricorrenza** (fisioterapia, odontoiatria, psicologia) hanno LTV molto più alti rispetto a specialità con prestazione singola (chirurgia elettiva di un singolo intervento). Un CAC che sembra alto in assoluto può essere pienamente giustificato se l'LTV del paziente è 10-15 volte superiore al costo di acquisizione.
+Le specialità con **alta ricorrenza** (fisioterapia, odontoiatria, psicologia) hanno LTV molto più alti rispetto a specialità con prestazione singola (chirurgia elettiva di un singolo intervento). Un CAC che sembra alto in assoluto può essere pienamente giustificato se l'LTV del paziente è molto superiore al costo di acquisizione.
 
 ---
 

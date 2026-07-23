@@ -57,7 +57,7 @@ La Search di Google è il canale pubblicitario più diretto per le strutture san
 
 Le campagne Search per strutture sanitarie funzionano meglio quando sono segmentate per specialità, non per struttura. Una campagna che intercetta "visita cardiologica privata Milano" o "ecografia addome prenotazione Torino" ha un intento di ricerca molto più qualificato di una campagna su "clinica privata Milano". Il volume è inferiore, il costo per click può essere più alto, ma il tasso di conversione è significativamente superiore. Gli schemi che bruciano budget su Search, dalla keyword generica all'assenza di tracciamento, sono analizzati in dettaglio nell'articolo sugli [errori di campagna Google Ads delle strutture sanitarie](/blog/google-ads-strutture-sanitarie-errori-campagna/).
 
-> Dati interni OIDA Labs su campagne Search per strutture sanitarie private gestite tra il 2023 e il 2025 mostrano che le **campagne segmentate per specialità producono un CAC mediamente inferiore del 38%** rispetto alle campagne sulla keyword generica della struttura, a parità di budget mensile.
+> Nella nostra esperienza operativa sulle campagne Search per strutture sanitarie private gestite tra il 2023 e il 2025, le **campagne segmentate per specialità mostrano un CAC inferiore di circa il 38%** rispetto alle campagne sulla keyword generica della struttura, a parità di budget mensile.
 
 ### Display e YouTube: brand awareness con limitazioni
 

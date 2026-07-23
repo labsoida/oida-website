@@ -30,7 +30,7 @@ La scelta di un'agenzia di **marketing sanitario** è una decisione che incide s
 
 ## Specializzazione verticale e conoscenza del settore
 
-La prima distinzione utile riguarda la profondità della competenza settoriale. Il **marketing sanitario** ha dinamiche che non si trovano in altri mercati: il paziente decide in tempi brevi, spesso in una condizione emotiva particolare, e filtra le opzioni attraverso un sistema di fiducia diverso da quello che regola altri acquisti. Le stagionalità delle patologie (il picco delle richieste ortopediche a settembre, la domanda cardiologica invernale, la curva primaverile della chirurgia estetica) orientano in modo significativo la pianificazione media.
+La prima distinzione utile riguarda la profondità della competenza settoriale. Il **marketing sanitario** ha dinamiche che non si trovano in altri mercati: il paziente decide in tempi brevi, spesso in una condizione emotiva particolare, e filtra le opzioni attraverso un sistema di fiducia diverso da quello che regola altri acquisti. Le stagionalità delle patologie che emergono dai nostri dati di campagna (il picco delle richieste ortopediche a settembre, la domanda cardiologica invernale, la curva primaverile della chirurgia estetica) orientano in modo significativo la pianificazione media.
 
 ### Che cosa sa un'agenzia che lavora stabilmente in sanità
 
@@ -128,7 +128,7 @@ Sottoponendo a ciascuna le stesse domande e confrontando le risposte sui medesim
 
 **Qual è il budget indicativo per un'agenzia di marketing sanitario?**
 
-I range dipendono dalla scala dei servizi. La sola gestione delle campagne digitali (Meta Ads, Google Ads) parte da circa €1.500–2.500 mensili oltre al budget pubblicitario. Pacchetti che includono strategia, contenuti, CRM e reportistica strutturata si posizionano tra €3.000 e €8.000 mensili. La variabile più significativa rimane il CAC finale: un investimento maggiore con un funnel ben strutturato può risultare più efficiente di uno inferiore senza misurazione a valle.
+I range dipendono dalla scala dei servizi. Nella nostra esperienza, la sola gestione delle campagne digitali (Meta Ads, Google Ads) parte tipicamente da circa €1.500–2.500 mensili oltre al budget pubblicitario, mentre i pacchetti che includono strategia, contenuti, CRM e reportistica strutturata si collocano più spesso tra €3.000 e €8.000 mensili. La variabile più significativa rimane il CAC finale: un investimento maggiore con un funnel ben strutturato può risultare più efficiente di uno inferiore senza misurazione a valle.
 
 **Come si misura il risultato di una campagna di marketing sanitario?**
 
@@ -136,7 +136,7 @@ L'indicatore principale è il CAC, costo di acquisizione per paziente. Un CPL ba
 
 **Quanto tempo serve prima di valutare l'impatto?**
 
-I primi sessanta giorni servono a calibrare targeting e creatività. I risultati strutturali, quelli che consentono un confronto con benchmark di settore, emergono tra il terzo e il sesto mese, quando la campagna ha raccolto dati sufficienti a essere ottimizzata su base statistica e il funnel a valle si è stabilizzato.
+I primi sessanta giorni servono a calibrare targeting e creatività. I risultati strutturali emergono tra il terzo e il sesto mese, quando la campagna ha raccolto dati sufficienti a essere ottimizzata su base statistica e il funnel a valle si è stabilizzato.
 
 
 ---

@@ -9,7 +9,7 @@ og_image: "img/blog/whatsapp-business-strutture-sanitarie-og.jpg"
 image_alt: "WhatsApp Business per strutture sanitarie: come usarlo come canale, non come centralino"
 tags: ["crm e automazioni", "normativa"]
 servizio: "crm-automation-sanita"
-sources: "Regolamento UE 2016/679 (GDPR), art. 9 (trattamento di categorie particolari di dati); Garante per la protezione dei dati personali, indicazioni sul trattamento dei dati sanitari con strumenti digitali; WhatsApp Business, documentazione su Business App e Business Platform (API) e policy commerciali; dati interni OIDA Labs su comunicazioni dirette ai pazienti in strutture sanitarie private monitorate tra il 2023 e il 2025 (confronto tassi di apertura e risposta per canale)."
+sources: "Regolamento UE 2016/679 (GDPR), art. 9 (trattamento di categorie particolari di dati); Garante per la protezione dei dati personali, indicazioni su siti e app per il contatto tra medico e paziente e sul trattamento dei dati sanitari (marzo 2024); WhatsApp Business, documentazione su Business App e Business Platform (API) e policy commerciali (business.whatsapp.com/policy); dati interni OIDA Labs su comunicazioni dirette ai pazienti in strutture sanitarie private monitorate tra il 2023 e il 2025 (confronto tassi di apertura e risposta per canale)."
 faqs:
   - q: "Per una struttura sanitaria è sufficiente WhatsApp Business gratuito o serve l'API?"
     a: "Dipende dai volumi e dal livello di integrazione. Uno studio singolo con pochi appuntamenti al giorno può gestire bene la App gratuita. Un poliambulatorio con più specialità, più operatori e l'esigenza di collegare WhatsApp all'agenda, di inviare promemoria strutturati e di mantenere la storia del paziente nel CRM ha bisogno dell'API attraverso un fornitore autorizzato. Il segnale che la App non basta più è il canale che si ingolfa: messaggi che restano senza risposta e conversazioni gestite da una persona sola che non riesce a stare dietro al volume."
@@ -36,7 +36,7 @@ La differenza non sta nell'app, sta nell'impostazione. WhatsApp Business per una
 
 ## WhatsApp Business App o WhatsApp Business API: non sono la stessa cosa
 
-Le due versioni di WhatsApp Business risolvono problemi diversi, e scegliere quella sbagliata è il primo errore. La App gratuita è pensata per le piccole attività: la gestisce una persona da un telefono, va bene per uno studio con pochi medici e volumi contenuti. Non consente più operatori in parallelo in modo strutturato, non si integra con il gestionale e non permette l'invio organizzato di comunicazioni a liste di pazienti nel rispetto delle regole della piattaforma.
+Le due versioni di WhatsApp Business risolvono problemi diversi, e scegliere quella sbagliata è il primo errore. La App gratuita è pensata per le piccole attività: consente di collegare allo stesso numero fino a cinque dispositivi, pur senza una casella condivisa con ruoli e assegnazioni tra operatori, e va bene per uno studio con pochi medici e volumi contenuti. Non si integra con il gestionale e, sul fronte degli invii, mette a disposizione le sole liste broadcast verso chi ha già salvato il numero, prive dei modelli approvati necessari per comunicazioni strutturate su larga scala.
 
 L'API, accessibile attraverso un fornitore autorizzato, è pensata per i volumi di una struttura. Consente più operatori sulla stessa conversazione, l'integrazione con il CRM e l'invio di messaggi strutturati, come promemoria e conferme, attraverso modelli che la piattaforma deve approvare in anticipo. È la versione che trasforma WhatsApp da casella gestita a mano a canale collegato ai processi.
 
@@ -45,7 +45,7 @@ La scelta dipende dal volume e dal grado di integrazione desiderato. Uno studio 
 | Dimensione | Business App | Business API |
 | --- | --- | --- |
 | Adatta a | Studio singolo, volumi bassi | Poliambulatorio, più operatori |
-| Operatori | Uno per volta | Più operatori in parallelo |
+| Operatori | Fino a 5 dispositivi, senza inbox condivisa né ruoli | Più operatori in parallelo con ruoli |
 | Integrazione CRM e agenda | No | Sì |
 | Invii strutturati (promemoria) | Limitati | Modelli approvati |
 
@@ -55,7 +55,7 @@ Il dato che WhatsApp veicola in sanità non è un dato qualsiasi. Le informazion
 
 Tre principi vanno rispettati. Il primo è la base giuridica: usare WhatsApp per comunicazioni di servizio legate a un appuntamento, come un promemoria, richiede presupposti diversi dall'usarlo per comunicazioni promozionali, che richiedono un consenso marketing specifico e separato. Il secondo è la minimizzazione: nei messaggi non vanno inseriti dettagli clinici, diagnosi o riferimenti alla prestazione che rivelino la condizione del paziente, perché transitano su una piattaforma di terze parti. Il terzo è l'informativa: il paziente deve sapere che la struttura usa questo canale, con quali finalità e con quali garanzie.
 
-La conseguenza pratica è che un promemoria corretto dice "le ricordiamo l'appuntamento di domani alle 15", non "le ricordiamo la visita oncologica di domani". La differenza non è formale, è la linea tra un uso conforme e una violazione. Il Garante per la protezione dei dati personali ha più volte richiamato l'attenzione sul trattamento dei dati sanitari attraverso strumenti digitali, e una struttura che adotta WhatsApp senza questi presidi espone se stessa, non il fornitore.
+La conseguenza pratica è che un promemoria corretto dice "le ricordiamo l'appuntamento di domani alle 15", non "le ricordiamo la visita oncologica di domani". La differenza non è formale, è la linea tra un uso conforme e una violazione. Il Garante per la protezione dei dati personali, nelle indicazioni del 2024 su siti e app per il contatto tra medico e paziente, ha ribadito le cautele necessarie sul trattamento dei dati sanitari con strumenti digitali, e una struttura che adotta WhatsApp senza questi presidi espone se stessa, non il fornitore.
 
 ## Dove WhatsApp incide davvero lungo il percorso del paziente
 

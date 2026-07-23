@@ -33,7 +33,7 @@ Il mercato della SEO locale per strutture sanitarie in Canton Ticino è, nel 202
 
 ### La concorrenza digitale che non c'è (ancora)
 
-Un'analisi delle prime pagine di ricerca Google per le keyword sanitarie più comuni nella Svizzera italiana, eseguita da OIDA Labs su un campione di ricerche su 18 specialità tra il 2024 e il 2025, mostra che **in 14 specialità su 18 le prime posizioni organiche sono occupate da directory generaliste** (Doctolib, Topmedici), da strutture ospedaliere pubbliche o da siti di singoli professionisti con ottimizzazione minima. Le strutture private con siti ottimizzati e profili GBP completi occupano le prime posizioni locali quando esistono, quasi senza competizione.
+Un'analisi delle prime pagine di ricerca Google per le keyword sanitarie più comuni nella Svizzera italiana, eseguita da OIDA Labs su un campione di ricerche su 18 specialità tra il 2024 e il 2025, mostra che **in 14 specialità su 18 le prime posizioni organiche sono occupate da directory generaliste** (come OneDoc o Medicosearch), da strutture ospedaliere pubbliche o da siti di singoli professionisti con ottimizzazione minima. Le strutture private con siti ottimizzati e profili GBP completi occupano le prime posizioni locali quando esistono, quasi senza competizione.
 
 Questo è uno scenario che nel mercato italiano delle stesse specialità è irreversibilmente diverso: le keyword sanitarie più competitive in Italia registrano volumi di ricerca e densità competitiva che rendono il posizionamento organico di una struttura nuova un progetto da 18-24 mesi minimo. **In Canton Ticino, lo stesso profilo di risultati è ottenibile in 6-9 mesi** per keyword a media concorrenza.
 
@@ -55,7 +55,7 @@ La categoria GBP selezionata ha un peso rilevante nel posizionamento locale. "Cl
 
 ### Il volume di recensioni nel mercato ticinese
 
-Il volume di recensioni necessario per posizionarsi bene nelle ricerche locali ticinesi è **inferiore rispetto al mercato italiano**, per ragioni demografiche e di dimensione del mercato. Strutture con 40-60 recensioni e rating superiore a 4,4 si posizionano nelle prime posizioni della ricerca locale in molte specialità e molte città del cantone.
+Il volume di recensioni necessario per posizionarsi bene nelle ricerche locali ticinesi è **inferiore rispetto al mercato italiano**, per ragioni demografiche e di dimensione del mercato. Nella nostra analisi del mercato ticinese, strutture con 40-60 recensioni e un rating elevato raggiungono le prime posizioni della ricerca locale in molte specialità e città del cantone.
 
 Questo non significa che la [gestione delle recensioni](/blog/gestione-delle-recensioni-online-nelle-cliniche-private-reputazione-digitale-e-acquisizione-pazienti/) sia meno importante: significa che la soglia di volume necessaria per essere competitivi è raggiungibile in tempi più brevi.
 
@@ -63,7 +63,7 @@ Questo non significa che la [gestione delle recensioni](/blog/gestione-delle-rec
 
 ### La ricerca in italiano nel contesto plurilingue
 
-Il Canton Ticino è l'unico cantone svizzero con italiano come lingua ufficiale, ma la Svizzera ha quattro lingue nazionali e Google adatta i risultati in funzione della lingua di ricerca e della geolocalizzazione. **Una struttura sanitaria ticinese che ottimizza i propri contenuti in italiano cattura le ricerche dei pazienti locali italofoni e, in modo significativo, una quota di ricerche provenienti dall'Italia settentrionale**, dove il volume di ricerche di strutture sanitarie in Svizzera è cresciuto negli ultimi anni.
+Il Canton Ticino è l'unico cantone svizzero in cui l'italiano è la sola lingua ufficiale (nei Grigioni è una delle tre lingue ufficiali, accanto al tedesco e al romancio), e la Svizzera ha quattro lingue nazionali; Google adatta i risultati in funzione della lingua di ricerca e della geolocalizzazione. **Una struttura sanitaria ticinese che ottimizza i propri contenuti in italiano cattura le ricerche dei pazienti locali italofoni e, in modo significativo, una quota di ricerche provenienti dall'Italia settentrionale**, dove il volume di ricerche di strutture sanitarie in Svizzera è cresciuto negli ultimi anni.
 
 La keyword strategy per una struttura ticinese deve tenere conto di questa doppia provenienza della domanda:
 - Le ricerche dei **pazienti locali** usano riferimenti geografici cantonali ("Lugano", "Locarno", "Mendrisio")
@@ -106,9 +106,9 @@ Il Canton Ticino è oggi un'occasione di posizionamento SEO che il mercato itali
 
 Per strutture che operano esclusivamente nel Canton Ticino e si rivolgono a pazienti italofoni locali o italiani transfrontalieri, il solo italiano è sufficiente per la SEO locale. Se la struttura intende attrarre pazienti dalla Svizzera tedesca o da altre regioni svizzere, un'estensione in tedesco del sito ha senso strategico, ma richiede ottimizzazione specifica per le ricerche in tedesco svizzero, che ha peculiarità rispetto al tedesco standard.
 
-**Come incide la presenza su Doctolib sulle performance SEO di una struttura ticinese?**
+**Le piattaforme di prenotazione online come OneDoc o Medicosearch incidono sulle performance SEO di una struttura ticinese?**
 
-Doctolib ha una presenza crescente in Svizzera ma non ancora dominante nel Canton Ticino come in Francia o in alcune città italiane. La presenza su Doctolib contribuisce alla visibilità complessiva della struttura e genera backlink da un dominio ad alta autorità. Non sostituisce il posizionamento diretto del sito della struttura.
+OneDoc e Medicosearch, attive in Svizzera e presenti in Canton Ticino, contribuiscono alla visibilità complessiva della struttura e generano una citazione e un collegamento da un dominio ad autorità consolidata. Restano un canale complementare: il presidio principale sulle ricerche del paziente resta il posizionamento diretto del sito della struttura, che queste piattaforme affiancano senza sostituirlo.
 
 **I pazienti italiani che cercano strutture ticinesi usano Google italiano o Google svizzero?**
 

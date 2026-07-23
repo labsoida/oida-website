@@ -16,7 +16,7 @@
 
 Una campagna Google Ads o Meta Ads che porta traffico a una pagina sbagliata non ha solo un problema di budget sprecato. Ha un problema strutturale: il paziente ha mostrato un'intenzione, ha cliccato, ed è atterrato su qualcosa che non ha risposto in modo convincente a quella intenzione. Tutto il lavoro di targeting e impostazione della campagna si vanifica nell'ultimo miglio. Come strutturare a monte quelle campagne è trattato nei blog su [Meta Ads per cliniche](/blog/meta-ads-cliniche-costo-per-paziente/) e su [Google Ads per strutture sanitarie](/blog/google-ads-strutture-sanitarie-errori-campagna/).
 
-La **landing page sanitaria** è questo ultimo miglio. È il punto in cui il traffico pagato, o anche organico, si trasforma in una prenotazione o scompare, e dove si gioca la conversione che la [guida al marketing sanitario](/marketing-sanitario/) colloca a valle di ogni campagna. Il tasso di conversione medio di una landing page nel settore dei servizi medici è del 7,4%, con una mediana al 3,8%. Il range reale tra le pagine migliori e peggiori è molto più ampio: la differenza tra una pagina ben costruita e una generica non è di pochi punti percentuali.
+La **landing page sanitaria** è questo ultimo miglio. È il punto in cui il traffico pagato, o anche organico, si trasforma in una prenotazione o scompare, e dove si gioca la conversione che la [guida al marketing sanitario](/marketing-sanitario/) colloca a valle di ogni campagna. Secondo il Conversion Benchmark Report di Unbounce, nella categoria dei servizi medici il tasso di conversione medio di una landing page è del 7,4%, con una mediana al 3,6%. Il range reale tra le pagine migliori e peggiori è molto più ampio: la differenza tra una pagina ben costruita e una generica non è di pochi punti percentuali.
 
 ---
 
@@ -33,7 +33,7 @@ La **landing page sanitaria** è questo ultimo miglio. È il punto in cui il tra
 
 Una landing page per un servizio di streaming o per un e-commerce lavora sulla leva del desiderio e della convenienza. Una landing page sanitaria lavora su una leva completamente diversa: la fiducia.
 
-Il paziente che arriva su una landing page sanitaria ha già una necessità, spesso urgente. Non sta esplorando, sta valutando se quella struttura è quella giusta. La domanda implicita che si fa entro i primi 8 secondi non è "questo prodotto mi piace?" ma "posso fidarmi di loro?".
+Il paziente che arriva su una landing page sanitaria ha già una necessità, spesso urgente. Non sta esplorando, sta valutando se quella struttura è quella giusta. La domanda implicita che si fa già nei primi secondi non è "questo prodotto mi piace?" ma "posso fidarmi di loro?".
 
 Questa differenza cambia tutto: cambia quali elementi mettere in primo piano, come scrivere il testo, quale CTA usare e quali prove di affidabilità includere. Una landing page sanitaria che converte non è una pagina bella o persuasiva nel senso commerciale del termine. È una pagina che risponde rapidamente alla domanda sulla fiducia, riduce le frizioni pratiche e rende facile fare il passo successivo, che quasi sempre è prenotare o chiedere informazioni.
 
@@ -55,7 +55,7 @@ Le landing page con più di un'azione principale (prenota, scarica la guida, chi
 
 ### Velocità di caricamento e resa su mobile
 
-Il paziente che cerca una clinica ortopedica dopo una settimana di attesa per il pronto soccorso lo fa probabilmente da smartphone. Una pagina che impiega più di 3 secondi a caricarsi perde una quota significativa del traffico mobile prima ancora di mostrare il contenuto. La velocità non è un dettaglio tecnico: è una variabile di conversione.
+Il paziente che cerca una clinica ortopedica dopo una settimana di attesa per il pronto soccorso lo fa probabilmente da smartphone. Una pagina lenta a caricarsi perde una quota significativa del traffico mobile prima ancora di mostrare il contenuto. La velocità non è un dettaglio tecnico: è una variabile di conversione.
 
 ### GDPR compliance visibile
 
@@ -118,7 +118,7 @@ Le landing page esterne al sito principale (su sottodomini o domini separati) ha
 
 **Quali informazioni devono essere obbligatoriamente presenti su una landing page sanitaria in Italia?**
 
-La landing page deve includere: ragione sociale della struttura, indirizzo della sede, informativa sulla privacy ai sensi del GDPR con link al documento completo, consenso esplicito al trattamento dei dati prima dell'invio del form. Se la pagina pubblicizza un professionista sanitario con nome e cognome, deve essere indicato il titolo professionale e il numero di iscrizione all'ordine. I claim terapeutici devono essere veritieri e verificabili: affermazioni non dimostrabili sui risultati clinici violano il Codice di Deontologia Medica e le policy di Google e Meta.
+La landing page deve includere: ragione sociale della struttura, indirizzo della sede, informativa sulla privacy ai sensi del GDPR con link al documento completo, consenso esplicito al trattamento dei dati prima dell'invio del form. Se la pagina pubblicizza un professionista sanitario con nome e cognome, devono essere indicati il titolo professionale e la specializzazione; per le strutture sanitarie è obbligatoria l'indicazione del direttore sanitario. I claim terapeutici devono essere veritieri e verificabili: affermazioni non dimostrabili sui risultati clinici violano il Codice di Deontologia Medica e le policy di Google e Meta.
 
 
 ---

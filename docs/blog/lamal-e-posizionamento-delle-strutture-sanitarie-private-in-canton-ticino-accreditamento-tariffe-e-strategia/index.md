@@ -14,7 +14,7 @@
 ---
 
 
-L'accreditamento LAMAL non è solo un requisito burocratico: è una scelta di posizionamento che determina **il mercato servibile, la libertà tariffaria, il profilo del paziente acquisibile e le leve di marketing disponibili**. Una struttura sanitaria privata in Canton Ticino che decide di operare interamente in regime privato, senza accreditamento LAMAL, sceglie un mercato diverso rispetto a una struttura accreditata.
+L'ammissione a fatturare a carico dell'assicurazione obbligatoria delle cure medico-sanitarie (AOMS) — l'autorizzazione a esercitare e l'iscrizione all'elenco ospedaliero cantonale previste dalla LAMal, ciò che in Italia si chiamerebbe accreditamento — non è solo un requisito burocratico: è una scelta di posizionamento che determina **il mercato servibile, la libertà tariffaria, il profilo del paziente acquisibile e le leve di marketing disponibili**. Una struttura sanitaria privata in Canton Ticino che decide di operare interamente in regime privato, senza questa ammissione, sceglie un mercato diverso rispetto a una struttura autorizzata a fatturare in LAMal.
 
 Nessuna delle due è la scelta giusta in assoluto, ma sono scelte con implicazioni molto diverse che richiedono consapevolezza. Le strutture che gestiscono questa variabile in modo attivo la usano come leva di differenziazione. Quelle che la subiscono come dato di fatto spesso non capiscono perché le proprie campagne di acquisizione producono risultati incoerenti rispetto alle aspettative.
 
@@ -33,7 +33,7 @@ Nessuna delle due è la scelta giusta in assoluto, ma sono scelte con implicazio
 
 ### Il mercato servibile cambia in modo sostanziale
 
-Una struttura accreditata LAMAL può erogare prestazioni rimborsabili dall'assicurazione di base ai propri pazienti. Questo significa che si rivolge a un bacino che include tutti i residenti svizzeri con LAMAL (che in Canton Ticino comprende anche circa 80.000 frontalieri italiani che hanno optato per la copertura svizzera). **L'accesso per il paziente è economicamente accessibile**: paga franchigia e aliquota, il resto è a carico dell'assicuratore.
+Una struttura accreditata LAMAL può erogare prestazioni rimborsabili dall'assicurazione di base ai propri pazienti. Questo significa che si rivolge a un bacino che include tutti i residenti svizzeri con LAMAL (in Canton Ticino si contano circa 79.000 frontalieri italiani, numero in calo negli ultimi trimestri, e una parte di essi è assicurata alla LAMal svizzera). **L'accesso per il paziente è economicamente accessibile**: paga franchigia e aliquota, il resto è a carico dell'assicuratore.
 
 Una struttura non accreditata si rivolge a un segmento più ristretto: pazienti con assicurazioni complementari che coprono strutture non accreditate, pazienti italiani in regime privato, pazienti svizzeri disposti a pagare integralmente per ragioni di preferenza. Questo segmento è economicamente più qualificato (il paziente ha già superato la barriera del pagamento integrale) e **la struttura mantiene piena libertà tariffaria**.
 
@@ -41,15 +41,15 @@ Una struttura non accreditata si rivolge a un segmento più ristretto: pazienti 
 
 ### Il costo dell'accreditamento
 
-Ottenere e mantenere l'accreditamento LAMAL richiede il rispetto di requisiti di qualità definiti dalla normativa cantonale e federale, audit periodici e conformità agli standard strutturali e di personale previsti. Per molte strutture di medie dimensioni, questi requisiti sono già soddisfatti dall'operatività ordinaria. **Ma il vincolo più rilevante non è burocratico: è tariffario.**
+Ottenere e mantenere l'ammissione a fatturare in LAMal richiede il rispetto dei requisiti previsti dalla normativa federale e cantonale e la conformità agli standard strutturali e di personale richiesti per l'iscrizione all'elenco ospedaliero cantonale. Per molte strutture di medie dimensioni, questi requisiti sono già soddisfatti dall'operatività ordinaria. **Ma il vincolo più rilevante non è burocratico: è tariffario.**
 
 ## Tarmed: libertà e vincoli tariffari per le strutture accreditate {#tarmed-liberta-e-vincoli-tariffari-per-le-strutture-accreditate}
 
 ### Il sistema Tarmed e le sue implicazioni operative
 
-Le strutture accreditate LAMAL per le prestazioni ambulatoriali fatturano alle tariffe Tarmed, il sistema tariffario che definisce il valore di ogni prestazione medica ambulatoriale in punti, con un valore punto (**Taxpunktwert**) negoziato a livello cantonale. Per le prestazioni coperte dalla LAMAL, la struttura accreditata non può applicare tariffe superiori a Tarmed con l'assicuratore.
+Le strutture ammesse a fatturare in LAMal per le prestazioni ambulatoriali applicano il tariffario ambulatoriale federale. Dal 1° gennaio 2026 questo tariffario è costituito da **TARDOC e dai forfait ambulatoriali**, che hanno sostituito il Tarmed: TARDOC valorizza in punti le singole prestazioni, mentre i forfait coprono in modo forfettario interi trattamenti. Il valore del punto TARDOC è fissato a livello nazionale (**CHF 0.92**), superando la logica del valore punto (Taxpunktwert) negoziato cantone per cantone che caratterizzava il Tarmed. Per le prestazioni coperte dalla LAMal, la struttura non può applicare all'assicuratore tariffe superiori a quelle previste dal tariffario.
 
-Questo sistema ha un'implicazione diretta sul margine per prestazione: le tariffe Tarmed riflettono una valorizzazione che non sempre corrisponde ai costi effettivi di una struttura privata ad alto livello di servizio. **Una struttura che investe in spazi di qualità, in accoglienza, in tecnologia diagnostica avanzata o in formazione del personale non può recuperare questi costi con tariffe maggiorate verso l'assicuratore.**
+Questo sistema ha un'implicazione diretta sul margine per prestazione: le tariffe del tariffario federale riflettono una valorizzazione che non sempre corrisponde ai costi effettivi di una struttura privata ad alto livello di servizio. **Una struttura che investe in spazi di qualità, in accoglienza, in tecnologia diagnostica avanzata o in formazione del personale non può recuperare questi costi con tariffe maggiorate verso l'assicuratore.**
 
 Il margine aggiuntivo, per le strutture accreditate che vogliono posizionarsi su standard superiori, viene recuperato attraverso:
 - Le prestazioni in regime privato (per cui la tariffa è libera)
@@ -60,7 +60,7 @@ Il margine aggiuntivo, per le strutture accreditate che vogliono posizionarsi su
 
 Le prestazioni non incluse nel catalogo LAMAL, e quelle erogate a pazienti che non usano la LAMAL (pazienti privati italiani, pazienti con polizze complementari che coprono prestazioni fuori LAMAL), possono essere fatturate a tariffe proprie. **Questa è la fascia in cui la struttura esprime la propria libertà di posizionamento tariffario.**
 
-La coesistenza di prestazioni a tariffa Tarmed e prestazioni a tariffa libera richiede una gestione amministrativa precisa, e una comunicazione al paziente altrettanto precisa.
+La coesistenza di prestazioni a tariffario federale (TARDOC e forfait) e prestazioni a tariffa libera richiede una gestione amministrativa precisa, e una comunicazione al paziente altrettanto precisa.
 
 ## Come l'accreditamento influenza la comunicazione verso i pazienti
 
@@ -97,7 +97,7 @@ Il [paziente italiano](/blog/pazienti-italiani-in-canton-ticino-perche-scelgono-
 
 ### Accreditamento parziale e regime misto
 
-Alcune strutture ticinesi scelgono un **approccio misto**: accreditamento LAMAL per un sottoinsieme di specialità o di prestazioni, e regime privato per il resto. Questo approccio permette di mantenere l'accesso al mercato LAMAL per le specialità in cui il volume è alto e il Tarmed è sostenibile, e di preservare la libertà tariffaria nelle specialità in cui il posizionamento premium ha più senso.
+Alcune strutture ticinesi scelgono un **approccio misto**: accreditamento LAMAL per un sottoinsieme di specialità o di prestazioni, e regime privato per il resto. Questo approccio permette di mantenere l'accesso al mercato LAMAL per le specialità in cui il volume è alto e il tariffario federale è sostenibile, e di preservare la libertà tariffaria nelle specialità in cui il posizionamento premium ha più senso.
 
 La gestione di questo approccio è più complessa sul piano amministrativo e comunicativo, ma produce **flessibilità strategica** che le strutture con accreditamento totale o senza accreditamento non hanno.
 
@@ -116,9 +116,9 @@ L'accreditamento LAMAL è una scelta di posizionamento, non solo un atto amminis
 
 Dipende dalla specialità e dal posizionamento. In specialità ad alta frequenza e basso costo unitario (medicina generale, fisioterapia di mantenimento, diagnostica di routine), non essere accreditati esclude una parte significativa del bacino di pazienti locali che usano la LAMAL. In specialità con alta componente elettiva e alto valore unitario (chirurgia estetica, odontoiatria ad alta complessità, diagnostica avanzata), il segmento privato può essere sufficiente a sostenere la struttura senza accreditamento.
 
-**Il Taxpunktwert Tarmed in Canton Ticino è aggiornato rispetto ai costi effettivi delle strutture?**
+**Il valore del punto tariffario in Canton Ticino è aggiornato rispetto ai costi effettivi delle strutture?**
 
-Il Taxpunktwert cantonale viene negoziato periodicamente tra santésuisse (associazione degli assicuratori) e la Società di Medicina del Canton Ticino. L'evoluzione del valore punto in Ticino segue le negoziazioni federali con alcune specificità cantonali. Le strutture che vogliono valutare la sostenibilità economica dell'accreditamento LAMAL devono confrontare il valore punto corrente con i propri costi effettivi per prestazione, un'analisi che richiede dati di controlling interno precisi.
+Storicamente il valore del punto (Taxpunktwert) del Tarmed in Canton Ticino veniva negoziato tra santésuisse (associazione degli assicuratori) e l'Ordine dei medici del Cantone Ticino (OMCT), e in assenza di accordo era fissato dal Consiglio di Stato. Dal 1° gennaio 2026 il Tarmed è stato sostituito da TARDOC e dai forfait ambulatoriali, con un valore del punto TARDOC fissato a livello nazionale. Le strutture che vogliono valutare la sostenibilità economica dell'ammissione alla LAMal devono confrontare le tariffe correnti con i propri costi effettivi per prestazione, un'analisi che richiede dati di controlling interno precisi.
 
 **Come si comunica ai potenziali pazienti la differenza tra accesso LAMAL e accesso privato senza creare confusione?**
 
