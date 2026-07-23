@@ -4,6 +4,7 @@ seo_title: "Chatbot e automazione della prima risposta in sanità"
 description: "Automatizzare la prima risposta riduce i lead persi per ritardo, ma non tutti i sistemi producono lo stesso risultato. Cosa distingue quelli efficaci."
 date: 2026-04-28
 author: "OIDA Labs"
+author_person: giacomo
 image: "img/blog/chatbot-e-automazione-della-prima-risposta-nelle-strutture-sanitarie-cosa-funziona-e-cosa-non-funziona.webp"
 og_image: "img/blog/chatbot-automazione-sanitaria-og.jpg"
 image_alt: "Chatbot e automazione della prima risposta nelle strutture sanitarie: cosa funziona e cosa non funziona"

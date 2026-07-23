@@ -4,6 +4,7 @@ seo_title: "Acquisizione pazienti online per la sanità"
 description: "Generare contatti online non è acquisire pazienti. Cosa separa le strutture con le agende piene da quelle con campagne che non diventano prenotazioni."
 date: 2026-05-14
 author: "OIDA Labs"
+author_person: alessandro
 image: "img/blog/acquisizione-pazienti-online-cosa-determina-la-conversione-da-contatto-a-visita.webp"
 og_image: "img/blog/acquisizione-pazienti-online-og.jpg"
 image_alt: "Acquisizione pazienti online: cosa determina la conversione da contatto a visita"

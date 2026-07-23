@@ -4,6 +4,7 @@ seo_title: "SEO locale per cliniche in Canton Ticino"
 description: "SEO locale e Google Business Profile in Canton Ticino: un mercato a bassa concorrenza digitale e una finestra da sfruttare prima che si chiuda."
 date: 2026-03-27
 author: "OIDA Labs"
+author_person: alessandro
 image: "img/blog/seo-locale-e-google-business-profile-per-cliniche-in-canton-ticino-un-mercato-a-bassa-concorrenza.webp"
 og_image: "img/blog/seo-locale-gbp-canton-ticino-og.jpg"
 image_alt: "SEO locale e Google Business Profile per cliniche in Canton Ticino: un mercato a bassa concorrenza"

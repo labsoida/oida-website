@@ -4,6 +4,7 @@ seo_title: "Landing page sanitaria: cosa determina la conversione"
 description: "Cosa converte una landing page sanitaria: trust signal, CTA unica, coerenza con la campagna e velocità. Guida per strutture private che gestiscono paid."
 date: 2026-05-31
 author: "OIDA Labs"
+author_person: alessandro
 image: "img/blog/landing-page-sanitaria-conversione.webp"
 og_image: "img/blog/landing-page-sanitaria-conversione-og.jpg"
 image_alt: "Landing page sanitaria: cosa determina la conversione da click a prenotazione"

@@ -16,7 +16,7 @@
 ---
 
 
-## Perché una società di marketing sanitario legge un report di politica sanitaria
+## Perché il marketing sanitario legge un report di politica sanitaria
 
 Nelle analisi che conduciamo sul mercato della sanità privata italiana ritorna una costante: la presenza digitale delle strutture specialistiche è, nella stragrande maggioranza dei casi, costruita per la prestazione indifferenziata e non per il percorso della singola patologia. Il risultato è uno scarto permanente tra la domanda che le pazienti esprimono online, con ricerche specifiche, informate, ripetute nel tempo, e il contenuto effettivamente raggiungibile sui siti di chi quella domanda potrebbe servire. L'endometriosi, al momento in cui scriviamo, è l'esempio più nitido di questa asimmetria.
 
@@ -28,7 +28,7 @@ Questa analisi non discute il merito scientifico del report e non propone raccom
 
 Tre dati del report sono sufficienti a inquadrare il fenomeno: oltre 1,8&nbsp;milioni di donne italiane conviventi con una diagnosi (stime ISS, 2021–2023), un ritardo medio tra esordio dei sintomi e diagnosi compreso fra i sette e i dieci anni, e nove amministrazioni regionali su ventuno senza alcun provvedimento specifico sui percorsi assistenziali. Sono anche i tre assi su cui costruiremo l'analisi che segue: il percorso informativo delle pazienti, la segmentazione della domanda, lo scenario competitivo regionale.
 
-## Il percorso informativo: sette-dieci anni di ricerca digitale non accompagnata
+## Sette-dieci anni di ricerca prima della diagnosi di endometriosi
 
 Il dato della diagnosi ritardata è la cifra più citata del report ed è anche, paradossalmente, la più sotto-analizzata. Nella letteratura di comunicazione sanitaria il percorso informativo del paziente (le tappe di ricerca, valutazione e scelta che precedono il contatto con una struttura) è un oggetto di studio ormai stabile; quello che in Italia ancora manca è una misurazione empirica della sua durata nelle patologie a diagnosi difficile. GIMBE, incrociando le proprie fonti con l'indagine britannica *A Long and Painful Road* del National Confidential Enquiry into Patient Outcome and Death (NCEPOD,&nbsp;2024), colloca la distanza media fra esordio dei sintomi e diagnosi formale tra i **sette e i dieci anni**. Tradotto nel lessico del marketing: è un tempo di ricerca di ordine di grandezza superiore a quello di quasi ogni altra patologia elettiva dell'offerta privata italiana.
 
@@ -146,7 +146,7 @@ In un percorso di scelta lungo sette-dieci anni, il vantaggio non lo costruisce 
 
 L'esperienza digitale della paziente, in questo segmento, è quindi un oggetto diverso da quello che molti reparti comunicazione delle strutture sanitarie italiane abitualmente progettano. Non è un percorso di conversione da forzare con qualche tocco pubblicitario; è un presidio editoriale da costruire nel tempo. I riferimenti diagnostici precisi (classificazione ASRM, ecografia pelvica di secondo livello, stadiazione, percorso per fenotipo clinico), i dati di volumetria chirurgica, i curriculum delle figure clinicamente responsabili, la dichiarazione esplicita di cosa la struttura tratta in sede e cosa indirizza altrove sono gli unici contenuti che, nel nostro monitoraggio dei comportamenti di ricerca, generano tempo di permanenza significativo e contatto qualificato in questo segmento. La paziente con sette anni di ricerca alle spalle non è intercettabile con la brochure aziendale. **È intercettabile con la precisione.**
 
-## Segmentazione della domanda: un pubblico definito, escluso dall'esenzione nazionale
+## Gli stadi I-II dell'endometriosi restano fuori dall'esenzione nazionale
 
 Il secondo asse di lettura è la segmentazione. Nel lessico regolatorio si parla di codice di esenzione 063; nel lessico della comunicazione parliamo di un pubblico demograficamente definito, finanziariamente disposto a pagare per necessità, e oggi solo marginalmente servito dal sistema pubblico. Il codice 063, introdotto con il D.M.&nbsp;296/2001 e recepito nei Livelli Essenziali di Assistenza dal DPCM del 29&nbsp;novembre&nbsp;2001 e successivamente dal DPCM del 12&nbsp;gennaio&nbsp;2017, copre esclusivamente l'«endometriosi moderata e grave (III-IV stadio ASRM)». **Gli stadi I e II restano formalmente fuori dal perimetro dell'esenzione** pur rappresentando, epidemiologicamente, la maggioranza dei casi: determinano dolore cronico, dispareunia, dismenorrea invalidante e, in una quota rilevante, compromissione della fertilità.
 
@@ -232,7 +232,7 @@ La paziente in stadio I-II costituisce quindi un segmento di domanda con tre car
 
 Chi progetta la comunicazione di una clinica ginecologica rivolta a questa paziente deve tenere a mente due regole che valgono trasversalmente nella letteratura dei servizi professionali: il pubblico informato perdona la tariffa, non perdona l'opacità; i segnali di competenza specifica valgono più della rassicurazione emotiva generica. Su questo profilo, pagine di atterraggio generaliste e brochure del team convertono in modo residuale. Convertono le pagine dedicate per singolo quadro clinico, i percorsi descritti con chiarezza nella loro sequenza di prestazioni, i casi illustrati in forma divulgativa ma tecnicamente accurata e, dove possibile, il contenuto formativo che la paziente può consultare nei mesi precedenti la decisione di contattare. È il principio del [marketing di attrazione applicato alla sanità](/blog/agenzia-marketing-sanitario-quattro-criteri-oggettivi-valutarla/): si costruisce la relazione nei mesi di ricerca, non nella settimana della decisione.
 
-## Scenario regionale: la mappa del vuoto come indicazione di posizionamento territoriale
+## La mappa regionale delle reti pubbliche per l'endometriosi
 
 Il terzo asse di lettura è geografico, e porta con sé la componente più sottostimata del marketing sanitario italiano: il posizionamento territoriale, ovvero la capacità di farsi trovare dalle pazienti del proprio bacino regionale. GIMBE ha ricostruito, per le 19 Regioni e le 2 Province Autonome, lo stato di attuazione di tre strumenti (PDTA dedicato, rete hub & spoke, integrazioni regionali alle esenzioni); noi leggiamo la stessa tabella come mappa delle opportunità di presidio territoriale, in cui il colore di una regione restituisce, prima ancora del dato sanitario, un'informazione sulla densità della concorrenza pubblica che la ginecologia privata di quel territorio si troverà ad affrontare nei prossimi anni.
 
@@ -319,7 +319,7 @@ Nelle quattro amministrazioni in fase di formalizzazione non operativa, ovvero A
 
 Nelle sette regioni con PDTA e rete pienamente operativi (Campania, Emilia-Romagna, Lombardia, Piemonte, Puglia, Sardegna e Sicilia) e nelle Marche (rete attiva, PDTA non formalizzato) la logica di posizionamento della sanità privata non è di sostituzione ma di integrazione o di specializzazione verticale: sottosegmenti clinici non coperti dai centri pubblici (chirurgia con risparmio nervoso per endometriosi profonda, preservazione della fertilità integrata, trattamento multidisciplinare del dolore pelvico cronico), tempistiche certe, esperienza ambientale di livello superiore, presa in carico continuativa. La competizione si sposta su elementi di qualità ed esperienza, non di presenza, e la comunicazione deve adattarsi di conseguenza.
 
-### Il mismatch fra ciò che cerca la paziente e ciò che la struttura privata comunica
+### Ciò che la paziente cerca e ciò che la struttura privata comunica
 
 <div class="insight-gap-grid">
   <div class="insight-gap-col insight-gap-col--demand">
@@ -348,7 +348,7 @@ Nelle sette regioni con PDTA e rete pienamente operativi (Campania, Emilia-Romag
 
 La struttura privata che potrebbe rispondere (e nelle regioni prive di rete pubblica sarebbe, di fatto, l'unica a poterlo fare in modo strutturato) dispone in genere della competenza clinica e non della presenza informativa. **È un problema di posizionamento digitale, non di offerta sanitaria.** Nel nostro monitoraggio delle ricerche ginecologiche italiane, la ricerca «chirurgia endometriosi profonda» restituisce, in molte regioni, un primo risultato istituzionale e un secondo risultato associativo; il risultato a pagamento è spesso assente, quello organico privato tipicamente in quarta-quinta posizione e privo di contenuti di approfondimento specifico. È una fotografia di mercato che, incrociata con la tabella&nbsp;4.2 di GIMBE e con il volume delle ricerche correlate, descrive una delle asimmetrie più citabili del marketing sanitario italiano del 2026.
 
-## Dal dato alla lettura: cosa fa OIDA quando legge un report di politica sanitaria
+## Il metodo OIDA per leggere un report di politica sanitaria
 
 Arriviamo al motivo per cui un report di politica sanitaria merita, nella nostra prassi di lavoro, un'analisi dedicata. Le tre dimensioni che abbiamo ricavato dalla tabella&nbsp;4.2 di GIMBE (durata del percorso informativo, segmentazione della domanda, scenario territoriale della concorrenza) sono le stesse dimensioni sulle quali si costruisce qualunque strategia seria di [comunicazione sanitaria specialistica](/blog/ai-marketing-sanitario-applicazioni-cliniche-poliambulatori/). L'endometriosi, per la combinazione di lunghezza del percorso, disponibilità economica del segmento, distribuzione geografica della domanda e asimmetria informativa rispetto all'offerta, è oggi una delle posizioni di comunicazione specialistica più sottoservite del panorama italiano. Altri temi clinici si troveranno, nei prossimi anni, in posizioni analoghe: la lettura che abbiamo proposto è replicabile, come metodo, ogni volta che un documento di sistema riporta dati di percorso assistenziale e di diseguaglianza territoriale.
 

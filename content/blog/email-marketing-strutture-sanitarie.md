@@ -4,6 +4,7 @@ seo_title: "Email marketing strutture sanitarie: la guida"
 description: "Come usare la lista pazienti in modo GDPR-compliant per riattivare gli inattivi, seguire i lead non convertiti e ridurre il churn in una struttura privata."
 date: 2026-05-23
 author: "OIDA Labs"
+author_person: alessandro
 image: "img/blog/email-marketing-strutture-sanitarie.webp"
 og_image: "img/blog/email-marketing-strutture-sanitarie-og.jpg"
 image_alt: "Email marketing per strutture sanitarie: come usare la lista pazienti senza sprecarla"

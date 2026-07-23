@@ -4,6 +4,7 @@ seo_title: "Piano marketing sanitario strutture private"
 description: "Fasi, budget e KPI per costruire un piano marketing sanitario che collega obiettivi di business a canali, spesa e cicli di revisione misurabili."
 date: 2026-05-19
 author: "OIDA Labs"
+author_person: giulia
 image: "img/blog/piano-marketing-sanitario-strutture-private.webp"
 og_image: "img/blog/piano-marketing-sanitario-strutture-private-og.jpg"
 image_alt: "Piano marketing sanitario per strutture private: come costruirlo e misurarlo"

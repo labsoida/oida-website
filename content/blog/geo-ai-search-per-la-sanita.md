@@ -4,6 +4,7 @@ seo_title: "GEO e AI search per la sanità"
 description: "GEO e AI search per la sanità: come una struttura appare nelle risposte di Google AI Overviews e ChatGPT, cosa la distingue dalla SEO e come misurarla."
 date: 2026-07-01
 author: "OIDA Labs"
+author_person: giacomo
 image: "img/blog/geo-ai-search-per-la-sanita-og.jpg"
 og_image: "img/blog/geo-ai-search-per-la-sanita-og.jpg"
 image_alt: "GEO per la sanità: come apparire nelle risposte dell'intelligenza artificiale"

@@ -4,6 +4,7 @@ seo_title: "SEO strutture sanitarie: un caso reale"
 description: "SEO per strutture sanitarie: un caso reale di crescita organica. Cosa determina il posizionamento di una clinica e perché richiede tempo e metodo."
 date: 2026-06-19
 author: "OIDA Labs"
+author_person: alessandro
 image: "img/blog/seo-strutture-sanitarie-caso-reale-crescita-organica.webp"
 og_image: "img/blog/seo-strutture-sanitarie-caso-reale-crescita-organica-og.jpg"
 image_alt: "SEO per strutture sanitarie: da zero a leader organico (un caso reale)"

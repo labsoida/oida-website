@@ -4,6 +4,7 @@ seo_title: "WhatsApp Business per strutture sanitarie"
 description: "Differenza tra App e API, regole GDPR per i dati sanitari e come usare WhatsApp lungo il funnel del paziente senza trasformarlo in un centralino."
 date: 2026-06-15
 author: "OIDA Labs"
+author_person: alessandro
 image: "img/blog/whatsapp-business-strutture-sanitarie.webp"
 og_image: "img/blog/whatsapp-business-strutture-sanitarie-og.jpg"
 image_alt: "WhatsApp Business per strutture sanitarie: come usarlo come canale, non come centralino"

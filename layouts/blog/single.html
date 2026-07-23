@@ -132,9 +132,17 @@
   {{ with .Params.image }}"image": "{{ . | absURL }}",{{ end }}
   "wordCount": {{ countwords .Content }},
   "author": {
-    "@type": "Organization",
-    "name": "OIDA Labs",
-    "url": "https://oida-labs.com"
+    {{- $ap := .Params.author_person | default "stefano" }}
+    {{- if eq $ap "alessandro" }}
+    "@type": "Person", "name": "Alessandro Catalano", "jobTitle": "Co-Founder e Chief Marketing Officer di OIDA Labs", "url": "https://oida-labs.com/team/alessandro-catalano/", "sameAs": "https://www.linkedin.com/in/alessandrocatalano17/",
+    {{- else if eq $ap "giacomo" }}
+    "@type": "Person", "name": "Giacomo Baldi", "jobTitle": "Medico e ingegnere informatico, Healthcare & Tech Advisor di OIDA Labs", "url": "https://oida-labs.com/team/giacomo-baldi/", "sameAs": "https://www.linkedin.com/in/giacomo-baldi/",
+    {{- else if eq $ap "giulia" }}
+    "@type": "Person", "name": "Giulia Nasini", "jobTitle": "Strategic Marketing Advisor e Co-Founder di OIDA Labs", "url": "https://oida-labs.com/team/giulia-nasini/", "sameAs": "https://www.linkedin.com/in/giulianasini/",
+    {{- else }}
+    "@type": "Person", "name": "Stefano Giarratana", "jobTitle": "Medico anestesista, Founder di OIDA Labs", "url": "https://oida-labs.com/team/stefano-giarratana/", "sameAs": "https://www.linkedin.com/in/stefano-giarratana/",
+    {{- end }}
+    "worksFor": { "@type": "Organization", "name": "OIDA Labs", "url": "https://oida-labs.com" }
   },
   "publisher": {
     "@type": "Organization",

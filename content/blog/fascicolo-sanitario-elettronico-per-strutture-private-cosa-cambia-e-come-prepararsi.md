@@ -4,6 +4,7 @@ seo_title: "Fascicolo sanitario elettronico e strutture private"
 description: "Il fascicolo sanitario elettronico interessa anche le strutture private: gli obblighi per cliniche e poliambulatori e come trasformarli in vantaggio."
 date: 2026-04-02
 author: "OIDA Labs"
+author_person: giacomo
 image: "img/blog/fascicolo-sanitario-elettronico-per-strutture-private-cosa-cambia-e-come-prepararsi.webp"
 og_image: "img/blog/fascicolo-sanitario-elettronico-og.jpg"
 image_alt: "Fascicolo sanitario elettronico per strutture private: cosa cambia e come prepararsi"
