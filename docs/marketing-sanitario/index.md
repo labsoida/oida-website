@@ -218,23 +218,31 @@ Il marketing sanitario funziona quando tratta il paziente da decisore informato,
 
 **Quanto costa il marketing sanitario per una struttura privata?**
 
-Dipende da specialità, mercato locale, obiettivi e stato di partenza della presenza digitale. La domanda corretta non è quanto costa, ma quanto rende: una struttura che misura CPL e CAC sa esattamente quanto paga ogni paziente acquisito e può decidere su quei numeri. Le attività continuative hanno senso con un orizzonte di almeno 6 mesi; i progetti puntuali (audit, riposizionamento) si chiudono in 1-3 mesi.
+Dipende da specialità, mercato locale, obiettivi e stato di partenza della presenza digitale. Il metro che conta è quanto rende, prima di quanto costa: una struttura che misura CPL e CAC sa esattamente quanto paga ogni paziente acquisito e decide su quei numeri. Le attività continuative hanno senso su un orizzonte di almeno 6 mesi; i progetti puntuali, come un audit o un riposizionamento, si chiudono in 1-3 mesi.
 
 **In quanto tempo il marketing sanitario produce risultati?**
 
 Le campagne pubblicitarie generano i primi contatti in 2-4 settimane. I risultati confrontabili con i benchmark di settore emergono tra il terzo e il sesto mese, quando i dati raccolti sono sufficienti per le prime decisioni informate. SEO e reputazione lavorano su 6-12 mesi, con effetti più duraturi.
 
+**Come si misura il ritorno del marketing sanitario?**
+
+Il ritorno si misura sul costo per paziente arrivato alla visita (CAC), prima che sul costo per contatto (CPL): la distanza tra i due numeri è quanto il funnel disperde tra il click e la prenotazione. Un impianto corretto traccia ogni contatto fino alla prestazione erogata e ne attribuisce la provenienza per canale. Il costo per lead da solo è una metrica ingannevole, perché un CPL basso con un CAC insostenibile segnala un problema di conversione interna.
+
 **Una struttura può gestire il marketing internamente o serve un'agenzia?**
 
-Le due cose non si escludono. La struttura deve comunque presidiare internamente il front office e la qualità dei dati; la scelta riguarda campagne, SEO e infrastruttura tecnica. Il criterio onesto è la specializzazione: chi gestisce le campagne deve conoscere i vincoli normativi della pubblicità sanitaria e i benchmark per specialità, altrimenti impara a spese della struttura.
+Le due cose convivono. La struttura mantiene comunque il controllo del front office e della qualità dei dati; la scelta riguarda le campagne, la SEO e l'infrastruttura tecnica. Il criterio onesto è la specializzazione: chi gestisce le campagne deve conoscere i vincoli della pubblicità sanitaria e i benchmark per specialità, altrimenti li impara a spese della struttura.
 
 **La pubblicità sanitaria è legale in Italia?**
 
-Sì, dentro un perimetro preciso. La norma di riferimento è la Legge 145/2018 (comma 525), come modificata dal D.L. 69/2023 convertito in Legge 103/2023: consente l'informazione sanitaria veritiera ed esclude gli elementi attrattivi e suggestivi, tra cui offerte, sconti e promozioni, idonei a indurre il ricorso improprio alle prestazioni. Il Codice di Deontologia Medica aggiunge il principio di non promozionalità per i singoli professionisti. Dentro questi limiti gli strumenti di marketing legittimi sono molti e misurabili.
+Sì, dentro un perimetro definito dalla legge. La Legge 145/2018 (comma 525), come modificata dal D.L. 69/2023 convertito in Legge 103/2023, consente le informazioni funzionali a una corretta informazione sanitaria ed esclude gli elementi attrattivi e suggestivi, tra cui offerte, sconti e promozioni. Un punto che quasi tutti sbagliano: il divieto di testimonianze dei pazienti e di foto prima e dopo non è nel testo di legge, deriva dall'interpretazione degli Ordini. Sapere quale delle due si ha davanti cambia come si costruisce una comunicazione efficace senza esporre la struttura.
+
+**Meglio SEO o Google Ads per una struttura sanitaria?**
+
+Rispondono a bisogni diversi e in una struttura sanitaria conviene usarli insieme. Google Ads intercetta la domanda già espressa e produce i primi contatti in poche settimane, con un costo continuativo. La SEO e il profilo Google Business costruiscono visibilità sulle ricerche di prossimità e si consolidano su alcuni mesi, con effetti più duraturi. La distribuzione tra i due dipende dalla specialità, dall'urgenza della prestazione e dall'ampiezza del bacino locale.
 
 **Come funziona il marketing per i medici e per i piccoli studi?**
 
-Il marketing medico efficace parte dalla specialità e dal tipo di paziente, non dal canale. Per un medico o un piccolo studio le priorità sono la presenza locale su Google, una scheda Google Business curata e un sito che converta le ricerche in prenotazioni; le campagne a pagamento hanno senso solo quando il front office riesce a gestire le richieste che generano.
+Il marketing medico efficace parte dalla specialità e dal tipo di paziente, prima che dal canale. Per un medico o un piccolo studio le priorità sono la presenza locale su Google, una scheda Google Business curata e un sito che converta le ricerche in prenotazioni; le campagne a pagamento hanno senso quando il front office riesce a gestire le richieste che generano.
 
 
 ---
