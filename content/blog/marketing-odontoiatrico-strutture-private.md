@@ -3,6 +3,7 @@ title: "Marketing odontoiatrico: perché le logiche generali non funzionano per 
 seo_title: "Marketing odontoiatrico per strutture private"
 description: "Marketing odontoiatrico per strutture private: LTV alto, famiglia come unità decisionale e norme specifiche. Cosa lo distingue dalle altre specialità."
 date: 2026-06-17
+lastmod: 2026-07-24
 author: "OIDA Labs"
 image: "img/blog/marketing-odontoiatrico-strutture-private.webp"
 og_image: "img/blog/marketing-odontoiatrico-strutture-private-og.jpg"
@@ -73,7 +74,7 @@ L'odontoiatria è tra le specialità con la più alta concentrazione di ricerche
 
 ### Google Ads su keyword ad alta intenzione
 
-Le campagne Search su keyword come "dentista privato [città]", "pulizia denti costi [città]" o "impianto dentale prezzi [città]" intercettano pazienti in fase di valutazione attiva. Il CPC in odontoiatria è tra i più alti del settore sanitario (nella nostra esperienza sulle campagne che gestiamo, indicativamente da 2 a 8 euro per click in molti mercati italiani), ma il LTV del paziente acquisito giustifica l'investimento se il tasso di conversione è gestito correttamente. La gestione di queste campagne dentro i vincoli della pubblicità sanitaria è il lavoro di [advertising sanitario su Google e Meta](/servizi/advertising-sanitario/).
+Le campagne Search su keyword come "dentista privato [città]", "pulizia denti costi [città]" o "impianto dentale prezzi [città]" intercettano pazienti in fase di valutazione attiva. Il CPC in odontoiatria è tra i più alti del settore sanitario (nella nostra esperienza sulle campagne che gestiamo, indicativamente da 2 a 8 euro per click in molti mercati italiani), ma il LTV del paziente acquisito giustifica l'investimento se il tasso di conversione è gestito correttamente. La gestione di queste campagne dentro i vincoli della pubblicità sanitaria è il lavoro di [advertising sanitario su Google e Meta](/servizi/advertising-sanitario/). Come acquisire pazienti senza competere sul prezzo, dal confronto tra Google e Meta al costo reale per paziente, è approfondito nel blog sul [marketing per gli studi dentistici](/blog/marketing-studi-dentistici-acquisizione-pazienti/).
 
 ### Gestione attiva delle recensioni
 

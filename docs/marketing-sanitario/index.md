@@ -111,7 +111,7 @@ A questi canali se ne affiancano due spesso sottoutilizzati: l'[email marketing 
 
 Le regole generali del marketing sanitario valgono per ogni struttura, ma il peso dei canali e le priorità di investimento cambiano con la specialità e con il valore del paziente nel tempo.
 
-- **Odontoiatria.** Nel [marketing odontoiatrico](/blog/marketing-odontoiatrico-strutture-private/) il valore del paziente lungo il ciclo di cura è tra i più elevati del settore e l'unità decisionale è spesso il nucleo familiare: il baricentro si sposta sulla reputazione e sulla fidelizzazione, prima che sulla singola campagna.
+- **Odontoiatria.** Nel [marketing odontoiatrico](/blog/marketing-odontoiatrico-strutture-private/) il valore del paziente lungo il ciclo di cura è tra i più elevati del settore e l'unità decisionale è spesso il nucleo familiare: il baricentro si sposta sulla reputazione e sulla fidelizzazione, prima che sulla singola campagna. Sul fronte dell'acquisizione, il [marketing per gli studi dentistici](/blog/marketing-studi-dentistici-acquisizione-pazienti/) mostra come attrarre pazienti senza puntare sul ribasso.
 - **Medicina estetica.** Nel [marketing per la medicina estetica](/blog/marketing-medicina-estetica/) la domanda è elettiva e va generata, non intercettata, il che sposta l'investimento sui contenuti e sui canali social, entro vincoli di piattaforma più stringenti.
 - **Poliambulatorio multi-specialità.** La variabile critica non è il singolo canale, ma il coordinamento tra specialità con stagionalità e valore economico diversi, gestite su un funnel condiviso.
 - **Prestazioni a domanda urgente.** Per l'ortopedia o la diagnostica la ricerca a pagamento e la SEO locale intercettano una domanda già matura al costo per paziente più contenuto.
