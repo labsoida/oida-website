@@ -6,5 +6,6 @@
     <div><strong>// Social</strong>{{ range $d.social }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{ end }}</div>
     <div><strong>// Legal</strong>{{ range $d.legal_links }}{{ if .cookie_settings }}<a href="#" data-cc="show-preferencesModal">{{ .text }}</a>{{ else }}<a href="{{ .url }}">{{ .text }}</a>{{ end }}{{ end }}</div>
   </div>
+  {{ with $d.about }}<p class="ft-about">{{ . }}</p>{{ end }}
   <div class="ft-copy">&copy; {{ now.Year }} {{ $d.company_name }}</div>
 </footer>

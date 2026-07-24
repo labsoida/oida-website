@@ -66,6 +66,6 @@ rssLimit = 20
     title = true
 
 [params]
-  description = "Agenzia di marketing sanitario fondata da medici: digital marketing, SEO, CRM e AI per cliniche e strutture sanitarie private in Italia, Svizzera e UK."
+  description = "OIDA Labs è la prima agenzia di marketing sanitario fondata e gestita da medici, per studi medici, odontoiatrici, poliambulatori e cliniche private."
   ogImage = "img/og-image.jpg"
   gtmId = "GTM-M3B73NRN"

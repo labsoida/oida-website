@@ -5,7 +5,7 @@ headline_accent: "Ora li risolviamo per te."
 # il solo &nbsp; incolla le parole in modo non spezzabile; lo zero-width space (&#8203;) ridà
 # il punto di a-capo, così su mobile il testo fluisce come uno spazio normale.
 headline_html: '<span>Siamo medici</span> che&nbsp;&#8203;<br>hanno risolto i loro&nbsp;&#8203;<br>problemi di marketing.&nbsp;&#8203;<br><span>Ora li risolviamo&nbsp;&#8203;<br>per te.</span>'
-subtitle: "Uniamo esperienza sanitaria, competenze di marketing e pragmatismo, per metterle al servizio delle strutture sanitarie e supportarle nelle sfide quotidiane della loro crescita."
+subtitle: "Uniamo esperienza sanitaria, competenze di marketing e pragmatismo, per metterle al servizio di studi medici, odontoiatrici, poliambulatori e cliniche private e supportarli nelle sfide quotidiane della loro crescita."
 tagline: "Know More. Move Faster."
 cta_text: "Parliamone"
 cta_target: "#contatti"
