@@ -5,28 +5,14 @@
 
 # Digital Marketing e ADV per la Sanità
 
-> Campagne Google e Meta costruite per studi medici e cliniche: i pazienti giusti ti trovano, budget misurato. Gestite da chi viene dalla sanità.
+> Campagne Google e Meta per studi medici, cliniche e poliambulatori: efficaci e dentro le regole della pubblicità sanitaria, budget sul tuo account e risultati misurati.
 
 **Data:** 2026-05-21
 
 ---
 
 
-*Campagne che portano davanti a te le persone che cercano già quello che offri.*
-
-## I pazienti ci sono, ma non arrivano a te
-
-Per ogni prestazione che offri, in questo momento qualcuno la sta cercando. Il problema non è la domanda: è che si ferma altrove, da chi ha saputo farsi trovare prima. Non perché sia più bravo, ma perché era più visibile nel momento giusto.
-
-Capita anche di investire in pubblicità senza sapere se rende: si spende, arriva qualche contatto, ma non si sa quale euro ha funzionato e quale no.
-
-## Le costruiamo conoscendo la sanità da dentro
-
-Sappiamo cosa porta una persona a scegliere una struttura per la propria salute e cosa invece la fa desistere. Sappiamo quali messaggi funzionano e quali la legge non ti permette di usare. Una campagna sanitaria sbagliata non spreca solo budget: può anche metterti in difficoltà con le regole della comunicazione sanitaria e con il tuo ordine professionale.
-
-## Cosa cambia per la tua struttura
-
-Le persone giuste ti trovano nel momento in cui cercano: su Google quando cercano una prestazione e sui social quando vale la pena farti conoscere. Gestiamo tutto noi, dal targeting ai messaggi, dalle immagini al monitoraggio dei risultati. Ogni mese sai cosa ha funzionato, quanto ti è costato un contatto e dove conviene investire di più. Il budget pubblicitario resta sul tuo account e sotto il tuo controllo. Le campagne si completano con la visibilità organica costruita lavorando su [SEO e GEO](/servizi/seo-geo-sanita/) e con una pagina di atterraggio efficace, che progettiamo con il servizio [siti web per la sanità](/servizi/siti-web-sanitari/). Una volta arrivato il contatto, è il [CRM e le automazioni](/servizi/crm-automation-sanita/) a fare in modo che non si perda per strada.
+*Le persone che cercano le tue prestazioni devono trovare te.*
 
 
 ## FAQ
@@ -45,15 +31,23 @@ Sì, spesso lì rende ancora di più: campagne locali mirate su poche prestazion
 
 **Fate pubblicità per dentisti e studi odontoiatrici?**
 
-Sì, e l'odontoiatria è tra i settori dove rende di più, per il valore del paziente nel tempo. Lavoriamo per prestazione (implantologia, ortodonzia, igiene) e per zona, con una pagina di atterraggio coerente e dentro i limiti della pubblicità sanitaria. Come cambiano le logiche nel <a href="/blog/marketing-odontoiatrico-strutture-private/">marketing odontoiatrico</a>.
+Sì, e l'odontoiatria è tra i settori dove rende di più, per il valore del paziente nel tempo. Lavoriamo per prestazione (implantologia, ortodonzia, igiene) e per zona, con una pagina di atterraggio coerente. Come cambiano le logiche nel <a href="/blog/marketing-odontoiatrico-strutture-private/">marketing odontoiatrico</a>.
 
 **La pubblicità sanitaria ha limiti di legge?**
 
-Sì, la Legge 145/2018 e i codici deontologici degli ordini professionali. Costruiamo le campagne per essere efficaci e conformi allo stesso tempo.
+Sì. La normativa consente di informare in modo corretto sui servizi ed esclude gli elementi promozionali, come offerte e sconti. Costruiamo le campagne perché siano efficaci restando dentro queste regole, senza messaggi che il tuo Ordine potrebbe contestare.
 
 **Su quali canali lavorate?**
 
 Google, per intercettare chi cerca attivamente, e Meta o Instagram, per farti conoscere. Scegliamo in base a chi vuoi raggiungere e a cosa cerca.
+
+**In quanto tempo si vedono i primi risultati?**
+
+Su Google, dove intercettiamo chi sta già cercando, i primi contatti possono arrivare nelle prime settimane. Costruire un flusso stabile richiede qualche mese di misurazione e aggiustamenti. I numeri te li facciamo vedere mentre crescono, senza promesse il primo giorno.
+
+**Garantite un numero di pazienti al mese?**
+
+No, e conviene diffidare di chi lo promette: nessuna agenzia controlla quante persone poi scelgono di curarsi da te. Quello che ti garantiamo è metodo e trasparenza: sai sempre quanto spendi, quanti contatti arrivano e quanto ti costa ciascuno.
 
 
 ---

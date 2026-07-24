@@ -2,10 +2,11 @@
 title: "Digital Marketing e ADV per la Sanità"
 seo_title: "Advertising sanitario su Google e Meta per cliniche"
 linktitle: "Digital Marketing e ADV"
-description: "Campagne Google e Meta costruite per studi medici e cliniche: i pazienti giusti ti trovano, budget misurato. Gestite da chi viene dalla sanità."
+description: "Campagne Google e Meta per studi medici, cliniche e poliambulatori: efficaci e dentro le regole della pubblicità sanitaria, budget sul tuo account e risultati misurati."
 og_image: "img/servizi/advertising-sanitario-og.jpg"
 image_alt: "Advertising sanitario su Google e Meta per cliniche e studi medici"
 date: 2026-05-21
+lastmod: 2026-07-24
 draft: false
 type: "servizio"
 weight: 10
@@ -18,6 +19,49 @@ keywords:
   - "google ads per medici"
   - "meta ads sanità"
   - "campagne pubblicitarie studi medici"
+  - "google ads dentisti"
+  - "meta ads cliniche"
+  - "advertising odontoiatrico"
+  - "pubblicità studio medico"
+intro: "Costruiamo e gestiamo le tue campagne su Google e Meta, dentro le regole della pubblicità sanitaria, con il budget sul tuo account e i risultati misurati ogni mese."
+features_kicker: "// Cosa gestiamo per te"
+features_title: "Le campagne Google e Meta, **gestite per intero**"
+features:
+  - title: "Google Search sulla domanda espressa"
+    body: "Quando una persona cerca su Google una prestazione che offri, o un professionista nella tua zona, deve trovare te tra i primi. È il canale di chi si sta già curando e sta scegliendo dove."
+  - title: "Meta e Instagram sulla domanda latente"
+    body: "L'estetica, gli allineatori, i trattamenti elettivi sono prestazioni che il paziente sceglie quando gliele mostri. Sui social costruiamo la domanda prima che diventi una ricerca."
+  - title: "Landing e tracciamento, fino alla visita"
+    body: "Una campagna che porta clic su un sito lento o confuso spreca budget. Costruiamo la pagina di atterraggio e seguiamo ogni contatto fino alla visita, così sai quanto ti costa un paziente [dal primo clic alla prenotazione](/blog/cpl-cac-marketing-sanitario-metrica-redditivita/)."
+  - title: "Efficaci e dentro le regole"
+    body: "Ogni annuncio rispetta [le regole della pubblicità sanitaria](/blog/advertising-sanitario-su-google-e-meta-normative-limiti-e-strategie-per-strutture-private-in-italia/) prima di andare online, senza messaggi che il tuo Ordine potrebbe contestare. La conformità la verifichiamo noi, così non ci pensi tu."
+  - title: "Budget sul tuo account, sempre"
+    body: "Gestiamo le campagne, ma i soldi restano sul tuo account e sotto il tuo controllo. Ogni mese ti diciamo in modo semplice cosa ha funzionato e dove conviene spingere."
+  - title: "Campagne mirate, senza dispersione"
+    body: "Costruiamo campagne concentrate: una prestazione, una zona, un pubblico. Il budget va dove può portarti pazienti davvero, che tu sia un singolo specialista, un poliambulatorio o uno [studio dentistico](/blog/marketing-studi-dentistici-acquisizione-pazienti/)."
+verticale:
+  kicker: "// Perché conta chi le gestisce"
+  title: "Le regole della comunicazione sanitaria le conosciamo da dentro"
+  body: "OIDA Labs è la prima agenzia di marketing sanitario fondata e gestita da medici. Sappiamo quali messaggi convincono un paziente e quali possono metterti in difficoltà con il tuo Ordine, perché quelle regole sono le regole della nostra professione. Costruiamo campagne che rendono senza farti correre rischi."
+formula:
+  kicker: "// Come puoi attivarci"
+  title: "Ci attivi come ti serve"
+  body: "Puoi partire da un audit delle campagne che hai già, affidarci la gestione continuativa su Google, Meta o entrambi, oppure affidarci l'intero percorso: dalla campagna alla pagina di atterraggio, fino al [CRM che raccoglie i contatti](/servizi/crm-automation-sanita/). Decidiamo insieme in base a dove sei adesso."
+ctamid:
+  title: "L'analisi delle tue campagne è **gratuita e per iscritto**"
+  body: "Analizziamo quello che stai già facendo e ti diciamo con i numeri cosa rende, cosa spreca budget e cosa è fuori norma: è la diagnosi. Poi ti suggeriamo la terapia, cosa cambiare e in che ordine. Sta a te decidere se affidarcela."
+  button: "Richiedi l'analisi delle tue campagne"
+steps_kicker: "// Come si parte"
+steps_title: "Dalla prima analisi alla campagna che rende"
+steps:
+  - name: "L'analisi"
+    body: "Analizziamo le tue campagne attuali, o il punto da cui parti, e ti mandiamo per iscritto cosa funziona, cosa no e cosa è fuori norma. Gratuita e senza impegno."
+  - name: "La struttura"
+    body: "Scegliamo canali, prestazioni e zone: Google sulla domanda espressa, Meta su quella latente. Budget dimensionato e sul tuo account."
+  - name: "Landing e tracciamento"
+    body: "Pagina di atterraggio coerente con l'annuncio e misurazione del percorso fino alla visita, così sai quale euro ha funzionato."
+  - name: "Ottimizzazione mensile"
+    body: "Un report leggibile ogni mese: cosa ha reso, quanto è costato un contatto, dove spostare il budget."
 faqs:
   - q: "Quanto budget serve per partire?"
     a: "Dipende dalla zona e dalla prestazione. Per esperienza, su una singola area si parte spesso con qualche centinaio di euro al mese e si aumenta solo se i risultati lo giustificano. Te lo diciamo prima, non dopo."
@@ -26,11 +70,15 @@ faqs:
   - q: "Funziona anche per un singolo specialista?"
     a: "Sì, spesso lì rende ancora di più: campagne locali mirate su poche prestazioni, senza dispersione."
   - q: "Fate pubblicità per dentisti e studi odontoiatrici?"
-    a: "Sì, e l'odontoiatria è tra i settori dove rende di più, per il valore del paziente nel tempo. Lavoriamo per prestazione (implantologia, ortodonzia, igiene) e per zona, con una pagina di atterraggio coerente e dentro i limiti della pubblicità sanitaria. Come cambiano le logiche nel <a href=\"/blog/marketing-odontoiatrico-strutture-private/\">marketing odontoiatrico</a>."
+    a: "Sì, e l'odontoiatria è tra i settori dove rende di più, per il valore del paziente nel tempo. Lavoriamo per prestazione (implantologia, ortodonzia, igiene) e per zona, con una pagina di atterraggio coerente. Come cambiano le logiche nel <a href=\"/blog/marketing-odontoiatrico-strutture-private/\">marketing odontoiatrico</a>."
   - q: "La pubblicità sanitaria ha limiti di legge?"
-    a: "Sì, la Legge 145/2018 e i codici deontologici degli ordini professionali. Costruiamo le campagne per essere efficaci e conformi allo stesso tempo."
+    a: "Sì. La normativa consente di informare in modo corretto sui servizi ed esclude gli elementi promozionali, come offerte e sconti. Costruiamo le campagne perché siano efficaci restando dentro queste regole, senza messaggi che il tuo Ordine potrebbe contestare."
   - q: "Su quali canali lavorate?"
     a: "Google, per intercettare chi cerca attivamente, e Meta o Instagram, per farti conoscere. Scegliamo in base a chi vuoi raggiungere e a cosa cerca."
+  - q: "In quanto tempo si vedono i primi risultati?"
+    a: "Su Google, dove intercettiamo chi sta già cercando, i primi contatti possono arrivare nelle prime settimane. Costruire un flusso stabile richiede qualche mese di misurazione e aggiustamenti. I numeri te li facciamo vedere mentre crescono, senza promesse il primo giorno."
+  - q: "Garantite un numero di pazienti al mese?"
+    a: "No, e conviene diffidare di chi lo promette: nessuna agenzia controlla quante persone poi scelgono di curarsi da te. Quello che ti garantiamo è metodo e trasparenza: sai sempre quanto spendi, quanti contatti arrivano e quanto ti costa ciascuno."
 cta:
   label: "Stai investendo senza misurare?"
   title: "Stai già investendo in pubblicità e non sai se **rende davvero**?"
@@ -39,18 +87,4 @@ cta:
   link: "/#contatti"
 ---
 
-*Campagne che portano davanti a te le persone che cercano già quello che offri.*
-
-## I pazienti ci sono, ma non arrivano a te
-
-Per ogni prestazione che offri, in questo momento qualcuno la sta cercando. Il problema non è la domanda: è che si ferma altrove, da chi ha saputo farsi trovare prima. Non perché sia più bravo, ma perché era più visibile nel momento giusto.
-
-Capita anche di investire in pubblicità senza sapere se rende: si spende, arriva qualche contatto, ma non si sa quale euro ha funzionato e quale no.
-
-## Le costruiamo conoscendo la sanità da dentro
-
-Sappiamo cosa porta una persona a scegliere una struttura per la propria salute e cosa invece la fa desistere. Sappiamo quali messaggi funzionano e quali la legge non ti permette di usare. Una campagna sanitaria sbagliata non spreca solo budget: può anche metterti in difficoltà con le regole della comunicazione sanitaria e con il tuo ordine professionale.
-
-## Cosa cambia per la tua struttura
-
-Le persone giuste ti trovano nel momento in cui cercano: su Google quando cercano una prestazione e sui social quando vale la pena farti conoscere. Gestiamo tutto noi, dal targeting ai messaggi, dalle immagini al monitoraggio dei risultati. Ogni mese sai cosa ha funzionato, quanto ti è costato un contatto e dove conviene investire di più. Il budget pubblicitario resta sul tuo account e sotto il tuo controllo. Le campagne si completano con la visibilità organica costruita lavorando su [SEO e GEO](/servizi/seo-geo-sanita/) e con una pagina di atterraggio efficace, che progettiamo con il servizio [siti web per la sanità](/servizi/siti-web-sanitari/). Una volta arrivato il contatto, è il [CRM e le automazioni](/servizi/crm-automation-sanita/) a fare in modo che non si perda per strada.
+*Le persone che cercano le tue prestazioni devono trovare te.*
